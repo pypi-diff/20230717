@@ -472,3 +472,54 @@
 [2023-07-17 00:45:00] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.3.tar.gz]
 [2023-07-17 00:45:00] INFO root fetch - main [MainThread]: End processing [copyparty]: success
 [2023-07-17 00:45:00] INFO root fetch - main [MainThread]: Store serial: [18909862]
+[2023-07-17 00:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909862]
+[2023-07-17 00:50:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyorbit-package
+[2023-07-17 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esentity
+[2023-07-17 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finqual
+[2023-07-17 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-17 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver-keychain
+[2023-07-17 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calculadora-fase-lunar
+[2023-07-17 00:50:09] INFO root fetch - processPackages [pyorbit-package]: New version: [9.1.9] Old Version: [9.1.8]
+[2023-07-17 00:50:09] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-17 00:50:09] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-17 00:50:09] INFO root fetch - processPackages [finqual]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-17 00:50:09] INFO root fetch - processPackages [heaserver-keychain]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 00:50:09] WARNING root fetch - processPackages [calculadora-fase-lunar]: Skipping, unable to determine old version
+[2023-07-17 00:50:09] INFO root fetch - main [MainThread]: End processing [calculadora-fase-lunar] error
+[2023-07-17 00:50:09] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-17 00:50:09] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-07-17 00:50:09] INFO root fetch - processPackages [pyorbit-package]: Downloading https://files.pythonhosted.org/packages/51/4d/f9b01f3ef884f30afd4af88289ecbde044aecd47f1f4544d2ce38cab815c/pyorbit-package-9.1.8.tar.gz
+[2023-07-17 00:50:09] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/52/4a/7d1ee10b31187a7b771c51ee65f586b52019c63271b0a01d9e233f99a6b6/finqual-0.2.0.tar.gz
+[2023-07-17 00:50:09] INFO root fetch - processPackages [heaserver-keychain]: Downloading https://files.pythonhosted.org/packages/1c/40/b43bca9c53f5a12200fb26c6d48167a374ec86ca7564bc2aed2a83783a8c/heaserver-keychain-1.0.0a8.tar.gz
+[2023-07-17 00:50:09] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-07-17 00:50:09] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-17 00:50:10] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-17 00:50:10] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230717/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-17 00:50:10] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-07-17 00:50:10] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230717/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-17 00:50:10] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/6d/fa/5fcc6a1001f7b558083758b31328e647a417ab6ef9b35104a3ca5ceb5b37/finqual-1.0.0.tar.gz
+[2023-07-17 00:50:10] INFO root fetch - processPackages [pyorbit-package]: Downloading https://files.pythonhosted.org/packages/2f/34/aed20c44ef64b52985421c610600bab8b122fccc2fdba3aceeb2676ece78/pyorbit-package-9.1.9.tar.gz
+[2023-07-17 00:50:10] INFO root fetch - processPackages [heaserver-keychain]: Downloading https://files.pythonhosted.org/packages/65/a4/1471ff3662546f9635ad3e41fe900eed5ab2127f75dc705c15e87c4fe62b/heaserver-keychain-1.0.0a9.tar.gz
+[2023-07-17 00:50:10] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-17 00:50:10] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.2.0.tar.gz tmp/finqual-1.0.0.tar.gz --markdown 20230717/f/finqual/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 00:50:10] INFO root fetch - processPackages [pyorbit-package]: executing diffoscope
+[2023-07-17 00:50:10] INFO root fetch - processPackages [pyorbit-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorbit-package-9.1.8.tar.gz tmp/pyorbit-package-9.1.9.tar.gz --markdown 20230717/p/pyorbit-package/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2023-07-17 00:50:10] INFO root fetch - processPackages [heaserver-keychain]: executing diffoscope
+[2023-07-17 00:50:10] INFO root fetch - processPackages [heaserver-keychain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-keychain-1.0.0a8.tar.gz tmp/heaserver-keychain-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-keychain/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 00:50:11] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-07-17 00:50:11] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-17 00:50:11] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.2.0.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-1.0.0.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-17 00:50:11] INFO root fetch - processPackages [heaserver-keychain]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-keychain-1.0.0a8.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - processPackages [heaserver-keychain]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-keychain-1.0.0a9.tar.gz]
+[2023-07-17 00:50:11] INFO root fetch - main [MainThread]: End processing [heaserver-keychain]: success
+[2023-07-17 00:50:12] INFO root fetch - processPackages [pyorbit-package]: Remove: archive file [/home/abi/fetcher/tmp/pyorbit-package-9.1.8.tar.gz]
+[2023-07-17 00:50:12] INFO root fetch - processPackages [pyorbit-package]: Remove: archive file [/home/abi/fetcher/tmp/pyorbit-package-9.1.9.tar.gz]
+[2023-07-17 00:50:12] INFO root fetch - main [MainThread]: End processing [pyorbit-package]: success
+[2023-07-17 00:50:12] INFO root fetch - main [MainThread]: Store serial: [18909890]
