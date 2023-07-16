@@ -753,3 +753,27 @@
 [2023-07-17 01:16:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.53.tar.gz]
 [2023-07-17 01:16:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-17 01:16:07] INFO root fetch - main [MainThread]: Store serial: [18909979]
+[2023-07-17 01:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909979]
+[2023-07-17 01:21:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-17 01:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semiformal
+[2023-07-17 01:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yfpy
+[2023-07-17 01:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gosundpy
+[2023-07-17 01:21:16] WARNING root fetch - processPackages [semiformal]: Skipping, unable to determine old version
+[2023-07-17 01:21:16] INFO root fetch - main [MainThread]: End processing [semiformal] error
+[2023-07-17 01:21:16] INFO root fetch - processPackages [gosundpy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-17 01:21:16] INFO root fetch - processPackages [yfpy]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-07-17 01:21:16] INFO root fetch - processPackages [yfpy]: Downloading https://files.pythonhosted.org/packages/76/e2/99b72206e6efdc9534b1a867044589345d23f5605e3d3b9f332cec235af8/yfpy-9.1.0.tar.gz
+[2023-07-17 01:21:16] INFO root fetch - processPackages [gosundpy]: Downloading https://files.pythonhosted.org/packages/3c/1d/43272248abc713e3d830344a2144892f6934660c7790d0c8b9baa30d1dff/gosundpy-0.7.0.tar.gz
+[2023-07-17 01:21:16] INFO root fetch - processPackages [yfpy]: Downloading https://files.pythonhosted.org/packages/a9/c5/04cd344afb21f7b0ab2e5b5f8851b27517e8ad7c06fc6c73c5a1b1ac9493/yfpy-9.1.1.tar.gz
+[2023-07-17 01:21:16] INFO root fetch - processPackages [yfpy]: executing diffoscope
+[2023-07-17 01:21:16] INFO root fetch - processPackages [yfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfpy-9.1.0.tar.gz tmp/yfpy-9.1.1.tar.gz --markdown 20230717/y/yfpy/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-07-17 01:21:16] INFO root fetch - processPackages [gosundpy]: Downloading https://files.pythonhosted.org/packages/96/61/e068c3ae0e877c0ff87b5a033633e01fa8c2c8325ee94b804d3237fbd3f8/gosundpy-0.8.0.tar.gz
+[2023-07-17 01:21:17] INFO root fetch - processPackages [gosundpy]: executing diffoscope
+[2023-07-17 01:21:17] INFO root fetch - processPackages [gosundpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gosundpy-0.7.0.tar.gz tmp/gosundpy-0.8.0.tar.gz --markdown 20230717/g/gosundpy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 01:21:17] INFO root fetch - processPackages [yfpy]: Remove: archive file [/home/abi/fetcher/tmp/yfpy-9.1.0.tar.gz]
+[2023-07-17 01:21:17] INFO root fetch - processPackages [yfpy]: Remove: archive file [/home/abi/fetcher/tmp/yfpy-9.1.1.tar.gz]
+[2023-07-17 01:21:17] INFO root fetch - main [MainThread]: End processing [yfpy]: success
+[2023-07-17 01:21:17] INFO root fetch - processPackages [gosundpy]: Remove: archive file [/home/abi/fetcher/tmp/gosundpy-0.7.0.tar.gz]
+[2023-07-17 01:21:17] INFO root fetch - processPackages [gosundpy]: Remove: archive file [/home/abi/fetcher/tmp/gosundpy-0.8.0.tar.gz]
+[2023-07-17 01:21:17] INFO root fetch - main [MainThread]: End processing [gosundpy]: success
+[2023-07-17 01:21:17] INFO root fetch - main [MainThread]: Store serial: [18910014]
