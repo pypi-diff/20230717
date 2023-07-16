@@ -247,3 +247,78 @@
 [2023-07-17 00:29:26] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b2.tar.gz]
 [2023-07-17 00:29:26] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-07-17 00:29:26] INFO root fetch - main [MainThread]: Store serial: [18909772]
+[2023-07-17 00:34:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909772]
+[2023-07-17 00:34:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasai
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mastodon-2-album
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cudagrad
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webactogram
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wordz
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reflex-nexus
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scale-llm-engine
+[2023-07-17 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picklescan
+[2023-07-17 00:34:35] INFO root fetch - processPackages [pandasai]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [webactogram]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [wordz]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [reflex-nexus]: New version: [0.0.22] Old Version: [0.0.12]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b1] Old Version: [0.0.0b0]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.15]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [picklescan]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 00:34:35] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/8c/84/9a85dcf65104c8b25534a533538695163a524f1f79c54d082640809290ae/pandasai-0.6.8.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [webactogram]: Downloading https://files.pythonhosted.org/packages/dd/9a/346addee65d7c89798e520b6ff250a1ff274046788208b8b7efd18501bf9/webactogram-0.3.1.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/ea/cf/5bef300a9bc7a5c1debe0596f3370a5c614cab034332f8baed68c309e44c/cudagrad-0.0.15.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/7f/79/a96791c075e179cf68d01a7edfcea32a706e85e32c9a9384e2a6611ae40c/scale_llm_engine-0.0.0b0.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [wordz]: Downloading https://files.pythonhosted.org/packages/a6/23/af6365bdd142ae68a3e94339bebae9dd5e4daa654992b9c651ebe3f33b5c/wordz-0.1.5.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [reflex-nexus]: Downloading https://files.pythonhosted.org/packages/2f/db/47107999fb9653d9c1ff10c3ea31bcae0dec76bdc5306e24d32e4824c5af/reflex_nexus-0.0.12.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [picklescan]: Downloading https://files.pythonhosted.org/packages/dd/95/f03ff5399a23ac95676dedd518d60f3d130d31decec0b98c4f342a1f164d/picklescan-0.0.8.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/f9/2a/12fe91158b2b1d2ea5e11fc3bc103067764f3befa7163b521f5c84af1e93/pandasai-0.6.9.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-17 00:34:35] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230717/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 00:34:35] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-17 00:34:35] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.8.tar.gz tmp/pandasai-0.6.9.tar.gz --markdown 20230717/p/pandasai/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-17 00:34:35] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-17 00:34:35] INFO root fetch - processPackages [webactogram]: Downloading https://files.pythonhosted.org/packages/b6/d0/1ae009b147dfcfd8f53dc13fa2167e7c252e9f7bd8f2e12bc35402a91560/webactogram-0.3.2.tar.gz
+[2023-07-17 00:34:36] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/98/53/5257bc7527595f2c88b143413d57dea50d04c0646c4b65020e265dcd4644/scale_llm_engine-0.0.0b1.tar.gz
+[2023-07-17 00:34:36] INFO root fetch - processPackages [reflex-nexus]: Downloading https://files.pythonhosted.org/packages/46/60/507a5714f1f72bd4b30e184439dc4df68be3ea99086b665ece31fc1fb776/reflex_nexus-0.0.22.tar.gz
+[2023-07-17 00:34:36] INFO root fetch - processPackages [wordz]: Downloading https://files.pythonhosted.org/packages/e7/36/296dd484fe734e695e9f9c14ada1b4c98817f5ec00801fc4696fd8063ebf/wordz-0.1.6.tar.gz
+[2023-07-17 00:34:36] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-17 00:34:36] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.15.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230717/c/cudagrad/0.0.15-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 00:34:36] INFO root fetch - processPackages [picklescan]: Downloading https://files.pythonhosted.org/packages/e7/f7/979c540132b7e3b06a422f55ed537d1d244ef59234e9caaad2bb69f9c0a5/picklescan-0.0.9.tar.gz
+[2023-07-17 00:34:36] INFO root fetch - processPackages [webactogram]: executing diffoscope
+[2023-07-17 00:34:36] INFO root fetch - processPackages [webactogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webactogram-0.3.1.tar.gz tmp/webactogram-0.3.2.tar.gz --markdown 20230717/w/webactogram/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-17 00:34:36] INFO root fetch - processPackages [wordz]: executing diffoscope
+[2023-07-17 00:34:36] INFO root fetch - processPackages [wordz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordz-0.1.5.tar.gz tmp/wordz-0.1.6.tar.gz --markdown 20230717/w/wordz/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 00:34:36] INFO root fetch - processPackages [reflex-nexus]: executing diffoscope
+[2023-07-17 00:34:36] INFO root fetch - processPackages [reflex-nexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_nexus-0.0.12.tar.gz tmp/reflex_nexus-0.0.22.tar.gz --markdown 20230717/r/reflex-nexus/0.0.12-0.0.22/diff.md --exclude *.pyd
+[2023-07-17 00:34:36] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-17 00:34:36] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b0.tar.gz tmp/scale_llm_engine-0.0.0b1.tar.gz --markdown 20230717/s/scale-llm-engine/0.0.0b0-0.0.0b1/diff.md --exclude *.pyd
+[2023-07-17 00:34:36] INFO root fetch - processPackages [picklescan]: executing diffoscope
+[2023-07-17 00:34:36] INFO root fetch - processPackages [picklescan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picklescan-0.0.8.tar.gz tmp/picklescan-0.0.9.tar.gz --markdown 20230717/p/picklescan/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 00:34:37] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.7.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.9.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.8.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.9.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.15.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [wordz]: Remove: archive file [/home/abi/fetcher/tmp/wordz-0.1.5.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [wordz]: Remove: archive file [/home/abi/fetcher/tmp/wordz-0.1.6.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [wordz]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [webactogram]: Remove: archive file [/home/abi/fetcher/tmp/webactogram-0.3.1.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [webactogram]: Remove: archive file [/home/abi/fetcher/tmp/webactogram-0.3.2.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [webactogram]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b0.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b1.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [reflex-nexus]: Remove: archive file [/home/abi/fetcher/tmp/reflex_nexus-0.0.12.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [reflex-nexus]: Remove: archive file [/home/abi/fetcher/tmp/reflex_nexus-0.0.22.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [reflex-nexus]: success
+[2023-07-17 00:34:37] INFO root fetch - processPackages [picklescan]: Remove: archive file [/home/abi/fetcher/tmp/picklescan-0.0.8.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - processPackages [picklescan]: Remove: archive file [/home/abi/fetcher/tmp/picklescan-0.0.9.tar.gz]
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [picklescan]: success
+[2023-07-17 00:34:37] INFO root fetch - main [MainThread]: Store serial: [18909794]
