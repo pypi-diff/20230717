@@ -57,3 +57,33 @@
 [2023-07-17 00:08:07] INFO root fetch - processPackages [torchdrug]: Remove: archive file [/home/abi/fetcher/tmp/torchdrug-0.2.1-py3-none-any.whl.zip]
 [2023-07-17 00:08:07] INFO root fetch - main [MainThread]: End processing [torchdrug]: success
 [2023-07-17 00:08:07] INFO root fetch - main [MainThread]: Store serial: [18909705]
+[2023-07-17 00:13:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909705]
+[2023-07-17 00:13:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-17 00:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idlerich
+[2023-07-17 00:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdlib
+[2023-07-17 00:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soundevent
+[2023-07-17 00:13:16] INFO root fetch - processPackages [soundevent]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 00:13:16] INFO root fetch - processPackages [idlerich]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-17 00:13:16] INFO root fetch - processPackages [hdlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 00:13:16] INFO root fetch - processPackages [idlerich]: Downloading https://files.pythonhosted.org/packages/07/d6/cb1ecf2dcaa540c62b517d1f3e60a38c0b069cbc9a04f89d654b806fe1c5/idlerich-0.2.1.tar.gz
+[2023-07-17 00:13:16] INFO root fetch - processPackages [hdlib]: Downloading https://files.pythonhosted.org/packages/6a/d4/78124a57a16f28b81c29ebadb1d944da4036a6dfe15f864cb83f92734536/hdlib-0.1.8.tar.gz
+[2023-07-17 00:13:16] INFO root fetch - processPackages [soundevent]: Downloading https://files.pythonhosted.org/packages/0a/ad/0dc31e4ea0253116ecb73e5bfdc5c0c1f6afe63c39f9daf98e40ccc64b0d/soundevent-0.3.0.tar.gz
+[2023-07-17 00:13:16] INFO root fetch - processPackages [idlerich]: Downloading https://files.pythonhosted.org/packages/e7/e7/f83a283ad6ec866edd35f7fc911094795e0c8115f303188e45e9ff5e0613/idlerich-0.3.0.tar.gz
+[2023-07-17 00:13:16] INFO root fetch - processPackages [soundevent]: Downloading https://files.pythonhosted.org/packages/c3/a5/9ed50719bd0dc9bf8d13feaf10d707f0fafcc8296073b2d7a5fd1f6a27cd/soundevent-0.4.0.tar.gz
+[2023-07-17 00:13:17] INFO root fetch - processPackages [hdlib]: Downloading https://files.pythonhosted.org/packages/a0/38/971d00b524e637ed6f7130b8f9a857bc0a94cebacafc90fd971fe43c10c9/hdlib-0.1.9.tar.gz
+[2023-07-17 00:13:17] INFO root fetch - processPackages [idlerich]: executing diffoscope
+[2023-07-17 00:13:17] INFO root fetch - processPackages [idlerich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idlerich-0.2.1.tar.gz tmp/idlerich-0.3.0.tar.gz --markdown 20230717/i/idlerich/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 00:13:17] INFO root fetch - processPackages [soundevent]: executing diffoscope
+[2023-07-17 00:13:17] INFO root fetch - processPackages [soundevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundevent-0.3.0.tar.gz tmp/soundevent-0.4.0.tar.gz --markdown 20230717/s/soundevent/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 00:13:17] INFO root fetch - processPackages [hdlib]: executing diffoscope
+[2023-07-17 00:13:17] INFO root fetch - processPackages [hdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdlib-0.1.8.tar.gz tmp/hdlib-0.1.9.tar.gz --markdown 20230717/h/hdlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 00:13:17] INFO root fetch - processPackages [idlerich]: Remove: archive file [/home/abi/fetcher/tmp/idlerich-0.2.1.tar.gz]
+[2023-07-17 00:13:17] INFO root fetch - processPackages [idlerich]: Remove: archive file [/home/abi/fetcher/tmp/idlerich-0.3.0.tar.gz]
+[2023-07-17 00:13:17] INFO root fetch - main [MainThread]: End processing [idlerich]: success
+[2023-07-17 00:13:17] INFO root fetch - processPackages [hdlib]: Remove: archive file [/home/abi/fetcher/tmp/hdlib-0.1.8.tar.gz]
+[2023-07-17 00:13:17] INFO root fetch - processPackages [hdlib]: Remove: archive file [/home/abi/fetcher/tmp/hdlib-0.1.9.tar.gz]
+[2023-07-17 00:13:17] INFO root fetch - main [MainThread]: End processing [hdlib]: success
+[2023-07-17 00:13:18] INFO root fetch - processPackages [soundevent]: Remove: archive file [/home/abi/fetcher/tmp/soundevent-0.3.0.tar.gz]
+[2023-07-17 00:13:18] INFO root fetch - processPackages [soundevent]: Remove: archive file [/home/abi/fetcher/tmp/soundevent-0.4.0.tar.gz]
+[2023-07-17 00:13:18] INFO root fetch - main [MainThread]: End processing [soundevent]: success
+[2023-07-17 00:13:18] INFO root fetch - main [MainThread]: Store serial: [18909713]
