@@ -777,3 +777,27 @@
 [2023-07-17 01:21:17] INFO root fetch - processPackages [gosundpy]: Remove: archive file [/home/abi/fetcher/tmp/gosundpy-0.8.0.tar.gz]
 [2023-07-17 01:21:17] INFO root fetch - main [MainThread]: End processing [gosundpy]: success
 [2023-07-17 01:21:17] INFO root fetch - main [MainThread]: Store serial: [18910014]
+[2023-07-17 01:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910014]
+[2023-07-17 01:26:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-17 01:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satori-playbook-validator
+[2023-07-17 01:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calcfaselunar
+[2023-07-17 01:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ork.build
+[2023-07-17 01:26:26] INFO root fetch - processPackages [satori-playbook-validator]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-07-17 01:26:26] WARNING root fetch - processPackages [calcfaselunar]: Skipping, unable to determine old version
+[2023-07-17 01:26:26] INFO root fetch - main [MainThread]: End processing [calcfaselunar] error
+[2023-07-17 01:26:26] INFO root fetch - processPackages [ork.build]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-07-17 01:26:26] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/1e/89/06974e9022454ebfe2ba4e030c14ebff8119f1d24b837ecff2f28e1991b3/satori_playbook_validator-3.1.5.tar.gz
+[2023-07-17 01:26:26] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/c8/38/644313ebe02133d8b248e590d22ddb3c764dc7bd0c41742bb142f90d95ab/ork.build-0.0.54.tar.gz
+[2023-07-17 01:26:27] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/a1/14/4617756da3fcbb64e2516d402d8aa58416f127c6d289d8dd594445e345df/satori_playbook_validator-3.1.6.tar.gz
+[2023-07-17 01:26:27] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/24/cc/9a1d534ec600b5a585fdd0abd2dc31c1ce63d909f54bc9dd3017947d883f/ork.build-0.0.55.tar.gz
+[2023-07-17 01:26:27] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-07-17 01:26:27] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-3.1.5.tar.gz tmp/satori_playbook_validator-3.1.6.tar.gz --markdown 20230717/s/satori-playbook-validator/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-07-17 01:26:27] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-17 01:26:27] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.54.tar.gz tmp/ork.build-0.0.55.tar.gz --markdown 20230717/o/ork.build/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-07-17 01:26:27] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.5.tar.gz]
+[2023-07-17 01:26:27] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.6.tar.gz]
+[2023-07-17 01:26:27] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-07-17 01:26:29] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.54.tar.gz]
+[2023-07-17 01:26:29] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.55.tar.gz]
+[2023-07-17 01:26:29] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-17 01:26:29] INFO root fetch - main [MainThread]: Store serial: [18910027]
