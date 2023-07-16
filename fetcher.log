@@ -87,3 +87,63 @@
 [2023-07-17 00:13:18] INFO root fetch - processPackages [soundevent]: Remove: archive file [/home/abi/fetcher/tmp/soundevent-0.4.0.tar.gz]
 [2023-07-17 00:13:18] INFO root fetch - main [MainThread]: End processing [soundevent]: success
 [2023-07-17 00:13:18] INFO root fetch - main [MainThread]: Store serial: [18909713]
+[2023-07-17 00:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909713]
+[2023-07-17 00:18:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudagrad
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mastodon-2-album
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-extended-history
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: koios-python
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cx104305
+[2023-07-17 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver
+[2023-07-17 00:18:26] INFO root fetch - processPackages [django-extended-history]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-17 00:18:26] INFO root fetch - processPackages [spotPython]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-17 00:18:26] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.14]
+[2023-07-17 00:18:26] WARNING root fetch - processPackages [cx104305]: Skipping, unable to determine old version
+[2023-07-17 00:18:26] INFO root fetch - main [MainThread]: End processing [cx104305] error
+[2023-07-17 00:18:26] INFO root fetch - processPackages [koios-python]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-17 00:18:26] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-17 00:18:26] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-07-17 00:18:26] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/59/cb/0be7ab23a067329a1b838865a67d7e8ca56420b84d5d9785762baad8df78/cudagrad-0.0.14.tar.gz
+[2023-07-17 00:18:26] INFO root fetch - processPackages [django-extended-history]: Downloading https://files.pythonhosted.org/packages/6d/45/8e0ba57dc142a76f03230303de530c5ddf139ec139a5d05a4de80ac88c75/django-extended-history-1.0.0.tar.gz
+[2023-07-17 00:18:26] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/6c/ed/310ff643f2233090efcf0672537cba697cbc64745bae08e10e3d2f40b102/spotPython-0.6.0.tar.gz
+[2023-07-17 00:18:26] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-17 00:18:26] INFO root fetch - processPackages [koios-python]: Downloading https://files.pythonhosted.org/packages/16/51/324383a5d83481766d050998c5a5c86901310bd36d3be6bf14deb6d9a9f2/koios-python-1.3.0.tar.gz
+[2023-07-17 00:18:26] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [django-extended-history]: Downloading https://files.pythonhosted.org/packages/f7/8e/86228e1fc1f7ebd7cd7d981fce2202f4c5a9c8ad231ee544db36e008e0cf/django-extended-history-1.1.0.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [koios-python]: Downloading https://files.pythonhosted.org/packages/6d/d1/a3c5c85be27f56500bee7c20c7e89370dab9ced3fb1fab05538c8e75ff4b/koios-python-1.3.1.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-17 00:18:27] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.14.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230717/c/cudagrad/0.0.14-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 00:18:27] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-17 00:18:27] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230717/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 00:18:27] INFO root fetch - processPackages [koios-python]: executing diffoscope
+[2023-07-17 00:18:27] INFO root fetch - processPackages [koios-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koios-python-1.3.0.tar.gz tmp/koios-python-1.3.1.tar.gz --markdown 20230717/k/koios-python/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-17 00:18:27] INFO root fetch - processPackages [django-extended-history]: executing diffoscope
+[2023-07-17 00:18:27] INFO root fetch - processPackages [django-extended-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-extended-history-1.0.0.tar.gz tmp/django-extended-history-1.1.0.tar.gz --markdown 20230717/d/django-extended-history/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-17 00:18:27] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/9b/34/25060476661e6942f90104c23951d20a27d0d2888a228e4de269891928a0/spotPython-0.6.1.tar.gz
+[2023-07-17 00:18:27] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-07-17 00:18:27] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230717/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-07-17 00:18:28] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.7.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.9.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-17 00:18:28] INFO root fetch - processPackages [django-extended-history]: Remove: archive file [/home/abi/fetcher/tmp/django-extended-history-1.0.0.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - processPackages [django-extended-history]: Remove: archive file [/home/abi/fetcher/tmp/django-extended-history-1.1.0.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - main [MainThread]: End processing [django-extended-history]: success
+[2023-07-17 00:18:28] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.14.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-17 00:18:28] INFO root fetch - processPackages [koios-python]: Remove: archive file [/home/abi/fetcher/tmp/koios-python-1.3.0.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - processPackages [koios-python]: Remove: archive file [/home/abi/fetcher/tmp/koios-python-1.3.1.tar.gz]
+[2023-07-17 00:18:28] INFO root fetch - main [MainThread]: End processing [koios-python]: success
+[2023-07-17 00:18:29] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-07-17 00:18:29] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-07-17 00:18:29] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-07-17 00:18:29] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-17 00:18:29] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.0.tar.gz tmp/spotPython-0.6.1.tar.gz --markdown 20230717/s/spotPython/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-17 00:18:30] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.0.tar.gz]
+[2023-07-17 00:18:30] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.1.tar.gz]
+[2023-07-17 00:18:30] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-17 00:18:30] INFO root fetch - main [MainThread]: Store serial: [18909735]
