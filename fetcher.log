@@ -710,3 +710,46 @@
 [2023-07-17 01:10:56] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
 [2023-07-17 01:10:56] INFO root fetch - main [MainThread]: End processing [zcmds]: success
 [2023-07-17 01:10:56] INFO root fetch - main [MainThread]: Store serial: [18909960]
+[2023-07-17 01:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909960]
+[2023-07-17 01:16:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antiberty
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlitopencvplayer
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omicscope
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bizlogic
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xproto
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build
+[2023-07-17 01:16:04] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-17 01:16:04] INFO root fetch - processPackages [omicscope]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-17 01:16:04] WARNING root fetch - processPackages [xproto]: Skipping, unable to determine old version
+[2023-07-17 01:16:04] INFO root fetch - main [MainThread]: End processing [xproto] error
+[2023-07-17 01:16:04] INFO root fetch - processPackages [bizlogic]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-17 01:16:04] INFO root fetch - processPackages [antiberty]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 01:16:04] INFO root fetch - processPackages [ork.build]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-07-17 01:16:05] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/05/63/c7863235ce76023e34008f6f4a3b96dd4a9089c6648d29cefd42c9a7b3dd/ork.build-0.0.52.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/8c/7f/a1d9f79a0d4d2dd2c4e50a0da45e462a519482b7849556c4632c9e80d540/streamlitopencvplayer-1.3.5.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [omicscope]: Downloading https://files.pythonhosted.org/packages/23/3b/796d1eb0095c0b984eee60a4458ce2713f3000a350e4a1fc906b7cec9a18/omicscope-1.3.1.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [antiberty]: Downloading https://files.pythonhosted.org/packages/ba/43/42625a94be2e3e3df543e6a96fb046160954a0f753871256f3bee4ccd21e/antiberty-0.1.2.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/1e/06/121f2d57737088949b3f8291c442f93cc8c45a2740bebfe9d3dffcc4eba8/bizlogic-0.0.9.tar.gz
+[2023-07-17 01:16:05] WARNING root fetch - processPackages [omicscope]: Skipping package: exceeds size limit 21817949>=10485760
+[2023-07-17 01:16:05] INFO root fetch - main [MainThread]: End processing [omicscope] error
+[2023-07-17 01:16:05] WARNING root fetch - processPackages [antiberty]: Skipping package: exceeds size limit 96629512>=10485760
+[2023-07-17 01:16:05] INFO root fetch - main [MainThread]: End processing [antiberty] error
+[2023-07-17 01:16:05] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/da/f6/d06ebc134a73fb06d05837a02043a5d5c04f39b84a9e548014109a8d4dff/ork.build-0.0.53.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/80/3e/2e7ee3401f9b2a852e265947d57aff0cc5c1fbad59d18698dbf58cca728d/streamlitopencvplayer-1.3.6.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-17 01:16:05] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.52.tar.gz tmp/ork.build-0.0.53.tar.gz --markdown 20230717/o/ork.build/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-07-17 01:16:05] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-17 01:16:05] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.3.5.tar.gz tmp/streamlitopencvplayer-1.3.6.tar.gz --markdown 20230717/s/streamlitopencvplayer/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-17 01:16:05] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/ba/74/b52a3f661f1a0a811e0d16967a8417bfd4aecf75ae0fde440891edade72a/bizlogic-0.1.0.tar.gz
+[2023-07-17 01:16:05] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-17 01:16:05] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.0.9.tar.gz tmp/bizlogic-0.1.0.tar.gz --markdown 20230717/b/bizlogic/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 01:16:06] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.5.tar.gz]
+[2023-07-17 01:16:06] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.6.tar.gz]
+[2023-07-17 01:16:06] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-17 01:16:06] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.0.9.tar.gz]
+[2023-07-17 01:16:06] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.0.tar.gz]
+[2023-07-17 01:16:06] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-17 01:16:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.52.tar.gz]
+[2023-07-17 01:16:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.53.tar.gz]
+[2023-07-17 01:16:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-17 01:16:07] INFO root fetch - main [MainThread]: Store serial: [18909979]
