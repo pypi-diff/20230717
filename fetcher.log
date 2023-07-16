@@ -662,3 +662,51 @@
 [2023-07-17 01:05:45] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.2.1.tar.gz]
 [2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [zcmds-win32]: success
 [2023-07-17 01:05:45] INFO root fetch - main [MainThread]: Store serial: [18909945]
+[2023-07-17 01:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909945]
+[2023-07-17 01:10:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 01:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satori-playbook-validator
+[2023-07-17 01:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcmds
+[2023-07-17 01:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PH-units
+[2023-07-17 01:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yfpy
+[2023-07-17 01:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: float-table
+[2023-07-17 01:10:54] INFO root fetch - processPackages [satori-playbook-validator]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-07-17 01:10:54] INFO root fetch - processPackages [float-table]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 01:10:54] INFO root fetch - processPackages [PH-units]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-17 01:10:54] INFO root fetch - processPackages [yfpy]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-07-17 01:10:54] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-17 01:10:54] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/18/48/ed6a0d855348026b3fc661fcf7fa94d838aaf969a24cefc64fec7e2fb1d4/float_table-0.1.4.tar.gz
+[2023-07-17 01:10:54] INFO root fetch - processPackages [yfpy]: Downloading https://files.pythonhosted.org/packages/76/e2/99b72206e6efdc9534b1a867044589345d23f5605e3d3b9f332cec235af8/yfpy-9.1.0.tar.gz
+[2023-07-17 01:10:54] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/50/26/3b61bf984de136ee9d1176320a3161c2a428bb184e0f8a8f75c8ac01ce13/satori_playbook_validator-3.1.4.tar.gz
+[2023-07-17 01:10:54] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/03/77/b6814117fe42ea7e0cfb6de1af67471c6b249370f65648572938a18e0d7b/PH-units-1.4.0.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/2c/99/9ed85100ac4938619e9d0ee7afdbdc5ba1488bd16e5b12ff5b01eacaecd2/float_table-0.1.5.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [yfpy]: Downloading https://files.pythonhosted.org/packages/a9/c5/04cd344afb21f7b0ab2e5b5f8851b27517e8ad7c06fc6c73c5a1b1ac9493/yfpy-9.1.1.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [float-table]: executing diffoscope
+[2023-07-17 01:10:55] INFO root fetch - processPackages [float-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/float_table-0.1.4.tar.gz tmp/float_table-0.1.5.tar.gz --markdown 20230717/f/float-table/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 01:10:55] INFO root fetch - processPackages [yfpy]: executing diffoscope
+[2023-07-17 01:10:55] INFO root fetch - processPackages [yfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfpy-9.1.0.tar.gz tmp/yfpy-9.1.1.tar.gz --markdown 20230717/y/yfpy/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-07-17 01:10:55] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/1e/89/06974e9022454ebfe2ba4e030c14ebff8119f1d24b837ecff2f28e1991b3/satori_playbook_validator-3.1.5.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-07-17 01:10:55] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-3.1.4.tar.gz tmp/satori_playbook_validator-3.1.5.tar.gz --markdown 20230717/s/satori-playbook-validator/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-07-17 01:10:55] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/03/c3/d6ed440b2f30721198bc1f2dcf6df3a34617d815946c8cb79a013ea80326/PH-units-1.4.1.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [PH-units]: executing diffoscope
+[2023-07-17 01:10:55] INFO root fetch - processPackages [PH-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PH-units-1.4.0.tar.gz tmp/PH-units-1.4.1.tar.gz --markdown 20230717/P/PH-units/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-17 01:10:55] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2023-07-17 01:10:55] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-07-17 01:10:55] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230717/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-17 01:10:56] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.4.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.5.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - main [MainThread]: End processing [float-table]: success
+[2023-07-17 01:10:56] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.4.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.5.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-07-17 01:10:56] INFO root fetch - processPackages [PH-units]: Remove: archive file [/home/abi/fetcher/tmp/PH-units-1.4.0.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - processPackages [PH-units]: Remove: archive file [/home/abi/fetcher/tmp/PH-units-1.4.1.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - main [MainThread]: End processing [PH-units]: success
+[2023-07-17 01:10:56] INFO root fetch - processPackages [yfpy]: Remove: archive file [/home/abi/fetcher/tmp/yfpy-9.1.0.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - processPackages [yfpy]: Remove: archive file [/home/abi/fetcher/tmp/yfpy-9.1.1.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - main [MainThread]: End processing [yfpy]: success
+[2023-07-17 01:10:56] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2023-07-17 01:10:56] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-07-17 01:10:56] INFO root fetch - main [MainThread]: Store serial: [18909960]
