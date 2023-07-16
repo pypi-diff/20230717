@@ -556,3 +556,42 @@
 [2023-07-17 00:55:23] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.2.0.tar.gz]
 [2023-07-17 00:55:23] INFO root fetch - main [MainThread]: End processing [zcmds-win32]: success
 [2023-07-17 00:55:23] INFO root fetch - main [MainThread]: Store serial: [18909906]
+[2023-07-17 01:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909906]
+[2023-07-17 01:00:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-17 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Metadata-Magic
+[2023-07-17 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mohaliyet-annconv
+[2023-07-17 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AgenciBr
+[2023-07-17 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-17 01:00:32] INFO root fetch - processPackages [mohaliyet-annconv]: New version: [0.2] Old Version: [0.1]
+[2023-07-17 01:00:32] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-17 01:00:32] INFO root fetch - processPackages [Metadata-Magic]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-17 01:00:32] INFO root fetch - processPackages [AgenciBr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-17 01:00:32] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-17 01:00:32] INFO root fetch - processPackages [mohaliyet-annconv]: Downloading https://files.pythonhosted.org/packages/ae/c9/c7936fdabf75deb2391cb05abd28ff45aef9a4ca2cb28be86b606004f48a/mohaliyet_annconv-0.1.tar.gz
+[2023-07-17 01:00:32] INFO root fetch - processPackages [AgenciBr]: Downloading https://files.pythonhosted.org/packages/6f/fa/8acf08b90ea1936e3fd8511d456ece29294a24e58d814f6a68b35ae353cc/AgenciBr-0.1.7.tar.gz
+[2023-07-17 01:00:32] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/2b/a3/2cc48bafdf1a10c1255ba854bb3370836e7b2fe7228720c9b2839200a543/Metadata_Magic-0.5.3-py3-none-any.whl
+[2023-07-17 01:00:32] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-17 01:00:32] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-17 01:00:32] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230717/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-17 01:00:33] INFO root fetch - processPackages [AgenciBr]: Downloading https://files.pythonhosted.org/packages/de/0a/368f15638c57532b3e75b268a39910f8809f041abdac6b3f1e641e11ed1f/AgenciBr-0.1.8.tar.gz
+[2023-07-17 01:00:33] INFO root fetch - processPackages [mohaliyet-annconv]: Downloading https://files.pythonhosted.org/packages/68/20/0fabc6bbb286c3d76a6ce2d2403fdc833ff890fb53b2aa782a605d2a82ff/mohaliyet_annconv-0.2.tar.gz
+[2023-07-17 01:00:33] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/93/3e/b28c7e3b45f8631cca728bd492fbfcc38c7f03b2d89f65cdce5015866e79/Metadata_Magic-0.5.4-py3-none-any.whl
+[2023-07-17 01:00:33] INFO root fetch - processPackages [Metadata-Magic]: executing diffoscope
+[2023-07-17 01:00:33] INFO root fetch - processPackages [Metadata-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metadata_Magic-0.5.3-py3-none-any.whl.zip tmp/Metadata_Magic-0.5.4-py3-none-any.whl.zip --markdown 20230717/M/Metadata-Magic/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-17 01:00:33] INFO root fetch - processPackages [AgenciBr]: executing diffoscope
+[2023-07-17 01:00:33] INFO root fetch - processPackages [AgenciBr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgenciBr-0.1.7.tar.gz tmp/AgenciBr-0.1.8.tar.gz --markdown 20230717/A/AgenciBr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-17 01:00:33] INFO root fetch - processPackages [mohaliyet-annconv]: executing diffoscope
+[2023-07-17 01:00:33] INFO root fetch - processPackages [mohaliyet-annconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mohaliyet_annconv-0.1.tar.gz tmp/mohaliyet_annconv-0.2.tar.gz --markdown 20230717/m/mohaliyet-annconv/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-17 01:00:33] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-17 01:00:33] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-17 01:00:33] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-17 01:00:34] INFO root fetch - processPackages [mohaliyet-annconv]: Remove: archive file [/home/abi/fetcher/tmp/mohaliyet_annconv-0.1.tar.gz]
+[2023-07-17 01:00:34] INFO root fetch - processPackages [mohaliyet-annconv]: Remove: archive file [/home/abi/fetcher/tmp/mohaliyet_annconv-0.2.tar.gz]
+[2023-07-17 01:00:34] INFO root fetch - main [MainThread]: End processing [mohaliyet-annconv]: success
+[2023-07-17 01:00:34] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.5.3-py3-none-any.whl.zip]
+[2023-07-17 01:00:34] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.5.4-py3-none-any.whl.zip]
+[2023-07-17 01:00:34] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
+[2023-07-17 01:00:34] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.7.tar.gz]
+[2023-07-17 01:00:34] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.8.tar.gz]
+[2023-07-17 01:00:34] INFO root fetch - main [MainThread]: End processing [AgenciBr]: success
+[2023-07-17 01:00:34] INFO root fetch - main [MainThread]: Store serial: [18909920]
