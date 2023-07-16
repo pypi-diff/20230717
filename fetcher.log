@@ -919,3 +919,51 @@
 [2023-07-17 01:42:04] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
 [2023-07-17 01:42:04] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
 [2023-07-17 01:42:04] INFO root fetch - main [MainThread]: Store serial: [18910083]
+[2023-07-17 01:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910083]
+[2023-07-17 01:47:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 01:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poslq-simple
+[2023-07-17 01:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: render-engine
+[2023-07-17 01:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crankshaft
+[2023-07-17 01:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyplane-nightly
+[2023-07-17 01:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: banking-logging
+[2023-07-17 01:47:12] INFO root fetch - processPackages [banking-logging]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-17 01:47:12] INFO root fetch - processPackages [crankshaft]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-17 01:47:12] INFO root fetch - processPackages [poslq-simple]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-17 01:47:12] INFO root fetch - processPackages [render-engine]: New version: [2023.7.4a1] Old Version: [2023.7.3]
+[2023-07-17 01:47:12] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230715] Old Version: [0.3.2.dev20230714]
+[2023-07-17 01:47:12] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/73/23/4011a823a8c28edc306c538561400cfe5a6e0ef528660ba7c924f7051255/banking_logging-0.2.tar.gz
+[2023-07-17 01:47:12] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/5a/09/330bf9b45b673f48ea514f0ef0e82772e1f8e118f266d308393a39bcc699/skyplane_nightly-0.3.2.dev20230714.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/d6/c7/4a43926da5b89b669fe2a53bbafec0998b58cd83279000d555f1a82c237f/crankshaft-0.7.2.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [poslq-simple]: Downloading https://files.pythonhosted.org/packages/d4/3f/c258271b367503e9af600a311a435773512474ae31ad62c70268858748ea/poslq_simple-0.1.3.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/2c/2f/30002e11765065754f30173257998700f5bae6312d791b48c97efee66eb3/render_engine-2023.7.3.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/82/52/a7394ef037ad282e02c06c44c3e57f215418c4382eb05fa3967c5ed39c1a/skyplane_nightly-0.3.2.dev20230715.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/50/96/6ab95da4be2da9f3c5f80c4db17cfb4521615843b91d3b045839d017365d/banking_logging-0.2.1.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-17 01:47:13] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz tmp/skyplane_nightly-0.3.2.dev20230715.tar.gz --markdown 20230717/s/skyplane-nightly/0.3.2.dev20230714-0.3.2.dev20230715/diff.md --exclude *.pyd
+[2023-07-17 01:47:13] INFO root fetch - processPackages [poslq-simple]: Downloading https://files.pythonhosted.org/packages/50/a1/657493a7f45a737686010a775e091f12c8b062b3634e8316554c424ce9ba/poslq_simple-0.1.5.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [banking-logging]: executing diffoscope
+[2023-07-17 01:47:13] INFO root fetch - processPackages [banking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_logging-0.2.tar.gz tmp/banking_logging-0.2.1.tar.gz --markdown 20230717/b/banking-logging/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 01:47:13] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/b8/db/93a38f9bef4967cbe0e9ec92b724bf3cb26bc92e02e49c2947407313a327/render_engine-2023.7.4a1.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/89/5f/5bc8676d14f33c00f8f5c03177e4b07d2eadc31ca295a7a09e5f80b5e075/crankshaft-0.8.0.tar.gz
+[2023-07-17 01:47:13] INFO root fetch - processPackages [poslq-simple]: executing diffoscope
+[2023-07-17 01:47:13] INFO root fetch - processPackages [poslq-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poslq_simple-0.1.3.tar.gz tmp/poslq_simple-0.1.5.tar.gz --markdown 20230717/p/poslq-simple/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 01:47:13] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-07-17 01:47:13] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.7.3.tar.gz tmp/render_engine-2023.7.4a1.tar.gz --markdown 20230717/r/render-engine/2023.7.3-2023.7.4a1/diff.md --exclude *.pyd
+[2023-07-17 01:47:13] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-07-17 01:47:13] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.7.2.tar.gz tmp/crankshaft-0.8.0.tar.gz --markdown 20230717/c/crankshaft/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 01:47:14] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.1.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - main [MainThread]: End processing [banking-logging]: success
+[2023-07-17 01:47:14] INFO root fetch - processPackages [poslq-simple]: Remove: archive file [/home/abi/fetcher/tmp/poslq_simple-0.1.3.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - processPackages [poslq-simple]: Remove: archive file [/home/abi/fetcher/tmp/poslq_simple-0.1.5.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - main [MainThread]: End processing [poslq-simple]: success
+[2023-07-17 01:47:14] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230715.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-17 01:47:14] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.7.2.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.8.0.tar.gz]
+[2023-07-17 01:47:14] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-07-17 01:47:15] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.3.tar.gz]
+[2023-07-17 01:47:15] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a1.tar.gz]
+[2023-07-17 01:47:15] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-07-17 01:47:15] INFO root fetch - main [MainThread]: Store serial: [18910098]
