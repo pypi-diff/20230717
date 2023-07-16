@@ -25,3 +25,35 @@
 [2023-07-17 00:02:57] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
 [2023-07-17 00:02:57] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
 [2023-07-17 00:02:57] INFO root fetch - main [MainThread]: Store serial: [18909686]
+[2023-07-17 00:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909686]
+[2023-07-17 00:08:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spam-analyzer
+[2023-07-17 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textframe
+[2023-07-17 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: livecellx
+[2023-07-17 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdxbasics
+[2023-07-17 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdrug
+[2023-07-17 00:08:05] WARNING root fetch - processPackages [livecellx]: Skipping, unable to determine old version
+[2023-07-17 00:08:05] INFO root fetch - main [MainThread]: End processing [livecellx] error
+[2023-07-17 00:08:05] INFO root fetch - processPackages [spam-analyzer]: New version: [1.1.2] Old Version: [0.1.2]
+[2023-07-17 00:08:05] WARNING root fetch - processPackages [textframe]: Skipping, unable to determine old version
+[2023-07-17 00:08:05] INFO root fetch - main [MainThread]: End processing [textframe] error
+[2023-07-17 00:08:05] INFO root fetch - processPackages [torchdrug]: New version: [0.2.1] Old Version: [0.2.0.post1]
+[2023-07-17 00:08:05] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 00:08:05] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-07-17 00:08:05] INFO root fetch - processPackages [spam-analyzer]: Downloading https://files.pythonhosted.org/packages/7b/dd/cbe1f0ea0f4b3a7d29255483fad48a7d3429ec0e20c41c8a072333329af4/spam-analyzer-0.1.2.tar.gz
+[2023-07-17 00:08:05] WARNING root fetch - processPackages [spam-analyzer]: Skipping package: exceeds size limit 11365477>=10485760
+[2023-07-17 00:08:05] INFO root fetch - main [MainThread]: End processing [spam-analyzer] error
+[2023-07-17 00:08:05] INFO root fetch - processPackages [torchdrug]: Downloading https://files.pythonhosted.org/packages/2e/6f/bc2c2a1acc3d24a8869cdae2f87be54ee758b7cf2c70a389862b187060d3/torchdrug-0.2.0.post1-py3-none-any.whl
+[2023-07-17 00:08:05] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-07-17 00:08:06] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-07-17 00:08:06] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230717/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 00:08:06] INFO root fetch - processPackages [torchdrug]: Downloading https://files.pythonhosted.org/packages/ea/29/5e1a14d7765106f38b4962c9d2c05210fe7b3ba14985d9c4e9b9b6a59ef0/torchdrug-0.2.1-py3-none-any.whl
+[2023-07-17 00:08:06] INFO root fetch - processPackages [torchdrug]: executing diffoscope
+[2023-07-17 00:08:06] INFO root fetch - processPackages [torchdrug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdrug-0.2.0.post1-py3-none-any.whl.zip tmp/torchdrug-0.2.1-py3-none-any.whl.zip --markdown 20230717/t/torchdrug/0.2.0.post1-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 00:08:06] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-07-17 00:08:06] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-07-17 00:08:06] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-07-17 00:08:07] INFO root fetch - processPackages [torchdrug]: Remove: archive file [/home/abi/fetcher/tmp/torchdrug-0.2.0.post1-py3-none-any.whl.zip]
+[2023-07-17 00:08:07] INFO root fetch - processPackages [torchdrug]: Remove: archive file [/home/abi/fetcher/tmp/torchdrug-0.2.1-py3-none-any.whl.zip]
+[2023-07-17 00:08:07] INFO root fetch - main [MainThread]: End processing [torchdrug]: success
+[2023-07-17 00:08:07] INFO root fetch - main [MainThread]: Store serial: [18909705]
