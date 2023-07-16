@@ -322,3 +322,90 @@
 [2023-07-17 00:34:37] INFO root fetch - processPackages [picklescan]: Remove: archive file [/home/abi/fetcher/tmp/picklescan-0.0.9.tar.gz]
 [2023-07-17 00:34:37] INFO root fetch - main [MainThread]: End processing [picklescan]: success
 [2023-07-17 00:34:37] INFO root fetch - main [MainThread]: Store serial: [18909794]
+[2023-07-17 00:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909794]
+[2023-07-17 00:39:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: griffe
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wf-honeycomb-io
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: universi
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solarannotator
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyScannerWrapper
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: portage-types
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zoho-client-django
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cx104305
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wf-camera-calibration
+[2023-07-17 00:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sees
+[2023-07-17 00:39:46] INFO root fetch - processPackages [portage-types]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [universi]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-17 00:39:46] ERROR root fetch - processPackages [cx104305]: Unable to get metadata: No such project 'cx104305'
+[2023-07-17 00:39:46] INFO root fetch - main [MainThread]: End processing [cx104305] error
+[2023-07-17 00:39:46] INFO root fetch - processPackages [wf-camera-calibration]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [pyScannerWrapper]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [solarannotator]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [wf-honeycomb-io]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [zoho-client-django]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/47/51/d07039ff26de4b10beef18ff6e29eb7b24719afe3de8cb868ba6582dee7f/universi-0.6.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [sees]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 00:39:46] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/f3/d8/b5e06a712469d0df45e22114742ea2d1da6f3e3dfed79fe9328b27860b3e/zoho-client-django-1.1.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [pyScannerWrapper]: Downloading https://files.pythonhosted.org/packages/c4/9d/5da799f3ad0fd0c33080f7a67b9c80e81815043942699c70f2ab23c16553/pyScannerWrapper-0.1.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [portage-types]: Downloading https://files.pythonhosted.org/packages/8c/65/5d05dca4b4371bd952927e61fd8973aea236734945f1cfae81185419dfd1/portage_types-0.0.1.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [wf-camera-calibration]: Downloading https://files.pythonhosted.org/packages/69/ab/068238fe5266606622f31bc2f8ed898d2ce1251f2dba5066d1d0ee80334a/wf-camera-calibration-0.3.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [wf-honeycomb-io]: Downloading https://files.pythonhosted.org/packages/4a/50/f27e071e2ac771711cd5eaf83c85284e34d50ee467ce73ecf764edd95f92/wf-honeycomb-io-2.1.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [solarannotator]: Downloading https://files.pythonhosted.org/packages/a7/df/7f45ae0f02862ae2307c1b1768949b80d07789c6fb0d83df527b02346e46/solarannotator-0.3.1.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/27/0b/2312e07c7dc814ff95b613ab8ce2da0d4f3a9425bface17e17b6f08571b0/sees-0.0.2.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/ef/12/e36eaf4f95521762396ba1da54fbb5ee13ee1e13bb0eb9f9dda5ad193076/universi-0.7.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/3c/6d/29af114a5cbbc873dfa42dbc1d38dbe3f30c93795f9cd333364571ba2fd8/zoho-client-django-1.2.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [portage-types]: Downloading https://files.pythonhosted.org/packages/2b/e8/c62be427d0aabde58fbd2ce5053ffa6b5070697119d04e263355f71a4711/portage_types-0.0.2.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [pyScannerWrapper]: Downloading https://files.pythonhosted.org/packages/6f/5e/8a0472ec367dd4b68aa2328c90e8fdf9d1a970f21c29341e87d946c84e8e/pyScannerWrapper-0.2.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-17 00:39:46] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.6.0.tar.gz tmp/universi-0.7.0.tar.gz --markdown 20230717/u/universi/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-17 00:39:46] INFO root fetch - processPackages [wf-camera-calibration]: Downloading https://files.pythonhosted.org/packages/3f/a6/074847ed5268c0874a0e739915c7f62e4f754db8037ff16b6f1233792486/wf-camera-calibration-0.4.0.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [wf-honeycomb-io]: Downloading https://files.pythonhosted.org/packages/b1/4a/80ec733b9e868c4e56b89b7610887fb51ed11661e754a5f85fa207296683/wf-honeycomb-io-2.1.1.tar.gz
+[2023-07-17 00:39:46] INFO root fetch - processPackages [zoho-client-django]: executing diffoscope
+[2023-07-17 00:39:46] INFO root fetch - processPackages [zoho-client-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho-client-django-1.1.0.tar.gz tmp/zoho-client-django-1.2.0.tar.gz --markdown 20230717/z/zoho-client-django/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [solarannotator]: Downloading https://files.pythonhosted.org/packages/21/61/fb1783a72ae2206524aa9a2c6c1989387a73bf0be94543679dd637376922/solarannotator-1.0.0.tar.gz
+[2023-07-17 00:39:47] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/fc/65/b23752675ef62674d1f6a00df66f1f02beb7c2c562dc22ded3808b0730af/sees-0.0.3.tar.gz
+[2023-07-17 00:39:47] INFO root fetch - processPackages [portage-types]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [portage-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portage_types-0.0.1.tar.gz tmp/portage_types-0.0.2.tar.gz --markdown 20230717/p/portage-types/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [pyScannerWrapper]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [pyScannerWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyScannerWrapper-0.1.0.tar.gz tmp/pyScannerWrapper-0.2.0.tar.gz --markdown 20230717/p/pyScannerWrapper/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-07-17 00:39:47] INFO root fetch - processPackages [wf-camera-calibration]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [wf-camera-calibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-camera-calibration-0.3.0.tar.gz tmp/wf-camera-calibration-0.4.0.tar.gz --markdown 20230717/w/wf-camera-calibration/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [wf-honeycomb-io]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [wf-honeycomb-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-honeycomb-io-2.1.0.tar.gz tmp/wf-honeycomb-io-2.1.1.tar.gz --markdown 20230717/w/wf-honeycomb-io/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [solarannotator]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [solarannotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarannotator-0.3.1.tar.gz tmp/solarannotator-1.0.0.tar.gz --markdown 20230717/s/solarannotator/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [sees]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [sees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sees-0.0.2.tar.gz tmp/sees-0.0.3.tar.gz --markdown 20230717/s/sees/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 00:39:47] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-07-17 00:39:47] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230717/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 00:39:48] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.1.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.2.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [zoho-client-django]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [pyScannerWrapper]: Remove: archive file [/home/abi/fetcher/tmp/pyScannerWrapper-0.1.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [pyScannerWrapper]: Remove: archive file [/home/abi/fetcher/tmp/pyScannerWrapper-0.2.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [pyScannerWrapper]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [portage-types]: Remove: archive file [/home/abi/fetcher/tmp/portage_types-0.0.1.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [portage-types]: Remove: archive file [/home/abi/fetcher/tmp/portage_types-0.0.2.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [portage-types]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [wf-honeycomb-io]: Remove: archive file [/home/abi/fetcher/tmp/wf-honeycomb-io-2.1.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [wf-honeycomb-io]: Remove: archive file [/home/abi/fetcher/tmp/wf-honeycomb-io-2.1.1.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [wf-honeycomb-io]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.2.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.3.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [sees]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [wf-camera-calibration]: Remove: archive file [/home/abi/fetcher/tmp/wf-camera-calibration-0.3.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [wf-camera-calibration]: Remove: archive file [/home/abi/fetcher/tmp/wf-camera-calibration-0.4.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [wf-camera-calibration]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.6.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.7.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-17 00:39:48] INFO root fetch - processPackages [solarannotator]: Remove: archive file [/home/abi/fetcher/tmp/solarannotator-0.3.1.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - processPackages [solarannotator]: Remove: archive file [/home/abi/fetcher/tmp/solarannotator-1.0.0.tar.gz]
+[2023-07-17 00:39:48] INFO root fetch - main [MainThread]: End processing [solarannotator]: success
+[2023-07-17 00:39:49] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.8.0.tar.gz]
+[2023-07-17 00:39:49] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
+[2023-07-17 00:39:49] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-07-17 00:39:49] INFO root fetch - main [MainThread]: Store serial: [18909823]
