@@ -801,3 +801,43 @@
 [2023-07-17 01:26:29] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.55.tar.gz]
 [2023-07-17 01:26:29] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-17 01:26:29] INFO root fetch - main [MainThread]: Store serial: [18910027]
+[2023-07-17 01:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910027]
+[2023-07-17 01:31:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 01:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osxphotos
+[2023-07-17 01:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-protobuf
+[2023-07-17 01:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banking-logging
+[2023-07-17 01:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoCarver
+[2023-07-17 01:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: banking-logging
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: New version: [0.2] Old Version: [0.1.0]
+[2023-07-17 01:31:38] WARNING root fetch - processPackages [python-protobuf]: Skipping, unable to determine old version
+[2023-07-17 01:31:38] INFO root fetch - main [MainThread]: End processing [python-protobuf] error
+[2023-07-17 01:31:38] INFO root fetch - processPackages [AutoCarver]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: New version: [0.2] Old Version: [0.1.0]
+[2023-07-17 01:31:38] INFO root fetch - processPackages [osxphotos]: New version: [0.60.8] Old Version: [0.60.7]
+[2023-07-17 01:31:38] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/39/cc/2267ab188aa36c2e0a7c8c40fcc119ce9009e9c42d2331bee9c453d1d000/AutoCarver-5.1.2.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/c9/e2/40feac1ceefc878d86eeb3138a312b0b1e115735454e5206473a242985bf/banking_logging-0.1.0.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/c9/e2/40feac1ceefc878d86eeb3138a312b0b1e115735454e5206473a242985bf/banking_logging-0.1.0.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/49/7a/59c13fcbaf725fcf332ac040dd90f31ea0db1936bbe6b4a5ee1d7f88c64e/osxphotos-0.60.7.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/9a/41/019181818cb7327fc39490e2f0e94ef4a89d9d832f76750da881e657b8fa/AutoCarver-5.1.3.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/73/23/4011a823a8c28edc306c538561400cfe5a6e0ef528660ba7c924f7051255/banking_logging-0.2.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/73/23/4011a823a8c28edc306c538561400cfe5a6e0ef528660ba7c924f7051255/banking_logging-0.2.tar.gz
+[2023-07-17 01:31:38] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-17 01:31:38] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.1.2.tar.gz tmp/AutoCarver-5.1.3.tar.gz --markdown 20230717/A/AutoCarver/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: executing diffoscope
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_logging-0.1.0.tar.gz tmp/banking_logging-0.2.tar.gz --markdown 20230717/b/banking-logging/0.1.0-0.2/diff.md --exclude *.pyd
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: executing diffoscope
+[2023-07-17 01:31:38] INFO root fetch - processPackages [banking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_logging-0.1.0.tar.gz tmp/banking_logging-0.2.tar.gz --markdown 20230717/b/banking-logging/0.1.0-0.2/diff.md --exclude *.pyd
+[2023-07-17 01:31:38] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/f5/b2/73eca49fb9e6ab77d68c70b640b7c2337be620d47e7fd14d3824fa7cca2d/osxphotos-0.60.8.tar.gz
+[2023-07-17 01:31:39] INFO root fetch - processPackages [osxphotos]: executing diffoscope
+[2023-07-17 01:31:39] INFO root fetch - processPackages [osxphotos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osxphotos-0.60.7.tar.gz tmp/osxphotos-0.60.8.tar.gz --markdown 20230717/o/osxphotos/0.60.7-0.60.8/diff.md --exclude *.pyd
+[2023-07-17 01:31:39] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.1.0.tar.gz]
+[2023-07-17 01:31:39] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.tar.gz]
+[2023-07-17 01:31:39] INFO root fetch - main [MainThread]: End processing [banking-logging]: success
+[2023-07-17 01:31:39] INFO root fetch - main [MainThread]: End processing [banking-logging]: success
+[2023-07-17 01:31:39] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.2.tar.gz]
+[2023-07-17 01:31:39] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.3.tar.gz]
+[2023-07-17 01:31:39] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-17 01:31:43] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.7.tar.gz]
+[2023-07-17 01:31:43] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.8.tar.gz]
+[2023-07-17 01:31:43] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
+[2023-07-17 01:31:43] INFO root fetch - main [MainThread]: Store serial: [18910050]
