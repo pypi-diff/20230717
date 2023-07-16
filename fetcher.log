@@ -409,3 +409,66 @@
 [2023-07-17 00:39:49] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
 [2023-07-17 00:39:49] INFO root fetch - main [MainThread]: End processing [griffe]: success
 [2023-07-17 00:39:49] INFO root fetch - main [MainThread]: Store serial: [18909823]
+[2023-07-17 00:44:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909823]
+[2023-07-17 00:44:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copyparty
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-errors
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EscribaLogger
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orso
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OhSheet
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: epson-connect
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mohaliyet-annconv
+[2023-07-17 00:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solarannotator
+[2023-07-17 00:44:57] INFO root fetch - processPackages [EscribaLogger]: New version: [1.1] Old Version: [1.0]
+[2023-07-17 00:44:57] WARNING root fetch - processPackages [OhSheet]: Skipping, unable to determine old version
+[2023-07-17 00:44:57] INFO root fetch - main [MainThread]: End processing [OhSheet] error
+[2023-07-17 00:44:57] INFO root fetch - processPackages [solarannotator]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-17 00:44:57] INFO root fetch - processPackages [django-errors]: New version: [1.6.6] Old Version: [1.5.5]
+[2023-07-17 00:44:57] INFO root fetch - processPackages [epson-connect]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-17 00:44:57] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-07-17 00:44:57] INFO root fetch - processPackages [copyparty]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-17 00:44:57] WARNING root fetch - processPackages [mohaliyet-annconv]: Skipping, unable to determine old version
+[2023-07-17 00:44:57] INFO root fetch - main [MainThread]: End processing [mohaliyet-annconv] error
+[2023-07-17 00:44:57] INFO root fetch - processPackages [solarannotator]: Downloading https://files.pythonhosted.org/packages/a7/df/7f45ae0f02862ae2307c1b1768949b80d07789c6fb0d83df527b02346e46/solarannotator-0.3.1.tar.gz
+[2023-07-17 00:44:57] INFO root fetch - processPackages [EscribaLogger]: Downloading https://files.pythonhosted.org/packages/3b/e3/16118c0f6dc449561bed24a7950af8662e30f9c4eb82215b4123a8753848/escribalogger-1.0.tar.gz
+[2023-07-17 00:44:57] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/89/04/c731cd677e0a4345a39e64f77758778feba0706291f22bfdb842214482b5/django-errors-1.5.5.tar.gz
+[2023-07-17 00:44:57] INFO root fetch - processPackages [epson-connect]: Downloading https://files.pythonhosted.org/packages/6d/ca/4d0b8991a4085086bddf892c5e4777c939f64aa1b0b19123aa2a521968be/epson_connect-0.2.2.tar.gz
+[2023-07-17 00:44:57] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/b8/fe/1e255c3f2512e67c2c68e1904cc2fd8cfb38b5704260bd956576e553690f/orso-0.0.88.tar.gz
+[2023-07-17 00:44:57] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/da/bb/3387e8324be7659461803b3d1fb72f0c12b14d98524d078f0c2597ceea9c/copyparty-1.8.2.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [solarannotator]: Downloading https://files.pythonhosted.org/packages/21/61/fb1783a72ae2206524aa9a2c6c1989387a73bf0be94543679dd637376922/solarannotator-1.0.0.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [EscribaLogger]: Downloading https://files.pythonhosted.org/packages/ee/84/e02f44efb7fa6241ddcbb01cd2057232e4be5ced98d65a6bc3c464cc1887/escribalogger-1.1.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [solarannotator]: executing diffoscope
+[2023-07-17 00:44:58] INFO root fetch - processPackages [solarannotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarannotator-0.3.1.tar.gz tmp/solarannotator-1.0.0.tar.gz --markdown 20230717/s/solarannotator/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 00:44:58] INFO root fetch - processPackages [epson-connect]: Downloading https://files.pythonhosted.org/packages/c0/be/071a40996912959733329fbcad093a15aa33c6d8cd95800f917651777f48/epson_connect-0.2.3.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/89/07/5d06f4d7b7bed992d3855237298f128a012434bd50ad438942340e32345e/django-errors-1.6.6.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [EscribaLogger]: executing diffoscope
+[2023-07-17 00:44:58] INFO root fetch - processPackages [EscribaLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escribalogger-1.0.tar.gz tmp/escribalogger-1.1.tar.gz --markdown 20230717/E/EscribaLogger/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-17 00:44:58] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/b0/ee/7d0d4d837644ea01a975f0aa1d379096a479d51ed2631a6d3dc5cd0795fb/copyparty-1.8.3.tar.gz
+[2023-07-17 00:44:58] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-17 00:44:58] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.88.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230717/o/orso/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 00:44:58] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-07-17 00:44:58] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-1.5.5.tar.gz tmp/django-errors-1.6.6.tar.gz --markdown 20230717/d/django-errors/1.5.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-17 00:44:58] INFO root fetch - processPackages [epson-connect]: executing diffoscope
+[2023-07-17 00:44:58] INFO root fetch - processPackages [epson-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epson_connect-0.2.2.tar.gz tmp/epson_connect-0.2.3.tar.gz --markdown 20230717/e/epson-connect/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-17 00:44:58] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-07-17 00:44:58] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.8.2.tar.gz tmp/copyparty-1.8.3.tar.gz --markdown 20230717/c/copyparty/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-17 00:44:59] INFO root fetch - processPackages [EscribaLogger]: Remove: archive file [/home/abi/fetcher/tmp/escribalogger-1.0.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - processPackages [solarannotator]: Remove: archive file [/home/abi/fetcher/tmp/solarannotator-0.3.1.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - processPackages [EscribaLogger]: Remove: archive file [/home/abi/fetcher/tmp/escribalogger-1.1.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - processPackages [solarannotator]: Remove: archive file [/home/abi/fetcher/tmp/solarannotator-1.0.0.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - main [MainThread]: End processing [EscribaLogger]: success
+[2023-07-17 00:44:59] INFO root fetch - main [MainThread]: End processing [solarannotator]: success
+[2023-07-17 00:44:59] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.88.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-17 00:44:59] INFO root fetch - processPackages [epson-connect]: Remove: archive file [/home/abi/fetcher/tmp/epson_connect-0.2.2.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - processPackages [epson-connect]: Remove: archive file [/home/abi/fetcher/tmp/epson_connect-0.2.3.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - main [MainThread]: End processing [epson-connect]: success
+[2023-07-17 00:44:59] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-1.5.5.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-1.6.6.tar.gz]
+[2023-07-17 00:44:59] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-07-17 00:45:00] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.2.tar.gz]
+[2023-07-17 00:45:00] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.3.tar.gz]
+[2023-07-17 00:45:00] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-07-17 00:45:00] INFO root fetch - main [MainThread]: Store serial: [18909862]
