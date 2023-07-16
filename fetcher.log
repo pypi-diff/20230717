@@ -1,0 +1,27 @@
+[2023-07-17 00:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909671]
+[2023-07-17 00:02:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-17 00:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: porkbun-api
+[2023-07-17 00:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicodebot
+[2023-07-17 00:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zoho-client-django
+[2023-07-17 00:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loci-ai
+[2023-07-17 00:02:55] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-17 00:02:55] INFO root fetch - processPackages [zoho-client-django]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-17 00:02:55] WARNING root fetch - processPackages [loci-ai]: Skipping, unable to determine old version
+[2023-07-17 00:02:55] INFO root fetch - main [MainThread]: End processing [loci-ai] error
+[2023-07-17 00:02:55] WARNING root fetch - processPackages [porkbun-api]: Skipping, unable to determine old version
+[2023-07-17 00:02:55] INFO root fetch - main [MainThread]: End processing [porkbun-api] error
+[2023-07-17 00:02:55] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-17 00:02:55] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/25/fa/e09b9f04f294ae87206c6bf925dc287fc4b385ba7e1f9289f8a54713c89b/zoho-client-django-1.0.0.tar.gz
+[2023-07-17 00:02:55] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-17 00:02:55] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-17 00:02:55] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230717/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-17 00:02:55] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/f3/d8/b5e06a712469d0df45e22114742ea2d1da6f3e3dfed79fe9328b27860b3e/zoho-client-django-1.1.0.tar.gz
+[2023-07-17 00:02:56] INFO root fetch - processPackages [zoho-client-django]: executing diffoscope
+[2023-07-17 00:02:56] INFO root fetch - processPackages [zoho-client-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho-client-django-1.0.0.tar.gz tmp/zoho-client-django-1.1.0.tar.gz --markdown 20230717/z/zoho-client-django/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-17 00:02:57] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.0.0.tar.gz]
+[2023-07-17 00:02:57] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.1.0.tar.gz]
+[2023-07-17 00:02:57] INFO root fetch - main [MainThread]: End processing [zoho-client-django]: success
+[2023-07-17 00:02:57] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-17 00:02:57] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-17 00:02:57] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-17 00:02:57] INFO root fetch - main [MainThread]: Store serial: [18909686]
