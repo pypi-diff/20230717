@@ -967,3 +967,51 @@
 [2023-07-17 01:47:15] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a1.tar.gz]
 [2023-07-17 01:47:15] INFO root fetch - main [MainThread]: End processing [render-engine]: success
 [2023-07-17 01:47:15] INFO root fetch - main [MainThread]: Store serial: [18910098]
+[2023-07-17 01:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910098]
+[2023-07-17 01:52:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 01:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eons
+[2023-07-17 01:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meilisearch-python-async
+[2023-07-17 01:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banking-logging
+[2023-07-17 01:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yet-another-runner
+[2023-07-17 01:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver-folders-aws-s3
+[2023-07-17 01:52:23] INFO root fetch - processPackages [banking-logging]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 01:52:23] INFO root fetch - processPackages [meilisearch-python-async]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-17 01:52:23] INFO root fetch - processPackages [eons]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-07-17 01:52:23] INFO root fetch - processPackages [yet-another-runner]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-17 01:52:23] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/50/96/6ab95da4be2da9f3c5f80c4db17cfb4521615843b91d3b045839d017365d/banking_logging-0.2.1.tar.gz
+[2023-07-17 01:52:23] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 01:52:24] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/ad/b3/8a8cdccc8425edd72f836960dd631fab25ec3694fabac2b57ed148d72f68/eons-2.6.6.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/e5/2d/61db5056f177dc34bf33ff59e1c0c31531d4a9d02e05d96d8a295b85e420/meilisearch_python_async-1.4.5.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [yet-another-runner]: Downloading https://files.pythonhosted.org/packages/99/b8/6b6aa056324661c62f5d80e478784b36f764d2f2aa9cdc0bd5d54a6e7a43/yet-another-runner-0.5.0.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/81/45/5c9836a4b97e0d54958035a30e982f374b76d3254a13c7c99abe3cd0036c/banking_logging-0.2.2.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/a6/2a/14bf47ea0e771bb2b7b7ba0d84de5864c12af738722ceb376b6128a37c6b/eons-2.6.7.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/81/b8/6eea1a69cc296ef0035ca9ca9817a61e09a9075eea4451ee4ce458d677db/meilisearch_python_async-1.4.6.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [banking-logging]: executing diffoscope
+[2023-07-17 01:52:24] INFO root fetch - processPackages [banking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_logging-0.2.1.tar.gz tmp/banking_logging-0.2.2.tar.gz --markdown 20230717/b/banking-logging/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 01:52:24] INFO root fetch - processPackages [yet-another-runner]: Downloading https://files.pythonhosted.org/packages/b5/96/17597c793587b337bb86b1a6c4eb7a2cbca3c4d7a2d7f5c238ae2d064359/yet-another-runner-0.6.0.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [meilisearch-python-async]: executing diffoscope
+[2023-07-17 01:52:24] INFO root fetch - processPackages [meilisearch-python-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_async-1.4.5.tar.gz tmp/meilisearch_python_async-1.4.6.tar.gz --markdown 20230717/m/meilisearch-python-async/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-17 01:52:24] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-07-17 01:52:24] INFO root fetch - processPackages [yet-another-runner]: executing diffoscope
+[2023-07-17 01:52:24] INFO root fetch - processPackages [yet-another-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet-another-runner-0.5.0.tar.gz tmp/yet-another-runner-0.6.0.tar.gz --markdown 20230717/y/yet-another-runner/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 01:52:24] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-07-17 01:52:24] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.6.tar.gz tmp/eons-2.6.7.tar.gz --markdown 20230717/e/eons/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-07-17 01:52:24] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-07-17 01:52:24] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 01:52:25] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.1.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.2.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - main [MainThread]: End processing [banking-logging]: success
+[2023-07-17 01:52:25] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.4.5.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.4.6.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - main [MainThread]: End processing [meilisearch-python-async]: success
+[2023-07-17 01:52:25] INFO root fetch - processPackages [yet-another-runner]: Remove: archive file [/home/abi/fetcher/tmp/yet-another-runner-0.5.0.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - processPackages [yet-another-runner]: Remove: archive file [/home/abi/fetcher/tmp/yet-another-runner-0.6.0.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - main [MainThread]: End processing [yet-another-runner]: success
+[2023-07-17 01:52:25] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.6.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.7.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-07-17 01:52:25] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-07-17 01:52:25] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-07-17 01:52:25] INFO root fetch - main [MainThread]: Store serial: [18910112]
