@@ -595,3 +595,70 @@
 [2023-07-17 01:00:34] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.8.tar.gz]
 [2023-07-17 01:00:34] INFO root fetch - main [MainThread]: End processing [AgenciBr]: success
 [2023-07-17 01:00:34] INFO root fetch - main [MainThread]: Store serial: [18909920]
+[2023-07-17 01:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909920]
+[2023-07-17 01:05:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calculadorafaselunar
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garth
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regularizepsf
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sees
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: garth
+[2023-07-17 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zcmds-win32
+[2023-07-17 01:05:43] INFO root fetch - processPackages [regularizepsf]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 01:05:43] WARNING root fetch - processPackages [calculadorafaselunar]: Skipping, unable to determine old version
+[2023-07-17 01:05:43] INFO root fetch - processPackages [sees]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 01:05:43] INFO root fetch - main [MainThread]: End processing [calculadorafaselunar] error
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 01:05:43] INFO root fetch - processPackages [zcmds-win32]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-17 01:05:43] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230716] Old Version: [0.7.0b20230715]
+[2023-07-17 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230716] Old Version: [0.7.0b20230715]
+[2023-07-17 01:05:43] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/fc/65/b23752675ef62674d1f6a00df66f1f02beb7c2c562dc22ded3808b0730af/sees-0.0.3.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/fc/42/9945d7dd942b77deee2d8d25a2a4362138ce66ee85d8e5e21732d71dbab2/zcmds_win32-1.2.0.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/70/05/ca85cf9be056ac7eff33fdd36e1ec38b5b52db6c66500e28a0ef078ea338/tmnt-0.7.0b20230715.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/6c/fa/07f2b621c7c77dd7844aa631d03702488add991e0db663be3e38ea1a89df/tmnt-cu101-0.7.0b20230715.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/11/6f/0f6bf085eb53ff9693bcbb35d8330c1723afac0a1d5b7a7658dce5aef7e3/garth-0.1.1.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/11/6f/0f6bf085eb53ff9693bcbb35d8330c1723afac0a1d5b7a7658dce5aef7e3/garth-0.1.1.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [regularizepsf]: Downloading https://files.pythonhosted.org/packages/4d/b4/f4db3f8708797a4074f765f7aac50732ea97dcaecfba46974fb779684368/regularizepsf-0.2.0.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/ac/66/d0cc11cbfc3fcc72c6cab736887f480f35b24f621f26a440982b65878b52/sees-0.0.4.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/98/16/6e7088cd7d7c8a081cb55ba8f3ba37ab5308b392606164b51f0ab201a137/garth-0.1.2.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/98/16/6e7088cd7d7c8a081cb55ba8f3ba37ab5308b392606164b51f0ab201a137/garth-0.1.2.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/50/00/060d5aa7d922432df0a909f6f0f5b37ec50c96b0091ee857f89033440496/tmnt-cu101-0.7.0b20230716.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/75/f1/3ed0ab3c9b91242894293fbbefd1c47ea4061fc7ca8a81d5102cfd6a3073/tmnt-0.7.0b20230716.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [sees]: executing diffoscope
+[2023-07-17 01:05:43] INFO root fetch - processPackages [sees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sees-0.0.3.tar.gz tmp/sees-0.0.4.tar.gz --markdown 20230717/s/sees/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 01:05:43] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/f8/25/ddae9154672d37fcf87543ef0ce6cf836ff76e8dadb247ace8fa40ac7cd5/zcmds_win32-1.2.1.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.1.1.tar.gz tmp/garth-0.1.2.tar.gz --markdown 20230717/g/garth/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 01:05:43] INFO root fetch - processPackages [regularizepsf]: Downloading https://files.pythonhosted.org/packages/08/bb/787e937aa2ab3f2d851e7030b558e31e1df1d43d8db2332dd52332da67f3/regularizepsf-0.2.1.tar.gz
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-17 01:05:43] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.1.1.tar.gz tmp/garth-0.1.2.tar.gz --markdown 20230717/g/garth/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 01:05:44] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-17 01:05:44] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230715.tar.gz tmp/tmnt-cu101-0.7.0b20230716.tar.gz --markdown 20230717/t/tmnt-cu101/0.7.0b20230715-0.7.0b20230716/diff.md --exclude *.pyd
+[2023-07-17 01:05:44] INFO root fetch - processPackages [regularizepsf]: executing diffoscope
+[2023-07-17 01:05:44] INFO root fetch - processPackages [regularizepsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regularizepsf-0.2.0.tar.gz tmp/regularizepsf-0.2.1.tar.gz --markdown 20230717/r/regularizepsf/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 01:05:44] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-17 01:05:44] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230715.tar.gz tmp/tmnt-0.7.0b20230716.tar.gz --markdown 20230717/t/tmnt/0.7.0b20230715-0.7.0b20230716/diff.md --exclude *.pyd
+[2023-07-17 01:05:44] INFO root fetch - processPackages [zcmds-win32]: executing diffoscope
+[2023-07-17 01:05:44] INFO root fetch - processPackages [zcmds-win32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds_win32-1.2.0.tar.gz tmp/zcmds_win32-1.2.1.tar.gz --markdown 20230717/z/zcmds-win32/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-17 01:05:45] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.1.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.2.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-17 01:05:45] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.3.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.4.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [sees]: success
+[2023-07-17 01:05:45] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230715.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230716.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-17 01:05:45] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230715.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230716.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-17 01:05:45] INFO root fetch - processPackages [regularizepsf]: Remove: archive file [/home/abi/fetcher/tmp/regularizepsf-0.2.0.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - processPackages [regularizepsf]: Remove: archive file [/home/abi/fetcher/tmp/regularizepsf-0.2.1.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [regularizepsf]: success
+[2023-07-17 01:05:45] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.2.0.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.2.1.tar.gz]
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: End processing [zcmds-win32]: success
+[2023-07-17 01:05:45] INFO root fetch - main [MainThread]: Store serial: [18909945]
