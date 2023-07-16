@@ -895,3 +895,27 @@
 [2023-07-17 01:36:54] INFO root fetch - processPackages [application-properties]: Remove: archive file [/home/abi/fetcher/tmp/application_properties-0.8.0.tar.gz]
 [2023-07-17 01:36:54] INFO root fetch - main [MainThread]: End processing [application-properties]: success
 [2023-07-17 01:36:54] INFO root fetch - main [MainThread]: Store serial: [18910073]
+[2023-07-17 01:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910073]
+[2023-07-17 01:42:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-17 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-17 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dfpyre
+[2023-07-17 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faselunar
+[2023-07-17 01:42:02] WARNING root fetch - processPackages [faselunar]: Skipping, unable to determine old version
+[2023-07-17 01:42:02] INFO root fetch - main [MainThread]: End processing [faselunar] error
+[2023-07-17 01:42:02] INFO root fetch - processPackages [dfpyre]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-17 01:42:02] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-17 01:42:02] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-17 01:42:02] INFO root fetch - processPackages [dfpyre]: Downloading https://files.pythonhosted.org/packages/50/8b/d45d31b1c630a1ae84ee82d1d1145e026722d41c8efbed3f2473818f7ce5/dfpyre-0.3.0.tar.gz
+[2023-07-17 01:42:03] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-17 01:42:03] INFO root fetch - processPackages [dfpyre]: Downloading https://files.pythonhosted.org/packages/c7/fb/3f4e46ce11687a7ccb2adb95b12306facdd70ce65d90b550d9ce30139641/dfpyre-0.3.1.tar.gz
+[2023-07-17 01:42:03] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-17 01:42:03] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230717/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-17 01:42:03] INFO root fetch - processPackages [dfpyre]: executing diffoscope
+[2023-07-17 01:42:03] INFO root fetch - processPackages [dfpyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfpyre-0.3.0.tar.gz tmp/dfpyre-0.3.1.tar.gz --markdown 20230717/d/dfpyre/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-17 01:42:04] INFO root fetch - processPackages [dfpyre]: Remove: archive file [/home/abi/fetcher/tmp/dfpyre-0.3.0.tar.gz]
+[2023-07-17 01:42:04] INFO root fetch - processPackages [dfpyre]: Remove: archive file [/home/abi/fetcher/tmp/dfpyre-0.3.1.tar.gz]
+[2023-07-17 01:42:04] INFO root fetch - main [MainThread]: End processing [dfpyre]: success
+[2023-07-17 01:42:04] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-17 01:42:04] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-17 01:42:04] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-17 01:42:04] INFO root fetch - main [MainThread]: Store serial: [18910083]
