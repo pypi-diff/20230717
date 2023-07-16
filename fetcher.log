@@ -190,3 +190,60 @@
 [2023-07-17 00:23:58] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b1.tar.gz]
 [2023-07-17 00:23:58] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-07-17 00:23:58] INFO root fetch - main [MainThread]: Store serial: [18909755]
+[2023-07-17 00:29:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909755]
+[2023-07-17 00:29:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 00:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2023-07-17 00:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypx
+[2023-07-17 00:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaserver-registry
+[2023-07-17 00:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdfplumber
+[2023-07-17 00:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modrinth
+[2023-07-17 00:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-merge
+[2023-07-17 00:29:07] INFO root fetch - processPackages [pypx]: New version: [3.8.2] Old Version: [3.8.0]
+[2023-07-17 00:29:07] INFO root fetch - processPackages [pdfplumber]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-17 00:29:07] INFO root fetch - processPackages [heaserver-registry]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 00:29:07] INFO root fetch - processPackages [esphome]: New version: [2023.7.0b2] Old Version: [2023.7.0b1]
+[2023-07-17 00:29:07] INFO root fetch - processPackages [modrinth]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-17 00:29:07] INFO root fetch - processPackages [fern-merge]: New version: [0.0.32] Old Version: [0.0.30]
+[2023-07-17 00:29:07] INFO root fetch - processPackages [heaserver-registry]: Downloading https://files.pythonhosted.org/packages/98/4b/c40e939aea5ec5fb0b932817939a08f68c53a2d738d25edaa16367ce5ea9/heaserver-registry-1.0.0a8.tar.gz
+[2023-07-17 00:29:07] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/5e/f1/ec2a0c8d4ccf9a7c17b874f3d31dacc50491edcef9289c1179d21b32509e/esphome-2023.7.0b1.tar.gz
+[2023-07-17 00:29:07] INFO root fetch - processPackages [pdfplumber]: Downloading https://files.pythonhosted.org/packages/c7/72/de30f53e2c8c73625fda28ebf05e4b83d75dba8133ae123a20f93fd1111f/pdfplumber-0.8.1.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [modrinth]: Downloading https://files.pythonhosted.org/packages/1f/8f/609565d0afa91ea0f1224de817eb3ddd412dfe9767dac73e373f72c4f53b/modrinth-0.1.3.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/4c/d6/d340ead9f438d5429a22a977b6390d5209ac9dba3615e15802f11cda6658/pypx-3.8.0.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/a1/63/577e89158395090627e538de72b47fc7257d7604b33850aad92569746225/fern_merge-0.0.30.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [modrinth]: Downloading https://files.pythonhosted.org/packages/95/3c/afa6d8216a25bd6e17a9c7fd1f061b79890910c18831b89987795577a48b/modrinth-0.1.5.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [heaserver-registry]: Downloading https://files.pythonhosted.org/packages/40/5a/8b173c9d77ab6035656e7b50cc8d607d0d03f319c842a03f90924993be18/heaserver-registry-1.0.0a9.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pdfplumber]: Downloading https://files.pythonhosted.org/packages/d1/35/b00e619895383ded99b1060c2150587b531abfbd078c11f8b3fa1e620764/pdfplumber-0.9.0.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/81/b4/e3aa9361dd0a6c5e4aa9458845d3b88000b26391e1eacb65b6da61fe4780/fern_merge-0.0.32.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/3c/0f/5b720034cfe7f06a283ec364228424818820441848ea1cb88b9b66c57564/pypx-3.8.2.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ce/c3/81c4b984c050fcf4d7551df0bf8f96db81e364a65bd109ad048e2e7d40c5/esphome-2023.7.0b2.tar.gz
+[2023-07-17 00:29:08] INFO root fetch - processPackages [modrinth]: executing diffoscope
+[2023-07-17 00:29:08] INFO root fetch - processPackages [modrinth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth-0.1.3.tar.gz tmp/modrinth-0.1.5.tar.gz --markdown 20230717/m/modrinth/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 00:29:08] INFO root fetch - processPackages [heaserver-registry]: executing diffoscope
+[2023-07-17 00:29:08] INFO root fetch - processPackages [heaserver-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-registry-1.0.0a8.tar.gz tmp/heaserver-registry-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-registry/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pdfplumber]: executing diffoscope
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pdfplumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-0.8.1.tar.gz tmp/pdfplumber-0.9.0.tar.gz --markdown 20230717/p/pdfplumber/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 00:29:08] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-07-17 00:29:08] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.7.0b1.tar.gz tmp/esphome-2023.7.0b2.tar.gz --markdown 20230717/e/esphome/2023.7.0b1-2023.7.0b2/diff.md --exclude *.pyd
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pypx]: executing diffoscope
+[2023-07-17 00:29:08] INFO root fetch - processPackages [pypx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypx-3.8.0.tar.gz tmp/pypx-3.8.2.tar.gz --markdown 20230717/p/pypx/3.8.0-3.8.2/diff.md --exclude *.pyd
+[2023-07-17 00:29:08] INFO root fetch - processPackages [fern-merge]: executing diffoscope
+[2023-07-17 00:29:08] INFO root fetch - processPackages [fern-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_merge-0.0.30.tar.gz tmp/fern_merge-0.0.32.tar.gz --markdown 20230717/f/fern-merge/0.0.30-0.0.32/diff.md --exclude *.pyd
+[2023-07-17 00:29:09] INFO root fetch - processPackages [modrinth]: Remove: archive file [/home/abi/fetcher/tmp/modrinth-0.1.3.tar.gz]
+[2023-07-17 00:29:09] INFO root fetch - processPackages [modrinth]: Remove: archive file [/home/abi/fetcher/tmp/modrinth-0.1.5.tar.gz]
+[2023-07-17 00:29:09] INFO root fetch - main [MainThread]: End processing [modrinth]: success
+[2023-07-17 00:29:09] INFO root fetch - processPackages [heaserver-registry]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-registry-1.0.0a8.tar.gz]
+[2023-07-17 00:29:09] INFO root fetch - processPackages [heaserver-registry]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-registry-1.0.0a9.tar.gz]
+[2023-07-17 00:29:09] INFO root fetch - main [MainThread]: End processing [heaserver-registry]: success
+[2023-07-17 00:29:09] INFO root fetch - processPackages [pdfplumber]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-0.8.1.tar.gz]
+[2023-07-17 00:29:09] INFO root fetch - processPackages [pdfplumber]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-0.9.0.tar.gz]
+[2023-07-17 00:29:09] INFO root fetch - main [MainThread]: End processing [pdfplumber]: success
+[2023-07-17 00:29:10] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.0.tar.gz]
+[2023-07-17 00:29:10] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.2.tar.gz]
+[2023-07-17 00:29:10] INFO root fetch - main [MainThread]: End processing [pypx]: success
+[2023-07-17 00:29:11] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.0.30.tar.gz]
+[2023-07-17 00:29:11] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.0.32.tar.gz]
+[2023-07-17 00:29:11] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
+[2023-07-17 00:29:26] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b1.tar.gz]
+[2023-07-17 00:29:26] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b2.tar.gz]
+[2023-07-17 00:29:26] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-07-17 00:29:26] INFO root fetch - main [MainThread]: Store serial: [18909772]
