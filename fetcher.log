@@ -147,3 +147,46 @@
 [2023-07-17 00:18:30] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.1.tar.gz]
 [2023-07-17 00:18:30] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-07-17 00:18:30] INFO root fetch - main [MainThread]: Store serial: [18909735]
+[2023-07-17 00:23:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909735]
+[2023-07-17 00:23:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 00:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mastodon-2-album
+[2023-07-17 00:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: px-recount
+[2023-07-17 00:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mastodon-2-album
+[2023-07-17 00:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: busGal-api
+[2023-07-17 00:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webactogram
+[2023-07-17 00:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esphome
+[2023-07-17 00:23:39] WARNING root fetch - processPackages [webactogram]: Skipping, unable to determine old version
+[2023-07-17 00:23:39] INFO root fetch - main [MainThread]: End processing [webactogram] error
+[2023-07-17 00:23:39] INFO root fetch - processPackages [busGal-api]: New version: [0.1.0.1] Old Version: [0.1]
+[2023-07-17 00:23:39] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-17 00:23:39] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-17 00:23:39] WARNING root fetch - processPackages [px-recount]: Skipping, unable to determine old version
+[2023-07-17 00:23:39] INFO root fetch - main [MainThread]: End processing [px-recount] error
+[2023-07-17 00:23:39] INFO root fetch - processPackages [esphome]: New version: [2023.7.0b1] Old Version: [2023.6.5]
+[2023-07-17 00:23:39] INFO root fetch - processPackages [busGal-api]: Downloading https://files.pythonhosted.org/packages/94/b4/2b94d890d5695312d3781288808cdfd05ab7157982ab26697bd740a8bfce/busGal_api-0.1.tar.gz
+[2023-07-17 00:23:39] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-17 00:23:39] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-17 00:23:39] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/48/cd/dc2b0591dee0ebb32d26d95b969d28a63955eeef3b8c2abbeadfeec017c8/esphome-2023.6.5.tar.gz
+[2023-07-17 00:23:39] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-17 00:23:39] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-17 00:23:39] INFO root fetch - processPackages [busGal-api]: Downloading https://files.pythonhosted.org/packages/3b/4e/1e4ccb9eccd7b5dd2b6f049c844e68de02c6caf5859f60c76a308a240e66/busGal_api-0.1.0.1.tar.gz
+[2023-07-17 00:23:40] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-17 00:23:40] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230717/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 00:23:40] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-17 00:23:40] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230717/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 00:23:40] INFO root fetch - processPackages [busGal-api]: executing diffoscope
+[2023-07-17 00:23:40] INFO root fetch - processPackages [busGal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busGal_api-0.1.tar.gz tmp/busGal_api-0.1.0.1.tar.gz --markdown 20230717/b/busGal-api/0.1-0.1.0.1/diff.md --exclude *.pyd
+[2023-07-17 00:23:40] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/5e/f1/ec2a0c8d4ccf9a7c17b874f3d31dacc50491edcef9289c1179d21b32509e/esphome-2023.7.0b1.tar.gz
+[2023-07-17 00:23:40] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.7.tar.gz]
+[2023-07-17 00:23:40] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.9.tar.gz]
+[2023-07-17 00:23:40] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-17 00:23:40] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-17 00:23:40] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-07-17 00:23:40] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.5.tar.gz tmp/esphome-2023.7.0b1.tar.gz --markdown 20230717/e/esphome/2023.6.5-2023.7.0b1/diff.md --exclude *.pyd
+[2023-07-17 00:23:41] INFO root fetch - processPackages [busGal-api]: Remove: archive file [/home/abi/fetcher/tmp/busGal_api-0.1.tar.gz]
+[2023-07-17 00:23:41] INFO root fetch - processPackages [busGal-api]: Remove: archive file [/home/abi/fetcher/tmp/busGal_api-0.1.0.1.tar.gz]
+[2023-07-17 00:23:41] INFO root fetch - main [MainThread]: End processing [busGal-api]: success
+[2023-07-17 00:23:58] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.5.tar.gz]
+[2023-07-17 00:23:58] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b1.tar.gz]
+[2023-07-17 00:23:58] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-07-17 00:23:58] INFO root fetch - main [MainThread]: Store serial: [18909755]
