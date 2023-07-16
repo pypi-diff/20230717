@@ -523,3 +523,36 @@
 [2023-07-17 00:50:12] INFO root fetch - processPackages [pyorbit-package]: Remove: archive file [/home/abi/fetcher/tmp/pyorbit-package-9.1.9.tar.gz]
 [2023-07-17 00:50:12] INFO root fetch - main [MainThread]: End processing [pyorbit-package]: success
 [2023-07-17 00:50:12] INFO root fetch - main [MainThread]: Store serial: [18909890]
+[2023-07-17 00:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909890]
+[2023-07-17 00:55:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-17 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdof
+[2023-07-17 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: px-recount
+[2023-07-17 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypx
+[2023-07-17 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcmds-win32
+[2023-07-17 00:55:21] INFO root fetch - processPackages [sdof]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 00:55:21] WARNING root fetch - processPackages [px-recount]: Skipping, unable to determine old version
+[2023-07-17 00:55:21] INFO root fetch - main [MainThread]: End processing [px-recount] error
+[2023-07-17 00:55:21] INFO root fetch - processPackages [pypx]: New version: [3.8.2] Old Version: [3.8.0]
+[2023-07-17 00:55:21] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/4c/d6/d340ead9f438d5429a22a977b6390d5209ac9dba3615e15802f11cda6658/pypx-3.8.0.tar.gz
+[2023-07-17 00:55:21] INFO root fetch - processPackages [zcmds-win32]: New version: [1.2.0] Old Version: [1.0.9]
+[2023-07-17 00:55:21] INFO root fetch - processPackages [sdof]: Downloading https://files.pythonhosted.org/packages/e9/75/d6302bcc8b2065cf74da21a60f88eba5d90b1e3ce106a92960142c59ce3a/sdof-0.0.5.tar.gz
+[2023-07-17 00:55:21] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/13/a8/53f3bf1f6fc781702a2f1a9cff453ba0c0a307559487e3d7a33ade94ebfd/zcmds_win32-1.0.9.tar.gz
+[2023-07-17 00:55:21] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/3c/0f/5b720034cfe7f06a283ec364228424818820441848ea1cb88b9b66c57564/pypx-3.8.2.tar.gz
+[2023-07-17 00:55:21] INFO root fetch - processPackages [sdof]: Downloading https://files.pythonhosted.org/packages/bf/04/5dd5c1dcd32f903c31c1255f00f32ce05f472166152807c69800a14addf2/sdof-0.0.6.tar.gz
+[2023-07-17 00:55:21] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/fc/42/9945d7dd942b77deee2d8d25a2a4362138ce66ee85d8e5e21732d71dbab2/zcmds_win32-1.2.0.tar.gz
+[2023-07-17 00:55:21] INFO root fetch - processPackages [pypx]: executing diffoscope
+[2023-07-17 00:55:21] INFO root fetch - processPackages [pypx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypx-3.8.0.tar.gz tmp/pypx-3.8.2.tar.gz --markdown 20230717/p/pypx/3.8.0-3.8.2/diff.md --exclude *.pyd
+[2023-07-17 00:55:21] INFO root fetch - processPackages [sdof]: executing diffoscope
+[2023-07-17 00:55:21] INFO root fetch - processPackages [sdof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdof-0.0.5.tar.gz tmp/sdof-0.0.6.tar.gz --markdown 20230717/s/sdof/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 00:55:22] INFO root fetch - processPackages [sdof]: Remove: archive file [/home/abi/fetcher/tmp/sdof-0.0.5.tar.gz]
+[2023-07-17 00:55:22] INFO root fetch - processPackages [sdof]: Remove: archive file [/home/abi/fetcher/tmp/sdof-0.0.6.tar.gz]
+[2023-07-17 00:55:22] INFO root fetch - main [MainThread]: End processing [sdof]: success
+[2023-07-17 00:55:22] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.0.tar.gz]
+[2023-07-17 00:55:22] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.2.tar.gz]
+[2023-07-17 00:55:22] INFO root fetch - main [MainThread]: End processing [pypx]: success
+[2023-07-17 00:55:22] INFO root fetch - processPackages [zcmds-win32]: executing diffoscope
+[2023-07-17 00:55:22] INFO root fetch - processPackages [zcmds-win32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds_win32-1.0.9.tar.gz tmp/zcmds_win32-1.2.0.tar.gz --markdown 20230717/z/zcmds-win32/1.0.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 00:55:23] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.0.9.tar.gz]
+[2023-07-17 00:55:23] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.2.0.tar.gz]
+[2023-07-17 00:55:23] INFO root fetch - main [MainThread]: End processing [zcmds-win32]: success
+[2023-07-17 00:55:23] INFO root fetch - main [MainThread]: Store serial: [18909906]
