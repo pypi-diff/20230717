@@ -1015,3 +1015,60 @@
 [2023-07-17 01:52:25] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
 [2023-07-17 01:52:25] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
 [2023-07-17 01:52:25] INFO root fetch - main [MainThread]: Store serial: [18910112]
+[2023-07-17 01:57:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910112]
+[2023-07-17 01:57:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 01:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textframe
+[2023-07-17 01:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-interpreter
+[2023-07-17 01:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaserver-volumes
+[2023-07-17 01:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: switbuilder-core
+[2023-07-17 01:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoregistry
+[2023-07-17 01:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eons
+[2023-07-17 01:57:34] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 01:57:34] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.228] Old Version: [0.0.227]
+[2023-07-17 01:57:34] INFO root fetch - processPackages [textframe]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 01:57:34] INFO root fetch - processPackages [heaserver-volumes]: New version: [1.0.0a9.post0] Old Version: [1.0.0a9]
+[2023-07-17 01:57:34] INFO root fetch - processPackages [eons]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-07-17 01:57:34] INFO root fetch - processPackages [autoregistry]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-07-17 01:57:34] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/f3/e7/5f55e6a80e07f5a1842ab633b605bb8163878a72515d4eb2b7cda3782ec4/open_interpreter-0.0.227.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/ad/b3/8a8cdccc8425edd72f836960dd631fab25ec3694fabac2b57ed148d72f68/eons-2.6.6.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/be/59/ff943ab123fda78f4dbeaa6c28a97d0b1f5c74ce3d39eb38b6f4183b5bca/switbuilder_core-0.0.2.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/d7/e4/76a583b654b595c5e2068721ccfa752be2cca9d763737d52e893d86ff023/textframe-0.0.4.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [heaserver-volumes]: Downloading https://files.pythonhosted.org/packages/24/cf/9f1736d6c814c2dddbcad71d63fb1d9724dfae3727a4b73fa85e6dc002d5/heaserver-volumes-1.0.0a9.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [autoregistry]: Downloading https://files.pythonhosted.org/packages/5b/a5/0515163587e03d627b7cb1318d8de16189d4047b1f717556cab021c02d80/autoregistry-0.9.2.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/a6/2a/14bf47ea0e771bb2b7b7ba0d84de5864c12af738722ceb376b6128a37c6b/eons-2.6.7.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a8/1f/feca85f7402f71f2d6c1ca44a89c5a0b8dc6fb7646bd32518202113ce6d1/open_interpreter-0.0.228.tar.gz
+[2023-07-17 01:57:34] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-07-17 01:57:34] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.6.tar.gz tmp/eons-2.6.7.tar.gz --markdown 20230717/e/eons/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-07-17 01:57:35] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/71/34/804df1d021031cb8b0ea636692ad81c33877a39141c48eb2d6d38c2737d2/textframe-0.0.5.tar.gz
+[2023-07-17 01:57:35] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-17 01:57:35] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.227.tar.gz tmp/open_interpreter-0.0.228.tar.gz --markdown 20230717/o/open-interpreter/0.0.227-0.0.228/diff.md --exclude *.pyd
+[2023-07-17 01:57:35] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/41/21/ac4da7fef249b59a5b31274e7557fc489e7e503a41027e9377a9ff974e4b/switbuilder_core-0.0.3.tar.gz
+[2023-07-17 01:57:35] INFO root fetch - processPackages [autoregistry]: Downloading https://files.pythonhosted.org/packages/99/bb/81befdc3e976bc8d0cce4f288f9fc20468f653858d1521e4c90b707334e6/autoregistry-1.0.0.tar.gz
+[2023-07-17 01:57:35] INFO root fetch - processPackages [heaserver-volumes]: Downloading https://files.pythonhosted.org/packages/e6/df/fc0b632aa4f2dd9f5a783089987ae09b93e157b472acd0d468ed58f9245d/heaserver-volumes-1.0.0a9.post0.tar.gz
+[2023-07-17 01:57:35] INFO root fetch - processPackages [textframe]: executing diffoscope
+[2023-07-17 01:57:35] INFO root fetch - processPackages [textframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textframe-0.0.4.tar.gz tmp/textframe-0.0.5.tar.gz --markdown 20230717/t/textframe/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 01:57:35] INFO root fetch - processPackages [heaserver-volumes]: executing diffoscope
+[2023-07-17 01:57:35] INFO root fetch - processPackages [heaserver-volumes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-volumes-1.0.0a9.tar.gz tmp/heaserver-volumes-1.0.0a9.post0.tar.gz --markdown 20230717/h/heaserver-volumes/1.0.0a9-1.0.0a9.post0/diff.md --exclude *.pyd
+[2023-07-17 01:57:35] INFO root fetch - processPackages [autoregistry]: executing diffoscope
+[2023-07-17 01:57:35] INFO root fetch - processPackages [autoregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoregistry-0.9.2.tar.gz tmp/autoregistry-1.0.0.tar.gz --markdown 20230717/a/autoregistry/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 01:57:35] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-17 01:57:35] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.2.tar.gz tmp/switbuilder_core-0.0.3.tar.gz --markdown 20230717/s/switbuilder-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 01:57:36] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.6.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.7.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-07-17 01:57:36] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.227.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.228.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-17 01:57:36] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.4.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.5.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [textframe]: success
+[2023-07-17 01:57:36] INFO root fetch - processPackages [heaserver-volumes]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-volumes-1.0.0a9.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - processPackages [heaserver-volumes]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-volumes-1.0.0a9.post0.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [heaserver-volumes]: success
+[2023-07-17 01:57:36] INFO root fetch - processPackages [autoregistry]: Remove: archive file [/home/abi/fetcher/tmp/autoregistry-0.9.2.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - processPackages [autoregistry]: Remove: archive file [/home/abi/fetcher/tmp/autoregistry-1.0.0.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [autoregistry]: success
+[2023-07-17 01:57:36] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.2.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.3.tar.gz]
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-17 01:57:36] INFO root fetch - main [MainThread]: Store serial: [18910130]
