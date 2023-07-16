@@ -841,3 +841,57 @@
 [2023-07-17 01:31:43] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.8.tar.gz]
 [2023-07-17 01:31:43] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
 [2023-07-17 01:31:43] INFO root fetch - main [MainThread]: Store serial: [18910050]
+[2023-07-17 01:36:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910050]
+[2023-07-17 01:36:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: big-query-testing-abc
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magic-filter
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wf-camera-calibration
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wf-cv-utils
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipefunc
+[2023-07-17 01:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: application-properties
+[2023-07-17 01:36:52] INFO root fetch - processPackages [application-properties]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-cv-utils]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-07-17 01:36:52] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-17 01:36:52] WARNING root fetch - processPackages [pipefunc]: Skipping, unable to determine old version
+[2023-07-17 01:36:52] INFO root fetch - main [MainThread]: End processing [pipefunc] error
+[2023-07-17 01:36:52] INFO root fetch - processPackages [magic-filter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 01:36:52] WARNING root fetch - processPackages [big-query-testing-abc]: Skipping, unable to determine old version
+[2023-07-17 01:36:52] INFO root fetch - main [MainThread]: End processing [big-query-testing-abc] error
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-camera-calibration]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-cv-utils]: Downloading https://files.pythonhosted.org/packages/ee/6f/ba0312892b75a52a7529d7ea7512c7b11c1917895554038f7f3325fff3fb/wf-cv-utils-3.5.1.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-camera-calibration]: Downloading https://files.pythonhosted.org/packages/3f/a6/074847ed5268c0874a0e739915c7f62e4f754db8037ff16b6f1233792486/wf-camera-calibration-0.4.0.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [magic-filter]: Downloading https://files.pythonhosted.org/packages/91/5c/0b3c8a41b3d03d62afc770f28ed7d31d253b660df33dd27020cdf0085280/magic-filter-1.0.8.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [application-properties]: Downloading https://files.pythonhosted.org/packages/97/53/cdff1152a8d0ee4bcd3e5e17cc612b30920d65881cfe6fd883b2ad873420/application_properties-0.7.0.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-camera-calibration]: Downloading https://files.pythonhosted.org/packages/c0/76/101d713b98e7aa2ac86539944e44a384a81e217c61c2b07437a75cd606b2/wf-camera-calibration-0.5.0.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-cv-utils]: Downloading https://files.pythonhosted.org/packages/27/61/abd48d272799cde43f884ee644f61b432a7f061c31e61aac0b0695844d8f/wf-cv-utils-3.6.0.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-camera-calibration]: executing diffoscope
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-camera-calibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-camera-calibration-0.4.0.tar.gz tmp/wf-camera-calibration-0.5.0.tar.gz --markdown 20230717/w/wf-camera-calibration/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 01:36:52] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-17 01:36:52] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230717/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-cv-utils]: executing diffoscope
+[2023-07-17 01:36:52] INFO root fetch - processPackages [wf-cv-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-cv-utils-3.5.1.tar.gz tmp/wf-cv-utils-3.6.0.tar.gz --markdown 20230717/w/wf-cv-utils/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-07-17 01:36:52] INFO root fetch - processPackages [magic-filter]: Downloading https://files.pythonhosted.org/packages/b3/1c/a22e3a4aff9f5fa87379b506e1bd01e84bacb749b6f0d0afbef5d5a8ab73/magic-filter-1.0.9.tar.gz
+[2023-07-17 01:36:52] INFO root fetch - processPackages [application-properties]: Downloading https://files.pythonhosted.org/packages/39/c4/27283deca4d0718b3b83910d2afed00dbb87d85568999c64971b06611347/application_properties-0.8.0.tar.gz
+[2023-07-17 01:36:53] INFO root fetch - processPackages [application-properties]: executing diffoscope
+[2023-07-17 01:36:53] INFO root fetch - processPackages [application-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/application_properties-0.7.0.tar.gz tmp/application_properties-0.8.0.tar.gz --markdown 20230717/a/application-properties/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 01:36:53] INFO root fetch - processPackages [magic-filter]: executing diffoscope
+[2023-07-17 01:36:53] INFO root fetch - processPackages [magic-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic-filter-1.0.8.tar.gz tmp/magic-filter-1.0.9.tar.gz --markdown 20230717/m/magic-filter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 01:36:53] INFO root fetch - processPackages [wf-cv-utils]: Remove: archive file [/home/abi/fetcher/tmp/wf-cv-utils-3.5.1.tar.gz]
+[2023-07-17 01:36:53] INFO root fetch - processPackages [wf-cv-utils]: Remove: archive file [/home/abi/fetcher/tmp/wf-cv-utils-3.6.0.tar.gz]
+[2023-07-17 01:36:53] INFO root fetch - main [MainThread]: End processing [wf-cv-utils]: success
+[2023-07-17 01:36:53] INFO root fetch - processPackages [wf-camera-calibration]: Remove: archive file [/home/abi/fetcher/tmp/wf-camera-calibration-0.4.0.tar.gz]
+[2023-07-17 01:36:53] INFO root fetch - processPackages [wf-camera-calibration]: Remove: archive file [/home/abi/fetcher/tmp/wf-camera-calibration-0.5.0.tar.gz]
+[2023-07-17 01:36:53] INFO root fetch - main [MainThread]: End processing [wf-camera-calibration]: success
+[2023-07-17 01:36:53] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-17 01:36:53] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-17 01:36:53] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-17 01:36:54] INFO root fetch - processPackages [magic-filter]: Remove: archive file [/home/abi/fetcher/tmp/magic-filter-1.0.8.tar.gz]
+[2023-07-17 01:36:54] INFO root fetch - processPackages [magic-filter]: Remove: archive file [/home/abi/fetcher/tmp/magic-filter-1.0.9.tar.gz]
+[2023-07-17 01:36:54] INFO root fetch - main [MainThread]: End processing [magic-filter]: success
+[2023-07-17 01:36:54] INFO root fetch - processPackages [application-properties]: Remove: archive file [/home/abi/fetcher/tmp/application_properties-0.7.0.tar.gz]
+[2023-07-17 01:36:54] INFO root fetch - processPackages [application-properties]: Remove: archive file [/home/abi/fetcher/tmp/application_properties-0.8.0.tar.gz]
+[2023-07-17 01:36:54] INFO root fetch - main [MainThread]: End processing [application-properties]: success
+[2023-07-17 01:36:54] INFO root fetch - main [MainThread]: Store serial: [18910073]
