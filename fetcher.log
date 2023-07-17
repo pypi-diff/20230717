@@ -5702,3 +5702,54 @@
 [2023-07-17 04:35:33] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
 [2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
 [2023-07-17 04:35:33] INFO root fetch - main [MainThread]: Store serial: [18911796]
+[2023-07-17 04:40:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911796]
+[2023-07-17 04:40:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oyehr-tools-package
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unidic-lite-imitator-transformers
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unidic-lite-imitator
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreeSAK
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nanopb
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymtom-xop
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdock
+[2023-07-17 04:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: b2sim
+[2023-07-17 04:40:42] WARNING root fetch - processPackages [unidic-lite-imitator]: Skipping, unable to determine old version
+[2023-07-17 04:40:42] INFO root fetch - main [MainThread]: End processing [unidic-lite-imitator] error
+[2023-07-17 04:40:42] INFO root fetch - processPackages [nanopb]: New version: [0.4.8.dev1412] Old Version: [0.4.8.dev1411]
+[2023-07-17 04:40:42] WARNING root fetch - processPackages [oyehr-tools-package]: Skipping, unable to determine old version
+[2023-07-17 04:40:42] INFO root fetch - main [MainThread]: End processing [oyehr-tools-package] error
+[2023-07-17 04:40:42] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-17 04:40:42] WARNING root fetch - processPackages [pymtom-xop]: Skipping, unable to determine old version
+[2023-07-17 04:40:42] INFO root fetch - main [MainThread]: End processing [pymtom-xop] error
+[2023-07-17 04:40:42] INFO root fetch - processPackages [sdock]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 04:40:42] WARNING root fetch - processPackages [unidic-lite-imitator-transformers]: Skipping, unable to determine old version
+[2023-07-17 04:40:42] INFO root fetch - main [MainThread]: End processing [unidic-lite-imitator-transformers] error
+[2023-07-17 04:40:42] INFO root fetch - processPackages [b2sim]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-17 04:40:42] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/7f/33/5950022e2c230cd5dbaf7c400419fe2e564ee9f8338e077d468dc4b64b57/sdock-0.0.98.tar.gz
+[2023-07-17 04:40:42] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-17 04:40:42] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/9b/8a/9bac52312c1d49367ef3b7c903eeb2f1ada31a7a3312aed6a7d60824a788/nanopb-0.4.8.dev1411.tar.gz
+[2023-07-17 04:40:42] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/d4/ab/8f59ea391a11ebc2dc869c4a8970ab8c0db701969ba4cbad6b00016c9ef9/b2sim-1.1.1.tar.gz
+[2023-07-17 04:40:42] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-17 04:40:42] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 04:40:42] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.98.tar.gz tmp/sdock-0.0.99.tar.gz --markdown 20230717/s/sdock/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 04:40:42] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-17 04:40:43] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/83/b7/290b0acfcb6ce4688193778562f7fe7c6511d57c0f07ecec7aab3e31d73f/b2sim-1.2.0.tar.gz
+[2023-07-17 04:40:43] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/46/ee/bfc99029b4ae05dd951d4e54a8e8efc8aac014e2a0ba302313d07677b75a/nanopb-0.4.8.dev1412.tar.gz
+[2023-07-17 04:40:43] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-17 04:40:43] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230717/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-17 04:40:43] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-17 04:40:43] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.1.1.tar.gz tmp/b2sim-1.2.0.tar.gz --markdown 20230717/b/b2sim/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 04:40:43] INFO root fetch - processPackages [nanopb]: executing diffoscope
+[2023-07-17 04:40:43] INFO root fetch - processPackages [nanopb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanopb-0.4.8.dev1411.tar.gz tmp/nanopb-0.4.8.dev1412.tar.gz --markdown 20230717/n/nanopb/0.4.8.dev1411-0.4.8.dev1412/diff.md --exclude *.pyd
+[2023-07-17 04:40:43] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.98.tar.gz]
+[2023-07-17 04:40:43] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.99.tar.gz]
+[2023-07-17 04:40:43] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 04:40:44] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-17 04:40:44] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-17 04:40:44] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-17 04:40:44] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.1.1.tar.gz]
+[2023-07-17 04:40:44] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.2.0.tar.gz]
+[2023-07-17 04:40:44] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-17 04:40:44] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1411.tar.gz]
+[2023-07-17 04:40:44] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1412.tar.gz]
+[2023-07-17 04:40:44] INFO root fetch - main [MainThread]: End processing [nanopb]: success
+[2023-07-17 04:40:44] INFO root fetch - main [MainThread]: Store serial: [18911826]
