@@ -16790,3 +16790,159 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:14:44] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.0.tar.gz]
 [2023-07-17 14:14:44] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-07-17 14:14:44] INFO root fetch - main [MainThread]: Store serial: [18916510]
+[2023-07-17 14:19:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916510]
+[2023-07-17 14:19:54] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utbot-executor
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splunk-add-on-ucc-framework
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cwsgiutils
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signmeup
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyPreservicaGov
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deci-platform-client
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: barladb
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gibberishpy
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gibberishpy
+[2023-07-17 14:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysui
+[2023-07-17 14:19:55] INFO root fetch - processPackages [pyPreservicaGov]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [deci-platform-client]: New version: [5.8.0] Old Version: [5.7.0]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [gibberishpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [gibberishpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [barladb]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-17 14:19:55] WARNING root fetch - processPackages [signmeup]: Skipping, unable to determine old version
+[2023-07-17 14:19:55] INFO root fetch - processPackages [signmeup]: Start processing: pollination-daylight-factor
+[2023-07-17 14:19:55] INFO root fetch - main [MainThread]: End processing [signmeup] error
+[2023-07-17 14:19:55] INFO root fetch - processPackages [pyPreservicaGov]: Downloading https://files.pythonhosted.org/packages/4e/70/eb65d969408532ace2814de03a962da54df2b85a2fac7ab7a544307d8b2e/pyPreservicaGov-0.0.5-py3-none-any.whl
+[2023-07-17 14:19:55] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/2e/cd/b186c43e47d58daaed1104a6420c9a3f34e18b28ec915d3aa8531ce27096/deci_platform_client-5.7.0-py3-none-any.whl
+[2023-07-17 14:19:55] INFO root fetch - processPackages [pollination-daylight-factor]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-17 14:19:55] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/5c/2c/58e8ee9ffcaf12c848eb837692e2f08f3b2cca4dcb8835d26c839fe96a2d/gibberishpy-1.0.2.tar.gz
+[2023-07-17 14:19:55] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/5c/2c/58e8ee9ffcaf12c848eb837692e2f08f3b2cca4dcb8835d26c839fe96a2d/gibberishpy-1.0.2.tar.gz
+[2023-07-17 14:19:55] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-17 14:19:55] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-17 14:19:55] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-07-17 14:19:55] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-07-17 14:19:55] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/88/75/da780ef44dc7ac0f0b93a69785f272f4181314bcd0d111c26aeda3f235a8/barladb-0.1.5.tar.gz
+[2023-07-17 14:19:55] INFO root fetch - processPackages [pollination-daylight-factor]: Downloading https://files.pythonhosted.org/packages/3a/0a/c55785466c23a76077cfc824f6c41625fb86f343f2e44b2566513956767b/pollination-daylight-factor-0.8.8.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pyPreservicaGov]: Downloading https://files.pythonhosted.org/packages/51/eb/62659ab92c1b7d1fcad07a70980a6f302f5fafc718e9df3d1b308ac0c94c/pyPreservicaGov-0.0.6-py3-none-any.whl
+[2023-07-17 14:19:56] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/ff/4f/c559378837090a8c3d8614e3895fe4009aa932171c02c962884c183a8f45/gibberishpy-1.0.3.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/ff/4f/c559378837090a8c3d8614e3895fe4009aa932171c02c962884c183a8f45/gibberishpy-1.0.3.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/0d/4f/6d8182408ff4abe491e956e031145872dc302211ab692dd43424b611144b/deci_platform_client-5.8.0-py3-none-any.whl
+[2023-07-17 14:19:56] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/4d/66/65a3531de1af1fa1a79ea04e63db51837159812f6089e98c8862d7037b6f/barladb-0.1.7.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pyPreservicaGov]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pyPreservicaGov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreservicaGov-0.0.5-py3-none-any.whl.zip tmp/pyPreservicaGov-0.0.6-py3-none-any.whl.zip --markdown 20230717/p/pyPreservicaGov/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [gibberishpy]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [gibberishpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gibberishpy-1.0.2.tar.gz tmp/gibberishpy-1.0.3.tar.gz --markdown 20230717/g/gibberishpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [gibberishpy]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [gibberishpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gibberishpy-1.0.2.tar.gz tmp/gibberishpy-1.0.3.tar.gz --markdown 20230717/g/gibberishpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230717/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [barladb]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [barladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barladb-0.1.5.tar.gz tmp/barladb-0.1.7.tar.gz --markdown 20230717/b/barladb/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.7.0-py3-none-any.whl.zip tmp/deci_platform_client-5.8.0-py3-none-any.whl.zip --markdown 20230717/d/deci-platform-client/5.7.0-5.8.0/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pollination-daylight-factor]: Downloading https://files.pythonhosted.org/packages/7e/57/84ab7fc3e34853d074793b209e53d12522f1b4c1acff06313c5a76ce9019/pollination-daylight-factor-0.8.9.tar.gz
+[2023-07-17 14:19:56] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230717/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230717/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230717/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pollination-daylight-factor]: executing diffoscope
+[2023-07-17 14:19:56] INFO root fetch - processPackages [pollination-daylight-factor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-daylight-factor-0.8.8.tar.gz tmp/pollination-daylight-factor-0.8.9.tar.gz --markdown 20230717/p/pollination-daylight-factor/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-17 14:19:58] INFO root fetch - processPackages [gibberishpy]: Remove: archive file [/home/abi/fetcher/tmp/gibberishpy-1.0.2.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [gibberishpy]: Remove: archive file [/home/abi/fetcher/tmp/gibberishpy-1.0.3.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [gibberishpy]: Start processing: terminusdb-client
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [gibberishpy]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [terminusdb-client]: New version: [10.2.4] Old Version: [10.2.3]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [gibberishpy]: Start processing: django-encryption
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [gibberishpy]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [django-encryption]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.5.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.7.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [barladb]: Start processing: fractal-server
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [barladb]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pyPreservicaGov]: Remove: archive file [/home/abi/fetcher/tmp/pyPreservicaGov-0.0.5-py3-none-any.whl.zip]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pyPreservicaGov]: Remove: archive file [/home/abi/fetcher/tmp/pyPreservicaGov-0.0.6-py3-none-any.whl.zip]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pyPreservicaGov]: Start processing: NEURON
+[2023-07-17 14:19:58] INFO root fetch - processPackages [utbot-executor]: Start processing: comun-va
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [pyPreservicaGov]: success
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [fractal-server]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [terminusdb-client]: Downloading https://files.pythonhosted.org/packages/dd/dd/ca399e553c7f61faa53dac64aa74f0b84d8499e33b4e334a4b1f3723c6cb/terminusdb-client-10.2.3.tar.gz
+[2023-07-17 14:19:58] WARNING root fetch - processPackages [comun-va]: Skipping, unable to determine old version
+[2023-07-17 14:19:58] INFO root fetch - processPackages [comun-va]: Start processing: th2-grpc-sim-template
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [comun-va] error
+[2023-07-17 14:19:58] INFO root fetch - processPackages [NEURON]: New version: [9.0a0] Old Version: [8.2a0]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pollination-daylight-factor]: Remove: archive file [/home/abi/fetcher/tmp/pollination-daylight-factor-0.8.8.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pollination-daylight-factor]: Remove: archive file [/home/abi/fetcher/tmp/pollination-daylight-factor-0.8.9.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pollination-daylight-factor]: Start processing: era-5g-interface
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [pollination-daylight-factor]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [th2-grpc-sim-template]: New version: [3.2.0.dev5575501551] Old Version: [3.2.0.dev5554474997]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/0a/42/6d2637ff91b53729dbe07fd5875ab4b7cd70785b41649c6fe49c305b7d86/django_encryption-0.3.8.tar.gz
+[2023-07-17 14:19:58] INFO root fetch - processPackages [era-5g-interface]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: frequenz-api-dispatch
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/31/1e/63043f827910268ff7e33bf8dc806183939519503f298686b3092a6e720d/fractal_server-1.3.3.tar.gz
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 14:19:58] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-07-17 14:19:58] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-07-17 14:19:58] INFO root fetch - processPackages [th2-grpc-sim-template]: Downloading https://files.pythonhosted.org/packages/2b/ff/e85196d15e6412b9848d1b52d5500c43fec5cc8f72f9fe2a6aabb6a4859e/th2_grpc_sim_template-3.2.0.dev5554474997.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [NEURON]: Downloading https://files.pythonhosted.org/packages/25/6d/384da74713e952ee6d78ffd11cc7c45cb4ee3a1b0022be77cc5cfbb0a4b5/NEURON-8.2a0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 14:19:59] INFO root fetch - processPackages [frequenz-api-dispatch]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-17 14:19:59] INFO root fetch - processPackages [era-5g-interface]: Downloading https://files.pythonhosted.org/packages/72/c9/6ea9ad656888f459a4aa54624697948f50d92a67661bcb271babe6c502a6/era_5g_interface-0.3.0.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [terminusdb-client]: Downloading https://files.pythonhosted.org/packages/54/0a/f7d5af82be1d4cd988f2ea7ec79b3da43870ceb7679d90e14661a9ee3f6c/terminusdb-client-10.2.4.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [terminusdb-client]: executing diffoscope
+[2023-07-17 14:19:59] INFO root fetch - processPackages [terminusdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminusdb-client-10.2.3.tar.gz tmp/terminusdb-client-10.2.4.tar.gz --markdown 20230717/t/terminusdb-client/10.2.3-10.2.4/diff.md --exclude *.pyd
+[2023-07-17 14:19:59] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/d6/e4/f7445367494b97c1e53299960d6a90be9d25b39ff40e8fd4389479d650a9/django_encryption-0.3.9.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/21/59/2d72767b6c7da2a3fec65a0ba80c2a54f1bd94a712afa867a9f888e3b629/fractal_server-1.3.4.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [frequenz-api-dispatch]: Downloading https://files.pythonhosted.org/packages/08/3f/aca57d7422823edfaabfc00285fd862624b85123f35caa1d8cef5a73b25e/frequenz-api-dispatch-0.8.2.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [th2-grpc-sim-template]: Downloading https://files.pythonhosted.org/packages/ec/c9/0dac9694441fc08f0d2bebe1272721c32ad7a102fc8acb730541d2316ac4/th2_grpc_sim_template-3.2.0.dev5575501551.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-07-17 14:19:59] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.3.tar.gz tmp/fractal_server-1.3.4.tar.gz --markdown 20230717/f/fractal-server/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-17 14:19:59] INFO root fetch - processPackages [era-5g-interface]: Downloading https://files.pythonhosted.org/packages/b4/b5/c7903b61a57d54eb3c2f0d436dd730045cbf519534e5c7a2427f1bcab881/era_5g_interface-0.4.0.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2023-07-17 14:19:59] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.8.tar.gz tmp/django_encryption-0.3.9.tar.gz --markdown 20230717/d/django-encryption/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 14:19:59] INFO root fetch - processPackages [th2-grpc-sim-template]: executing diffoscope
+[2023-07-17 14:19:59] INFO root fetch - processPackages [th2-grpc-sim-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim_template-3.2.0.dev5554474997.tar.gz tmp/th2_grpc_sim_template-3.2.0.dev5575501551.tar.gz --markdown 20230717/t/th2-grpc-sim-template/3.2.0.dev5554474997-3.2.0.dev5575501551/diff.md --exclude *.pyd
+[2023-07-17 14:19:59] WARNING root fetch - processPackages [NEURON]: Skipping package: exceeds size limit 15240163>=10485760
+[2023-07-17 14:19:59] INFO root fetch - main [MainThread]: End processing [NEURON] error
+[2023-07-17 14:19:59] INFO root fetch - processPackages [era-5g-interface]: executing diffoscope
+[2023-07-17 14:19:59] INFO root fetch - processPackages [era-5g-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_interface-0.3.0.tar.gz tmp/era_5g_interface-0.4.0.tar.gz --markdown 20230717/e/era-5g-interface/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 14:19:59] INFO root fetch - processPackages [frequenz-api-dispatch]: Downloading https://files.pythonhosted.org/packages/33/c1/e860d478dc8932f1c87ea623e6d5b1a9b2788d7f9229dd3adc141e915c08/frequenz-api-dispatch-0.9.0.tar.gz
+[2023-07-17 14:19:59] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz]
+[2023-07-17 14:19:59] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz]
+[2023-07-17 14:19:59] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-07-17 14:19:59] INFO root fetch - processPackages [frequenz-api-dispatch]: executing diffoscope
+[2023-07-17 14:19:59] INFO root fetch - processPackages [frequenz-api-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-dispatch-0.8.2.tar.gz tmp/frequenz-api-dispatch-0.9.0.tar.gz --markdown 20230717/f/frequenz-api-dispatch/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 14:20:00] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.8.tar.gz]
+[2023-07-17 14:20:00] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.9.tar.gz]
+[2023-07-17 14:20:00] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2023-07-17 14:20:01] INFO root fetch - processPackages [era-5g-interface]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_interface-0.3.0.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - processPackages [era-5g-interface]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_interface-0.4.0.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - main [MainThread]: End processing [era-5g-interface]: success
+[2023-07-17 14:20:01] INFO root fetch - processPackages [th2-grpc-sim-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim_template-3.2.0.dev5554474997.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - processPackages [terminusdb-client]: Remove: archive file [/home/abi/fetcher/tmp/terminusdb-client-10.2.3.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - processPackages [th2-grpc-sim-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim_template-3.2.0.dev5575501551.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - processPackages [terminusdb-client]: Remove: archive file [/home/abi/fetcher/tmp/terminusdb-client-10.2.4.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim-template]: success
+[2023-07-17 14:20:01] INFO root fetch - main [MainThread]: End processing [terminusdb-client]: success
+[2023-07-17 14:20:01] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.3.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.4.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-07-17 14:20:01] INFO root fetch - processPackages [frequenz-api-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-dispatch-0.8.2.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - processPackages [frequenz-api-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-dispatch-0.9.0.tar.gz]
+[2023-07-17 14:20:01] INFO root fetch - main [MainThread]: End processing [frequenz-api-dispatch]: success
+[2023-07-17 14:20:02] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.7.0-py3-none-any.whl.zip]
+[2023-07-17 14:20:02] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.8.0-py3-none-any.whl.zip]
+[2023-07-17 14:20:02] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-07-17 14:20:02] INFO root fetch - main [MainThread]: Store serial: [18916565]
