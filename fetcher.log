@@ -22208,3 +22208,228 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 17:01:41] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.5.tar.gz]
 [2023-07-17 17:01:41] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
 [2023-07-17 17:01:41] INFO root fetch - main [MainThread]: Store serial: [18918561]
+[2023-07-17 17:06:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918561]
+[2023-07-17 17:06:50] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-web-runner
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaldialign
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TextClassification
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PHX
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotinst-sdk2
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collective.behavior.relatedmedia
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-pulumi-cloud
+[2023-07-17 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pmagpy
+[2023-07-17 17:06:51] INFO root fetch - processPackages [TextClassification]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230717.15.2.436848] Old Version: [20230717.14.35.407630]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [kaldialign]: New version: [0.7.1] Old Version: [0.7]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [collective.behavior.relatedmedia]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [tap-pulumi-cloud]: New version: [0.0.2a1] Old Version: [0.0.2]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [spotinst-sdk2]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25698] Old Version: [6.1.6.dev25669]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [pmagpy]: New version: [4.2.98] Old Version: [4.2.97]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/46/78/859c18c5e434da570f283aaa6a563918a62a3cb476160677486dff20b03a/TextClassification-0.1.6-py2.py3-none-any.whl
+[2023-07-17 17:06:51] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/f6/cc/8834e7df3c3a3594b483367405e38fd6f105a92d8c4fd56385f062b97eb8/certora-cli-alpha-martin-z3-lemmas-test-20230717.14.35.407630.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [kaldialign]: Downloading https://files.pythonhosted.org/packages/51/7a/e94db53914d4977e781f33621d620b7d8878e418176e12c1bc66a36fb2a5/kaldialign-0.7-cp39-cp39-win_amd64.whl
+[2023-07-17 17:06:51] INFO root fetch - processPackages [tap-pulumi-cloud]: Downloading https://files.pythonhosted.org/packages/19/12/7424a3f8dcdb6ad1e61125226d8d2106ee74e5794faef2798e96b3424406/tap_pulumi_cloud-0.0.2.tar.gz
+[2023-07-17 17:06:51] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38787706>=10485760
+[2023-07-17 17:06:51] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: anicli-api
+[2023-07-17 17:06:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-17 17:06:51] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/73/44/7554810ee5bcfb2f4358751f42a5abfce02a7d83f2fef655533bd203fac8/collective.behavior.relatedmedia-3.2.0.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/72/87/2cd70b24dbf11e16e6bdccadfade4bec30d5f6cb90b128270d98e8cc5643/spotinst-sdk2-2.1.8.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/c7/97/40a85bd27da317165babae8a783f92e5f5f65775f22278c459700d0efe1b/udata-6.1.6.dev25669-py2.py3-none-any.whl
+[2023-07-17 17:06:51] INFO root fetch - processPackages [pmagpy]: Downloading https://files.pythonhosted.org/packages/76/6d/e9cc87da9af631cf742453d5dc247509e7ff54c8c1f63bee225becbf5533/pmagpy-4.2.97.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [anicli-api]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/72/b0/07a5bc4a6ce84960aec0cb5e4b1255a7298f9bb56ce9fdfc3e4a5022116e/TextClassification-0.1.7-py2.py3-none-any.whl
+[2023-07-17 17:06:51] INFO root fetch - processPackages [anicli-api]: Downloading https://files.pythonhosted.org/packages/c0/ba/e8c6a44669949e185bac350e3d567189966dd83fd6de727f63b9ff483ef2/anicli_api-0.4.4.tar.gz
+[2023-07-17 17:06:51] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19609517>=10485760
+[2023-07-17 17:06:51] INFO root fetch - processPackages [udata]: Start processing: rdfizer
+[2023-07-17 17:06:51] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-17 17:06:51] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-17 17:06:51] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.1.6-py2.py3-none-any.whl.zip tmp/TextClassification-0.1.7-py2.py3-none-any.whl.zip --markdown 20230717/T/TextClassification/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 17:06:51] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-07-17 17:06:51] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-07-17 17:06:51] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-07-17 17:06:51] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230717/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [kaldialign]: Downloading https://files.pythonhosted.org/packages/9e/97/d7553a0bd4d98be2f16526ddeaffaf86abe9209ca4dfef72c7498053a214/kaldialign-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 17:06:52] INFO root fetch - processPackages [tap-pulumi-cloud]: Downloading https://files.pythonhosted.org/packages/b3/17/c8453f44c9e00a97c4530c35d68d3233306c12e436b1b2522103becdf8dd/tap_pulumi_cloud-0.0.2a1.tar.gz
+[2023-07-17 17:06:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-07-17 17:06:52] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/24/ca/c26f81e85bd7ecda3b64d20be266440204fbbdf1046b69bea4f97a17b4bb/spotinst-sdk2-2.1.9.tar.gz
+[2023-07-17 17:06:52] INFO root fetch - processPackages [anicli-api]: Downloading https://files.pythonhosted.org/packages/d5/20/22e2c994f727e149f5902010ec20b1504b2044b3cd07e89443753d39ec54/anicli_api-0.4.5.tar.gz
+[2023-07-17 17:06:52] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230717/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [kaldialign]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [kaldialign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldialign-0.7-cp39-cp39-win_amd64.whl.zip tmp/kaldialign-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230717/k/kaldialign/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [anicli-api]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [anicli-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anicli_api-0.4.4.tar.gz tmp/anicli_api-0.4.5.tar.gz --markdown 20230717/a/anicli-api/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [tap-pulumi-cloud]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [tap-pulumi-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_pulumi_cloud-0.0.2.tar.gz tmp/tap_pulumi_cloud-0.0.2a1.tar.gz --markdown 20230717/t/tap-pulumi-cloud/0.0.2-0.0.2a1/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] WARNING root fetch - processPackages [pmagpy]: Skipping package: exceeds size limit 47946093>=10485760
+[2023-07-17 17:06:52] INFO root fetch - processPackages [pmagpy]: Start processing: swillow
+[2023-07-17 17:06:52] INFO root fetch - main [MainThread]: End processing [pmagpy] error
+[2023-07-17 17:06:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-07-17 17:06:52] WARNING root fetch - processPackages [swillow]: Skipping, unable to determine old version
+[2023-07-17 17:06:52] INFO root fetch - processPackages [swillow]: Start processing: chartart
+[2023-07-17 17:06:52] INFO root fetch - main [MainThread]: End processing [swillow] error
+[2023-07-17 17:06:52] INFO root fetch - processPackages [chartart]: New version: [0.0.3.dev19] Old Version: [0.0.3.dev18]
+[2023-07-17 17:06:52] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230717/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/76/c2/3fba1a881d5995368d84e83de78273cbfbde61ca8c6ddedb62b7b8ec9c27/collective.behavior.relatedmedia-3.3.0.tar.gz
+[2023-07-17 17:06:52] INFO root fetch - processPackages [collective.behavior.relatedmedia]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [collective.behavior.relatedmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.behavior.relatedmedia-3.2.0.tar.gz tmp/collective.behavior.relatedmedia-3.3.0.tar.gz --markdown 20230717/c/collective.behavior.relatedmedia/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [spotinst-sdk2]: executing diffoscope
+[2023-07-17 17:06:52] INFO root fetch - processPackages [spotinst-sdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-sdk2-2.1.8.tar.gz tmp/spotinst-sdk2-2.1.9.tar.gz --markdown 20230717/s/spotinst-sdk2/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:52] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/04/19/c441d6cb383209fb3d99d752b726d41f34d9562110b44f60771e4cd8b726/chartart-0.0.3.dev18.tar.gz
+[2023-07-17 17:06:52] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.6-py2.py3-none-any.whl.zip]
+[2023-07-17 17:06:52] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.7-py2.py3-none-any.whl.zip]
+[2023-07-17 17:06:52] INFO root fetch - processPackages [TextClassification]: Start processing: ai-aside
+[2023-07-17 17:06:52] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-17 17:06:53] INFO root fetch - processPackages [ai-aside]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/b6/20/852f06bdaa1e82523589a10238203447bafceaabd9c9a1bc9f643e4ed7be/chartart-0.0.3.dev19.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/f9/55/aa942df8dce5501d2786f46d1f1a65435d5c8059d4fb8e9393101f62aa0f/ai-aside-2.0.2.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [chartart]: executing diffoscope
+[2023-07-17 17:06:53] INFO root fetch - processPackages [chartart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartart-0.0.3.dev18.tar.gz tmp/chartart-0.0.3.dev19.tar.gz --markdown 20230717/c/chartart/0.0.3.dev18-0.0.3.dev19/diff.md --exclude *.pyd
+[2023-07-17 17:06:53] INFO root fetch - processPackages [kaldialign]: Remove: archive file [/home/abi/fetcher/tmp/kaldialign-0.7-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [kaldialign]: Remove: archive file [/home/abi/fetcher/tmp/kaldialign-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [kaldialign]: Start processing: mapillary-tools
+[2023-07-17 17:06:53] INFO root fetch - main [MainThread]: End processing [kaldialign]: success
+[2023-07-17 17:06:53] INFO root fetch - processPackages [mapillary-tools]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [je-web-runner]: Start processing: pipcoloringstools
+[2023-07-17 17:06:53] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-07-17 17:06:53] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/fc/49/451a32155f632660f5c43be5e6d9d2525da351b3161149988c451970c7c6/mapillary_tools-0.9.4.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [tap-pulumi-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tap_pulumi_cloud-0.0.2.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [tap-pulumi-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tap_pulumi_cloud-0.0.2a1.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [tap-pulumi-cloud]: Start processing: deprl
+[2023-07-17 17:06:53] INFO root fetch - main [MainThread]: End processing [tap-pulumi-cloud]: success
+[2023-07-17 17:06:53] WARNING root fetch - processPackages [pipcoloringstools]: Skipping, unable to determine old version
+[2023-07-17 17:06:53] INFO root fetch - processPackages [pipcoloringstools]: Start processing: panda-python
+[2023-07-17 17:06:53] INFO root fetch - main [MainThread]: End processing [pipcoloringstools] error
+[2023-07-17 17:06:53] INFO root fetch - processPackages [anicli-api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.4.4.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [anicli-api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.4.5.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [anicli-api]: Start processing: marquez-python
+[2023-07-17 17:06:53] INFO root fetch - main [MainThread]: End processing [anicli-api]: success
+[2023-07-17 17:06:53] INFO root fetch - processPackages [deprl]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [panda-python]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/f7/c2/49c959e76c7750253f7feb5f5e3fda85a32d9e51e5202a27ce5b71eefa92/ai-aside-3.0.0.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [marquez-python]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [rdfizer]: Start processing: aliyun-python-sdk-rds
+[2023-07-17 17:06:53] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-07-17 17:06:53] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [ai-aside]: executing diffoscope
+[2023-07-17 17:06:53] INFO root fetch - processPackages [ai-aside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-aside-2.0.2.tar.gz tmp/ai-aside-3.0.0.tar.gz --markdown 20230717/a/ai-aside/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-17 17:06:53] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/30/a4/54bc60e884aef3991fab6e751163320713cad33cbf99cd57c46836c39655/mapillary_tools-0.9.5.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [deprl]: Downloading https://files.pythonhosted.org/packages/62/99/637f254deafec50b60caf0a3be26288b20f66621a19e5bda6fd3f53e33d6/deprl-0.1.4.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-17 17:06:53] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-07-17 17:06:53] INFO root fetch - processPackages [PHX]: Start processing: pythoncryptextensions
+[2023-07-17 17:06:54] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-07-17 17:06:54] INFO root fetch - processPackages [panda-python]: Downloading https://files.pythonhosted.org/packages/1f/05/733a30bef64bc32607dd7015f0edbab145c4721ffed37e6e383800730129/panda-python-0.5.0.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mapillary-tools]: executing diffoscope
+[2023-07-17 17:06:54] INFO root fetch - processPackages [marquez-python]: Downloading https://files.pythonhosted.org/packages/f9/53/85a819373b27854e2219127361bca5fe50771f8fd8b6da0f6854b7ba301e/marquez-python-0.7.8.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mapillary-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapillary_tools-0.9.4.tar.gz tmp/mapillary_tools-0.9.5.tar.gz --markdown 20230717/m/mapillary-tools/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-17 17:06:54] ERROR root fetch - processPackages [pythoncryptextensions]: Unable to get metadata: No such project 'pythoncryptextensions'
+[2023-07-17 17:06:54] INFO root fetch - processPackages [pythoncryptextensions]: Start processing: mahaNLP
+[2023-07-17 17:06:54] INFO root fetch - main [MainThread]: End processing [pythoncryptextensions] error
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mahaNLP]: New version: [0.9] Old Version: [0.8]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-2.1.8.tar.gz]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-2.1.9.tar.gz]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [spotinst-sdk2]: Start processing: hagrid
+[2023-07-17 17:06:54] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
+[2023-07-17 17:06:54] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [panda-python]: Downloading https://files.pythonhosted.org/packages/d1/21/112aad117b5ed07eee8ea0aa41476fba5f220007ae76633d557f723dd493/panda-python-0.5.1.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mahaNLP]: Downloading https://files.pythonhosted.org/packages/19/bb/d16220abde9fee8f4832ac67b917bec2c60bf8ed66d2cc167556db6c8543/mahaNLP-0.8-py3-none-any.whl
+[2023-07-17 17:06:54] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-17 17:06:54] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230717/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:54] INFO root fetch - processPackages [deprl]: Downloading https://files.pythonhosted.org/packages/c4/a1/32222712011aa77ec04001098aadcd6f86f26f35f2e67935c96132f9057c/deprl-0.1.5.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.2.0.tar.gz]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.3.0.tar.gz]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Start processing: cenas
+[2023-07-17 17:06:54] INFO root fetch - main [MainThread]: End processing [collective.behavior.relatedmedia]: success
+[2023-07-17 17:06:54] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [marquez-python]: Downloading https://files.pythonhosted.org/packages/1c/f5/84157366ccbee743edfe66c809620d7d2897b2856d25d687431e9bcb636d/marquez-python-0.7.9.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [cenas]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [panda-python]: executing diffoscope
+[2023-07-17 17:06:54] INFO root fetch - processPackages [panda-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-python-0.5.0.tar.gz tmp/panda-python-0.5.1.tar.gz --markdown 20230717/p/panda-python/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 17:06:54] INFO root fetch - processPackages [deprl]: executing diffoscope
+[2023-07-17 17:06:54] INFO root fetch - processPackages [deprl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprl-0.1.4.tar.gz tmp/deprl-0.1.5.tar.gz --markdown 20230717/d/deprl/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 17:06:54] INFO root fetch - processPackages [chartart]: Remove: archive file [/home/abi/fetcher/tmp/chartart-0.0.3.dev18.tar.gz]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [chartart]: Remove: archive file [/home/abi/fetcher/tmp/chartart-0.0.3.dev19.tar.gz]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [chartart]: Start processing: pmagpy-cli
+[2023-07-17 17:06:54] INFO root fetch - main [MainThread]: End processing [chartart]: success
+[2023-07-17 17:06:54] INFO root fetch - processPackages [marquez-python]: executing diffoscope
+[2023-07-17 17:06:54] INFO root fetch - processPackages [marquez-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marquez-python-0.7.8.tar.gz tmp/marquez-python-0.7.9.tar.gz --markdown 20230717/m/marquez-python/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:54] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/2e/52/1b6ba9e2fdc153071273dd8712459fbe118462438bdef6e5b8f160dd1e6a/cenas-1.1.7.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [pmagpy-cli]: New version: [4.2.98] Old Version: [4.2.97]
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mahaNLP]: Downloading https://files.pythonhosted.org/packages/38/cd/60dbe33a0fae51fa171c7299906cd0c63069e43a41929ad70b6b7e2ff409/mahaNLP-0.9-py3-none-any.whl
+[2023-07-17 17:06:54] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mahaNLP]: executing diffoscope
+[2023-07-17 17:06:54] INFO root fetch - processPackages [mahaNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahaNLP-0.8-py3-none-any.whl.zip tmp/mahaNLP-0.9-py3-none-any.whl.zip --markdown 20230717/m/mahaNLP/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:55] INFO root fetch - processPackages [pmagpy-cli]: Downloading https://files.pythonhosted.org/packages/87/cc/b0a8999a7e1827a4ef40547d3854fbeaa0925edcf8971474756c4cabf77d/pmagpy-cli-4.2.97.tar.gz
+[2023-07-17 17:06:55] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-17 17:06:55] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230717/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:55] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-17 17:06:55] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-17 17:06:55] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.7.tar.gz tmp/cenas-1.1.8.tar.gz --markdown 20230717/c/cenas/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-17 17:06:55] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-2.0.2.tar.gz]
+[2023-07-17 17:06:55] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-3.0.0.tar.gz]
+[2023-07-17 17:06:55] INFO root fetch - processPackages [ai-aside]: Start processing: sigtech
+[2023-07-17 17:06:55] INFO root fetch - main [MainThread]: End processing [ai-aside]: success
+[2023-07-17 17:06:55] INFO root fetch - processPackages [sigtech]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-17 17:06:55] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.4.tar.gz]
+[2023-07-17 17:06:55] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.5.tar.gz]
+[2023-07-17 17:06:55] INFO root fetch - processPackages [mapillary-tools]: Start processing: ovs-dbg
+[2023-07-17 17:06:55] INFO root fetch - main [MainThread]: End processing [mapillary-tools]: success
+[2023-07-17 17:06:55] INFO root fetch - processPackages [sigtech]: Downloading https://files.pythonhosted.org/packages/71/66/ea3187575d95d27742b316ada758f5d8e9ca3713c8c439eebd7c6f88d4b4/sigtech-0.0.38.tar.gz
+[2023-07-17 17:06:55] INFO root fetch - processPackages [ovs-dbg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:06:55] INFO root fetch - processPackages [ovs-dbg]: Downloading https://files.pythonhosted.org/packages/8a/94/ff70de7bd903b8bbc07dbe9813b5d27e90239fb9601ffe850c0dcb2eb52f/ovs_dbg-0.0.8.tar.gz
+[2023-07-17 17:06:55] INFO root fetch - processPackages [pmagpy-cli]: Downloading https://files.pythonhosted.org/packages/41/b2/fc049db00407037ed5a2a7de125f0d2ee193347d330ad1e30ca400373805/pmagpy-cli-4.2.98.tar.gz
+[2023-07-17 17:06:55] INFO root fetch - processPackages [sigtech]: Downloading https://files.pythonhosted.org/packages/58/0a/bf0b3d5fa3c02ab32016498c2228a22979eb1c0e9aeba52ef40d3ab2d748/sigtech-0.0.39.tar.gz
+[2023-07-17 17:06:56] INFO root fetch - processPackages [ovs-dbg]: Downloading https://files.pythonhosted.org/packages/67/37/44589f2d9ba1d49e114551dbc156764bacfb96c3f381bd5faeea1c1cc814/ovs_dbg-0.0.9.tar.gz
+[2023-07-17 17:06:56] INFO root fetch - processPackages [sigtech]: executing diffoscope
+[2023-07-17 17:06:56] INFO root fetch - processPackages [sigtech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigtech-0.0.38.tar.gz tmp/sigtech-0.0.39.tar.gz --markdown 20230717/s/sigtech/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-07-17 17:06:56] INFO root fetch - processPackages [panda-python]: Remove: archive file [/home/abi/fetcher/tmp/panda-python-0.5.0.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - processPackages [panda-python]: Remove: archive file [/home/abi/fetcher/tmp/panda-python-0.5.1.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - main [MainThread]: End processing [panda-python]: success
+[2023-07-17 17:06:56] INFO root fetch - processPackages [marquez-python]: Remove: archive file [/home/abi/fetcher/tmp/marquez-python-0.7.8.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - processPackages [ovs-dbg]: executing diffoscope
+[2023-07-17 17:06:56] INFO root fetch - processPackages [ovs-dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs_dbg-0.0.8.tar.gz tmp/ovs_dbg-0.0.9.tar.gz --markdown 20230717/o/ovs-dbg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:06:56] INFO root fetch - processPackages [marquez-python]: Remove: archive file [/home/abi/fetcher/tmp/marquez-python-0.7.9.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - main [MainThread]: End processing [marquez-python]: success
+[2023-07-17 17:06:56] INFO root fetch - processPackages [pmagpy-cli]: executing diffoscope
+[2023-07-17 17:06:56] INFO root fetch - processPackages [pmagpy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmagpy-cli-4.2.97.tar.gz tmp/pmagpy-cli-4.2.98.tar.gz --markdown 20230717/p/pmagpy-cli/4.2.97-4.2.98/diff.md --exclude *.pyd
+[2023-07-17 17:06:56] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.4.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.5.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - main [MainThread]: End processing [deprl]: success
+[2023-07-17 17:06:56] INFO root fetch - processPackages [mahaNLP]: Remove: archive file [/home/abi/fetcher/tmp/mahaNLP-0.8-py3-none-any.whl.zip]
+[2023-07-17 17:06:56] INFO root fetch - processPackages [mahaNLP]: Remove: archive file [/home/abi/fetcher/tmp/mahaNLP-0.9-py3-none-any.whl.zip]
+[2023-07-17 17:06:56] INFO root fetch - main [MainThread]: End processing [mahaNLP]: success
+[2023-07-17 17:06:56] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.7.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-17 17:06:56] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-17 17:06:56] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-17 17:06:57] INFO root fetch - processPackages [sigtech]: Remove: archive file [/home/abi/fetcher/tmp/sigtech-0.0.38.tar.gz]
+[2023-07-17 17:06:57] INFO root fetch - processPackages [sigtech]: Remove: archive file [/home/abi/fetcher/tmp/sigtech-0.0.39.tar.gz]
+[2023-07-17 17:06:57] INFO root fetch - main [MainThread]: End processing [sigtech]: success
+[2023-07-17 17:06:57] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-17 17:06:57] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-17 17:06:57] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-17 17:06:57] INFO root fetch - processPackages [ovs-dbg]: Remove: archive file [/home/abi/fetcher/tmp/ovs_dbg-0.0.8.tar.gz]
+[2023-07-17 17:06:57] INFO root fetch - processPackages [ovs-dbg]: Remove: archive file [/home/abi/fetcher/tmp/ovs_dbg-0.0.9.tar.gz]
+[2023-07-17 17:06:57] INFO root fetch - main [MainThread]: End processing [ovs-dbg]: success
+[2023-07-17 17:06:58] INFO root fetch - processPackages [pmagpy-cli]: Remove: archive file [/home/abi/fetcher/tmp/pmagpy-cli-4.2.97.tar.gz]
+[2023-07-17 17:06:58] INFO root fetch - processPackages [pmagpy-cli]: Remove: archive file [/home/abi/fetcher/tmp/pmagpy-cli-4.2.98.tar.gz]
+[2023-07-17 17:06:58] INFO root fetch - main [MainThread]: End processing [pmagpy-cli]: success
+[2023-07-17 17:06:58] INFO root fetch - main [MainThread]: Store serial: [18918668]
