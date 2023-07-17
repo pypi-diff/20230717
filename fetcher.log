@@ -22568,3 +22568,276 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 17:12:17] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.9.tar.gz]
 [2023-07-17 17:12:17] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-07-17 17:12:17] INFO root fetch - main [MainThread]: Store serial: [18918733]
+[2023-07-17 17:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918733]
+[2023-07-17 17:17:27] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-engineering-pulumi-components
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acdh-cidoc-pyutils
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsqfitgp
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matflow-new
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdkit
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lswifi
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pathgenmap
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: primerdiffer
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynkdv
+[2023-07-17 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: heaserver
+[2023-07-17 17:17:27] INFO root fetch - processPackages [lswifi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [primerdiffer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [lsqfitgp]: New version: [0.9] Old Version: [0.8]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev6]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [acdh-cidoc-pyutils]: New version: [0.9] Old Version: [0.8]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [pynkdv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-17 17:17:27] INFO root fetch - processPackages [lswifi]: Downloading https://files.pythonhosted.org/packages/8b/89/0ee59238e3c7918e55caafec161372a71a7f06fc1c78c9e811585844ee96/lswifi-0.1.8.tar.gz
+[2023-07-17 17:17:27] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 17:17:27] INFO root fetch - processPackages [pynkdv]: Downloading https://files.pythonhosted.org/packages/60/ae/3dff1130bdc59842dc37999b93afd517413cc708e48cda07beef2d4a2668/pynkdv-0.0.8.tar.gz
+[2023-07-17 17:17:27] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [primerdiffer]: Downloading https://files.pythonhosted.org/packages/e2/5c/601e01b8ff0be9fcf8e3735f473121d81bf05aeb72f39beb054a5230fcaf/primerdiffer-0.1.5-py3-none-any.whl
+[2023-07-17 17:17:28] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/14/06/305be1ee829edb9af712a657d8e45e51744e8c9027ea92116b31bcbf75a8/data-engineering-pulumi-components-0.4.1.dev6.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [lsqfitgp]: Downloading https://files.pythonhosted.org/packages/db/95/c6091ffe65cf91c456f88c753c41389fa7dac73da9a3594e9a00db731935/lsqfitgp-0.8.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [acdh-cidoc-pyutils]: Downloading https://files.pythonhosted.org/packages/7b/ce/01cccdab145959697f7c297228c813c837cdd42e1d759f0c1aef329608a5/acdh_cidoc_pyutils-0.8.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [pynkdv]: Downloading https://files.pythonhosted.org/packages/5c/30/75861c1b48fe5866bdadc7984bd4433cbc99f6636c754830cd421592dd9e/pynkdv-0.0.9.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [lswifi]: Downloading https://files.pythonhosted.org/packages/03/bf/373c7910f4e4022f82fa8e0b4a5c45ffcb541684a4c873bcd1916bd31fe1/lswifi-0.1.9.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:28] INFO root fetch - processPackages [primerdiffer]: Downloading https://files.pythonhosted.org/packages/96/95/03dcdb210220b92c83e5a645e20f59e4b871bd5a2256e17d127a56c8e9a7/primerdiffer-0.1.6.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230717/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-07-17 17:17:28] INFO root fetch - processPackages [primerdiffer]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [primerdiffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primerdiffer-0.1.5-py3-none-any.whl.zip tmp/primerdiffer-0.1.6.tar.gz --markdown 20230717/p/primerdiffer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 17:17:28] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [pynkdv]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [pynkdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynkdv-0.0.8.tar.gz tmp/pynkdv-0.0.9.tar.gz --markdown 20230717/p/pynkdv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:28] INFO root fetch - processPackages [lswifi]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [lswifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lswifi-0.1.8.tar.gz tmp/lswifi-0.1.9.tar.gz --markdown 20230717/l/lswifi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:28] INFO root fetch - processPackages [lsqfitgp]: Downloading https://files.pythonhosted.org/packages/ed/c2/202ed18536dec63e34c4defff80a6c0e36a45cd3f17a2475eb2db4a83862/lsqfitgp-0.9.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [acdh-cidoc-pyutils]: Downloading https://files.pythonhosted.org/packages/e8/d0/4c07d5625f56bad5625293c318b94595b488f790d6a2773d5e36e5c0296a/acdh_cidoc_pyutils-0.9.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-07-17 17:17:28] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230717/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-17 17:17:28] INFO root fetch - processPackages [acdh-cidoc-pyutils]: executing diffoscope
+[2023-07-17 17:17:28] INFO root fetch - processPackages [acdh-cidoc-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdh_cidoc_pyutils-0.8.tar.gz tmp/acdh_cidoc_pyutils-0.9.tar.gz --markdown 20230717/a/acdh-cidoc-pyutils/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:29] INFO root fetch - processPackages [lsqfitgp]: executing diffoscope
+[2023-07-17 17:17:29] INFO root fetch - processPackages [lsqfitgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsqfitgp-0.8.tar.gz tmp/lsqfitgp-0.9.tar.gz --markdown 20230717/l/lsqfitgp/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:29] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-07-17 17:17:29] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230717/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-17 17:17:29] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2023-07-17 17:17:29] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20230717/d/data-engineering-pulumi-components/0.4.1.dev6-0.4.1.dev7/diff.md --exclude *.pyd
+[2023-07-17 17:17:29] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 17:17:29] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 17:17:29] INFO root fetch - processPackages [pathgenmap]: Start processing: ovs-dbg
+[2023-07-17 17:17:29] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 17:17:29] INFO root fetch - processPackages [ovs-dbg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:17:29] INFO root fetch - processPackages [ovs-dbg]: Downloading https://files.pythonhosted.org/packages/8a/94/ff70de7bd903b8bbc07dbe9813b5d27e90239fb9601ffe850c0dcb2eb52f/ovs_dbg-0.0.8.tar.gz
+[2023-07-17 17:17:30] INFO root fetch - processPackages [primerdiffer]: Remove: archive file [/home/abi/fetcher/tmp/primerdiffer-0.1.5-py3-none-any.whl.zip]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [primerdiffer]: Remove: archive file [/home/abi/fetcher/tmp/primerdiffer-0.1.6.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [primerdiffer]: Start processing: swibots
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [primerdiffer]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [pynkdv]: Remove: archive file [/home/abi/fetcher/tmp/pynkdv-0.0.8.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [pynkdv]: Remove: archive file [/home/abi/fetcher/tmp/pynkdv-0.0.9.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [pynkdv]: Start processing: lusid-notifications-sdk-preview
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [pynkdv]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [swibots]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [ovs-dbg]: Downloading https://files.pythonhosted.org/packages/67/37/44589f2d9ba1d49e114551dbc156764bacfb96c3f381bd5faeea1c1cc814/ovs_dbg-0.0.9.tar.gz
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.786] Old Version: [0.1.785]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [ovs-dbg]: executing diffoscope
+[2023-07-17 17:17:30] INFO root fetch - processPackages [ovs-dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs_dbg-0.0.8.tar.gz tmp/ovs_dbg-0.0.9.tar.gz --markdown 20230717/o/ovs-dbg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:30] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/74/ac/09c1338de058583252937d9aeedcfb167b3833add7704a3337668c60fadc/swibots-1.3.4-py3-none-any.whl
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lswifi]: Remove: archive file [/home/abi/fetcher/tmp/lswifi-0.1.8.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lswifi]: Remove: archive file [/home/abi/fetcher/tmp/lswifi-0.1.9.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lswifi]: Start processing: cenas
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [lswifi]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/e0/3d/9a96583655fdd0e3bb24f5790feb8b4c208070b9b98ab0b773e6e57530dc/lusid-notifications-sdk-preview-0.1.785.tar.gz
+[2023-07-17 17:17:30] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [matflow-new]: Start processing: nonebot-plugin-groupmate-waifu
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-17 17:17:30] INFO root fetch - processPackages [acdh-cidoc-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/acdh_cidoc_pyutils-0.8.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [acdh-cidoc-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/acdh_cidoc_pyutils-0.9.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [acdh-cidoc-pyutils]: Start processing: fabric-credmgr-client
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [acdh-cidoc-pyutils]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lsqfitgp]: Remove: archive file [/home/abi/fetcher/tmp/lsqfitgp-0.8.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lsqfitgp]: Remove: archive file [/home/abi/fetcher/tmp/lsqfitgp-0.9.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [lsqfitgp]: Start processing: glmtuner
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [lsqfitgp]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [sdkit]: Start processing: finesse
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/54/bd/79a46cdadaaa2c8a2d600fcfd605526e9b95f87747256f7e7df6d76cb478/swibots-1.3.5.tar.gz
+[2023-07-17 17:17:30] INFO root fetch - processPackages [glmtuner]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [finesse]: New version: [3.0a8] Old Version: [3.0a7]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [fabric-credmgr-client]: New version: [1.6.0b4] Old Version: [1.6.0b3]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [heaserver]: Start processing: fabrictestbed
+[2023-07-17 17:17:30] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-07-17 17:17:30] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/41/57/951aa6378c0f228b3035aedbc146665fc92301a46169a7fb4765780edb23/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz
+[2023-07-17 17:17:30] INFO root fetch - processPackages [fabrictestbed]: New version: [1.6.0b4] Old Version: [1.6.0b3]
+[2023-07-17 17:17:30] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-17 17:17:30] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.4-py3-none-any.whl.zip tmp/swibots-1.3.5.tar.gz --markdown 20230717/s/swibots/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/7e/9c/4f6682659c6888be8fbd41c25e656d0330d86bc2c258f06b2d7fd5b01a3a/lusid-notifications-sdk-preview-0.1.786.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/d9/51/4340ee55a191c35ed5566fa0cf183a9253224e85746b9bd35f1ca752c6e5/fabric-credmgr-client-1.6.0b3.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [glmtuner]: Downloading https://files.pythonhosted.org/packages/cd/94/2cc5db18c20a072b458a9ca99e190506d82257e87f0f063e017ae53b528d/glmtuner-0.1.1.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/7d/69/453a412277309f8c790f50a44a03dfc0b8ca8998450632d62a585fd34c7c/finesse-3.0a7.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-17 17:17:31] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.785.tar.gz tmp/lusid-notifications-sdk-preview-0.1.786.tar.gz --markdown 20230717/l/lusid-notifications-sdk-preview/0.1.785-0.1.786/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/86/f0/f7b868929608a77c73ede7861678a8c11282414aafe3e093c6bab926cb56/fabrictestbed-1.6.0b3.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-17 17:17:31] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230717/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/d8/57/63f682e6a8ed1a45e1b57ba72148b2683dd6213d399872d41301677f9bcc/nonebot_plugin_groupmate_waifu-1.2.7.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [glmtuner]: Downloading https://files.pythonhosted.org/packages/b0/a6/8ca922ba238ed1269ed1bd137f30087f999ca2e2a8c30e275c1a345e7aec/glmtuner-0.1.2.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [ovs-dbg]: Remove: archive file [/home/abi/fetcher/tmp/ovs_dbg-0.0.8.tar.gz]
+[2023-07-17 17:17:31] INFO root fetch - processPackages [ovs-dbg]: Remove: archive file [/home/abi/fetcher/tmp/ovs_dbg-0.0.9.tar.gz]
+[2023-07-17 17:17:31] INFO root fetch - processPackages [ovs-dbg]: Start processing: streamlink-repo
+[2023-07-17 17:17:31] INFO root fetch - main [MainThread]: End processing [ovs-dbg]: success
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/d4/18/e8e7129e5ea30014831cd1864ed4b65d2b1ee8c6db1382a687293edade1e/fabric-credmgr-client-1.6.0b4.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [streamlink-repo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 17:17:31] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz]
+[2023-07-17 17:17:31] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2023-07-17 17:17:31] INFO root fetch - processPackages [data-engineering-pulumi-components]: Start processing: su6-plugin-svelte-check
+[2023-07-17 17:17:31] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/9d/37/85d377656aabc92bb2c8384d5a5daa62d832ef4b3952f96503cd14b004b5/fabrictestbed-1.6.0b4.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: executing diffoscope
+[2023-07-17 17:17:31] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz tmp/nonebot_plugin_groupmate_waifu-1.2.7.tar.gz --markdown 20230717/n/nonebot-plugin-groupmate-waifu/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [glmtuner]: executing diffoscope
+[2023-07-17 17:17:31] INFO root fetch - processPackages [glmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glmtuner-0.1.1.tar.gz tmp/glmtuner-0.1.2.tar.gz --markdown 20230717/g/glmtuner/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [su6-plugin-svelte-check]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabric-credmgr-client]: executing diffoscope
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabric-credmgr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-credmgr-client-1.6.0b3.tar.gz tmp/fabric-credmgr-client-1.6.0b4.tar.gz --markdown 20230717/f/fabric-credmgr-client/1.6.0b3-1.6.0b4/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-07-17 17:17:31] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.6.0b3.tar.gz tmp/fabrictestbed-1.6.0b4.tar.gz --markdown 20230717/f/fabrictestbed/1.6.0b3-1.6.0b4/diff.md --exclude *.pyd
+[2023-07-17 17:17:31] INFO root fetch - processPackages [streamlink-repo]: Downloading https://files.pythonhosted.org/packages/9b/da/0db8e874b289a23b528d959072dcb9c695235300354e54421bc07aba5822/streamlink-repo-1.0.2.tar.gz
+[2023-07-17 17:17:31] INFO root fetch - processPackages [su6-plugin-svelte-check]: Downloading https://files.pythonhosted.org/packages/0a/87/d6a81c998e09cae58dc41975b0563aef9444a745420b79fb584120e4d53c/su6_plugin_svelte_check-0.2.2.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.4-py3-none-any.whl.zip]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.5.tar.gz]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [swibots]: Start processing: idem-random
+[2023-07-17 17:17:32] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-17 17:17:32] INFO root fetch - processPackages [streamlink-repo]: Downloading https://files.pythonhosted.org/packages/26/37/770b93e99568c0f89c675b8b8452c3c4b2742761968ffa8640a53129b39f/streamlink-repo-1.0.3.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [idem-random]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [streamlink-repo]: executing diffoscope
+[2023-07-17 17:17:32] INFO root fetch - processPackages [streamlink-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-repo-1.0.2.tar.gz tmp/streamlink-repo-1.0.3.tar.gz --markdown 20230717/s/streamlink-repo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 17:17:32] INFO root fetch - processPackages [su6-plugin-svelte-check]: Downloading https://files.pythonhosted.org/packages/cb/0d/facd3b591fcb79cade2174a82da1ad889d5bb0f769881193d70d5b3776c0/su6_plugin_svelte_check-0.3.0.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [idem-random]: Downloading https://files.pythonhosted.org/packages/54/92/7582e35bbb3ca791643d6e4e948b443712d0e6acc21966e3344a181a525f/idem-random-0.2.1.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [cenas]: Start processing: eons
+[2023-07-17 17:17:32] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-17 17:17:32] INFO root fetch - processPackages [eons]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [su6-plugin-svelte-check]: executing diffoscope
+[2023-07-17 17:17:32] INFO root fetch - processPackages [su6-plugin-svelte-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6_plugin_svelte_check-0.2.2.tar.gz tmp/su6_plugin_svelte_check-0.3.0.tar.gz --markdown 20230717/s/su6-plugin-svelte-check/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:17:32] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/dd/7a/aa2dcd3c2bda3b3e0c4829ae1c82cfdc4e2e82b240d17c68b82a0d21024f/eons-2.7.1.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/4d/b5/4ffb84f09fa01ec87721ce4b17350f2f8eefbdaa39afc060c8a80276d236/finesse-3.0a8.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.2.7.tar.gz]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Start processing: pathgenmap
+[2023-07-17 17:17:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-groupmate-waifu]: success
+[2023-07-17 17:17:32] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:17:32] INFO root fetch - processPackages [idem-random]: Downloading https://files.pythonhosted.org/packages/03/c5/0c5efd57fa7363aa67407ff134accb6960c2df43b4be021736ba07eb3ef1/idem-random-1.0.0.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 17:17:32] INFO root fetch - processPackages [idem-random]: executing diffoscope
+[2023-07-17 17:17:32] INFO root fetch - processPackages [idem-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-random-0.2.1.tar.gz tmp/idem-random-1.0.0.tar.gz --markdown 20230717/i/idem-random/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 17:17:32] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/8e/58/769d3c48abdb50a5af0410bcfaa3c09b36b4379adfb0dac3feee750889e6/eons-2.7.2.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-07-17 17:17:33] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.7.1.tar.gz tmp/eons-2.7.2.tar.gz --markdown 20230717/e/eons/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.6.0b3.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.6.0b4.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabrictestbed]: Start processing: fabrictestbed-extensions
+[2023-07-17 17:17:33] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-07-17 17:17:33] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.6.0b5] Old Version: [1.6.0b4]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [glmtuner]: Remove: archive file [/home/abi/fetcher/tmp/glmtuner-0.1.1.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [glmtuner]: Remove: archive file [/home/abi/fetcher/tmp/glmtuner-0.1.2.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [glmtuner]: Start processing: kcfg
+[2023-07-17 17:17:33] INFO root fetch - main [MainThread]: End processing [glmtuner]: success
+[2023-07-17 17:17:33] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 17:17:33] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:17:33] INFO root fetch - processPackages [kcfg]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.6.0b3.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.6.0b4.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabric-credmgr-client]: Start processing: shelephant
+[2023-07-17 17:17:33] INFO root fetch - main [MainThread]: End processing [fabric-credmgr-client]: success
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d1/ee/8b876e51d71e132c16fb8de1674caa74cf8b3621b57c0592c210d7581034/fabrictestbed-extensions-1.6.0b4.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [streamlink-repo]: Remove: archive file [/home/abi/fetcher/tmp/streamlink-repo-1.0.2.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [streamlink-repo]: Remove: archive file [/home/abi/fetcher/tmp/streamlink-repo-1.0.3.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [streamlink-repo]: Start processing: x-transformers
+[2023-07-17 17:17:33] INFO root fetch - main [MainThread]: End processing [streamlink-repo]: success
+[2023-07-17 17:17:33] INFO root fetch - processPackages [shelephant]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.785.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.786.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: PyBIS
+[2023-07-17 17:17:33] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-17 17:17:33] INFO root fetch - processPackages [kcfg]: Downloading https://files.pythonhosted.org/packages/26/70/e4d79b4d8e87079560b3f7bce04335b5888c378bab0d40e5076538e8e211/kcfg-0.1.0.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [shelephant]: Downloading https://files.pythonhosted.org/packages/2d/a4/eb89174621cb4db480e5ee671940c1839e2aa2d7672091785663efee5de7/shelephant-0.8.1.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [finesse]: executing diffoscope
+[2023-07-17 17:17:33] INFO root fetch - processPackages [finesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finesse-3.0a7.tar.gz tmp/finesse-3.0a8.tar.gz --markdown 20230717/f/finesse/3.0a7-3.0a8/diff.md --exclude *.pyd
+[2023-07-17 17:17:33] INFO root fetch - processPackages [su6-plugin-svelte-check]: Remove: archive file [/home/abi/fetcher/tmp/su6_plugin_svelte_check-0.2.2.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [su6-plugin-svelte-check]: Remove: archive file [/home/abi/fetcher/tmp/su6_plugin_svelte_check-0.3.0.tar.gz]
+[2023-07-17 17:17:33] INFO root fetch - processPackages [su6-plugin-svelte-check]: Start processing: langsmith
+[2023-07-17 17:17:33] INFO root fetch - main [MainThread]: End processing [su6-plugin-svelte-check]: success
+[2023-07-17 17:17:33] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/2b/eb/3504435cc86f392c9615abbd5e84a9bea00a553a8b421c4faf629f43686f/fabrictestbed-extensions-1.6.0b5.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [kcfg]: Downloading https://files.pythonhosted.org/packages/61/60/c8257b59c2e5a79eec98926280b919c2ca500cc15f726e85b0740182f164/kcfg-0.1.1.tar.gz
+[2023-07-17 17:17:33] INFO root fetch - processPackages [langsmith]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 17:17:34] INFO root fetch - processPackages [kcfg]: executing diffoscope
+[2023-07-17 17:17:34] INFO root fetch - processPackages [kcfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcfg-0.1.0.tar.gz tmp/kcfg-0.1.1.tar.gz --markdown 20230717/k/kcfg/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 17:17:34] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-07-17 17:17:34] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-07-17 17:17:34] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-07-17 17:17:34] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.6.0b4.tar.gz tmp/fabrictestbed-extensions-1.6.0b5.tar.gz --markdown 20230717/f/fabrictestbed-extensions/1.6.0b4-1.6.0b5/diff.md --exclude *.pyd
+[2023-07-17 17:17:34] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-07-17 17:17:34] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230717/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-17 17:17:34] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/04/26/570ff1a8cbe2bc3494b7d872f34735a17198640faf45f32454423c8f43f0/langsmith-0.0.7.tar.gz
+[2023-07-17 17:17:34] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 17:17:34] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-07-17 17:17:34] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230717/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-17 17:17:34] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 17:17:34] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 17:17:34] INFO root fetch - processPackages [shelephant]: Downloading https://files.pythonhosted.org/packages/93/46/ce850f729de093ce798c0d10e2125a344d87d2cf42e56b9380fbf5578cef/shelephant-0.9.0.tar.gz
+[2023-07-17 17:17:34] INFO root fetch - processPackages [idem-random]: Remove: archive file [/home/abi/fetcher/tmp/idem-random-0.2.1.tar.gz]
+[2023-07-17 17:17:34] INFO root fetch - processPackages [idem-random]: Remove: archive file [/home/abi/fetcher/tmp/idem-random-1.0.0.tar.gz]
+[2023-07-17 17:17:34] INFO root fetch - main [MainThread]: End processing [idem-random]: success
+[2023-07-17 17:17:34] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.7.1.tar.gz]
+[2023-07-17 17:17:34] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.7.2.tar.gz]
+[2023-07-17 17:17:34] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-07-17 17:17:34] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/70/e8/f08f968adcbfa5134b56fd72a951d7bca0cf3c45e19f526a8e2eacfa377c/langsmith-0.0.8.tar.gz
+[2023-07-17 17:17:34] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-17 17:17:34] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.7.tar.gz tmp/langsmith-0.0.8.tar.gz --markdown 20230717/l/langsmith/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 17:17:34] INFO root fetch - processPackages [shelephant]: executing diffoscope
+[2023-07-17 17:17:34] INFO root fetch - processPackages [shelephant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelephant-0.8.1.tar.gz tmp/shelephant-0.9.0.tar.gz --markdown 20230717/s/shelephant/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 17:17:35] INFO root fetch - processPackages [kcfg]: Remove: archive file [/home/abi/fetcher/tmp/kcfg-0.1.0.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - processPackages [kcfg]: Remove: archive file [/home/abi/fetcher/tmp/kcfg-0.1.1.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - main [MainThread]: End processing [kcfg]: success
+[2023-07-17 17:17:35] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.1.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-07-17 17:17:35] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.6.0b4.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.6.0b5.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-07-17 17:17:35] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.7.tar.gz]
+[2023-07-17 17:17:35] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.8.tar.gz]
+[2023-07-17 17:17:36] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-17 17:17:36] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-07-17 17:17:36] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-07-17 17:17:36] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-07-17 17:17:36] INFO root fetch - processPackages [shelephant]: Remove: archive file [/home/abi/fetcher/tmp/shelephant-0.8.1.tar.gz]
+[2023-07-17 17:17:36] INFO root fetch - processPackages [shelephant]: Remove: archive file [/home/abi/fetcher/tmp/shelephant-0.9.0.tar.gz]
+[2023-07-17 17:17:36] INFO root fetch - main [MainThread]: End processing [shelephant]: success
+[2023-07-17 17:17:54] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a7.tar.gz]
+[2023-07-17 17:17:54] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
+[2023-07-17 17:17:54] INFO root fetch - main [MainThread]: End processing [finesse]: success
+[2023-07-17 17:17:54] INFO root fetch - main [MainThread]: Store serial: [18918826]
