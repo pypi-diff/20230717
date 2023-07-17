@@ -13602,3 +13602,153 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:55:28] INFO root fetch - processPackages [scilint]: Remove: archive file [/home/abi/fetcher/tmp/scilint-0.2.0.tar.gz]
 [2023-07-17 11:55:28] INFO root fetch - main [MainThread]: End processing [scilint]: success
 [2023-07-17 11:55:28] INFO root fetch - main [MainThread]: Store serial: [18915031]
+[2023-07-17 12:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915031]
+[2023-07-17 12:00:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utilsbox
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelsight
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phanos
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-sdk
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-glue
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dock-py-selenium
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkov
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atomicshop
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fsapi-tools
+[2023-07-17 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-swag
+[2023-07-17 12:00:37] INFO root fetch - processPackages [fsapi-tools]: New version: [1.0.0rc0] Old Version: [1.0.0]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:00:37] WARNING root fetch - processPackages [simple-swag]: Skipping, unable to determine old version
+[2023-07-17 12:00:37] INFO root fetch - processPackages [simple-swag]: Start processing: gitlab-arc-fs
+[2023-07-17 12:00:37] INFO root fetch - main [MainThread]: End processing [simple-swag] error
+[2023-07-17 12:00:37] INFO root fetch - processPackages [utilsbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [modelsight]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.21]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [dock-py-selenium]: New version: [2.1.1] Old Version: [2.0.1]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [atomicshop]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [dbt-glue]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.9.dev1] Old Version: [0.0.8.dev1]
+[2023-07-17 12:00:37] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/bd/6f/0e5c53ed396b0309d52f708624ff5a4f7b3b553d21be3000e107c019b7a6/dock-py-selenium-2.0.1.tar.gz
+[2023-07-17 12:00:37] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-17 12:00:37] INFO root fetch - processPackages [fsapi-tools]: Downloading https://files.pythonhosted.org/packages/5e/5c/047ba2de4f949372f2dfdfe38bf2345f8981c947d73517e2c13727e81276/fsapi-tools-1.0.0.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/08/66/1710469a1917e052ec9c531b0b76b11ac489259bcc79828cb64229640d77/spark_sdk-0.4.21-py3-none-any.whl
+[2023-07-17 12:00:38] INFO root fetch - processPackages [utilsbox]: Downloading https://files.pythonhosted.org/packages/7f/98/736c1e4537661c317a3c29634557005cd5f17c962cea374ad95bdd224bb7/utilsbox-0.0.8.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/0c/cb/138a353cf61e9529c5cc03ba196674da2769ef0c4820bfe0b45b9f319639/dbt-glue-1.5.2.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/b2/1b/a6e752781069d47d9b3ca8c88066a4fbf6a16f0e6b1eb7dae407f9cabd29/atomicshop-1.8.5-py3-none-any.whl
+[2023-07-17 12:00:38] INFO root fetch - processPackages [modelsight]: Downloading https://files.pythonhosted.org/packages/ff/af/3be49c88c351bca5549f5e2ba9dc9b3af6c46c06900f8a7c4df2e6da18f1/modelsight-0.1.0.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0e/13/96cc6617347f539f4105aa2d8c22e0f59367d4839663ee5456fdf3fa2047/gitlab_arc_fs-0.0.8.dev1.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [fsapi-tools]: Downloading https://files.pythonhosted.org/packages/f5/06/611e5a2f410feb2e9b26ac2cf6efce0d1c4633313ff75d9ccaf119914b07/fsapi-tools-1.0.0rc0.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/6d/4e/59cf4ebb4dc549c7bbc3300ad001d58a73d65112414af2bad86ee06e3464/dock-py-selenium-2.1.1.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-17 12:00:38] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230717/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:00:38] INFO root fetch - processPackages [fsapi-tools]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [fsapi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsapi-tools-1.0.0.tar.gz tmp/fsapi-tools-1.0.0rc0.tar.gz --markdown 20230717/f/fsapi-tools/1.0.0-1.0.0rc0/diff.md --exclude *.pyd
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/11/86/d816a9e4450a9c3d59f70f65096b17173f746180ba73f5eca98f1b6c2683/dbt-glue-1.5.3.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-2.0.1.tar.gz tmp/dock-py-selenium-2.1.1.tar.gz --markdown 20230717/d/dock-py-selenium/2.0.1-2.1.1/diff.md --exclude *.pyd
+[2023-07-17 12:00:38] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.21-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230717/s/spark-sdk/0.4.21-0.4.9/diff.md --exclude *.pyd
+[2023-07-17 12:00:38] INFO root fetch - processPackages [modelsight]: Downloading https://files.pythonhosted.org/packages/7b/b1/29d006af4d70d355a537ed19dc0b0b0939aa565b3ee520ba7955406264d5/modelsight-0.2.0.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230717/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 12:00:38] INFO root fetch - processPackages [utilsbox]: Downloading https://files.pythonhosted.org/packages/6d/db/3bb6d3d9b9669d07854735e3d4a4a628d2961bb6f167c6f6baef4f352830/utilsbox-0.0.9.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dbt-glue]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [dbt-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-glue-1.5.2.tar.gz tmp/dbt-glue-1.5.3.tar.gz --markdown 20230717/d/dbt-glue/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-17 12:00:38] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/71/24/64d00d6b6dc182094e326cb96a5375005ee8859f0a59ccd0c2d5a9329d82/atomicshop-1.8.6-py3-none-any.whl
+[2023-07-17 12:00:38] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0f/cd/99d970c989763e4c968b7bc029225b30885ba89e68822868e6b6f5cf5be8/gitlab_arc_fs-0.0.9.dev1.tar.gz
+[2023-07-17 12:00:38] INFO root fetch - processPackages [modelsight]: executing diffoscope
+[2023-07-17 12:00:38] INFO root fetch - processPackages [modelsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelsight-0.1.0.tar.gz tmp/modelsight-0.2.0.tar.gz --markdown 20230717/m/modelsight/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 12:00:39] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-17 12:00:39] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.5-py3-none-any.whl.zip tmp/atomicshop-1.8.6-py3-none-any.whl.zip --markdown 20230717/a/atomicshop/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-07-17 12:00:39] INFO root fetch - processPackages [utilsbox]: executing diffoscope
+[2023-07-17 12:00:39] INFO root fetch - processPackages [utilsbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsbox-0.0.8.tar.gz tmp/utilsbox-0.0.9.tar.gz --markdown 20230717/u/utilsbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:00:39] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-07-17 12:00:39] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz --markdown 20230717/g/gitlab-arc-fs/0.0.8.dev1-0.0.9.dev1/diff.md --exclude *.pyd
+[2023-07-17 12:00:40] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.0.1.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.1.1.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [dock-py-selenium]: Start processing: infoblox-discovery
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [infoblox-discovery]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [fsapi-tools]: Remove: archive file [/home/abi/fetcher/tmp/fsapi-tools-1.0.0.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [fsapi-tools]: Remove: archive file [/home/abi/fetcher/tmp/fsapi-tools-1.0.0rc0.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [fsapi-tools]: Start processing: msoffcrypto-tool
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [fsapi-tools]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [modelsight]: Remove: archive file [/home/abi/fetcher/tmp/modelsight-0.1.0.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [modelsight]: Remove: archive file [/home/abi/fetcher/tmp/modelsight-0.2.0.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [modelsight]: Start processing: guify
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [modelsight]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [phanos]: Start processing: pathgenmap
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.21-py3-none-any.whl.zip]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [spark-sdk]: Start processing: cloudproof-py
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.5.2.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.5.3.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [dbt-glue]: Start processing: genomehubs
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [dbt-glue]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [infoblox-discovery]: Downloading https://files.pythonhosted.org/packages/a4/4e/5a5e7a484ec5a45e8da0b88d3589373006c46a429bd1d4aa1744d2677848/infoblox-discovery-0.1.0.tar.gz
+[2023-07-17 12:00:40] INFO root fetch - processPackages [guify]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 12:00:40] INFO root fetch - processPackages [cloudproof-py]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [msoffcrypto-tool]: New version: [5.1.0] Old Version: [5.0.1rc1]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [genomehubs]: New version: [2.7.8] Old Version: [2.7.7]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [utilsbox]: Remove: archive file [/home/abi/fetcher/tmp/utilsbox-0.0.8.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [utilsbox]: Remove: archive file [/home/abi/fetcher/tmp/utilsbox-0.0.9.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [utilsbox]: success
+[2023-07-17 12:00:40] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
+[2023-07-17 12:00:40] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-07-17 12:00:41] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [cloudproof-py]: Downloading https://files.pythonhosted.org/packages/21/4c/a3c073eef4e710bbb43b87ec90ee315dae5b7eebf301bf343c3108052c07/cloudproof_py-4.0.1-py3-none-any.whl
+[2023-07-17 12:00:41] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/7c/4c/13620db0bcd91ab3480714bf5bc330712068fa8bc44ff08dc03b4689171d/guify-0.2.8.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [msoffcrypto-tool]: Downloading https://files.pythonhosted.org/packages/a2/a6/286e435c8a3f2b1b502431d184f0013911aff0e0268c2d74dd24b1028afd/msoffcrypto_tool-5.0.1rc1.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/0d/ed/995e745c2a7e6ef3ece8867babc4e6db3cc6a03ed94693785f199acb01d8/genomehubs-2.7.7.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.5-py3-none-any.whl.zip]
+[2023-07-17 12:00:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.6-py3-none-any.whl.zip]
+[2023-07-17 12:00:41] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-17 12:00:41] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 12:00:41] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:00:41] INFO root fetch - processPackages [infoblox-discovery]: Downloading https://files.pythonhosted.org/packages/4e/27/9e78361f64d2ce08bf1f00d42737d7e5b37c2addd2323d31075981f6df3a/infoblox-discovery-0.1.1.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [cloudproof-py]: Downloading https://files.pythonhosted.org/packages/50/f4/d9ba72e750b441255f5fe24ccfaf969c54a680c9c8641e61991885068ae8/cloudproof_py-4.0.2-py3-none-any.whl
+[2023-07-17 12:00:41] INFO root fetch - processPackages [infoblox-discovery]: executing diffoscope
+[2023-07-17 12:00:41] INFO root fetch - processPackages [infoblox-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoblox-discovery-0.1.0.tar.gz tmp/infoblox-discovery-0.1.1.tar.gz --markdown 20230717/i/infoblox-discovery/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 12:00:41] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b1/9c/10706a21e75844465af6ac2e4dd6f9d0a1f364134a48a6700811521ca152/guify-0.2.9.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [msoffcrypto-tool]: Downloading https://files.pythonhosted.org/packages/70/eb/1853ba257564d1813d766d637ee53a9fe2056b29be98cd211118dac48cb4/msoffcrypto_tool-5.1.0.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [cloudproof-py]: executing diffoscope
+[2023-07-17 12:00:41] INFO root fetch - processPackages [cloudproof-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_py-4.0.1-py3-none-any.whl.zip tmp/cloudproof_py-4.0.2-py3-none-any.whl.zip --markdown 20230717/c/cloudproof-py/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-17 12:00:41] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/19/3c/30692a13a8ca88a674074a96fd2b12410a7ad9017ff60bf78261d72398be/genomehubs-2.7.8.tar.gz
+[2023-07-17 12:00:41] INFO root fetch - processPackages [msoffcrypto-tool]: executing diffoscope
+[2023-07-17 12:00:41] INFO root fetch - processPackages [msoffcrypto-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msoffcrypto_tool-5.0.1rc1.tar.gz tmp/msoffcrypto_tool-5.1.0.tar.gz --markdown 20230717/m/msoffcrypto-tool/5.0.1rc1-5.1.0/diff.md --exclude *.pyd
+[2023-07-17 12:00:41] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-17 12:00:41] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.8.tar.gz tmp/guify-0.2.9.tar.gz --markdown 20230717/g/guify/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 12:00:41] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2023-07-17 12:00:41] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.7.7.tar.gz tmp/genomehubs-2.7.8.tar.gz --markdown 20230717/g/genomehubs/2.7.7-2.7.8/diff.md --exclude *.pyd
+[2023-07-17 12:00:42] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 12:00:42] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 12:00:42] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 12:00:42] INFO root fetch - processPackages [infoblox-discovery]: Remove: archive file [/home/abi/fetcher/tmp/infoblox-discovery-0.1.0.tar.gz]
+[2023-07-17 12:00:42] INFO root fetch - processPackages [infoblox-discovery]: Remove: archive file [/home/abi/fetcher/tmp/infoblox-discovery-0.1.1.tar.gz]
+[2023-07-17 12:00:42] INFO root fetch - main [MainThread]: End processing [infoblox-discovery]: success
+[2023-07-17 12:00:42] INFO root fetch - processPackages [cloudproof-py]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_py-4.0.1-py3-none-any.whl.zip]
+[2023-07-17 12:00:42] INFO root fetch - processPackages [cloudproof-py]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_py-4.0.2-py3-none-any.whl.zip]
+[2023-07-17 12:00:42] INFO root fetch - main [MainThread]: End processing [cloudproof-py]: success
+[2023-07-17 12:00:42] INFO root fetch - processPackages [msoffcrypto-tool]: Remove: archive file [/home/abi/fetcher/tmp/msoffcrypto_tool-5.0.1rc1.tar.gz]
+[2023-07-17 12:00:42] INFO root fetch - processPackages [msoffcrypto-tool]: Remove: archive file [/home/abi/fetcher/tmp/msoffcrypto_tool-5.1.0.tar.gz]
+[2023-07-17 12:00:42] INFO root fetch - main [MainThread]: End processing [msoffcrypto-tool]: success
+[2023-07-17 12:00:43] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.7.7.tar.gz]
+[2023-07-17 12:00:43] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.7.8.tar.gz]
+[2023-07-17 12:00:43] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2023-07-17 12:00:49] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.8.tar.gz]
+[2023-07-17 12:00:49] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
+[2023-07-17 12:00:49] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-17 12:00:53] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-17 12:00:53] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-17 12:00:53] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-17 12:00:53] INFO root fetch - main [MainThread]: Store serial: [18915085]
