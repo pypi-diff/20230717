@@ -5185,3 +5185,47 @@
 [2023-07-17 03:48:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-17 03:48:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-17 03:48:40] INFO root fetch - main [MainThread]: Store serial: [18911580]
+[2023-07-17 03:53:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911580]
+[2023-07-17 03:53:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpdt
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scotthsieh-projen-statemachine
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytcomments
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ladybug-vectorworks
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipdeptree
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ytcomments]: New version: [0.4] Old Version: [0.3]
+[2023-07-17 03:53:49] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-17 03:53:49] INFO root fetch - processPackages [xpdt]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 03:53:49] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-17 03:53:49] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/93/0f/afd66f2560e2ef8f567f4c5fb77a448737c1c8f07bc52b2c617ebd7099a5/ytcomments-0.3.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [xpdt]: Downloading https://files.pythonhosted.org/packages/3f/7f/44eaa00c3408ea304aed78c9b268293b08bd90c8bb17c79dcd41206d78a9/xpdt-0.1.0.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/6c/f4/13d610761c59a26b3c4e59ca8fe9d77dea38924788064f6659a27be4e2c7/ladybug_vectorworks-0.2.8.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/2e/2f/98c0ca86dc9af606837cfb70c260212aeb11982f9d60e2527b8772af8467/ytcomments-0.4.tar.gz
+[2023-07-17 03:53:50] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 51980201>=10485760
+[2023-07-17 03:53:50] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-07-17 03:53:50] INFO root fetch - processPackages [xpdt]: Downloading https://files.pythonhosted.org/packages/0f/f9/b062a379f3184a3b71d928eed2d5d226c60573ec0df4b6911de8e99216ae/xpdt-0.2.0.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [ytcomments]: executing diffoscope
+[2023-07-17 03:53:50] INFO root fetch - processPackages [ytcomments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytcomments-0.3.tar.gz tmp/ytcomments-0.4.tar.gz --markdown 20230717/y/ytcomments/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-17 03:53:50] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2023-07-17 03:53:50] INFO root fetch - processPackages [xpdt]: executing diffoscope
+[2023-07-17 03:53:50] INFO root fetch - processPackages [xpdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpdt-0.1.0.tar.gz tmp/xpdt-0.2.0.tar.gz --markdown 20230717/x/xpdt/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 03:53:50] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2023-07-17 03:53:50] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20230717/p/pipdeptree/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-17 03:53:51] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-17 03:53:51] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-17 03:53:51] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230717/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:53:51] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.3.tar.gz]
+[2023-07-17 03:53:51] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.4.tar.gz]
+[2023-07-17 03:53:51] INFO root fetch - main [MainThread]: End processing [ytcomments]: success
+[2023-07-17 03:53:51] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2023-07-17 03:53:51] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2023-07-17 03:53:51] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2023-07-17 03:53:51] INFO root fetch - processPackages [xpdt]: Remove: archive file [/home/abi/fetcher/tmp/xpdt-0.1.0.tar.gz]
+[2023-07-17 03:53:51] INFO root fetch - processPackages [xpdt]: Remove: archive file [/home/abi/fetcher/tmp/xpdt-0.2.0.tar.gz]
+[2023-07-17 03:53:51] INFO root fetch - main [MainThread]: End processing [xpdt]: success
+[2023-07-17 03:53:52] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-17 03:53:52] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-17 03:53:52] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-17 03:53:52] INFO root fetch - main [MainThread]: Store serial: [18911594]
