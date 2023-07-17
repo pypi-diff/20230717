@@ -4618,3 +4618,87 @@
 [2023-07-17 03:11:56] INFO root fetch - processPackages [RACS-tools]: Remove: archive file [/home/abi/fetcher/tmp/RACS-tools-2.2.2.tar.gz]
 [2023-07-17 03:11:56] INFO root fetch - main [MainThread]: End processing [RACS-tools]: success
 [2023-07-17 03:11:56] INFO root fetch - main [MainThread]: Store serial: [18911341]
+[2023-07-17 03:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911341]
+[2023-07-17 03:17:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mqttapi
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-payment
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple2encrypt
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aemcmc-nightly
+[2023-07-17 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flux-burst-compute-engine
+[2023-07-17 03:17:05] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [mqttapi]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [flux-burst-compute-engine]: New version: [0.0.11] Old Version: [0.0.1]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [xj-payment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230716] Old Version: [0.0.8.dev20230715]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-17 03:17:05] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/73/59/bd3dbceeb061d1075b475f16c83059fc4f36742ad2ef2db85a6c9e1a37bf/aemcmc-nightly-0.0.8.dev20230715.tar.gz
+[2023-07-17 03:17:05] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/ec/18/6970032ca4ba856796d50b9946e4b1498892314e6abcc9e2b4cdcd3bdcac/simple2encrypt-1.5.2.tar.gz
+[2023-07-17 03:17:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-17 03:17:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/c8/86/b6513ec484bdc048de2a61687e0fafb255faaf25d870a541c20301d0f665/xj_payment-1.0.8.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [flux-burst-compute-engine]: Downloading https://files.pythonhosted.org/packages/16/6b/e282d2299f084dce2c89e4572fae4fe2beb1636eddea30dd79e5543bb3ac/flux-burst-compute-engine-0.0.1.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/75/86/30ee270114e46d6671b63509b7c2bccd6909e0bb21ba4e75ab109eec575d/mqttapi-0.1.2.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/e7/6d/cda772533d8aafb818fa588ec8af103f5e82cabede2af2eba9619ce15dda/simple2encrypt-1.5.3.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/df/d9/80a9a0ae4baad3095c7ab1acaf5191e2fc130e0fae391c33de31f2c78ff9/aemcmc-nightly-0.0.8.dev20230716.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-17 03:17:06] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.5.2.tar.gz tmp/simple2encrypt-1.5.3.tar.gz --markdown 20230717/s/simple2encrypt/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-17 03:17:06] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [flux-burst-compute-engine]: Downloading https://files.pythonhosted.org/packages/b1/01/21f6ef3c1416f1e4abc5db82117cc0406bdaf80d60ec7e831466b9404bcd/flux-burst-compute-engine-0.0.11.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/45/89/a20d1bb3dbe474f22000705fa92bcd481412ead54015e0fa247635bfeec5/mqttapi-0.2.0.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/d7/56/18cf5dbfcf96a8d2dd714a47e8ce30642dea3c0825b0f79fd94491be1a01/xj_payment-1.0.9.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [flux-burst-compute-engine]: executing diffoscope
+[2023-07-17 03:17:06] INFO root fetch - processPackages [flux-burst-compute-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-compute-engine-0.0.1.tar.gz tmp/flux-burst-compute-engine-0.0.11.tar.gz --markdown 20230717/f/flux-burst-compute-engine/0.0.1-0.0.11/diff.md --exclude *.pyd
+[2023-07-17 03:17:06] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-07-17 03:17:06] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-17 03:17:06] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230717/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-17 03:17:06] INFO root fetch - processPackages [mqttapi]: executing diffoscope
+[2023-07-17 03:17:06] INFO root fetch - processPackages [mqttapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttapi-0.1.2.tar.gz tmp/mqttapi-0.2.0.tar.gz --markdown 20230717/m/mqttapi/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 03:17:06] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-17 03:17:06] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230715.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230716.tar.gz --markdown 20230717/a/aemcmc-nightly/0.0.8.dev20230715-0.0.8.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 03:17:06] INFO root fetch - processPackages [xj-payment]: executing diffoscope
+[2023-07-17 03:17:06] INFO root fetch - processPackages [xj-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_payment-1.0.8.tar.gz tmp/xj_payment-1.0.9.tar.gz --markdown 20230717/x/xj-payment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 03:17:07] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-17 03:17:07] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230717/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:17:07] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-07-17 03:17:07] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230717/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-07-17 03:17:07] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.2.tar.gz]
+[2023-07-17 03:17:07] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.3.tar.gz]
+[2023-07-17 03:17:07] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-17 03:17:07] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230715.tar.gz]
+[2023-07-17 03:17:07] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230716.tar.gz]
+[2023-07-17 03:17:07] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-17 03:17:08] INFO root fetch - processPackages [flux-burst-compute-engine]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-compute-engine-0.0.1.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - processPackages [flux-burst-compute-engine]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-compute-engine-0.0.11.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - main [MainThread]: End processing [flux-burst-compute-engine]: success
+[2023-07-17 03:17:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-17 03:17:08] INFO root fetch - processPackages [xj-payment]: Remove: archive file [/home/abi/fetcher/tmp/xj_payment-1.0.8.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - processPackages [xj-payment]: Remove: archive file [/home/abi/fetcher/tmp/xj_payment-1.0.9.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - main [MainThread]: End processing [xj-payment]: success
+[2023-07-17 03:17:08] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.1.2.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.2.0.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - main [MainThread]: End processing [mqttapi]: success
+[2023-07-17 03:17:08] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-07-17 03:17:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-17 03:17:08] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-17 03:17:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-17 03:17:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230717/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:17:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-17 03:17:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-17 03:17:10] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-17 03:17:26] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-17 03:17:26] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-17 03:17:26] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-17 03:17:26] INFO root fetch - main [MainThread]: Store serial: [18911368]
