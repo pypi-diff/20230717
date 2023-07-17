@@ -7460,3 +7460,68 @@
 [2023-07-17 07:03:11] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-PySide-1.1.tar.gz]
 [2023-07-17 07:03:11] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib-PySide]: success
 [2023-07-17 07:03:11] INFO root fetch - main [MainThread]: Store serial: [18912515]
+[2023-07-17 07:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912515]
+[2023-07-17 07:08:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dott-ng
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ethrpc
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamsbpy
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b2sim
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dock-py-selenium
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snapctl
+[2023-07-17 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argil
+[2023-07-17 07:08:20] INFO root fetch - processPackages [argil]: New version: [0.0.23] Old Version: [0.0.21]
+[2023-07-17 07:08:20] INFO root fetch - processPackages [dott-ng]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-17 07:08:20] INFO root fetch - processPackages [dock-py-selenium]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 07:08:20] WARNING root fetch - processPackages [ethrpc]: Skipping, unable to determine old version
+[2023-07-17 07:08:20] INFO root fetch - main [MainThread]: End processing [ethrpc] error
+[2023-07-17 07:08:20] INFO root fetch - processPackages [b2sim]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-17 07:08:20] INFO root fetch - processPackages [snapctl]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-17 07:08:20] INFO root fetch - processPackages [streamsbpy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-17 07:08:20] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-17 07:08:20] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/82/b1/2cc1d199802d4c447d36e95211344a2e3ffefc27f7b8c66d0dc2c903733c/argil-0.0.21.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/83/b7/290b0acfcb6ce4688193778562f7fe7c6511d57c0f07ecec7aab3e31d73f/b2sim-1.2.0.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/bd/f1/8b37ebe8f792a3209f54bec8503ff07400f91b5fce8fb8ddaa64dbca7743/streamsbpy-1.0.7.tar.gz
+[2023-07-17 07:08:20] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-17 07:08:20] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-17 07:08:20] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/8d/c5/c35322336d07cade54ac4e48e60845eed1a08adb7be6a0bbf1c70de0070e/dock-py-selenium-1.0.2.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/9c/8a/7a817256393643c622aa6903cb900811b86e2970d1367488facfc943a2ef/snapctl-0.2.4.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [dott-ng]: Downloading https://files.pythonhosted.org/packages/76/c7/dc0c62aa97236f8bce63277a39ad8fe9c1dc8b94913df0f99969814c2989/dott_ng-1.9.0-py3-none-any.whl
+[2023-07-17 07:08:20] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/3c/07/44af6692e9c57e0bb6de65277b090bd15a029ef5cb864272859d0621128b/argil-0.0.23.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/06/c8/1b6e2a39dee7f834841bfab9197c9c87f9277dd0f838f366c6abee48762a/b2sim-1.2.1.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/a3/24/42fe9cd52df8a5d817750bedece9c0980dd6bca81043b6c9717879e21ce8/dock-py-selenium-1.0.3.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/2f/20/4fe478158e015521d85c65a97d96eb315a74c344fce924b0b69fc80b0d99/streamsbpy-1.0.8.tar.gz
+[2023-07-17 07:08:20] INFO root fetch - processPackages [dott-ng]: Downloading https://files.pythonhosted.org/packages/20/47/d2922cc6d5f6f7438f539e79a6ec32c797f54020655795b6a02f1feb2205/dott_ng-1.9.1-py3-none-any.whl
+[2023-07-17 07:08:20] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 07:08:20] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.21.tar.gz tmp/argil-0.0.23.tar.gz --markdown 20230717/a/argil/0.0.21-0.0.23/diff.md --exclude *.pyd
+[2023-07-17 07:08:20] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-17 07:08:20] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.2.0.tar.gz tmp/b2sim-1.2.1.tar.gz --markdown 20230717/b/b2sim/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-17 07:08:21] INFO root fetch - processPackages [snapctl]: Downloading https://files.pythonhosted.org/packages/77/4e/6586512d04795e5177e1b86336ee44a6cf305c02caa2b91f3be8c9424628/snapctl-0.2.5.tar.gz
+[2023-07-17 07:08:21] INFO root fetch - processPackages [dott-ng]: executing diffoscope
+[2023-07-17 07:08:21] INFO root fetch - processPackages [dott-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dott_ng-1.9.0-py3-none-any.whl.zip tmp/dott_ng-1.9.1-py3-none-any.whl.zip --markdown 20230717/d/dott-ng/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-17 07:08:21] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 07:08:21] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-1.0.2.tar.gz tmp/dock-py-selenium-1.0.3.tar.gz --markdown 20230717/d/dock-py-selenium/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 07:08:21] INFO root fetch - processPackages [streamsbpy]: executing diffoscope
+[2023-07-17 07:08:21] INFO root fetch - processPackages [streamsbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamsbpy-1.0.7.tar.gz tmp/streamsbpy-1.0.8.tar.gz --markdown 20230717/s/streamsbpy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-17 07:08:21] INFO root fetch - processPackages [snapctl]: executing diffoscope
+[2023-07-17 07:08:21] INFO root fetch - processPackages [snapctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapctl-0.2.4.tar.gz tmp/snapctl-0.2.5.tar.gz --markdown 20230717/s/snapctl/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-17 07:08:22] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.21.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.23.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 07:08:22] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.2.0.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.2.1.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-17 07:08:22] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.2.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.3.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 07:08:22] INFO root fetch - processPackages [snapctl]: Remove: archive file [/home/abi/fetcher/tmp/snapctl-0.2.4.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - processPackages [snapctl]: Remove: archive file [/home/abi/fetcher/tmp/snapctl-0.2.5.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [snapctl]: success
+[2023-07-17 07:08:22] INFO root fetch - processPackages [dott-ng]: Remove: archive file [/home/abi/fetcher/tmp/dott_ng-1.9.0-py3-none-any.whl.zip]
+[2023-07-17 07:08:22] INFO root fetch - processPackages [dott-ng]: Remove: archive file [/home/abi/fetcher/tmp/dott_ng-1.9.1-py3-none-any.whl.zip]
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [dott-ng]: success
+[2023-07-17 07:08:22] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.7.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.8.tar.gz]
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [streamsbpy]: success
+[2023-07-17 07:08:22] INFO root fetch - main [MainThread]: Store serial: [18912540]
