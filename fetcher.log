@@ -12585,3 +12585,95 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:13:08] INFO root fetch - processPackages [immosheets]: Remove: archive file [/home/abi/fetcher/tmp/immosheets-1.1.0-py3-none-any.whl.zip]
 [2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [immosheets]: success
 [2023-07-17 11:13:08] INFO root fetch - main [MainThread]: Store serial: [18914595]
+[2023-07-17 11:18:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914595]
+[2023-07-17 11:18:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scratchrequest
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spai
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tracarbon
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Dej4vo
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-mail-thunder-dev
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: titan-iris
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinybird-cli
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CGlue
+[2023-07-17 11:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: copernicus-marine-client
+[2023-07-17 11:18:18] INFO root fetch - processPackages [CGlue]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [scratchrequest]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [spai]: New version: [2023.7.4] Old Version: [2023.7.17]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [tracarbon]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-17 11:18:18] WARNING root fetch - processPackages [Dej4vo]: Skipping, unable to determine old version
+[2023-07-17 11:18:18] INFO root fetch - processPackages [Dej4vo]: Start processing: bluecellulab
+[2023-07-17 11:18:18] INFO root fetch - main [MainThread]: End processing [Dej4vo] error
+[2023-07-17 11:18:18] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [bluecellulab]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-17 11:18:18] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [CGlue]: Downloading https://files.pythonhosted.org/packages/4d/5b/42f17069844a519d091064e8f179f04240a0686a485eda3f21fc6af7b50b/CGlue-0.2.3.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/4f/d3/5f83bc69ee4e4f54c578c62fb7a4327592f2136d0d093bace8062fad9818/spai-2023.7.17.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [tracarbon]: Downloading https://files.pythonhosted.org/packages/79/a8/6b6d4a3afbf005bc074fb802d85daeaf5938ced2927000bb409f6f1e3b31/tracarbon-0.7.0.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [scratchrequest]: Downloading https://files.pythonhosted.org/packages/45/0f/92b9232f23571847e456e1a1b00cb1360390544e5afa7eb7e0d8045a20f8/scratchrequest-0.4.1.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/90/08/e2227975a3575ed8e21d4a295d19d2cffb6f3e00c0cac933abc31cd5936a/copernicus_marine_client-0.8.3.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 11:18:18] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/2a/f6/e67162242d0b925ad67d5ca410f65ae8c9560d9d240a676d9be65c981c2b/bluecellulab-1.2.6.tar.gz
+[2023-07-17 11:18:18] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-07-17 11:18:18] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13627284>=10485760
+[2023-07-17 11:18:18] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-17 11:18:18] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [tracarbon]: Downloading https://files.pythonhosted.org/packages/56/c8/f041939342c65a76568d73aa55125d95fe4744c8bdb2cf34d8fc0b76849c/tracarbon-0.7.1.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [scratchrequest]: Downloading https://files.pythonhosted.org/packages/bd/39/276dce5100d50ec37c63158958f759d4e4f06635abb84e1c936380fef337/scratchrequest-0.5.0.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230717/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/89/a5/d3927e7c33cb83580fb5c807aa92798d7c02ea77b9d95ea8e0f3f64b7a74/copernicus_marine_client-0.8.4.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [CGlue]: Downloading https://files.pythonhosted.org/packages/d6/69/01d59362164583d00e16201342d0c384b1071a3e3a818900a8564b9dd0ce/CGlue-0.2.4.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230717/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [tracarbon]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [tracarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracarbon-0.7.0.tar.gz tmp/tracarbon-0.7.1.tar.gz --markdown 20230717/t/tracarbon/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 11:18:19] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-17 11:18:19] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.8.3.tar.gz tmp/copernicus_marine_client-0.8.4.tar.gz --markdown 20230717/c/copernicus-marine-client/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [CGlue]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [CGlue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CGlue-0.2.3.tar.gz tmp/CGlue-0.2.4.tar.gz --markdown 20230717/C/CGlue/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [scratchrequest]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [scratchrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchrequest-0.4.1.tar.gz tmp/scratchrequest-0.5.0.tar.gz --markdown 20230717/s/scratchrequest/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230717/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-17 11:18:19] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-07-17 11:18:19] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.17.tar.gz tmp/spai-2023.7.4.tar.gz --markdown 20230717/s/spai/2023.7.17-2023.7.4/diff.md --exclude *.pyd
+[2023-07-17 11:18:20] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-07-17 11:18:20] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-17 11:18:20] INFO root fetch - processPackages [scratchrequest]: Remove: archive file [/home/abi/fetcher/tmp/scratchrequest-0.4.1.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - processPackages [scratchrequest]: Remove: archive file [/home/abi/fetcher/tmp/scratchrequest-0.5.0.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - main [MainThread]: End processing [scratchrequest]: success
+[2023-07-17 11:18:20] INFO root fetch - processPackages [tracarbon]: Remove: archive file [/home/abi/fetcher/tmp/tracarbon-0.7.0.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - processPackages [tracarbon]: Remove: archive file [/home/abi/fetcher/tmp/tracarbon-0.7.1.tar.gz]
+[2023-07-17 11:18:20] INFO root fetch - main [MainThread]: End processing [tracarbon]: success
+[2023-07-17 11:18:21] INFO root fetch - processPackages [CGlue]: Remove: archive file [/home/abi/fetcher/tmp/CGlue-0.2.3.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - processPackages [CGlue]: Remove: archive file [/home/abi/fetcher/tmp/CGlue-0.2.4.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - main [MainThread]: End processing [CGlue]: success
+[2023-07-17 11:18:21] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-17 11:18:21] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.3.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.4.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-07-17 11:18:21] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.17.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-07-17 11:18:21] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-07-17 11:18:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 11:18:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 11:18:21] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 11:18:21] INFO root fetch - main [MainThread]: Store serial: [18914646]
