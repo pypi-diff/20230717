@@ -9313,3 +9313,132 @@
 [2023-07-17 09:06:02] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz]
 [2023-07-17 09:06:02] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
 [2023-07-17 09:06:02] INFO root fetch - main [MainThread]: Store serial: [18913257]
+[2023-07-17 09:11:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913257]
+[2023-07-17 09:11:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atbu-pkg
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-data-services-lwdp
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-hub-nightly
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: claude-api
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-role
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycmtensor
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secure-sedge
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HawaData
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ievv-auth
+[2023-07-17 09:11:14] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.87]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [claude-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [secure-sedge]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ievv-auth]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [3.0.1.0.dev5572612359] Old Version: [3.0.1.0.dev5451550241]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [pycmtensor]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [HawaData]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-17 09:11:14] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/6b/87/983e69c35e5bf1b17b04dccb6b1a92bcba830c68cd2a7fe94f96d0a2e073/claude-api-1.0.4.tar.gz
+[2023-07-17 09:11:14] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/68/fb/ca4fcb2554097f109aac5a85779dc6ab900825a1629ff66b70f664131fe3/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz
+[2023-07-17 09:11:14] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/89/18/68d7e227b69782076e8ebeb6b3246a5a3ac065a00e6d7ab8f5f544cb96f4/xj_role-1.0.87.tar.gz
+[2023-07-17 09:11:14] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-07-17 09:11:14] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-17 09:11:14] INFO root fetch - processPackages [ievv-auth]: Downloading https://files.pythonhosted.org/packages/51/e3/1321cc124eeeb75a4d51497a635b800e0b12fc6f2f0952c67772f4f093c2/ievv_auth-3.1.1.tar.gz
+[2023-07-17 09:11:14] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-17 09:11:14] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/5f/0b/b062b99c56f4884d74482724553a74ab0cfae63df0f921446c71ef13f86e/HawaData-0.7.6.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [secure-sedge]: Downloading https://files.pythonhosted.org/packages/fb/e6/7b96a2ac6e0035921f74136420aa4f442dfac3ba915fc0e93563bb2a18e0/secure_sedge-1.7.1.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [pycmtensor]: Downloading https://files.pythonhosted.org/packages/0a/eb/5d463c778c34b22af0d0412ab1d9b63b1dff6b7dcb8f7c5621e2d5a6bac6/pycmtensor-1.3.2.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/29/d6/c49583d1d2d12fa83fec16ef4e3b1d6a02389d231ad005300e431630527f/th2_data_services_lwdp-3.0.1.0.dev5572612359.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/80/2b/7e1bead11da4b8b469f348cf4ee7cd1406e390e823753975f29539a38c1a/claude-api-1.0.5.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-17 09:11:15] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz tmp/th2_data_services_lwdp-3.0.1.0.dev5572612359.tar.gz --markdown 20230717/t/th2-data-services-lwdp/3.0.1.0.dev5451550241-3.0.1.0.dev5572612359/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [ievv-auth]: Downloading https://files.pythonhosted.org/packages/89/37/ba428aba57dc423009563502037a0769b94256bcfaddc92d264ff7a689e0/ievv_auth-3.1.2.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/dc/d7/8023a8f7e1a9c7d4e6b80c452fd5ebae8599428b93ef755d27d6ba2f3930/HawaData-0.7.7.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.4.tar.gz tmp/claude-api-1.0.5.tar.gz --markdown 20230717/c/claude-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-17 09:11:15] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230717/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [ievv-auth]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [ievv-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ievv_auth-3.1.1.tar.gz tmp/ievv_auth-3.1.2.tar.gz --markdown 20230717/i/ievv-auth/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.87.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230717/x/xj-role/1.0.87-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [secure-sedge]: Downloading https://files.pythonhosted.org/packages/c7/e3/cf5c0ebe47ce9f77b94111fd4f3c73c66e35e23172e39cd60a36d73b012e/secure_sedge-1.7.2.tar.gz
+[2023-07-17 09:11:15] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.6.tar.gz tmp/HawaData-0.7.7.tar.gz --markdown 20230717/H/HawaData/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230717/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [secure-sedge]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [secure-sedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_sedge-1.7.1.tar.gz tmp/secure_sedge-1.7.2.tar.gz --markdown 20230717/s/secure-sedge/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-17 09:11:15] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230717/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 09:11:15] INFO root fetch - processPackages [pycmtensor]: Downloading https://files.pythonhosted.org/packages/4d/40/03216c35f714d47418c6c676a93e56ecc433163a6a810f8ad1889067a609/pycmtensor-1.4.0.tar.gz
+[2023-07-17 09:11:16] INFO root fetch - processPackages [pycmtensor]: executing diffoscope
+[2023-07-17 09:11:16] INFO root fetch - processPackages [pycmtensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycmtensor-1.3.2.tar.gz tmp/pycmtensor-1.4.0.tar.gz --markdown 20230717/p/pycmtensor/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-17 09:11:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.0.1.0.dev5572612359.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: exchanges-wrapper
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.4.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.5.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [claude-api]: Start processing: distcrab
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [exchanges-wrapper]: New version: [1.3.4b0] Old Version: [1.3.4]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: omgpt
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-17 09:11:17] INFO root fetch - processPackages [omgpt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.6.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.7.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [HawaData]: Start processing: a2b
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.87.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/fb/5c/a124e93501227d7065ec751c6aaa5edcec7e80ccec08d49cbb36304e8493/exchanges_wrapper-1.3.4.tar.gz
+[2023-07-17 09:11:17] INFO root fetch - processPackages [secure-sedge]: Remove: archive file [/home/abi/fetcher/tmp/secure_sedge-1.7.1.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [secure-sedge]: Remove: archive file [/home/abi/fetcher/tmp/secure_sedge-1.7.2.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [secure-sedge]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.8.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-17 09:11:17] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-17 09:11:17] INFO root fetch - processPackages [a2b]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/d8/4d/d2dfaecad72ef87a03278d6b6e137dff40d75d29f4d2d0f438b8c9985d11/omgpt-0.0.7.tar.gz
+[2023-07-17 09:11:17] INFO root fetch - processPackages [ievv-auth]: Remove: archive file [/home/abi/fetcher/tmp/ievv_auth-3.1.1.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - processPackages [ievv-auth]: Remove: archive file [/home/abi/fetcher/tmp/ievv_auth-3.1.2.tar.gz]
+[2023-07-17 09:11:17] INFO root fetch - main [MainThread]: End processing [ievv-auth]: success
+[2023-07-17 09:11:18] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-17 09:11:18] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230717/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:11:18] INFO root fetch - processPackages [pycmtensor]: Remove: archive file [/home/abi/fetcher/tmp/pycmtensor-1.3.2.tar.gz]
+[2023-07-17 09:11:18] INFO root fetch - processPackages [pycmtensor]: Remove: archive file [/home/abi/fetcher/tmp/pycmtensor-1.4.0.tar.gz]
+[2023-07-17 09:11:18] INFO root fetch - main [MainThread]: End processing [pycmtensor]: success
+[2023-07-17 09:11:18] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/b8/c2/e7b4ee5571a2ff82abdabb0db092e90fbbd05b562b5ea2cd50afaa345763/exchanges-wrapper-1.3.4b0.tar.gz
+[2023-07-17 09:11:18] INFO root fetch - processPackages [a2b]: Downloading https://files.pythonhosted.org/packages/05/97/bd95f47042ac319b518c8f238cbbde41c38629194accad7ad9c25918ece2/a2b-1.0.6.tar.gz
+[2023-07-17 09:11:18] INFO root fetch - processPackages [exchanges-wrapper]: executing diffoscope
+[2023-07-17 09:11:18] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/95/9b/1f4bcb2ba7c25dcf306fda6c086584232a3f7ab060058477dbe21ed0663e/omgpt-0.0.8.tar.gz
+[2023-07-17 09:11:18] INFO root fetch - processPackages [exchanges-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchanges_wrapper-1.3.4.tar.gz tmp/exchanges-wrapper-1.3.4b0.tar.gz --markdown 20230717/e/exchanges-wrapper/1.3.4-1.3.4b0/diff.md --exclude *.pyd
+[2023-07-17 09:11:18] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-17 09:11:18] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.7.tar.gz tmp/omgpt-0.0.8.tar.gz --markdown 20230717/o/omgpt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 09:11:18] INFO root fetch - processPackages [a2b]: Downloading https://files.pythonhosted.org/packages/b2/d3/2f37c2d13e9896f92cc0a0c851cb98f2b0fb73d726219a2d8a961fef7b57/a2b-1.0.7.tar.gz
+[2023-07-17 09:11:18] INFO root fetch - processPackages [a2b]: executing diffoscope
+[2023-07-17 09:11:18] INFO root fetch - processPackages [a2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2b-1.0.6.tar.gz tmp/a2b-1.0.7.tar.gz --markdown 20230717/a/a2b/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-17 09:11:18] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-17 09:11:18] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-17 09:11:18] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-17 09:11:19] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.7.tar.gz]
+[2023-07-17 09:11:19] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.8.tar.gz]
+[2023-07-17 09:11:19] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-17 09:11:19] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-1.3.4.tar.gz]
+[2023-07-17 09:11:19] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges-wrapper-1.3.4b0.tar.gz]
+[2023-07-17 09:11:19] INFO root fetch - main [MainThread]: End processing [exchanges-wrapper]: success
+[2023-07-17 09:11:19] INFO root fetch - processPackages [a2b]: Remove: archive file [/home/abi/fetcher/tmp/a2b-1.0.6.tar.gz]
+[2023-07-17 09:11:19] INFO root fetch - processPackages [a2b]: Remove: archive file [/home/abi/fetcher/tmp/a2b-1.0.7.tar.gz]
+[2023-07-17 09:11:19] INFO root fetch - main [MainThread]: End processing [a2b]: success
+[2023-07-17 09:11:19] INFO root fetch - main [MainThread]: Store serial: [18913296]
