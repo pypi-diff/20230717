@@ -5594,3 +5594,42 @@
 [2023-07-17 04:25:11] INFO root fetch - processPackages [islpy]: Remove: archive file [/home/abi/fetcher/tmp/islpy-2023.1.2.tar.gz]
 [2023-07-17 04:25:11] INFO root fetch - main [MainThread]: End processing [islpy]: success
 [2023-07-17 04:25:11] INFO root fetch - main [MainThread]: Store serial: [18911745]
+[2023-07-17 04:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911745]
+[2023-07-17 04:30:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-17 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awadb
+[2023-07-17 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-accounts
+[2023-07-17 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-07-17 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lognflow
+[2023-07-17 04:30:19] INFO root fetch - processPackages [awadb]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-17 04:30:19] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 04:30:19] INFO root fetch - processPackages [heaserver-accounts]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 04:30:19] INFO root fetch - processPackages [lognflow]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-17 04:30:20] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/0d/4c/912fc03e28cac898b9e810956984c9e9caeedf4aa64dae28faf520c2c177/heaserver-accounts-1.0.0a8.tar.gz
+[2023-07-17 04:30:20] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-17 04:30:20] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/ec/ba/a94f7445384de8319d805f2cf05d3858171eccff010f7930239a5b7e3a96/lognflow-0.7.5.tar.gz
+[2023-07-17 04:30:20] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/df/5c/2938042011e9049bbd48b1aa6006d2e9a01694440ba4135341ddfc612d23/awadb-0.3.6-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-17 04:30:20] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/ef/3b/00bd06051828f159ca100404dfc84f0723be88cb8936a493139d61fa95be/heaserver-accounts-1.0.0a9.tar.gz
+[2023-07-17 04:30:20] INFO root fetch - processPackages [heaserver-accounts]: executing diffoscope
+[2023-07-17 04:30:20] INFO root fetch - processPackages [heaserver-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-accounts-1.0.0a8.tar.gz tmp/heaserver-accounts-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-accounts/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 04:30:20] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/c3/a6/687f87388c8a6ff39799a93b17cc4cb9345892b1c95f4695c5a55f844d7a/lognflow-0.7.6.tar.gz
+[2023-07-17 04:30:20] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-07-17 04:30:20] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.7.5.tar.gz tmp/lognflow-0.7.6.tar.gz --markdown 20230717/l/lognflow/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-17 04:30:20] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-17 04:30:20] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/cf/82/08d1c39edf5d9e2bc8c13b72c6ce3aa82d8b2c9182b23ba7056f7e823bc0/awadb-0.3.7-cp39-cp39-macosx_13_0_arm64.whl
+[2023-07-17 04:30:20] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-17 04:30:20] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230717/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 04:30:21] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-07-17 04:30:21] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.6-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.7-cp39-cp39-macosx_13_0_arm64.whl.zip --markdown 20230717/a/awadb/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-17 04:30:21] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a8.tar.gz]
+[2023-07-17 04:30:21] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a9.tar.gz]
+[2023-07-17 04:30:21] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
+[2023-07-17 04:30:21] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.7.5.tar.gz]
+[2023-07-17 04:30:21] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.7.6.tar.gz]
+[2023-07-17 04:30:21] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-07-17 04:30:21] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-17 04:30:21] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-17 04:30:21] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-17 04:30:22] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.6-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-17 04:30:22] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.7-cp39-cp39-macosx_13_0_arm64.whl.zip]
+[2023-07-17 04:30:22] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-07-17 04:30:22] INFO root fetch - main [MainThread]: Store serial: [18911759]
