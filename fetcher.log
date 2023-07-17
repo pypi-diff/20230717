@@ -8800,3 +8800,84 @@
 [2023-07-17 08:31:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-07-17 08:31:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-07-17 08:31:59] INFO root fetch - main [MainThread]: Store serial: [18913032]
+[2023-07-17 08:37:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913032]
+[2023-07-17 08:37:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medcase
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argil
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizlib
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pankmer
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-auto-control-dev
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: claude-api
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xarray
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moto-ext
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testmedium
+[2023-07-17 08:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mysam-tagmanager
+[2023-07-17 08:37:08] INFO root fetch - processPackages [wizlib]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-17 08:37:08] INFO root fetch - processPackages [claude-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 08:37:08] INFO root fetch - processPackages [argil]: New version: [0.0.3] Old Version: [0.0.29]
+[2023-07-17 08:37:08] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.13.0]
+[2023-07-17 08:37:08] INFO root fetch - processPackages [xarray]: New version: [2023.7.0] Old Version: [2023.6.0]
+[2023-07-17 08:37:08] WARNING root fetch - processPackages [medcase]: Skipping, unable to determine old version
+[2023-07-17 08:37:08] INFO root fetch - main [MainThread]: End processing [medcase] error
+[2023-07-17 08:37:08] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-17 08:37:08] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-07-17 08:37:08] WARNING root fetch - processPackages [testmedium]: Skipping, unable to determine old version
+[2023-07-17 08:37:08] INFO root fetch - main [MainThread]: End processing [testmedium] error
+[2023-07-17 08:37:08] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/f4/35/0d899a443c8578dd42fe1689e32c1e3d98004b01b417d177980a58133ea9/claude-api-1.0.1.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/bb/56/ea920521d1f4c849cda37ab255ec195fbed2b566915856fb6dd1bc58d22b/je_auto_control_dev-0.0.90.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/9c/5c/c335278ee35bc5504a839f13803640eb24a38e1c80889abb18a1b45940a9/pankmer-0.13.0.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [mysam-tagmanager]: New version: [0.4] Old Version: [0.3.3]
+[2023-07-17 08:37:08] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/3a/c7/5fd66f16fcaa263dd571b5335b272293a480f6ba998ec7022e62e12a7858/argil-0.0.29.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/2f/8f/a44e1819d2a1095fc4c02b8a416d20b780d1138dd614d5daa1f1173515d9/wizlib-0.5.1.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [xarray]: Downloading https://files.pythonhosted.org/packages/35/c1/c7be283ace216e4e31fda1b08ef8ed647b5ea7dffeae53ac66bb70771fbd/xarray-2023.6.0.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a2/e9/90d0a0ef27fc081d195aa7e083e10db0a80e96eaeb892b1ce2c3b114901b/moto-ext-4.1.8.post1.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/34/c5/6e465ee5c26c4fb7b1707920092c78fd3d1202778171d9c24a57cf11d656/claude-api-1.0.2.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/4d/89/57db6ffb4bb6ff5246efa407e5920a1221b9844717232b666d9b2cda756c/je_auto_control_dev-0.0.91.tar.gz
+[2023-07-17 08:37:08] INFO root fetch - processPackages [mysam-tagmanager]: Downloading https://files.pythonhosted.org/packages/c7/8c/6fdae6bccb04b7050ba332ef75f03d34ec4c32e0b962f4e7a2e7f206d74f/mysam_tagmanager-0.3.3-py3-none-any.whl
+[2023-07-17 08:37:08] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/dd/0e/090baf0d172a4ad7ded57c5b6b88e1b9acd760eb26bc8b68b0529e54dab7/argil-0.0.3.tar.gz
+[2023-07-17 08:37:09] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-07-17 08:37:09] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/3f/70/4e9f09e414420413a55e50d887fc455400319fec8545bd1b05fd6414200e/wizlib-0.6.0.tar.gz
+[2023-07-17 08:37:09] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-17 08:37:09] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.1.tar.gz tmp/claude-api-1.0.2.tar.gz --markdown 20230717/c/claude-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 08:37:09] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-07-17 08:37:09] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.90.tar.gz tmp/je_auto_control_dev-0.0.91.tar.gz --markdown 20230717/j/je-auto-control-dev/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-17 08:37:09] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 08:37:09] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.29.tar.gz tmp/argil-0.0.3.tar.gz --markdown 20230717/a/argil/0.0.29-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 08:37:09] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-07-17 08:37:09] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.13.0.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230717/p/pankmer/0.13.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 08:37:09] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-17 08:37:09] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.5.1.tar.gz tmp/wizlib-0.6.0.tar.gz --markdown 20230717/w/wizlib/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 08:37:09] INFO root fetch - processPackages [mysam-tagmanager]: Downloading https://files.pythonhosted.org/packages/f9/26/bb4a712aed77c9642fd81dafdc19a92b0cb58e5dccd33c20d3c2f7259c2c/mysam_tagmanager-0.4-py3-none-any.whl
+[2023-07-17 08:37:09] INFO root fetch - processPackages [xarray]: Downloading https://files.pythonhosted.org/packages/d2/8b/6b67b40bc54f2574cd6f2cd5e4427c9fac0e21f6c9efd73444e07451af33/xarray-2023.7.0.tar.gz
+[2023-07-17 08:37:09] INFO root fetch - processPackages [mysam-tagmanager]: executing diffoscope
+[2023-07-17 08:37:09] INFO root fetch - processPackages [mysam-tagmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysam_tagmanager-0.3.3-py3-none-any.whl.zip tmp/mysam_tagmanager-0.4-py3-none-any.whl.zip --markdown 20230717/m/mysam-tagmanager/0.3.3-0.4/diff.md --exclude *.pyd
+[2023-07-17 08:37:09] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a1/2c/103d5cb88114dc2ce6ed9a27dfbd66d1d31dca7b4a1fa2496bf3ae5ee96b/moto-ext-4.1.9.post1.tar.gz
+[2023-07-17 08:37:10] INFO root fetch - processPackages [xarray]: executing diffoscope
+[2023-07-17 08:37:10] INFO root fetch - processPackages [xarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-2023.6.0.tar.gz tmp/xarray-2023.7.0.tar.gz --markdown 20230717/x/xarray/2023.6.0-2023.7.0/diff.md --exclude *.pyd
+[2023-07-17 08:37:10] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.1.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.2.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-17 08:37:10] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.29.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.3.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 08:37:10] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.5.1.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.6.0.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-17 08:37:10] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.90.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.91.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-07-17 08:37:10] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.13.0.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-07-17 08:37:10] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-07-17 08:37:10] INFO root fetch - processPackages [mysam-tagmanager]: Remove: archive file [/home/abi/fetcher/tmp/mysam_tagmanager-0.3.3-py3-none-any.whl.zip]
+[2023-07-17 08:37:10] INFO root fetch - processPackages [mysam-tagmanager]: Remove: archive file [/home/abi/fetcher/tmp/mysam_tagmanager-0.4-py3-none-any.whl.zip]
+[2023-07-17 08:37:10] INFO root fetch - main [MainThread]: End processing [mysam-tagmanager]: success
+[2023-07-17 08:37:11] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-07-17 08:37:11] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230717/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-07-17 08:37:13] INFO root fetch - processPackages [xarray]: Remove: archive file [/home/abi/fetcher/tmp/xarray-2023.6.0.tar.gz]
+[2023-07-17 08:37:13] INFO root fetch - processPackages [xarray]: Remove: archive file [/home/abi/fetcher/tmp/xarray-2023.7.0.tar.gz]
+[2023-07-17 08:37:13] INFO root fetch - main [MainThread]: End processing [xarray]: success
+[2023-07-17 08:39:53] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.8.post1.tar.gz]
+[2023-07-17 08:39:53] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
+[2023-07-17 08:39:53] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2023-07-17 08:39:53] INFO root fetch - main [MainThread]: Store serial: [18913067]
