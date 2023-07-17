@@ -10808,3 +10808,209 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:19:56] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.5.0.tar.gz]
 [2023-07-17 10:19:56] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2023-07-17 10:19:56] INFO root fetch - main [MainThread]: Store serial: [18913888]
+[2023-07-17 10:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913888]
+[2023-07-17 10:25:09] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-iiif
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protarrow
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-nhm
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whop-api-wrapper
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: q2gui
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catcher-modules
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ckanext-query-dois
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatting-with-pdfs
+[2023-07-17 10:25:09] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.85]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ckanext-nhm]: New version: [5.8.0] Old Version: [5.7.0]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [protarrow]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ckanext-iiif]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [catcher-modules]: New version: [6.0.7] Old Version: [6.0.0]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [chatting-with-pdfs]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [whop-api-wrapper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [ckanext-query-dois]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230717] Old Version: [2.14.0.dev20230716]
+[2023-07-17 10:25:09] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/01/b5/ab0f39ee6b11225188607f57b87fe873fae7780ec1d2988004017951b88b/protarrow-0.2.0.tar.gz
+[2023-07-17 10:25:09] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/6c/05/dedf6455af19f29af4e0024d3287d52ec23f4b80d0ce63e3ffc9ecd1e725/whop-api-wrapper-1.0.2.tar.gz
+[2023-07-17 10:25:09] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-17 10:25:09] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/df/d5/e8f1984a0abc7d709673e149923b2d3521a8e87dbaed6586d121d09f53f7/sj_tool-1.0.85-py3-none-any.whl
+[2023-07-17 10:25:10] INFO root fetch - processPackages [catcher-modules]: Downloading https://files.pythonhosted.org/packages/08/11/ff8107905e9e2547d227fa2c7f7f752dab0f07c84cb8393c6e9176b7c666/catcher-modules-6.0.0.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/b9/6c/a2685cbb065bb71264d1ed3788fb77ffaf217281c66903f898b53b70c524/ckanext-nhm-5.7.0.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-query-dois]: Downloading https://files.pythonhosted.org/packages/c9/c1/8e1fe4abdd1f3602e9e17659973b5acf8e9dadbf44cd598c0c47eb51f397/ckanext-query-dois-3.0.4.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-iiif]: Downloading https://files.pythonhosted.org/packages/29/3b/eaf83a711b31c9a6f8231bfbdba73b632c0ca3523f8c472b4243a8027169/ckanext-iiif-3.0.8.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [chatting-with-pdfs]: Downloading https://files.pythonhosted.org/packages/8b/70/718713b7752efa9569ba9e0a1089bb3b23ddbd08e977019c2656b88d082b/chatting_with_pdfs-0.0.10.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/85/3d/aa763c9093ccccafefad7457a1b4822b6544e2ed6d21ddb584219a0eea4a/tf_nightly-2.14.0.dev20230716-cp39-cp39-win_amd64.whl
+[2023-07-17 10:25:10] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 29274240>=10485760
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-nhm]: Start processing: tutor-cairn
+[2023-07-17 10:25:10] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2023-07-17 10:25:10] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/46/70/791cd35f5fe3abe51347dc51d632306f770bb7ce1094affa099d4b7d5372/protarrow-0.2.1.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-17 10:25:10] INFO root fetch - processPackages [tutor-cairn]: New version: [16.0.1] Old Version: [16.0.0]
+[2023-07-17 10:25:10] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/26/11/17d5c59aafc3ae860b62e867228367fb05bf8a939f78c6a768dd1eb522a2/whop-api-wrapper-1.0.3.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.2.0.tar.gz tmp/protarrow-0.2.1.tar.gz --markdown 20230717/p/protarrow/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [chatting-with-pdfs]: Downloading https://files.pythonhosted.org/packages/cb/77/5d94eba78fefadebb90cf03a46cc438da94fa23ed255e456467ba8e2d9fd/chatting_with_pdfs-0.0.11.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.85-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230717/s/sj-tool/1.0.85-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [catcher-modules]: Downloading https://files.pythonhosted.org/packages/9b/d6/3868af6887e52c2065320cecdc64b28d3f0d12d2654f0e7ee66379af6ba6/catcher-modules-6.0.7.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [whop-api-wrapper]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [whop-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whop-api-wrapper-1.0.2.tar.gz tmp/whop-api-wrapper-1.0.3.tar.gz --markdown 20230717/w/whop-api-wrapper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230717/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [chatting-with-pdfs]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [chatting-with-pdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatting_with_pdfs-0.0.10.tar.gz tmp/chatting_with_pdfs-0.0.11.tar.gz --markdown 20230717/c/chatting-with-pdfs/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [catcher-modules]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [catcher-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catcher-modules-6.0.0.tar.gz tmp/catcher-modules-6.0.7.tar.gz --markdown 20230717/c/catcher-modules/6.0.0-6.0.7/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-iiif]: Downloading https://files.pythonhosted.org/packages/38/ac/bcc97fcd217abc8b7842f3c98cae9654d6e02cf2008abc2109c6499bf38a/ckanext-iiif-3.0.9.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-query-dois]: Downloading https://files.pythonhosted.org/packages/94/6a/c63ec07f18642ee12e738dbb4bdd5aa42a3041cf38b0078bc61136e0ecfa/ckanext-query-dois-3.0.5.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/b7/6b/78be94ba5c56b90e5dcdea658663893a70be37d4a61731fe5a852a179c4d/tf_nightly-2.14.0.dev20230717-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:25:10] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/da/b9/b0cfa14cbb906be62c40401073f149297e449bf9c7b6b15a8fa16cd22a27/tutor-cairn-16.0.0.tar.gz
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-iiif]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-iiif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-iiif-3.0.8.tar.gz tmp/ckanext-iiif-3.0.9.tar.gz --markdown 20230717/c/ckanext-iiif/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-query-dois]: executing diffoscope
+[2023-07-17 10:25:10] INFO root fetch - processPackages [ckanext-query-dois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-query-dois-3.0.4.tar.gz tmp/ckanext-query-dois-3.0.5.tar.gz --markdown 20230717/c/ckanext-query-dois/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-17 10:25:11] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 485655737>=10485760
+[2023-07-17 10:25:11] INFO root fetch - processPackages [tf-nightly]: Start processing: ckanext-twitter
+[2023-07-17 10:25:11] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-17 10:25:11] INFO root fetch - processPackages [ckanext-twitter]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-17 10:25:11] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/63/63/fd947be916de568a4aac6005b7e74852cb1d6a759aa6cef6d846ef1e69a7/tutor-cairn-16.0.1.tar.gz
+[2023-07-17 10:25:11] INFO root fetch - processPackages [ckanext-twitter]: Downloading https://files.pythonhosted.org/packages/a5/bf/63c8d6dab1db5031ece68b6f947815ada23d575add35a42570288ef71655/ckanext-twitter-2.2.7.tar.gz
+[2023-07-17 10:25:11] INFO root fetch - processPackages [tutor-cairn]: executing diffoscope
+[2023-07-17 10:25:11] INFO root fetch - processPackages [tutor-cairn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-cairn-16.0.0.tar.gz tmp/tutor-cairn-16.0.1.tar.gz --markdown 20230717/t/tutor-cairn/16.0.0-16.0.1/diff.md --exclude *.pyd
+[2023-07-17 10:25:11] INFO root fetch - processPackages [ckanext-twitter]: Downloading https://files.pythonhosted.org/packages/53/08/7ed28ca8eded148d557d8a040a0de458886267d51013602a238ae5e85cbc/ckanext-twitter-2.2.8.tar.gz
+[2023-07-17 10:25:12] INFO root fetch - processPackages [ckanext-twitter]: executing diffoscope
+[2023-07-17 10:25:12] INFO root fetch - processPackages [ckanext-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-twitter-2.2.7.tar.gz tmp/ckanext-twitter-2.2.8.tar.gz --markdown 20230717/c/ckanext-twitter/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-07-17 10:25:12] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.2.0.tar.gz]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.2.1.tar.gz]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [protarrow]: Start processing: fp23dpy
+[2023-07-17 10:25:12] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2023-07-17 10:25:12] INFO root fetch - processPackages [fp23dpy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [chatting-with-pdfs]: Remove: archive file [/home/abi/fetcher/tmp/chatting_with_pdfs-0.0.10.tar.gz]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [chatting-with-pdfs]: Remove: archive file [/home/abi/fetcher/tmp/chatting_with_pdfs-0.0.11.tar.gz]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.2.tar.gz]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [chatting-with-pdfs]: Start processing: cryolo
+[2023-07-17 10:25:12] INFO root fetch - main [MainThread]: End processing [chatting-with-pdfs]: success
+[2023-07-17 10:25:12] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.3.tar.gz]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [whop-api-wrapper]: Start processing: ckanext-graph
+[2023-07-17 10:25:12] INFO root fetch - main [MainThread]: End processing [whop-api-wrapper]: success
+[2023-07-17 10:25:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.85-py3-none-any.whl.zip]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [sj-tool]: Start processing: light-the-torch
+[2023-07-17 10:25:12] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-17 10:25:12] INFO root fetch - processPackages [cryolo]: New version: [1.9.4b3] Old Version: [1.9.4b2]
+[2023-07-17 10:25:12] INFO root fetch - processPackages [light-the-torch]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [fp23dpy]: Downloading https://files.pythonhosted.org/packages/d8/d6/bacabc70b9ec906b82c77f0ac681719d4e351e6122c6b4f6db5b1e49eada/fp23dpy-0.3.8.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-graph]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [q2gui]: Start processing: ckanext-ldap
+[2023-07-17 10:25:13] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-ldap]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [light-the-torch]: Downloading https://files.pythonhosted.org/packages/95/d8/5a11b4689c28fabf1028c945d542e5468255b606f3ab8d824b29285e29a0/light_the_torch-0.7.4.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [fp23dpy]: Downloading https://files.pythonhosted.org/packages/cb/30/3a4583d9e636410e31624a47fe6d61b094feb130298d0f33892dd8d9b920/fp23dpy-0.3.9.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/f0/09/ade94fffe9b251557876d8e622289960770ee937e5f0039dda50a58246cb/cryolo-1.9.4b2.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-graph]: Downloading https://files.pythonhosted.org/packages/7d/3e/4dd46e9d0adf48fcd6f392a4f08dd468b14eefffbc3ff89377536a9d915a/ckanext-graph-2.1.7.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-query-dois]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-query-dois-3.0.4.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-query-dois]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-query-dois-3.0.5.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-query-dois]: Start processing: prodigy-teams
+[2023-07-17 10:25:13] INFO root fetch - main [MainThread]: End processing [ckanext-query-dois]: success
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-iiif]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-iiif-3.0.8.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-iiif]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-iiif-3.0.9.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-iiif]: Start processing: prodigy-teams-recipes-sdk
+[2023-07-17 10:25:13] INFO root fetch - main [MainThread]: End processing [ckanext-iiif]: success
+[2023-07-17 10:25:13] INFO root fetch - processPackages [prodigy-teams]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [fp23dpy]: executing diffoscope
+[2023-07-17 10:25:13] INFO root fetch - processPackages [fp23dpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fp23dpy-0.3.8.tar.gz tmp/fp23dpy-0.3.9.tar.gz --markdown 20230717/f/fp23dpy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 10:25:13] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-ldap]: Downloading https://files.pythonhosted.org/packages/db/12/0493d873a29e97edd2c2690a154870f9fdbaebcf9dc6253501b38384b7be/ckanext-ldap-3.2.8.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [catcher-modules]: Remove: archive file [/home/abi/fetcher/tmp/catcher-modules-6.0.0.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [catcher-modules]: Remove: archive file [/home/abi/fetcher/tmp/catcher-modules-6.0.7.tar.gz]
+[2023-07-17 10:25:13] INFO root fetch - processPackages [catcher-modules]: Start processing: python-schematized-config
+[2023-07-17 10:25:13] INFO root fetch - main [MainThread]: End processing [catcher-modules]: success
+[2023-07-17 10:25:13] INFO root fetch - processPackages [prodigy-teams]: Downloading https://files.pythonhosted.org/packages/57/07/71027c4957e6a1622fb80cd60a705edc10baedef545efd04b767e8678c42/prodigy-teams-0.1.8.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [light-the-torch]: Downloading https://files.pythonhosted.org/packages/8d/41/3fdeec9d1cfb0775de53691da69e64558562d87536b8349769db79c95dc6/light_the_torch-0.7.5.tar.gz
+[2023-07-17 10:25:13] WARNING root fetch - processPackages [python-schematized-config]: Skipping, unable to determine old version
+[2023-07-17 10:25:13] INFO root fetch - processPackages [python-schematized-config]: Start processing: pquisby
+[2023-07-17 10:25:13] INFO root fetch - main [MainThread]: End processing [python-schematized-config] error
+[2023-07-17 10:25:13] INFO root fetch - processPackages [ckanext-graph]: Downloading https://files.pythonhosted.org/packages/cf/c0/5492c52066acbd0f71db8d9632c876b63ea6bd11fb2822d963c6dc72c476/ckanext-graph-2.1.8.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: Downloading https://files.pythonhosted.org/packages/dd/4a/213051f19dcbf99cef7ad3e058a858c297f2bd105d79efb323b1c618c939/prodigy-teams-recipes-sdk-0.1.4.tar.gz
+[2023-07-17 10:25:13] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/25/b7/587a319b14bfcf46aa93f6ec736372d221604cebf1d511f467bb88f342d9/cryolo-1.9.4b3.tar.gz
+[2023-07-17 10:25:14] INFO root fetch - processPackages [light-the-torch]: executing diffoscope
+[2023-07-17 10:25:14] INFO root fetch - processPackages [light-the-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/light_the_torch-0.7.4.tar.gz tmp/light_the_torch-0.7.5.tar.gz --markdown 20230717/l/light-the-torch/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-17 10:25:14] INFO root fetch - processPackages [tutor-cairn]: Remove: archive file [/home/abi/fetcher/tmp/tutor-cairn-16.0.0.tar.gz]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [tutor-cairn]: Remove: archive file [/home/abi/fetcher/tmp/tutor-cairn-16.0.1.tar.gz]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [tutor-cairn]: Start processing: mlrun
+[2023-07-17 10:25:14] INFO root fetch - main [MainThread]: End processing [tutor-cairn]: success
+[2023-07-17 10:25:14] INFO root fetch - processPackages [pquisby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-graph]: executing diffoscope
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-graph-2.1.7.tar.gz tmp/ckanext-graph-2.1.8.tar.gz --markdown 20230717/c/ckanext-graph/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-17 10:25:14] INFO root fetch - processPackages [cryolo]: executing diffoscope
+[2023-07-17 10:25:14] INFO root fetch - processPackages [cryolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryolo-1.9.4b2.tar.gz tmp/cryolo-1.9.4b3.tar.gz --markdown 20230717/c/cryolo/1.9.4b2-1.9.4b3/diff.md --exclude *.pyd
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-ldap]: Downloading https://files.pythonhosted.org/packages/85/71/f5fd95183b274bcd4bd28126482622c0e5fb7eb90cfc8308c4d4fe256c8c/ckanext-ldap-3.2.9.tar.gz
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-twitter]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-twitter-2.2.7.tar.gz]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-twitter]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-twitter-2.2.8.tar.gz]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-twitter]: Start processing: shapelets-native
+[2023-07-17 10:25:14] INFO root fetch - main [MainThread]: End processing [ckanext-twitter]: success
+[2023-07-17 10:25:14] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [prodigy-teams]: Downloading https://files.pythonhosted.org/packages/17/4c/a5f4f3cdaf7487d887d1aeabe53a3c3c0a1fe1985296cca2b2f3d0775821/prodigy-teams-0.1.9.tar.gz
+[2023-07-17 10:25:14] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d6/f1/7aed93fd661f571cdbbe3669f13929d38cd97f0fadd0dbb35fe072e546f0/pquisby-0.0.8.tar.gz
+[2023-07-17 10:25:14] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: Downloading https://files.pythonhosted.org/packages/2c/c0/6b7c27d4fb4193ac874bfbd38b6feb7bb34357ecfbc176942bedf0510130/prodigy-teams-recipes-sdk-0.1.5.tar.gz
+[2023-07-17 10:25:14] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.88] Old Version: [2.0.87]
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-ldap]: executing diffoscope
+[2023-07-17 10:25:14] INFO root fetch - processPackages [ckanext-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ldap-3.2.8.tar.gz tmp/ckanext-ldap-3.2.9.tar.gz --markdown 20230717/c/ckanext-ldap/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-17 10:25:14] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: executing diffoscope
+[2023-07-17 10:25:14] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy-teams-recipes-sdk-0.1.4.tar.gz tmp/prodigy-teams-recipes-sdk-0.1.5.tar.gz --markdown 20230717/p/prodigy-teams-recipes-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 10:25:14] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-07-17 10:25:14] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/dc/bc/262b2fda0db1589b01dffe21e4c4fa8d203f27a22f232388503fab21b9a7/shapelets_native-2.0.87-cp39-cp39-win_amd64.whl
+[2023-07-17 10:25:14] INFO root fetch - processPackages [prodigy-teams]: executing diffoscope
+[2023-07-17 10:25:14] INFO root fetch - processPackages [prodigy-teams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy-teams-0.1.8.tar.gz tmp/prodigy-teams-0.1.9.tar.gz --markdown 20230717/p/prodigy-teams/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:25:14] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d4/91/3e9961a55c54049d417b63c641b25bb1b00bc7235a425b5a0115b8e32455/pquisby-0.0.9.tar.gz
+[2023-07-17 10:25:15] INFO root fetch - processPackages [pquisby]: executing diffoscope
+[2023-07-17 10:25:15] INFO root fetch - processPackages [pquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pquisby-0.0.8.tar.gz tmp/pquisby-0.0.9.tar.gz --markdown 20230717/p/pquisby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:25:15] INFO root fetch - processPackages [fp23dpy]: Remove: archive file [/home/abi/fetcher/tmp/fp23dpy-0.3.8.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - processPackages [fp23dpy]: Remove: archive file [/home/abi/fetcher/tmp/fp23dpy-0.3.9.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - processPackages [fp23dpy]: Start processing: ckanext-statistics
+[2023-07-17 10:25:15] INFO root fetch - main [MainThread]: End processing [fp23dpy]: success
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-statistics]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-07-17 10:25:15] INFO root fetch - processPackages [light-the-torch]: Remove: archive file [/home/abi/fetcher/tmp/light_the_torch-0.7.4.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - processPackages [light-the-torch]: Remove: archive file [/home/abi/fetcher/tmp/light_the_torch-0.7.5.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - main [MainThread]: End processing [light-the-torch]: success
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-statistics]: Downloading https://files.pythonhosted.org/packages/b4/da/4e8a5dd3efccda62c3b23e2609baed984793e0947235ea09ceb0235eb910/ckanext-statistics-3.1.6.tar.gz
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-graph]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-graph-2.1.7.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-graph]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-graph-2.1.8.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - main [MainThread]: End processing [ckanext-graph]: success
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-ldap]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ldap-3.2.8.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-ldap]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ldap-3.2.9.tar.gz]
+[2023-07-17 10:25:15] INFO root fetch - main [MainThread]: End processing [ckanext-ldap]: success
+[2023-07-17 10:25:15] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/06/58/e63eeff9c49ae73ef464652f9b5cef555dfb337dbd6b96578d257de08f8e/shapelets_native-2.0.88-cp38-cp38-win_amd64.whl
+[2023-07-17 10:25:15] INFO root fetch - processPackages [ckanext-statistics]: Downloading https://files.pythonhosted.org/packages/ee/ff/ca0c2f12a6125aa0f8932a1f43767c38c09374d1a110475add1dd7e6c816/ckanext-statistics-3.1.7.tar.gz
+[2023-07-17 10:25:16] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.4b2.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.4b3.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - main [MainThread]: End processing [cryolo]: success
+[2023-07-17 10:25:16] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/eb/ad/9f5f871fcad9f8cb844bb52b41819c7f2f0813f9ea4390a2c38a5ed6f6b9/mlrun-1.4.0rc9-py3-none-any.whl
+[2023-07-17 10:25:16] INFO root fetch - processPackages [ckanext-statistics]: executing diffoscope
+[2023-07-17 10:25:16] INFO root fetch - processPackages [ckanext-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-statistics-3.1.6.tar.gz tmp/ckanext-statistics-3.1.7.tar.gz --markdown 20230717/c/ckanext-statistics/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-07-17 10:25:16] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prodigy-teams-recipes-sdk-0.1.4.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - processPackages [prodigy-teams-recipes-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prodigy-teams-recipes-sdk-0.1.5.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - main [MainThread]: End processing [prodigy-teams-recipes-sdk]: success
+[2023-07-17 10:25:16] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-07-17 10:25:16] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip --markdown 20230717/m/mlrun/1.4.0rc8-1.4.0rc9/diff.md --exclude *.pyd
+[2023-07-17 10:25:16] INFO root fetch - processPackages [prodigy-teams]: Remove: archive file [/home/abi/fetcher/tmp/prodigy-teams-0.1.8.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - processPackages [prodigy-teams]: Remove: archive file [/home/abi/fetcher/tmp/prodigy-teams-0.1.9.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - main [MainThread]: End processing [prodigy-teams]: success
+[2023-07-17 10:25:16] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.8.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.9.tar.gz]
+[2023-07-17 10:25:16] INFO root fetch - main [MainThread]: End processing [pquisby]: success
+[2023-07-17 10:25:17] INFO root fetch - processPackages [ckanext-statistics]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-statistics-3.1.6.tar.gz]
+[2023-07-17 10:25:17] INFO root fetch - processPackages [ckanext-statistics]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-statistics-3.1.7.tar.gz]
+[2023-07-17 10:25:17] INFO root fetch - main [MainThread]: End processing [ckanext-statistics]: success
+[2023-07-17 10:25:17] INFO root fetch - processPackages [shapelets-native]: executing diffoscope
+[2023-07-17 10:25:17] INFO root fetch - processPackages [shapelets-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets_native-2.0.87-cp39-cp39-win_amd64.whl.zip tmp/shapelets_native-2.0.88-cp38-cp38-win_amd64.whl.zip --markdown 20230717/s/shapelets-native/2.0.87-2.0.88/diff.md --exclude *.pyd
+[2023-07-17 10:25:18] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.87-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 10:25:18] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.88-cp38-cp38-win_amd64.whl.zip]
+[2023-07-17 10:25:18] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
+[2023-07-17 10:25:19] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip]
+[2023-07-17 10:25:19] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
+[2023-07-17 10:25:19] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-07-17 10:25:19] INFO root fetch - main [MainThread]: Store serial: [18913960]
