@@ -8049,3 +8049,60 @@
 [2023-07-17 07:45:02] INFO root fetch - processPackages [ProxyPatternPool]: Remove: archive file [/home/abi/fetcher/tmp/ProxyPatternPool-6.0.tar.gz]
 [2023-07-17 07:45:02] INFO root fetch - main [MainThread]: End processing [ProxyPatternPool]: success
 [2023-07-17 07:45:02] INFO root fetch - main [MainThread]: Store serial: [18912753]
+[2023-07-17 07:50:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912753]
+[2023-07-17 07:50:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Inde-Abbre
+[2023-07-17 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Dock-Py-Selenium
+[2023-07-17 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyacaia-async
+[2023-07-17 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MLXpress
+[2023-07-17 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweepai
+[2023-07-17 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argil
+[2023-07-17 07:50:11] INFO root fetch - processPackages [sweepai]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-17 07:50:11] INFO root fetch - processPackages [argil]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Inde-Abbre]: New version: [0.2] Old Version: [0.1]
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Dock-Py-Selenium]: New version: [2.0.0] Old Version: [1.0.5]
+[2023-07-17 07:50:11] INFO root fetch - processPackages [pyacaia-async]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 07:50:11] INFO root fetch - processPackages [MLXpress]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 07:50:11] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/91/28/2cb2939fc07c98bde5883ea89ba1e390f612d75f9c018fcb4ec5cf33a71c/sweepai-0.4.8.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/c3/ea/bc744d2a9a5be1bad7baa3a654ced20dea4d1dfd85e10eb94454697e502a/argil-0.0.27.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Dock-Py-Selenium]: Downloading https://files.pythonhosted.org/packages/a1/3d/2522f0887e7b8cebb83d6e2f4005293722ce3c733b630e7995e44880577d/dock-py-selenium-1.0.5.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/c4/cd/22d5d7331b1d3cd522632cd91e0434d1ebe6de2bb9074a19dbae073ae3ae/Inde_Abbre-0.1.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/73/34/ee37f23042bf1e8d8b0dd345f66a23900af721b546e8e2624bfd8e9ea99e/pyacaia_async-0.0.5.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/6f/a7/8693ed786db1410f1f64342501bc24226ba099c2d7a90b0d25041af4acf8/MLXpress-0.1.6-py3-none-any.whl
+[2023-07-17 07:50:11] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/8e/72/b9829dc0ea8c85b6057846a7aa48c5f5afd2f9e5fb0aecfd45ece46bacfa/argil-0.0.28.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/d8/f2/9a019c413a6eb9fd3ce29500d1e36ec434775c0031f9f8265f1ee9c3fc63/sweepai-0.4.9.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Dock-Py-Selenium]: Downloading https://files.pythonhosted.org/packages/5a/45/0dd509619240b2267dc42f1368020f3ec1b1702b41d328ea7f9798c89e71/Dock%20Py%20Selenium-2.0.0.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/9d/d8/d833baaba49c6c651ee928d63bbf8e774e6761801e83feb7d6ae169d9e69/pyacaia_async-0.0.6.tar.gz
+[2023-07-17 07:50:11] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 07:50:11] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.27.tar.gz tmp/argil-0.0.28.tar.gz --markdown 20230717/a/argil/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-07-17 07:50:11] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/29/80/e31eb5b458a9c1e347991edebcba67770ac7288a4af61cdd2f55f7c0d059/MLXpress-0.1.7-py3-none-any.whl
+[2023-07-17 07:50:11] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-17 07:50:11] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.8.tar.gz tmp/sweepai-0.4.9.tar.gz --markdown 20230717/s/sweepai/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/7e/8d/afea0e06f4970528dd56e6a375c1ef6f4e6b4cbed908c9114e83cb80fa77/Inde_Abbre-0.2-py3-none-any.whl
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Dock-Py-Selenium]: executing diffoscope
+[2023-07-17 07:50:11] INFO root fetch - processPackages [Dock-Py-Selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-1.0.5.tar.gz tmp/Dock Py Selenium-2.0.0.tar.gz --markdown 20230717/D/Dock-Py-Selenium/1.0.5-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 07:50:11] INFO root fetch - processPackages [pyacaia-async]: executing diffoscope
+[2023-07-17 07:50:11] INFO root fetch - processPackages [pyacaia-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacaia_async-0.0.5.tar.gz tmp/pyacaia_async-0.0.6.tar.gz --markdown 20230717/p/pyacaia-async/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 07:50:11] INFO root fetch - processPackages [MLXpress]: executing diffoscope
+[2023-07-17 07:50:11] INFO root fetch - processPackages [MLXpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLXpress-0.1.6-py3-none-any.whl.zip tmp/MLXpress-0.1.7-py3-none-any.whl.zip --markdown 20230717/M/MLXpress/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 07:50:12] INFO root fetch - processPackages [Inde-Abbre]: executing diffoscope
+[2023-07-17 07:50:12] INFO root fetch - processPackages [Inde-Abbre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Inde_Abbre-0.1.tar.gz tmp/Inde_Abbre-0.2-py3-none-any.whl.zip --markdown 20230717/I/Inde-Abbre/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-17 07:50:12] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.27.tar.gz]
+[2023-07-17 07:50:12] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.28.tar.gz]
+[2023-07-17 07:50:12] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 07:50:12] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.1.tar.gz]
+[2023-07-17 07:50:12] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.2-py3-none-any.whl.zip]
+[2023-07-17 07:50:12] INFO root fetch - main [MainThread]: End processing [Inde-Abbre]: success
+[2023-07-17 07:50:13] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.5.tar.gz]
+[2023-07-17 07:50:13] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.6.tar.gz]
+[2023-07-17 07:50:13] INFO root fetch - main [MainThread]: End processing [pyacaia-async]: success
+[2023-07-17 07:50:13] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.8.tar.gz]
+[2023-07-17 07:50:13] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.9.tar.gz]
+[2023-07-17 07:50:13] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-17 07:50:13] INFO root fetch - processPackages [Dock-Py-Selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.5.tar.gz]
+[2023-07-17 07:50:13] INFO root fetch - processPackages [Dock-Py-Selenium]: Remove: archive file [/home/abi/fetcher/tmp/Dock Py Selenium-2.0.0.tar.gz]
+[2023-07-17 07:50:13] INFO root fetch - main [MainThread]: End processing [Dock-Py-Selenium]: success
+[2023-07-17 07:50:13] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.6-py3-none-any.whl.zip]
+[2023-07-17 07:50:13] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.7-py3-none-any.whl.zip]
+[2023-07-17 07:50:13] INFO root fetch - main [MainThread]: End processing [MLXpress]: success
+[2023-07-17 07:50:13] INFO root fetch - main [MainThread]: Store serial: [18912769]
