@@ -8304,3 +8304,119 @@
 [2023-07-17 08:05:50] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.9.tar.gz]
 [2023-07-17 08:05:50] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
 [2023-07-17 08:05:50] INFO root fetch - main [MainThread]: Store serial: [18912844]
+[2023-07-17 08:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912844]
+[2023-07-17 08:10:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-schedulerx2
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcg-service
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: claude-api
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-smallapi
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-dashboard
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssh-terminal-manager
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-schedulerx220190430-py2
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pkgUdit
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-schedulerx220190430
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threefive
+[2023-07-17 08:10:59] INFO root fetch - processPackages [claude-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [pkgUdit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [nonebot-plugin-smallapi]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [spaceone-dashboard]: New version: [1.12.dev8] Old Version: [1.12.dev7]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [dcg-service]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [threefive]: New version: [2.3.99] Old Version: [2.3.97]
+[2023-07-17 08:10:59] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/21/d4/c86e05b30e8aa3d07799731177a354fee67e413be480f96013cba06e1a48/ssh_terminal_manager-0.7.0.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/79/38/091b8ec4459ea1c131126a7734084394274d9ed55d123efaad8e615369dc/nonebot_plugin_smallapi-1.0.6.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/39/70/3621fa96843d64c878d1c61872a8e0ba7d4cd84f1b1e2373d50bf77f2c7c/claude-api-1.0.0.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/b0/5e/f3f65b064e3335fe92e2a57db3f4c0f9239e52a77714540054484ad3b767/pkgUdit-0.0.1.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Downloading https://files.pythonhosted.org/packages/a2/90/5d7f5e4814f903f51db48f1e60f8630c06694c9476949f2f913c3bb767d2/alibabacloud_schedulerx220190430_py2-1.1.8.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Downloading https://files.pythonhosted.org/packages/32/60/350585393a803cd68fddd287b1285df3989a26e8091d389ec97c9f63ccf8/alibabacloud_schedulerx220190430-1.1.8.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Downloading https://files.pythonhosted.org/packages/c7/3d/1f141ddaf53ce494a126b4b5fe2dc9100c180fd5cc7656567b5afd3ebe76/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/5e/b2/2564670b146852919abcc38cd399719d41dc7ca5b81f1bb788f2410fec83/spaceone-dashboard-1.12.dev7.tar.gz
+[2023-07-17 08:10:59] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/85/ef/e749182cebb48868bfec93b289a25ef79679733d8690cf9697630f97800d/dcg_service-0.0.5.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/50/dd/add315d9fb2f5806f6acda0c1dc4ad8fd803794d5c586fc68ae98367afa4/threefive-2.3.97.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/e0/76/d3e9924fe18a682ff57d17c80f285b05e286a186d54e200abe2a3060908b/ssh_terminal_manager-0.8.0.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/5a/c0/fc247a26fdeba85d3419cd95d2dd61ad48f40739fbed458ec7082845c248/nonebot_plugin_smallapi-1.0.7.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/f4/35/0d899a443c8578dd42fe1689e32c1e3d98004b01b417d177980a58133ea9/claude-api-1.0.1.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/c2/a1/a465880bcd6580dfb9e20de9331b009f4c89d71b0e10e6df58500ccc9650/pkgUdit-0.0.2-py3-none-any.whl
+[2023-07-17 08:11:00] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.7.0.tar.gz tmp/ssh_terminal_manager-0.8.0.tar.gz --markdown 20230717/s/ssh-terminal-manager/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Downloading https://files.pythonhosted.org/packages/2e/5d/7333ff90b38474e89651788af3d17675d492bca1e65ef000372cd3ad5946/alibabacloud_schedulerx220190430_py2-1.1.9.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/ab/d0/edcdff2c870650232650fd2bf3297bb1fba5601545a45d53a22fa669c2d3/spaceone-dashboard-1.12.dev8.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-0.0.1.tar.gz tmp/pkgUdit-0.0.2-py3-none-any.whl.zip --markdown 20230717/p/pkgUdit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/78/e1/9371de3cdb4dbd0a6bf9368cc0f8318aec96a137e20c1eb2926902cade5e/threefive-2.3.99.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [nonebot-plugin-smallapi]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [nonebot-plugin-smallapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smallapi-1.0.6.tar.gz tmp/nonebot_plugin_smallapi-1.0.7.tar.gz --markdown 20230717/n/nonebot-plugin-smallapi/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/0a/74/e2ffc1b373e805f7b3a117711c7df0c28c38561da572c02bde349f0a90dc/dcg_service-0.0.6.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.0.tar.gz tmp/claude-api-1.0.1.tar.gz --markdown 20230717/c/claude-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Downloading https://files.pythonhosted.org/packages/64/40/c70f62fb7e6c33845452845cfa4ac95defb85984002d2411c4525ade42eb/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Downloading https://files.pythonhosted.org/packages/2b/e7/a2c25333e9d7eb58c4b84ce13554a4be642c7d3f262f90ae4603f896a472/alibabacloud_schedulerx220190430-1.1.9.tar.gz
+[2023-07-17 08:11:00] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_schedulerx220190430_py2-1.1.8.tar.gz tmp/alibabacloud_schedulerx220190430_py2-1.1.9.tar.gz --markdown 20230717/a/alibabacloud-schedulerx220190430-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [dcg-service]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [dcg-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcg_service-0.0.5.tar.gz tmp/dcg_service-0.0.6.tar.gz --markdown 20230717/d/dcg-service/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-1.12.dev7.tar.gz tmp/spaceone-dashboard-1.12.dev8.tar.gz --markdown 20230717/s/spaceone-dashboard/1.12.dev7-1.12.dev8/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz tmp/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz --markdown 20230717/a/aliyun-python-sdk-schedulerx2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_schedulerx220190430-1.1.8.tar.gz tmp/alibabacloud_schedulerx220190430-1.1.9.tar.gz --markdown 20230717/a/alibabacloud-schedulerx220190430/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 08:11:00] INFO root fetch - processPackages [threefive]: executing diffoscope
+[2023-07-17 08:11:00] INFO root fetch - processPackages [threefive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threefive-2.3.97.tar.gz tmp/threefive-2.3.99.tar.gz --markdown 20230717/t/threefive/2.3.97-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 08:11:01] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.7.0.tar.gz]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.0.tar.gz]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [ssh-terminal-manager]: Start processing: aspose-diagram-python
+[2023-07-17 08:11:01] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-17 08:11:01] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.1.tar.gz]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.2-py3-none-any.whl.zip]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [pkgUdit]: Start processing: unitclass
+[2023-07-17 08:11:01] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-17 08:11:01] INFO root fetch - processPackages [aspose-diagram-python]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [unitclass]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smallapi-1.0.6.tar.gz]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smallapi-1.0.7.tar.gz]
+[2023-07-17 08:11:01] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Start processing: arthub-login-widgets
+[2023-07-17 08:11:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smallapi]: success
+[2023-07-17 08:11:01] INFO root fetch - processPackages [arthub-login-widgets]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.0.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.1.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [aspose-diagram-python]: Downloading https://files.pythonhosted.org/packages/95/42/c446a9864f77438a7fbda5e24850168d7aa648a22ca4f6b52ffdedb2b6d6/aspose_diagram_python-23.6-py3-none-win_amd64.whl
+[2023-07-17 08:11:02] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/d5/94/372ddc3f07cedd9f0c942eec2c4c6bb284fce8753051683df7a283c013aa/unitclass-1.0.5.tar.gz
+[2023-07-17 08:11:02] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-1.12.dev7.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-1.12.dev8.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/de/2b/c879171ab7b51eaf713a0854a94a3c2e1fe91a8412b365421b4d3e09d785/arthub_login_widgets-0.3.3.tar.gz
+[2023-07-17 08:11:02] INFO root fetch - processPackages [threefive]: Remove: archive file [/home/abi/fetcher/tmp/threefive-2.3.97.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [threefive]: Remove: archive file [/home/abi/fetcher/tmp/threefive-2.3.99.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [threefive]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/69/b0/b7930cd9ed4be041f9c848ac631b0e918795226aac8916885bcb5ffac55c/unitclass-1.0.6.tar.gz
+[2023-07-17 08:11:02] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.5.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.6.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [dcg-service]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430-1.1.8.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430-1.1.9.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-schedulerx220190430]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430_py2-1.1.8.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430_py2-1.1.9.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-schedulerx220190430-py2]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz]
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-schedulerx2]: success
+[2023-07-17 08:11:02] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/b2/6b/637de25cc8a6432daa1bca37f059141976501c07c4d452d39cf755689968/arthub_login_widgets-0.4.0.tar.gz
+[2023-07-17 08:11:02] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-17 08:11:02] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-1.0.5.tar.gz tmp/unitclass-1.0.6.tar.gz --markdown 20230717/u/unitclass/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 08:11:02] WARNING root fetch - processPackages [aspose-diagram-python]: Skipping package: exceeds size limit 38612762>=10485760
+[2023-07-17 08:11:02] INFO root fetch - main [MainThread]: End processing [aspose-diagram-python] error
+[2023-07-17 08:11:02] INFO root fetch - processPackages [arthub-login-widgets]: executing diffoscope
+[2023-07-17 08:11:02] INFO root fetch - processPackages [arthub-login-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_login_widgets-0.3.3.tar.gz tmp/arthub_login_widgets-0.4.0.tar.gz --markdown 20230717/a/arthub-login-widgets/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 08:11:03] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.5.tar.gz]
+[2023-07-17 08:11:03] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.6.tar.gz]
+[2023-07-17 08:11:03] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-17 08:11:03] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.3.3.tar.gz]
+[2023-07-17 08:11:03] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.0.tar.gz]
+[2023-07-17 08:11:03] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
+[2023-07-17 08:11:03] INFO root fetch - main [MainThread]: Store serial: [18912881]
