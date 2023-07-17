@@ -10022,3 +10022,109 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 09:43:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-17 09:43:00] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-17 09:43:00] INFO root fetch - main [MainThread]: Store serial: [18913552]
+[2023-07-17 09:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913552]
+[2023-07-17 09:48:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connectors-to-databases
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-connector-elasticsearch
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: queryandprocessdatautility
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htruc
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minidevice
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridappsd-python
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-changedetect
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gridappsd-field-bus
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automation-editor
+[2023-07-17 09:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pkgUdit
+[2023-07-17 09:48:10] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: New version: [14.0.2.6.1.dev2] Old Version: [14.0.2.6.1.dev1]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [minidevice]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [htruc]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [pydantic-changedetect]: New version: [0.5.0] Old Version: [0.2.5]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a5] Old Version: [2023.7.1a4]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [connectors-to-databases]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [pkgUdit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a5] Old Version: [2023.7.1a4]
+[2023-07-17 09:48:10] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-07-17 09:48:10] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/5d/92/722d635b13c8f9ace9cf8dc92fb5cb7ed1146fec140174ded37eac076dce/htruc-1.1.1.tar.gz
+[2023-07-17 09:48:10] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/25/db/0124d6e9601686a18c7e9d89a5fdd6f9b3d67d597e936056d73898de6558/gridappsd_field_bus-2023.7.1a4.tar.gz
+[2023-07-17 09:48:10] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/c6/1d/aa29db57e5b511a4642c9ed8565db54b6ed019953cfd6aacff6f87253222/minidevice-2.1.6.tar.gz
+[2023-07-17 09:48:10] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-07-17 09:48:10] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/cb/3b/68c03b10abe6567e6dbada3668baec48423b42cb343a506eb0a0abada314/gridappsd_python-2023.7.1a4.tar.gz
+[2023-07-17 09:48:10] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/5e/ec/982f37a7e9f2ae120503207eb1701f64316fcaf47588638e933fc36ed30a/pkgUdit-0.0.3-py3-none-any.whl
+[2023-07-17 09:48:10] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: Downloading https://files.pythonhosted.org/packages/54/cf/c0cdfc44743869cf0548262d3be2c3f11c099d425d80c147b1d12e1cdd96/odoo14_addon_connector_elasticsearch-14.0.2.6.1.dev1-py3-none-any.whl
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pydantic-changedetect]: Downloading https://files.pythonhosted.org/packages/eb/4e/db3e02f772570bd4c00d12da23049550a32434d604ca2fb3114b343421cf/pydantic_changedetect-0.2.5.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/bc/ab/d1bea7b0ca5ffcfbc30b1fe0b3f625083cd3165aaccf31b36943ae7662c1/connectors_to_databases-1.0.6.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-07-17 09:48:11] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/4b/b6/a19c3c1c63e6edbf2f6b2063386b2643dfa2cd31b1951a1e3b4d1e34732c/htruc-1.1.2.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/f8/11/8d4fa295e46a3ef91160e6c5aeb699dc4c9128ef2e6e67ee7d3227633be0/minidevice-2.1.7.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/ee/3c/d112dd0e3a90c0b4b93043895d4b0681425cc32ec91141ee84484c412699/gridappsd_python-2023.7.1a5.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [connectors-to-databases]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [connectors-to-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectors_to_databases-1.0.5.tar.gz tmp/connectors_to_databases-1.0.6.tar.gz --markdown 20230717/c/connectors-to-databases/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230717/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/3e/52/51a87cb6a7896c325fdeadc09cea1574eeff796fc4093c01a185996ee238/gridappsd_field_bus-2023.7.1a5.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/69/18/97c9818d8e8f3b00e9da2658190a5cdceceae04855c1694e6301de1b405d/pkgUdit-0.0.4-py3-none-any.whl
+[2023-07-17 09:48:11] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: Downloading https://files.pythonhosted.org/packages/87/32/9b1396244bb40d5ea45669fb01792f0d9bb1f9b4aa0aef817747019996b9/odoo14_addon_connector_elasticsearch-14.0.2.6.1.dev2-py3-none-any.whl
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pydantic-changedetect]: Downloading https://files.pythonhosted.org/packages/f7/01/ce902c418eb32407edfca9a84de0d439d422a07dee7451016cadc72a5abd/pydantic_changedetect-0.5.0.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [htruc]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [htruc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htruc-1.1.1.tar.gz tmp/htruc-1.1.2.tar.gz --markdown 20230717/h/htruc/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-07-17 09:48:11] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.6.tar.gz tmp/minidevice-2.1.7.tar.gz --markdown 20230717/m/minidevice/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-0.0.3-py3-none-any.whl.zip tmp/pkgUdit-0.0.4-py3-none-any.whl.zip --markdown 20230717/p/pkgUdit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a4.tar.gz tmp/gridappsd_python-2023.7.1a5.tar.gz --markdown 20230717/g/gridappsd-python/2023.7.1a4-2023.7.1a5/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pydantic-changedetect]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [pydantic-changedetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_changedetect-0.2.5.tar.gz tmp/pydantic_changedetect-0.5.0.tar.gz --markdown 20230717/p/pydantic-changedetect/0.2.5-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a4.tar.gz tmp/gridappsd_field_bus-2023.7.1a5.tar.gz --markdown 20230717/g/gridappsd-field-bus/2023.7.1a4-2023.7.1a5/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_elasticsearch-14.0.2.6.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_connector_elasticsearch-14.0.2.6.1.dev2-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-connector-elasticsearch/14.0.2.6.1.dev1-14.0.2.6.1.dev2/diff.md --exclude *.pyd
+[2023-07-17 09:48:11] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-07-17 09:48:11] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230717/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:48:13] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.0.5.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.0.6.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [connectors-to-databases]: Start processing: jupyterlab-nodeeditor
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [connectors-to-databases]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.6.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.7.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [minidevice]: Start processing: tr
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [pydantic-changedetect]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_changedetect-0.2.5.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [pydantic-changedetect]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_changedetect-0.5.0.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [pydantic-changedetect]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/a7/59/ff137a4eb7ce8d2cfcc1feeededf69884dc08cdebee4076c02c9576e9f68/jupyterlab_nodeeditor-1.0.5.tar.gz
+[2023-07-17 09:48:13] INFO root fetch - processPackages [tr]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.1.1.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.1.2.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [htruc]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a4.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a5.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.3-py3-none-any.whl.zip]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.4-py3-none-any.whl.zip]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a4.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a5.tar.gz]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_elasticsearch-14.0.2.6.1.dev1-py3-none-any.whl.zip]
+[2023-07-17 09:48:13] INFO root fetch - processPackages [odoo14-addon-connector-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_elasticsearch-14.0.2.6.1.dev2-py3-none-any.whl.zip]
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-elasticsearch]: success
+[2023-07-17 09:48:13] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/6e/71/b96adb188a617b0dc32d24d70ac331101df8c89421a499681b6baa550035/tr-2.6.2.tar.gz
+[2023-07-17 09:48:13] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 52909861>=10485760
+[2023-07-17 09:48:13] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-07-17 09:48:15] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/6a/4f/b1f70b2697f7932e67f42e9dd387851afdbaf436b2435937bf734217edff/jupyterlab_nodeeditor-1.0.6.tar.gz
+[2023-07-17 09:48:15] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-07-17 09:48:15] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.5.tar.gz tmp/jupyterlab_nodeeditor-1.0.6.tar.gz --markdown 20230717/j/jupyterlab-nodeeditor/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 09:48:18] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.5.tar.gz]
+[2023-07-17 09:48:18] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.6.tar.gz]
+[2023-07-17 09:48:18] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-07-17 09:48:18] INFO root fetch - main [MainThread]: Store serial: [18913587]
