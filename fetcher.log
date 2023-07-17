@@ -18354,3 +18354,230 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:09:18] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.0.post1.tar.gz]
 [2023-07-17 15:09:18] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2023-07-17 15:09:18] INFO root fetch - main [MainThread]: Store serial: [18917199]
+[2023-07-17 15:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917199]
+[2023-07-17 15:14:28] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mail-layout-preview
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: letterenv
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotpot-zzy
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textual
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlinkutils
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maxia-pipedrive
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: housekeeper
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: satori-playbook-validator
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynamoclasses
+[2023-07-17 15:14:28] INFO root fetch - processPackages [dynamoclasses]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-17 15:14:28] WARNING root fetch - processPackages [odoo-addon-mail-layout-preview]: Skipping, unable to determine old version
+[2023-07-17 15:14:28] INFO root fetch - processPackages [odoo-addon-mail-layout-preview]: Start processing: photon-packet-parser
+[2023-07-17 15:14:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-layout-preview] error
+[2023-07-17 15:14:28] WARNING root fetch - processPackages [maxia-pipedrive]: Skipping, unable to determine old version
+[2023-07-17 15:14:28] INFO root fetch - processPackages [maxia-pipedrive]: Start processing: cazomevolve
+[2023-07-17 15:14:28] INFO root fetch - main [MainThread]: End processing [maxia-pipedrive] error
+[2023-07-17 15:14:28] INFO root fetch - processPackages [photon-packet-parser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-17 15:14:28] WARNING root fetch - processPackages [streamlinkutils]: Skipping, unable to determine old version
+[2023-07-17 15:14:28] INFO root fetch - processPackages [streamlinkutils]: Start processing: demisto-sdk
+[2023-07-17 15:14:28] INFO root fetch - main [MainThread]: End processing [streamlinkutils] error
+[2023-07-17 15:14:28] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.0.9] Old Version: [0.3.0.8]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [letterenv]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [satori-playbook-validator]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [housekeeper]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [cazomevolve]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 15:14:28] INFO root fetch - processPackages [dynamoclasses]: Downloading https://files.pythonhosted.org/packages/22/60/011b58a15755a73e3471914c00078e8e373f7a675d4afb4c7814864ef246/dynamoclasses-1.0.0a1.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/a1/14/4617756da3fcbb64e2516d402d8aa58416f127c6d289d8dd594445e345df/satori_playbook_validator-3.1.6.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [letterenv]: Downloading https://files.pythonhosted.org/packages/48/fc/b9bc87558fd3f4ddbfb6a1124d878899a75b6bda979000abe51dfdd3150c/letterenv-0.1.1.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [photon-packet-parser]: Downloading https://files.pythonhosted.org/packages/30/97/7915ad6e6f8ea40e86e894bf9d79fbf5366dbb34d2bff94d4e4bea487f3c/photon-packet-parser-0.1.0.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/2b/40/f1f62d34392d6da339388a83e0eff22b725106ab682dd32d4ccd39abb036/housekeeper-4.5.0.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/30/a0/e65cf7198b70495f1ec7dcaa9dca574427bd173170aace4462a769f3b8e3/hotpot-zzy-0.3.0.8.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [cazomevolve]: Downloading https://files.pythonhosted.org/packages/fa/78/2d1df381e7a77dde5f6fc0808b50ef2fd71e1fb87acb014f674fae4c77b2/cazomevolve-0.1.5.tar.gz
+[2023-07-17 15:14:28] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [dynamoclasses]: Downloading https://files.pythonhosted.org/packages/ec/f2/f321c3647ef79603412c9d6817d2ef3e860548606088cce9a2b499d3d075/dynamoclasses-1.0.0a2.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [photon-packet-parser]: Downloading https://files.pythonhosted.org/packages/54/8f/4ddf66fd78024bd6224c94696bef9c5658b01d718e68c48907ce8b4469b5/photon-packet-parser-0.1.1.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [letterenv]: Downloading https://files.pythonhosted.org/packages/43/30/5e4cf529848d164f7e4a63d6518d6c76a3cd5903ad19e34ee86fe6f88b42/letterenv-0.1.3.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/55/37/ed8146d9e639f9e96cf7809b3bc6859a994ac0d9b96a32f6900df6e45d11/satori_playbook_validator-3.1.7.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [dynamoclasses]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [dynamoclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamoclasses-1.0.0a1.tar.gz tmp/dynamoclasses-1.0.0a2.tar.gz --markdown 20230717/d/dynamoclasses/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/3b/25/9a9409fe797dbc63a36f0a358cfd2cfc8933ef3358f7bee1949f7449e5aa/housekeeper-4.6.0.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [cazomevolve]: Downloading https://files.pythonhosted.org/packages/ad/e7/27e4d0f34547cfba58082de2034596c180663353e1e48499813063f189ea/cazomevolve-0.1.6.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [letterenv]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [letterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterenv-0.1.1.tar.gz tmp/letterenv-0.1.3.tar.gz --markdown 20230717/l/letterenv/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/28/a5/509ae2ad6f35cc7532d7b2e918155cd5a36d397e21f052053a3b3eb4bc3d/hotpot-zzy-0.3.0.9.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-3.1.6.tar.gz tmp/satori_playbook_validator-3.1.7.tar.gz --markdown 20230717/s/satori-playbook-validator/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [photon-packet-parser]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [photon-packet-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photon-packet-parser-0.1.0.tar.gz tmp/photon-packet-parser-0.1.1.tar.gz --markdown 20230717/p/photon-packet-parser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230717/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-07-17 15:14:29] INFO root fetch - processPackages [housekeeper]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeper-4.5.0.tar.gz tmp/housekeeper-4.6.0.tar.gz --markdown 20230717/h/housekeeper/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [cazomevolve]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [cazomevolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cazomevolve-0.1.5.tar.gz tmp/cazomevolve-0.1.6.tar.gz --markdown 20230717/c/cazomevolve/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.8.tar.gz tmp/hotpot-zzy-0.3.0.9.tar.gz --markdown 20230717/h/hotpot-zzy/0.3.0.8-0.3.0.9/diff.md --exclude *.pyd
+[2023-07-17 15:14:29] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-07-17 15:14:29] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230717/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 15:14:30] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2023-07-17 15:14:31] INFO root fetch - processPackages [letterenv]: Remove: archive file [/home/abi/fetcher/tmp/letterenv-0.1.1.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [letterenv]: Remove: archive file [/home/abi/fetcher/tmp/letterenv-0.1.3.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [letterenv]: Start processing: runner1c
+[2023-07-17 15:14:31] INFO root fetch - main [MainThread]: End processing [letterenv]: success
+[2023-07-17 15:14:31] INFO root fetch - processPackages [runner1c]: New version: [0.59] Old Version: [0.58]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-07-17 15:14:31] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230717/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 15:14:31] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.6.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.7.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [satori-playbook-validator]: Start processing: calphy
+[2023-07-17 15:14:31] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-07-17 15:14:31] INFO root fetch - processPackages [dynamoclasses]: Remove: archive file [/home/abi/fetcher/tmp/dynamoclasses-1.0.0a1.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [dynamoclasses]: Remove: archive file [/home/abi/fetcher/tmp/dynamoclasses-1.0.0a2.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [dynamoclasses]: Start processing: emdbg
+[2023-07-17 15:14:31] INFO root fetch - main [MainThread]: End processing [dynamoclasses]: success
+[2023-07-17 15:14:31] INFO root fetch - processPackages [calphy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [runner1c]: Downloading https://files.pythonhosted.org/packages/8d/53/dd5254075db5299fe182e58d6949fcbfaa18d148e49d1bf151877a616003/runner1c-0.58.tar.gz
+[2023-07-17 15:14:31] INFO root fetch - processPackages [emdbg]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [photon-packet-parser]: Remove: archive file [/home/abi/fetcher/tmp/photon-packet-parser-0.1.0.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [photon-packet-parser]: Remove: archive file [/home/abi/fetcher/tmp/photon-packet-parser-0.1.1.tar.gz]
+[2023-07-17 15:14:31] INFO root fetch - processPackages [photon-packet-parser]: Start processing: nbdev-stdlib
+[2023-07-17 15:14:31] INFO root fetch - main [MainThread]: End processing [photon-packet-parser]: success
+[2023-07-17 15:14:32] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [ramodels]: Start processing: sampledb
+[2023-07-17 15:14:32] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-17 15:14:32] INFO root fetch - processPackages [emdbg]: Downloading https://files.pythonhosted.org/packages/59/31/07605edec1a4a190ef50538acb482c8fa6be23297da072dd848ea3c73f22/emdbg-1.0.2.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [sampledb]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [calphy]: Downloading https://files.pythonhosted.org/packages/1d/9b/4e2cae39b89075939707d975533eac4a44db2fce6e8788b29fe8b72b9d18/calphy-1.2.8.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [runner1c]: Downloading https://files.pythonhosted.org/packages/83/9d/f2b43a93791977afb1b06b5df340238829f0cf6fd815fd2ca4839a0fe22a/runner1c-0.59.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [sampledb]: Downloading https://files.pythonhosted.org/packages/c3/d3/ba4fbe1e93c5973353b06ea95a683e0fb95c7bf660c322c9d5c4818f1b82/sampledb-0.8.1.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [cazomevolve]: Remove: archive file [/home/abi/fetcher/tmp/cazomevolve-0.1.5.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [cazomevolve]: Remove: archive file [/home/abi/fetcher/tmp/cazomevolve-0.1.6.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [cazomevolve]: Start processing: platform-library
+[2023-07-17 15:14:32] INFO root fetch - main [MainThread]: End processing [cazomevolve]: success
+[2023-07-17 15:14:32] INFO root fetch - processPackages [runner1c]: executing diffoscope
+[2023-07-17 15:14:32] INFO root fetch - processPackages [runner1c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runner1c-0.58.tar.gz tmp/runner1c-0.59.tar.gz --markdown 20230717/r/runner1c/0.58-0.59/diff.md --exclude *.pyd
+[2023-07-17 15:14:32] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.5.0.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.6.0.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [housekeeper]: Start processing: Hellomanna2
+[2023-07-17 15:14:32] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
+[2023-07-17 15:14:32] WARNING root fetch - processPackages [Hellomanna2]: Skipping, unable to determine old version
+[2023-07-17 15:14:32] INFO root fetch - processPackages [Hellomanna2]: Start processing: plone.restapi
+[2023-07-17 15:14:32] INFO root fetch - main [MainThread]: End processing [Hellomanna2] error
+[2023-07-17 15:14:32] INFO root fetch - processPackages [platform-library]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-17 15:14:32] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230717/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 15:14:32] INFO root fetch - processPackages [emdbg]: Downloading https://files.pythonhosted.org/packages/97/9f/77e132a4ca0cfa824c26cb54a4e3fb075f9aac26491d1645a2d3d156a363/emdbg-1.0.3.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [calphy]: Downloading https://files.pythonhosted.org/packages/3c/f2/343c597f5f69ed8684987c750e55b770fd2c4d307920438ae7728167d880/calphy-1.2.9.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.8.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.9.tar.gz]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [hotpot-zzy]: Start processing: pypomes-core
+[2023-07-17 15:14:32] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-07-17 15:14:32] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/5c/49/604cd926a68b3675c8cb37f32fd9b39df24871debcc3bf0dad89fc64817f/platform-library-0.2.0.tar.gz
+[2023-07-17 15:14:32] INFO root fetch - processPackages [pypomes-core]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 15:14:32] INFO root fetch - processPackages [calphy]: executing diffoscope
+[2023-07-17 15:14:32] INFO root fetch - processPackages [calphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calphy-1.2.8.tar.gz tmp/calphy-1.2.9.tar.gz --markdown 20230717/c/calphy/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-17 15:14:32] INFO root fetch - processPackages [emdbg]: executing diffoscope
+[2023-07-17 15:14:32] INFO root fetch - processPackages [emdbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emdbg-1.0.2.tar.gz tmp/emdbg-1.0.3.tar.gz --markdown 20230717/e/emdbg/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 15:14:33] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/6d/e8/e32eb898d045619683790f432ac985e414f02b7acdf3035d4b2e7d92a046/plone.restapi-8.9.0.tar.gz
+[2023-07-17 15:14:33] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/f0/70/3f766a6bd4af0313041678b0072f4e387adb22899381348dcb718afe1ac3/pypomes_core-0.1.5.tar.gz
+[2023-07-17 15:14:33] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/4a/52/1d5ecc5fdc7115d674acf4ff5c1bfe05f142e6b57e1eb03389814dc3c024/platform-library-0.3.0.tar.gz
+[2023-07-17 15:14:33] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-07-17 15:14:33] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-07-17 15:14:33] INFO root fetch - processPackages [textual]: Start processing: remote-sensing-processor
+[2023-07-17 15:14:33] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-07-17 15:14:33] INFO root fetch - processPackages [remote-sensing-processor]: New version: [0.2] Old Version: [0.1]
+[2023-07-17 15:14:33] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/fd/ea/89e7bd46d52734add87796825d311a550126594d34d8c176cb7a268d1e5d/pypomes_core-0.1.6.tar.gz
+[2023-07-17 15:14:33] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-07-17 15:14:33] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.2.0.tar.gz tmp/platform-library-0.3.0.tar.gz --markdown 20230717/p/platform-library/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 15:14:33] INFO root fetch - processPackages [sampledb]: Downloading https://files.pythonhosted.org/packages/c4/34/df88919267ed7af4854ffeeaf3d3aa4fb500a4fdab9dbdde957dcd24a019/sampledb-0.9.0.tar.gz
+[2023-07-17 15:14:33] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-07-17 15:14:33] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.1.5.tar.gz tmp/pypomes_core-0.1.6.tar.gz --markdown 20230717/p/pypomes-core/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 15:14:33] INFO root fetch - processPackages [remote-sensing-processor]: Downloading https://files.pythonhosted.org/packages/81/62/3bb9281d81ae5c6a1076eae55eee1ccfd3f3a2ff6511098349e2f28ae3e9/remote-sensing-processor-0.1.tar.gz
+[2023-07-17 15:14:34] WARNING root fetch - processPackages [remote-sensing-processor]: Skipping package: exceeds size limit 79860606>=10485760
+[2023-07-17 15:14:34] INFO root fetch - processPackages [remote-sensing-processor]: Start processing: fwdviewpy
+[2023-07-17 15:14:34] INFO root fetch - main [MainThread]: End processing [remote-sensing-processor] error
+[2023-07-17 15:14:34] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/33/68/6801f068e5c970b2e51849ae5831a9c2172d1179cfbfdb656bdcf249b4bf/plone.restapi-8.9.1.tar.gz
+[2023-07-17 15:14:34] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 15:14:34] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-17 15:14:34] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-07-17 15:14:34] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230717/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-07-17 15:14:34] INFO root fetch - processPackages [sampledb]: executing diffoscope
+[2023-07-17 15:14:34] INFO root fetch - processPackages [sampledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampledb-0.8.1.tar.gz tmp/sampledb-0.9.0.tar.gz --markdown 20230717/s/sampledb/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 15:14:34] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-17 15:14:34] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-17 15:14:34] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: image-analyst
+[2023-07-17 15:14:34] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-17 15:14:34] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-17 15:14:34] INFO root fetch - processPackages [image-analyst]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-17 15:14:35] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230717/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 15:14:35] INFO root fetch - processPackages [image-analyst]: Downloading https://files.pythonhosted.org/packages/ee/e0/707d8c949c7c903f1426068c8af62b9f05495980a2ca96d51c7764015c8e/image_analyst-0.1.1.tar.gz
+[2023-07-17 15:14:35] INFO root fetch - processPackages [runner1c]: Remove: archive file [/home/abi/fetcher/tmp/runner1c-0.58.tar.gz]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [runner1c]: Remove: archive file [/home/abi/fetcher/tmp/runner1c-0.59.tar.gz]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [runner1c]: Start processing: nbdev-numpy
+[2023-07-17 15:14:35] INFO root fetch - main [MainThread]: End processing [runner1c]: success
+[2023-07-17 15:14:35] INFO root fetch - processPackages [calphy]: Remove: archive file [/home/abi/fetcher/tmp/calphy-1.2.8.tar.gz]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [calphy]: Remove: archive file [/home/abi/fetcher/tmp/calphy-1.2.9.tar.gz]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [calphy]: Start processing: photon-packet-parser
+[2023-07-17 15:14:35] INFO root fetch - main [MainThread]: End processing [calphy]: success
+[2023-07-17 15:14:35] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [photon-packet-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [image-analyst]: Downloading https://files.pythonhosted.org/packages/db/82/f66ce435e7cbf001bff21ab04dc31d54a0e0a994726baf324dd63cce387b/image_analyst-0.1.2.tar.gz
+[2023-07-17 15:14:35] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-17 15:14:35] INFO root fetch - processPackages [photon-packet-parser]: Downloading https://files.pythonhosted.org/packages/54/8f/4ddf66fd78024bd6224c94696bef9c5658b01d718e68c48907ce8b4469b5/photon-packet-parser-0.1.1.tar.gz
+[2023-07-17 15:14:35] INFO root fetch - processPackages [image-analyst]: executing diffoscope
+[2023-07-17 15:14:35] INFO root fetch - processPackages [image-analyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst-0.1.1.tar.gz tmp/image_analyst-0.1.2.tar.gz --markdown 20230717/i/image-analyst/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 15:14:35] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.2.0.tar.gz]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.3.0.tar.gz]
+[2023-07-17 15:14:35] INFO root fetch - processPackages [platform-library]: Start processing: Geode-Explicit
+[2023-07-17 15:14:35] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-07-17 15:14:36] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-17 15:14:36] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.1.2rc1] Old Version: [4.1.1rc1]
+[2023-07-17 15:14:36] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.5.tar.gz]
+[2023-07-17 15:14:36] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.6.tar.gz]
+[2023-07-17 15:14:36] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-07-17 15:14:36] INFO root fetch - processPackages [photon-packet-parser]: Downloading https://files.pythonhosted.org/packages/9e/ff/d2c05a6131685f7b046109a60bcaed557c261d15fa457fde70162636596b/photon-packet-parser-0.1.2.tar.gz
+[2023-07-17 15:14:36] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-17 15:14:36] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230717/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 15:14:36] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/78/02/d497d0962a36326c36658d17a4680f6897cebdb054fecd0338f70d112025/Geode_Explicit-4.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-17 15:14:36] INFO root fetch - processPackages [photon-packet-parser]: executing diffoscope
+[2023-07-17 15:14:36] INFO root fetch - processPackages [photon-packet-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photon-packet-parser-0.1.1.tar.gz tmp/photon-packet-parser-0.1.2.tar.gz --markdown 20230717/p/photon-packet-parser/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 15:14:37] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-17 15:14:37] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-17 15:14:37] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-17 15:14:37] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/cf/9c/8406206582f16f058e8ee49b51847c616cd818fb7b70b0e1995a2c74e83e/Geode_Explicit-4.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 15:14:37] INFO root fetch - processPackages [image-analyst]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst-0.1.1.tar.gz]
+[2023-07-17 15:14:37] INFO root fetch - processPackages [image-analyst]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst-0.1.2.tar.gz]
+[2023-07-17 15:14:37] INFO root fetch - main [MainThread]: End processing [image-analyst]: success
+[2023-07-17 15:14:37] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-07-17 15:14:37] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.1.1rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230717/G/Geode-Explicit/4.1.1rc1-4.1.2rc1/diff.md --exclude *.pyd
+[2023-07-17 15:14:38] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-17 15:14:38] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-17 15:14:38] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-17 15:14:38] INFO root fetch - processPackages [photon-packet-parser]: Remove: archive file [/home/abi/fetcher/tmp/photon-packet-parser-0.1.1.tar.gz]
+[2023-07-17 15:14:38] INFO root fetch - processPackages [photon-packet-parser]: Remove: archive file [/home/abi/fetcher/tmp/photon-packet-parser-0.1.2.tar.gz]
+[2023-07-17 15:14:38] INFO root fetch - main [MainThread]: End processing [photon-packet-parser]: success
+[2023-07-17 15:14:39] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 15:14:39] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-17 15:14:39] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-07-17 15:14:40] INFO root fetch - processPackages [sampledb]: Remove: archive file [/home/abi/fetcher/tmp/sampledb-0.8.1.tar.gz]
+[2023-07-17 15:14:40] INFO root fetch - processPackages [sampledb]: Remove: archive file [/home/abi/fetcher/tmp/sampledb-0.9.0.tar.gz]
+[2023-07-17 15:14:40] INFO root fetch - main [MainThread]: End processing [sampledb]: success
+[2023-07-17 15:14:41] INFO root fetch - processPackages [plone.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plone.restapi-8.9.0.tar.gz]
+[2023-07-17 15:14:41] INFO root fetch - processPackages [plone.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plone.restapi-8.9.1.tar.gz]
+[2023-07-17 15:14:41] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-07-17 15:14:41] INFO root fetch - processPackages [emdbg]: Remove: archive file [/home/abi/fetcher/tmp/emdbg-1.0.2.tar.gz]
+[2023-07-17 15:14:41] INFO root fetch - processPackages [emdbg]: Remove: archive file [/home/abi/fetcher/tmp/emdbg-1.0.3.tar.gz]
+[2023-07-17 15:14:41] INFO root fetch - main [MainThread]: End processing [emdbg]: success
+[2023-07-17 15:14:42] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.8.3.tar.gz]
+[2023-07-17 15:14:42] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
+[2023-07-17 15:14:42] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-07-17 15:14:42] INFO root fetch - main [MainThread]: Store serial: [18917292]
