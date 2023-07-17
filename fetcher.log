@@ -6918,3 +6918,51 @@
 [2023-07-17 06:00:48] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230715.tar.gz]
 [2023-07-17 06:00:48] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-17 06:00:48] INFO root fetch - main [MainThread]: Store serial: [18912272]
+[2023-07-17 06:05:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912272]
+[2023-07-17 06:05:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 06:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacetraders
+[2023-07-17 06:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-07-17 06:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noelmode
+[2023-07-17 06:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdfat
+[2023-07-17 06:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wpcsys
+[2023-07-17 06:05:56] INFO root fetch - processPackages [wpcsys]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-17 06:05:56] INFO root fetch - processPackages [spacetraders]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-17 06:05:56] INFO root fetch - processPackages [noelmode]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 06:05:56] INFO root fetch - processPackages [fdfat]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 06:05:57] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 06:05:57] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [noelmode]: Downloading https://files.pythonhosted.org/packages/e6/4b/d8795b286eec3114016bc0beeebe86ac3e653234ffa1ff9ebcee102b8a6b/noelmode-1.0.5.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/4a/b5/f6fe70895f8e9cf258c00bfe55c57c2d63846fb2c979386396ebad752298/fdfat-0.1.5.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/7d/2a/68d1ebb83aab4ff05c18cb5b9ebe1cd63a680b10ef0e2cf8e61d915c5d11/spacetraders-0.7.0.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/19/09/26ac423ee055c457ae03cb8dd934b006ce03d967ff6104b2ab61cea28439/wpcsys-2.1.4.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/df/dc/9fd499f3162b222d56d359a9a85dd3b6f3908717704d569b501694b5263d/fdfat-0.1.6.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [noelmode]: Downloading https://files.pythonhosted.org/packages/ff/1b/ba456011b0b6ec0795d1aab0d3cb615b193150305a1cb0d210df9be90a8e/noelmode-1.0.6.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/f7/6d/1fe793edc58003465fe987e148369ae5d0adda3ad938f6e5a30de54fb16f/spacetraders-0.8.0.tar.gz
+[2023-07-17 06:05:57] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-17 06:05:57] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230717/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 06:05:57] INFO root fetch - processPackages [noelmode]: executing diffoscope
+[2023-07-17 06:05:57] INFO root fetch - processPackages [noelmode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noelmode-1.0.5.tar.gz tmp/noelmode-1.0.6.tar.gz --markdown 20230717/n/noelmode/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 06:05:57] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-07-17 06:05:57] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.7.0.tar.gz tmp/spacetraders-0.8.0.tar.gz --markdown 20230717/s/spacetraders/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 06:05:57] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-17 06:05:57] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.5.tar.gz tmp/fdfat-0.1.6.tar.gz --markdown 20230717/f/fdfat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 06:05:58] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/95/fc/1c6e5dee8ce3b77a835cb0f8dbc7935ecf431283d023ba817fef5a3115f7/wpcsys-2.1.5.tar.gz
+[2023-07-17 06:05:58] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-17 06:05:58] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-17 06:05:58] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-17 06:05:58] INFO root fetch - processPackages [noelmode]: Remove: archive file [/home/abi/fetcher/tmp/noelmode-1.0.5.tar.gz]
+[2023-07-17 06:05:58] INFO root fetch - processPackages [noelmode]: Remove: archive file [/home/abi/fetcher/tmp/noelmode-1.0.6.tar.gz]
+[2023-07-17 06:05:58] INFO root fetch - main [MainThread]: End processing [noelmode]: success
+[2023-07-17 06:05:58] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.5.tar.gz]
+[2023-07-17 06:05:58] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.6.tar.gz]
+[2023-07-17 06:05:58] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-17 06:05:59] INFO root fetch - processPackages [spacetraders]: Remove: archive file [/home/abi/fetcher/tmp/spacetraders-0.7.0.tar.gz]
+[2023-07-17 06:05:59] INFO root fetch - processPackages [spacetraders]: Remove: archive file [/home/abi/fetcher/tmp/spacetraders-0.8.0.tar.gz]
+[2023-07-17 06:05:59] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-07-17 06:05:59] INFO root fetch - processPackages [wpcsys]: executing diffoscope
+[2023-07-17 06:05:59] INFO root fetch - processPackages [wpcsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpcsys-2.1.4.tar.gz tmp/wpcsys-2.1.5.tar.gz --markdown 20230717/w/wpcsys/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-07-17 06:06:00] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.4.tar.gz]
+[2023-07-17 06:06:00] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.5.tar.gz]
+[2023-07-17 06:06:00] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
+[2023-07-17 06:06:00] INFO root fetch - main [MainThread]: Store serial: [18912289]
