@@ -14692,3 +14692,157 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:38:50] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-1.2.9.tar.gz]
 [2023-07-17 12:38:50] INFO root fetch - main [MainThread]: End processing [ms3]: success
 [2023-07-17 12:38:50] INFO root fetch - main [MainThread]: Store serial: [18915519]
+[2023-07-17 12:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915519]
+[2023-07-17 12:43:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmos-ai-tools
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spdb
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dock-py-selenium
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: External-user-local
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysui-gadgets
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple2encrypt
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: riptide-engine-docker
+[2023-07-17 12:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: riptide-db-mongo
+[2023-07-17 12:43:59] INFO root fetch - processPackages [dock-py-selenium]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-17 12:43:59] INFO root fetch - processPackages [riptide-db-mongo]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:43:59] INFO root fetch - processPackages [pysui-gadgets]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 12:43:59] WARNING root fetch - processPackages [spdb]: Skipping, unable to determine old version
+[2023-07-17 12:43:59] INFO root fetch - processPackages [spdb]: Start processing: cshogi
+[2023-07-17 12:43:59] INFO root fetch - main [MainThread]: End processing [spdb] error
+[2023-07-17 12:44:00] INFO root fetch - processPackages [External-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [riptide-engine-docker]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [xmos-ai-tools]: New version: [1.0.1.dev62] Old Version: [1.0.1.dev60]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/6d/4e/59cf4ebb4dc549c7bbc3300ad001d58a73d65112414af2bad86ee06e3464/dock-py-selenium-2.1.1.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [cshogi]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/70/49/ca0e027dae346a28f045a4d3dff1238df7d0a89729a58f7bea9ccdc43454/simple2encrypt-1.5.7.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/4a/f7/6a3c9a51c62871fd9334d1a95a68b34b3a7b01bc938835c2a6f8e5c20e05/cshogi-0.6.1.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [riptide-engine-docker]: Downloading https://files.pythonhosted.org/packages/f5/a0/c0244aa137a66fce66663971dcbf185295a6039075838aecd22e9778f794/riptide_engine_docker-0.8.0-py3-none-any.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [pysui-gadgets]: Downloading https://files.pythonhosted.org/packages/16/9d/437ef2364191d1bb49712c8fdec7ecbeae401725e038ddabe3b62cecc216/pysui_gadgets-0.2.0-py3-none-any.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [riptide-db-mongo]: Downloading https://files.pythonhosted.org/packages/78/a5/aecdccfc6e56ff686c6f2fc329d3b37952325d2e93c1f0a64c0481cc17a2/riptide_db_mongo-0.8.0-py3-none-any.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/ae/a1/153e5211f70e96d549bd773f7ce2f72492eefe05e37b650efc9f4ab93649/xmos_ai_tools-1.0.1.dev60-py3-none-win_amd64.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [External-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-07-17 12:44:00] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 27637863>=10485760
+[2023-07-17 12:44:00] INFO root fetch - processPackages [xmos-ai-tools]: Start processing: riptide-proxy
+[2023-07-17 12:44:00] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-07-17 12:44:00] INFO root fetch - processPackages [riptide-proxy]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:44:00] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/5a/3a/6c1d2993d252993c5aefd0ae2a9d09555fccaaee1059d21f82d30e9c9ea8/dock-py-selenium-2.1.2.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/fe/c8/26c05a2b15a1a4591fc4940da683bfd2a4bf079375f0e122fe9e21f5a3ba/simple2encrypt-1.5.8.tar.gz
+[2023-07-17 12:44:00] INFO root fetch - processPackages [pysui-gadgets]: Downloading https://files.pythonhosted.org/packages/ed/e3/b6b74cf5c21b10a5870ff5352bcdaa8200d7d046e4847ae864d6ec3957c4/pysui_gadgets-0.3.0-py3-none-any.whl
+[2023-07-17 12:44:00] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-07-17 12:44:00] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230717/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:44:00] INFO root fetch - processPackages [riptide-proxy]: Downloading https://files.pythonhosted.org/packages/0c/ad/209929cfa37138ec60346cf06bdd798f97b73d95451b50f85aeddeab4b09/riptide_proxy-0.8.0-py3-none-any.whl
+[2023-07-17 12:44:01] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-2.1.1.tar.gz tmp/dock-py-selenium-2.1.2.tar.gz --markdown 20230717/d/dock-py-selenium/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/c6/da/e14289dcf8c4fa2852c96e83b9bc05701b20b90a9b77c942aa5add9da075/cshogi-0.6.2-cp39-cp39-win_amd64.whl
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-engine-docker]: Downloading https://files.pythonhosted.org/packages/82/b6/30d73bffea8e02881d32be7a160b361856a9cf6e59493bf7e8d7e1546205/riptide_engine_docker-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:44:01] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-db-mongo]: Downloading https://files.pythonhosted.org/packages/90/a7/74c8e9b32907ef26a62818b7cc20d1d55a1b571197cf777b267f9078a7f1/riptide_db_mongo-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:44:01] INFO root fetch - processPackages [External-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-07-17 12:44:01] INFO root fetch - processPackages [pysui-gadgets]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [pysui-gadgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui_gadgets-0.2.0-py3-none-any.whl.zip tmp/pysui_gadgets-0.3.0-py3-none-any.whl.zip --markdown 20230717/p/pysui-gadgets/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.5.7.tar.gz tmp/simple2encrypt-1.5.8.tar.gz --markdown 20230717/s/simple2encrypt/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-engine-docker]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-engine-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_engine_docker-0.8.0-py3-none-any.whl.zip tmp/riptide_engine_docker-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-engine-docker/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [External-user-local]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [External-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230717/E/External-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-db-mongo]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-db-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_db_mongo-0.8.0-py3-none-any.whl.zip tmp/riptide_db_mongo-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-db-mongo/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [cshogi]: executing diffoscope
+[2023-07-17 12:44:01] INFO root fetch - processPackages [cshogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cshogi-0.6.1.tar.gz tmp/cshogi-0.6.2-cp39-cp39-win_amd64.whl.zip --markdown 20230717/c/cshogi/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-17 12:44:01] INFO root fetch - processPackages [riptide-proxy]: Downloading https://files.pythonhosted.org/packages/93/b3/30789edca344227c0dd9cf099399a651a3952790434830155dfdd732bfac/riptide_proxy-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:44:02] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [oarepo]: Start processing: riptide-db-mysql
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.1.1.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.1.2.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [dock-py-selenium]: Start processing: tomotwin-cryoet
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-db-mysql]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [tomotwin-cryoet]: New version: [0.4.4b4] Old Version: [0.4.4b1]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-proxy]: executing diffoscope
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_proxy-0.8.0-py3-none-any.whl.zip tmp/riptide_proxy-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-proxy/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:44:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [few-shot-priming]: Start processing: riptide-cli
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-db-mysql]: Downloading https://files.pythonhosted.org/packages/66/b8/eb23786dae2bb5b37d0bc7333c34635e6d623372b0f4a490edd751486096/riptide_db_mysql-0.8.0-py3-none-any.whl
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-cli]: New version: [0.8.0b3] Old Version: [0.8.0b2]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-engine-docker]: Remove: archive file [/home/abi/fetcher/tmp/riptide_engine_docker-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-engine-docker]: Remove: archive file [/home/abi/fetcher/tmp/riptide_engine_docker-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-engine-docker]: Start processing: trailblazer
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [riptide-engine-docker]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.7.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.8.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [simple2encrypt]: Start processing: combustion-predcitive-thermometer-python
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-db-mongo]: Remove: archive file [/home/abi/fetcher/tmp/riptide_db_mongo-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-db-mongo]: Remove: archive file [/home/abi/fetcher/tmp/riptide_db_mongo-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-db-mongo]: Start processing: skypilot-nightly
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [riptide-db-mongo]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [tomotwin-cryoet]: Downloading https://files.pythonhosted.org/packages/84/a0/54b3f7427324ba1552a7bc12567e56776b9cbfea08488078cee17ecb0624/tomotwin-cryoet-0.4.4b1.tar.gz
+[2023-07-17 12:44:02] WARNING root fetch - processPackages [combustion-predcitive-thermometer-python]: Skipping, unable to determine old version
+[2023-07-17 12:44:02] INFO root fetch - processPackages [combustion-predcitive-thermometer-python]: Start processing: foambryo
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [combustion-predcitive-thermometer-python] error
+[2023-07-17 12:44:02] INFO root fetch - processPackages [pysui-gadgets]: Remove: archive file [/home/abi/fetcher/tmp/pysui_gadgets-0.2.0-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [pysui-gadgets]: Remove: archive file [/home/abi/fetcher/tmp/pysui_gadgets-0.3.0-py3-none-any.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [pysui-gadgets]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230716] Old Version: [1.0.0.dev20230715]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [riptide-cli]: Downloading https://files.pythonhosted.org/packages/37/c9/eaaf536167e93ec13b48bfea78b5e0f39e4875d7b9dad216042807efd969/riptide_cli-0.8.0b2-py3-none-any.whl
+[2023-07-17 12:44:02] INFO root fetch - processPackages [foambryo]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.6.1.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.6.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [cshogi]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [External-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - processPackages [External-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-07-17 12:44:02] INFO root fetch - main [MainThread]: End processing [External-user-local]: success
+[2023-07-17 12:44:02] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/d0/ab/462e1e409345573523b2f6306cb6506c58c6c986f39c2dfb7e427468cc25/skypilot-nightly-1.0.0.dev20230715.tar.gz
+[2023-07-17 12:44:03] WARNING root fetch - processPackages [tomotwin-cryoet]: Skipping package: exceeds size limit 52114032>=10485760
+[2023-07-17 12:44:03] INFO root fetch - main [MainThread]: End processing [tomotwin-cryoet] error
+[2023-07-17 12:44:03] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/1a/ed/f926eeb674ac4ad2cfcddac44982fb9f3ccc5e1ddce15951ed1262b68cb9/foambryo-0.2.7.tar.gz
+[2023-07-17 12:44:03] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-db-mysql]: Downloading https://files.pythonhosted.org/packages/32/19/a15edce981773eebe181db8445656486d83c62040068a0682175003d6359/riptide_db_mysql-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:44:03] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/67/1f/4a914139f8a04754af8f75df2263bd632ad3a57db0c2c4730b1b5d489add/foambryo-0.2.8.tar.gz
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-db-mysql]: executing diffoscope
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-db-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_db_mysql-0.8.0-py3-none-any.whl.zip tmp/riptide_db_mysql-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-db-mysql/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-cli]: Downloading https://files.pythonhosted.org/packages/7d/5d/11192e7fb7bec5bea353ed02d3225c61895c3a3477232bb9be4712528d15/riptide_cli-0.8.0b3-py3-none-any.whl
+[2023-07-17 12:44:03] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/95/de/14b5e431147b75052edde56f0c5ea36aeb04ea74dbf4d161bc8704e96cfd/skypilot-nightly-1.0.0.dev20230716.tar.gz
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-proxy]: Remove: archive file [/home/abi/fetcher/tmp/riptide_proxy-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-proxy]: Remove: archive file [/home/abi/fetcher/tmp/riptide_proxy-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:44:03] INFO root fetch - main [MainThread]: End processing [riptide-proxy]: success
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-cli]: executing diffoscope
+[2023-07-17 12:44:03] INFO root fetch - processPackages [riptide-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_cli-0.8.0b2-py3-none-any.whl.zip tmp/riptide_cli-0.8.0b3-py3-none-any.whl.zip --markdown 20230717/r/riptide-cli/0.8.0b2-0.8.0b3/diff.md --exclude *.pyd
+[2023-07-17 12:44:03] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-07-17 12:44:03] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.2.7.tar.gz tmp/foambryo-0.2.8.tar.gz --markdown 20230717/f/foambryo/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-17 12:44:03] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-17 12:44:03] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230715.tar.gz tmp/skypilot-nightly-1.0.0.dev20230716.tar.gz --markdown 20230717/s/skypilot-nightly/1.0.0.dev20230715-1.0.0.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 12:44:03] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-07-17 12:44:03] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-07-17 12:44:03] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230717/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-07-17 12:44:04] INFO root fetch - processPackages [riptide-db-mysql]: Remove: archive file [/home/abi/fetcher/tmp/riptide_db_mysql-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:44:04] INFO root fetch - processPackages [riptide-db-mysql]: Remove: archive file [/home/abi/fetcher/tmp/riptide_db_mysql-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:44:04] INFO root fetch - main [MainThread]: End processing [riptide-db-mysql]: success
+[2023-07-17 12:44:04] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.7.tar.gz]
+[2023-07-17 12:44:04] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.8.tar.gz]
+[2023-07-17 12:44:04] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-07-17 12:44:04] INFO root fetch - processPackages [riptide-cli]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cli-0.8.0b2-py3-none-any.whl.zip]
+[2023-07-17 12:44:04] INFO root fetch - processPackages [riptide-cli]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cli-0.8.0b3-py3-none-any.whl.zip]
+[2023-07-17 12:44:04] INFO root fetch - main [MainThread]: End processing [riptide-cli]: success
+[2023-07-17 12:44:04] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-07-17 12:44:04] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-07-17 12:44:04] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-07-17 12:44:05] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230715.tar.gz]
+[2023-07-17 12:44:05] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230716.tar.gz]
+[2023-07-17 12:44:05] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-17 12:44:05] INFO root fetch - main [MainThread]: Store serial: [18915587]
