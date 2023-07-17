@@ -5430,3 +5430,60 @@
 [2023-07-17 04:09:35] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.6.tar.gz]
 [2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
 [2023-07-17 04:09:35] INFO root fetch - main [MainThread]: Store serial: [18911658]
+[2023-07-17 04:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911658]
+[2023-07-17 04:14:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathgenmap
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shady-island
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdock
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytcomments
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heaserver-accounts
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ytcomments]: New version: [0.5] Old Version: [0.4]
+[2023-07-17 04:14:43] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 04:14:43] INFO root fetch - processPackages [heaserver-accounts]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 04:14:43] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 04:14:43] INFO root fetch - processPackages [sdock]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 04:14:43] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 04:14:43] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/2e/2f/98c0ca86dc9af606837cfb70c260212aeb11982f9d60e2527b8772af8467/ytcomments-0.4.tar.gz
+[2023-07-17 04:14:43] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/7f/33/5950022e2c230cd5dbaf7c400419fe2e564ee9f8338e077d468dc4b64b57/sdock-0.0.98.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/0d/4c/912fc03e28cac898b9e810956984c9e9caeedf4aa64dae28faf520c2c177/heaserver-accounts-1.0.0a8.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/56/9f/716ca2882008e4b06493c49e54092c5ed13581059fbc9db32e5f3dc494df/ytcomments-0.5.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 04:14:44] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 04:14:44] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 04:14:44] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.98.tar.gz tmp/sdock-0.0.99.tar.gz --markdown 20230717/s/sdock/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 04:14:44] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/ef/3b/00bd06051828f159ca100404dfc84f0723be88cb8936a493139d61fa95be/heaserver-accounts-1.0.0a9.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [ytcomments]: executing diffoscope
+[2023-07-17 04:14:44] INFO root fetch - processPackages [ytcomments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytcomments-0.4.tar.gz tmp/ytcomments-0.5.tar.gz --markdown 20230717/y/ytcomments/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-17 04:14:44] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-07-17 04:14:44] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 04:14:44] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:14:44] INFO root fetch - processPackages [heaserver-accounts]: executing diffoscope
+[2023-07-17 04:14:44] INFO root fetch - processPackages [heaserver-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-accounts-1.0.0a8.tar.gz tmp/heaserver-accounts-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-accounts/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 04:14:44] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-07-17 04:14:44] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230717/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:14:45] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.98.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.99.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 04:14:45] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.4.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.5.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [ytcomments]: success
+[2023-07-17 04:14:45] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 04:14:45] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 04:14:45] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a8.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a9.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
+[2023-07-17 04:14:45] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-07-17 04:14:45] INFO root fetch - main [MainThread]: Store serial: [18911675]
