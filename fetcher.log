@@ -9741,3 +9741,128 @@
 [2023-07-17 09:32:19] INFO root fetch - processPackages [liba]: Remove: archive file [/home/abi/fetcher/tmp/liba-0.1.1rc7.tar.gz]
 [2023-07-17 09:32:19] INFO root fetch - main [MainThread]: End processing [liba]: success
 [2023-07-17 09:32:19] INFO root fetch - main [MainThread]: Store serial: [18913437]
+[2023-07-17 09:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913437]
+[2023-07-17 09:37:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: breeze-strategies
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-sky
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invenio-rdm-records
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gridappsd-python
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kognic-keyring
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridappsd-field-bus
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: core-ml-utils
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strmprivacy-api-definitions
+[2023-07-17 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IMSmartFinderNinja
+[2023-07-17 09:37:29] INFO root fetch - processPackages [image-sky]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [kognic-keyring]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [core-ml-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a4] Old Version: [2023.7.1a3]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a4] Old Version: [2023.7.1a3]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [breeze-strategies]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230717073228] Old Version: [2.1.1.dev20230714171916]
+[2023-07-17 09:37:29] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/ab/e2/d7db50f8e5bb0d3379f5a6159c718bfec7255c90b2950a657c18c919c9a4/gridappsd_python-2023.7.1a3.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [kognic-keyring]: Downloading https://files.pythonhosted.org/packages/ee/3e/a7cea3606c3ac8021a72be9c21b8d1f3e570da74cd98c1642f3196c4f1c0/kognic-keyring-0.2.0.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/27/6d/2d9647cac747f512b6aad810931ae53ce33611f09afdcb4962040a855c66/gridappsd_field_bus-2023.7.1a3.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [image-sky]: Downloading https://files.pythonhosted.org/packages/eb/16/af97bd44657e880a75afa98d89757eb1580c411178f674a6f5568f2c5372/image_sky-0.1.0.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/15/4a/9c69d901effbe28ed414e8921c922431ba2dec3907cf8400528138d59390/IMSmartFinderNinja-0.0.4.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [core-ml-utils]: Downloading https://files.pythonhosted.org/packages/cc/3c/aa2f72b843f1ec0f5921aebf4d57f6b7e8342cd83ae52541715826ac18b4/core-ml-utils-1.0.0.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/7a/1a/a3915a8a4ad8e904e6b4af2cc648ad1915c0b5cfbf9b66af849ce8ee0508/breeze_strategies-1.0.8.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ce/ab/826859734598e49b21844b01e531302cf6f3a051f935d4f8bce2b8ac6e22/invenio-rdm-records-4.9.0.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/da/84/33ddd213da3a16ef3d27fc6016c99090a55a701c24a0714443b73ee5b358/localstack-core-2.1.1.dev20230714171916.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/e0/54/ee98d38d103f69b97297932137f9e1b3131eef6c521bd8ca4a18379c5a47/strmprivacy-api-definitions-3.4.0.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [kognic-keyring]: Downloading https://files.pythonhosted.org/packages/db/ce/213d3388a3028b2687f4c6120e988d6bf69291868eb3e6a1d92d91d0cab6/kognic-keyring-0.2.1.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [kognic-keyring]: executing diffoscope
+[2023-07-17 09:37:29] INFO root fetch - processPackages [kognic-keyring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kognic-keyring-0.2.0.tar.gz tmp/kognic-keyring-0.2.1.tar.gz --markdown 20230717/k/kognic-keyring/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 09:37:29] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/cb/3b/68c03b10abe6567e6dbada3668baec48423b42cb343a506eb0a0abada314/gridappsd_python-2023.7.1a4.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [core-ml-utils]: Downloading https://files.pythonhosted.org/packages/c0/e5/65f821626cb599085c38187b64782ffd976311e643016a53ffef30c453aa/core-ml-utils-1.0.1.tar.gz
+[2023-07-17 09:37:29] INFO root fetch - processPackages [image-sky]: Downloading https://files.pythonhosted.org/packages/94/b4/95e6235e01eb6e4b7bf62d4cde485f07f1b9a7997a47c577b14713ad5f7b/image_sky-0.2.0.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/25/db/0124d6e9601686a18c7e9d89a5fdd6f9b3d67d597e936056d73898de6558/gridappsd_field_bus-2023.7.1a4.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/c5/79/886e157e5198e2b57fd3ce16446c4fc57edcb636cf382715e1d85be5452b/IMSmartFinderNinja-0.0.5.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/82/e5/3c45a15a51348a920f83e59756c9ee9ac61a198ba3d3049f60ab32494968/invenio-rdm-records-4.9.1.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/25/27/ddd07901137c8ac044f11aafa90d9961311b3ca2ee539e8a99446fdf45c3/breeze_strategies-1.0.9.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [core-ml-utils]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [core-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-ml-utils-1.0.0.tar.gz tmp/core-ml-utils-1.0.1.tar.gz --markdown 20230717/c/core-ml-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [image-sky]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [image-sky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_sky-0.1.0.tar.gz tmp/image_sky-0.2.0.tar.gz --markdown 20230717/i/image-sky/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a3.tar.gz tmp/gridappsd_python-2023.7.1a4.tar.gz --markdown 20230717/g/gridappsd-python/2023.7.1a3-2023.7.1a4/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/41/a3/6952d1de1667a0ad2c90d4819821b3580aef44a094fbffff5642bc35fb1d/strmprivacy-api-definitions-3.5.0.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.0.4.tar.gz tmp/IMSmartFinderNinja-0.0.5.tar.gz --markdown 20230717/I/IMSmartFinderNinja/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.8.tar.gz tmp/breeze_strategies-1.0.9.tar.gz --markdown 20230717/b/breeze-strategies/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.9.0.tar.gz tmp/invenio-rdm-records-4.9.1.tar.gz --markdown 20230717/i/invenio-rdm-records/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b6/fc/e78be3ccb85ad16836d99abaa120974c6d8d1c28117afa247162e04d0960/localstack-core-2.1.1.dev20230717073228.tar.gz
+[2023-07-17 09:37:30] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a3.tar.gz tmp/gridappsd_field_bus-2023.7.1a4.tar.gz --markdown 20230717/g/gridappsd-field-bus/2023.7.1a3-2023.7.1a4/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-3.4.0.tar.gz tmp/strmprivacy-api-definitions-3.5.0.tar.gz --markdown 20230717/s/strmprivacy-api-definitions/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-17 09:37:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-17 09:37:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230714171916.tar.gz tmp/localstack-core-2.1.1.dev20230717073228.tar.gz --markdown 20230717/l/localstack-core/2.1.1.dev20230714171916-2.1.1.dev20230717073228/diff.md --exclude *.pyd
+[2023-07-17 09:37:31] INFO root fetch - processPackages [kognic-keyring]: Remove: archive file [/home/abi/fetcher/tmp/kognic-keyring-0.2.0.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [kognic-keyring]: Remove: archive file [/home/abi/fetcher/tmp/kognic-keyring-0.2.1.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [kognic-keyring]: Start processing: lalsuite
+[2023-07-17 09:37:31] INFO root fetch - main [MainThread]: End processing [kognic-keyring]: success
+[2023-07-17 09:37:31] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 09:37:31] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-17 09:37:31] INFO root fetch - processPackages [lalsuite]: Start processing: odoo-addon-product-warranty
+[2023-07-17 09:37:31] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-17 09:37:31] INFO root fetch - processPackages [odoo-addon-product-warranty]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.1.1]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [core-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/core-ml-utils-1.0.0.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [core-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/core-ml-utils-1.0.1.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [core-ml-utils]: Start processing: automation-editor-dev
+[2023-07-17 09:37:31] INFO root fetch - main [MainThread]: End processing [core-ml-utils]: success
+[2023-07-17 09:37:31] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.4.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.5.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [IMSmartFinderNinja]: Start processing: alibabacloud-dyvmsapi-intl20211015-py2
+[2023-07-17 09:37:31] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-17 09:37:31] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a3.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a4.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-17 09:37:31] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.8.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.9.tar.gz]
+[2023-07-17 09:37:31] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-07-17 09:37:31] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:37:32] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-17 09:37:32] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a3.tar.gz]
+[2023-07-17 09:37:32] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a4.tar.gz]
+[2023-07-17 09:37:32] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-17 09:37:32] INFO root fetch - processPackages [image-sky]: Remove: archive file [/home/abi/fetcher/tmp/image_sky-0.1.0.tar.gz]
+[2023-07-17 09:37:32] INFO root fetch - processPackages [image-sky]: Remove: archive file [/home/abi/fetcher/tmp/image_sky-0.2.0.tar.gz]
+[2023-07-17 09:37:32] INFO root fetch - main [MainThread]: End processing [image-sky]: success
+[2023-07-17 09:37:32] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/ba/b8/b4b3a2081276c3e97f208aa4ae2cf1295b27201856cf460752cb1b5d63f4/odoo_addon_product_warranty-15.0.1.0.1.1-py3-none-any.whl
+[2023-07-17 09:37:32] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/00/7f/952117cc044c6a56f24b3e31b54d2ae7b3f3f94e1ea65aa39fad146ee263/automation_editor_dev-0.0.8.tar.gz
+[2023-07-17 09:37:32] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: Downloading https://files.pythonhosted.org/packages/82/fa/c4ac846cff57fadfcfa635224a2d9df99dfe027ded203c005f8b09359274/alibabacloud_dyvmsapi-intl20211015_py2-1.0.0.tar.gz
+[2023-07-17 09:37:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.4.0.tar.gz]
+[2023-07-17 09:37:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.5.0.tar.gz]
+[2023-07-17 09:37:32] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-07-17 09:37:32] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/2d/f3/41e2878313c578404f894aea7991becaf39a601545bb62b62386aa538736/odoo_addon_product_warranty-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-17 09:37:32] INFO root fetch - processPackages [odoo-addon-product-warranty]: executing diffoscope
+[2023-07-17 09:37:32] INFO root fetch - processPackages [odoo-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_warranty-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_product_warranty-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-product-warranty/15.0.1.0.1.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-17 09:37:32] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/91/ba/1f264deec49ee97cd331cb158d59988eae18cefcf4570f77eb3b20daa2d7/automation_editor_dev-0.0.9.tar.gz
+[2023-07-17 09:37:32] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: Downloading https://files.pythonhosted.org/packages/b3/37/3a8985f29a9ebe2ed6c326d1724bee0b023a385520aad08b43b3df206944/alibabacloud_dyvmsapi-intl20211015_py2-2.0.0.tar.gz
+[2023-07-17 09:37:32] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: executing diffoscope
+[2023-07-17 09:37:32] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dyvmsapi-intl20211015_py2-1.0.0.tar.gz tmp/alibabacloud_dyvmsapi-intl20211015_py2-2.0.0.tar.gz --markdown 20230717/a/alibabacloud-dyvmsapi-intl20211015-py2/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 09:37:33] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-07-17 09:37:33] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.8.tar.gz tmp/automation_editor_dev-0.0.9.tar.gz --markdown 20230717/a/automation-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:37:33] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-17 09:37:33] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-17 09:37:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-warranty]: success
+[2023-07-17 09:37:33] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dyvmsapi-intl20211015_py2-1.0.0.tar.gz]
+[2023-07-17 09:37:33] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dyvmsapi-intl20211015_py2-2.0.0.tar.gz]
+[2023-07-17 09:37:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-dyvmsapi-intl20211015-py2]: success
+[2023-07-17 09:37:34] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.8.tar.gz]
+[2023-07-17 09:37:34] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.9.tar.gz]
+[2023-07-17 09:37:34] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-07-17 09:37:35] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.0.tar.gz]
+[2023-07-17 09:37:35] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.1.tar.gz]
+[2023-07-17 09:37:35] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-17 09:37:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714171916.tar.gz]
+[2023-07-17 09:37:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717073228.tar.gz]
+[2023-07-17 09:37:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-17 09:37:35] INFO root fetch - main [MainThread]: Store serial: [18913495]
