@@ -15720,3 +15720,131 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:26:14] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-17 13:26:14] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-17 13:26:14] INFO root fetch - main [MainThread]: Store serial: [18915980]
+[2023-07-17 13:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915980]
+[2023-07-17 13:31:23] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdoxy
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magik
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-toys
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-hide-cells
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrl-nightly
+[2023-07-17 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alpaka-job-coverage
+[2023-07-17 13:31:23] WARNING root fetch - processPackages [jupyterlab-hide-cells]: Skipping, unable to determine old version
+[2023-07-17 13:31:23] INFO root fetch - processPackages [jupyterlab-hide-cells]: Start processing: comet-mpm
+[2023-07-17 13:31:23] INFO root fetch - main [MainThread]: End processing [jupyterlab-hide-cells] error
+[2023-07-17 13:31:23] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 13:31:23] INFO root fetch - processPackages [llm-toys]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [alpaka-job-coverage]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [mkdoxy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [magik]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [comet-mpm]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-17 13:31:24] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/c1/5c/5ff992b577225cd30e5e4cb95d737a3095379dc4ba59ba46e8e86137de87/magik-0.1.6.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-17 13:31:24] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/b4/61/276074481463242571b11caecb93866d7e183b1e5883505ffc6e939b2175/llm-toys-0.1.0.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/fb/d6/206bb9b3f00851dc9a65d23c7ea417a1fc3cad689cb7549d65f810598309/mkdoxy-1.1.3.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-17 13:31:24] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/08/6e/22ed6a8516edef1fde3701109f87152938a8807608f5c11c07ba6fd0e685/comet_mpm-0.4.1.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [alpaka-job-coverage]: Downloading https://files.pythonhosted.org/packages/29/23/53093dc1ac4cf03f579425a7ca1079e57fad5e311363768693f0794fdc54/alpaka-job-coverage-1.3.1.tar.gz
+[2023-07-17 13:31:24] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torchserve-nightly]: Start processing: gandai
+[2023-07-17 13:31:24] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-17 13:31:24] INFO root fetch - processPackages [gandai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-17 13:31:24] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/a9/0f/24b9cdf225d4289201a3bd85723e6f299f0612a8cc4d9a5d3c3026441537/magik-0.1.7.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/2d/6c/84b943152ca4b338e1a326f79a2ac769c1314e519c42920cb63c2c92eedb/mkdoxy-1.1.4.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230717/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-17 13:31:24] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-17 13:31:24] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230717/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-17 13:31:24] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/9e/c4/a11ca7d38ca407e69cbcce82cde1a9f1f89d514d016f1d5ba4e96e5b84d6/comet_mpm-0.4.2.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-17 13:31:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230717/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-17 13:31:24] INFO root fetch - processPackages [alpaka-job-coverage]: Downloading https://files.pythonhosted.org/packages/11/de/67ff784634ff479c3e36c0e3e87f1f7de2bb17fcf701c5e2a63c501b57f5/alpaka-job-coverage-1.3.2.tar.gz
+[2023-07-17 13:31:24] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-17 13:31:24] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.1.6.tar.gz tmp/magik-0.1.7.tar.gz --markdown 20230717/m/magik/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 13:31:25] INFO root fetch - processPackages [mkdoxy]: executing diffoscope
+[2023-07-17 13:31:25] INFO root fetch - processPackages [mkdoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdoxy-1.1.3.tar.gz tmp/mkdoxy-1.1.4.tar.gz --markdown 20230717/m/mkdoxy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-17 13:31:25] INFO root fetch - processPackages [comet-mpm]: executing diffoscope
+[2023-07-17 13:31:25] INFO root fetch - processPackages [comet-mpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_mpm-0.4.1.tar.gz tmp/comet_mpm-0.4.2.tar.gz --markdown 20230717/c/comet-mpm/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-17 13:31:25] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-17 13:31:25] INFO root fetch - processPackages [alpaka-job-coverage]: executing diffoscope
+[2023-07-17 13:31:25] INFO root fetch - processPackages [alpaka-job-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaka-job-coverage-1.3.1.tar.gz tmp/alpaka-job-coverage-1.3.2.tar.gz --markdown 20230717/a/alpaka-job-coverage/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-17 13:31:25] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-17 13:31:25] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-17 13:31:25] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230717/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-17 13:31:25] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-17 13:31:25] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.9.tar.gz tmp/gandai-1.2.0.tar.gz --markdown 20230717/g/gandai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 13:31:25] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/1c/71/bdf21072875cba7b19998fa103eae67c5478f130754b879cefcecb59ae73/llm-toys-0.1.1.tar.gz
+[2023-07-17 13:31:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-17 13:31:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-17 13:31:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: oarepo-model-builder
+[2023-07-17 13:31:26] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-17 13:31:26] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-17 13:31:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-17 13:31:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-17 13:31:26] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-17 13:31:26] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.1.0.tar.gz tmp/llm-toys-0.1.1.tar.gz --markdown 20230717/l/llm-toys/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 13:31:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: torchrec-nightly
+[2023-07-17 13:31:26] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.6.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.7.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [magik]: Start processing: accentnotifications
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-17 13:31:27] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.17] Old Version: [2023.7.15]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [alpaka-job-coverage]: Remove: archive file [/home/abi/fetcher/tmp/alpaka-job-coverage-1.3.1.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [alpaka-job-coverage]: Remove: archive file [/home/abi/fetcher/tmp/alpaka-job-coverage-1.3.2.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [alpaka-job-coverage]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [accentnotifications]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-0.4.1.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-0.4.2.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [comet-mpm]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.1.3.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.1.4.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.1.9.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/1d/42/41485e4813d654e87a7a27345f9f4b17549a2c30aad024569a9a1b1ec140/torchrec_nightly-2023.7.15-py39-none-any.whl
+[2023-07-17 13:31:27] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-17 13:31:27] INFO root fetch - processPackages [accentnotifications]: Downloading https://files.pythonhosted.org/packages/e4/ca/974567bed18d6acfedfe0f8e063c0cf2352c6be702468824ad0298024926/accentnotifications-0.0.2.tar.gz
+[2023-07-17 13:31:27] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-17 13:31:27] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230717/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:31:27] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/9c/78/373ccac2e18671da3e405aee6ef91dfd8ed40679eff707833ad9bd106c12/torchrec_nightly-2023.7.17-py39-none-any.whl
+[2023-07-17 13:31:27] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 13:31:27] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 13:31:27] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-17 13:31:27] INFO root fetch - processPackages [accentnotifications]: Downloading https://files.pythonhosted.org/packages/b7/d2/b7a5a0ce87660cc6b4d084170f02eeeed2a8c6087afd746a0c459726b7be/accentnotifications-0.0.3.tar.gz
+[2023-07-17 13:31:28] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-17 13:31:28] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.15-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.17-py39-none-any.whl.zip --markdown 20230717/t/torchrec-nightly/2023.7.15-2023.7.17/diff.md --exclude *.pyd
+[2023-07-17 13:31:28] INFO root fetch - processPackages [accentnotifications]: executing diffoscope
+[2023-07-17 13:31:28] INFO root fetch - processPackages [accentnotifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accentnotifications-0.0.2.tar.gz tmp/accentnotifications-0.0.3.tar.gz --markdown 20230717/a/accentnotifications/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 13:31:29] INFO root fetch - processPackages [accentnotifications]: Remove: archive file [/home/abi/fetcher/tmp/accentnotifications-0.0.2.tar.gz]
+[2023-07-17 13:31:29] INFO root fetch - processPackages [accentnotifications]: Remove: archive file [/home/abi/fetcher/tmp/accentnotifications-0.0.3.tar.gz]
+[2023-07-17 13:31:29] INFO root fetch - main [MainThread]: End processing [accentnotifications]: success
+[2023-07-17 13:31:29] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-17 13:31:29] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-17 13:31:29] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-17 13:31:29] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.15-py39-none-any.whl.zip]
+[2023-07-17 13:31:29] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.17-py39-none-any.whl.zip]
+[2023-07-17 13:31:29] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-17 13:31:39] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.1.0.tar.gz]
+[2023-07-17 13:31:39] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.1.1.tar.gz]
+[2023-07-17 13:31:39] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-17 13:31:39] INFO root fetch - main [MainThread]: Store serial: [18916030]
