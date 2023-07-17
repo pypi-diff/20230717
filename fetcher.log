@@ -16106,3 +16106,82 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:42:24] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.9.0.zip]
 [2023-07-17 13:42:24] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
 [2023-07-17 13:42:24] INFO root fetch - main [MainThread]: Store serial: [18916154]
+[2023-07-17 13:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916154]
+[2023-07-17 13:47:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmclient-core
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-ui
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starlette-middleware
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hubble-exchange
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qrizdat
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlbuilder
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramodels
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ffmpeg-input
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: time-zap
+[2023-07-17 13:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyre-check-nightly
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ffmpeg-input]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 13:47:34] WARNING root fetch - processPackages [starlette-middleware]: Skipping, unable to determine old version
+[2023-07-17 13:47:34] INFO root fetch - processPackages [starlette-middleware]: Start processing: python-qpid-proton-wheel
+[2023-07-17 13:47:34] INFO root fetch - main [MainThread]: End processing [starlette-middleware] error
+[2023-07-17 13:47:34] WARNING root fetch - processPackages [time-zap]: Skipping, unable to determine old version
+[2023-07-17 13:47:34] INFO root fetch - processPackages [time-zap]: Start processing: float-table
+[2023-07-17 13:47:34] INFO root fetch - main [MainThread]: End processing [time-zap] error
+[2023-07-17 13:47:34] INFO root fetch - processPackages [hubble-exchange]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 13:47:34] INFO root fetch - processPackages [lmclient-core]: New version: [0.3.1.post1] Old Version: [0.3.1]
+[2023-07-17 13:47:34] WARNING root fetch - processPackages [qrizdat]: Skipping, unable to determine old version
+[2023-07-17 13:47:34] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-17 13:47:34] INFO root fetch - main [MainThread]: End processing [qrizdat] error
+[2023-07-17 13:47:34] INFO root fetch - processPackages [mysqlbuilder]: New version: [1.0.12] Old Version: [1.0.1]
+[2023-07-17 13:47:34] ERROR root fetch - processPackages [python-qpid-proton-wheel]: Unable to get metadata: No such project 'python-qpid-proton-wheel'
+[2023-07-17 13:47:34] INFO root fetch - main [MainThread]: End processing [python-qpid-proton-wheel] error
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-17 13:47:34] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689592546] Old Version: [0.0.101689506032]
+[2023-07-17 13:47:34] INFO root fetch - processPackages [float-table]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/fd/46/2dff572079d4163f347a94f95f3aeead800e14db73a18443785254653e54/hubble_exchange-0.2.0.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ffmpeg-input]: Downloading https://files.pythonhosted.org/packages/36/b8/b27d3a0becff4b7d4327caa26e6035ac537794a3112eab76488562d12563/ffmpeg_input-0.1.6-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2023-07-17 13:47:34] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/35/43/6adebe63cc5908578ad26f3aef28d45e287d4c55affb1b3085f05ff51b7c/mysqlbuilder-1.0.1.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/eb/9e/5b6cbb87802000ff792f397020b3a2cb00a1e68bca5893f12d184df0825d/lmclient_core-0.3.1.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/54/f2/133602b3ebd4d9bcfd2793138319f102e07dae2911754117d13cfac733fa/float_table-0.1.6.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/7a/e5/155ee870016619494bd00815ef9fd83bd000a295a2af099fa159b5ee11d5/pyre-check-nightly-0.0.101689506032.tar.gz
+[2023-07-17 13:47:34] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23765017>=10485760
+[2023-07-17 13:47:34] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-17 13:47:34] WARNING root fetch - processPackages [ffmpeg-input]: Skipping package: exceeds size limit 35957508>=10485760
+[2023-07-17 13:47:34] INFO root fetch - main [MainThread]: End processing [ffmpeg-input] error
+[2023-07-17 13:47:34] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/8a/0b/d0d629a7e89b6c2a74966fe01d12b64333d95264dfb2f1cca870452a9e0a/lmclient_core-0.3.1.post1.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-17 13:47:34] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230717/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-17 13:47:34] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/69/4c/4b4b098b857375a37d88f29bb5850411ffa029896296f240233b081c14cb/float_table-0.1.7.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/cb/ae/93c5e33306fa98a16fc6efc6bc071b02d68fef0c7d9a30aaf390482c2035/mysqlbuilder-1.0.12.tar.gz
+[2023-07-17 13:47:34] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/ba/6c/2669d45b4ed067e201efd42715bba20aa05f90440d3a4d928b3a577cf018/hubble_exchange-0.3.0.tar.gz
+[2023-07-17 13:47:35] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-17 13:47:35] INFO root fetch - processPackages [lmclient-core]: executing diffoscope
+[2023-07-17 13:47:35] INFO root fetch - processPackages [lmclient-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmclient_core-0.3.1.tar.gz tmp/lmclient_core-0.3.1.post1.tar.gz --markdown 20230717/l/lmclient-core/0.3.1-0.3.1.post1/diff.md --exclude *.pyd
+[2023-07-17 13:47:35] INFO root fetch - processPackages [float-table]: executing diffoscope
+[2023-07-17 13:47:35] INFO root fetch - processPackages [float-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/float_table-0.1.6.tar.gz tmp/float_table-0.1.7.tar.gz --markdown 20230717/f/float-table/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 13:47:35] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2023-07-17 13:47:35] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.2.0.tar.gz tmp/hubble_exchange-0.3.0.tar.gz --markdown 20230717/h/hubble-exchange/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 13:47:35] INFO root fetch - processPackages [mysqlbuilder]: executing diffoscope
+[2023-07-17 13:47:35] INFO root fetch - processPackages [mysqlbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlbuilder-1.0.1.tar.gz tmp/mysqlbuilder-1.0.12.tar.gz --markdown 20230717/m/mysqlbuilder/1.0.1-1.0.12/diff.md --exclude *.pyd
+[2023-07-17 13:47:35] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-17 13:47:35] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230717/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:47:36] INFO root fetch - processPackages [lmclient-core]: Remove: archive file [/home/abi/fetcher/tmp/lmclient_core-0.3.1.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - processPackages [lmclient-core]: Remove: archive file [/home/abi/fetcher/tmp/lmclient_core-0.3.1.post1.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [lmclient-core]: success
+[2023-07-17 13:47:36] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.1.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.12.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [mysqlbuilder]: success
+[2023-07-17 13:47:36] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-17 13:47:36] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.6.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.7.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [float-table]: success
+[2023-07-17 13:47:36] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.2.0.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.3.0.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2023-07-17 13:47:36] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-17 13:47:36] INFO root fetch - main [MainThread]: Store serial: [18916226]
