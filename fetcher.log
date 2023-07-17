@@ -9651,3 +9651,54 @@
 [2023-07-17 09:21:53] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-17 09:21:53] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-17 09:21:53] INFO root fetch - main [MainThread]: Store serial: [18913388]
+[2023-07-17 09:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913388]
+[2023-07-17 09:27:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinja-comprehensions
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ThalamusEngine
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connectors-to-databases
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invenio-communities
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regulAS
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docquery-test
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickfix-ch
+[2023-07-17 09:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyees
+[2023-07-17 09:27:03] WARNING root fetch - processPackages [jinja-comprehensions]: Skipping, unable to determine old version
+[2023-07-17 09:27:03] INFO root fetch - main [MainThread]: End processing [jinja-comprehensions] error
+[2023-07-17 09:27:04] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:27:04] WARNING root fetch - processPackages [docquery-test]: Skipping, unable to determine old version
+[2023-07-17 09:27:04] INFO root fetch - main [MainThread]: End processing [docquery-test] error
+[2023-07-17 09:27:04] WARNING root fetch - processPackages [ThalamusEngine]: Skipping, unable to determine old version
+[2023-07-17 09:27:04] INFO root fetch - main [MainThread]: End processing [ThalamusEngine] error
+[2023-07-17 09:27:04] INFO root fetch - processPackages [connectors-to-databases]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 09:27:04] WARNING root fetch - processPackages [regulAS]: Skipping, unable to determine old version
+[2023-07-17 09:27:04] INFO root fetch - main [MainThread]: End processing [regulAS] error
+[2023-07-17 09:27:04] INFO root fetch - processPackages [invenio-communities]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-07-17 09:27:04] INFO root fetch - processPackages [pyees]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-17 09:27:04] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/09/1c/cb9decafb9722e8d73db949c8d7ec03f3c0549887db192f43bf900144390/connectors_to_databases-1.0.1.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/b2/49/e365caef8b42df4d94d99ea3a53ba5a537c793135bbe1ccd81654a65d594/pyees-1.4.0.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/16/05/cd277b8b4f86b53a24043078394da4d234ca30f29955d972409929488c6f/invenio-communities-7.1.0.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/62/6f/e0e3a35961955f344bfbe291951b9d1d5f0a61d9e59557c02f5b61776e49/connectors_to_databases-1.0.2.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [connectors-to-databases]: executing diffoscope
+[2023-07-17 09:27:04] INFO root fetch - processPackages [connectors-to-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectors_to_databases-1.0.1.tar.gz tmp/connectors_to_databases-1.0.2.tar.gz --markdown 20230717/c/connectors-to-databases/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 09:27:04] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/71/b5/f7f908196c97ced897afa89006b16e91999d5cf513259c97d5385a76fe50/pyees-1.4.1.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/70/c2/e67476fb71de2087ca6ca6961319cf335af10cc1fdbb813fb1ed585bf9ea/invenio-communities-7.1.1.tar.gz
+[2023-07-17 09:27:04] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-07-17 09:27:04] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-7.1.0.tar.gz tmp/invenio-communities-7.1.1.tar.gz --markdown 20230717/i/invenio-communities/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-07-17 09:27:04] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-07-17 09:27:04] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.4.0.tar.gz tmp/pyees-1.4.1.tar.gz --markdown 20230717/p/pyees/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-17 09:27:05] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-17 09:27:05] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-17 09:27:05] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230717/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:27:05] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.0.1.tar.gz]
+[2023-07-17 09:27:05] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.0.2.tar.gz]
+[2023-07-17 09:27:05] INFO root fetch - main [MainThread]: End processing [connectors-to-databases]: success
+[2023-07-17 09:27:05] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.4.0.tar.gz]
+[2023-07-17 09:27:05] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.4.1.tar.gz]
+[2023-07-17 09:27:05] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-07-17 09:27:07] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.1.0.tar.gz]
+[2023-07-17 09:27:07] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.1.1.tar.gz]
+[2023-07-17 09:27:07] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-07-17 09:27:08] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-17 09:27:08] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-17 09:27:08] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-17 09:27:08] INFO root fetch - main [MainThread]: Store serial: [18913420]
