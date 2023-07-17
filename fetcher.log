@@ -14188,3 +14188,144 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:16:56] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.4.0.tar.gz]
 [2023-07-17 12:16:56] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
 [2023-07-17 12:16:56] INFO root fetch - main [MainThread]: Store serial: [18915332]
+[2023-07-17 12:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915332]
+[2023-07-17 12:22:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gimera
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuread
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openirt
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyBIS
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: distlib
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-source-mongo
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arthub-login-widgets
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flash-attn
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ffcv-pl
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CartiMorph-nnUNet
+[2023-07-17 12:22:06] INFO root fetch - processPackages [openirt]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [distlib]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [arthub-login-widgets]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [flash-attn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ffcv-pl]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [gimera]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-07-17 12:22:06] INFO root fetch - processPackages [distlib]: Downloading https://files.pythonhosted.org/packages/58/07/815476ae605bcc5f95c87a62b95e74a1bce0878bc7a3119bc2bf4178f175/distlib-0.3.6.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/1b/59/da7ecc461c5bca3a97bd291f0f3a9172a141c542ceda53103dea2d180459/arthub_login_widgets-0.4.3.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/3e/98/0abdf46a1dc72c7d49ce1777fb8b4074425c1d792de90015e9bcc5980ee8/macrometa-source-mongo-0.0.46.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/90/4e/497a7b8a5378b8a0a95623121ce0d4b38157f410e2e8197fe0be67b18fec/CartiMorph_nnUNet-1.7.8.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/7f/fd/126ceb9a4691a78df50d6107d2024d7646bff1dac1f48b08af1abab0aff6/gimera-0.7.1.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [openirt]: Downloading https://files.pythonhosted.org/packages/61/b4/99bb2aedc515247e3e0d7392115c9709c6267de142d784f95bafeb30a0a3/openirt-0.1.7.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/2b/8f/4f33f2c0538980a0c21fb9fc79288b8a553cba5328d6e7923d3af1630842/flash_attn-1.0.8.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [ffcv-pl]: Downloading https://files.pythonhosted.org/packages/a1/e2/ac32c532f90e3587b66772bd70fe9eecdda5cc7e257b552b46cf1c9cf444/ffcv_pl-0.3.1.tar.gz
+[2023-07-17 12:22:06] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [distlib]: Downloading https://files.pythonhosted.org/packages/29/34/63be59bdf57b3a8a8dcc252ef45c40f3c018777dc8843d45dd9b869868f0/distlib-0.3.7.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/de/5f/ebd4100eca4e779740c0c7565c5aa7782dac9b87757b8dc4e9d688909d88/CartiMorph_nnUNet-1.7.9.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/40/92/7d6f4fb369aba95e852a020b984051a4a35e8388adf85bd5c7b63ad4264e/arthub_login_widgets-0.4.4.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b9/86/1b93b637d5dcdc9700b98ae5e9170ce0e1051294484dc2282d7a5469485b/gimera-0.7.2.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/62/3f/f941d5c63612df47d6ecd325e22ebd2fc015647e96b6abd3508f8e6f0b93/macrometa-source-mongo-0.0.47.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [ffcv-pl]: Downloading https://files.pythonhosted.org/packages/2b/a3/3cfb0c02dad6b560b8c8cbffdbdb3769c00bb3710f2a89b4001558669130/ffcv_pl-0.3.2.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [openirt]: Downloading https://files.pythonhosted.org/packages/ad/78/1a3df8ff2a35447dc83ee28c792fca45f9ddd08bec4df85084f3cb26e29f/openirt-0.1.8.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230717/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUNet-1.7.8.tar.gz tmp/CartiMorph_nnUNet-1.7.9.tar.gz --markdown 20230717/C/CartiMorph-nnUNet/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [distlib]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [distlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distlib-0.3.6.tar.gz tmp/distlib-0.3.7.tar.gz --markdown 20230717/d/distlib/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [arthub-login-widgets]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [arthub-login-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_login_widgets-0.4.3.tar.gz tmp/arthub_login_widgets-0.4.4.tar.gz --markdown 20230717/a/arthub-login-widgets/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/96/9c/0550790c1f94bb223abd67cdeaece462c0ac56b5cf2cf84080a593e57987/flash_attn-1.0.9.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.46.tar.gz tmp/macrometa-source-mongo-0.0.47.tar.gz --markdown 20230717/m/macrometa-source-mongo/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.1.tar.gz tmp/gimera-0.7.2.tar.gz --markdown 20230717/g/gimera/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [ffcv-pl]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [ffcv-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffcv_pl-0.3.1.tar.gz tmp/ffcv_pl-0.3.2.tar.gz --markdown 20230717/f/ffcv-pl/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [openirt]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [openirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openirt-0.1.7.tar.gz tmp/openirt-0.1.8.tar.gz --markdown 20230717/o/openirt/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-17 12:22:07] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-07-17 12:22:07] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-07-17 12:22:07] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.8.tar.gz tmp/flash_attn-1.0.9.tar.gz --markdown 20230717/f/flash-attn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:22:08] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-07-17 12:22:08] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230717/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-17 12:22:09] INFO root fetch - processPackages [ffcv-pl]: Remove: archive file [/home/abi/fetcher/tmp/ffcv_pl-0.3.1.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [ffcv-pl]: Remove: archive file [/home/abi/fetcher/tmp/ffcv_pl-0.3.2.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [ffcv-pl]: Start processing: Arl-Gauss-Binom
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [ffcv-pl]: success
+[2023-07-17 12:22:09] WARNING root fetch - processPackages [Arl-Gauss-Binom]: Skipping, unable to determine old version
+[2023-07-17 12:22:09] INFO root fetch - processPackages [Arl-Gauss-Binom]: Start processing: aleksis-app-kort
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [Arl-Gauss-Binom] error
+[2023-07-17 12:22:09] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.1.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.2.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [gimera]: Start processing: few-shot-priming
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [aleksis-app-kort]: New version: [0.3.dev0] Old Version: [0.2]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.3.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.4.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: Start processing: dune-harmonizer
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [macrometa-source-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mongo-0.0.46.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [macrometa-source-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mongo-0.0.47.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [macrometa-source-mongo]: Start processing: arthub-login-widgets
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [openirt]: Remove: archive file [/home/abi/fetcher/tmp/openirt-0.1.7.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [openirt]: Remove: archive file [/home/abi/fetcher/tmp/openirt-0.1.8.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [openirt]: Start processing: faasmctl
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [openirt]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [faasmctl]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/40/92/7d6f4fb369aba95e852a020b984051a4a35e8388adf85bd5c7b63ad4264e/arthub_login_widgets-0.4.4.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 12:22:09] INFO root fetch - processPackages [aleksis-app-kort]: Downloading https://files.pythonhosted.org/packages/35/22/73ed825b7cdd74e205f109ece3a7d5ea1d8b7cb5148c3442a77b571dbd0a/aleksis_app_kort-0.2.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/9a/43/5ff351de2f0c481efca6f4e792604a25511b5c871b3b329b19b7d3a6d978/faasmctl-0.4.0.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.8.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.9.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/ac/89/6dbde76ac51a6ed88538045a48abba25c002b4a49f4e1af4df094c542bcf/arthub_login_widgets-0.4.5.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 12:22:09] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/f2/55/a74b793edd55a0ce4c64472e7f28a0accabb143990f1e5f3c11f9adedce5/faasmctl-0.4.1.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [aleksis-app-kort]: Downloading https://files.pythonhosted.org/packages/d6/0a/55cfc29ed115a6da05faf4811d274d090adbcf5051a6c5ab0c124f53fa8e/aleksis_app_kort-0.3.dev0.tar.gz
+[2023-07-17 12:22:09] INFO root fetch - processPackages [distlib]: Remove: archive file [/home/abi/fetcher/tmp/distlib-0.3.6.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - processPackages [distlib]: Remove: archive file [/home/abi/fetcher/tmp/distlib-0.3.7.tar.gz]
+[2023-07-17 12:22:09] INFO root fetch - main [MainThread]: End processing [distlib]: success
+[2023-07-17 12:22:09] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-17 12:22:09] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.4.0.tar.gz tmp/faasmctl-0.4.1.tar.gz --markdown 20230717/f/faasmctl/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: executing diffoscope
+[2023-07-17 12:22:09] INFO root fetch - processPackages [arthub-login-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_login_widgets-0.4.4.tar.gz tmp/arthub_login_widgets-0.4.5.tar.gz --markdown 20230717/a/arthub-login-widgets/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-17 12:22:09] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 12:22:09] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 12:22:10] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-07-17 12:22:10] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-07-17 12:22:10] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-07-17 12:22:10] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-07-17 12:22:10] INFO root fetch - processPackages [aleksis-app-kort]: executing diffoscope
+[2023-07-17 12:22:10] INFO root fetch - processPackages [aleksis-app-kort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_kort-0.2.tar.gz tmp/aleksis_app_kort-0.3.dev0.tar.gz --markdown 20230717/a/aleksis-app-kort/0.2-0.3.dev0/diff.md --exclude *.pyd
+[2023-07-17 12:22:10] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-07-17 12:22:10] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230717/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 12:22:11] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.4.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.5.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
+[2023-07-17 12:22:11] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.4.0.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.4.1.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-17 12:22:11] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 12:22:11] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 12:22:11] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 12:22:11] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-07-17 12:22:11] INFO root fetch - processPackages [aleksis-app-kort]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_kort-0.2.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - processPackages [aleksis-app-kort]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_kort-0.3.dev0.tar.gz]
+[2023-07-17 12:22:11] INFO root fetch - main [MainThread]: End processing [aleksis-app-kort]: success
+[2023-07-17 12:22:20] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-1.0.8.tar.gz]
+[2023-07-17 12:22:20] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-1.0.9.tar.gz]
+[2023-07-17 12:22:20] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-07-17 12:22:20] INFO root fetch - main [MainThread]: Store serial: [18915373]
