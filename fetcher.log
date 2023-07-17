@@ -19622,3 +19622,258 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:47:15] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-17 15:47:15] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-17 15:47:15] INFO root fetch - main [MainThread]: Store serial: [18917660]
+[2023-07-17 15:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917660]
+[2023-07-17 15:52:25] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-chargify
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molgraph
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: envappconfig
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osaapi
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonk8s
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ContactApi
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparsebm
+[2023-07-17 15:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openwholeslide
+[2023-07-17 15:52:26] INFO root fetch - processPackages [tap-chargify]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [envappconfig]: New version: [2023.5.1022] Old Version: [2023.4.988]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [osaapi]: New version: [1.0.0] Old Version: [0.4.4]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.491.3] Old Version: [0.491.1]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [openwholeslide]: New version: [0.0.14] Old Version: [0.0.12]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [sparsebm]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [molgraph]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.491.3]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [dragonk8s]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [ContactApi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 15:52:26] INFO root fetch - processPackages [openwholeslide]: Downloading https://files.pythonhosted.org/packages/66/08/07d58a41e196c82ebede4b1422c56e8ecdd20bed5358af9de07e49fdea9a/openwholeslide-0.0.12.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [osaapi]: Downloading https://files.pythonhosted.org/packages/e4/f3/af6799c5cb2e0f5f719c2fcb57fbe8109129183cf379d899e67e0e09d5dd/osaapi-0.4.4.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [tap-chargify]: Downloading https://files.pythonhosted.org/packages/be/70/172a494db345dc2426c7ff509a840dfa552888c29e1358ebe4d0f5733284/tap-chargify-0.0.9.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/e8/bc/19a92ea38c235581763e64ec6a22ac099f7f1cab44dea515d4685a39715f/ContactApi-0.0.3.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [envappconfig]: Downloading https://files.pythonhosted.org/packages/be/8b/c7fdadf640fd82d8e54c09b95db58e252a1e09bff7a4d22317fbb7d3b740/envappconfig-2023.4.988.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/60/50/e22b7e9081ba1ff5da28acd8b0c20619c9a7456e582ef0566743d5eed954/stigg_api_client_v2-0.491.1.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [sparsebm]: Downloading https://files.pythonhosted.org/packages/35/11/0e84542c054223af57129b00320b6c55666d0120cd7efea607ad4d2c31a5/sparsebm-1.6.6.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/e7/cc/f13efe6b10e682ec4263264089512ec733693b2f08927fd11ea267d77d8b/molgraph-0.5.3.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/56/52/ea3988284cb2c3052c10c18c7ca34ffd2f7d901785998781cbf784ac86ce/stigg_api_client-0.491.3.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/d1/1a/fafb419c86ab73bfa9fab8b56169cecea9513b8226aee81bc0b1d183d2d1/dragonk8s-1.0.5.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [openwholeslide]: Downloading https://files.pythonhosted.org/packages/44/e8/3837898a0e7dd3687f2cb5cad3ae03a11bd30055aa3e536fab61a64413a9/openwholeslide-0.0.14.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [openwholeslide]: executing diffoscope
+[2023-07-17 15:52:26] INFO root fetch - processPackages [openwholeslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openwholeslide-0.0.12.tar.gz tmp/openwholeslide-0.0.14.tar.gz --markdown 20230717/o/openwholeslide/0.0.12-0.0.14/diff.md --exclude *.pyd
+[2023-07-17 15:52:26] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/3a/ee/44e4c6f52a7304639b2e008bf071141534e175139670a5fd8fee414eee43/ContactApi-0.0.4.tar.gz
+[2023-07-17 15:52:26] INFO root fetch - processPackages [osaapi]: Downloading https://files.pythonhosted.org/packages/94/28/038b663ab113180140b263af4d4706e30892bb3400e5013eee4efc4dac4a/osaapi-1.0.0.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [tap-chargify]: Downloading https://files.pythonhosted.org/packages/aa/f6/2eba4430aa1f80ae812ddcb4915d3cfdf0641a85ee2071d59a7c4df727d2/tap-chargify-0.1.0.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/53/76/a5fe817fe71a0a0e833ba2f942b7fcf2c56bc413b2d63ada3916997e5a60/molgraph-0.5.4.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/c2/11/dcf10899f29b3e9f2643e93b7c0fd4c1249de7d6c69d9c89627498775bbd/stigg_api_client_v2-0.491.3.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [ContactApi]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [ContactApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ContactApi-0.0.3.tar.gz tmp/ContactApi-0.0.4.tar.gz --markdown 20230717/C/ContactApi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/11/59/0d16cc27836804be80ab56b85667ca671fdbbfde94853652597d09999983/dragonk8s-1.0.6.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [envappconfig]: Downloading https://files.pythonhosted.org/packages/f8/2a/61f4afcab76bcccbe57b964f10b96951a7cf033111483c73f0a514e953f7/envappconfig-2023.5.1022.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [sparsebm]: Downloading https://files.pythonhosted.org/packages/a7/9e/ec5313de29f1aed3f6ea26725172326d0aefcd67fa3701876bebe49eba79/sparsebm-1.6.7.tar.gz
+[2023-07-17 15:52:27] INFO root fetch - processPackages [osaapi]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [osaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osaapi-0.4.4.tar.gz tmp/osaapi-1.0.0.tar.gz --markdown 20230717/o/osaapi/0.4.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [tap-chargify]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [tap-chargify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-chargify-0.0.9.tar.gz tmp/tap-chargify-0.1.0.tar.gz --markdown 20230717/t/tap-chargify/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.491.1.tar.gz tmp/stigg_api_client_v2-0.491.3.tar.gz --markdown 20230717/s/stigg-api-client-v2/0.491.1-0.491.3/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.5.3.tar.gz tmp/molgraph-0.5.4.tar.gz --markdown 20230717/m/molgraph/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [sparsebm]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [sparsebm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsebm-1.6.6.tar.gz tmp/sparsebm-1.6.7.tar.gz --markdown 20230717/s/sparsebm/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [dragonk8s]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [dragonk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonk8s-1.0.5.tar.gz tmp/dragonk8s-1.0.6.tar.gz --markdown 20230717/d/dragonk8s/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.491.3.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230717/s/stigg-api-client/0.491.3-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:27] INFO root fetch - processPackages [envappconfig]: executing diffoscope
+[2023-07-17 15:52:27] INFO root fetch - processPackages [envappconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envappconfig-2023.4.988.tar.gz tmp/envappconfig-2023.5.1022.tar.gz --markdown 20230717/e/envappconfig/2023.4.988-2023.5.1022/diff.md --exclude *.pyd
+[2023-07-17 15:52:28] INFO root fetch - processPackages [openwholeslide]: Remove: archive file [/home/abi/fetcher/tmp/openwholeslide-0.0.12.tar.gz]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [openwholeslide]: Remove: archive file [/home/abi/fetcher/tmp/openwholeslide-0.0.14.tar.gz]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [openwholeslide]: Start processing: pysilsub
+[2023-07-17 15:52:28] INFO root fetch - main [MainThread]: End processing [openwholeslide]: success
+[2023-07-17 15:52:28] INFO root fetch - processPackages [pysilsub]: New version: [0.1.1] Old Version: [0.0.15]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [pysilsub]: Downloading https://files.pythonhosted.org/packages/32/e0/bbb860b536f58d6b949a1caf11ca886a3c3ad799c80888b70cf4ca7943c1/pysilsub-0.0.15.tar.gz
+[2023-07-17 15:52:28] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.3.tar.gz]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.4.tar.gz]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [ContactApi]: Start processing: gradio-test-pypi
+[2023-07-17 15:52:28] INFO root fetch - main [MainThread]: End processing [ContactApi]: success
+[2023-07-17 15:52:28] INFO root fetch - processPackages [gradio-test-pypi]: New version: [0.51.0] Old Version: [0.50.1]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [osaapi]: Remove: archive file [/home/abi/fetcher/tmp/osaapi-0.4.4.tar.gz]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [osaapi]: Remove: archive file [/home/abi/fetcher/tmp/osaapi-1.0.0.tar.gz]
+[2023-07-17 15:52:28] INFO root fetch - processPackages [osaapi]: Start processing: typedhttp
+[2023-07-17 15:52:28] INFO root fetch - main [MainThread]: End processing [osaapi]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [typedhttp]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [gradio-test-pypi]: Downloading https://files.pythonhosted.org/packages/0f/e9/1a280395e40e8b86b0edc28f4035702dc03658e57207f9fda976cb5a763e/gradio_test_pypi-0.50.1.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [tap-chargify]: Remove: archive file [/home/abi/fetcher/tmp/tap-chargify-0.0.9.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [tap-chargify]: Remove: archive file [/home/abi/fetcher/tmp/tap-chargify-0.1.0.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [tap-chargify]: Start processing: Sockets-connection
+[2023-07-17 15:52:29] INFO root fetch - main [MainThread]: End processing [tap-chargify]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [Sockets-connection]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [envappconfig]: Remove: archive file [/home/abi/fetcher/tmp/envappconfig-2023.4.988.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [envappconfig]: Remove: archive file [/home/abi/fetcher/tmp/envappconfig-2023.5.1022.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [envappconfig]: Start processing: relevanceai
+[2023-07-17 15:52:29] INFO root fetch - main [MainThread]: End processing [envappconfig]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [typedhttp]: Downloading https://files.pythonhosted.org/packages/46/c3/4bcd0d80aa55e7359d143f4edf223d844ce88d22ea1bab938e426e873378/typedhttp-0.1.0.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [relevanceai]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.491.3.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [stigg-api-client]: Start processing: projen
+[2023-07-17 15:52:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [Sockets-connection]: Downloading https://files.pythonhosted.org/packages/4a/e5/90c243785702469652c321c389e4fdd874a99264624b5dce710561be6d4e/Sockets_connection-0.0.6-py3-none-any.whl
+[2023-07-17 15:52:29] INFO root fetch - processPackages [gradio-test-pypi]: Downloading https://files.pythonhosted.org/packages/a3/77/afddde2142c1a195fc3a9a71a29584bc6fac899d52d35704197125963f00/gradio_test_pypi-0.51.0.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.491.1.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.491.3.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [stigg-api-client-v2]: Start processing: google-cloud-alloydb
+[2023-07-17 15:52:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/90/b8/881f7ef660a2a652bcbf7b0292ac7f2d2f22f759ee757a37bfe451e4e95c/relevanceai-5.0.1.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [google-cloud-alloydb]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.3.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.4.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [molgraph]: Start processing: google-cloud-documentai
+[2023-07-17 15:52:29] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [sparsebm]: Remove: archive file [/home/abi/fetcher/tmp/sparsebm-1.6.6.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [sparsebm]: Remove: archive file [/home/abi/fetcher/tmp/sparsebm-1.6.7.tar.gz]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [sparsebm]: Start processing: google-cloud-kms-inventory
+[2023-07-17 15:52:29] INFO root fetch - main [MainThread]: End processing [sparsebm]: success
+[2023-07-17 15:52:29] INFO root fetch - processPackages [gradio-test-pypi]: executing diffoscope
+[2023-07-17 15:52:29] INFO root fetch - processPackages [gradio-test-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_test_pypi-0.50.1.tar.gz tmp/gradio_test_pypi-0.51.0.tar.gz --markdown 20230717/g/gradio-test-pypi/0.50.1-0.51.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:29] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [google-cloud-documentai]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [google-cloud-kms-inventory]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-17 15:52:29] INFO root fetch - processPackages [typedhttp]: Downloading https://files.pythonhosted.org/packages/74/5d/b934355ac1a4faaaaaaa653feef0145a5cc4866ef576cef5e95bf805654f/typedhttp-0.2.0.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [Sockets-connection]: Downloading https://files.pythonhosted.org/packages/61/54/bf702a0c8838cae9c53d67521dcdb22c5e08536dd28b00419e9fcc73d640/Sockets_connection-0.0.7-py3-none-any.whl
+[2023-07-17 15:52:29] INFO root fetch - processPackages [google-cloud-alloydb]: Downloading https://files.pythonhosted.org/packages/f9/0b/d0a798e4c5faa5300ccb852b20a3d0b5e9974aa5432eda2e219623825cd2/google-cloud-alloydb-0.2.1.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/a4/f4/a4a68eab03effa984a9a13605c73897876fc688d59a3fa218e60a4baaf78/relevanceai-5.0.2.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [typedhttp]: executing diffoscope
+[2023-07-17 15:52:29] INFO root fetch - processPackages [typedhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhttp-0.1.0.tar.gz tmp/typedhttp-0.2.0.tar.gz --markdown 20230717/t/typedhttp/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:29] INFO root fetch - processPackages [Sockets-connection]: executing diffoscope
+[2023-07-17 15:52:29] INFO root fetch - processPackages [Sockets-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sockets_connection-0.0.6-py3-none-any.whl.zip tmp/Sockets_connection-0.0.7-py3-none-any.whl.zip --markdown 20230717/S/Sockets-connection/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 15:52:29] INFO root fetch - processPackages [google-cloud-documentai]: Downloading https://files.pythonhosted.org/packages/aa/a1/9f12e359fa7106073f4536a911aec2df113874873e67f58d7e2c3772891a/google-cloud-documentai-2.9.0.tar.gz
+[2023-07-17 15:52:29] INFO root fetch - processPackages [google-cloud-kms-inventory]: Downloading https://files.pythonhosted.org/packages/68/34/b939bd0bb4bc932124a45fac84122aa97e54263486917f86de3859fe9a4a/google-cloud-kms-inventory-0.1.1.tar.gz
+[2023-07-17 15:52:30] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-17 15:52:30] INFO root fetch - processPackages [relevanceai]: executing diffoscope
+[2023-07-17 15:52:30] INFO root fetch - processPackages [relevanceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relevanceai-5.0.1.tar.gz tmp/relevanceai-5.0.2.tar.gz --markdown 20230717/r/relevanceai/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-17 15:52:30] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-17 15:52:30] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230717/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-alloydb]: Downloading https://files.pythonhosted.org/packages/df/88/9c298bad72566f36942befecaa7a032cdd725b339b26d11d57624a8f7e6a/google-cloud-alloydb-0.3.0.tar.gz
+[2023-07-17 15:52:30] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.5.tar.gz]
+[2023-07-17 15:52:30] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.6.tar.gz]
+[2023-07-17 15:52:30] INFO root fetch - processPackages [dragonk8s]: Start processing: cirq-rigetti
+[2023-07-17 15:52:30] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
+[2023-07-17 15:52:30] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-kms-inventory]: Downloading https://files.pythonhosted.org/packages/ae/1f/0116444ed1661d7f05929508ba5e20de23b106c967971725a168905f836a/google-cloud-kms-inventory-0.2.0.tar.gz
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-alloydb]: executing diffoscope
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-alloydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-alloydb-0.2.1.tar.gz tmp/google-cloud-alloydb-0.3.0.tar.gz --markdown 20230717/g/google-cloud-alloydb/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-documentai]: Downloading https://files.pythonhosted.org/packages/61/58/e9e7d41df274a2408bd4e5415858ca518b631b1b3de464c9aa6c09da2627/google-cloud-documentai-2.9.1.tar.gz
+[2023-07-17 15:52:30] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/ff/9d/74c2e4a7b69e864c66a3d1188c93f0e01c46e5b3f3e1d9d908ddd4b75388/cirq_rigetti-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-kms-inventory]: executing diffoscope
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-kms-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-kms-inventory-0.1.1.tar.gz tmp/google-cloud-kms-inventory-0.2.0.tar.gz --markdown 20230717/g/google-cloud-kms-inventory/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-documentai]: executing diffoscope
+[2023-07-17 15:52:30] INFO root fetch - processPackages [google-cloud-documentai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-documentai-2.9.0.tar.gz tmp/google-cloud-documentai-2.9.1.tar.gz --markdown 20230717/g/google-cloud-documentai/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-17 15:52:30] INFO root fetch - processPackages [gradio-test-pypi]: Remove: archive file [/home/abi/fetcher/tmp/gradio_test_pypi-0.50.1.tar.gz]
+[2023-07-17 15:52:30] INFO root fetch - processPackages [gradio-test-pypi]: Remove: archive file [/home/abi/fetcher/tmp/gradio_test_pypi-0.51.0.tar.gz]
+[2023-07-17 15:52:30] INFO root fetch - processPackages [gradio-test-pypi]: Start processing: cirq-aqt
+[2023-07-17 15:52:30] INFO root fetch - main [MainThread]: End processing [gradio-test-pypi]: success
+[2023-07-17 15:52:30] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/66/ac/710c24dfc05c2f940cfdd0b397e5fc19749f0447b116d3bfad2088e8bc5f/cirq_rigetti-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:30] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/8d/2e/90193ad59d32a7819ebf50daaaeb792ef8be7474aec9598941c8b68ba0bf/cirq_aqt-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:31] INFO root fetch - processPackages [pysilsub]: Downloading https://files.pythonhosted.org/packages/68/29/f94eaa37d1f101539feb51612f12551cec9b675e3c1bff8bbfb544326b36/pysilsub-0.1.1.tar.gz
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-rigetti/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:31] INFO root fetch - processPackages [typedhttp]: Remove: archive file [/home/abi/fetcher/tmp/typedhttp-0.1.0.tar.gz]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [typedhttp]: Remove: archive file [/home/abi/fetcher/tmp/typedhttp-0.2.0.tar.gz]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [typedhttp]: Start processing: cirq
+[2023-07-17 15:52:31] INFO root fetch - main [MainThread]: End processing [typedhttp]: success
+[2023-07-17 15:52:31] INFO root fetch - processPackages [Sockets-connection]: Remove: archive file [/home/abi/fetcher/tmp/Sockets_connection-0.0.6-py3-none-any.whl.zip]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [Sockets-connection]: Remove: archive file [/home/abi/fetcher/tmp/Sockets_connection-0.0.7-py3-none-any.whl.zip]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [Sockets-connection]: Start processing: cirq-ionq
+[2023-07-17 15:52:31] INFO root fetch - main [MainThread]: End processing [Sockets-connection]: success
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [pysilsub]: executing diffoscope
+[2023-07-17 15:52:31] INFO root fetch - processPackages [pysilsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysilsub-0.0.15.tar.gz tmp/pysilsub-0.1.1.tar.gz --markdown 20230717/p/pysilsub/0.0.15-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 15:52:31] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.1.tar.gz]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.2.tar.gz]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [relevanceai]: Start processing: cirq-core
+[2023-07-17 15:52:31] INFO root fetch - main [MainThread]: End processing [relevanceai]: success
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/70/2b/5f6ad3ae5315c43ce9370124ec393e4360fa5fe2bc826395ed03fbd6a09d/cirq_aqt-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/82/ea/907a5b7e82888c3f6f8d5c7bb2fc43e9deb5dc4d252a9ab2cfea74dea9a3/cirq-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/9f/d7/807bc3ee0f20456d02548f2500ced9f992b0377263b8796087c9561cbb17/cirq_ionq-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-aqt/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/43/00/d509e9e9184631d6e10766db209975c23416b52ff365e9db68a8a626fb62/cirq_core-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/8e/ec/351612b58e18118cfe8e71d266aa9341ce3f6392d5eabeba99520be93096/cirq-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:31] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/d7/c5/383c5993ad3351956e52f4e5ad4f43ec1ab0f286ca8def6954fa14613aa2/cirq_ionq-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-ionq/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/04/e0/46166562842cb0dd249175ec0d3c48328023e532fd8d21bf99787de01be9/cirq_core-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:32] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [projen]: Start processing: cirq-google
+[2023-07-17 15:52:32] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-core/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/f6/ab/68ef563f7652ee3d3cb81c280aa9159bf8072a6a533957f08cce81f15b9c/cirq_google-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:32] INFO root fetch - processPackages [google-cloud-kms-inventory]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-kms-inventory-0.1.1.tar.gz]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [google-cloud-kms-inventory]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-kms-inventory-0.2.0.tar.gz]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [google-cloud-kms-inventory]: Start processing: cirq-pasqal
+[2023-07-17 15:52:32] INFO root fetch - main [MainThread]: End processing [google-cloud-kms-inventory]: success
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:32] INFO root fetch - processPackages [cirq-rigetti]: Start processing: cirq-ft
+[2023-07-17 15:52:32] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-ft]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/8e/2b/178e7673a4ff7c3f3052b565ec23c5e4f172c78455ba1491b1d222bc236b/cirq_ft-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/72/e0/17fd6c526b6af505de891337dc75d9e09403f6333626936ca663b79c7de4/cirq_pasqal-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/38/0e/2b2bcce25022759e7acd6e67667761293a9c941e9ade8b9ae0813f3ca2e3/cirq_google-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:33] INFO root fetch - processPackages [google-cloud-documentai]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-documentai-2.9.0.tar.gz]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [google-cloud-documentai]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-documentai-2.9.1.tar.gz]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [google-cloud-documentai]: Start processing: cirq-web
+[2023-07-17 15:52:33] INFO root fetch - main [MainThread]: End processing [google-cloud-documentai]: success
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:33] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230717131509] Old Version: [1.2.0.dev20230714133436]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-google/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/01/f8/544e35a5746e076ce07380c6c719e36702a00779cebd195a20ab872afe4c/cirq_pasqal-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/43/0a/df406f3691a08b6ba914753de35c3e9d4bc301343f7a7a8e43cf9b4186ca/cirq_ft-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:33] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/f6/ee/7f9252f63ab8101e904b73041b663a305a686e8c82607d32552002868a74/cirq_web-1.2.0.dev20230714133436-py3-none-any.whl
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-pasqal/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2023-07-17 15:52:33] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_ft-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-ft/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:34] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:34] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:34] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-07-17 15:52:34] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/ed/42/5d625e4cd173391999b3873da04b52b5eba908f395cab0e4290fc1f77c00/cirq_web-1.2.0.dev20230717131509-py3-none-any.whl
+[2023-07-17 15:52:34] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-07-17 15:52:34] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230714133436-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230717131509-py3-none-any.whl.zip --markdown 20230717/c/cirq-web/1.2.0.dev20230714133436-1.2.0.dev20230717131509/diff.md --exclude *.pyd
+[2023-07-17 15:52:34] INFO root fetch - processPackages [google-cloud-alloydb]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-alloydb-0.2.1.tar.gz]
+[2023-07-17 15:52:34] INFO root fetch - processPackages [google-cloud-alloydb]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-alloydb-0.3.0.tar.gz]
+[2023-07-17 15:52:34] INFO root fetch - main [MainThread]: End processing [google-cloud-alloydb]: success
+[2023-07-17 15:52:34] INFO root fetch - processPackages [pysilsub]: Remove: archive file [/home/abi/fetcher/tmp/pysilsub-0.0.15.tar.gz]
+[2023-07-17 15:52:34] INFO root fetch - processPackages [pysilsub]: Remove: archive file [/home/abi/fetcher/tmp/pysilsub-0.1.1.tar.gz]
+[2023-07-17 15:52:34] INFO root fetch - main [MainThread]: End processing [pysilsub]: success
+[2023-07-17 15:52:35] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:35] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:35] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-07-17 15:52:35] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:35] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:35] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-07-17 15:52:35] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:35] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:35] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2023-07-17 15:52:36] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:36] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:36] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-07-17 15:52:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230714133436-py3-none-any.whl.zip]
+[2023-07-17 15:52:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230717131509-py3-none-any.whl.zip]
+[2023-07-17 15:52:39] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-07-17 15:52:39] INFO root fetch - main [MainThread]: Store serial: [18917732]
