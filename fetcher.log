@@ -17411,3 +17411,168 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:42:28] INFO root fetch - processPackages [helium]: Remove: archive file [/home/abi/fetcher/tmp/helium-3.2.2.tar.gz]
 [2023-07-17 14:42:28] INFO root fetch - main [MainThread]: End processing [helium]: success
 [2023-07-17 14:42:28] INFO root fetch - main [MainThread]: Store serial: [18916858]
+[2023-07-17 14:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916858]
+[2023-07-17 14:47:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-openai-tr
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: learninghouse
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psqlpandas
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mango-framework
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysqlbuilder
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: treemodel2sql
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projen
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libmata
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: griffe
+[2023-07-17 14:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inkstone
+[2023-07-17 14:47:37] INFO root fetch - processPackages [psqlpandas]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [inkstone]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [mango-framework]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [mysqlbuilder]: New version: [1.0.19] Old Version: [1.0.18]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [learninghouse]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [libmata]: New version: [0.80.0] Old Version: [0.79.1]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [treemodel2sql]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [azure-openai-tr]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-17 14:47:37] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-17 14:47:38] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/91/8d/83b77b2a0679bc3c77a3d781824b7cf8b9d01bf5dcd7a4af10fe9d18baaf/mango-framework-0.6.0.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [inkstone]: Downloading https://files.pythonhosted.org/packages/84/51/617bb06a92ba85932acc46065a08c4d3f269232d06f465281d861e64a449/inkstone-0.2.8.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/73/11/8d0bf8533786bcf86d14349145414738e0c9b7e96d5220b8f2a21adbd70e/psqlpandas-1.3.0.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/93/1c/7bb90d6c2c3fdb67a3c065d5435f2527f6185181d5aa8800eb0a89fcf95a/mysqlbuilder-1.0.18.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/42/ab/5e0b20df941c9cfd096abc01ed7d92b5b4c68bb15017fda807dbc434e293/learninghouse-1.9.2.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/e2/ca/e340e5d6be5ddff98e10be1c35a0bfae3ac32c2f358d2d5ec6d575108e8a/azure_openai_tr-0.1.0a1.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [treemodel2sql]: Downloading https://files.pythonhosted.org/packages/f0/33/19be3f96540849b5636c8f043c44b3f3cc2ccbed332777bd607bc80156d1/treemodel2sql-0.1.0.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/b0/c8/07345f4b74ed1fb21c7e1e3acabaaf0764b7f4ade481f30709e7fd69d5bd/libmata-0.79.1.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [inkstone]: Downloading https://files.pythonhosted.org/packages/5f/31/0052037c8bf0a5f7574df313af3d8aaeaf8701aea2f21fe058937d778ed3/inkstone-0.2.9.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/6f/b7/5f85a427899322ea51726e9bd5b65eecd0db89aff8d420f4d208ea8d2791/mango-framework-0.6.1.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/88/64/05c220616703ad6d07eda5a57ed43f0ad88896e1bc6e942c9d4f1ec72dad/psqlpandas-1.3.1.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/9f/02/626d9d7a552ea947ea0875ceb7493269390e4956624a3fa399d5da41eb40/mysqlbuilder-1.0.19.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [inkstone]: executing diffoscope
+[2023-07-17 14:47:38] INFO root fetch - processPackages [inkstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkstone-0.2.8.tar.gz tmp/inkstone-0.2.9.tar.gz --markdown 20230717/i/inkstone/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 14:47:38] INFO root fetch - processPackages [treemodel2sql]: Downloading https://files.pythonhosted.org/packages/a1/9d/ae60a8950017afb9d1a48b7136b66ff17c6bdedfae708b257a99eb5c8825/treemodel2sql-0.1.1.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-07-17 14:47:38] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230717/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 14:47:38] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/80/22/ba0a0a2c7563be393b43438baf8ee4d95d554dce37df6e1fd851c8429f47/azure_openai_tr-0.1.0a2.tar.gz
+[2023-07-17 14:47:38] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-17 14:47:38] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.6.0.tar.gz tmp/mango-framework-0.6.1.tar.gz --markdown 20230717/m/mango-framework/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-17 14:47:38] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/78/62/9d72383820c07720f1f55f5a5b66bb307aa12c66719465e65d483134b611/learninghouse-1.9.3.tar.gz
+[2023-07-17 14:47:39] INFO root fetch - processPackages [mysqlbuilder]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [mysqlbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlbuilder-1.0.18.tar.gz tmp/mysqlbuilder-1.0.19.tar.gz --markdown 20230717/m/mysqlbuilder/1.0.18-1.0.19/diff.md --exclude *.pyd
+[2023-07-17 14:47:39] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-17 14:47:39] INFO root fetch - processPackages [psqlpandas]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [psqlpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psqlpandas-1.3.0.tar.gz tmp/psqlpandas-1.3.1.tar.gz --markdown 20230717/p/psqlpandas/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-17 14:47:39] INFO root fetch - processPackages [azure-openai-tr]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [azure-openai-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_openai_tr-0.1.0a1.tar.gz tmp/azure_openai_tr-0.1.0a2.tar.gz --markdown 20230717/a/azure-openai-tr/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-17 14:47:39] INFO root fetch - processPackages [treemodel2sql]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [treemodel2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treemodel2sql-0.1.0.tar.gz tmp/treemodel2sql-0.1.1.tar.gz --markdown 20230717/t/treemodel2sql/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 14:47:39] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/92/92/862bcc080e9f5a22434824ed0189f7aef2cfe2ced57b1fa15438c4bdb53c/libmata-0.80.0.tar.gz
+[2023-07-17 14:47:39] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230717/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-17 14:47:39] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.79.1.tar.gz tmp/libmata-0.80.0.tar.gz --markdown 20230717/l/libmata/0.79.1-0.80.0/diff.md --exclude *.pyd
+[2023-07-17 14:47:39] INFO root fetch - processPackages [learninghouse]: executing diffoscope
+[2023-07-17 14:47:39] INFO root fetch - processPackages [learninghouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learninghouse-1.9.2.tar.gz tmp/learninghouse-1.9.3.tar.gz --markdown 20230717/l/learninghouse/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-17 14:47:41] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.0.tar.gz]
+[2023-07-17 14:47:41] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.1.tar.gz]
+[2023-07-17 14:47:41] INFO root fetch - processPackages [mango-framework]: Start processing: pycyclops
+[2023-07-17 14:47:41] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-17 14:47:41] INFO root fetch - processPackages [pycyclops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.3.0.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.3.1.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [psqlpandas]: Start processing: FeatureCloud
+[2023-07-17 14:47:42] INFO root fetch - main [MainThread]: End processing [psqlpandas]: success
+[2023-07-17 14:47:42] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.18.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.19.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [mysqlbuilder]: Start processing: manticore
+[2023-07-17 14:47:42] INFO root fetch - main [MainThread]: End processing [mysqlbuilder]: success
+[2023-07-17 14:47:42] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/f4/bb/2f5e6d5836c21b65c66b83c9a5aa420e99fde04952dfb4441af7346a9551/pycyclops-0.1.8.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a1.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a2.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [azure-openai-tr]: Start processing: comun-va
+[2023-07-17 14:47:42] INFO root fetch - main [MainThread]: End processing [azure-openai-tr]: success
+[2023-07-17 14:47:42] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230717] Old Version: [0.3.8.dev230716]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [FeatureCloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [inkstone]: Remove: archive file [/home/abi/fetcher/tmp/inkstone-0.2.8.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [inkstone]: Remove: archive file [/home/abi/fetcher/tmp/inkstone-0.2.9.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [inkstone]: Start processing: PVNet
+[2023-07-17 14:47:42] INFO root fetch - main [MainThread]: End processing [inkstone]: success
+[2023-07-17 14:47:42] INFO root fetch - processPackages [comun-va]: New version: [0.2] Old Version: [0.1]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/43/96/25d5aa68eabd7c746b7baf5bfa606f7fb08878bd0e473f7bcd2fdfae7614/manticore-0.3.8.dev230716.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [FeatureCloud]: Downloading https://files.pythonhosted.org/packages/c3/e1/6cbef6aaff978f09a1c984234bafd1cf4958ec2455869d72f327b6527428/FeatureCloud-0.0.8.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/6f/c3/ccdc10fc4f7f5ca9582f30307f4db8741404fa727d1aad699d50a30ddb5d/comun_va-0.1.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.8.0.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [griffe]: Start processing: medialoopster
+[2023-07-17 14:47:42] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-07-17 14:47:42] INFO root fetch - processPackages [medialoopster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 14:47:42] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/11/1b/e44a11b4db8509af2a75b2521e48cdf9665c8a2a621381e31ef9a9ef246c/pycyclops-0.1.9.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/b1/0f/d62df503141d576acb2ac9f945731497e5c5ad6cc4ee8c2ce416c1094e58/manticore-0.3.8.dev230717.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [FeatureCloud]: Downloading https://files.pythonhosted.org/packages/0c/0c/7741e0a38088359cd116346e0db3c4590d86e23b9816d074c887c96dbab7/FeatureCloud-0.0.9.tar.gz
+[2023-07-17 14:47:42] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/1c/0c/66496a5615318f18eb988da0d164764efc2e48d1e079f1bff85b32880753/medialoopster-0.0.8.tar.gz
+[2023-07-17 14:47:43] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/e6/f8/d6c99c7055c6920855dae54dd34458c2df82266627d58ffc2d2b80f7fca8/comun_va-0.2.tar.gz
+[2023-07-17 14:47:43] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2023-07-17 14:47:43] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.1.8.tar.gz tmp/pycyclops-0.1.9.tar.gz --markdown 20230717/p/pycyclops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 14:47:43] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-17 14:47:43] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230717/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-17 14:47:43] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-17 14:47:43] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230716.tar.gz tmp/manticore-0.3.8.dev230717.tar.gz --markdown 20230717/m/manticore/0.3.8.dev230716-0.3.8.dev230717/diff.md --exclude *.pyd
+[2023-07-17 14:47:43] INFO root fetch - processPackages [FeatureCloud]: executing diffoscope
+[2023-07-17 14:47:43] INFO root fetch - processPackages [FeatureCloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeatureCloud-0.0.8.tar.gz tmp/FeatureCloud-0.0.9.tar.gz --markdown 20230717/F/FeatureCloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 14:47:43] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2023-07-17 14:47:43] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-0.1.tar.gz tmp/comun_va-0.2.tar.gz --markdown 20230717/c/comun-va/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-17 14:47:43] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-17 14:47:43] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-17 14:47:43] INFO root fetch - processPackages [projen]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-17 14:47:43] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-17 14:47:43] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 14:47:43] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/c1/3e/a4179f41caf4368dd57457489a0ec6c958b1c5f0f1682474fb152891d64a/medialoopster-0.0.9.tar.gz
+[2023-07-17 14:47:43] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-17 14:47:43] INFO root fetch - processPackages [medialoopster]: executing diffoscope
+[2023-07-17 14:47:43] INFO root fetch - processPackages [medialoopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medialoopster-0.0.8.tar.gz tmp/medialoopster-0.0.9.tar.gz --markdown 20230717/m/medialoopster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 14:47:44] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-17 14:47:44] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-17 14:47:44] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 14:47:45] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-07-17 14:47:45] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-07-17 14:47:45] INFO root fetch - processPackages [PVNet]: Start processing: gvol
+[2023-07-17 14:47:45] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-17 14:47:45] INFO root fetch - processPackages [gvol]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-07-17 14:47:45] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.1.tar.gz]
+[2023-07-17 14:47:45] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.2.tar.gz]
+[2023-07-17 14:47:45] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2023-07-17 14:47:45] INFO root fetch - processPackages [FeatureCloud]: Remove: archive file [/home/abi/fetcher/tmp/FeatureCloud-0.0.8.tar.gz]
+[2023-07-17 14:47:45] INFO root fetch - processPackages [FeatureCloud]: Remove: archive file [/home/abi/fetcher/tmp/FeatureCloud-0.0.9.tar.gz]
+[2023-07-17 14:47:45] INFO root fetch - main [MainThread]: End processing [FeatureCloud]: success
+[2023-07-17 14:47:46] INFO root fetch - processPackages [gvol]: Downloading https://files.pythonhosted.org/packages/de/aa/4c15abb1ddf2804e59679a734e1f6c6025d20a1dd736d19b70ca0eff7f8e/gvol-0.5.9.tar.gz
+[2023-07-17 14:47:46] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.8.tar.gz]
+[2023-07-17 14:47:46] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.9.tar.gz]
+[2023-07-17 14:47:46] INFO root fetch - main [MainThread]: End processing [medialoopster]: success
+[2023-07-17 14:47:46] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230716.tar.gz]
+[2023-07-17 14:47:46] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230717.tar.gz]
+[2023-07-17 14:47:46] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-17 14:47:46] INFO root fetch - processPackages [gvol]: Downloading https://files.pythonhosted.org/packages/c0/9b/a8140514e616a9eb33e5a18033f060e9a57291e2f02ed9e9157fccf5653f/gvol-0.6.0.tar.gz
+[2023-07-17 14:47:46] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.1.8.tar.gz]
+[2023-07-17 14:47:46] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.1.9.tar.gz]
+[2023-07-17 14:47:46] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2023-07-17 14:47:46] INFO root fetch - processPackages [gvol]: executing diffoscope
+[2023-07-17 14:47:46] INFO root fetch - processPackages [gvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvol-0.5.9.tar.gz tmp/gvol-0.6.0.tar.gz --markdown 20230717/g/gvol/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 14:47:47] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-17 14:47:47] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-17 14:47:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-17 14:47:47] INFO root fetch - processPackages [gvol]: Remove: archive file [/home/abi/fetcher/tmp/gvol-0.5.9.tar.gz]
+[2023-07-17 14:47:47] INFO root fetch - processPackages [gvol]: Remove: archive file [/home/abi/fetcher/tmp/gvol-0.6.0.tar.gz]
+[2023-07-17 14:47:47] INFO root fetch - main [MainThread]: End processing [gvol]: success
+[2023-07-17 14:47:48] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.79.1.tar.gz]
+[2023-07-17 14:47:48] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.80.0.tar.gz]
+[2023-07-17 14:47:48] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-17 14:47:51] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.2.tar.gz]
+[2023-07-17 14:47:51] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.3.tar.gz]
+[2023-07-17 14:47:51] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
+[2023-07-17 14:47:53] INFO root fetch - processPackages [treemodel2sql]: Remove: archive file [/home/abi/fetcher/tmp/treemodel2sql-0.1.0.tar.gz]
+[2023-07-17 14:47:53] INFO root fetch - processPackages [treemodel2sql]: Remove: archive file [/home/abi/fetcher/tmp/treemodel2sql-0.1.1.tar.gz]
+[2023-07-17 14:47:53] INFO root fetch - main [MainThread]: End processing [treemodel2sql]: success
+[2023-07-17 14:47:53] INFO root fetch - main [MainThread]: Store serial: [18916919]
