@@ -7149,3 +7149,54 @@
 [2023-07-17 06:21:36] INFO root fetch - processPackages [realnet]: Remove: archive file [/home/abi/fetcher/tmp/realnet-0.0.99.tar.gz]
 [2023-07-17 06:21:36] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-07-17 06:21:36] INFO root fetch - main [MainThread]: Store serial: [18912359]
+[2023-07-17 06:26:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912359]
+[2023-07-17 06:26:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 06:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dock-selenium
+[2023-07-17 06:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazysdk
+[2023-07-17 06:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymetard
+[2023-07-17 06:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dingtalk
+[2023-07-17 06:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pegasusX
+[2023-07-17 06:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geemap
+[2023-07-17 06:26:52] INFO root fetch - processPackages [pegasusX]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 06:26:52] WARNING root fetch - processPackages [dock-selenium]: Skipping, unable to determine old version
+[2023-07-17 06:26:52] INFO root fetch - main [MainThread]: End processing [dock-selenium] error
+[2023-07-17 06:26:52] INFO root fetch - processPackages [pymetard]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 06:26:52] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 06:26:52] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-17 06:26:52] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.24] Old Version: [2.0.23]
+[2023-07-17 06:26:52] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/e5/85/bad57fcc3c8ddf653bc14dc030d574494ddd13a839d0a280dc3b78a6d9ef/pegasusX-0.1.6.tar.gz
+[2023-07-17 06:26:52] INFO root fetch - processPackages [pymetard]: Downloading https://files.pythonhosted.org/packages/5a/95/886cc8333722dd1a3fd1e9472ca8a3761fa02c638f7f149448bda82a60ba/pymetard-0.0.2.tar.gz
+[2023-07-17 06:26:52] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-17 06:26:52] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/ee/83/9166cd2e6d8f29eabae9341c4f2b8e191c318c5612ec42d38b6e845609d2/alibabacloud_dingtalk-2.0.23.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/70/6b/b57f6476466b28cf3123851bbe3dda0adafa7e6e38545a738f2d11e75b53/pegasusX-0.1.7.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [pymetard]: Downloading https://files.pythonhosted.org/packages/f6/e0/aa94a8237d85a482f28a377125e21149a70778dcd3a6dbf6ca0e309623f4/pymetard-0.0.3.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 06:26:53] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.1.6.tar.gz tmp/pegasusX-0.1.7.tar.gz --markdown 20230717/p/pegasusX/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 06:26:53] INFO root fetch - processPackages [pymetard]: executing diffoscope
+[2023-07-17 06:26:53] INFO root fetch - processPackages [pymetard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetard-0.0.2.tar.gz tmp/pymetard-0.0.3.tar.gz --markdown 20230717/p/pymetard/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 06:26:53] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b5/84/eab24dcba91a29694973ea732085c55bda27ab4ab240f0c440cbac253472/alibabacloud_dingtalk-2.0.24.tar.gz
+[2023-07-17 06:26:53] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-17 06:26:53] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230717/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 06:26:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-07-17 06:26:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.23.tar.gz tmp/alibabacloud_dingtalk-2.0.24.tar.gz --markdown 20230717/a/alibabacloud-dingtalk/2.0.23-2.0.24/diff.md --exclude *.pyd
+[2023-07-17 06:26:53] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-07-17 06:26:53] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230717/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-17 06:26:54] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.1.6.tar.gz]
+[2023-07-17 06:26:54] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.1.7.tar.gz]
+[2023-07-17 06:26:54] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 06:26:54] INFO root fetch - processPackages [pymetard]: Remove: archive file [/home/abi/fetcher/tmp/pymetard-0.0.2.tar.gz]
+[2023-07-17 06:26:54] INFO root fetch - processPackages [pymetard]: Remove: archive file [/home/abi/fetcher/tmp/pymetard-0.0.3.tar.gz]
+[2023-07-17 06:26:54] INFO root fetch - main [MainThread]: End processing [pymetard]: success
+[2023-07-17 06:26:54] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-17 06:26:54] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-17 06:26:54] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-17 06:26:55] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2023-07-17 06:26:55] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2023-07-17 06:26:55] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-07-17 06:26:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.23.tar.gz]
+[2023-07-17 06:26:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.24.tar.gz]
+[2023-07-17 06:26:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-07-17 06:26:57] INFO root fetch - main [MainThread]: Store serial: [18912379]
