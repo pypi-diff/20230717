@@ -7080,3 +7080,72 @@
 [2023-07-17 06:16:23] INFO root fetch - processPackages [c4p]: Remove: archive file [/home/abi/fetcher/tmp/c4p-2023.7.7.tar.gz]
 [2023-07-17 06:16:23] INFO root fetch - main [MainThread]: End processing [c4p]: success
 [2023-07-17 06:16:23] INFO root fetch - main [MainThread]: Store serial: [18912332]
+[2023-07-17 06:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912332]
+[2023-07-17 06:21:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cf_clearance
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dataworks-public20200518-py2
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dataworks-public20200518
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickext
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-a-sync
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazysdk
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arctix
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: realnet
+[2023-07-17 06:21:32] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.3.dev1] Old Version: [0.6.2.dev9]
+[2023-07-17 06:21:32] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-17 06:21:32] INFO root fetch - processPackages [cf_clearance]: New version: [0.31.0] Old Version: [0.30.1]
+[2023-07-17 06:21:32] INFO root fetch - processPackages [arctix]: New version: [0.0.1] Old Version: [0.0.0a23]
+[2023-07-17 06:21:32] WARNING root fetch - processPackages [clickext]: Skipping, unable to determine old version
+[2023-07-17 06:21:32] INFO root fetch - main [MainThread]: End processing [clickext] error
+[2023-07-17 06:21:32] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 06:21:32] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 06:21:32] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 06:21:33] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/d6/b9/5dce8febdbc6a2632d21c97104218f33630fa2c4a7e4d3f2e7e300e5fa9e/ez-a-sync-0.6.2.dev9.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Downloading https://files.pythonhosted.org/packages/db/42/01ead8cbac8088ff85a740aff563b9a37cf3380f20202231ff4a824a03d9/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/e2/93/062d16a267b470542d10ae2c80f671743c8f1d80238c175d337856505e6d/arctix-0.0.0a23.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/99/04/796943d2401dd0845e07a997ad57d07fac2c1743f842805c5ae0a477185d/alibabacloud_dataworks-public20200518-4.4.8.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [cf_clearance]: Downloading https://files.pythonhosted.org/packages/07/28/c520652cab46ad825d74ad344488bcc78a73d55973d22f3781f7478e2433/cf_clearance-0.30.1.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/14/7a/ce955eb858773e2e56fbb853c0cb11ab4d94c2a8d998a6e3f80bb9a3b262/realnet-0.0.98.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/33/08/b45b1d675c1557025a604790d4f6e1fd58e6caeb457cfcf15402329de3d3/ez-a-sync-0.6.3.dev1.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Downloading https://files.pythonhosted.org/packages/10/7f/f55cee23a21153825ef3412ade4e162186ec3bed30e2e027b784079e078c/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/4a/5c/cad86ecff1d81b338ae4b47414795d78b44c30d700887acd511431ea5aa0/arctix-0.0.1.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [cf_clearance]: Downloading https://files.pythonhosted.org/packages/22/2d/b6d3b6c9e9b5b14c7576f6990c15f3383bf8bbf929030b60aa81d971f4ef/cf_clearance-0.31.0.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-17 06:21:33] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev9.tar.gz tmp/ez-a-sync-0.6.3.dev1.tar.gz --markdown 20230717/e/ez-a-sync/0.6.2.dev9-0.6.3.dev1/diff.md --exclude *.pyd
+[2023-07-17 06:21:33] INFO root fetch - processPackages [arctix]: executing diffoscope
+[2023-07-17 06:21:33] INFO root fetch - processPackages [arctix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctix-0.0.0a23.tar.gz tmp/arctix-0.0.1.tar.gz --markdown 20230717/a/arctix/0.0.0a23-0.0.1/diff.md --exclude *.pyd
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/9d/1f/9448cb47b0fd187eb640e3e369fa3006b94966c58946dd401fef7e2ae80f/alibabacloud_dataworks-public20200518-4.4.9.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [cf_clearance]: executing diffoscope
+[2023-07-17 06:21:33] INFO root fetch - processPackages [cf_clearance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_clearance-0.30.1.tar.gz tmp/cf_clearance-0.31.0.tar.gz --markdown 20230717/c/cf_clearance/0.30.1-0.31.0/diff.md --exclude *.pyd
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: executing diffoscope
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz tmp/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz --markdown 20230717/a/alibabacloud-dataworks-public20200518-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-17 06:21:33] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/85/35/57762e774329e2be122468375db18a174af9449878942ce858b59c0aaeae/realnet-0.0.99.tar.gz
+[2023-07-17 06:21:33] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-17 06:21:33] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230717/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: executing diffoscope
+[2023-07-17 06:21:33] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518-4.4.8.tar.gz tmp/alibabacloud_dataworks-public20200518-4.4.9.tar.gz --markdown 20230717/a/alibabacloud-dataworks-public20200518/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-17 06:21:34] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-07-17 06:21:34] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230717/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 06:21:34] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a23.tar.gz]
+[2023-07-17 06:21:34] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.1.tar.gz]
+[2023-07-17 06:21:34] INFO root fetch - main [MainThread]: End processing [arctix]: success
+[2023-07-17 06:21:34] INFO root fetch - processPackages [cf_clearance]: Remove: archive file [/home/abi/fetcher/tmp/cf_clearance-0.30.1.tar.gz]
+[2023-07-17 06:21:34] INFO root fetch - processPackages [cf_clearance]: Remove: archive file [/home/abi/fetcher/tmp/cf_clearance-0.31.0.tar.gz]
+[2023-07-17 06:21:34] INFO root fetch - main [MainThread]: End processing [cf_clearance]: success
+[2023-07-17 06:21:35] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev9.tar.gz]
+[2023-07-17 06:21:35] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.3.dev1.tar.gz]
+[2023-07-17 06:21:35] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-17 06:21:35] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-17 06:21:35] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-17 06:21:35] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-17 06:21:36] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz]
+[2023-07-17 06:21:36] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz]
+[2023-07-17 06:21:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518-py2]: success
+[2023-07-17 06:21:36] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-4.4.8.tar.gz]
+[2023-07-17 06:21:36] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-4.4.9.tar.gz]
+[2023-07-17 06:21:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518]: success
+[2023-07-17 06:21:36] INFO root fetch - processPackages [realnet]: Remove: archive file [/home/abi/fetcher/tmp/realnet-0.0.98.tar.gz]
+[2023-07-17 06:21:36] INFO root fetch - processPackages [realnet]: Remove: archive file [/home/abi/fetcher/tmp/realnet-0.0.99.tar.gz]
+[2023-07-17 06:21:36] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-07-17 06:21:36] INFO root fetch - main [MainThread]: Store serial: [18912359]
