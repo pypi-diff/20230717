@@ -15944,3 +15944,165 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:37:03] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
 [2023-07-17 13:37:03] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-07-17 13:37:03] INFO root fetch - main [MainThread]: Store serial: [18916066]
+[2023-07-17 13:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916066]
+[2023-07-17 13:42:13] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Ali-Basic-Calculator
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signmeup
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myippanel
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-analyst-tf
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formio-data
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: work
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openvino-telemetry
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: varfish-cli
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: superagent-py
+[2023-07-17 13:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dopplrSDK
+[2023-07-17 13:42:14] WARNING root fetch - processPackages [Ali-Basic-Calculator]: Skipping, unable to determine old version
+[2023-07-17 13:42:14] INFO root fetch - processPackages [Ali-Basic-Calculator]: Start processing: work
+[2023-07-17 13:42:14] INFO root fetch - main [MainThread]: End processing [Ali-Basic-Calculator] error
+[2023-07-17 13:42:14] INFO root fetch - processPackages [image-analyst-tf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 13:42:14] WARNING root fetch - processPackages [signmeup]: Skipping, unable to determine old version
+[2023-07-17 13:42:14] INFO root fetch - processPackages [signmeup]: Start processing: serra-cli
+[2023-07-17 13:42:14] INFO root fetch - main [MainThread]: End processing [signmeup] error
+[2023-07-17 13:42:14] INFO root fetch - processPackages [superagent-py]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [openvino-telemetry]: New version: [2023.1.0] Old Version: [2023.0.0]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [dopplrSDK]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-17 13:42:14] WARNING root fetch - processPackages [myippanel]: Skipping, unable to determine old version
+[2023-07-17 13:42:14] INFO root fetch - processPackages [myippanel]: Start processing: sc-cc-ng-models-python
+[2023-07-17 13:42:14] INFO root fetch - main [MainThread]: End processing [myippanel] error
+[2023-07-17 13:42:14] INFO root fetch - processPackages [varfish-cli]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [formio-data]: New version: [1.0.0] Old Version: [0.5.1]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [serra-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [sc-cc-ng-models-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 13:42:14] ERROR root fetch - processPackages [work]: Unable to get metadata: No such project 'work'
+[2023-07-17 13:42:14] ERROR root fetch - processPackages [work]: Unable to get metadata: No such project 'work'
+[2023-07-17 13:42:14] INFO root fetch - processPackages [work]: Start processing: Carter-Offline
+[2023-07-17 13:42:14] INFO root fetch - main [MainThread]: End processing [work] error
+[2023-07-17 13:42:14] INFO root fetch - processPackages [work]: Start processing: jupyterlab-hide-cells
+[2023-07-17 13:42:14] INFO root fetch - main [MainThread]: End processing [work] error
+[2023-07-17 13:42:14] INFO root fetch - processPackages [image-analyst-tf]: Downloading https://files.pythonhosted.org/packages/79/b5/9bc6cbb5d0fa4c6fc12d9bab71089691c96d330f2575aede37aa84311b80/image_analyst_tf-0.1.1.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [jupyterlab-hide-cells]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.4a0] Old Version: [2.0.2]
+[2023-07-17 13:42:14] INFO root fetch - processPackages [varfish-cli]: Downloading https://files.pythonhosted.org/packages/94/81/000a1fee930c421ad3b6bfa2bf6381103934584ef7853a20c9005514669b/varfish_cli-0.5.2.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/ae/f7/32fec4bdf48e768c019512738496c6cc749ffe691a9da3ac9de402699e1e/dopplrSDK-3.1.0-py3-none-any.whl
+[2023-07-17 13:42:14] INFO root fetch - processPackages [serra-cli]: Downloading https://files.pythonhosted.org/packages/2d/33/527fe6960dbf122acbda817cf83e848e53b3156d85db84313b912c51a321/serra_cli-0.1.1.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [openvino-telemetry]: Downloading https://files.pythonhosted.org/packages/9d/1e/9b4da94d73c4d1b5458508c41bc9d67408430bd018c7de790be0bff9a619/openvino_telemetry-2023.0.0-py3-none-any.whl
+[2023-07-17 13:42:14] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/2d/1e/b419471748c43aa95f786de2d98ac811cb6c11f11e9475c6f30880fdf432/superagent_py-0.0.33.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [sc-cc-ng-models-python]: Downloading https://files.pythonhosted.org/packages/2a/60/50cb32470c6db3cdab1bc3fdf91b5324f393b20744015fa73656038a12b1/sc_cc_ng_models_python-0.1.6.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/27/5f/7db7438e66cbe3433a82eb637d1fc6e93d829755ba716db34c714c0f2afd/formio-data-0.5.1.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [jupyterlab-hide-cells]: Downloading https://files.pythonhosted.org/packages/26/e0/ad53a11f59f7e66116a459c61d3d4a43c305c23d90235c33bf5bbb22a912/jupyterlab_hide_cells-1.0.0.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/bb/7a/a3233d0e152b30d4309527343db85e7cdfdcf172a083625e8b83d5bdb99e/Carter-Offline-2.0.2.tar.gz
+[2023-07-17 13:42:14] INFO root fetch - processPackages [image-analyst-tf]: Downloading https://files.pythonhosted.org/packages/3b/da/16f94504a8a74459c8f1e5325dbcf6dceb1556b473fcf83389d617b52cf9/image_analyst_tf-0.1.2.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [serra-cli]: Downloading https://files.pythonhosted.org/packages/77/f6/a47f3f8d9548089a9abac2b4a41e9ee135b7b439b96366a0160d00d2b979/serra_cli-0.1.2.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [varfish-cli]: Downloading https://files.pythonhosted.org/packages/cc/08/97c3fefd89ca404fcc87d3f55b306a901aa8f55906b249c896aaa323ce21/varfish_cli-0.5.3.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/c8/06/4b828f830f87b14cbc8897a8ec1c4bad4b6f6bdab24f9c4e8920880aa5f1/superagent_py-0.0.34.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [openvino-telemetry]: Downloading https://files.pythonhosted.org/packages/79/eb/60cda9b024380ce12ffd9d9f90b9fff38fbd4ca88f37877a2b9aebe9fde1/openvino_telemetry-2023.1.0-py3-none-any.whl
+[2023-07-17 13:42:15] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/16/da/10bee4c748965a847da4afea8acd135ccfe3494d5cfa1bca9be27dff0fb7/dopplrSDK-3.2.0-py3-none-any.whl
+[2023-07-17 13:42:15] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/9e/e8/6d650d27f637f289ce4a6538680990aadbb738b83a54be90eef17f064c64/formio-data-1.0.0.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [image-analyst-tf]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [image-analyst-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst_tf-0.1.1.tar.gz tmp/image_analyst_tf-0.1.2.tar.gz --markdown 20230717/i/image-analyst-tf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [varfish-cli]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [varfish-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varfish_cli-0.5.2.tar.gz tmp/varfish_cli-0.5.3.tar.gz --markdown 20230717/v/varfish-cli/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [serra-cli]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [serra-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serra_cli-0.1.1.tar.gz tmp/serra_cli-0.1.2.tar.gz --markdown 20230717/s/serra-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [openvino-telemetry]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [openvino-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_telemetry-2023.0.0-py3-none-any.whl.zip tmp/openvino_telemetry-2023.1.0-py3-none-any.whl.zip --markdown 20230717/o/openvino-telemetry/2023.0.0-2023.1.0/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/9a/61/e6f361276291a246af9793e8ebfc01fac611b26a963d00524129734bc6b0/Carter-Offline-2.0.4a0.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [sc-cc-ng-models-python]: Downloading https://files.pythonhosted.org/packages/a4/04/36b1a887fbd75d7541b35b9dda649ad81b53f061ecd15960472439a05d03/sc_cc_ng_models_python-0.1.7.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-3.1.0-py3-none-any.whl.zip tmp/dopplrSDK-3.2.0-py3-none-any.whl.zip --markdown 20230717/d/dopplrSDK/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [jupyterlab-hide-cells]: Downloading https://files.pythonhosted.org/packages/3c/94/d7f0b9d930d903cc6db3730d324e414ecb5c59f884fd237483a18a093a8b/jupyterlab_hide_cells-1.0.1.tar.gz
+[2023-07-17 13:42:15] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.33.tar.gz tmp/superagent_py-0.0.34.tar.gz --markdown 20230717/s/superagent-py/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-0.5.1.tar.gz tmp/formio-data-1.0.0.tar.gz --markdown 20230717/f/formio-data/0.5.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.2.tar.gz tmp/Carter-Offline-2.0.4a0.tar.gz --markdown 20230717/C/Carter-Offline/2.0.2-2.0.4a0/diff.md --exclude *.pyd
+[2023-07-17 13:42:15] INFO root fetch - processPackages [sc-cc-ng-models-python]: executing diffoscope
+[2023-07-17 13:42:15] INFO root fetch - processPackages [sc-cc-ng-models-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_models_python-0.1.6.tar.gz tmp/sc_cc_ng_models_python-0.1.7.tar.gz --markdown 20230717/s/sc-cc-ng-models-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 13:42:16] INFO root fetch - processPackages [jupyterlab-hide-cells]: executing diffoscope
+[2023-07-17 13:42:16] INFO root fetch - processPackages [jupyterlab-hide-cells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_hide_cells-1.0.0.tar.gz tmp/jupyterlab_hide_cells-1.0.1.tar.gz --markdown 20230717/j/jupyterlab-hide-cells/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 13:42:17] INFO root fetch - processPackages [serra-cli]: Remove: archive file [/home/abi/fetcher/tmp/serra_cli-0.1.1.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [serra-cli]: Remove: archive file [/home/abi/fetcher/tmp/serra_cli-0.1.2.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [serra-cli]: Start processing: pathgenmap
+[2023-07-17 13:42:17] INFO root fetch - main [MainThread]: End processing [serra-cli]: success
+[2023-07-17 13:42:17] INFO root fetch - processPackages [image-analyst-tf]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_tf-0.1.1.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [image-analyst-tf]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_tf-0.1.2.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [image-analyst-tf]: Start processing: apache-beam
+[2023-07-17 13:42:17] INFO root fetch - main [MainThread]: End processing [image-analyst-tf]: success
+[2023-07-17 13:42:17] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [apache-beam]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 13:42:17] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-3.1.0-py3-none-any.whl.zip]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-3.2.0-py3-none-any.whl.zip]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [dopplrSDK]: Start processing: ARIclicker
+[2023-07-17 13:42:17] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-07-17 13:42:17] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-0.5.1.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.0.0.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [formio-data]: Start processing: aestream
+[2023-07-17 13:42:17] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2023-07-17 13:42:17] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.33.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/81/ea/11cec69a659af024f7f37e928ff533ad5e30b7a519d9982e2bb5b81fcb52/apache-beam-2.8.0.zip
+[2023-07-17 13:42:17] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.34.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [superagent-py]: Start processing: sc-cc-ng-sdk-python
+[2023-07-17 13:42:17] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-07-17 13:42:17] INFO root fetch - processPackages [ARIclicker]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.2.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.4a0.tar.gz]
+[2023-07-17 13:42:17] INFO root fetch - processPackages [Carter-Offline]: Start processing: tvb-ext-unicore
+[2023-07-17 13:42:17] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-07-17 13:42:17] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 13:42:17] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/f8/45/ebae63d673afa01f5712469a1a7f453a0d5afeaa0182c294cf970413be99/ARIclicker-2.0.0.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [aestream]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-models-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_models_python-0.1.6.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-models-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_models_python-0.1.7.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-models-python]: success
+[2023-07-17 13:42:18] INFO root fetch - processPackages [varfish-cli]: Remove: archive file [/home/abi/fetcher/tmp/varfish_cli-0.5.2.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [tvb-ext-unicore]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [varfish-cli]: Remove: archive file [/home/abi/fetcher/tmp/varfish_cli-0.5.3.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - main [MainThread]: End processing [varfish-cli]: success
+[2023-07-17 13:42:18] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 13:42:18] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/36/0e/3691dc1540a1bfb6afb9a48cf1e7c9cf8f5f542c627b8aebfcb30eda0d95/sc_cc_ng_sdk_python-0.1.8.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [aestream]: Downloading https://files.pythonhosted.org/packages/3d/dd/3c2e9f5117cd98e907401d67dbd9defb488ccdcd5dd7dd2fd358fee47aca/aestream-0.5.1.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [openvino-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/openvino_telemetry-2023.0.0-py3-none-any.whl.zip]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [openvino-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/openvino_telemetry-2023.1.0-py3-none-any.whl.zip]
+[2023-07-17 13:42:18] INFO root fetch - main [MainThread]: End processing [openvino-telemetry]: success
+[2023-07-17 13:42:18] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/fd/74/82aaf1d45ef41491e8e302b6aba7af89638cc3805fabf44f9d756b158393/ARIclicker-2.0.1.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [tvb-ext-unicore]: Downloading https://files.pythonhosted.org/packages/c5/c1/e9f8f9f2ef453163ff09563499fa663e748eedde33a75689dc176d18d0e4/tvb-ext-unicore-1.1.0.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [jupyterlab-hide-cells]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_hide_cells-1.0.0.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [jupyterlab-hide-cells]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_hide_cells-1.0.1.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - main [MainThread]: End processing [jupyterlab-hide-cells]: success
+[2023-07-17 13:42:18] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/02/8f/a9cd498e0e576c8537e65c4e3aacbffe4b3dc9a189287cd8a91c93784308/apache-beam-2.9.0.zip
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/9e/651fe9838f9d033c3504d23d47dba09362493e41818eadc21f4c7bfbb421/sc_cc_ng_sdk_python-0.1.9.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-07-17 13:42:18] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-2.0.0.tar.gz tmp/ARIclicker-2.0.1.tar.gz --markdown 20230717/A/ARIclicker/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-17 13:42:18] INFO root fetch - processPackages [aestream]: Downloading https://files.pythonhosted.org/packages/57/36/e18613bbd5a81110d7acb4a87783974ddbcce1cba68616cfd49911d06786/aestream-0.6.0.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: executing diffoscope
+[2023-07-17 13:42:18] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_sdk_python-0.1.8.tar.gz tmp/sc_cc_ng_sdk_python-0.1.9.tar.gz --markdown 20230717/s/sc-cc-ng-sdk-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 13:42:18] INFO root fetch - processPackages [tvb-ext-unicore]: Downloading https://files.pythonhosted.org/packages/c0/f2/87106a06862d6f780400372905e49d1b1869546ba1751cf4ef6ce7b12165/tvb-ext-unicore-1.2.0.tar.gz
+[2023-07-17 13:42:18] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 13:42:18] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 13:42:18] INFO root fetch - processPackages [aestream]: executing diffoscope
+[2023-07-17 13:42:18] INFO root fetch - processPackages [aestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aestream-0.5.1.tar.gz tmp/aestream-0.6.0.tar.gz --markdown 20230717/a/aestream/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 13:42:19] INFO root fetch - processPackages [tvb-ext-unicore]: executing diffoscope
+[2023-07-17 13:42:19] INFO root fetch - processPackages [tvb-ext-unicore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvb-ext-unicore-1.1.0.tar.gz tmp/tvb-ext-unicore-1.2.0.tar.gz --markdown 20230717/t/tvb-ext-unicore/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 13:42:19] INFO root fetch - processPackages [apache-beam]: executing diffoscope
+[2023-07-17 13:42:19] INFO root fetch - processPackages [apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-2.8.0.zip tmp/apache-beam-2.9.0.zip --markdown 20230717/a/apache-beam/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-17 13:42:19] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-2.0.0.tar.gz]
+[2023-07-17 13:42:19] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-2.0.1.tar.gz]
+[2023-07-17 13:42:19] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-07-17 13:42:20] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.8.tar.gz]
+[2023-07-17 13:42:20] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.9.tar.gz]
+[2023-07-17 13:42:20] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python]: success
+[2023-07-17 13:42:20] INFO root fetch - processPackages [aestream]: Remove: archive file [/home/abi/fetcher/tmp/aestream-0.5.1.tar.gz]
+[2023-07-17 13:42:20] INFO root fetch - processPackages [aestream]: Remove: archive file [/home/abi/fetcher/tmp/aestream-0.6.0.tar.gz]
+[2023-07-17 13:42:20] INFO root fetch - main [MainThread]: End processing [aestream]: success
+[2023-07-17 13:42:21] INFO root fetch - processPackages [tvb-ext-unicore]: Remove: archive file [/home/abi/fetcher/tmp/tvb-ext-unicore-1.1.0.tar.gz]
+[2023-07-17 13:42:21] INFO root fetch - processPackages [tvb-ext-unicore]: Remove: archive file [/home/abi/fetcher/tmp/tvb-ext-unicore-1.2.0.tar.gz]
+[2023-07-17 13:42:21] INFO root fetch - main [MainThread]: End processing [tvb-ext-unicore]: success
+[2023-07-17 13:42:24] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.8.0.zip]
+[2023-07-17 13:42:24] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.9.0.zip]
+[2023-07-17 13:42:24] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
+[2023-07-17 13:42:24] INFO root fetch - main [MainThread]: Store serial: [18916154]
