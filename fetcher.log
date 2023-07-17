@@ -7220,3 +7220,31 @@
 [2023-07-17 06:37:17] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.2.tar.gz]
 [2023-07-17 06:37:17] INFO root fetch - main [MainThread]: End processing [argil]: success
 [2023-07-17 06:37:17] INFO root fetch - main [MainThread]: Store serial: [18912395]
+[2023-07-17 06:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912395]
+[2023-07-17 06:42:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 06:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-files-aws-s3
+[2023-07-17 06:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dock-py-selenium
+[2023-07-17 06:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: power1d
+[2023-07-17 06:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamsbpy
+[2023-07-17 06:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-extension-functions
+[2023-07-17 06:42:25] WARNING root fetch - processPackages [streamsbpy]: Skipping, unable to determine old version
+[2023-07-17 06:42:25] INFO root fetch - main [MainThread]: End processing [streamsbpy] error
+[2023-07-17 06:42:25] INFO root fetch - processPackages [py-extension-functions]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 06:42:25] WARNING root fetch - processPackages [dock-py-selenium]: Skipping, unable to determine old version
+[2023-07-17 06:42:25] INFO root fetch - main [MainThread]: End processing [dock-py-selenium] error
+[2023-07-17 06:42:25] INFO root fetch - processPackages [power1d]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 06:42:25] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 06:42:26] INFO root fetch - processPackages [py-extension-functions]: Downloading https://files.pythonhosted.org/packages/c3/18/7c7ae232248723b20d8901cad5615e8c194c8d1a76d8c239da02a4193ae8/py_extension_functions-0.0.7.tar.gz
+[2023-07-17 06:42:26] WARNING root fetch - processPackages [py-extension-functions]: Skipping package: exceeds size limit 18345672>=10485760
+[2023-07-17 06:42:26] INFO root fetch - main [MainThread]: End processing [py-extension-functions] error
+[2023-07-17 06:42:26] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-07-17 06:42:26] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/d0/5e/4dc0d8f3fb7313b5d29623bc81266c1885335405d4e0ce55ca4631c4c980/power1d-0.1.8.tar.gz
+[2023-07-17 06:42:26] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-07-17 06:42:26] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-07-17 06:42:26] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/da/ec/b98876e43cad01164f00b0f0b2b60aad5e701afa49b84ecaf200fc9b4f89/power1d-0.1.9.tar.gz
+[2023-07-17 06:42:26] INFO root fetch - processPackages [power1d]: executing diffoscope
+[2023-07-17 06:42:26] INFO root fetch - processPackages [power1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power1d-0.1.8.tar.gz tmp/power1d-0.1.9.tar.gz --markdown 20230717/p/power1d/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 06:42:27] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.8.tar.gz]
+[2023-07-17 06:42:27] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.9.tar.gz]
+[2023-07-17 06:42:27] INFO root fetch - main [MainThread]: End processing [power1d]: success
+[2023-07-17 06:42:27] INFO root fetch - main [MainThread]: Store serial: [18912412]
