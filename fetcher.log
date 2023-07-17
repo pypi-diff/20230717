@@ -13323,3 +13323,96 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:44:43] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-1.0.0.tar.gz]
 [2023-07-17 11:44:43] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
 [2023-07-17 11:44:43] INFO root fetch - main [MainThread]: Store serial: [18914918]
+[2023-07-17 11:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914918]
+[2023-07-17 11:49:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata-front
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvoting
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecallisto-ng
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: activefires-pp
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magik
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-auto-control-dev
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: port-ocean
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-securityhub-suppression
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: havas-analysis-engine-validator
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: havas-data-engine-lib
+[2023-07-17 11:49:52] INFO root fetch - processPackages [aws-securityhub-suppression]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-17 11:49:52] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11751] Old Version: [3.2.5.dev11742]
+[2023-07-17 11:49:52] INFO root fetch - processPackages [magik]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 11:49:52] WARNING root fetch - processPackages [havas-analysis-engine-validator]: Skipping, unable to determine old version
+[2023-07-17 11:49:52] INFO root fetch - processPackages [havas-analysis-engine-validator]: Start processing: qtgql
+[2023-07-17 11:49:52] INFO root fetch - main [MainThread]: End processing [havas-analysis-engine-validator] error
+[2023-07-17 11:49:52] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0rc1] Old Version: [0.1.0.dev8]
+[2023-07-17 11:49:52] WARNING root fetch - processPackages [havas-data-engine-lib]: Skipping, unable to determine old version
+[2023-07-17 11:49:52] INFO root fetch - processPackages [havas-data-engine-lib]: Start processing: lowatt-grdf
+[2023-07-17 11:49:52] INFO root fetch - main [MainThread]: End processing [havas-data-engine-lib] error
+[2023-07-17 11:49:52] INFO root fetch - processPackages [activefires-pp]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-17 11:49:52] WARNING root fetch - processPackages [pyvoting]: Skipping, unable to determine old version
+[2023-07-17 11:49:52] INFO root fetch - main [MainThread]: End processing [pyvoting] error
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 11:49:52] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-17 11:49:52] INFO root fetch - processPackages [qtgql]: New version: [0.129.1] Old Version: [0.129.0]
+[2023-07-17 11:49:52] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ae/a4/092d00ae75619b431326c6d2075e4d8ef15a6cf8087050a6768b6993725b/udata_front-3.2.5.dev11742-py2.py3-none-any.whl
+[2023-07-17 11:49:52] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/4a/51/6bc64564112119779f6cc7b7000c21f7f1b21b6695747b613999fc2322c8/je_auto_control_dev-0.0.92.tar.gz
+[2023-07-17 11:49:52] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/0d/b7/3c777fc1f6c582e4e2ef65945c2502c353f0736521393fcef61604ecca91/ecallisto_ng-0.1.6.tar.gz
+[2023-07-17 11:49:52] INFO root fetch - processPackages [lowatt-grdf]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-17 11:49:52] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/b8/0a/705bf2aea7b0285d877d1bfd191043a03225d10f15c0584e154758518a89/qtgql-0.129.0.tar.gz
+[2023-07-17 11:49:52] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/df/5f/4a54b7939ee009d4d8bee6a8d6f509b6fffdec901cbb88a25189d6548c2b/magik-0.1.4.tar.gz
+[2023-07-17 11:49:52] INFO root fetch - processPackages [aws-securityhub-suppression]: Downloading https://files.pythonhosted.org/packages/df/d5/6023e7d76ed2b9dc0fa865d30aa6a995ffb2929d52ac738d87f7cdf75f55/aws_securityhub_suppression-0.3.1.tar.gz
+[2023-07-17 11:49:52] INFO root fetch - processPackages [activefires-pp]: Downloading https://files.pythonhosted.org/packages/b4/16/cc4393c07bd2c6d8c38001738b9710d8d976bae4b7d7dd0e854533d4f65f/activefires-pp-0.1.7.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/62/94/99dfbb75b3ea5d1087f6e1b6357017c9f9b7e55bb73f50ba709d643fd8f3/port_ocean-0.1.0.dev8.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [lowatt-grdf]: Downloading https://files.pythonhosted.org/packages/f3/20/1563c1661611e8e49f09c5df21e5675dc09922d41d151f0e2148ada681f2/lowatt-grdf-2.1.2.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/cc/d1/5833459eb774714cea04e55b9715cadf4b75b56a1ec7d6d4853c01f8e70e/qtgql-0.129.1.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/cb/99/458e5db18c06113e4569e334e3250be126a5e671cefac909e394c3af70e7/ecallisto_ng-0.1.7.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/b8/16/7dd11e353ca0c8123d965687ecda9eddf0e6719fd29c062f95c4a2634637/je_auto_control_dev-0.0.93.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/ac/0c/e7f35961d1d61b1ca27f6c0ff6277a568016311cc0461d7fefe3eb4773c0/magik-0.1.5.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [aws-securityhub-suppression]: Downloading https://files.pythonhosted.org/packages/8f/f2/8810b52db3230ba4da2b501ef8af6e0605a6aeb10ffefb30e5ee228792ef/aws_securityhub_suppression-0.3.2.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.129.0.tar.gz tmp/qtgql-0.129.1.tar.gz --markdown 20230717/q/qtgql/0.129.0-0.129.1/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.1.6.tar.gz tmp/ecallisto_ng-0.1.7.tar.gz --markdown 20230717/e/ecallisto-ng/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [activefires-pp]: Downloading https://files.pythonhosted.org/packages/6b/af/062aa416a749bdb27eade7d292f89e1c37329c350fcb0165d6a7cb74de24/activefires-pp-0.1.9.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.1.4.tar.gz tmp/magik-0.1.5.tar.gz --markdown 20230717/m/magik/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/a0/4e/0452b18208fc31cd87a7b3372bd352a82d98e385cc0fef574400c6ea1002/port_ocean-0.1.0rc1.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.92.tar.gz tmp/je_auto_control_dev-0.0.93.tar.gz --markdown 20230717/j/je-auto-control-dev/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [aws-securityhub-suppression]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [aws-securityhub-suppression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_securityhub_suppression-0.3.1.tar.gz tmp/aws_securityhub_suppression-0.3.2.tar.gz --markdown 20230717/a/aws-securityhub-suppression/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [activefires-pp]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [activefires-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activefires-pp-0.1.7.tar.gz tmp/activefires-pp-0.1.9.tar.gz --markdown 20230717/a/activefires-pp/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [lowatt-grdf]: Downloading https://files.pythonhosted.org/packages/db/9b/6fe16e0dbea42aa3d958d3138140f60a45f054d7efd5beaacfc609da6c7b/lowatt-grdf-2.1.3.tar.gz
+[2023-07-17 11:49:53] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0.dev8.tar.gz tmp/port_ocean-0.1.0rc1.tar.gz --markdown 20230717/p/port-ocean/0.1.0.dev8-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-17 11:49:53] INFO root fetch - processPackages [lowatt-grdf]: executing diffoscope
+[2023-07-17 11:49:53] INFO root fetch - processPackages [lowatt-grdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowatt-grdf-2.1.2.tar.gz tmp/lowatt-grdf-2.1.3.tar.gz --markdown 20230717/l/lowatt-grdf/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-17 11:49:54] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/df/c9/c4bea291a4c128be68a1ed156ac3fa5ed5a8d28a139a86abf26425721e73/udata_front-3.2.5.dev11751-py2.py3-none-any.whl
+[2023-07-17 11:49:54] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.6.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.7.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-17 11:49:54] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.0.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.1.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-17 11:49:54] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.4.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.5.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-17 11:49:54] INFO root fetch - processPackages [aws-securityhub-suppression]: Remove: archive file [/home/abi/fetcher/tmp/aws_securityhub_suppression-0.3.1.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - processPackages [aws-securityhub-suppression]: Remove: archive file [/home/abi/fetcher/tmp/aws_securityhub_suppression-0.3.2.tar.gz]
+[2023-07-17 11:49:54] INFO root fetch - main [MainThread]: End processing [aws-securityhub-suppression]: success
+[2023-07-17 11:49:55] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.92.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.93.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-07-17 11:49:55] INFO root fetch - processPackages [activefires-pp]: Remove: archive file [/home/abi/fetcher/tmp/activefires-pp-0.1.7.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - processPackages [activefires-pp]: Remove: archive file [/home/abi/fetcher/tmp/activefires-pp-0.1.9.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - main [MainThread]: End processing [activefires-pp]: success
+[2023-07-17 11:49:55] INFO root fetch - processPackages [lowatt-grdf]: Remove: archive file [/home/abi/fetcher/tmp/lowatt-grdf-2.1.2.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - processPackages [lowatt-grdf]: Remove: archive file [/home/abi/fetcher/tmp/lowatt-grdf-2.1.3.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - main [MainThread]: End processing [lowatt-grdf]: success
+[2023-07-17 11:49:55] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev8.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0rc1.tar.gz]
+[2023-07-17 11:49:55] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-17 11:49:55] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-07-17 11:49:55] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.5.dev11742-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11751-py2.py3-none-any.whl.zip --markdown 20230717/u/udata-front/3.2.5.dev11742-3.2.5.dev11751/diff.md --exclude *.pyd
+[2023-07-17 11:50:11] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11742-py2.py3-none-any.whl.zip]
+[2023-07-17 11:50:11] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11751-py2.py3-none-any.whl.zip]
+[2023-07-17 11:50:11] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-07-17 11:50:11] INFO root fetch - main [MainThread]: Store serial: [18914966]
