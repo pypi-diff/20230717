@@ -7208,3 +7208,15 @@
 [2023-07-17 06:32:07] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
 [2023-07-17 06:32:07] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
 [2023-07-17 06:32:07] INFO root fetch - main [MainThread]: Store serial: [18912381]
+[2023-07-17 06:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912381]
+[2023-07-17 06:37:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-17 06:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argil
+[2023-07-17 06:37:15] INFO root fetch - processPackages [argil]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 06:37:16] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/d9/f9/7e83b4ed472831ed5dc7b4189a0a3e29c4c928ec2f552339cda0af7da331/argil-0.0.1.tar.gz
+[2023-07-17 06:37:16] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/13/3c/2c35988026cdd29189a0b7e7e051acfa6e420b5cdb87db5d6a1011efbc12/argil-0.0.2.tar.gz
+[2023-07-17 06:37:16] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 06:37:16] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.1.tar.gz tmp/argil-0.0.2.tar.gz --markdown 20230717/a/argil/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 06:37:17] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.1.tar.gz]
+[2023-07-17 06:37:17] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.2.tar.gz]
+[2023-07-17 06:37:17] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 06:37:17] INFO root fetch - main [MainThread]: Store serial: [18912395]
