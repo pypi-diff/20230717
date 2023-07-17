@@ -8554,3 +8554,69 @@
 [2023-07-17 08:16:19] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230716.tar.gz]
 [2023-07-17 08:16:19] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-17 08:16:19] INFO root fetch - main [MainThread]: Store serial: [18912936]
+[2023-07-17 08:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912936]
+[2023-07-17 08:21:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teleexception
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iman
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-employee-age
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudlanguagetools
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meent
+[2023-07-17 08:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arthub-login-widgets
+[2023-07-17 08:21:28] INFO root fetch - processPackages [fileformats]: New version: [0.7.0] Old Version: [0.6.6]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [cloudlanguagetools]: New version: [6.1] Old Version: [6.0]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [arthub-login-widgets]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [teleexception]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [meent]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-07-17 08:21:28] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/de/2b/c879171ab7b51eaf713a0854a94a3c2e1fe91a8412b365421b4d3e09d785/arthub_login_widgets-0.3.3.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Downloading https://files.pythonhosted.org/packages/c8/fb/a8812693f6b29af2e2ad00544ac9eb2a901d36d609c48745f93b1e56b7dd/odoo_addon_hr_employee_age-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-17 08:21:28] INFO root fetch - processPackages [meent]: Downloading https://files.pythonhosted.org/packages/1f/54/dafcf558a002910352548f103eead957775ad7ead199f1797d6021a45209/meent-0.9.2.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/d5/90/9f56872555735942ea2a035eadc7e5a11b2947e56e61df02bd925525dea6/iman-0.0.86.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/c4/85/979aa5c07ee28bc3353f0a0dda01314684e0cd482c6961938c2be253b759/cloudlanguagetools-6.0.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/73/43/0ba099f8f9ff76fae3ba93011f46c5f4b5bb9879056519a328083609601e/fileformats-0.6.6.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [teleexception]: Downloading https://files.pythonhosted.org/packages/40/17/8ee35f505dcb4792a6485ea3e4bd143141e854cc9d3e8c74830498bb5dbd/teleexception-0.3.8-py3-none-any.whl
+[2023-07-17 08:21:28] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/b2/6b/637de25cc8a6432daa1bca37f059141976501c07c4d452d39cf755689968/arthub_login_widgets-0.4.0.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Downloading https://files.pythonhosted.org/packages/96/93/734f6b525cc5f4fa59bfc551de2cf0b427ef1fd68fc51ed7dfa8260e0f6e/odoo_addon_hr_employee_age-16.0.1.0.1-py3-none-any.whl
+[2023-07-17 08:21:28] INFO root fetch - processPackages [arthub-login-widgets]: executing diffoscope
+[2023-07-17 08:21:28] INFO root fetch - processPackages [arthub-login-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_login_widgets-0.3.3.tar.gz tmp/arthub_login_widgets-0.4.0.tar.gz --markdown 20230717/a/arthub-login-widgets/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 08:21:28] INFO root fetch - processPackages [meent]: Downloading https://files.pythonhosted.org/packages/84/fe/f5ab9120406c3583bb94dcece07ef428b54c8e061f2a83de21c655c8eef8/meent-0.9.3.tar.gz
+[2023-07-17 08:21:28] INFO root fetch - processPackages [teleexception]: Downloading https://files.pythonhosted.org/packages/77/4c/9cae6e15be1062801c879fe458c4a1a6c818d6bd705c07b06f68a7356afa/teleexception-0.3.9-py3-none-any.whl
+[2023-07-17 08:21:29] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/27/ad/845362265393172af6db4f280264ff29538a43a7e902035a2f4ac0cb63b3/cloudlanguagetools-6.1.tar.gz
+[2023-07-17 08:21:29] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/32/55/0f2d47e4763628850a866d173fbf97ea59b1aede7bb4ca81455173117f99/fileformats-0.7.0.tar.gz
+[2023-07-17 08:21:29] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-17 08:21:29] INFO root fetch - processPackages [teleexception]: executing diffoscope
+[2023-07-17 08:21:29] INFO root fetch - processPackages [teleexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleexception-0.3.8-py3-none-any.whl.zip tmp/teleexception-0.3.9-py3-none-any.whl.zip --markdown 20230717/t/teleexception/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 08:21:29] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: executing diffoscope
+[2023-07-17 08:21:29] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_age-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_age-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-hr-employee-age/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-17 08:21:29] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-07-17 08:21:29] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-6.0.tar.gz tmp/cloudlanguagetools-6.1.tar.gz --markdown 20230717/c/cloudlanguagetools/6.0-6.1/diff.md --exclude *.pyd
+[2023-07-17 08:21:29] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-07-17 08:21:29] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.6.6.tar.gz tmp/fileformats-0.7.0.tar.gz --markdown 20230717/f/fileformats/0.6.6-0.7.0/diff.md --exclude *.pyd
+[2023-07-17 08:21:29] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-17 08:21:29] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.86.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230717/i/iman/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 08:21:29] INFO root fetch - processPackages [meent]: executing diffoscope
+[2023-07-17 08:21:29] INFO root fetch - processPackages [meent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meent-0.9.2.tar.gz tmp/meent-0.9.3.tar.gz --markdown 20230717/m/meent/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-17 08:21:30] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.3.3.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.0.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
+[2023-07-17 08:21:30] INFO root fetch - processPackages [teleexception]: Remove: archive file [/home/abi/fetcher/tmp/teleexception-0.3.8-py3-none-any.whl.zip]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [teleexception]: Remove: archive file [/home/abi/fetcher/tmp/teleexception-0.3.9-py3-none-any.whl.zip]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [teleexception]: success
+[2023-07-17 08:21:30] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.86.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-17 08:21:30] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-6.0.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-6.1.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-07-17 08:21:30] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_age-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_age-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-age]: success
+[2023-07-17 08:21:30] INFO root fetch - processPackages [meent]: Remove: archive file [/home/abi/fetcher/tmp/meent-0.9.2.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [meent]: Remove: archive file [/home/abi/fetcher/tmp/meent-0.9.3.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [meent]: success
+[2023-07-17 08:21:30] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.6.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.7.0.tar.gz]
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-07-17 08:21:30] INFO root fetch - main [MainThread]: Store serial: [18912955]
