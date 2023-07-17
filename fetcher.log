@@ -4279,3 +4279,33 @@
 [2023-07-17 02:51:06] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307160046.tar.gz]
 [2023-07-17 02:51:06] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-17 02:51:06] INFO root fetch - main [MainThread]: Store serial: [18911225]
+[2023-07-17 02:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911225]
+[2023-07-17 02:56:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-17 02:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datahtml
+[2023-07-17 02:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metget
+[2023-07-17 02:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcsfe-discord
+[2023-07-17 02:56:15] INFO root fetch - processPackages [datahtml]: New version: [0.4.0rc9] Old Version: [0.4.0rc8]
+[2023-07-17 02:56:15] INFO root fetch - processPackages [metget]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-17 02:56:15] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-17 02:56:15] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/3d/56/22ada13e1f8e72a448cb7c9efd2b8f7755ba2b45cdc9f986193471bd3b4f/datahtml-0.4.0rc8.tar.gz
+[2023-07-17 02:56:15] INFO root fetch - processPackages [metget]: Downloading https://files.pythonhosted.org/packages/f6/d0/5ed68a9206cf7cc393c53efde5ebf427cac4a2ea82f0f30acfabb14a5568/metget-0.2.5.tar.gz
+[2023-07-17 02:56:15] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-07-17 02:56:16] INFO root fetch - processPackages [metget]: Downloading https://files.pythonhosted.org/packages/b0/6c/cc5526a1c0675330b5041af11893477fa808f5f12fe0f48362acaf23fc10/metget-0.2.6.tar.gz
+[2023-07-17 02:56:16] INFO root fetch - processPackages [metget]: executing diffoscope
+[2023-07-17 02:56:16] INFO root fetch - processPackages [metget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metget-0.2.5.tar.gz tmp/metget-0.2.6.tar.gz --markdown 20230717/m/metget/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-17 02:56:16] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/61/32/9dae453c5476be7de2ed987aaa37d0fbb7aa0f4035a0b0537963b2f2e50f/datahtml-0.4.0rc9.tar.gz
+[2023-07-17 02:56:16] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-07-17 02:56:16] INFO root fetch - processPackages [datahtml]: executing diffoscope
+[2023-07-17 02:56:16] INFO root fetch - processPackages [datahtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahtml-0.4.0rc8.tar.gz tmp/datahtml-0.4.0rc9.tar.gz --markdown 20230717/d/datahtml/0.4.0rc8-0.4.0rc9/diff.md --exclude *.pyd
+[2023-07-17 02:56:16] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-07-17 02:56:16] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230717/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-17 02:56:17] INFO root fetch - processPackages [metget]: Remove: archive file [/home/abi/fetcher/tmp/metget-0.2.5.tar.gz]
+[2023-07-17 02:56:17] INFO root fetch - processPackages [metget]: Remove: archive file [/home/abi/fetcher/tmp/metget-0.2.6.tar.gz]
+[2023-07-17 02:56:17] INFO root fetch - main [MainThread]: End processing [metget]: success
+[2023-07-17 02:56:17] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.8.tar.gz]
+[2023-07-17 02:56:17] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.9.tar.gz]
+[2023-07-17 02:56:17] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-07-17 02:56:17] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc8.tar.gz]
+[2023-07-17 02:56:17] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
+[2023-07-17 02:56:17] INFO root fetch - main [MainThread]: End processing [datahtml]: success
+[2023-07-17 02:56:17] INFO root fetch - main [MainThread]: Store serial: [18911231]
