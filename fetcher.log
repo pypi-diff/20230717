@@ -5295,3 +5295,51 @@
 [2023-07-17 03:59:09] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20230717.tar.gz]
 [2023-07-17 03:59:09] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
 [2023-07-17 03:59:09] INFO root fetch - main [MainThread]: Store serial: [18911611]
+[2023-07-17 04:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911611]
+[2023-07-17 04:04:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quao
+[2023-07-17 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-07-17 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-07-17 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osxphotos
+[2023-07-17 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mystring
+[2023-07-17 04:04:18] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 04:04:18] INFO root fetch - processPackages [adafri]: New version: [0.0.19.40] Old Version: [0.0.19.39]
+[2023-07-17 04:04:18] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 04:04:18] INFO root fetch - processPackages [osxphotos]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-17 04:04:18] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 04:04:18] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/06/08/daef38fce41612c6bf40b78986445dc1cb1f92c485714b42cfc68588b26f/adafri-0.0.19.39.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/f5/b2/73eca49fb9e6ab77d68c70b640b7c2337be620d47e7fd14d3824fa7cca2d/osxphotos-0.60.8.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-17 04:04:18] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230717/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 04:04:18] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/b9/b1/b0030d9352d0f82e56d5bcb7a9f1a30a394906455688ce9db744419c394f/adafri-0.0.19.40.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-17 04:04:18] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230717/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 04:04:18] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-17 04:04:18] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.39.tar.gz tmp/adafri-0.0.19.40.tar.gz --markdown 20230717/a/adafri/0.0.19.39-0.0.19.40/diff.md --exclude *.pyd
+[2023-07-17 04:04:18] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/c2/30/c4496ce5686750ecc808ea138ef0f79e4057306d93d6684f1fe75c06c7ab/osxphotos-0.60.9.tar.gz
+[2023-07-17 04:04:18] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-17 04:04:18] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230717/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 04:04:19] INFO root fetch - processPackages [osxphotos]: executing diffoscope
+[2023-07-17 04:04:19] INFO root fetch - processPackages [osxphotos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osxphotos-0.60.8.tar.gz tmp/osxphotos-0.60.9.tar.gz --markdown 20230717/o/osxphotos/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-17 04:04:19] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.39.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.40.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-17 04:04:19] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-17 04:04:19] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-17 04:04:19] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-17 04:04:19] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-17 04:04:23] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.8.tar.gz]
+[2023-07-17 04:04:23] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.9.tar.gz]
+[2023-07-17 04:04:23] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
+[2023-07-17 04:04:23] INFO root fetch - main [MainThread]: Store serial: [18911625]
