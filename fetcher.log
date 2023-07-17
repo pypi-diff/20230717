@@ -9142,3 +9142,66 @@
 [2023-07-17 08:55:38] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip]
 [2023-07-17 08:55:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-ddt]: success
 [2023-07-17 08:55:38] INFO root fetch - main [MainThread]: Store serial: [18913194]
+[2023-07-17 09:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913194]
+[2023-07-17 09:00:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dock-py-selenium
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkanchan
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utilsd
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DS-test
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iconsdk
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: claude-api
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: collective.restapi.facetedsearch
+[2023-07-17 09:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: suanpan-sprt
+[2023-07-17 09:00:47] INFO root fetch - processPackages [claude-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-17 09:00:47] WARNING root fetch - processPackages [kkanchan]: Skipping, unable to determine old version
+[2023-07-17 09:00:47] INFO root fetch - main [MainThread]: End processing [kkanchan] error
+[2023-07-17 09:00:47] INFO root fetch - processPackages [dock-py-selenium]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-17 09:00:47] WARNING root fetch - processPackages [collective.restapi.facetedsearch]: Skipping, unable to determine old version
+[2023-07-17 09:00:47] INFO root fetch - main [MainThread]: End processing [collective.restapi.facetedsearch] error
+[2023-07-17 09:00:47] INFO root fetch - processPackages [utilsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:00:47] INFO root fetch - processPackages [DS-test]: New version: [1.2] Old Version: [1.1]
+[2023-07-17 09:00:47] INFO root fetch - processPackages [iconsdk]: New version: [2.5.0] Old Version: [2.4.5]
+[2023-07-17 09:00:47] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-17 09:00:47] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/5a/45/0dd509619240b2267dc42f1368020f3ec1b1702b41d328ea7f9798c89e71/Dock%20Py%20Selenium-2.0.0.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/60/49/1c4d6ae73e1ebed851a36afa5e75a57976161699503ba34c371c02e10556/claude-api-1.0.3.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [DS-test]: Downloading https://files.pythonhosted.org/packages/99/a1/36bae2a03eeb9f146f8e0fe20275658697a08c6b4ccc1dc9dba12be44c87/DS_test-1.1.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [iconsdk]: Downloading https://files.pythonhosted.org/packages/e0/9e/957229d3bdcc83cb0c74419a31208a9f781698bdb36a67d30565bc9e7d6f/iconsdk-2.4.5.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [utilsd]: Downloading https://files.pythonhosted.org/packages/1f/d3/0156c60c211c6f3a5689d1b72d8579bfab24c18956ab0a776db8391765e7/utilsd-0.0.8.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/65/d9/883af6fa97bb6b057ad45cd18e85b2e7638808071266ac027dafdbcfa50b/suanpan-sprt-0.6.1.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/bd/6f/0e5c53ed396b0309d52f708624ff5a4f7b3b553d21be3000e107c019b7a6/dock-py-selenium-2.0.1.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/6b/87/983e69c35e5bf1b17b04dccb6b1a92bcba830c68cd2a7fe94f96d0a2e073/claude-api-1.0.4.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [DS-test]: Downloading https://files.pythonhosted.org/packages/71/7d/4be7f1d2f5bbb94e7c821c8af46f7651e3db5b437edbfa7335d9d75350cf/DS_test-1.2.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [iconsdk]: Downloading https://files.pythonhosted.org/packages/8a/46/beb4ec70c7add0d463cd1cd5abcfc0fa7688efe5577d5662637f4da27c0a/iconsdk-2.5.0.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 09:00:47] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dock Py Selenium-2.0.0.tar.gz tmp/dock-py-selenium-2.0.1.tar.gz --markdown 20230717/d/dock-py-selenium/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-17 09:00:47] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-17 09:00:47] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.3.tar.gz tmp/claude-api-1.0.4.tar.gz --markdown 20230717/c/claude-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-17 09:00:47] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/26/ac/246a953a8b803d11fb6c6420a3678dd54ec8ccbda556d45722a333d14870/suanpan-sprt-0.6.2.tar.gz
+[2023-07-17 09:00:47] INFO root fetch - processPackages [DS-test]: executing diffoscope
+[2023-07-17 09:00:47] INFO root fetch - processPackages [DS-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS_test-1.1.tar.gz tmp/DS_test-1.2.tar.gz --markdown 20230717/D/DS-test/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-17 09:00:47] INFO root fetch - processPackages [iconsdk]: executing diffoscope
+[2023-07-17 09:00:47] INFO root fetch - processPackages [iconsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iconsdk-2.4.5.tar.gz tmp/iconsdk-2.5.0.tar.gz --markdown 20230717/i/iconsdk/2.4.5-2.5.0/diff.md --exclude *.pyd
+[2023-07-17 09:00:47] INFO root fetch - processPackages [utilsd]: Downloading https://files.pythonhosted.org/packages/5a/f8/29e1d1e3500d478588d2858f0f42f1c3ee6a05bd8ac3fd1fb9679026447e/utilsd-0.0.9.tar.gz
+[2023-07-17 09:00:48] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-07-17 09:00:48] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.6.1.tar.gz tmp/suanpan-sprt-0.6.2.tar.gz --markdown 20230717/s/suanpan-sprt/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-17 09:00:48] INFO root fetch - processPackages [utilsd]: executing diffoscope
+[2023-07-17 09:00:48] INFO root fetch - processPackages [utilsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsd-0.0.8.tar.gz tmp/utilsd-0.0.9.tar.gz --markdown 20230717/u/utilsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:00:48] INFO root fetch - processPackages [DS-test]: Remove: archive file [/home/abi/fetcher/tmp/DS_test-1.1.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - processPackages [DS-test]: Remove: archive file [/home/abi/fetcher/tmp/DS_test-1.2.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [DS-test]: success
+[2023-07-17 09:00:49] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.3.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.4.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-17 09:00:49] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/Dock Py Selenium-2.0.0.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.0.1.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 09:00:49] INFO root fetch - processPackages [iconsdk]: Remove: archive file [/home/abi/fetcher/tmp/iconsdk-2.4.5.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - processPackages [iconsdk]: Remove: archive file [/home/abi/fetcher/tmp/iconsdk-2.5.0.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [iconsdk]: success
+[2023-07-17 09:00:49] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.1.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.2.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-07-17 09:00:49] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.8.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.9.tar.gz]
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [utilsd]: success
+[2023-07-17 09:00:49] INFO root fetch - main [MainThread]: Store serial: [18913221]
