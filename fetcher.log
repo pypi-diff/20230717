@@ -6314,3 +6314,184 @@
 [2023-07-17 05:24:24] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2023-07-17 05:24:24] INFO root fetch - main [MainThread]: End processing [vineyard]: success
 [2023-07-17 05:24:24] INFO root fetch - main [MainThread]: Store serial: [18912029]
+[2023-07-17 05:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912029]
+[2023-07-17 05:29:33] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorwrap
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cleanvision
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vineyard-bdist
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webreq
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vineyard-dask
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vineyard-io
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vineyard-kedro
+[2023-07-17 05:29:33] WARNING root fetch - processPackages [webreq]: Skipping, unable to determine old version
+[2023-07-17 05:29:33] INFO root fetch - processPackages [webreq]: Start processing: vineyard-ml
+[2023-07-17 05:29:33] INFO root fetch - main [MainThread]: End processing [webreq] error
+[2023-07-17 05:29:33] INFO root fetch - processPackages [tensorwrap]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230717] Old Version: [0.0.17.dev20230716]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev8]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [cleanvision]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [vineyard-kedro]: New version: [0.16.1] Old Version: [0.15.3]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [vineyard-bdist]: New version: [0.16.1] Old Version: [0.15.3]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [vineyard-dask]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [vineyard-io]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [vineyard-ml]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 05:29:33] INFO root fetch - processPackages [cleanvision]: Downloading https://files.pythonhosted.org/packages/e2/ed/caf5fbcfbc61245d8551acf63d5adef00ad924d3075b24fcc1de07d88aed/cleanvision-0.3.1.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-kedro]: Downloading https://files.pythonhosted.org/packages/8e/89/fbb536e23861ff32ad3798e9284262c4a779611596a1478f1545a052a826/vineyard_kedro-0.15.3-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/68/87/94caff2cb3d90d65618c2332a1721cc76d6d5bcbd2f394b94e62354ab14d/ez-a-sync-0.6.2.dev8.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [tensorwrap]: Downloading https://files.pythonhosted.org/packages/23/89/ba30c9ae76019708ce969d4f7dbfe3fc2515d2647f99f0a79af01ef8b5b4/tensorwrap-0.0.1.3.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-bdist]: Downloading https://files.pythonhosted.org/packages/a8/eb/4c208279f0c57d759b2169b44d52d1b6061bc665a2e4c36654be871314ef/vineyard_bdist-0.15.3-py3-none-manylinux2014_x86_64.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/30/1f/2aa182d5c2c43128c162f7fed5ae6e8d694bc46917325e1b066a0e9f8591/GANDLF-0.0.17.dev20230716.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-dask]: Downloading https://files.pythonhosted.org/packages/7e/4d/11f9d8e59dae1a18bf97323cb5bc0d90cf342ba3dc08c19eb8e67b6bffa7/vineyard_dask-0.8.6-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-ml]: Downloading https://files.pythonhosted.org/packages/37/97/c22cf628301b855f79e8c0b034b7bb6c78b534155dc4402d6e4713d17d37/vineyard_ml-0.8.6-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-io]: Downloading https://files.pythonhosted.org/packages/93/23/07b239e15cfe3c9d7e6e4ace52cc180a9c40f8edce8593341ec1dfd56b01/vineyard_io-0.8.6-py3-none-any.whl
+[2023-07-17 05:29:34] WARNING root fetch - processPackages [vineyard-bdist]: Skipping package: exceeds size limit 23744668>=10485760
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-bdist]: Start processing: openai-agent-llm
+[2023-07-17 05:29:34] INFO root fetch - main [MainThread]: End processing [vineyard-bdist] error
+[2023-07-17 05:29:34] INFO root fetch - processPackages [openai-agent-llm]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-kedro]: Downloading https://files.pythonhosted.org/packages/ce/8e/b9e2c7a94be1fc1cbdabd0cc0e8c373648ec46e56fbee8bfb5ad8007fa87/vineyard_kedro-0.16.1-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [cleanvision]: Downloading https://files.pythonhosted.org/packages/b2/22/0b17d5a511cac6c1e04d2ada2358832575bfa4c68ac9af924d284713c9ab/cleanvision-0.3.2.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/d6/b9/5dce8febdbc6a2632d21c97104218f33630fa2c4a7e4d3f2e7e300e5fa9e/ez-a-sync-0.6.2.dev9.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [tensorwrap]: Downloading https://files.pythonhosted.org/packages/82/10/657aa31db5fef79b24fe47d4fb3aac16cf16de2c284075ab49d55bb417a1/tensorwrap-0.0.1.4.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-kedro]: executing diffoscope
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-kedro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_kedro-0.15.3-py3-none-any.whl.zip tmp/vineyard_kedro-0.16.1-py3-none-any.whl.zip --markdown 20230717/v/vineyard-kedro/0.15.3-0.16.1/diff.md --exclude *.pyd
+[2023-07-17 05:29:34] INFO root fetch - processPackages [openai-agent-llm]: Downloading https://files.pythonhosted.org/packages/7e/73/b030b719d7ee05e9f4e0126b240bccb622fe2d1d5904e808f3b294130a20/openai-agent-llm-0.0.0.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [cleanvision]: executing diffoscope
+[2023-07-17 05:29:34] INFO root fetch - processPackages [cleanvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanvision-0.3.1.tar.gz tmp/cleanvision-0.3.2.tar.gz --markdown 20230717/c/cleanvision/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-17 05:29:34] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/c0/de/7a0f83f9c6601d23de73dff0e151697e1bad6b1d6b1193ce8ab544c84ead/GANDLF-0.0.17.dev20230717.tar.gz
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-dask]: Downloading https://files.pythonhosted.org/packages/83/59/f3909e80e7d602ca77528b4fd80aafe2e0b8f9a3aa90c0c25dddc9b7a578/vineyard_dask-0.9.0-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [tensorwrap]: executing diffoscope
+[2023-07-17 05:29:34] INFO root fetch - processPackages [tensorwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorwrap-0.0.1.3.tar.gz tmp/tensorwrap-0.0.1.4.tar.gz --markdown 20230717/t/tensorwrap/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-07-17 05:29:34] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 05:29:34] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 05:29:34] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-17 05:29:34] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev8.tar.gz tmp/ez-a-sync-0.6.2.dev9.tar.gz --markdown 20230717/e/ez-a-sync/0.6.2.dev8-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-io]: Downloading https://files.pythonhosted.org/packages/8d/ed/3afe6a3d585eacffceee242a21b7a6a8c5a1878284ccf321aa95f32fdaf8/vineyard_io-0.9.0-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [vineyard-ml]: Downloading https://files.pythonhosted.org/packages/23/7b/a35647dea67113391d818963d45530d02ea9d10eb2168e8f5fdbda75ac07/vineyard_ml-0.9.0-py3-none-any.whl
+[2023-07-17 05:29:34] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-17 05:29:34] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230716.tar.gz tmp/GANDLF-0.0.17.dev20230717.tar.gz --markdown 20230717/G/GANDLF/0.0.17.dev20230716-0.0.17.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 05:29:35] INFO root fetch - processPackages [openai-agent-llm]: Downloading https://files.pythonhosted.org/packages/50/46/1f943c32d3c80debabaed8bcd26b47b5793e13447b8362cd636646ab769f/openai-agent-llm-0.0.2.tar.gz
+[2023-07-17 05:29:35] INFO root fetch - processPackages [vineyard-ml]: executing diffoscope
+[2023-07-17 05:29:35] INFO root fetch - processPackages [vineyard-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_ml-0.8.6-py3-none-any.whl.zip tmp/vineyard_ml-0.9.0-py3-none-any.whl.zip --markdown 20230717/v/vineyard-ml/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:29:35] INFO root fetch - processPackages [vineyard-io]: executing diffoscope
+[2023-07-17 05:29:35] INFO root fetch - processPackages [vineyard-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_io-0.8.6-py3-none-any.whl.zip tmp/vineyard_io-0.9.0-py3-none-any.whl.zip --markdown 20230717/v/vineyard-io/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:29:35] INFO root fetch - processPackages [openai-agent-llm]: executing diffoscope
+[2023-07-17 05:29:35] INFO root fetch - processPackages [openai-agent-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-agent-llm-0.0.0.tar.gz tmp/openai-agent-llm-0.0.2.tar.gz --markdown 20230717/o/openai-agent-llm/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:29:35] INFO root fetch - processPackages [vineyard-dask]: executing diffoscope
+[2023-07-17 05:29:35] INFO root fetch - processPackages [vineyard-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_dask-0.8.6-py3-none-any.whl.zip tmp/vineyard_dask-0.9.0-py3-none-any.whl.zip --markdown 20230717/v/vineyard-dask/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-kedro]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_kedro-0.15.3-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-kedro]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_kedro-0.16.1-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-kedro]: Start processing: mortardata
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [vineyard-kedro]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [mortardata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [cleanvision]: Remove: archive file [/home/abi/fetcher/tmp/cleanvision-0.3.1.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [cleanvision]: Remove: archive file [/home/abi/fetcher/tmp/cleanvision-0.3.2.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [cleanvision]: Start processing: stock-open-api
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [cleanvision]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [tensorwrap]: Remove: archive file [/home/abi/fetcher/tmp/tensorwrap-0.0.1.3.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [tensorwrap]: Remove: archive file [/home/abi/fetcher/tmp/tensorwrap-0.0.1.4.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [tensorwrap]: Start processing: enterble
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [tensorwrap]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [dank-mids]: Start processing: FinanceTrackerCLI
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 05:29:36] WARNING root fetch - processPackages [stock-open-api]: Skipping, unable to determine old version
+[2023-07-17 05:29:36] INFO root fetch - processPackages [stock-open-api]: Start processing: affectivecloud
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [stock-open-api] error
+[2023-07-17 05:29:36] INFO root fetch - processPackages [enterble]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [FinanceTrackerCLI]: New version: [1.3.0.9] Old Version: [1.3.0.8]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [mortardata]: Downloading https://files.pythonhosted.org/packages/14/a0/dbf0a938c72f6a60b4fb0672c0d4ebb630892b38679a8d48a9372462c9d8/mortardata-0.1.1.tar.gz
+[2023-07-17 05:29:36] INFO root fetch - processPackages [affectivecloud]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/b7/f1/0595c34363e69b58cbbb2491b0c5e9efaa2e35831068ba5b5a8ad8931d70/FinanceTrackerCLI-1.3.0.8.tar.gz
+[2023-07-17 05:29:36] INFO root fetch - processPackages [enterble]: Downloading https://files.pythonhosted.org/packages/98/b7/c2ea6603829ed448a21e78fdbfbc7e25f737fab0c857b6dde3d4b675793c/enterble-1.1.2.tar.gz
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-io]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_io-0.8.6-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-io]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_io-0.9.0-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-io]: Start processing: heaserver-accounts
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [vineyard-io]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [openai-agent-llm]: Remove: archive file [/home/abi/fetcher/tmp/openai-agent-llm-0.0.0.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [openai-agent-llm]: Remove: archive file [/home/abi/fetcher/tmp/openai-agent-llm-0.0.2.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [openai-agent-llm]: Start processing: mortardata
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [openai-agent-llm]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-ml]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_ml-0.8.6-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-dask]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_dask-0.8.6-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev8.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-ml]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_ml-0.9.0-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-dask]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_dask-0.9.0-py3-none-any.whl.zip]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev9.tar.gz]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-ml]: Start processing: openai-agent-llm
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [vineyard-ml]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [vineyard-dask]: Start processing: mortardata
+[2023-07-17 05:29:36] INFO root fetch - processPackages [ez-a-sync]: Start processing: oasis-api-client
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [vineyard-dask]: success
+[2023-07-17 05:29:36] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-17 05:29:36] INFO root fetch - processPackages [affectivecloud]: Downloading https://files.pythonhosted.org/packages/b6/56/0a4f7a20568e549bd66f5a82cc257039a6212e5502f382985a912ce5352d/affectivecloud-1.1.1.tar.gz
+[2023-07-17 05:29:36] INFO root fetch - processPackages [heaserver-accounts]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [mortardata]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [mortardata]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 05:29:36] INFO root fetch - processPackages [openai-agent-llm]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: Downloading https://files.pythonhosted.org/packages/ba/02/7dfffe0e692224ce1fb9ab3f261c61a9ba5d124c92f423c077f2f5bfb2b6/mortardata-0.1.2.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/37/5c/55b9b45fffb108a03558125a7a9ae3574958082b6766dafa815defa5414a/FinanceTrackerCLI-1.3.0.9.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: Downloading https://files.pythonhosted.org/packages/ba/02/7dfffe0e692224ce1fb9ab3f261c61a9ba5d124c92f423c077f2f5bfb2b6/mortardata-0.1.2.tar.gz
+[2023-07-17 05:29:37] WARNING root fetch - processPackages [oasis-api-client]: Skipping, unable to determine old version
+[2023-07-17 05:29:37] INFO root fetch - main [MainThread]: End processing [oasis-api-client] error
+[2023-07-17 05:29:37] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/0d/4c/912fc03e28cac898b9e810956984c9e9caeedf4aa64dae28faf520c2c177/heaserver-accounts-1.0.0a8.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: Downloading https://files.pythonhosted.org/packages/ba/02/7dfffe0e692224ce1fb9ab3f261c61a9ba5d124c92f423c077f2f5bfb2b6/mortardata-0.1.2.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [openai-agent-llm]: Downloading https://files.pythonhosted.org/packages/7e/73/b030b719d7ee05e9f4e0126b240bccb622fe2d1d5904e808f3b294130a20/openai-agent-llm-0.0.0.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230716.tar.gz]
+[2023-07-17 05:29:37] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230717.tar.gz]
+[2023-07-17 05:29:37] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mortardata-0.1.1.tar.gz tmp/mortardata-0.1.2.tar.gz --markdown 20230717/m/mortardata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [FinanceTrackerCLI]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [FinanceTrackerCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinanceTrackerCLI-1.3.0.8.tar.gz tmp/FinanceTrackerCLI-1.3.0.9.tar.gz --markdown 20230717/F/FinanceTrackerCLI/1.3.0.8-1.3.0.9/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [enterble]: Downloading https://files.pythonhosted.org/packages/82/0d/35bd2442b6dbadfccec26a0fcdc09379c8b0e933c01082cf0a161bc7f0a0/enterble-1.1.3.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/ef/3b/00bd06051828f159ca100404dfc84f0723be88cb8936a493139d61fa95be/heaserver-accounts-1.0.0a9.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [affectivecloud]: Downloading https://files.pythonhosted.org/packages/a9/94/c7e4193002047a68dcac65f9b7cca5aafbdd17322a68fbc774eabe5088ef/affectivecloud-1.1.2.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [openai-agent-llm]: Downloading https://files.pythonhosted.org/packages/50/46/1f943c32d3c80debabaed8bcd26b47b5793e13447b8362cd636646ab769f/openai-agent-llm-0.0.2.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: Downloading https://files.pythonhosted.org/packages/a1/c8/a93c3fdc400fa342a577617141f991feb6f6e2c0e26a4370dba3f445d040/mortardata-0.1.3.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: Downloading https://files.pythonhosted.org/packages/a1/c8/a93c3fdc400fa342a577617141f991feb6f6e2c0e26a4370dba3f445d040/mortardata-0.1.3.tar.gz
+[2023-07-17 05:29:37] INFO root fetch - processPackages [enterble]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [enterble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enterble-1.1.2.tar.gz tmp/enterble-1.1.3.tar.gz --markdown 20230717/e/enterble/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [affectivecloud]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [affectivecloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affectivecloud-1.1.1.tar.gz tmp/affectivecloud-1.1.2.tar.gz --markdown 20230717/a/affectivecloud/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [openai-agent-llm]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [openai-agent-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-agent-llm-0.0.0.tar.gz tmp/openai-agent-llm-0.0.2.tar.gz --markdown 20230717/o/openai-agent-llm/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [heaserver-accounts]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [heaserver-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-accounts-1.0.0a8.tar.gz tmp/heaserver-accounts-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-accounts/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mortardata-0.1.2.tar.gz tmp/mortardata-0.1.3.tar.gz --markdown 20230717/m/mortardata/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: executing diffoscope
+[2023-07-17 05:29:37] INFO root fetch - processPackages [mortardata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mortardata-0.1.2.tar.gz tmp/mortardata-0.1.3.tar.gz --markdown 20230717/m/mortardata/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 05:29:38] INFO root fetch - processPackages [mortardata]: Remove: archive file [/home/abi/fetcher/tmp/mortardata-0.1.1.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - processPackages [mortardata]: Remove: archive file [/home/abi/fetcher/tmp/mortardata-0.1.2.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [mortardata]: success
+[2023-07-17 05:29:38] ERROR root fetch - processPackages [mortardata]: Diffoscope failed: time="2023-07-17T05:29:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mortardata-0.1.2.tar.gz: No such file or directory
+
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [mortardata] error
+[2023-07-17 05:29:38] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.8.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.9.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [FinanceTrackerCLI]: success
+[2023-07-17 05:29:38] ERROR root fetch - processPackages [mortardata]: Diffoscope failed: time="2023-07-17T05:29:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mortardata-0.1.2.tar.gz: No such file or directory
+
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [mortardata] error
+[2023-07-17 05:29:38] INFO root fetch - processPackages [openai-agent-llm]: Remove: archive file [/home/abi/fetcher/tmp/openai-agent-llm-0.0.0.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - processPackages [openai-agent-llm]: Remove: archive file [/home/abi/fetcher/tmp/openai-agent-llm-0.0.2.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [openai-agent-llm]: success
+[2023-07-17 05:29:38] INFO root fetch - processPackages [affectivecloud]: Remove: archive file [/home/abi/fetcher/tmp/affectivecloud-1.1.1.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - processPackages [affectivecloud]: Remove: archive file [/home/abi/fetcher/tmp/affectivecloud-1.1.2.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [affectivecloud]: success
+[2023-07-17 05:29:38] INFO root fetch - processPackages [enterble]: Remove: archive file [/home/abi/fetcher/tmp/enterble-1.1.2.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - processPackages [enterble]: Remove: archive file [/home/abi/fetcher/tmp/enterble-1.1.3.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [enterble]: success
+[2023-07-17 05:29:38] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a8.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a9.tar.gz]
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
+[2023-07-17 05:29:38] INFO root fetch - main [MainThread]: Store serial: [18912108]
