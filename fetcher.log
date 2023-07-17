@@ -4195,3 +4195,87 @@
 [2023-07-17 02:45:49] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz]
 [2023-07-17 02:45:49] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2023-07-17 02:45:49] INFO root fetch - main [MainThread]: Store serial: [18911200]
+[2023-07-17 02:50:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911200]
+[2023-07-17 02:50:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agh-vqis
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: state-machine-semaphore
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdock
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hydrusvideodeduplicator
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flojoy
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal-client
+[2023-07-17 02:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal
+[2023-07-17 02:50:59] INFO root fetch - processPackages [agh-vqis]: New version: [3.1.0] Old Version: [3.0.5]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [sdock]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307160046] Old Version: [4.9.2.dev202307150045]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/c1/a1/22fa64d618494dfc74fd396d84c75fded265139c5e125429ff482478db40/agh_vqis-3.0.5.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [modal]: New version: [0.50.2634] Old Version: [0.50.2632]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/7f/33/5950022e2c230cd5dbaf7c400419fe2e564ee9f8338e077d468dc4b64b57/sdock-0.0.98.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/a8/d0/bdbeefde54e9a7dd9d1fa5b0d0f9d2d87636e29a77a939c4369264516d82/tfds-nightly-4.9.2.dev202307150045.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [modal-client]: New version: [0.50.2634] Old Version: [0.50.2632]
+[2023-07-17 02:50:59] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/fc/01/0bc849d7d3dd826f3d03196ec516b590aa0ef477f098a6056b9cbd95fb25/hydrusvideodeduplicator-0.2.5.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/7d/f5/bf9b12df22c151d35a2cbd930ca5ff6d6285de3b1deab93b2c11758bea8e/modal-0.50.2632-py3-none-any.whl
+[2023-07-17 02:50:59] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/6c/c4/826bd41269b7e64be6b2ba4bdd991da6508725b665bc027913048fa8ce22/modal_client-0.50.2632-py3-none-any.whl
+[2023-07-17 02:50:59] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/63/d2/f64bd5b8824b23e5f3f77afe7ca7c031b679ffb8bb695f963cfb6e5c4b53/agh_vqis-3.1.0.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/47/9f/8fd3cdb89534b2223f41686b399e363b153d5872316904999fc38304b0a4/hydrusvideodeduplicator-0.3.0.tar.gz
+[2023-07-17 02:50:59] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-07-17 02:50:59] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230717/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-17 02:50:59] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-17 02:51:00] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/6b/aa/143b71e301035cfadfe161ba19c47c481c3cb22f06f09c54f13a6d29a4ef/tfds-nightly-4.9.2.dev202307160046.tar.gz
+[2023-07-17 02:51:00] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230717/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.2.5.tar.gz tmp/hydrusvideodeduplicator-0.3.0.tar.gz --markdown 20230717/h/hydrusvideodeduplicator/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [agh-vqis]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [agh-vqis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agh_vqis-3.0.5.tar.gz tmp/agh_vqis-3.1.0.tar.gz --markdown 20230717/a/agh-vqis/3.0.5-3.1.0/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.98.tar.gz tmp/sdock-0.0.99.tar.gz --markdown 20230717/s/sdock/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/2b/83/de995bc117609799398ea235235475b65cd8d643e5c1769ac12c226bd6e0/modal-0.50.2634-py3-none-any.whl
+[2023-07-17 02:51:00] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/f9/52/f6cc2d050df747a441b77da7036d1a7ea2ea92cd515ea45987f04dac32f9/modal_client-0.50.2634-py3-none-any.whl
+[2023-07-17 02:51:00] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2632-py3-none-any.whl.zip tmp/modal-0.50.2634-py3-none-any.whl.zip --markdown 20230717/m/modal/0.50.2632-0.50.2634/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307150045.tar.gz tmp/tfds-nightly-4.9.2.dev202307160046.tar.gz --markdown 20230717/t/tfds-nightly/4.9.2.dev202307150045-4.9.2.dev202307160046/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2632-py3-none-any.whl.zip tmp/modal_client-0.50.2634-py3-none-any.whl.zip --markdown 20230717/m/modal-client/0.50.2632-0.50.2634/diff.md --exclude *.pyd
+[2023-07-17 02:51:00] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-17 02:51:00] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230717/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 02:51:01] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-07-17 02:51:01] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.98.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.99.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 02:51:01] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.5.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.3.0.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-17 02:51:01] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-17 02:51:01] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2632-py3-none-any.whl.zip]
+[2023-07-17 02:51:01] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2634-py3-none-any.whl.zip]
+[2023-07-17 02:51:01] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-17 02:51:01] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-17 02:51:01] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-17 02:51:02] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.0.5.tar.gz]
+[2023-07-17 02:51:02] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.1.0.tar.gz]
+[2023-07-17 02:51:02] INFO root fetch - main [MainThread]: End processing [agh-vqis]: success
+[2023-07-17 02:51:02] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2632-py3-none-any.whl.zip]
+[2023-07-17 02:51:02] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2634-py3-none-any.whl.zip]
+[2023-07-17 02:51:02] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-17 02:51:06] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307150045.tar.gz]
+[2023-07-17 02:51:06] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307160046.tar.gz]
+[2023-07-17 02:51:06] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-17 02:51:06] INFO root fetch - main [MainThread]: Store serial: [18911225]
