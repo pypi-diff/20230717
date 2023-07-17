@@ -7338,3 +7338,81 @@
 [2023-07-17 06:52:48] INFO root fetch - processPackages [decancer-py]: Remove: archive file [/home/abi/fetcher/tmp/decancer_py-0.2.2.tar.gz]
 [2023-07-17 06:52:48] INFO root fetch - main [MainThread]: End processing [decancer-py]: success
 [2023-07-17 06:52:48] INFO root fetch - main [MainThread]: Store serial: [18912472]
+[2023-07-17 06:57:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912472]
+[2023-07-17 06:57:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repomanager
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ploomber-engine
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudforet-console-api-v2
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: score-models
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-a-sync
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visionai-data-format
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fundialogues
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mqttapi
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dock-py-selenium
+[2023-07-17 06:57:57] INFO root fetch - processPackages [repomanager]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.5a1] Old Version: [1.0.5]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [mqttapi]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.3.dev4] Old Version: [0.6.3.dev2]
+[2023-07-17 06:57:57] WARNING root fetch - processPackages [fundialogues]: Skipping, unable to determine old version
+[2023-07-17 06:57:57] INFO root fetch - main [MainThread]: End processing [fundialogues] error
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ploomber-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [score-models]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [dock-py-selenium]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [1.12.dev8] Old Version: [1.12.dev7]
+[2023-07-17 06:57:57] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/f1/b8/3e1d40f62b42d5bc642126dc7f8d43e91f2783418c23cbc7a84b828071a3/ez-a-sync-0.6.3.dev2.tar.gz
+[2023-07-17 06:57:57] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/75/86/30ee270114e46d6671b63509b7c2bccd6909e0bb21ba4e75ab109eec575d/mqttapi-0.1.2.tar.gz
+[2023-07-17 06:57:57] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/4f/93/ac786dea6c94cc20d5786ee829ac18811d2e7bd63accef8f6841aab9e591/score_models-0.4.2.tar.gz
+[2023-07-17 06:57:57] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/7c/63/5f7658582e31546f999cd9c4a1d91c8c43c3f7925c298e9dab58388e82d1/dock-py-selenium-1.0.0.tar.gz
+[2023-07-17 06:57:57] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/6c/d7/20ed8d49f9635567deda13e6202a58e07aad9c3612b15de4e430b2d92241/visionai-data-format-1.0.5.tar.gz
+[2023-07-17 06:57:57] INFO root fetch - processPackages [repomanager]: Downloading https://files.pythonhosted.org/packages/03/55/a2c28387c05359cff980cee6bc59a2a7934eb2d9074e087fa115db1647b2/repomanager-1.6.0.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ploomber-engine]: Downloading https://files.pythonhosted.org/packages/fd/8f/1534ca0f4773c1d53e4c46d2933bcbbbbf536ef57a950be80b6e4d77406e/ploomber-engine-0.0.8.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/9a/e5/2d20f0125905dcadb5943ccb2bb9a70c1a4d9f5b6c6743bde3c745502d93/cloudforet-console-api-v2-1.12.dev7.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/45/89/a20d1bb3dbe474f22000705fa92bcd481412ead54015e0fa247635bfeec5/mqttapi-0.2.0.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/4d/58/c0bacfccb3290be54ad7dd585ba5666b3b65bfc4f61118f81640bf31c7b3/dock-py-selenium-1.0.1.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/00/10/05403ccce7321cb3f112265265e92f707cff632d0f456b247d4082f8d669/ez-a-sync-0.6.3.dev4.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/0c/86/69c1fad6f05b7adeada808465a376f598ec50f8cbf00721bfa73f1fa00d8/score_models-0.4.3.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [mqttapi]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [mqttapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttapi-0.1.2.tar.gz tmp/mqttapi-0.2.0.tar.gz --markdown 20230717/m/mqttapi/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-1.0.0.tar.gz tmp/dock-py-selenium-1.0.1.tar.gz --markdown 20230717/d/dock-py-selenium/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.2.tar.gz tmp/score_models-0.4.3.tar.gz --markdown 20230717/s/score-models/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/29/e5/b1b3a066d4a61c2c9d725f917a68eafd444b52899f41b9d9020673fc47f1/visionai-data-format-1.0.5a1.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.3.dev2.tar.gz tmp/ez-a-sync-0.6.3.dev4.tar.gz --markdown 20230717/e/ez-a-sync/0.6.3.dev2-0.6.3.dev4/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [repomanager]: Downloading https://files.pythonhosted.org/packages/06/c6/afbf10e482c7bf5309e4288f530b32e8c0c0d0bce4f2100f0dde74aeb192/repomanager-1.7.0.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ploomber-engine]: Downloading https://files.pythonhosted.org/packages/f8/12/39298f8e41daa40cfea3e7cb55f86e11034436e31c97988dc69b9fd2c082/ploomber-engine-0.0.9.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [repomanager]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [repomanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repomanager-1.6.0.tar.gz tmp/repomanager-1.7.0.tar.gz --markdown 20230717/r/repomanager/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/bf/a1/a37b697c444592a6bc36bc51392425438032d01b62b00968254c8bbdd809/cloudforet-console-api-v2-1.12.dev8.tar.gz
+[2023-07-17 06:57:58] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-1.0.5.tar.gz tmp/visionai-data-format-1.0.5a1.tar.gz --markdown 20230717/v/visionai-data-format/1.0.5-1.0.5a1/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ploomber-engine]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [ploomber-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-engine-0.0.8.tar.gz tmp/ploomber-engine-0.0.9.tar.gz --markdown 20230717/p/ploomber-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 06:57:58] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2023-07-17 06:57:58] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-1.12.dev7.tar.gz tmp/cloudforet-console-api-v2-1.12.dev8.tar.gz --markdown 20230717/c/cloudforet-console-api-v2/1.12.dev7-1.12.dev8/diff.md --exclude *.pyd
+[2023-07-17 06:57:59] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.1.2.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.2.0.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - main [MainThread]: End processing [mqttapi]: success
+[2023-07-17 06:57:59] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.0.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.1.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 06:57:59] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.2.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.3.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-07-17 06:57:59] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.3.dev2.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.3.dev4.tar.gz]
+[2023-07-17 06:57:59] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-17 06:58:00] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.5.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.5a1.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-07-17 06:58:00] INFO root fetch - processPackages [ploomber-engine]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-engine-0.0.8.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - processPackages [ploomber-engine]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-engine-0.0.9.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - main [MainThread]: End processing [ploomber-engine]: success
+[2023-07-17 06:58:00] INFO root fetch - processPackages [repomanager]: Remove: archive file [/home/abi/fetcher/tmp/repomanager-1.6.0.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - processPackages [repomanager]: Remove: archive file [/home/abi/fetcher/tmp/repomanager-1.7.0.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - main [MainThread]: End processing [repomanager]: success
+[2023-07-17 06:58:00] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev7.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev8.tar.gz]
+[2023-07-17 06:58:00] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2023-07-17 06:58:00] INFO root fetch - main [MainThread]: Store serial: [18912499]
