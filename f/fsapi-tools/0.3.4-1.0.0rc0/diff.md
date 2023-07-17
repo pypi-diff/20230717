@@ -1,0 +1,3390 @@
+# Comparing `tmp/fsapi-tools-0.3.4.tar.gz` & `tmp/fsapi-tools-1.0.0rc0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "fsapi-tools-0.3.4.tar", last modified: Sat Mar 18 05:43:38 2023, max compression
++gzip compressed data, was "fsapi-tools-1.0.0rc0.tar", last modified: Mon Jul 17 09:52:49 2023, max compression
+```
+
+## Comparing `fsapi-tools-0.3.4.tar` & `fsapi-tools-1.0.0rc0.tar`
+
+### file list
+
+```diff
+@@ -1,40 +1,36 @@
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:38.387052 fsapi-tools-0.3.4/
+--rw-rw-rw-   0        0        0     1090 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/LICENSE
+--rw-rw-rw-   0        0        0    10799 2023-03-18 05:43:38.367844 fsapi-tools-0.3.4/PKG-INFO
+--rw-rw-rw-   0        0        0    10015 2023-03-18 05:42:35.000000 fsapi-tools-0.3.4/README.md
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:37.668390 fsapi-tools-0.3.4/fsapi/
+--rw-rw-rw-   0        0        0     1309 2023-03-18 05:42:35.000000 fsapi-tools-0.3.4/fsapi/__init__.py
+--rw-rw-rw-   0        0        0    11305 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/__main__.py
+--rw-rw-rw-   0        0        0      418 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/all.py
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:37.755780 fsapi-tools-0.3.4/fsapi/ecmascript/
+--rw-rw-rw-   0        0        0     1987 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/ecmascript/__init__.py
+--rw-rw-rw-   0        0        0     2993 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/ecmascript/__main__.py
+--rw-rw-rw-   0        0        0     4603 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/ecmascript/esbin.py
+--rw-rw-rw-   0        0        0     9262 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/ecmascript/opcode.py
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:37.939672 fsapi-tools-0.3.4/fsapi/isu/
+--rw-rw-rw-   0        0        0     3639 2023-03-18 05:42:35.000000 fsapi-tools-0.3.4/fsapi/isu/__init__.py
+--rw-rw-rw-   0        0        0    10752 2023-03-18 05:40:41.000000 fsapi-tools-0.3.4/fsapi/isu/__main__.py
+--rw-rw-rw-   0        0        0     6094 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isu/fsfs.py
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:38.087585 fsapi-tools-0.3.4/fsapi/isu/inspectors/
+--rw-rw-rw-   0        0        0      724 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isu/inspectors/__init__.py
+--rw-rw-rw-   0        0        0    12672 2023-03-18 05:30:13.000000 fsapi-tools-0.3.4/fsapi/isu/inspectors/fs2026.py
+--rw-rw-rw-   0        0        0     3925 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isu/inspectors/fs2028.py
+--rw-rw-rw-   0        0        0     4116 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isu/inspectors/fs2340.py
+--rw-rw-rw-   0        0        0     3753 2023-03-06 11:11:03.000000 fsapi-tools-0.3.4/fsapi/isu/inspectors/fs5332.py
+--rw-rw-rw-   0        0        0     4569 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isu/ioutils.py
+--rw-rw-rw-   0        0        0    11121 2023-03-18 05:23:35.000000 fsapi-tools-0.3.4/fsapi/isu/model.py
+--rw-rw-rw-   0        0        0     6890 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isu/product.py
+--rw-rw-rw-   0        0        0    11567 2023-03-05 17:39:44.000000 fsapi-tools-0.3.4/fsapi/isudata.py
+--rw-rw-rw-   0        0        0     2638 2023-03-05 17:39:45.000000 fsapi-tools-0.3.4/fsapi/netconfig.py
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:38.216886 fsapi-tools-0.3.4/fsapi/netremote/
+--rw-rw-rw-   0        0        0     4308 2023-03-05 17:39:45.000000 fsapi-tools-0.3.4/fsapi/netremote/__init__.py
+--rw-rw-rw-   0        0        0     9561 2023-03-05 17:39:45.000000 fsapi-tools-0.3.4/fsapi/netremote/basenode.py
+--rw-rw-rw-   0        0        0   157817 2022-10-09 13:39:42.000000 fsapi-tools-0.3.4/fsapi/netremote/nodes.py
+--rw-rw-rw-   0        0        0     7425 2023-03-05 17:39:45.000000 fsapi-tools-0.3.4/fsapi/netremote/radiohttp.py
+-drwxrwxrwx   0        0        0        0 2023-03-18 05:43:38.346767 fsapi-tools-0.3.4/fsapi_tools.egg-info/
+--rw-rw-rw-   0        0        0    10799 2023-03-18 05:43:37.000000 fsapi-tools-0.3.4/fsapi_tools.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      758 2023-03-18 05:43:37.000000 fsapi-tools-0.3.4/fsapi_tools.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-03-18 05:43:37.000000 fsapi-tools-0.3.4/fsapi_tools.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0        6 2023-03-18 05:43:37.000000 fsapi-tools-0.3.4/fsapi_tools.egg-info/top_level.txt
+--rw-rw-rw-   0        0        0      818 2023-03-18 05:42:35.000000 fsapi-tools-0.3.4/pyproject.toml
+--rw-rw-rw-   0        0        0       42 2023-03-18 05:43:38.390052 fsapi-tools-0.3.4/setup.cfg
++drwxrwxrwx   0        0        0        0 2023-07-17 09:52:49.023280 fsapi-tools-1.0.0rc0/
++-rw-rw-rw-   0        0        0     1090 2023-07-16 17:34:26.000000 fsapi-tools-1.0.0rc0/LICENSE
++-rw-rw-rw-   0        0        0    10789 2023-07-17 09:52:49.032733 fsapi-tools-1.0.0rc0/PKG-INFO
++-rw-rw-rw-   0        0        0     9982 2023-07-17 09:33:01.000000 fsapi-tools-1.0.0rc0/README.md
++drwxrwxrwx   0        0        0        0 2023-07-17 09:52:48.060670 fsapi-tools-1.0.0rc0/fsapi/
++-rw-rw-rw-   0        0        0     1311 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/__init__.py
++-rw-rw-rw-   0        0        0     1202 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/__main__.py
++drwxrwxrwx   0        0        0        0 2023-07-17 09:52:48.208990 fsapi-tools-1.0.0rc0/fsapi/ecmascript/
++-rw-rw-rw-   0        0        0     2169 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/ecmascript/__init__.py
++-rw-rw-rw-   0        0        0     1193 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/ecmascript/__main__.py
++-rw-rw-rw-   0        0        0     3180 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/ecmascript/cli.py
++-rw-rw-rw-   0        0        0     4611 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/ecmascript/esbin.py
++-rw-rw-rw-   0        0        0     9035 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/ecmascript/opcode.py
++drwxrwxrwx   0        0        0        0 2023-07-17 09:52:48.483648 fsapi-tools-1.0.0rc0/fsapi/isu/
++-rw-rw-rw-   0        0        0     2820 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/__init__.py
++-rw-rw-rw-   0        0        0     1187 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/__main__.py
++-rw-rw-rw-   0        0        0     9012 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/cli.py
++-rw-rw-rw-   0        0        0    12597 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/format.py
++-rw-rw-rw-   0        0        0     6965 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/product.py
++-rw-rw-rw-   0        0        0    11934 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/update.py
++-rw-rw-rw-   0        0        0     4126 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/isu/util.py
++-rw-rw-rw-   0        0        0     2619 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/netconfig.py
++drwxrwxrwx   0        0        0        0 2023-07-17 09:52:48.802739 fsapi-tools-1.0.0rc0/fsapi/netremote/
++-rw-rw-rw-   0        0        0     5190 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/netremote/__init__.py
++-rw-rw-rw-   0        0        0     9939 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/netremote/basenode.py
++-rw-rw-rw-   0        0        0    11710 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/netremote/cli.py
++-rw-rw-rw-   0        0        0   162959 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/netremote/nodes.py
++-rw-rw-rw-   0        0        0     8638 2023-07-17 09:09:48.000000 fsapi-tools-1.0.0rc0/fsapi/netremote/radiohttp.py
++drwxrwxrwx   0        0        0        0 2023-07-17 09:52:48.936612 fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/
++-rw-rw-rw-   0        0        0    10789 2023-07-17 09:52:47.000000 fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      673 2023-07-17 09:52:47.000000 fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-07-17 09:52:47.000000 fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0      122 2023-07-17 09:52:47.000000 fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/entry_points.txt
++-rw-rw-rw-   0        0        0        6 2023-07-17 09:52:47.000000 fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0      973 2023-07-17 09:09:49.000000 fsapi-tools-1.0.0rc0/pyproject.toml
++-rw-rw-rw-   0        0        0       42 2023-07-17 09:52:49.134566 fsapi-tools-1.0.0rc0/setup.cfg
+```
+
+### Comparing `fsapi-tools-0.3.4/LICENSE` & `fsapi-tools-1.0.0rc0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `fsapi-tools-0.3.4/README.md` & `fsapi-tools-1.0.0rc0/README.md`
+
+ * *Files 26% similar despite different names*
+
+```diff
+@@ -1,626 +1,624 @@
+ 00000000: 3c64 6976 2069 643d 2274 6f70 223e 3c2f  <div id="top"></
+-00000010: 6469 763e 0d0a 0d0a 2320 4672 6f6e 7469  div>....# Fronti
+-00000020: 6572 2053 6d61 7274 2041 5049 2061 6e64  er Smart API and
+-00000030: 2046 6972 6d77 6172 6520 416e 616c 7973   Firmware Analys
+-00000040: 6973 2054 6f6f 6c73 0d0a 0d0a 215b 4c61  is Tools....![La
+-00000050: 7374 4564 6974 5d28 6874 7470 733a 2f2f  stEdit](https://
+-00000060: 696d 672e 7368 6965 6c64 732e 696f 3a2f  img.shields.io:/
+-00000070: 7374 6174 6963 2f76 313f 6c61 6265 6c3d  static/v1?label=
+-00000080: 4c61 7374 4564 6974 266d 6573 7361 6765  LastEdit&message
+-00000090: 3d30 332f 3035 2f32 3032 3326 636f 6c6f  =03/05/2023&colo
+-000000a0: 723d 3963 6629 0d0a 215b 506c 6174 666f  r=9cf)..![Platfo
+-000000b0: 726d 5d28 6874 7470 733a 2f2f 696d 672e  rm](https://img.
+-000000c0: 7368 6965 6c64 732e 696f 3a2f 7374 6174  shields.io:/stat
+-000000d0: 6963 2f76 313f 6c61 6265 6c3d 506c 6174  ic/v1?label=Plat
+-000000e0: 666f 726d 7326 6d65 7373 6167 653d 4c69  forms&message=Li
+-000000f0: 6e75 787c 5769 6e64 6f77 7326 636f 6c6f  nux|Windows&colo
+-00000100: 723d 7965 6c6c 6f77 6772 6565 6e29 0d0a  r=yellowgreen)..
+-00000110: 5b21 5b44 6f63 756d 656e 7461 7469 6f6e  [![Documentation
+-00000120: 2053 7461 7475 735d 2868 7474 7073 3a2f   Status](https:/
+-00000130: 2f72 6561 6474 6865 646f 6373 2e6f 7267  /readthedocs.org
+-00000140: 2f70 726f 6a65 6374 732f 6672 6f6e 7469  /projects/fronti
+-00000150: 6572 2d73 6d61 7274 2d61 7069 2f62 6164  er-smart-api/bad
+-00000160: 6765 2f3f 7665 7273 696f 6e3d 6c61 7465  ge/?version=late
+-00000170: 7374 295d 2868 7474 7073 3a2f 2f66 726f  st)](https://fro
+-00000180: 6e74 6965 722d 736d 6172 742d 6170 692e  ntier-smart-api.
+-00000190: 7265 6164 7468 6564 6f63 732e 696f 2f65  readthedocs.io/e
+-000001a0: 6e2f 6c61 7465 7374 2f3f 6261 6467 653d  n/latest/?badge=
+-000001b0: 6c61 7465 7374 290d 0a21 5b50 7950 695d  latest)..![PyPi]
+-000001c0: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
+-000001d0: 656c 6473 2e69 6f3a 2f73 7461 7469 632f  elds.io:/static/
+-000001e0: 7631 3f6c 6162 656c 3d50 7950 6926 6d65  v1?label=PyPi&me
+-000001f0: 7373 6167 653d 302e 332e 3426 636f 6c6f  ssage=0.3.4&colo
+-00000200: 723d 6772 6565 6e29 0d0a 0d0a 5468 6520  r=green)....The 
+-00000210: 7072 6f6a 6563 7420 6066 7361 7069 2d74  project `fsapi-t
+-00000220: 6f6f 6c73 6020 6275 6e64 6c65 7320 6469  ools` bundles di
+-00000230: 6666 6572 656e 7420 7574 696c 6974 6573  fferent utilites
+-00000240: 2074 6861 7420 6361 6e20 6265 2075 7365   that can be use
+-00000250: 6420 746f 2069 6e74 6572 6163 7420 7769  d to interact wi
+-00000260: 7468 2046 726f 6e74 6965 722d 536d 6172  th Frontier-Smar
+-00000270: 7420 6465 7669 6365 7320 616e 6420 746f  t devices and to
+-00000280: 2069 6e73 7065 6374 2074 6865 6972 2066   inspect their f
+-00000290: 6972 6d77 6172 6520 6269 6e61 7269 6573  irmware binaries
+-000002a0: 2e20 496e 2061 6464 6974 696f 6e20 746f  . In addition to
+-000002b0: 2074 6861 742c 2061 6e20 4543 4d41 5363   that, an ECMASc
+-000002c0: 7269 7074 2064 6563 6f6d 7069 6c65 7220  ript decompiler 
+-000002d0: 7772 6170 7065 7220 6973 2069 6e63 6c75  wrapper is inclu
+-000002e0: 6465 6420 736f 2074 6861 7420 636f 6d70  ded so that comp
+-000002f0: 696c 6564 2066 696c 6573 2063 616e 2062  iled files can b
+-00000300: 6520 6564 6974 6564 2061 7320 7765 6c6c  e edited as well
+-00000310: 2e20 0d0a 0d0a 2a2a 4e6f 7465 2a2a 3a20  . ....**Note**: 
+-00000320: 5468 6520 6465 636f 6d70 696c 6572 2077  The decompiler w
+-00000330: 6173 2069 6e69 7469 616c 6c79 2066 6f72  as initially for
+-00000340: 6b65 6420 6672 6f6d 2074 6865 205b 6465  ked from the [de
+-00000350: 6164 3030 3037 5d28 6874 7470 733a 2f2f  ad0007](https://
+-00000360: 6769 7468 7562 2e63 6f6d 2f6d 6f6c 6e61  github.com/molna
+-00000370: 7267 2f64 6561 6430 3030 372f 626c 6f62  rg/dead0007/blob
+-00000380: 2f6d 6173 7465 722f 5245 4144 4d45 2e6d  /master/README.m
+-00000390: 6429 2072 6570 6f73 6974 6f72 792e 0d0a  d) repository...
+-000003a0: 0d0a 416c 6c74 686f 7567 6820 7468 6572  ..Allthough ther
+-000003b0: 6520 6172 6520 736f 6d65 2072 6570 6f73  e are some repos
+-000003c0: 6974 6f72 6965 7320 7468 6174 2066 6f63  itories that foc
+-000003d0: 7573 206f 6e20 7468 6174 2073 7065 6369  us on that speci
+-000003e0: 6669 6320 4150 492c 2074 6865 2069 6d70  fic API, the imp
+-000003f0: 6c65 6d65 6e74 6174 696f 6e20 7072 6f76  lementation prov
+-00000400: 6964 6564 2068 6572 6520 636f 6e74 6169  ided here contai
+-00000410: 6e73 2061 6c6c 2061 7661 696c 6162 6c65  ns all available
+-00000420: 2060 4e6f 6465 7360 2074 6861 7420 7765   `Nodes` that we
+-00000430: 7265 2069 6e76 656e 7465 642f 6465 7665  re invented/deve
+-00000440: 6c6f 7065 6420 6279 2046 726f 6e74 6965  loped by Frontie
+-00000450: 7220 536d 6172 742e 2054 6865 206e 6f64  r Smart. The nod
+-00000460: 6573 2077 6572 6520 636f 6e76 6572 7465  es were converte
+-00000470: 6420 6672 6f6d 2060 6a61 7661 6020 736f  d from `java` so
+-00000480: 7572 6365 2063 6f64 6520 2854 6865 205b  urce code (The [
+-00000490: 546f 6f6c 5d28 6170 6b2f 6e6f 6465 5f63  Tool](apk/node_c
+-000004a0: 6f6e 7665 7274 6572 2e70 7929 2069 7320  onverter.py) is 
+-000004b0: 616c 736f 2069 6e20 7468 6973 2072 6570  also in this rep
+-000004c0: 6f73 6974 6f72 7929 2e0d 0a0d 0a49 6e20  ository).....In 
+-000004d0: 6f72 6465 7220 746f 2075 7365 2074 6865  order to use the
+-000004e0: 2074 6f6f 6c73 2070 726f 7669 6465 6420   tools provided 
+-000004f0: 6279 2074 6869 7320 7265 706f 7369 746f  by this reposito
+-00000500: 7279 2c20 616c 6d6f 7374 2061 6c6c 2061  ry, almost all a
+-00000510: 7661 696c 6162 6c65 2066 6972 6d77 6172  vailable firmwar
+-00000520: 6520 6269 6e61 7269 6573 2068 6176 6520  e binaries have 
+-00000530: 6265 656e 2063 6f6c 6c65 6374 6564 2061  been collected a
+-00000540: 6e64 2073 746f 7265 6420 696e 2074 6865  nd stored in the
+-00000550: 205b 6672 6f6e 7469 6572 2d73 6d61 7274   [frontier-smart
+-00000560: 2d66 6972 6d77 6172 6573 5d28 6874 7470  -firmwares](http
+-00000570: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f4d  s://github.com/M
+-00000580: 6174 7269 7845 6469 746f 722f 6672 6f6e  atrixEditor/fron
+-00000590: 7469 6572 2d73 6d61 7274 2d66 6972 6d77  tier-smart-firmw
+-000005a0: 6172 6573 2920 7265 706f 7369 746f 7279  ares) repository
+-000005b0: 2e20 4d6f 7374 206f 6620 7468 656d 2077  . Most of them w
+-000005c0: 6572 6520 666f 726b 6564 2066 726f 6d20  ere forked from 
+-000005d0: 5b68 6572 655d 2868 7474 7073 3a2f 2f67  [here](https://g
+-000005e0: 6974 6875 622e 636f 6d2f 6377 6569 736b  ithub.com/cweisk
+-000005f0: 652f 6672 6f6e 7469 6572 2d73 696c 6963  e/frontier-silic
+-00000600: 6f6e 2d66 6972 6d77 6172 6573 292e 200d  on-firmwares). .
+-00000610: 0a0d 0a3c 6465 7461 696c 733e 0d0a 2020  ...<details>..  
+-00000620: 3c73 756d 6d61 7279 3e54 6162 6c65 206f  <summary>Table o
+-00000630: 6620 436f 6e74 656e 7473 3c2f 7375 6d6d  f Contents</summ
+-00000640: 6172 793e 0d0a 2020 3c6f 6c3e 0d0a 2020  ary>..  <ol>..  
+-00000650: 2020 3c6c 693e 3c61 2068 7265 663d 2223    <li><a href="#
+-00000660: 646f 6375 6d65 6e74 7322 3e44 6f63 756d  documents">Docum
+-00000670: 656e 7473 3c2f 613e 3c2f 6c69 3e0d 0a20  ents</a></li>.. 
+-00000680: 2020 203c 6c69 3e0d 0a20 2020 2020 203c     <li>..      <
+-00000690: 6120 6872 6566 3d22 236f 7665 7276 6965  a href="#overvie
+-000006a0: 7722 3e4f 7665 7276 6965 773c 2f61 3e0d  w">Overview</a>.
+-000006b0: 0a20 2020 203c 2f6c 693e 0d0a 2020 2020  .    </li>..    
+-000006c0: 3c6c 693e 0d0a 2020 2020 2020 3c61 2068  <li>..      <a h
+-000006d0: 7265 663d 2223 746f 6f6c 7322 3e54 6f6f  ref="#tools">Too
+-000006e0: 6c73 3c2f 613e 0d0a 2020 2020 2020 3c75  ls</a>..      <u
+-000006f0: 6c3e 0d0a 2020 2020 2020 2020 3c6c 693e  l>..        <li>
+-00000700: 3c61 2068 7265 663d 2223 7072 6572 6571  <a href="#prereq
+-00000710: 7569 7369 7465 7322 3e50 7265 7265 7175  uisites">Prerequ
+-00000720: 6973 6974 6573 3c2f 613e 3c2f 6c69 3e0d  isites</a></li>.
+-00000730: 0a20 2020 2020 2020 203c 6c69 3e3c 6120  .        <li><a 
+-00000740: 6872 6566 3d22 2369 6e73 7461 6c6c 6174  href="#installat
+-00000750: 696f 6e22 3e49 6e73 7461 6c6c 6174 696f  ion">Installatio
+-00000760: 6e3c 2f61 3e3c 2f6c 693e 0d0a 2020 2020  n</a></li>..    
+-00000770: 2020 3c2f 756c 3e0d 0a20 2020 203c 2f6c    </ul>..    </l
+-00000780: 693e 0d0a 2020 2020 3c6c 693e 3c61 2068  i>..    <li><a h
+-00000790: 7265 663d 2223 636f 6e74 7269 6275 7469  ref="#contributi
+-000007a0: 6e67 223e 436f 6e74 7269 6275 7469 6e67  ng">Contributing
+-000007b0: 3c2f 613e 3c2f 6c69 3e0d 0a20 2020 203c  </a></li>..    <
+-000007c0: 6c69 3e3c 6120 6872 6566 3d22 236c 6963  li><a href="#lic
+-000007d0: 656e 7365 223e 4c69 6365 6e73 653c 2f61  ense">License</a
+-000007e0: 3e3c 2f6c 693e 0d0a 2020 3c2f 6f6c 3e0d  ></li>..  </ol>.
+-000007f0: 0a3c 2f64 6574 6169 6c73 3e0d 0a0d 0a2d  .</details>....-
+-00000800: 2d2d 0d0a 2323 2044 6f63 756d 656e 7473  --..## Documents
+-00000810: 0d0a 0d0a 4120 6465 7461 696c 6564 2072  ....A detailed r
+-00000820: 6576 6965 7720 6f66 2074 6865 2066 6972  eview of the fir
+-00000830: 6d77 6172 6520 6269 6e61 7269 6573 2074  mware binaries t
+-00000840: 6861 7420 6172 6520 7573 6564 2074 6f20  hat are used to 
+-00000850: 7570 6461 7465 2046 726f 6e74 6965 7220  update Frontier 
+-00000860: 536d 6172 7420 6465 7669 6365 7369 7320  Smart devicesis 
+-00000870: 7072 6f76 6964 6564 2069 6e20 7468 6520  provided in the 
+-00000880: 666f 6c6c 6f77 696e 6720 646f 6375 6d65  following docume
+-00000890: 6e74 3a20 5b60 6669 726d 7761 7265 2d32  nt: [`firmware-2
+-000008a0: 2e30 605d 2868 7474 7073 3a2f 2f67 6974  .0`](https://git
+-000008b0: 6875 622e 636f 6d2f 4d61 7472 6978 4564  hub.com/MatrixEd
+-000008c0: 6974 6f72 2f66 726f 6e74 6965 722d 736d  itor/frontier-sm
+-000008d0: 6172 742d 6170 692f 626c 6f62 2f6d 6169  art-api/blob/mai
+-000008e0: 6e2f 646f 6373 2f66 6972 6d77 6172 652d  n/docs/firmware-
+-000008f0: 322e 302e 6d64 292e 2054 6865 2046 5341  2.0.md). The FSA
+-00000900: 5049 2028 4e65 7452 656d 6f74 6541 7069  PI (NetRemoteApi
+-00000910: 2920 6279 2046 726f 6e74 6965 722d 536d  ) by Frontier-Sm
+-00000920: 6172 7420 6973 2064 6573 6372 6962 6564  art is described
+-00000930: 2068 6572 653a 205b 6672 6f6e 7469 6572   here: [frontier
+-00000940: 2d73 6d61 7274 2d61 7069 2064 6f63 756d  -smart-api docum
+-00000950: 656e 7461 7469 6f6e 5d28 6874 7470 733a  entation](https:
+-00000960: 2f2f 6672 6f6e 7469 6572 2d73 6d61 7274  //frontier-smart
+-00000970: 2d61 7069 2e72 6561 6474 6865 646f 6373  -api.readthedocs
+-00000980: 2e69 6f2f 292e 2046 6f72 2064 6563 6f6d  .io/). For decom
+-00000990: 7069 6c69 6e67 2074 6865 2045 434d 4153  piling the ECMAS
+-000009a0: 6372 6970 740d 0a0d 0a2a 2a4e 6f74 6963  cript....**Notic
+-000009b0: 6520 2855 4e49 5820 6f6e 6c79 292a 2a3a  e (UNIX only)**:
+-000009c0: 2053 696e 6365 2076 6572 7369 6f6e 2060   Since version `
+-000009d0: 302e 322e 3060 2074 6865 7265 2069 7320  0.2.0` there is 
+-000009e0: 616e 6f74 6865 7220 7375 622d 6d6f 6475  another sub-modu
+-000009f0: 6c65 2070 6c61 6365 6420 696e 2074 6865  le placed in the
+-00000a00: 2060 6673 6170 6960 2064 6972 6563 746f   `fsapi` directo
+-00000a10: 7279 202d 206e 616d 6564 2060 6563 6d61  ry - named `ecma
+-00000a20: 7363 7269 7074 602e 2049 7473 2066 756e  script`. Its fun
+-00000a30: 6374 696f 6e61 6c69 7469 6573 2061 7265  ctionalities are
+-00000a40: 2064 6573 6372 6962 6564 2069 6e20 7468   described in th
+-00000a50: 6520 5b66 7361 7069 2e65 636d 6173 6372  e [fsapi.ecmascr
+-00000a60: 6970 745d 2868 7474 7073 3a2f 2f66 726f  ipt](https://fro
+-00000a70: 6e74 6965 722d 736d 6172 742d 6170 692e  ntier-smart-api.
+-00000a80: 7265 6164 7468 6564 6f63 732e 696f 2f65  readthedocs.io/e
+-00000a90: 6e2f 6c61 7465 7374 2f61 7069 2f65 636d  n/latest/api/ecm
+-00000aa0: 6173 6372 6970 742f 2920 7061 7274 206f  ascript/) part o
+-00000ab0: 6620 7468 6520 646f 6375 6d65 6e74 6174  f the documentat
+-00000ac0: 696f 6e2e 0d0a 0d0a 2323 204f 7665 7276  ion.....## Overv
+-00000ad0: 6965 770d 0a2d 2d2d 0d0a 0d0a 4173 2073  iew..---....As s
+-00000ae0: 7461 7465 6420 6162 6f76 652c 2074 6869  tated above, thi
+-00000af0: 7320 7265 706f 7369 746f 7279 2070 726f  s repository pro
+-00000b00: 7669 6465 7320 6120 7569 746c 6974 7920  vides a uitlity 
+-00000b10: 746f 2069 6e74 6572 6163 7420 7769 7468  to interact with
+-00000b20: 2074 6865 2046 5341 5049 2028 4672 6f6e   the FSAPI (Fron
+-00000b30: 7469 6572 2053 6d61 7274 2041 5049 293a  tier Smart API):
+-00000b40: 0d0a 0d0a 6060 6070 7974 686f 6e0d 0a66  ....```python..f
+-00000b50: 726f 6d20 6673 6170 692e 6e65 7472 656d  rom fsapi.netrem
+-00000b60: 6f74 6520 696d 706f 7274 202a 0d0a 0d0a  ote import *....
+-00000b70: 2320 4174 2066 6972 7374 2c20 7765 2068  # At first, we h
+-00000b80: 6176 6520 746f 2064 6563 6c61 7265 206f  ave to declare o
+-00000b90: 7572 2064 6576 6963 650d 0a72 6164 696f  ur device..radio
+-00000ba0: 203d 2052 6164 696f 4874 7470 2827 3132   = RadioHttp('12
+-00000bb0: 372e 302e 302e 3127 290d 0a0d 0a23 2054  7.0.0.1')....# T
+-00000bc0: 6f20 7175 6572 7920 7468 6520 6672 6965  o query the frie
+-00000bd0: 6e64 6c79 206e 616d 6520 6f66 2061 2072  ndly name of a r
+-00000be0: 6164 696f 2c20 7369 6d70 6c65 2063 616c  adio, simple cal
+-00000bf0: 6c20 6e65 7472 656d 6f74 655f 7265 7175  l netremote_requ
+-00000c00: 6573 740d 0a72 6573 756c 7420 3d20 6e65  est..result = ne
+-00000c10: 7472 656d 6f74 655f 7265 7175 6573 7428  tremote_request(
+-00000c20: 4745 542c 206e 6f64 6573 2e42 6173 6553  GET, nodes.BaseS
+-00000c30: 7973 496e 666f 4672 6965 6e64 6c79 4e61  ysInfoFriendlyNa
+-00000c40: 6d65 2c20 7261 6469 6f29 0d0a 0d0a 2320  me, radio)....# 
+-00000c50: 5468 6520 7265 7375 6c74 2077 696c 6c20  The result will 
+-00000c60: 6265 206f 6620 7479 7065 2022 4261 7365  be of type "Base
+-00000c70: 5379 7349 6e66 6f46 7269 656e 646c 794e  SysInfoFriendlyN
+-00000c80: 616d 6522 0d0a 6e6f 6465 203d 2072 6573  ame"..node = res
+-00000c90: 756c 742e 636f 6e74 656e 740d 0a70 7269  ult.content..pri
+-00000ca0: 6e74 2822 4672 6965 6e64 6c79 4e61 6d65  nt("FriendlyName
+-00000cb0: 3a22 2c20 6e6f 6465 2e76 616c 7565 290d  :", node.value).
+-00000cc0: 0a60 6060 0d0a 0d0a 4c69 7374 206e 6f64  .```....List nod
+-00000cd0: 6573 2061 6e64 2065 6469 7461 626c 6520  es and editable 
+-00000ce0: 6e6f 6465 7320 6361 6e20 6265 2071 7565  nodes can be que
+-00000cf0: 7269 6564 2061 7320 7765 6c6c 2028 7769  ried as well (wi
+-00000d00: 7468 2060 4c49 5354 5f47 4554 5f4e 4558  th `LIST_GET_NEX
+-00000d10: 5460 2061 6e64 2060 5345 5460 292e 204d  T` and `SET`). M
+-00000d20: 616b 6520 7375 7265 2079 6f75 2072 6561  ake sure you rea
+-00000d30: 6420 7468 6520 4150 492d 446f 6373 2062  d the API-Docs b
+-00000d40: 6566 6f72 6520 6170 706c 7969 6e67 2072  efore applying r
+-00000d50: 616e 646f 6d20 7661 6c75 6573 2074 6f20  andom values to 
+-00000d60: 6564 6974 6162 6c65 206e 6f64 6573 2028  editable nodes (
+-00000d70: 5b6c 696e 6b5d 2868 7474 7073 3a2f 2f66  [link](https://f
+-00000d80: 726f 6e74 6965 722d 736d 6172 742d 6170  rontier-smart-ap
+-00000d90: 692e 7265 6164 7468 6564 6f63 732e 696f  i.readthedocs.io
+-00000da0: 2f65 6e2f 6c61 7465 7374 2f61 7069 2f6e  /en/latest/api/n
+-00000db0: 6574 7265 6d6f 7465 2f69 6e64 6578 2e68  etremote/index.h
+-00000dc0: 746d 6c29 292e 0d0a 0d0a 546f 2062 6520  tml)).....To be 
+-00000dd0: 6162 6c65 2074 6f20 7061 7273 6520 4953  able to parse IS
+-00000de0: 5520 6669 726d 7761 7265 2066 696c 6573  U firmware files
+-00000df0: 2c20 616e 2069 6e73 7461 6e63 6520 6f66  , an instance of
+-00000e00: 2061 6e20 6049 5355 496e 7370 6563 746f   an `ISUInspecto
+-00000e10: 7260 2073 686f 756c 6420 2062 6520 6372  r` should  be cr
+-00000e20: 6561 7465 642e 2054 6865 2073 696d 706c  eated. The simpl
+-00000e30: 6573 7420 7761 7920 6973 2074 6f20 6465  est way is to de
+-00000e40: 6669 6e65 2061 2073 7472 696e 6720 7468  fine a string th
+-00000e50: 6174 2063 6f6e 7461 696e 7320 7468 6520  at contains the 
+-00000e60: 7072 6f64 7563 7420 7370 6563 6966 6963  product specific
+-00000e70: 6174 696f 6e3a 0d0a 0d0a 6060 6070 7974  ation:....```pyt
+-00000e80: 686f 6e0d 0a66 726f 6d20 6673 6170 692e  hon..from fsapi.
+-00000e90: 6973 7520 696d 706f 7274 202a 0d0a 0d0a  isu import *....
+-00000ea0: 2320 6765 7420 7468 6520 696e 7370 6563  # get the inspec
+-00000eb0: 746f 7220 696e 7374 616e 6365 2066 6f72  tor instance for
+-00000ec0: 2069 722d 6d6d 692d 4653 3230 3236 2d2e   ir-mmi-FS2026-.
+-00000ed0: 2e2e 0d0a 696e 7370 6563 746f 7220 3d20  ....inspector = 
+-00000ee0: 6765 745f 696e 7374 616e 6365 2827 6972  get_instance('ir
+-00000ef0: 2f6d 6d69 2f46 5332 3032 3627 290d 0a0d  /mmi/FS2026')...
+-00000f00: 0a23 2054 6f20 696e 7370 6563 7420 6669  .# To inspect fi
+-00000f10: 6c65 2077 6520 6e65 6564 2061 2049 5355  le we need a ISU
+-00000f20: 4669 6c65 4275 6666 6572 0d0a 6275 6620  FileBuffer..buf 
+-00000f30: 3d20 4953 5546 696c 6542 7566 6665 7228  = ISUFileBuffer(
+-00000f40: 2269 722d 6d6d 692d 4653 3230 3236 2d2e  "ir-mmi-FS2026-.
+-00000f50: 2e2e 6973 752e 6269 6e22 290d 0a0d 0a23  ..isu.bin")....#
+-00000f60: 206c 6f61 6420 616e 2049 5355 4865 6164   load an ISUHead
+-00000f70: 6572 206f 626a 6563 7420 616e 6420 7072  er object and pr
+-00000f80: 696e 7420 7468 6520 6c6f 6164 6564 2064  int the loaded d
+-00000f90: 6174 610d 0a68 6561 6465 7220 3d20 696e  ata..header = in
+-00000fa0: 7370 6563 746f 722e 6765 745f 6865 6164  spector.get_head
+-00000fb0: 6572 2862 7566 2c20 7665 7262 6f73 653d  er(buf, verbose=
+-00000fc0: 5472 7565 290d 0a70 7269 6e74 2868 6561  True)..print(hea
+-00000fd0: 6465 7229 0d0a 6060 600d 0a0d 0a53 6565  der)..```....See
+-00000fe0: 206d 6f72 6520 6578 616d 706c 6573 2061   more examples a
+-00000ff0: 6e64 2075 7361 6765 2069 6e66 6f72 6d61  nd usage informa
+-00001000: 7469 6f6e 206f 6e20 7468 6973 206c 6962  tion on this lib
+-00001010: 7261 7279 2061 7420 7468 6520 4150 492d  rary at the API-
+-00001020: 446f 6373 205b 6865 7265 5d28 6874 7470  Docs [here](http
+-00001030: 733a 2f2f 6672 6f6e 7469 6572 2d73 6d61  s://frontier-sma
+-00001040: 7274 2d61 7069 2e72 6561 6474 6865 646f  rt-api.readthedo
+-00001050: 6373 2e69 6f29 2e0d 0a0d 0a23 2320 546f  cs.io).....## To
+-00001060: 6f6c 730d 0a0d 0a54 6865 7265 2061 7265  ols....There are
+-00001070: 2074 6872 6565 2074 6f6f 6c73 2069 6e63   three tools inc
+-00001080: 6c75 6465 6420 696e 2074 6869 7320 7265  luded in this re
+-00001090: 706f 7369 746f 7279 3a20 6066 7361 7069  pository: `fsapi
+-000010a0: 2e69 7375 602c 2020 6066 7361 7069 6020  .isu`,  `fsapi` 
+-000010b0: 616e 6420 6066 7361 7069 2e65 636d 6173  and `fsapi.ecmas
+-000010c0: 6372 6970 7460 2e20 5468 6573 6520 6361  cript`. These ca
+-000010d0: 6e20 6265 2069 6e73 7461 6c6c 6564 2064  n be installed d
+-000010e0: 6972 6563 746c 7920 7669 6120 7069 703a  irectly via pip:
+-000010f0: 0d0a 0d0a 6060 6062 6173 680d 0a24 2070  ....```bash..$ p
+-00001100: 6970 2069 6e73 7461 6c6c 2066 7361 7069  ip install fsapi
+-00001110: 2d74 6f6f 6c73 0d0a 6060 600d 0a0d 0a49  -tools..```....I
+-00001120: 6620 796f 7520 7761 6e74 2074 6f20 636c  f you want to cl
+-00001130: 6f6e 6520 7468 6973 2072 6570 6f73 6974  one this reposit
+-00001140: 6f72 7920 616e 6420 696e 7374 616c 6c20  ory and install 
+-00001150: 7468 6520 6465 7665 6c6f 706d 656e 7420  the development 
+-00001160: 7665 7273 696f 6e20 6f66 2074 6869 7320  version of this 
+-00001170: 7265 706f 7369 746f 7279 2c20 666f 6c6c  repository, foll
+-00001180: 6f77 2074 6865 206e 6578 7420 696e 7374  ow the next inst
+-00001190: 7275 6374 696f 6e73 2e0d 0a0d 0a23 2323  ructions.....###
+-000011a0: 2320 5f5f 5072 6572 6571 7569 7369 7465  # __Prerequisite
+-000011b0: 735f 5f0d 0a0d 0a4d 616b 6520 7375 7265  s__....Make sure
+-000011c0: 2079 6f75 2068 6176 6520 696e 7374 616c   you have instal
+-000011d0: 6c65 6420 7468 6520 6c61 7465 7374 2076  led the latest v
+-000011e0: 6572 7369 6f6e 206f 6620 7079 7468 6f6e  ersion of python
+-000011f0: 2060 7365 7475 7074 6f6f 6c73 6020 616e   `setuptools` an
+-00001200: 6420 6070 6970 603a 0d0a 6060 6062 6173  d `pip`:..```bas
+-00001210: 680d 0a24 2070 6970 2069 6e73 7461 6c6c  h..$ pip install
+-00001220: 2073 6574 7570 746f 6f6c 730d 0a60 6060   setuptools..```
+-00001230: 0d0a 0d0a 2323 2323 205f 5f49 6e73 7461  ....#### __Insta
+-00001240: 6c6c 6174 696f 6e5f 5f0d 0a0d 0a54 6869  llation__....Thi
+-00001250: 7320 7265 7370 6f73 6974 6f72 7920 7573  s respository us
+-00001260: 6573 2073 6574 7570 746f 6f6c 7320 746f  es setuptools to
+-00001270: 2069 6e73 7461 6c6c 2074 6865 2070 7974   install the pyt
+-00001280: 686f 6e20 7061 636b 6167 6573 206c 6f63  hon packages loc
+-00001290: 616c 6c79 2e20 416c 6c20 6465 7065 6e64  ally. All depend
+-000012a0: 6e65 6369 6573 2075 7365 6420 6279 2074  necies used by t
+-000012b0: 6865 2070 726f 7669 6465 6420 6c69 6272  he provided libr
+-000012c0: 6172 6965 7320 7368 6f75 6c64 2062 6520  aries should be 
+-000012d0: 696e 7374 616c 6c65 6420 6279 2064 6566  installed by def
+-000012e0: 6175 6c74 2e20 546f 2069 6e73 7461 6c6c  ault. To install
+-000012f0: 2074 6865 2070 7265 6665 7272 6564 2070   the preferred p
+-00001300: 6163 6b61 6765 2c20 6a75 7374 2074 7970  ackage, just typ
+-00001310: 6520 7468 6520 666f 6c6c 6f77 696e 6720  e the following 
+-00001320: 636f 6d6d 616e 643a 0d0a 0d0a 6060 6062  command:....```b
+-00001330: 6173 680d 0a24 2070 6970 2069 6e73 7461  ash..$ pip insta
+-00001340: 6c6c 202e 0d0a 6060 6020 0d0a 0d0a 5468  ll ...``` ....Th
+-00001350: 6973 2063 6f6d 6d61 6e64 2073 686f 756c  is command shoul
+-00001360: 6420 696e 7374 616c 6c20 7468 6520 7365  d install the se
+-00001370: 6c65 6374 6564 206c 6962 7261 7279 2074  lected library t
+-00001380: 6f20 7468 6520 6c6f 6361 6c20 7369 7465  o the local site
+-00001390: 2d70 6163 6b61 6765 732e 204e 6f77 2c20  -packages. Now, 
+-000013a0: 796f 7520 6172 6520 676f 6f64 2074 6f20  you are good to 
+-000013b0: 676f 202d 2065 7865 6375 7465 2074 6865  go - execute the
+-000013c0: 206d 6f64 756c 6520 7769 7468 0d0a 0d0a   module with....
+-000013d0: 6060 6062 6173 680d 0a70 7974 686f 6e33  ```bash..python3
+-000013e0: 202d 6d20 246d 6f64 756c 6520 2d2d 6865   -m $module --he
+-000013f0: 6c70 0d0a 6060 600d 0a0d 0a0d 0a23 2323  lp..```......###
+-00001400: 2049 5355 496e 7370 6563 746f 720d 0a2d   ISUInspector..-
+-00001410: 2d2d 0d0a 0d0a 6060 6063 6f6e 736f 6c65  --....```console
+-00001420: 0d0a 2420 7079 7468 6f6e 3320 2d6d 2066  ..$ python3 -m f
+-00001430: 7361 7069 2e69 7375 202d 2d68 656c 700d  sapi.isu --help.
+-00001440: 0a75 7361 6765 3a20 5f5f 6d61 696e 5f5f  .usage: __main__
+-00001450: 2e70 7920 5b2d 685d 202d 6966 2049 4620  .py [-h] -if IF 
+-00001460: 5b2d 6f66 204f 465d 205b 2d2d 7665 7262  [-of OF] [--verb
+-00001470: 6f73 655d 205b 2d69 6e73 7020 494e 5350  ose] [-insp INSP
+-00001480: 5d20 5b2d 2d68 6561 6465 725d 205b 2d2d  ] [--header] [--
+-00001490: 6172 6368 6976 655d 205b 2d65 5d20 5b2d  archive] [-e] [-
+-000014a0: 2d63 6f72 655d 0d0a 0d0a 6f70 7469 6f6e  -core]....option
+-000014b0: 616c 2061 7267 756d 656e 7473 3a0d 0a20  al arguments:.. 
+-000014c0: 202d 682c 202d 2d68 656c 7020 2020 2020   -h, --help     
+-000014d0: 2020 2020 2020 2073 686f 7720 7468 6973         show this
+-000014e0: 2068 656c 7020 6d65 7373 6167 6520 616e   help message an
+-000014f0: 6420 6578 6974 0d0a 2020 2d69 6620 4946  d exit..  -if IF
+-00001500: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001510: 5468 6520 696e 7075 7420 6669 6c65 2028  The input file (
+-00001520: 6f70 7469 6f6e 616c 202a 2e69 7375 2e62  optional *.isu.b
+-00001530: 696e 206f 7220 2a2e 6f74 612e 6269 6e20  in or *.ota.bin 
+-00001540: 6578 7465 6e73 696f 6e29 0d0a 2020 2d6f  extension)..  -o
+-00001550: 6620 4f46 2020 2020 2020 2020 2020 2020  f OF            
+-00001560: 2020 2020 5468 6520 6f75 7470 7574 2066      The output f
+-00001570: 696c 6520 2846 6f72 6d61 743a 2058 4d4c  ile (Format: XML
+-00001580: 292e 0d0a 2020 2d2d 7665 7262 6f73 652c  )...  --verbose,
+-00001590: 202d 7620 2020 2020 2020 2020 5072 696e   -v         Prin
+-000015a0: 7473 2075 7365 6675 6c20 696e 666f 726d  ts useful inform
+-000015b0: 6174 696f 6e20 6475 7269 6e67 2074 6865  ation during the
+-000015c0: 2073 7065 6369 6669 6564 2070 726f 6365   specified proce
+-000015d0: 7373 2e0d 0a20 202d 2d69 6e73 7020 494e  ss...  --insp IN
+-000015e0: 5350 2c20 2d49 2049 4e53 5020 2053 6574  SP, -I INSP  Set
+-000015f0: 7320 7468 6520 4953 5549 6e73 7065 6374  s the ISUInspect
+-00001600: 6f72 2064 6573 6372 6970 746f 722c 2077  or descriptor, w
+-00001610: 6869 6368 2077 696c 6c20 6265 2075 7365  hich will be use
+-00001620: 6420 746f 2072 6574 7269 6576 6520 7468  d to retrieve th
+-00001630: 6520 696e 7370 6563 746f 7220 696e 7374  e inspector inst
+-00001640: 616e 6365 2e0d 0a0d 0a69 6e66 6f72 6d61  ance.....informa
+-00001650: 7469 6f6e 2067 6174 6865 7269 6e67 3a0d  tion gathering:.
+-00001660: 0a20 202d 2d68 6561 6465 722c 202d 4820  .  --header, -H 
+-00001670: 2020 2020 2020 2020 2050 6172 7365 7320           Parses 
+-00001680: 7468 6520 6865 6164 6572 206f 6620 7468  the header of th
+-00001690: 6520 6769 7665 6e20 6669 6c65 2061 6e64  e given file and
+-000016a0: 2065 7874 7261 6374 7320 696e 666f 726d   extracts inform
+-000016b0: 6174 696f 6e2e 0d0a 2020 2d2d 6172 6368  ation...  --arch
+-000016c0: 6976 652c 202d 4120 2020 2020 2020 2020  ive, -A         
+-000016d0: 5061 7273 6573 2074 6865 2064 6972 6563  Parses the direc
+-000016e0: 746f 7279 2061 7263 6869 7665 2e0d 0a0d  tory archive....
+-000016f0: 0a65 7874 7261 6374 2064 6174 613a 0d0a  .extract data:..
+-00001700: 2020 2d65 2c20 2d2d 6578 7472 6163 7420    -e, --extract 
+-00001710: 2020 2020 2020 2020 4578 7472 6163 7420          Extract 
+-00001720: 6461 7461 2028 7573 7561 6c6c 7920 636f  data (usually co
+-00001730: 6d62 696e 6564 2077 6974 6820 6f74 6865  mbined with othe
+-00001740: 7220 7061 7261 6d65 7465 7273 292e 0d0a  r parameters)...
+-00001750: 2020 2d2d 636f 7265 2c20 2d43 2020 2020    --core, -C    
+-00001760: 2020 2020 2020 2020 4578 7472 6163 7420          Extract 
+-00001770: 7468 6520 636f 6d70 7265 7373 6564 2063  the compressed c
+-00001780: 6f72 6520 7061 7274 6974 696f 6e20 736f  ore partition so
+-00001790: 7572 6365 2e0d 0a60 6060 0d0a 0d0a 3c64  urce...```....<d
+-000017a0: 6574 6169 6c73 3e0d 0a3c 7375 6d6d 6172  etails>..<summar
+-000017b0: 793e 4578 616d 706c 6520 6f66 203c 636f  y>Example of <co
+-000017c0: 6465 3e66 7361 7069 2e69 7375 3c2f 636f  de>fsapi.isu</co
+-000017d0: 6465 3e3a 3c2f 7375 6d6d 6172 793e 0d0a  de>:</summary>..
+-000017e0: 0d0a 6060 6063 6f6e 736f 6c65 0d0a 2420  ..```console..$ 
+-000017f0: 7079 7468 6f6e 3320 2d6d 2066 7361 7069  python3 -m fsapi
+-00001800: 2e69 7375 202d 6966 2062 696e 2f46 5332  .isu -if bin/FS2
+-00001810: 3032 362f 3035 3030 2f69 722d 6d6d 692d  026/0500/ir-mmi-
+-00001820: 4653 3230 3236 2d30 3530 302d 3030 3135  FS2026-0500-0015
+-00001830: 2e32 2e35 2e31 352e 4558 3434 3437 382d  .2.5.15.EX44478-
+-00001840: 3142 392e 6973 752e 6269 6e20 2d48 202d  1B9.isu.bin -H -
+-00001850: 760d 0a20 20e2 95a6 e295 94e2 9590 e295  v..  ...........
+-00001860: 97e2 95a6 20e2 95a6 2020 20e2 95a6 e294  .... ...   .....
+-00001870: 8ce2 9490 e294 8ce2 948c e294 80e2 9490  ................
+-00001880: e294 8ce2 9480 e294 90e2 948c e294 80e2  ................
+-00001890: 9490 e294 8ce2 9480 e294 90e2 948c e294  ................
+-000018a0: ace2 9490 e294 8ce2 9480 e294 90e2 94ac  ................
+-000018b0: e294 80e2 9490 0d0a 2020 e295 91e2 959a  ........  ......
+-000018c0: e295 90e2 9597 e295 9120 e295 91e2 9480  ......... ......
+-000018d0: e294 80e2 9480 e295 91e2 9482 e294 82e2  ................
+-000018e0: 9482 e294 94e2 9480 e294 90e2 949c e294  ................
+-000018f0: 80e2 9498 e294 9ce2 94a4 20e2 9482 2020  .......... ...  
+-00001900: 20e2 9482 20e2 9482 20e2 9482 e294 9ce2   ... ... .......
+-00001910: 94ac e294 980d 0a20 20e2 95a9 e295 9ae2  .......  .......
+-00001920: 9590 e295 9de2 959a e295 90e2 959d 2020  ..............  
+-00001930: 20e2 95a9 e294 98e2 9494 e294 98e2 9494   ...............
+-00001940: e294 80e2 9498 e294 b420 20e2 9494 e294  .........  .....
+-00001950: 80e2 9498 e294 94e2 9480 e294 9820 e294  ............. ..
+-00001960: b420 e294 94e2 9480 e294 98e2 94b4 e294  . ..............
+-00001970: 94e2 9480 0d0a e294 80e2 9480 e294 80e2  ................
+-00001980: 9480 e294 80e2 9480 e294 80e2 9480 e294  ................
+-00001990: 80e2 9480 e294 80e2 9480 e294 80e2 9480  ................
+-000019a0: e294 80e2 9480 e294 80e2 9480 e294 80e2  ................
+-000019b0: 9480 e294 80e2 9480 e294 80e2 9480 e294  ................
+-000019c0: 80e2 9480 e294 80e2 9480 e294 80e2 9480  ................
+-000019d0: e294 80e2 9480 e294 80e2 9480 e294 80e2  ................
+-000019e0: 9480 e294 80e2 9480 e294 80e2 9480 e294  ................
+-000019f0: 80e2 9480 e294 800d 0a0d 0a5b 2b5d 2041  ...........[+] A
+-00001a00: 6e61 6c79 7a69 6e67 2049 5355 2046 696c  nalyzing ISU Fil
+-00001a10: 6520 6865 6164 6572 2e2e 2e0d 0a20 202d  e header.....  -
+-00001a20: 204d 654f 5320 5665 7273 696f 6e3a 2031   MeOS Version: 1
+-00001a30: 0d0a 2020 2d20 5665 7273 696f 6e3a 2027  ..  - Version: '
+-00001a40: 322e 352e 3135 2e45 5834 3434 3738 2d31  2.5.15.EX44478-1
+-00001a50: 4239 270d 0a20 2020 207c 2053 444b 2056  B9'..    | SDK V
+-00001a60: 6572 7369 6f6e 3a20 4952 322e 352e 3135  ersion: IR2.5.15
+-00001a70: 2053 444b 0d0a 2020 2020 7c20 5265 7669   SDK..    | Revi
+-00001a80: 7369 6f6e 3a20 3434 3437 380d 0a20 2020  sion: 44478..   
+-00001a90: 207c 2042 7261 6e63 683a 204e 6f6e 650d   | Branch: None.
+-00001aa0: 0a20 202d 2043 7573 746f 6d69 7361 7469  .  - Customisati
+-00001ab0: 6f6e 3a20 2769 722d 6d6d 692d 4653 3230  on: 'ir-mmi-FS20
+-00001ac0: 3236 2d30 3530 302d 3030 3135 270d 0a20  26-0500-0015'.. 
+-00001ad0: 2020 207c 2044 6576 6963 6554 7970 653a     | DeviceType:
+-00001ae0: 2069 6e74 6572 6e65 7420 7261 6469 6f0d   internet radio.
+-00001af0: 0a20 2020 207c 2049 6e74 6572 6661 6365  .    | Interface
+-00001b00: 3a20 6d75 6c74 6920 6d65 6469 6120 696e  : multi media in
+-00001b10: 7465 7266 6163 650d 0a20 2020 207c 204d  terface..    | M
+-00001b20: 6f64 756c 653a 2056 656e 6963 6520 3620  odule: Venice 6 
+-00001b30: 2876 6572 7369 6f6e 3d30 3530 3029 0d0a  (version=0500)..
+-00001b40: 0d0a 5b2b 5d20 5379 7374 656d 456e 7472  ..[+] SystemEntr
+-00001b50: 6965 733a 0d0a 2020 2d20 5379 7345 6e74  ies:..  - SysEnt
+-00001b60: 7279 3a20 7479 7065 3d30 2c20 7061 7274  ry: type=0, part
+-00001b70: 6974 696f 6e3d 312c 2077 6562 5f70 6172  ition=1, web_par
+-00001b80: 7469 7469 6f6e 3d46 616c 7365 0d0a 2020  tition=False..  
+-00001b90: 2d20 5379 7345 6e74 7279 3a20 7479 7065  - SysEntry: type
+-00001ba0: 3d30 2c20 7061 7274 6974 696f 6e3d 322c  =0, partition=2,
+-00001bb0: 2077 6562 5f70 6172 7469 7469 6f6e 3d54   web_partition=T
+-00001bc0: 7275 650d 0a20 202d 2053 7973 456e 7472  rue..  - SysEntr
+-00001bd0: 793a 2074 7970 653d 312c 2070 6172 7469  y: type=1, parti
+-00001be0: 7469 6f6e 3d31 342c 2077 6562 5f70 6172  tion=14, web_par
+-00001bf0: 7469 7469 6f6e 3d46 616c 7365 0d0a 0d0a  tition=False....
+-00001c00: 5b2b 5d20 4465 636c 6172 6564 2046 6965  [+] Declared Fie
+-00001c10: 6c64 733a 0d0a 2020 2d20 4465 636f 6d70  lds:..  - Decomp
+-00001c20: 4275 6666 6572 3a20 4275 6666 6572 3d32  Buffer: Buffer=2
+-00001c30: 3935 3730 3533 3935 320d 0a20 202d 2043  957053952..  - C
+-00001c40: 6f6d 7053 697a 653a 2053 697a 653d 3133  ompSize: Size=13
+-00001c50: 3834 3331 390d 0a20 202d 2044 6563 6f6d  84319..  - Decom
+-00001c60: 7053 697a 653a 2053 697a 653d 3236 3231  pSize: Size=2621
+-00001c70: 3530 340d 0a20 202d 2043 6f64 6553 697a  504..  - CodeSiz
+-00001c80: 653a 2053 697a 653d 3737 3630 0d0a 2020  e: Size=7760..  
+-00001c90: 2d20 436f 6d70 4275 6666 6572 3a20 4275  - CompBuffer: Bu
+-00001ca0: 6666 6572 3d32 3935 3237 3930 3031 360d  ffer=2952790016.
+-00001cb0: 0a60 6060 0d0a 0d0a 3c2f 6465 7461 696c  .```....</detail
+-00001cc0: 733e 0d0a 0d0a 2d2d 2d0d 0a0d 0a23 2323  s>....---....###
+-00001cd0: 2046 5341 5049 0d0a 0d0a 6060 6063 6f6e   FSAPI....```con
+-00001ce0: 736f 6c65 0d0a 2420 7079 7468 6f6e 3320  sole..$ python3 
+-00001cf0: 2d6d 2066 7361 7069 202d 2d68 656c 700d  -m fsapi --help.
+-00001d00: 0a75 7361 6765 3a20 5f5f 6d61 696e 5f5f  .usage: __main__
+-00001d10: 2e70 7920 5b2d 685d 205b 2d57 2050 494e  .py [-h] [-W PIN
+-00001d20: 5d20 5b2d 765d 207b 6578 706c 6f72 652c  ] [-v] {explore,
+-00001d30: 6973 752c 6765 742c 7365 742c 6c69 7374  isu,get,set,list
+-00001d40: 7d20 2e2e 2e20 7461 7267 6574 0d0a 0d0a  } ... target....
+-00001d50: 4120 7079 7468 6f6e 2069 6d70 6c65 6d65  A python impleme
+-00001d60: 6e74 6174 696f 6e20 6f66 2074 6865 2046  ntation of the F
+-00001d70: 5341 5049 2077 6974 6820 616c 6c20 706f  SAPI with all po
+-00001d80: 7373 6962 6c65 206e 6f64 6573 2e20 596f  ssible nodes. Yo
+-00001d90: 7520 6361 6e20 6578 6563 7574 6520 7468  u can execute th
+-00001da0: 6520 6673 6170 692e 6973 7520 6f72 2066  e fsapi.isu or f
+-00001db0: 7361 7069 2e65 636d 6173 6372 6970 7420  sapi.ecmascript 
+-00001dc0: 6d6f 6475 6c65 2062 7920 7479 7069 6e67  module by typing
+-00001dd0: 2074 6865 2073 616d 6520 636f 6d6d 616e   the same comman
+-00001de0: 6420 6275 7420 7769 7468 2074 6865 6972  d but with their
+-00001df0: 206d 6f64 756c 6520 6e61 6d65 2e0d 0a0d   module name....
+-00001e00: 0a70 6f73 6974 696f 6e61 6c20 6172 6775  .positional argu
+-00001e10: 6d65 6e74 733a 0d0a 2020 7b65 7870 6c6f  ments:..  {explo
+-00001e20: 7265 2c69 7375 2c67 6574 2c73 6574 2c6c  re,isu,get,set,l
+-00001e30: 6973 747d 0d0a 2020 2020 2020 2020 2020  ist}..          
+-00001e40: 2020 2020 2020 2020 2020 2020 2020 7375                su
+-00001e50: 622d 636f 6d6d 616e 6473 3a0d 0a20 2020  b-commands:..   
+-00001e60: 2065 7870 6c6f 7265 2020 2020 2020 2020   explore        
+-00001e70: 2020 2020 204e 6f64 6520 4578 706c 6f72       Node Explor
+-00001e80: 6174 696f 6e0d 0a20 2020 2069 7375 2020  ation..    isu  
+-00001e90: 2020 2020 2020 2020 2020 2020 2020 2049                 I
+-00001ea0: 5355 2046 6972 6d77 6172 6520 436f 6e74  SU Firmware Cont
+-00001eb0: 6578 740d 0a20 2020 2067 6574 2020 2020  ext..    get    
+-00001ec0: 2020 2020 2020 2020 2020 2020 2052 6571               Req
+-00001ed0: 7565 7374 2061 2073 696d 706c 6520 7072  uest a simple pr
+-00001ee0: 6f70 6572 7479 0d0a 2020 2020 7365 7420  operty..    set 
+-00001ef0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001f00: 4170 706c 7920 6120 7661 6c75 6520 746f  Apply a value to
+-00001f10: 2061 2073 746f 7265 6420 7072 6f70 6572   a stored proper
+-00001f20: 7479 2e0d 0a20 2020 206c 6973 7420 2020  ty...    list   
+-00001f30: 2020 2020 2020 2020 2020 2020 2051 7565               Que
+-00001f40: 7279 2070 726f 7065 7274 7920 6c69 7374  ry property list
+-00001f50: 730d 0a0d 0a6f 7074 696f 6e61 6c20 6172  s....optional ar
+-00001f60: 6775 6d65 6e74 733a 0d0a 2020 2d68 2c20  guments:..  -h, 
+-00001f70: 2d2d 6865 6c70 2020 2020 2020 2020 2020  --help          
+-00001f80: 2020 7368 6f77 2074 6869 7320 6865 6c70    show this help
+-00001f90: 206d 6573 7361 6765 2061 6e64 2065 7869   message and exi
+-00001fa0: 740d 0a0d 0a47 6c6f 6261 6c20 6f70 7469  t....Global opti
+-00001fb0: 6f6e 733a 0d0a 2020 7461 7267 6574 2020  ons:..  target  
+-00001fc0: 2020 2020 2020 2020 2020 2020 2020 5468                Th
+-00001fd0: 6520 686f 7374 2061 6464 7265 7373 2069  e host address i
+-00001fe0: 6e20 4950 7634 2066 6f72 6d61 742e 0d0a  n IPv4 format...
+-00001ff0: 2020 2d57 2050 494e 2c20 2d2d 7069 6e20    -W PIN, --pin 
+-00002000: 5049 4e20 2020 2020 4120 5049 4e20 7573  PIN     A PIN us
+-00002010: 6564 2062 7920 7468 6520 6465 7669 6365  ed by the device
+-00002020: 2028 6465 6661 756c 7420 3132 3334 292e   (default 1234).
+-00002030: 0d0a 2020 2d76 2c20 2d2d 7665 7262 6f73  ..  -v, --verbos
+-00002040: 6520 2020 2020 2020 2020 5072 696e 7473  e         Prints
+-00002050: 2075 7365 6675 6c20 696e 666f 726d 6174   useful informat
+-00002060: 696f 6e20 6475 7269 6e67 2074 6865 2073  ion during the s
+-00002070: 7065 6369 6669 6564 2070 726f 6365 7373  pecified process
+-00002080: 2e0d 0a60 6060 0d0a 2020 2020 0d0a 3c64  ...```..    ..<d
+-00002090: 6574 6169 6c73 3e0d 0a3c 7375 6d6d 6172  etails>..<summar
+-000020a0: 793e 4578 616d 706c 6520 6f66 203c 636f  y>Example of <co
+-000020b0: 6465 3e66 7361 7069 3c2f 636f 6465 3e3a  de>fsapi</code>:
+-000020c0: 3c2f 7375 6d6d 6172 793e 0d0a 0d0a 6060  </summary>....``
+-000020d0: 6063 6f6e 736f 6c65 0d0a 2420 7079 7468  `console..$ pyth
+-000020e0: 6f6e 3320 2d6d 2066 7361 7069 2073 6574  on3 -m fsapi set
+-000020f0: 202d 6e20 6e65 7452 656d 6f74 652e 7379   -n netRemote.sy
+-00002100: 732e 696e 666f 2e66 7269 656e 646c 794e  s.info.friendlyN
+-00002110: 616d 6520 2d2d 6172 6773 2076 616c 7565  ame --args value
+-00002120: 3a4d 6564 696f 6e49 5220 2449 505f 4144  :MedionIR $IP_AD
+-00002130: 4452 4553 530d 0a5b 2b5d 2066 7361 7069  DRESS..[+] fsapi
+-00002140: 5265 7370 6f6e 7365 206f 6620 6e65 7452  Response of netR
+-00002150: 656d 6f74 652e 7379 732e 696e 666f 2e66  emote.sys.info.f
+-00002160: 7269 656e 646c 794e 616d 653a 0d0a 2020  riendlyName:..  
+-00002170: 2020 2d20 7374 6174 7573 3a20 4653 5f4f    - status: FS_O
+-00002180: 4b0d 0a0d 0a24 2070 7974 686f 6e33 202d  K....$ python3 -
+-00002190: 6d20 6673 6170 6920 6765 7420 2d6e 206e  m fsapi get -n n
+-000021a0: 6574 5265 6d6f 7465 2e73 7973 2e69 6e66  etRemote.sys.inf
+-000021b0: 6f2e 6672 6965 6e64 6c79 4e61 6d65 2024  o.friendlyName $
+-000021c0: 4950 5f41 4444 5245 5353 0d0a 5b2b 5d20  IP_ADDRESS..[+] 
+-000021d0: 6673 6170 6952 6573 706f 6e73 6520 6f66  fsapiResponse of
+-000021e0: 206e 6574 5265 6d6f 7465 2e73 7973 2e69   netRemote.sys.i
+-000021f0: 6e66 6f2e 6672 6965 6e64 6c79 4e61 6d65  nfo.friendlyName
+-00002200: 3a0d 0a20 2020 202d 2073 7461 7475 733a  :..    - status:
+-00002210: 2046 535f 4f4b 0d0a 2020 2020 2d20 7661   FS_OK..    - va
+-00002220: 6c75 653a 204d 6564 696f 6e49 520d 0a20  lue: MedionIR.. 
+-00002230: 2020 202d 2072 6561 646f 6e6c 793a 2046     - readonly: F
+-00002240: 616c 7365 0d0a 2020 2020 2d20 6e6f 7469  alse..    - noti
+-00002250: 6679 696e 673a 2054 7275 650d 0a0d 0a24  fying: True....$
+-00002260: 2070 7974 686f 6e33 202d 6d20 6673 6170   python3 -m fsap
+-00002270: 6920 6973 7520 2d2d 6669 6e64 2024 4950  i isu --find $IP
+-00002280: 5f41 4444 5245 5353 0d0a 0d0a 5b2b 5d20  _ADDRESS....[+] 
+-00002290: 4765 6e65 7261 7469 6e67 2063 7572 7265  Generating curre
+-000022a0: 6e74 2055 524c 2e2e 2e0d 0a20 2020 202d  nt URL.....    -
+-000022b0: 2075 726c 3a20 6874 7470 733a 2f2f 7570   url: https://up
+-000022c0: 6461 7465 2e77 6966 6972 6164 696f 6672  date.wifiradiofr
+-000022d0: 6f6e 7469 6572 2e63 6f6d 2f55 7064 6174  ontier.com/Updat
+-000022e0: 652e 6173 7078 3f66 3d2f 7570 6461 7465  e.aspx?f=/update
+-000022f0: 732f 6972 2d6d 6d69 2d46 5332 3032 362d  s/ir-mmi-FS2026-
+-00002300: 3035 3030 2d30 3534 392e 322e 3132 2e32  0500-0549.2.12.2
+-00002310: 3563 2e45 5837 3230 3838 2d31 4131 322e  5c.EX72088-1A12.
+-00002320: 6973 752e 6269 6e0d 0a60 6060 0d0a 0d0a  isu.bin..```....
+-00002330: 3c2f 6465 7461 696c 733e 0d0a 0d0a 2d2d  </details>....--
+-00002340: 2d0d 0a0d 0a23 2323 2045 434d 4153 6372  -....### ECMAScr
+-00002350: 6970 740d 0a0d 0a54 6869 7320 6d6f 6475  ipt....This modu
+-00002360: 6c65 2f74 6f6f 6c20 6973 2073 7469 6c6c  le/tool is still
+-00002370: 2075 6e64 6572 2064 6576 656c 6f70 6d65   under developme
+-00002380: 6e74 2061 6e64 2063 616e 2063 6175 7365  nt and can cause
+-00002390: 2065 7272 6f72 7320 616e 2065 7865 6375   errors an execu
+-000023a0: 7469 6f6e 2e20 416c 736f 2c20 7468 6973  tion. Also, this
+-000023b0: 2074 6f6f 6c20 6361 6e20 6f6e 6c79 2062   tool can only b
+-000023c0: 6520 6361 6c6c 6564 206f 6e20 554e 4958  e called on UNIX
+-000023d0: 2073 7973 7465 6d73 2074 6861 7420 6172   systems that ar
+-000023e0: 6520 6162 6c65 2074 6f20 6578 6563 7574  e able to execut
+-000023f0: 6520 7468 6520 602e 2f64 6563 6f6d 7069  e the `./decompi
+-00002400: 6c65 722f 6563 6d61 2d64 6563 6f6d 7069  ler/ecma-decompi
+-00002410: 6c65 7260 2062 696e 6172 792e 0d0a 0d0a  ler` binary.....
+-00002420: 6060 6063 6f6e 736f 6c65 0d0a 2420 7079  ```console..$ py
+-00002430: 202d 6d20 6673 6170 692e 6563 6d61 7363   -m fsapi.ecmasc
+-00002440: 7269 7074 202d 2d68 656c 700d 0a75 7361  ript --help..usa
+-00002450: 6765 3a20 5f5f 6d61 696e 5f5f 2e70 7920  ge: __main__.py 
+-00002460: 5b2d 685d 205b 2d64 5d20 5b2d 6f20 4f55  [-h] [-d] [-o OU
+-00002470: 545d 205b 2d2d 7573 652d 6465 636f 6d70  T] [--use-decomp
+-00002480: 696c 6572 2044 4543 4f4d 5041 5448 5d20  iler DECOMPATH] 
+-00002490: 5b2d 725d 2070 6174 680d 0a0d 0a70 6f73  [-r] path....pos
+-000024a0: 6974 696f 6e61 6c20 6172 6775 6d65 6e74  itional argument
+-000024b0: 733a 0d0a 2020 7061 7468 2020 2020 2020  s:..  path      
+-000024c0: 2020 2020 2020 2020 2020 2020 5468 6520              The 
+-000024d0: 7461 7267 6574 2066 696c 6520 7468 6174  target file that
+-000024e0: 2077 696c 6c20 6265 2075 7365 6420 746f   will be used to
+-000024f0: 206f 7065 7261 7465 206f 6e2e 0d0a 0d0a   operate on.....
+-00002500: 6f70 7469 6f6e 616c 2061 7267 756d 656e  optional argumen
+-00002510: 7473 3a0d 0a20 202d 682c 202d 2d68 656c  ts:..  -h, --hel
+-00002520: 7020 2020 2020 2020 2020 2020 2073 686f  p            sho
+-00002530: 7720 7468 6973 2068 656c 7020 6d65 7373  w this help mess
+-00002540: 6167 6520 616e 6420 6578 6974 0d0a 2020  age and exit..  
+-00002550: 2d64 2c20 2d2d 6465 636f 6d70 696c 6520  -d, --decompile 
+-00002560: 2020 2020 2020 496e 6469 6361 7465 7320        Indicates 
+-00002570: 7468 6174 2074 6865 2067 6976 656e 2069  that the given i
+-00002580: 6e70 7574 2066 696c 6520 7368 6f75 6c64  nput file should
+-00002590: 2062 6520 6465 636f 6d70 696c 6564 2e0d   be decompiled..
+-000025a0: 0a20 202d 6f20 4f55 542c 202d 2d6f 7574  .  -o OUT, --out
+-000025b0: 204f 5554 2020 2020 2054 6865 2070 6174   OUT     The pat
+-000025c0: 6820 7765 7265 2074 6865 2064 6563 6f6d  h were the decom
+-000025d0: 7069 6c65 6420 6f75 7470 7574 2073 686f  piled output sho
+-000025e0: 756c 6420 6265 2073 6176 6564 2e0d 0a0d  uld be saved....
+-000025f0: 0a20 202d 2d75 7365 2d64 6563 6f6d 7069  .  --use-decompi
+-00002600: 6c65 7220 4445 434f 4d50 4154 480d 0a20  ler DECOMPATH.. 
+-00002610: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00002620: 2020 2020 2020 2053 7065 6369 6669 6573         Specifies
+-00002630: 2074 6865 2070 6174 6820 746f 2074 6865   the path to the
+-00002640: 2064 6563 6f6d 7069 6c65 722e 0d0a 2020   decompiler...  
+-00002650: 2d72 2c20 2d2d 7265 6375 7273 6520 2020  -r, --recurse   
+-00002660: 2020 2020 2020 496e 6469 6361 7465 7320        Indicates 
+-00002670: 7468 6174 2061 6c6c 2066 696c 6573 2069  that all files i
+-00002680: 6e20 7468 6520 6769 7665 6e20 6469 7265  n the given dire
+-00002690: 6374 6f72 7920 7368 6f75 6c64 2062 6520  ctory should be 
+-000026a0: 6465 636f 6d70 696c 6564 0d0a 6060 600d  decompiled..```.
+-000026b0: 0a0d 0a0d 0a3c 212d 2d20 4c49 4345 4e53  .....<!-- LICENS
+-000026c0: 4520 2d2d 3e0d 0a23 2320 4c69 6365 6e73  E -->..## Licens
+-000026d0: 650d 0a0d 0a44 6973 7472 6962 7574 6564  e....Distributed
+-000026e0: 2075 6e64 6572 2074 6865 204d 4954 204c   under the MIT L
+-000026f0: 6963 656e 7365 2e20 5365 6520 604d 4954  icense. See `MIT
+-00002700: 2e74 7874 6020 666f 7220 6d6f 7265 2069  .txt` for more i
+-00002710: 6e66 6f72 6d61 7469 6f6e 2e0d 0a0d 0a    nformation.....
++00000010: 6469 763e 0d0a 3c64 6976 2061 6c69 676e  div>..<div align
++00000020: 3d22 6365 6e74 6572 223e 0d0a 0d0a 215b  ="center">....![
++00000030: 6c6f 676f 5d28 646f 6373 2f67 7261 7068  logo](docs/graph
++00000040: 6963 732f 636f 6d70 616e 795f 6c6f 676f  ics/company_logo
++00000050: 2e70 6e67 290d 0a0d 0a3c 2f64 6976 3e0d  .png)....</div>.
++00000060: 0a0d 0a23 2046 726f 6e74 6965 7220 536d  ...# Frontier Sm
++00000070: 6172 7420 4150 4920 616e 6420 4669 726d  art API and Firm
++00000080: 7761 7265 2054 6f6f 6c73 0d0a 0d0a 5b21  ware Tools....[!
++00000090: 5b70 7974 686f 6e5d 2868 7474 7073 3a2f  [python](https:/
++000000a0: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
++000000b0: 6261 6467 652f 7079 7468 6f6e 2d33 2e37  badge/python-3.7
++000000c0: 2b2d 626c 7565 2e73 7667 3f6c 6f67 6f3d  +-blue.svg?logo=
++000000d0: 7079 7468 6f6e 266c 6162 656c 436f 6c6f  python&labelColo
++000000e0: 723d 6772 6579 295d 2868 7474 7073 3a2f  r=grey)](https:/
++000000f0: 2f77 7777 2e70 7974 686f 6e2e 6f72 672f  /www.python.org/
++00000100: 646f 776e 6c6f 6164 732f 290d 0a21 5b43  downloads/)..![C
++00000110: 6f64 6573 7479 6c65 5d28 6874 7470 733a  odestyle](https:
++00000120: 2f2f 696d 672e 7368 6965 6c64 732e 696f  //img.shields.io
++00000130: 3a2f 7374 6174 6963 2f76 313f 6c61 6265  :/static/v1?labe
++00000140: 6c3d 436f 6465 7374 796c 6526 6d65 7373  l=Codestyle&mess
++00000150: 6167 653d 626c 6163 6b26 636f 6c6f 723d  age=black&color=
++00000160: 626c 6163 6b29 0d0a 215b 4c69 6365 6e73  black)..![Licens
++00000170: 655d 2868 7474 7073 3a2f 2f69 6d67 2e73  e](https://img.s
++00000180: 6869 656c 6473 2e69 6f3a 2f73 7461 7469  hields.io:/stati
++00000190: 632f 7631 3f6c 6162 656c 3d4c 6963 656e  c/v1?label=Licen
++000001a0: 7365 266d 6573 7361 6765 3d4d 4954 2663  se&message=MIT&c
++000001b0: 6f6c 6f72 3d62 6c75 6529 0d0a 5b21 5b50  olor=blue)..[![P
++000001c0: 7950 495d 2868 7474 7073 3a2f 2f69 6d67  yPI](https://img
++000001d0: 2e73 6869 656c 6473 2e69 6f2f 7079 7069  .shields.io/pypi
++000001e0: 2f76 2f66 7361 7069 2d74 6f6f 6c73 295d  /v/fsapi-tools)]
++000001f0: 2868 7474 7073 3a2f 2f70 7970 692e 6f72  (https://pypi.or
++00000200: 672f 7072 6f6a 6563 742f 6673 6170 692d  g/project/fsapi-
++00000210: 746f 6f6c 732f 290d 0a0d 0a54 6869 7320  tools/)....This 
++00000220: 7265 706f 7369 746f 7279 2063 6f6d 7072  repository compr
++00000230: 6973 6573 2076 6172 696f 7573 2074 6f6f  ises various too
++00000240: 6c73 2077 7269 7474 656e 2069 6e20 6070  ls written in `p
++00000250: 7974 686f 6e33 6020 7468 6174 2061 7265  ython3` that are
++00000260: 2064 6573 6967 6e65 6420 746f 2061 6e61   designed to ana
++00000270: 6c79 7a65 2070 726f 7065 7274 6965 7320  lyze properties 
++00000280: 6f66 2066 6972 6d77 6172 6520 6269 6e61  of firmware bina
++00000290: 7269 6573 2070 726f 7669 6465 6420 6279  ries provided by
++000002a0: 2046 726f 6e74 6965 7220 536d 6172 7420   Frontier Smart 
++000002b0: 2866 6f72 6d65 726c 7920 4672 6f6e 7469  (formerly Fronti
++000002c0: 6572 2053 696c 6963 6f6e 202d 2046 5329  er Silicon - FS)
++000002d0: 2061 6e64 2069 6e74 6572 6163 7420 7769   and interact wi
++000002e0: 7468 2074 6865 2069 6e62 7569 6c74 2041  th the inbuilt A
++000002f0: 5049 2e20 5468 6520 6465 636f 6d70 696c  PI. The decompil
++00000300: 6572 2075 7365 6420 696e 2074 6869 7320  er used in this 
++00000310: 7265 706f 7369 746f 7279 2077 6173 2069  repository was i
++00000320: 6e69 7469 616c 6c79 2066 6f72 6b65 6420  nitially forked 
++00000330: 6672 6f6d 2074 6865 205b 6465 6164 3030  from the [dead00
++00000340: 3037 5d28 6874 7470 733a 2f2f 6769 7468  07](https://gith
++00000350: 7562 2e63 6f6d 2f6d 6f6c 6e61 7267 2f64  ub.com/molnarg/d
++00000360: 6561 6430 3030 372f 626c 6f62 2f6d 6173  ead0007/blob/mas
++00000370: 7465 722f 5245 4144 4d45 2e6d 6429 2072  ter/README.md) r
++00000380: 6570 6f73 6974 6f72 792e 0d0a 0d0a 416c  epository.....Al
++00000390: 7468 6f75 6768 2074 6865 7265 2061 7265  though there are
++000003a0: 206f 7468 6572 2072 6570 6f73 6974 6f72   other repositor
++000003b0: 6965 7320 7468 6174 2066 6f63 7573 206f  ies that focus o
++000003c0: 6e20 7468 6520 7370 6563 6966 6963 2041  n the specific A
++000003d0: 5049 2c20 7468 6520 696d 706c 656d 656e  PI, the implemen
++000003e0: 7461 7469 6f6e 2070 726f 7669 6465 6420  tation provided 
++000003f0: 6865 7265 2069 6e63 6c75 6465 7320 2a2a  here includes **
++00000400: 414c 4c2a 2a20 6176 6169 6c61 626c 6520  ALL** available 
++00000410: 604e 6f64 6573 6020 7468 6174 2077 6572  `Nodes` that wer
++00000420: 6520 696e 7665 6e74 6564 2f64 6576 656c  e invented/devel
++00000430: 6f70 6564 2062 7920 4672 6f6e 7469 6572  oped by Frontier
++00000440: 2053 6d61 7274 2e20 5468 6573 6520 6e6f   Smart. These no
++00000450: 6465 7320 7765 7265 2063 6f6e 7665 7274  des were convert
++00000460: 6564 2066 726f 6d20 4a61 7661 2073 6f75  ed from Java sou
++00000470: 7263 6520 636f 6465 2c20 616e 6420 7468  rce code, and th
++00000480: 6520 746f 6f6c 2075 7365 6420 666f 7220  e tool used for 
++00000490: 7468 6520 636f 6e76 6572 7369 6f6e 2063  the conversion c
++000004a0: 616e 2062 6520 666f 756e 6420 696e 2074  an be found in t
++000004b0: 6869 7320 7265 706f 7369 746f 7279 2061  his repository a
++000004c0: 7320 7765 6c6c 2028 7468 6520 5b54 6f6f  s well (the [Too
++000004d0: 6c5d 2861 706b 2f6e 6f64 655f 636f 6e76  l](apk/node_conv
++000004e0: 6572 7465 722e 7079 2929 2e0d 0a0d 0a46  erter.py)).....F
++000004f0: 6561 7475 7265 733a 0d0a 0d0a 2d20 4953  eatures:....- IS
++00000500: 5554 6f6f 6c3a 2041 6e20 696e 7370 6563  UTool: An inspec
++00000510: 746f 7220 666f 7220 4672 6f6e 7469 6572  tor for Frontier
++00000520: 2053 6d61 7274 2066 6972 6d77 6172 6520   Smart firmware 
++00000530: 6269 6e61 7269 6573 2e0d 0a2d 2050 6174  binaries...- Pat
++00000540: 7465 726e 2053 7065 6369 6669 6361 7469  tern Specificati
++00000550: 6f6e 3a20 4465 7369 676e 6564 2066 6f72  on: Designed for
++00000560: 2049 5355 2062 696e 6172 6965 7320 746f   ISU binaries to
++00000570: 2062 6520 7573 6564 2069 6e20 496d 4865   be used in ImHe
++00000580: 782e 0d0a 2d20 5079 7468 6f6e 3320 4653  x...- Python3 FS
++00000590: 4150 4920 696d 706c 656d 656e 7461 7469  API implementati
++000005a0: 6f6e 2e0d 0a2d 2058 4452 2d44 6563 6f6d  on...- XDR-Decom
++000005b0: 7069 6c65 723a 2046 6f72 2064 6563 6f6d  piler: For decom
++000005c0: 7069 6c69 6e67 2062 696e 6172 7920 7061  piling binary pa
++000005d0: 636b 6564 204a 6176 6153 6372 6970 7420  cked JavaScript 
++000005e0: 6669 6c65 732e 0d0a 2d20 4653 4150 492d  files...- FSAPI-
++000005f0: 4e45 5420 546f 6f6c 3a20 456e 6162 6c65  NET Tool: Enable
++00000600: 7320 696e 7465 7261 6374 696f 6e20 7769  s interaction wi
++00000610: 7468 2046 726f 6e74 6965 7220 536d 6172  th Frontier Smar
++00000620: 7420 496f 5420 6465 7669 6365 732e 0d0a  t IoT devices...
++00000630: 0d0a 2323 2049 6e73 7461 6c6c 6174 696f  ..## Installatio
++00000640: 6e0d 0a0d 0a54 6865 2046 532d 4150 4920  n....The FS-API 
++00000650: 696d 706c 656d 656e 7461 7469 6f6e 2069  implementation i
++00000660: 7320 6e6f 7720 6176 6169 6c61 626c 6520  s now available 
++00000670: 6f6e 2074 6865 2050 7974 686f 6e20 5061  on the Python Pa
++00000680: 636b 6167 6520 496e 6465 7820 2850 7950  ckage Index (PyP
++00000690: 6929 2e20 596f 7520 6361 6e20 6561 7369  i). You can easi
++000006a0: 6c79 2069 6e73 7461 6c6c 2069 7420 6279  ly install it by
++000006b0: 2075 7369 6e67 2074 6865 2060 7069 7060   using the `pip`
++000006c0: 2070 6163 6b61 6765 206d 616e 6167 6572   package manager
++000006d0: 2e0d 0a0d 0a60 6060 6261 7368 0d0a 7069  .....```bash..pi
++000006e0: 7020 696e 7374 616c 6c20 6673 6170 692d  p install fsapi-
++000006f0: 746f 6f6c 730d 0a60 6060 0d0a 0d0a 2323  tools..```....##
++00000700: 2046 6972 6d77 6172 6520 4269 6e61 7269   Firmware Binari
++00000710: 6573 0d0a 0d0a 546f 2075 7469 6c69 7a65  es....To utilize
++00000720: 2074 6865 2074 6f6f 6c73 2070 726f 7669   the tools provi
++00000730: 6465 6420 6279 2074 6869 7320 7265 706f  ded by this repo
++00000740: 7369 746f 7279 2c20 7468 6520 6d61 6a6f  sitory, the majo
++00000750: 7269 7479 206f 6620 6176 6169 6c61 626c  rity of availabl
++00000760: 6520 6669 726d 7761 7265 2062 696e 6172  e firmware binar
++00000770: 6965 7320 6861 7665 2062 6565 6e20 7265  ies have been re
++00000780: 6c6f 6361 7465 6420 746f 2074 6865 205b  located to the [
++00000790: 6672 6f6e 7469 6572 2d73 6d61 7274 2d66  frontier-smart-f
++000007a0: 6972 6d77 6172 6573 5d28 6874 7470 733a  irmwares](https:
++000007b0: 2f2f 6769 7468 7562 2e63 6f6d 2f4d 6174  //github.com/Mat
++000007c0: 7269 7845 6469 746f 722f 6672 6f6e 7469  rixEditor/fronti
++000007d0: 6572 2d73 6d61 7274 2d66 6972 6d77 6172  er-smart-firmwar
++000007e0: 6573 2920 7265 706f 7369 746f 7279 2e20  es) repository. 
++000007f0: 4d61 6e79 206f 6620 7468 6573 6520 6269  Many of these bi
++00000800: 6e61 7269 6573 2077 6572 6520 666f 726b  naries were fork
++00000810: 6564 2066 726f 6d20 7468 6520 5b66 726f  ed from the [fro
++00000820: 6e74 6965 722d 7369 6c69 636f 6e2d 6669  ntier-silicon-fi
++00000830: 726d 7761 7265 735d 2868 7474 7073 3a2f  rmwares](https:/
++00000840: 2f67 6974 6875 622e 636f 6d2f 6377 6569  /github.com/cwei
++00000850: 736b 652f 6672 6f6e 7469 6572 2d73 696c  ske/frontier-sil
++00000860: 6963 6f6e 2d66 6972 6d77 6172 6573 2920  icon-firmwares) 
++00000870: 7265 706f 7369 746f 7279 206d 6169 6e74  repository maint
++00000880: 6169 6e65 6420 6279 2063 7765 6973 6b65  ained by cweiske
++00000890: 2e0d 0a0d 0a23 2320 446f 6375 6d65 6e74  .....## Document
++000008a0: 730d 0a0d 0a41 2063 6f6d 7072 6568 656e  s....A comprehen
++000008b0: 7369 7665 2072 6576 6965 7720 6f66 2074  sive review of t
++000008c0: 6865 2066 6972 6d77 6172 6520 6269 6e61  he firmware bina
++000008d0: 7269 6573 2075 7365 6420 746f 2075 7064  ries used to upd
++000008e0: 6174 6520 4672 6f6e 7469 6572 2053 6d61  ate Frontier Sma
++000008f0: 7274 2064 6576 6963 6573 2069 7320 6176  rt devices is av
++00000900: 6169 6c61 626c 6520 696e 2074 6865 2066  ailable in the f
++00000910: 6f6c 6c6f 7769 6e67 2064 6f63 756d 656e  ollowing documen
++00000920: 743a 205b 4669 726d 7761 7265 2d41 6e61  t: [Firmware-Ana
++00000930: 6c79 7369 735d 2868 7474 7073 3a2f 2f6d  lysis](https://m
++00000940: 6174 7269 7865 6469 746f 722e 6769 7468  atrixeditor.gith
++00000950: 7562 2e69 6f2f 6673 6170 692d 746f 6f6c  ub.io/fsapi-tool
++00000960: 732f 6669 726d 7761 7265 2d61 6e61 6c79  s/firmware-analy
++00000970: 7369 732e 6874 6d6c 292e 2054 6865 2064  sis.html). The d
++00000980: 6f63 756d 656e 7461 7469 6f6e 2066 6f72  ocumentation for
++00000990: 2074 6865 2046 726f 6e74 6965 7220 536d   the Frontier Sm
++000009a0: 6172 7420 4150 4920 284e 6574 5265 6d6f  art API (NetRemo
++000009b0: 7465 4170 6929 2063 616e 2062 6520 666f  teApi) can be fo
++000009c0: 756e 6420 6865 7265 3a20 5b46 5341 5049  und here: [FSAPI
++000009d0: 2044 6f63 735d 2868 7474 7073 3a2f 2f6d   Docs](https://m
++000009e0: 6174 7269 7865 6469 746f 722e 6769 7468  atrixeditor.gith
++000009f0: 7562 2e69 6f2f 6673 6170 692d 746f 6f6c  ub.io/fsapi-tool
++00000a00: 732f 6170 692f 6e65 7472 656d 6f74 652f  s/api/netremote/
++00000a10: 696e 6465 782e 6874 6d6c 292e 2041 6464  index.html). Add
++00000a20: 6974 696f 6e61 6c6c 792c 2074 6865 2064  itionally, the d
++00000a30: 6563 6f6d 7069 6c65 7220 666f 7220 4543  ecompiler for EC
++00000a40: 4d41 5363 7269 7074 2069 7320 6c6f 6361  MAScript is loca
++00000a50: 7465 6420 696e 2074 6865 2060 6465 636f  ted in the `deco
++00000a60: 6d70 696c 6572 2f60 2064 6972 6563 746f  mpiler/` directo
++00000a70: 7279 2c20 7768 6963 6820 6361 6e20 6265  ry, which can be
++00000a80: 2075 7469 6c69 7a65 6420 666f 7220 6465   utilized for de
++00000a90: 636f 6d70 696c 696e 6720 7075 7270 6f73  compiling purpos
++00000aa0: 6573 2e0d 0a0d 0a23 2320 4f76 6572 7669  es.....## Overvi
++00000ab0: 6577 0d0a 0d0a 4173 206d 656e 7469 6f6e  ew....As mention
++00000ac0: 6564 2065 6172 6c69 6572 2c20 7468 6973  ed earlier, this
++00000ad0: 2072 6570 6f73 6974 6f72 7920 6f66 6665   repository offe
++00000ae0: 7273 2061 2075 7469 6c69 7479 2066 6f72  rs a utility for
++00000af0: 2069 6e74 6572 6163 7469 6e67 2077 6974   interacting wit
++00000b00: 6820 7468 6520 4653 4150 4920 2846 726f  h the FSAPI (Fro
++00000b10: 6e74 6965 7220 536d 6172 7420 4150 4929  ntier Smart API)
++00000b20: 2061 6e64 2070 726f 7669 6465 7320 616e   and provides an
++00000b30: 2061 6e61 6c79 7369 7320 6f66 2074 6865   analysis of the
++00000b40: 2066 6972 6d77 6172 6520 6269 6e61 7279   firmware binary
++00000b50: 2073 7472 7563 7475 7265 2e20 5468 6520   structure. The 
++00000b60: 7265 7365 6172 6368 2063 6f6e 6475 6374  research conduct
++00000b70: 6564 2069 6e76 6f6c 7665 6420 7468 6520  ed involved the 
++00000b80: 666f 6c6c 6f77 696e 6720 6465 7669 6365  following device
++00000b90: 7320 616e 6420 6170 7073 3a0d 0a0d 0a2d  s and apps:....-
++00000ba0: 2044 6576 6963 653a 204d 6564 696f 6e20   Device: Medion 
++00000bb0: 4d44 3837 3830 350d 0a2d 2041 7070 733a  MD87805..- Apps:
++00000bc0: 204c 6966 6573 7472 6561 6d20 4949 2061   Lifestream II a
++00000bd0: 6e64 2055 4e44 4f4b 0d0a 0d0a 5468 6573  nd UNDOK....Thes
++00000be0: 6520 6465 7669 6365 7320 616e 6420 6170  e devices and ap
++00000bf0: 7073 2077 6572 6520 7574 696c 697a 6564  ps were utilized
++00000c00: 2064 7572 696e 6720 7468 6520 7265 7365   during the rese
++00000c10: 6172 6368 2061 6e64 2061 6e61 6c79 7369  arch and analysi
++00000c20: 7320 7072 6f63 6573 732e 2054 6865 2073  s process. The s
++00000c30: 6f75 7263 6520 636f 6465 2069 6e63 6c75  ource code inclu
++00000c40: 6465 7320 6120 7061 636b 6167 6520 6361  des a package ca
++00000c50: 6c6c 6564 2060 7372 632f 636f 6d2f 6672  lled `src/com/fr
++00000c60: 6f6e 7469 6572 5f73 696c 6963 6f6e 2f4e  ontier_silicon/N
++00000c70: 6574 5265 6d6f 7465 4c69 622f 4e6f 6465  etRemoteLib/Node
++00000c80: 2f60 2c20 7768 6963 6820 686f 7573 6573  /`, which houses
++00000c90: 2061 6c6c 2074 6865 2061 7661 696c 6162   all the availab
++00000ca0: 6c65 206e 6f64 6573 2069 6d70 6c65 6d65  le nodes impleme
++00000cb0: 6e74 6564 2061 7320 4a61 7661 2063 6c61  nted as Java cla
++00000cc0: 7373 6573 2e0d 0a0d 0a23 2323 204e 6574  sses.....### Net
++00000cd0: 776f 726b 2054 7261 6666 6963 0d0a 0d0a  work Traffic....
++00000ce0: 4c65 7427 7320 6578 616d 696e 6520 7468  Let's examine th
++00000cf0: 6520 6e65 7477 6f72 6b20 7472 6166 6669  e network traffi
++00000d00: 6320 6765 6e65 7261 7465 6420 6279 2074  c generated by t
++00000d10: 6865 2069 6e74 6572 6e65 7420 7261 6469  he internet radi
++00000d20: 6f2e 2054 6f20 6361 7074 7572 6520 616c  o. To capture al
++00000d30: 6c20 7061 636b 6574 732c 2061 2070 726f  l packets, a pro
++00000d40: 7879 2063 616e 2062 6520 7175 6974 6520  xy can be quite 
++00000d50: 7573 6566 756c 2e20 486f 7765 7665 722c  useful. However,
++00000d60: 2069 6e20 7468 6973 2063 6173 652c 2073   in this case, s
++00000d70: 696e 6365 2073 6574 7469 6e67 2075 7020  ince setting up 
++00000d80: 6120 7369 6d70 6c65 2070 726f 7879 206f  a simple proxy o
++00000d90: 6e20 7468 6520 6465 7669 6365 2069 7320  n the device is 
++00000da0: 6e6f 7420 706f 7373 6962 6c65 2c20 7468  not possible, th
++00000db0: 6520 7472 6166 6669 6320 7761 7320 6361  e traffic was ca
++00000dc0: 7074 7572 6564 2064 6972 6563 746c 7920  ptured directly 
++00000dd0: 6f6e 2074 6865 2063 6f6e 6e65 6374 6564  on the connected
++00000de0: 2057 692d 4669 2061 6363 6573 7320 706f   Wi-Fi access po
++00000df0: 696e 742e 0d0a 0d0a 5570 6f6e 2061 2071  int.....Upon a q
++00000e00: 7569 636b 2061 6e61 6c79 7369 7320 6f66  uick analysis of
++00000e10: 2074 6865 2063 6170 7475 7265 6420 6e65   the captured ne
++00000e20: 7477 6f72 6b20 7472 6166 6669 6320 7573  twork traffic us
++00000e30: 696e 6720 5769 7265 7368 6172 6b2c 2073  ing Wireshark, s
++00000e40: 6576 6572 616c 2069 6e74 6572 6573 7469  everal interesti
++00000e50: 6e67 2066 696e 6469 6e67 7320 656d 6572  ng findings emer
++00000e60: 6765 3a0d 0a0d 0a2d 2054 6865 2063 6f6d  ge:....- The com
++00000e70: 6d75 6e69 6361 7469 6f6e 2062 6574 7765  munication betwe
++00000e80: 656e 2074 6865 2064 6576 6963 6520 616e  en the device an
++00000e90: 6420 636c 6965 6e74 7320 6973 2068 616e  d clients is han
++00000ea0: 646c 6564 2075 7369 6e67 2048 5454 502e  dled using HTTP.
++00000eb0: 0d0a 2d20 5370 6563 6966 6963 2055 524c  ..- Specific URL
++00000ec0: 7320 6172 6520 7175 6572 6965 6420 7768  s are queried wh
++00000ed0: 656e 2073 6561 7263 6869 6e67 2066 6f72  en searching for
++00000ee0: 2061 2073 6f66 7477 6172 6520 7570 6461   a software upda
++00000ef0: 7465 2e20 5468 6573 6520 5552 4c73 2061  te. These URLs a
++00000f00: 7265 3a0d 0a20 2020 202d 2075 7064 6174  re:..    - updat
++00000f10: 652e 7769 6669 7261 6469 6f66 726f 6e74  e.wifiradiofront
++00000f20: 6965 722e 636f 6d2f 4669 6e64 5570 6461  ier.com/FindUpda
++00000f30: 7465 2e61 7370 780d 0a20 2020 202d 2075  te.aspx..    - u
++00000f40: 7064 6174 652e 7769 6669 7261 6469 6f66  pdate.wifiradiof
++00000f50: 726f 6e74 6965 722e 636f 6d2f 5570 6461  rontier.com/Upda
++00000f60: 7465 2e61 7370 780d 0a0d 0a54 6865 2066  te.aspx....The f
++00000f70: 6972 7374 2055 524c 2072 6574 7572 6e73  irst URL returns
++00000f80: 2061 2060 3430 3460 206f 7220 6034 3033   a `404` or `403
++00000f90: 6020 4854 5450 2073 7461 7475 7320 636f  ` HTTP status co
++00000fa0: 6465 2069 6620 6e6f 2075 7064 6174 6520  de if no update 
++00000fb0: 6973 2061 7661 696c 6162 6c65 2e20 486f  is available. Ho
++00000fc0: 7765 7665 722c 2069 6620 616e 2075 7064  wever, if an upd
++00000fd0: 6174 6520 6973 2061 7661 696c 6162 6c65  ate is available
++00000fe0: 2c20 7468 6520 6669 7273 7420 5552 4c20  , the first URL 
++00000ff0: 7175 6572 7920 7769 6c6c 2072 6574 7572  query will retur
++00001000: 6e20 616e 2058 4d4c 2072 6573 706f 6e73  n an XML respons
++00001010: 6520 7769 7468 2075 7064 6174 6520 696e  e with update in
++00001020: 666f 726d 6174 696f 6e2e 0d0a 0d0a 5468  formation.....Th
++00001030: 6520 6669 726d 7761 7265 2062 696e 6172  e firmware binar
++00001040: 6965 7320 6361 6e20 6265 2066 6f75 6e64  ies can be found
++00001050: 2061 7420 7468 6520 7365 636f 6e64 2055   at the second U
++00001060: 524c 2c20 7769 7468 2074 6865 206d 616e  RL, with the man
++00001070: 6461 746f 7279 2070 6172 616d 6574 6572  datory parameter
++00001080: 2060 663d 2f75 7064 6174 6573 2f78 7878   `f=/updates/xxx
++00001090: 602e 2054 6865 206e 616d 696e 6720 636f  `. The naming co
++000010a0: 6e76 656e 7469 6f6e 2066 6f72 2074 6865  nvention for the
++000010b0: 2066 696c 6573 2069 7320 7374 7275 6374   files is struct
++000010c0: 7572 6564 2061 7320 666f 6c6c 6f77 733a  ured as follows:
++000010d0: 0d0a 0d0a 6060 6062 6173 680d 0a69 722d  ....```bash..ir-
++000010e0: 244d 4f44 554c 452d 2449 4e54 4552 4641  $MODULE-$INTERFA
++000010f0: 4345 2d24 4946 4143 4556 4552 5349 4f4e  CE-$IFACEVERSION
++00001100: 2d24 7b4d 4f44 454c 7d5f 5624 5645 5253  -${MODEL}_V$VERS
++00001110: 494f 4e2e 2452 4556 4953 494f 4e2d 2442  ION.$REVISION-$B
++00001120: 5241 4e43 480d 0a60 6060 0d0a 0d0a 496e  RANCH..```....In
++00001130: 2074 6865 2063 6173 6520 6f66 2074 6865   the case of the
++00001140: 2069 6e74 6572 6e65 7420 7261 6469 6f20   internet radio 
++00001150: 6465 7669 6365 2075 7365 6420 6865 7265  device used here
++00001160: 2c20 616e 2065 7861 6d70 6c65 2066 696c  , an example fil
++00001170: 6520 6e61 6d65 2077 6f75 6c64 2062 653a  e name would be:
++00001180: 0d0a 0d0a 6060 600d 0a69 722d 6d6d 692d  ....```..ir-mmi-
++00001190: 4653 3230 3236 2d30 3530 302d 3035 3439  FS2026-0500-0549
++000011a0: 5f56 322e 3132 2e32 3563 2e45 5837 3230  _V2.12.25c.EX720
++000011b0: 3838 2d31 4131 320d 0a60 6060 0d0a 0d0a  88-1A12..```....
++000011c0: 506c 6561 7365 206e 6f74 6520 7468 6174  Please note that
++000011d0: 2069 6e20 7468 6520 5552 4c2c 2074 6865   in the URL, the
++000011e0: 2066 696c 6520 6e61 6d65 2072 6570 6c61   file name repla
++000011f0: 6365 7320 605f 5660 2077 6974 6820 6120  ces `_V` with a 
++00001200: 7369 6d70 6c65 2064 6f74 2e20 546f 2064  simple dot. To d
++00001210: 6f77 6e6c 6f61 6420 616e 2075 7064 6174  ownload an updat
++00001220: 6520 6669 6c65 2c20 796f 7520 6361 6e20  e file, you can 
++00001230: 7573 6520 6066 7361 7069 2d6e 6574 6020  use `fsapi-net` 
++00001240: 6f72 2074 6865 2060 6673 6170 6960 206d  or the `fsapi` m
++00001250: 6f64 756c 6520 6469 7265 6374 6c79 2e20  odule directly. 
++00001260: 5468 6520 666f 6c6c 6f77 696e 6720 636f  The following co
++00001270: 6d6d 616e 6420 7265 7472 6965 7665 7320  mmand retrieves 
++00001280: 616c 6c20 7468 6520 7370 6563 6966 6965  all the specifie
++00001290: 6420 6669 726d 7761 7265 2062 696e 6172  d firmware binar
++000012a0: 6965 7320 6672 6f6d 2074 6865 2067 6976  ies from the giv
++000012b0: 656e 2066 696c 652e 0d0a 0d0a 6060 6062  en file.....```b
++000012c0: 6173 680d 0a24 2066 7361 7069 2d6e 6574  ash..$ fsapi-net
++000012d0: 2069 7375 202d 2d66 696c 6520 2e2f 6269   isu --file ./bi
++000012e0: 6e2f 7570 6461 7465 732e 7478 7420 2d2d  n/updates.txt --
++000012f0: 7665 7262 6f73 650d 0a23 2061 6c74 6572  verbose..# alter
++00001300: 6e61 7469 7665 2077 6974 6820 6c6f 6361  native with loca
++00001310: 6c20 6465 7669 6365 3a0d 0a24 2066 7361  l device:..$ fsa
++00001320: 7069 2d6e 6574 2069 7375 202d 2d66 696e  pi-net isu --fin
++00001330: 6420 2d2d 636f 6c6c 6563 7420 6d79 4669  d --collect myFi
++00001340: 6c65 2024 4950 5f41 4444 5245 5353 202d  le $IP_ADDRESS -
++00001350: 2d76 6572 626f 7365 0d0a 6060 600d 0a3c  -verbose..```..<
++00001360: 7020 616c 6967 6e3d 2272 6967 6874 223e  p align="right">
++00001370: 283c 6120 6872 6566 3d22 2374 6f70 223e  (<a href="#top">
++00001380: 6261 636b 2074 6f20 746f 703c 2f61 3e29  back to top</a>)
++00001390: 3c2f 703e 0d0a 0d0a 2323 2054 6f6f 6c73  </p>....## Tools
++000013a0: 0d0a 0d0a 5468 6572 6520 6172 6520 7468  ....There are th
++000013b0: 7265 6520 746f 6f6c 7320 696e 636c 7564  ree tools includ
++000013c0: 6564 2069 6e20 7468 6973 2072 6570 6f73  ed in this repos
++000013d0: 6974 6f72 793a 2060 6973 7574 6f6f 6c60  itory: `isutool`
++000013e0: 2c20 6066 7361 7069 2d6e 6574 6020 616e  , `fsapi-net` an
++000013f0: 6420 2060 6673 6170 692d 6573 6269 6e60  d  `fsapi-esbin`
++00001400: 2e0d 0a0d 0a23 2323 2049 5355 546f 6f6c  .....### ISUTool
++00001410: 0d0a 0d0a 5468 6520 666f 6c6c 6f77 696e  ....The followin
++00001420: 6720 6578 616d 706c 6520 7072 6f76 6964  g example provid
++00001430: 6573 2061 2062 7269 6566 206f 7665 7276  es a brief overv
++00001440: 6965 7720 6f66 2068 6f77 2074 6865 2074  iew of how the t
++00001450: 6f6f 6c20 6361 6e20 6265 2075 7365 642e  ool can be used.
++00001460: 2046 6f72 2064 6574 6169 6c65 6420 7573   For detailed us
++00001470: 6167 6520 696e 7374 7275 6374 696f 6e73  age instructions
++00001480: 2c20 706c 6561 7365 2072 6566 6572 2074  , please refer t
++00001490: 6f20 7468 6520 5b49 5355 546f 6f6c 2044  o the [ISUTool D
++000014a0: 6f63 756d 656e 7461 7469 6f6e 5d28 6874  ocumentation](ht
++000014b0: 7470 733a 2f2f 6d61 7472 6978 6564 6974  tps://matrixedit
++000014c0: 6f72 2e67 6974 6875 622e 696f 2f66 7361  or.github.io/fsa
++000014d0: 7069 2d74 6f6f 6c73 2f69 7375 746f 6f6c  pi-tools/isutool
++000014e0: 2e68 746d 6c29 2e0d 0a0d 0a60 6060 6261  .html).....```ba
++000014f0: 7368 0d0a 2420 6973 7574 6f6f 6c20 2d2d  sh..$ isutool --
++00001500: 6865 6164 6572 2066 6972 6d77 6172 652e  header firmware.
++00001510: 6973 752e 6269 6e0d 0a5b 696e 5d20 6669  isu.bin..[in] fi
++00001520: 726d 7761 7265 2e69 7375 2e62 696e 0d0a  rmware.isu.bin..
++00001530: 2020 2020 3e20 4953 5548 6561 6465 723a      > ISUHeader:
++00001540: 0d0a 2020 2020 2020 2020 2d20 6d61 6769  ..        - magi
++00001550: 633a 2030 7831 3137 360d 0a20 2020 2020  c: 0x1176..     
++00001560: 2020 202d 206c 656e 6774 683a 2031 3234     - length: 124
++00001570: 0d0a 2020 2020 2020 2020 2d20 6973 755f  ..        - isu_
++00001580: 7665 7273 696f 6e3a 2031 0d0a 2020 2020  version: 1..    
++00001590: 2020 2020 2d20 7665 7273 696f 6e3a 2027      - version: '
++000015a0: 322e 3134 2e33 3363 2e45 5838 3531 3836  2.14.33c.EX85186
++000015b0: 2d31 4131 3727 0d0a 2020 2020 2020 2020  -1A17'..        
++000015c0: 2d20 6375 7374 6f6d 6973 6174 696f 6e3a  - customisation:
++000015d0: 2027 6972 2d6d 6d69 2d46 5332 3032 362d   'ir-mmi-FS2026-
++000015e0: 3035 3030 2d30 3739 3527 0d0a 2020 2020  0500-0795'..    
++000015f0: 2020 2020 2d20 6f73 5f6d 616a 6f72 5f76      - os_major_v
++00001600: 6572 7369 6f6e 3a20 4e6f 6e65 0d0a 2020  ersion: None..  
++00001610: 2020 2020 2020 2d20 6f73 5f6d 696e 6f72        - os_minor
++00001620: 5f76 6572 7369 6f6e 3a20 4e6f 6e65 0d0a  _version: None..
++00001630: 2020 2020 2020 2020 2d20 7575 6964 3a20          - uuid: 
++00001640: 3332 6238 6430 3335 2d64 3831 622d 3432  32b8d035-d81b-42
++00001650: 6630 2d34 3336 612d 6136 3836 6430 6339  f0-436a-a686d0c9
++00001660: 6138 6162 0d0a 0d0a 2420 6973 7574 6f6f  a8ab....$ isutoo
++00001670: 6c20 6669 726d 7761 7265 2e69 7375 2e62  l firmware.isu.b
++00001680: 696e 202d 2d6a 736f 6e20 2e2f 6669 726d  in --json ./firm
++00001690: 7761 7265 2e6a 736f 6e0d 0a5b 696e 5d20  ware.json..[in] 
++000016a0: 6669 726d 7761 7265 2e69 7375 2e62 696e  firmware.isu.bin
++000016b0: 0d0a 5b6f 7574 5d20 4a53 4f4e 2073 6176  ..[out] JSON sav
++000016c0: 6564 2074 6f20 6669 726d 7761 7265 2e6a  ed to firmware.j
++000016d0: 736f 6e0d 0a0d 0a24 2069 7375 746f 6f6c  son....$ isutool
++000016e0: 2066 6972 6d77 6172 652e 6973 752e 6269   firmware.isu.bi
++000016f0: 6e20 2d2d 6578 7472 6163 742d 6172 6368  n --extract-arch
++00001700: 6976 6520 2e2f 726f 6f74 6673 0d0a 5b69  ive ./rootfs..[i
++00001710: 6e5d 2066 6972 6d77 6172 652e 6973 752e  n] firmware.isu.
++00001720: 6269 6e0d 0a5b 6f75 745d 2044 6972 6563  bin..[out] Direc
++00001730: 746f 7279 2041 7263 6869 7665 3a0d 0a20  tory Archive:.. 
++00001740: 2020 203e 2069 636f 6e73 2f20 2835 290d     > icons/ (5).
++00001750: 0a20 2020 2020 2020 203e 204e 6577 2066  .        > New f
++00001760: 6f6c 6465 722f 2028 3429 0d0a 2020 2020  older/ (4)..    
++00001770: 2020 2020 2020 2020 2d20 646c 6e61 5f69          - dlna_i
++00001780: 636f 6e5f 6c61 7267 652e 6a70 670d 0a20  con_large.jpg.. 
++00001790: 2020 2020 2020 2020 2020 202d 2064 6c6e             - dln
++000017a0: 615f 6963 6f6e 5f6c 6172 6765 2e70 6e67  a_icon_large.png
++000017b0: 0d0a 2020 2020 2020 2020 2020 2020 2d20  ..            - 
++000017c0: 646c 6e61 5f69 636f 6e5f 736d 616c 6c2e  dlna_icon_small.
++000017d0: 6a70 670d 0a20 2020 2020 2020 2020 2020  jpg..           
++000017e0: 202d 2064 6c6e 615f 6963 6f6e 5f73 6d61   - dlna_icon_sma
++000017f0: 6c6c 2e70 6e67 0d0a 2020 2020 2020 2020  ll.png..        
++00001800: 2d20 646c 6e61 5f69 636f 6e5f 6c61 7267  - dlna_icon_larg
++00001810: 652e 6a70 670d 0a20 2020 2020 2020 202d  e.jpg..        -
++00001820: 2064 6c6e 615f 6963 6f6e 5f6c 6172 6765   dlna_icon_large
++00001830: 2e70 6e67 0d0a 2020 2020 2020 2020 2d20  .png..        - 
++00001840: 646c 6e61 5f69 636f 6e5f 736d 616c 6c2e  dlna_icon_small.
++00001850: 6a70 670d 0a20 2020 2020 2020 202d 2064  jpg..        - d
++00001860: 6c6e 615f 6963 6f6e 5f73 6d61 6c6c 2e70  lna_icon_small.p
++00001870: 6e67 0d0a 2020 2020 3e20 7765 622f 2028  ng..    > web/ (
++00001880: 3130 290d 0a23 202d 2d2d 2073 6e69 7020  10)..# --- snip 
++00001890: 2d2d 2d0d 0a60 6060 0d0a 0d0a 2323 2320  ---..```....### 
++000018a0: 5844 5220 4465 636f 6d70 696c 6572 0d0a  XDR Decompiler..
++000018b0: 0d0a 5468 6973 206d 6f64 756c 652f 746f  ..This module/to
++000018c0: 6f6c 2069 7320 7374 696c 6c20 756e 6465  ol is still unde
++000018d0: 7220 6465 7665 6c6f 706d 656e 7420 616e  r development an
++000018e0: 6420 6361 6e20 6361 7573 6520 6572 726f  d can cause erro
++000018f0: 7273 2061 6e20 6578 6563 7574 696f 6e2e  rs an execution.
++00001900: 2041 6c73 6f2c 2074 6869 7320 746f 6f6c   Also, this tool
++00001910: 2063 616e 206f 6e6c 7920 6265 2063 616c   can only be cal
++00001920: 6c65 6420 6f6e 2055 4e49 5820 7379 7374  led on UNIX syst
++00001930: 656d 7320 7468 6174 2061 7265 2061 626c  ems that are abl
++00001940: 6520 746f 2065 7865 6375 7465 2074 6865  e to execute the
++00001950: 2060 2e2f 6465 636f 6d70 696c 6572 2f65   `./decompiler/e
++00001960: 636d 612d 6465 636f 6d70 696c 6572 6020  cma-decompiler` 
++00001970: 6269 6e61 7279 2e0d 0a0d 0a60 6060 636f  binary.....```co
++00001980: 6e73 6f6c 650d 0a24 2066 7361 7069 2d78  nsole..$ fsapi-x
++00001990: 6472 202d 2d68 656c 700d 0a75 7361 6765  dr --help..usage
++000019a0: 3a20 6673 6170 692d 7864 7220 5b2d 685d  : fsapi-xdr [-h]
++000019b0: 205b 2d64 5d20 5b2d 6f20 4f55 545d 205b   [-d] [-o OUT] [
++000019c0: 2d2d 7573 652d 6465 636f 6d70 696c 6572  --use-decompiler
++000019d0: 2044 4543 4f4d 5041 5448 5d20 5b2d 725d   DECOMPATH] [-r]
++000019e0: 2070 6174 680d 0a0d 0a70 6f73 6974 696f   path....positio
++000019f0: 6e61 6c20 6172 6775 6d65 6e74 733a 0d0a  nal arguments:..
++00001a00: 2020 7061 7468 2020 2020 2020 2020 2020    path          
++00001a10: 2020 2020 2020 2020 5468 6520 7461 7267          The targ
++00001a20: 6574 2066 696c 6520 7468 6174 2077 696c  et file that wil
++00001a30: 6c20 6265 2075 7365 6420 746f 206f 7065  l be used to ope
++00001a40: 7261 7465 206f 6e2e 0d0a 0d0a 6f70 7469  rate on.....opti
++00001a50: 6f6e 616c 2061 7267 756d 656e 7473 3a0d  onal arguments:.
++00001a60: 0a20 202d 682c 202d 2d68 656c 7020 2020  .  -h, --help   
++00001a70: 2020 2020 2020 2020 2073 686f 7720 7468           show th
++00001a80: 6973 2068 656c 7020 6d65 7373 6167 6520  is help message 
++00001a90: 616e 6420 6578 6974 0d0a 2020 2d64 2c20  and exit..  -d, 
++00001aa0: 2d2d 6465 636f 6d70 696c 6520 2020 2020  --decompile     
++00001ab0: 2020 496e 6469 6361 7465 7320 7468 6174    Indicates that
++00001ac0: 2074 6865 2067 6976 656e 2069 6e70 7574   the given input
++00001ad0: 2066 696c 6520 7368 6f75 6c64 2062 6520   file should be 
++00001ae0: 6465 636f 6d70 696c 6564 2e0d 0a20 202d  decompiled...  -
++00001af0: 6f20 4f55 542c 202d 2d6f 7574 204f 5554  o OUT, --out OUT
++00001b00: 2020 2020 2054 6865 2070 6174 6820 7765       The path we
++00001b10: 7265 2074 6865 2064 6563 6f6d 7069 6c65  re the decompile
++00001b20: 6420 6f75 7470 7574 2073 686f 756c 6420  d output should 
++00001b30: 6265 2073 6176 6564 2e0d 0a0d 0a20 202d  be saved.....  -
++00001b40: 2d75 7365 2d64 6563 6f6d 7069 6c65 7220  -use-decompiler 
++00001b50: 4445 434f 4d50 4154 480d 0a20 2020 2020  DECOMPATH..     
++00001b60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001b70: 2020 2053 7065 6369 6669 6573 2074 6865     Specifies the
++00001b80: 2070 6174 6820 746f 2074 6865 2064 6563   path to the dec
++00001b90: 6f6d 7069 6c65 722e 0d0a 2020 2d72 2c20  ompiler...  -r, 
++00001ba0: 2d2d 7265 6375 7273 6520 2020 2020 2020  --recurse       
++00001bb0: 2020 496e 6469 6361 7465 7320 7468 6174    Indicates that
++00001bc0: 2061 6c6c 2066 696c 6573 2069 6e20 7468   all files in th
++00001bd0: 6520 6769 7665 6e20 6469 7265 6374 6f72  e given director
++00001be0: 7920 7368 6f75 6c64 2062 6520 6465 636f  y should be deco
++00001bf0: 6d70 696c 6564 0d0a 6060 600d 0a0d 0a23  mpiled..```....#
++00001c00: 2323 204e 4554 202d 2046 5341 5049 0d0a  ## NET - FSAPI..
++00001c10: 0d0a 5468 6973 2073 6d61 6c6c 2074 6f6f  ..This small too
++00001c20: 6c20 6361 6e20 6265 2075 7469 6c69 7a65  l can be utilize
++00001c30: 6420 746f 2069 6e74 6572 6163 7420 7769  d to interact wi
++00001c40: 7468 2046 726f 6e74 6965 7220 536d 6172  th Frontier Smar
++00001c50: 7420 6465 7669 6365 7320 7669 6120 434c  t devices via CL
++00001c60: 492e 0d0a 0d0a 6060 6062 6173 680d 0a24  I.....```bash..$
++00001c70: 2066 7361 7069 2d6e 6574 2073 6574 202d   fsapi-net set -
++00001c80: 6e20 7379 732e 696e 666f 2e66 7269 656e  n sys.info.frien
++00001c90: 646c 794e 616d 6520 2d2d 6172 6773 2076  dlyName --args v
++00001ca0: 616c 7565 3a4d 6564 696f 6e49 5220 2449  alue:MedionIR $I
++00001cb0: 505f 4144 4452 4553 530d 0a5b 2b5d 2066  P_ADDRESS..[+] f
++00001cc0: 7361 7069 5265 7370 6f6e 7365 206f 6620  sapiResponse of 
++00001cd0: 6e65 7452 656d 6f74 652e 7379 732e 696e  netRemote.sys.in
++00001ce0: 666f 2e66 7269 656e 646c 794e 616d 653a  fo.friendlyName:
++00001cf0: 0d0a 2020 2020 2d20 7374 6174 7573 3a20  ..    - status: 
++00001d00: 4653 5f4f 4b0d 0a0d 0a24 2066 7361 7069  FS_OK....$ fsapi
++00001d10: 2d6e 6574 2067 6574 202d 6e20 7379 732e  -net get -n sys.
++00001d20: 696e 666f 2e66 7269 656e 646c 794e 616d  info.friendlyNam
++00001d30: 6520 2449 505f 4144 4452 4553 530d 0a5b  e $IP_ADDRESS..[
++00001d40: 2b5d 2066 7361 7069 5265 7370 6f6e 7365  +] fsapiResponse
++00001d50: 206f 6620 6e65 7452 656d 6f74 652e 7379   of netRemote.sy
++00001d60: 732e 696e 666f 2e66 7269 656e 646c 794e  s.info.friendlyN
++00001d70: 616d 653a 0d0a 2020 2020 2d20 7374 6174  ame:..    - stat
++00001d80: 7573 3a20 4653 5f4f 4b0d 0a20 2020 202d  us: FS_OK..    -
++00001d90: 2076 616c 7565 3a20 4d65 6469 6f6e 4952   value: MedionIR
++00001da0: 0d0a 2020 2020 2d20 7265 6164 6f6e 6c79  ..    - readonly
++00001db0: 3a20 4661 6c73 650d 0a20 2020 202d 206e  : False..    - n
++00001dc0: 6f74 6966 7969 6e67 3a20 5472 7565 0d0a  otifying: True..
++00001dd0: 0d0a 2420 6673 6170 692d 6e65 7420 6973  ..$ fsapi-net is
++00001de0: 7520 2d2d 6669 6e64 2024 4950 5f41 4444  u --find $IP_ADD
++00001df0: 5245 5353 0d0a 5b2b 5d20 4765 6e65 7261  RESS..[+] Genera
++00001e00: 7469 6e67 2063 7572 7265 6e74 2055 524c  ting current URL
++00001e10: 2e2e 2e0d 0a20 2020 202d 2075 726c 3a20  .....    - url: 
++00001e20: 6874 7470 733a 2f2f 7570 6461 7465 2e77  https://update.w
++00001e30: 6966 6972 6164 696f 6672 6f6e 7469 6572  ifiradiofrontier
++00001e40: 2e63 6f6d 2f55 7064 6174 652e 6173 7078  .com/Update.aspx
++00001e50: 3f66 3d2f 7570 6461 7465 732f 6972 2d6d  ?f=/updates/ir-m
++00001e60: 6d69 2d46 5332 3032 362d 3035 3030 2d30  mi-FS2026-0500-0
++00001e70: 3534 392e 322e 3132 2e32 3563 2e45 5837  549.2.12.25c.EX7
++00001e80: 3230 3838 2d31 4131 322e 6973 752e 6269  2088-1A12.isu.bi
++00001e90: 6e0d 0a60 6060 0d0a 0d0a 2323 2055 7361  n..```....## Usa
++00001ea0: 6765 2045 7861 6d70 6c65 730d 0a0d 0a23  ge Examples....#
++00001eb0: 2323 2049 5355 2041 5049 0d0a 0d0a 6060  ## ISU API....``
++00001ec0: 6070 7974 686f 6e0d 0a66 726f 6d20 6673  `python..from fs
++00001ed0: 6170 692e 6973 7520 696d 706f 7274 2049  api.isu import I
++00001ee0: 5355 0d0a 6672 6f6d 2066 7361 7069 2e69  SU..from fsapi.i
++00001ef0: 7375 2e75 7469 6c20 696d 706f 7274 2044  su.util import D
++00001f00: 6174 6163 6c61 7373 5072 696e 7465 720d  ataclassPrinter.
++00001f10: 0a0d 0a69 7375 203d 2049 5355 203c 3c20  ...isu = ISU << 
++00001f20: 2266 6972 6d77 6172 652e 6973 752e 6269  "firmware.isu.bi
++00001f30: 6e22 0d0a 2320 6c6f 6164 2061 6e20 4953  n"..# load an IS
++00001f40: 5548 6561 6465 7220 6f62 6a65 6374 2061  UHeader object a
++00001f50: 6e64 2070 7269 6e74 2074 6865 206c 6f61  nd print the loa
++00001f60: 6465 6420 6461 7461 0d0a 7070 203d 2044  ded data..pp = D
++00001f70: 6174 6163 6c61 7373 5072 696e 7465 7228  ataclassPrinter(
++00001f80: 290d 0a70 702e 7072 696e 745f 6f62 6a65  )..pp.print_obje
++00001f90: 6374 2869 7375 2e68 6561 6465 7229 0d0a  ct(isu.header)..
++00001fa0: 6060 600d 0a0d 0a23 2320 4653 4150 490d  ```....## FSAPI.
++00001fb0: 0a0d 0a60 6060 7079 7468 6f6e 0d0a 6672  ...```python..fr
++00001fc0: 6f6d 2066 7361 7069 2e6e 6574 7265 6d6f  om fsapi.netremo
++00001fd0: 7465 2069 6d70 6f72 7420 5365 742c 2047  te import Set, G
++00001fe0: 6574 2c20 4c69 7374 4765 744e 6578 742c  et, ListGetNext,
++00001ff0: 206e 6f64 6573 2c20 4653 4465 7669 6365   nodes, FSDevice
++00002000: 0d0a 6672 6f6d 2066 7361 7069 2e6e 6574  ..from fsapi.net
++00002010: 636f 6e66 6967 2069 6d70 6f72 7420 4653  config import FS
++00002020: 4e65 7443 6f6e 6669 6775 7261 7469 6f6e  NetConfiguration
++00002030: 0d0a 6672 6f6d 2066 7361 7069 2e69 7375  ..from fsapi.isu
++00002040: 2069 6d70 6f72 7420 6973 755f 6669 6e64   import isu_find
++00002050: 5f75 7064 6174 652c 2069 7375 5f6e 6577  _update, isu_new
++00002060: 5f75 726c 2c20 6973 755f 6765 745f 7570  _url, isu_get_up
++00002070: 6461 7465 0d0a 0d0a 2320 312e 4669 6e64  date....# 1.Find
++00002080: 2061 6e64 2064 6f77 6e6c 6f61 6420 7570   and download up
++00002090: 6461 7465 730d 0a23 2077 6974 686f 7574  dates..# without
++000020a0: 2063 7573 746f 6d20 6e65 7463 6f6e 6669   custom netconfi
++000020b0: 6720 2d3e 2048 5454 5053 2074 7261 6666  g -> HTTPS traff
++000020c0: 6963 0d0a 7265 7370 6f6e 7365 203d 2069  ic..response = i
++000020d0: 7375 5f66 696e 645f 7570 6461 7465 2827  su_find_update('
++000020e0: 244d 4143 272c 2027 2443 5553 544f 4d27  $MAC', '$CUSTOM'
++000020f0: 2c20 2724 5645 5253 494f 4e27 290d 0a0d  , '$VERSION')...
++00002100: 0a23 2077 6974 6820 6375 7374 6f6d 2063  .# with custom c
++00002110: 6f6e 6669 6720 2d3e 2066 6f72 6365 2048  onfig -> force H
++00002120: 5454 5020 7472 6166 6669 630d 0a63 6f6e  TTP traffic..con
++00002130: 6669 6720 3d20 4653 4e65 7443 6f6e 6669  fig = FSNetConfi
++00002140: 6775 7261 7469 6f6e 2868 7474 705f 706f  guration(http_po
++00002150: 6f6c 3d75 726c 6c69 6233 2e48 5454 5043  ol=urllib3.HTTPC
++00002160: 6f6e 6e65 6374 696f 6e50 6f6f 6c28 2724  onnectionPool('$
++00002170: 484f 5354 2729 290d 0a72 6573 706f 6e73  HOST'))..respons
++00002180: 6520 3d20 6973 755f 6669 6e64 5f75 7064  e = isu_find_upd
++00002190: 6174 6528 2724 4d41 4327 2c20 2724 4355  ate('$MAC', '$CU
++000021a0: 5354 4f4d 272c 2027 2456 4552 5349 4f4e  STOM', '$VERSION
++000021b0: 272c 206e 6574 636f 6e66 6967 3d63 6f6e  ', netconfig=con
++000021c0: 6669 6729 0d0a 0d0a 2320 7769 7468 6f75  fig)....# withou
++000021d0: 7420 6375 7374 6f6d 206e 6574 636f 6e66  t custom netconf
++000021e0: 6967 202d 3e20 4854 5450 5320 7472 6166  ig -> HTTPS traf
++000021f0: 6669 630d 0a72 6573 706f 6e73 6520 3d20  fic..response = 
++00002200: 6973 755f 6669 6e64 5f75 7064 6174 6528  isu_find_update(
++00002210: 2724 4d41 4327 2c20 2724 4355 5354 4f4d  '$MAC', '$CUSTOM
++00002220: 272c 2027 2456 4552 5349 4f4e 2729 0d0a  ', '$VERSION')..
++00002230: 666f 7220 5f73 6f66 7477 6172 6520 696e  for _software in
++00002240: 2072 6573 706f 6e73 655b 2775 7064 6174   response['updat
++00002250: 6573 275d 3a0d 0a20 2020 6973 755f 6765  es']:..   isu_ge
++00002260: 745f 7570 6461 7465 2827 2446 494c 455f  t_update('$FILE_
++00002270: 5041 5448 272c 2073 6f66 7477 6172 653d  PATH', software=
++00002280: 5f73 6f66 7477 6172 6529 0d0a 0d0a 2320  _software)....# 
++00002290: 4669 7273 742c 2063 7265 6174 6520 7468  First, create th
++000022a0: 6520 6465 7669 6365 3a0d 0a64 6576 6963  e device:..devic
++000022b0: 6520 3d20 4653 4465 7669 6365 2822 3132  e = FSDevice("12
++000022c0: 372e 302e 302e 3122 290d 0a0d 0a23 2053  7.0.0.1")....# S
++000022d0: 4554 2072 6571 7565 7374 0d0a 7265 7375  ET request..resu
++000022e0: 6c74 203d 2053 6574 286e 6f64 6573 2e42  lt = Set(nodes.B
++000022f0: 6173 6553 7973 496e 666f 4672 6965 6e64  aseSysInfoFriend
++00002300: 6c79 4e61 6d65 2c20 6465 7669 6365 2c20  lyName, device, 
++00002310: 7661 6c75 653d 2248 656c 6c6f 2057 6f72  value="Hello Wor
++00002320: 6c64 2229 0d0a 0d0a 2320 4745 5420 7265  ld")....# GET re
++00002330: 7175 6573 740d 0a72 6573 756c 7420 3d20  quest..result = 
++00002340: 4765 7428 6e6f 6465 732e 4261 7365 5379  Get(nodes.BaseSy
++00002350: 7349 6e66 6f46 7269 656e 646c 794e 616d  sInfoFriendlyNam
++00002360: 652c 2064 6576 6963 6529 0d0a 0d0a 2320  e, device)....# 
++00002370: 4c49 5354 5f47 4554 5f4e 4558 5420 7265  LIST_GET_NEXT re
++00002380: 7175 6573 740d 0a72 6573 756c 7420 3d20  quest..result = 
++00002390: 4c69 7374 4765 744e 6578 7428 6e6f 6465  ListGetNext(node
++000023a0: 732e 4e4f 4445 434c 4153 532c 2064 6576  s.NODECLASS, dev
++000023b0: 6963 652c 206d 6178 4974 656d 733d 3130  ice, maxItems=10
++000023c0: 3029 0d0a 6060 600d 0a0d 0a23 2320 436f  0)..```....## Co
++000023d0: 6e74 7269 6275 7469 6e67 0d0a 0d0a 436f  ntributing....Co
++000023e0: 6e74 7269 6275 7469 6f6e 7320 6172 6520  ntributions are 
++000023f0: 6869 6768 6c79 2061 7070 7265 6369 6174  highly appreciat
++00002400: 6564 2061 7320 7468 6579 2063 6f6e 7472  ed as they contr
++00002410: 6962 7574 6520 746f 2074 6865 2067 726f  ibute to the gro
++00002420: 7774 6820 616e 6420 696d 7072 6f76 656d  wth and improvem
++00002430: 656e 7420 6f66 2074 6865 206f 7065 6e2d  ent of the open-
++00002440: 736f 7572 6365 2063 6f6d 6d75 6e69 7479  source community
++00002450: 2e20 4966 2079 6f75 2068 6176 6520 616e  . If you have an
++00002460: 7920 7375 6767 6573 7469 6f6e 7320 7468  y suggestions th
++00002470: 6174 2063 6f75 6c64 2065 6e68 616e 6365  at could enhance
++00002480: 2074 6869 7320 7072 6f6a 6563 742c 2070   this project, p
++00002490: 6c65 6173 6520 6665 656c 2066 7265 6520  lease feel free 
++000024a0: 746f 2066 6f72 6b20 7468 6520 7265 706f  to fork the repo
++000024b0: 7369 746f 7279 2061 6e64 2063 7265 6174  sitory and creat
++000024c0: 6520 6120 7075 6c6c 2072 6571 7565 7374  e a pull request
++000024d0: 2e20 416c 7465 726e 6174 6976 656c 792c  . Alternatively,
++000024e0: 2079 6f75 2063 616e 2061 6c73 6f20 6f70   you can also op
++000024f0: 656e 2061 6e20 6973 7375 6520 7769 7468  en an issue with
++00002500: 2074 6865 2022 656e 6861 6e63 656d 656e   the "enhancemen
++00002510: 7422 2074 6167 2e0d 0a0d 0a54 6f20 636f  t" tag.....To co
++00002520: 6e74 7269 6275 7465 2c20 666f 6c6c 6f77  ntribute, follow
++00002530: 2074 6865 7365 2073 7465 7073 3a0d 0a0d   these steps:...
++00002540: 0a31 2e20 466f 726b 2074 6865 2050 726f  .1. Fork the Pro
++00002550: 6a65 6374 0d0a 322e 2043 7265 6174 6520  ject..2. Create 
++00002560: 6120 6e65 7720 6272 616e 6368 2066 6f72  a new branch for
++00002570: 2079 6f75 7220 6665 6174 7572 6520 2860   your feature (`
++00002580: 6769 7420 6368 6563 6b6f 7574 202d 6220  git checkout -b 
++00002590: 6665 6174 7572 652f 6e65 772d 6665 6174  feature/new-feat
++000025a0: 7572 6560 290d 0a33 2e20 436f 6d6d 6974  ure`)..3. Commit
++000025b0: 2079 6f75 7220 6368 616e 6765 7320 2860   your changes (`
++000025c0: 6769 7420 636f 6d6d 6974 202d 6d20 2741  git commit -m 'A
++000025d0: 6464 2073 6f6d 6520 6e65 7720 616d 617a  dd some new amaz
++000025e0: 696e 6720 6665 6174 7572 6527 6029 0d0a  ing feature'`)..
++000025f0: 342e 2050 7573 6820 796f 7572 2063 6861  4. Push your cha
++00002600: 6e67 6573 2074 6f20 7468 6520 6272 616e  nges to the bran
++00002610: 6368 2028 6067 6974 2070 7573 6820 6f72  ch (`git push or
++00002620: 6967 696e 2066 6561 7475 7265 2f6e 6577  igin feature/new
++00002630: 2d66 6561 7475 7265 6029 0d0a 352e 204f  -feature`)..5. O
++00002640: 7065 6e20 6120 5075 6c6c 2052 6571 7565  pen a Pull Reque
++00002650: 7374 0d0a 0d0a 3c70 2061 6c69 676e 3d22  st....<p align="
++00002660: 7269 6768 7422 3e28 3c61 2068 7265 663d  right">(<a href=
++00002670: 2223 746f 7022 3e62 6163 6b20 746f 2074  "#top">back to t
++00002680: 6f70 3c2f 613e 293c 2f70 3e0d 0a0d 0a3c  op</a>)</p>....<
++00002690: 212d 2d20 4c49 4345 4e53 4520 2d2d 3e0d  !-- LICENSE -->.
++000026a0: 0a2d 2d2d 0d0a 2323 204c 6963 656e 7365  .---..## License
++000026b0: 0d0a 0d0a 4469 7374 7269 6275 7465 6420  ....Distributed 
++000026c0: 756e 6465 7220 7468 6520 4d49 5420 4c69  under the MIT Li
++000026d0: 6365 6e73 652e 2053 6565 2060 4d49 542e  cense. See `MIT.
++000026e0: 7478 7460 2066 6f72 206d 6f72 6520 696e  txt` for more in
++000026f0: 666f 726d 6174 696f 6e2e 0d0a 0d0a       formation.....
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/__init__.py` & `fsapi-tools-1.0.0rc0/fsapi/__init__.py`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -16,15 +16,15 @@
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+ """
+-A python implementation of the FSAPI with all possible nodes. To run this 
++A python implementation of the FSAPI with all possible nodes. To run this
+ module type:
+ 
+ >>> python3 -m fsapi --help
+ """
+ 
+-__version__ = "0.3.4"
++__version__ = "1.0.0-rc"
+ __author__ = 'MatrixEditor'
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/ecmascript/__init__.py` & `fsapi-tools-1.0.0rc0/fsapi/ecmascript/__init__.py`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -16,24 +16,34 @@
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+ __doc__ = '''
+-Products with the `Venice 8` module contain a different directory archive
+-structure compared to the common modules `Venice 6` or `Venice X`. This fact is
+-interesting, because the stored files are mostly graphical resources and script
+-files written in `ECMAScript` by `ecma`_.
++Products with the `Venice 8` module have a different directory archive structure
++compared to the common modules `Venice 6` or `Venice X`. Notably, the stored files
++in `Venice 8` modules primarily consist of graphical resources and script files
++written in `ECMAScript`, also known as `ecma`.
+ 
+-To extract (and uncompress) the stored files, you can use the `isu_inspector`
+-tool or directly execute the ``fsapi.isu`` module. Files that can be used within
+-this module end with the ``.es.bin`` suffix (`es` for ecmascript).
++To extract and uncompress the stored files, you can utilize the `ISUTool` tool or
++directly execute the ``fsapi.isu`` module. The files that can be used within this
++module have the `.es.bin` suffix, where `es` refers to ECMAScript.
+ 
+-Allthough, there is no binary structure definition of ECMAScript files available,
+-this module tries to read and extract data from input files. Decompilation of
+-`.es.bin` files back to ECMAScript code can be a possible feature for future
+-releases.
++Although there is no available binary structure definition for ECMAScript files,
++this module attempts to read and extract data from the input files. Decompilation
++of `.es.bin` files back to ECMAScript code might be considered as a potential feature
++for future releases.
+ '''
+ 
+-from fsapi.ecmascript.esbin import *
+-from fsapi.ecmascript.opcode import *
++from .esbin import (
++    is_valid_ext,
++    ES_BIN_SUFFIX,
++    ES_BIN_MAGIC,
++    ES_BIN_HEADER_LEN,
++    Decompiler
++)
++from .opcode import (
++    OPCODES,
++    ECMASCRIPT_HDR_LEN,
++    ECMASCRIPT_MAGIC_BYTES
++)
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/ecmascript/__main__.py` & `fsapi-tools-1.0.0rc0/fsapi/ecmascript/cli.py`
+
+ * *Files 11% similar despite different names*
+
+```diff
+@@ -21,59 +21,75 @@
+ # SOFTWARE.
+ 
+ from os import walk
+ from argparse import ArgumentParser
+ 
+ from fsapi.ecmascript.esbin import Decompiler
+ 
+-
+ def decompile(dpath: str, fpath: str, opath: str):
+     with Decompiler(dpath, fpath) as decompiler:
+         code = str(decompiler)
+     if opath:
+-        with open(opath, 'w', encoding='utf-8') as fp:
++        with open(opath, "w", encoding="utf-8") as fp:
+             fp.write(code)
+     else:
+         print(code)
+ 
+ 
+ def walk_rec(dpath: str, fpath: str):
+     for dirpath, dirnames, filenames in walk(fpath):
+         for filename in filenames:
+-            decompile(dpath, f"{dirpath}/{filename}", dirpath + '/' + filename.replace('es.bin', 'js'))
++            decompile(
++                dpath,
++                f"{dirpath}/{filename}",
++                dirpath + "/" + filename.replace("es.bin", "js"),
++            )
+         for dirname in dirnames:
+             walk_rec(dpath, f"{dirpath}/{dirname}")
+ 
+ 
+-if __name__ == '__main__':
++def main(cmd=None):
+     parser = ArgumentParser()
+ 
+-    parser.add_argument('-d', '--decompile', action='store_true',
+-      help="Indicates that the given input file should be decompiled."
++    parser.add_argument(
++        "-d",
++        "--decompile",
++        action="store_true",
++        help="Indicates that the given input file should be decompiled.",
+     )
+-    parser.add_argument('path', type=str,
+-      help="The target file that will be used to operate on."
++    parser.add_argument(
++        "path", type=str, help="The target file that will be used to operate on."
+     )
+-    parser.add_argument('-o', '--out', type=str, default=None,
+-      help="The path were the decompiled output should be saved."
++    parser.add_argument(
++        "-o",
++        "--out",
++        type=str,
++        default=None,
++        help="The path were the decompiled output should be saved.",
+     )
+ 
+     group1 = parser.add_argument_group()
+-    group1.add_argument('--use-decompiler', type=str, metavar='DECOMPATH',
+-      default='decompiler/ecma-decompiler', help="Specifies the path to the decompiler."
++    group1.add_argument(
++        "--use-decompiler",
++        type=str,
++        metavar="DECOMPATH",
++        default="decompiler/ecma-decompiler",
++        help="Specifies the path to the decompiler.",
+     )
+-    group1.add_argument('-r', '--recurse', action='store_true',
+-      help="Indicates that all files in the given directory should be decompiled"
++    group1.add_argument(
++        "-r",
++        "--recurse",
++        action="store_true",
++        help="Indicates that all files in the given directory should be decompiled",
+     )
+ 
+-    nspace = parser.parse_args().__dict__
+-    print(nspace)
++    nspace = parser.parse_args(cmd).__dict__
+ 
+-    if nspace['decompile']:
+-        fpath = nspace['path']
+-        dpath = nspace['use_decompiler']
+-        opath = nspace['out']
++    if nspace["decompile"]:
++        fpath = nspace["path"]
++        dpath = nspace["use_decompiler"]
++        opath = nspace["out"]
+ 
+-        if nspace['recurse']:
++        if nspace["recurse"]:
+             walk_rec(dpath, fpath)
+         else:
+             decompile(dpath, fpath, opath)
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/ecmascript/esbin.py` & `fsapi-tools-1.0.0rc0/fsapi/ecmascript/esbin.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -15,86 +15,88 @@
+ # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+-__doc__ = '''
++__doc__ = """
+ Frontier Smart products with the `Venice 8` module store a different directory
+ archive. Most of the files stored there are written in the ECMAScript language
+ and converted to binary files. They are most likely used to create the web
+ interface for the devices.
+ 
+-'''
++"""
+ 
+-__all__ = [
+-    'is_valid_ext', 'Decompiler', 'ES_BIN_SUFFIX', 'ES_BIN_MAGIC'
+-]
++__all__ = ["is_valid_ext", "Decompiler", "ES_BIN_SUFFIX", "ES_BIN_MAGIC"]
+ 
+ ################################################################################
+ # esbin::imports
+ ################################################################################
+ import re
+ import subprocess
+ import sys
+ 
+ ################################################################################
+ # esbin::globals
+ ################################################################################
+-ES_BIN_SUFFIX = r'\.es\d?\.bin'
+-'''
++ES_BIN_SUFFIX = r"\.es\d?\.bin"
++"""
+ This module will accept files with an extension that matches this defined
+ regular expression. The following examples should show which file names
+ are included:
+ 
+ >>> esbin.is_valid_ext('foobar.es.bin')
+ True
+ >>> esbin.is_valid_ext('foobar.es')
+ False
+ >>> esbin.is_valid_ext('foobar.es6.bin')
+ True
+-'''
++"""
+ 
+-ES_BIN_MAGIC = b'\x07\x00\xAD\xDE'
+-'''
++ES_BIN_MAGIC = b"\x07\x00\xAD\xDE"
++"""
+ ECMAScript binary files always start with header information and a file
+ signature, which is ``07 00 AD DE``.
+-'''
++"""
+ 
+ ES_BIN_HEADER_LEN = 0x24
+ 
++
+ ################################################################################
+ # esbin::functions
+ ################################################################################
+ def is_valid_ext(name: str) -> bool:
+-    '''Applies the ES_BIN_SUFFIX pattern on the given string.
++    """Applies the ES_BIN_SUFFIX pattern on the given string.
+ 
+     :param name: usually the file name to test/ validate
+ 
+     :rtype: bool:
+     :returns: ``True`` if "``.es[:number:]?.bin``" was found in the given string;
+                 ``False`` otherwise.
+-    '''
+-    return (False
++    """
++    return (
++        False
+         if not name or len(name) == 0
+         else re.search(ES_BIN_SUFFIX, name) is not None
+     )
+ 
++
+ class Decompiler:
+     """Wrapper for executable decompilers."""
++
+     def __init__(self, decompiler_path: str, file_path: str) -> None:
+         self.dpath = decompiler_path
+         self.fpath = file_path
+         self.done = False
+         self.sourcecode = None
+ 
+-    def __enter__(self) -> 'Decompiler':
+-        if sys.platform == 'win32':
+-            raise SystemError('Unsupported OS')
++    def __enter__(self) -> "Decompiler":
++        if sys.platform == "win32":
++            raise SystemError("Unsupported OS")
+ 
+         self.do_final()
+         return self
+ 
+     def __exit__(self, etype, value, traceback) -> None:
+         del self.sourcecode
+ 
+@@ -105,22 +107,22 @@
+         :return: the decompiled source code
+         :rtype: str
+         """
+         if self.done:
+             return self.sourcecode
+ 
+         if not is_valid_ext(self.fpath):
+-            raise ValueError('Invalid script file')
++            raise ValueError("Invalid script file")
+ 
+-        result = subprocess.run(args=[self.dpath, self.fpath], 
+-            shell=True, capture_output=True, check=True
++        result = subprocess.run(
++            args=[self.dpath, self.fpath], shell=True, capture_output=True, check=True
+         )
+         result.check_returncode()
+ 
+-        self.sourcecode = result.stdout.decode('utf-8')
++        self.sourcecode = result.stdout.decode("utf-8")
+         self.done = True
+         return self.sourcecode
+ 
+     def __str__(self) -> str:
+         if not self.done:
+             return self.do_final()
+         return self.sourcecode
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/ecmascript/opcode.py` & `fsapi-tools-1.0.0rc0/fsapi/ecmascript/opcode.py`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -15,20 +15,15 @@
+ # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+-__doc__ = '''
+-'''
+-
+-__all__ = [
+-    'ECMASCRIPT_MAGIC_BYTES', 'ECMASCRIPT_HDR_LEN', 'ESOP'
+-]
++__all__ = ["ECMASCRIPT_MAGIC_BYTES", "ECMASCRIPT_HDR_LEN", "OPCODES"]
+ 
+ # ECMAScripts' magic bytes defined in little-endian encoding.
+ #
+ # When looking at the bytes in source files these bytes might be in the
+ # following format: 07 00 AD DE.
+ ECMASCRIPT_MAGIC_BYTES = 0xDEAD0007
+ 
+@@ -37,267 +32,224 @@
+ # Note that this number represents the full header including the four magic
+ # bytes defined in ECMASCRIPT_MAGIC_BYTES.
+ #
+ # @see ECMASCRIPT_MAGIC_BYTES
+ ECMASCRIPT_HDR_LEN = 0x24
+ 
+ # Defines all bytecodes that can be translated into expressions.
+-ESOP = {
++OPCODES = {
+     # Longstanding JavaScript/ECMAScript bytecodes.
+-    0:   "nop",
+-    1:   "push",
+-    2:   "popv",
+-    3:   "enterwith",
+-    4:   "leavewith",
+-    5:   "return",
+-    6:   "goto",
+-    7:   "ifeq",
+-    8:   "ifne",
+-
++    0: "nop",
++    1: "push",
++    2: "popv",
++    3: "enterwith",
++    4: "leavewith",
++    5: "return",
++    6: "goto",
++    7: "ifeq",
++    8: "ifne",
+     # Get the arguments object for the current, lightweight function activation
+-    9:   "args",
+-
++    9: "args",
+     # ECMA-compliant for-in loop with argument or local variable loop control.
+-    10:  "forarg",
+-    11:  "forvar",
+-
+-    12:  "dup",
+-    13:  "dup2",
+-    14:  "setconst",
+-    15:  "bitor",
+-    16:  "bitxor",
+-    17:  "bitand",
+-    18:  "eq",
+-    19:  "ne",
+-    20:  "lt",
+-    21:  "le",
+-    22:  "gt",
+-    23:  "ge",
+-    24:  "lsh",
+-    25:  "rsh",
+-    26:  "ursh",
+-    27:  "add",
+-    28:  "sub",
+-    29:  "mul",
+-    30:  "div",
+-    31:  "mod",
+-    32:  "not",
+-    33:  "bitnot",
+-    34:  "neg",
+-    35:  "new",
+-    36:  "delname",
+-    37:  "delprop",
+-    38:  "delelem",
+-    39:  "typeof",
+-    40:  "void",
+-    41:  "incname",
+-    42:  "incprop",
+-    43:  "incelem",
+-    44:  "decname",
+-    45:  "decprop",
+-    46:  "decelem",
+-    47:  "nameinc",
+-    48:  "propinc",
+-    49:  "eleminc",
+-    50:  "namedec",
+-    51:  "propdec",
+-    52:  "elemdec",
+-    53:  "getprop",
+-    54:  "setprop",
+-    55:  "getelem",
+-    56:  "setelem",
+-    57:  "pushobj",
+-    58:  "call",
+-    59:  "name",
+-    60:  "number",
+-    61:  "string",
+-    62:  "zero",
+-    63:  "one",
+-    64:  "null",
+-    65:  "this",
+-    66:  "false",
+-    67:  "true",
+-    68:  "or",
+-    69:  "and",
+-
++    10: "forarg",
++    11: "forvar",
++    12: "dup",
++    13: "dup2",
++    14: "setconst",
++    15: "bitor",
++    16: "bitxor",
++    17: "bitand",
++    18: "eq",
++    19: "ne",
++    20: "lt",
++    21: "le",
++    22: "gt",
++    23: "ge",
++    24: "lsh",
++    25: "rsh",
++    26: "ursh",
++    27: "add",
++    28: "sub",
++    29: "mul",
++    30: "div",
++    31: "mod",
++    32: "not",
++    33: "bitnot",
++    34: "neg",
++    35: "new",
++    36: "delname",
++    37: "delprop",
++    38: "delelem",
++    39: "typeof",
++    40: "void",
++    41: "incname",
++    42: "incprop",
++    43: "incelem",
++    44: "decname",
++    45: "decprop",
++    46: "decelem",
++    47: "nameinc",
++    48: "propinc",
++    49: "eleminc",
++    50: "namedec",
++    51: "propdec",
++    52: "elemdec",
++    53: "getprop",
++    54: "setprop",
++    55: "getelem",
++    56: "setelem",
++    57: "pushobj",
++    58: "call",
++    59: "name",
++    60: "number",
++    61: "string",
++    62: "zero",
++    63: "one",
++    64: "null",
++    65: "this",
++    66: "false",
++    67: "true",
++    68: "or",
++    69: "and",
+     # The switch bytecodes have variable length
+-    70:  "tableswitch",
+-    71:  "lookupswitch",
+-
++    70: "tableswitch",
++    71: "lookupswitch",
+     # New, infallible/transitive identity ops.
+-    72:  "eq",
+-    73:  "ne",
+-
++    72: "eq",
++    73: "ne",
+     # Lexical closure constructor.
+-    74:  "closure",
+-
++    74: "closure",
+     # Export and import ops.
+-    75:  "exportall",
+-    76:  "exportname",
+-    77:  "importall",
+-    78:  "importprop",
+-    79:  "importelem",
+-
++    75: "exportall",
++    76: "exportname",
++    77: "importall",
++    78: "importprop",
++    79: "importelem",
+     # Push object literal
+-    80:  "object",
+-
++    80: "object",
+     # Pop value and discard it.
+-    81:  "pop",
+-
++    81: "pop",
+     # Convert value to number, for unary +
+-    82:  "pos",
+-
++    82: "pos",
+     # Trap into debugger for breakpoint, etc.
+-    83:  "trap",
+-
++    83: "trap",
+     # Fast get/set ops for function arguments and local variables.
+-    84:  "getarg",
+-    85:  "setarg",
+-    86:  "getvar",
+-    87:  "setvar",
+-
++    84: "getarg",
++    85: "setarg",
++    86: "getvar",
++    87: "setvar",
+     # Push unsigned 16-bit int constant.
+-    88:  "uint16",
+-
++    88: "uint16",
+     # Object and array literal support.
+-    89:  "newinit",
+-    90:  "endinit",
+-    91:  "initprop",
+-    92:  "initelem",
+-    93:  "defsharp",
+-    94:  "usesharp",
+-
++    89: "newinit",
++    90: "endinit",
++    91: "initprop",
++    92: "initelem",
++    93: "defsharp",
++    94: "usesharp",
+     # Fast inc/dec ops for args and local vars.
+-    95:  "incarg",
+-    96:  "incvar",
+-    97:  "decarg",
+-    98:  "decvar",
+-    99:  "arginc",
++    95: "incarg",
++    96: "incvar",
++    97: "decarg",
++    98: "decvar",
++    99: "arginc",
+     100: "varinc",
+     101: "argdec",
+     102: "vardec",
+-
+     # Initialize for-in iterator.
+     103: "forin",
+-
+     # ECMA-compliant for/in ops.
+     104: "forname",
+     105: "forprop",
+     106: "forelem",
+     107: "pop2",
+-
+     # ECMA-compliant assignment ops.
+     108: "bindname",
+     109: "setname",
+-
+     # Exception handling ops.
+     110: "throw",
+-
+     # 'in' and 'instanceof' ops.
+     111: "in",
+     712: "instanceof",
+-
+     # debugger op
+     113: "debugger",
+-
+     # gosub/retsub for finally handling
+     114: "gosub",
+     115: "retsub",
+-
+     # More exception handling ops.
+     116: "exception",
+     117: "setsp",
+-
+     # ECMA-compliant switch statement ops.
+     118: "condswitch",
+     119: "case",
+     120: "default",
+-
+     # ECMA-compliant call to eval op
+     121: "eval",
+-
+     # ECMA-compliant helper for 'for (x[i] in o)' loops.
+     122: "enumelem",
+-
+     # Getter and setter prefix bytecodes.  These modify the next bytecode, either
+     # an assignment or a property initializer code, which then defines a property
+     # getter or setter.
+     123: "get",
+     124: "set",
+-
+     # Prolog bytecodes for defining function, var, and const names.
+     125: "deffun",
+     126: "defconst",
+     127: "defvar",
+-
+     # Auto-clone (if needed due to re-parenting) and push an anonymous function.
+     128: "anonfunobj",
+-
+     # ECMA ed. 3 named function expression.
+     129: "namedfunobj",
+     130: "setlocalpop",
+-
+     # ECMA-mandated parenthesization opcode, which nulls the reference base register
+     131: "group",
+-
+     # Host object extension: given 'o.item(i) = j'
+     132: "setcall",
+-
+     # Exception handling no-ops
+     133: "try",
+     134: "finally",
+-
+     # Swap the top two stack elements.
+     135: "swap",
+-
+     # Bytecodes that avoid making an arguments object in most cases:
+     # 'argsub gets arguments[i] from fp->argv, if i is in [0, fp->argc-1].
+     # 'argcnt' returns fp->argc.
+     136: "argsub",
+     137: "argcnt",
+-
+     # Define a local function object as a local variable.
+     # The local variable's slot number is the first immediate two-byte operand
+     # The function object's atom index is the second immediate operand.
+     138: "deflocalfun",
+-
+     # Extended jumps.
+     139: "gotox",
+     140: "ifeqx",
+     141: "ifnex",
+     142: "orx",
+     143: "andx",
+     144: "gosubx",
+     145: "casex",
+     146: "defaultx",
+     147: "tableswitchx",
+     148: "lookupswitchx",
+-
+     # Placeholders for a real jump opcode set during backpatch chain fixup.
+     149: "backpatch",
+     150: "backpatch_pop",
+-
+     # Set pending exception from the stack, to trigger rethrow.
+     151: "throwing",
+-
+     # Set and get return value pseudo-register in stack frame.
+     152: "setrval",
+     153: "retrval",
+-
+     # Optimized global variable ops
+     154: "getgvar",
+     155: "setgvar",
+     156: "incgvar",
+     157: "decgvar",
+     158: "gvarinc",
+     159: "gvardec",
+-
+     # Regular expression literal
+     160: "regexp",
+-
+     # XML (ECMA-357, a.k.a. "E4X") support.
+     161: "defxmlns",
+     162: "anyname",
+     163: "qnamepart",
+     164: "qnameconst",
+     165: "qname",
+     166: "toattrname",
+@@ -318,51 +270,44 @@
+     181: "xmlcdata",
+     182: "xmlcomment",
+     183: "xmlpi",
+     184: "getmethod",
+     185: "getfunns",
+     186: "foreach",
+     187: "deldesc",
+-
+     # Opcodes for extended literal addressing
+     188: "uint24",
+     189: "literal",
+     190: "findname",
+     191: "litopx",
+-
+     # Opcodes to help the decompiler deal with XML.
+     192: "startxml",
+     193: "startxmlexpr",
+     194: "setmethod",
+-
+     #  Stop interpretation, emitted at end of script to save the threaded bytecode
+     195: "stop",
+-
+     # Get an extant property or element value, throwing ReferenceError if the
+     # identified property does not exist.
+     196: "getxprop",
+     197: "getxelem",
+     198: "typeof",
+-
+     # Block-local scope support.
+     199: "enterblock",
+     200: "leaveblock",
+     201: "getlocal",
+     202: "setlocal",
+     203: "inclocal",
+     204: "declocal",
+     205: "localinc",
+     206: "localdec",
+     207: "forlocal",
+-
+     # Iterator, generator, and array comprehension support.
+     208: "startiter",
+     209: "enditer",
+     210: "generator",
+     211: "yield",
+     212: "arraypush",
+     213: "foreachkeyval",
+-
+     # Variant of 'enumelem' (122) for destructuring const (const [a, b] = ...).
+     214: "enumconstelem",
+-215: "leaveblockexpr"
+-}
++    215: "leaveblockexpr",
++}
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/isu/product.py` & `fsapi-tools-1.0.0rc0/fsapi/isu/product.py`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -15,36 +15,39 @@
+ # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+-__doc__ = '''
++__doc__ = """
+ In order to store and identify each part of the firmware-version and -customisation
+ string, the classes ``FSCustomisation`` and ``FSVersion`` were created. Additionally,
+ there are two RegEx-strings that are used to verify the given verison or customisation
+ string::
+ 
+   # e.g. ir-mmi-FS2026-0500-0015
+   RE_CUSTOMISATION = r"^\w*-\w*-(FS\d{4})-\d{4}-\d{4}"
+ 
+   # e.g. 2.6.17c4.EX53330-V1.08
+   RE_VERSION = r"^\d*([.][\d]*\w*\d*){2}[.].*-.*"
+ 
+ Both classes mentioned above can be created with and without their attributes. To load
+ a verison or customisation string, you can use the ``loads()`` method in both classes.
+-'''
++"""
+ 
+ __all__ = [
+-  "FSCustomisation", "FSVersion", "RE_CUSTOMISATION", "RE_VERSION",
+-  "FSVERSION_MODULE_TYPES"
++    "FSCustomisation",
++    "FSVersion",
++    "RE_CUSTOMISATION",
++    "RE_VERSION",
++    "FSVERSION_MODULE_TYPES",
+ ]
+ 
+-# Structure of each customisation: The following EBNF-declarations should
++# Structure of each customisation: The following BNF-declarations should
+ # cover all firmware customisations that were found and downloadable. At
+ # fist, the <device_type> has to be specified as it defines the first
+ # section of the customisation string:
+ #
+ # <device_type>       := <type> '-' <interface>
+ # <type>              := 'ir' | 'ns' | 'dab'
+ # <interface>         := <interface_name> [ '-' <sub_type> ]
+@@ -57,89 +60,93 @@
+ # <module_type>    := 'FS' NUMBER{4}
+ # <module_version> := NUMBER{4}
+ # <product>        := NUMBER{4}
+ # <spec>           := ( CHAR* | NUMBER* )*
+ # @PendingDeprecationWarning
+ RE_CUSTOMISATION = r"^\w*-\w*-(FS\d{4})-\d{4}-\d{4}(_\w*)*"
+ 
+-# Structure of each version: The following EBNF-declarations should
++# Structure of each version: The following BNF-declarations should
+ # cover all firmware versions:
+ #
+ # <version> := <release> '.' <feature> '.' <patch> '.' <revision> [ '-' <branch> ]
+ # <release  := NUMBER{1}
+ # <feature> := NUMBER{1, 2}
+ # <patch> := NUMBER{1, 2} [ CHAR{1} [ NUMBER{1, 2} ] ]
+ # <revision> := [ 'EX' ] NUMBER{5}
+ # <branch> := ( 'V' NUMBER{1, 2} '.' NUMBER{1, 2} | NUMBER{1} [ CHAR{1} ]
+ #                NUMBER{1, 2} [ CHAR{1} ] ) [ '-' <branch> ]
+ RE_VERSION = r"^\d*([.][\d]*\w*\d*){2}[.].*-.*"
+ 
+ # Each datasheet can be downloaded from the following URL:
+ # https://www.electronicsdatasheets.com/manufacturers/frontier-silicon/parts/
+ FSVERSION_MODULE_TYPES = {
+-    'FS1230': 'Chorus 3',
+-    'FS1235': 'Kino',
+-    'FS2025': 'Venice 5',
+-    'FS2026': 'Venice 6',
+-    'FS2027': 'Venice 7',
+-    'FS2028': 'Venice 8',
+-    'FS2029': 'Venice 9',
+-    'FS2052': 'Verona',
+-    'FS2230': 'Tuscany',
+-    'FS2240': 'Roma',
+-    'FS2340': 'Venice X',
+-    'FS2445': 'Verona 2',
+-    'FS4052': 'Venus',
+-    'FS4053': 'Venus 2I-L',
+-    'FS4230': 'Neptune',
+-    'FS4240': 'Ceres',
+-    'FS4255': 'Venus-H2',
+-    'FS5332': 'Minuet'
++    "FS1230": "Chorus 3",
++    "FS1235": "Kino",
++    "FS2025": "Venice 5",
++    "FS2026": "Venice 6",
++    "FS2027": "Venice 7",
++    "FS2028": "Venice 8",
++    "FS2029": "Venice 9",
++    "FS2052": "Verona",
++    "FS2230": "Tuscany",
++    "FS2240": "Roma",
++    "FS2340": "Venice X",
++    "FS2445": "Verona 2",
++    "FS4052": "Venus",
++    "FS4053": "Venus 2I-L",
++    "FS4230": "Neptune",
++    "FS4240": "Ceres",
++    "FS4255": "Venus-H2",
++    "FS5332": "Minuet",
+ }
+ 
++
+ class FSCustomisation:
+     """Customisation for Frontier-Smart products."""
++
+     def __init__(self) -> None:
+-        self.device_type: str = ''
+-        self.type_spec: str = ''
+-        self.interface: str = ''
++        self.device_type: str = ""
++        self.type_spec: str = ""
++        self.interface: str = ""
+         self.interface_sub_types: list = []
+-        self.module_type: str = ''
+-        self.module_version: str = ''
+-        self.product: str = ''
+-        self.spec: str = ''
+-        self.string: str = ''
+-        self.module_name: str = ''
++        self.module_type: str = ""
++        self.module_version: str = ""
++        self.product: str = ""
++        self.spec: str = ""
++        self.string: str = ""
++        self.module_name: str = ""
+ 
+     def loads(self, buffer: str):
+         """Tries to parse the given string
+ 
+         :param buffer: the input to parse
+         :type buffer: str
+         """
+         if not buffer:
+             return
+ 
+-        content = buffer.split('-')
++        content = buffer.split("-")
+         self.string = buffer
+         self.type_spec = content[0]
+         self.interface = content[1]
+ 
+         idx = 2
+-        while 'FS' not in content[idx]:
++        while "FS" not in content[idx]:
+             self.interface_sub_types.append(content[idx])
+             idx += 1
+ 
+-        self.device_type = '-'.join([self.type_spec, self.interface] + self.interface_sub_types)
++        self.device_type = "-".join(
++            [self.type_spec, self.interface] + self.interface_sub_types
++        )
+         self.module_type = content[idx]
+-        self.module_version = content[idx+1]
+-        self.product = content[idx+2]
++        self.module_version = content[idx + 1]
++        self.product = content[idx + 2]
+ 
+-        if '_' in self.product:
+-            values = self.product.split('_')
++        if "_" in self.product:
++            values = self.product.split("_")
+             self.product = values[0]
+             self.spec = values[1]
+ 
+         if self.module_type in FSVERSION_MODULE_TYPES:
+             self.module_name = FSVERSION_MODULE_TYPES[self.module_type]
+ 
+     def get_module_name(self) -> str:
+@@ -155,34 +162,40 @@
+             # Try to build the representation string
+             self.string = (
+                 f"{self.device_type}-{self.module_type}-{self.module_version}"
+                 f"-{self.product}_{self.spec}"
+             )
+         return self.string
+ 
++
+ class FSVersion:
+     """Frontier-Smart version representation."""
+-    def __init__(self, firmware_version: str = None,
+-                 sdk_version: str = None, revision: str = None,
+-                 branch: str = None) -> None:
++
++    def __init__(
++        self,
++        firmware_version: str = None,
++        sdk_version: str = None,
++        revision: str = None,
++        branch: str = None,
++    ) -> None:
+         self.firmware_version = firmware_version
+         self.string = None
+         self.sdk_version = sdk_version
+         self.revision = revision
+         self.branch = branch
+ 
+     def loads(self, buffer: str):
+         """Parses the given input.
+ 
+         :param buffer: the full version representation
+         :type buffer: str
+         """
+         # TODO: error handling
+-        index = buffer.rindex('.')
++        index = buffer.rindex(".")
+         self.firmware_version = buffer[:index]
+-        self.sdk_version = 'IR' + self.firmware_version + ' SDK'
+-        temp = buffer[index+1:]
++        self.sdk_version = "IR" + self.firmware_version + " SDK"
++        temp = buffer[index + 1 :]
+         self.revision = temp[2:7]
+         self.string = buffer
+ 
+     def __str__(self) -> str:
+         return self.string
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/isudata.py` & `fsapi-tools-1.0.0rc0/fsapi/isu/update.py`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -15,264 +15,309 @@
+ # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+-__doc__ = '''
++__doc__ = """
+ The backend used to find and download updates is located at ``update.wifiradiofrontier.com.``
+ To interact with the underlaying API, the isudata-module comes with two main-methods:
+ 
+ * ``isu_new_url``,
+ * ``isu_find_update`` and
+ * ``isu_get_update``.
+ 
+-'''
++"""
+ 
+ import urllib3
+ import re
+ import xml.etree.ElementTree as xmltree
+ 
+ from fsapi.netconfig import FSNetConfiguration
++from .product import RE_CUSTOMISATION, RE_VERSION
+ 
+ __all__ = [
+-    "ISU_FILE_PROVIDER_HOST", "ISUSoftwareElement", "isu_find_update",
+-    "isu_get_update", "isu_new_url"
++    "ISU_FILE_PROVIDER_HOST",
++    "ISUSoftwareElement",
++    "isu_find_update",
++    "isu_get_update",
++    "isu_new_url",
+ ]
+ 
+ ###############################################################################
+ # Constants
+ ###############################################################################
+-ISU_FILE_PROVIDER_HOST = 'update.wifiradiofrontier.com'
+-ISU_EDGE_PROVIDER_HOST = 'nuv-isu-cdn.azureedge.net'
+-ISU_REQUEST_HEADERS = {
+-    'User-Agent': "FSL IR/0.1",
+-    'Connection': "Close"
+-}
++ISU_FILE_PROVIDER_HOST = "update.wifiradiofrontier.com"
++ISU_EDGE_PROVIDER_HOST = "nuv-isu-cdn.azureedge.net"
++ISU_REQUEST_HEADERS = {"User-Agent": "FSL IR/0.1", "Connection": "Close"}
+ 
+ # MAC-Address structure for internet radios:
+ # '002261' + 6 characters from hex-alphabet
+ RE_FSIR_MAC_ADDR = r"^(002261)[\w]{6}$"
+ 
+-# Example: 2.10.13.EX65638-1A11
+-RE_FS_VERSION = r"\d*[.]\d*[.]\d*\w*\d?[.]EX\d{5}-\d*\w*\d*"
+ 
+-# Example: ir-mmi-FS2026-0500-0037
+-RE_FS_CUSTOMISATION = r"\w*-\w*-FS\d{4}(-\d{4}){2}"
+ 
+ ###############################################################################
+ # Classes
+ ###############################################################################
+ class ISUSoftwareElement:
+-    '''This class contains all information needed to distinguish an update entry.
++    """This class contains all information needed to distinguish an update entry.
+ 
+     Use the ``loadxml`` function to import data from an XML-Element.
+ 
+     :param customisaton: The customisation string for this element.
+     :param version: The version string for this element.
+     :param download_url: The URL where the firmware binary is located
+     :param mandatory: Indicates whether this update is mandatory
+     :param md5hash: The calculated md5Hash for the firmware binary
+     :param product: The product's name
+     :param vendor: usually Frontier Smart
+     :param size: the file's size
+-    '''
+-    def __init__(self, customisation: str = None, version: str = None,
+-                download_url: str = None, mandatory: bool = False,
+-                md5hash: str = None, product: str = None, size: int = 0,
+-                vendor: str = 'Frontier Silicon', summary: str = None) -> None:
++    """
++
++    def __init__(
++        self,
++        customisation: str = None,
++        version: str = None,
++        download_url: str = None,
++        mandatory: bool = False,
++        md5hash: str = None,
++        product: str = None,
++        size: int = 0,
++        vendor: str = "Frontier Silicon",
++        summary: str = None,
++    ) -> None:
+         self.customisation = customisation
+         self.version = version
+         self.download_url = download_url
+         self.mandatory = mandatory
+         self.md5hash = md5hash
+         self.product = product
+         self.vendor = vendor
+         self.summary = summary
+         self.size = size
+ 
+     def __str__(self) -> str:
+         return "Software(c='%s', v='%s', mandatory=%s, size=%d, path='%s')" % (
+-        self.customisation, self.version, self.mandatory, self.size, self.download_url
++            self.customisation,
++            self.version,
++            self.mandatory,
++            self.size,
++            self.download_url,
+         )
+ 
+     def loadxml(self, element: xmltree.Element):
+-        '''Imports data from the given XML-Element.'''
+-        if not element: return
+-        self.customisation = element.get('customisation')
+-        self.version = element.get('version')
+-        self.download_url = element.find('download').text
+-        self.mandatory = element.find('mandatory').text == 'True'
+-        self.product = element.find('product').text
+-        self.size = int(element.find('size').text)
+-        self.md5hash = element.find('md5').text
+-        self.summary = element.find('summary').text
+-        self.vendor = element.find('vendor').text
++        """Imports data from the given XML-Element."""
++        if not element:
++            return
++        self.customisation = element.get("customisation")
++        self.version = element.get("version")
++        self.download_url = element.find("download").text
++        self.mandatory = element.find("mandatory").text == "True"
++        self.product = element.find("product").text
++        self.size = int(element.find("size").text)
++        self.md5hash = element.find("md5").text
++        self.summary = element.find("summary").text
++        self.vendor = element.find("vendor").text
++
+ 
+ ###############################################################################
+ # Functions
+ ###############################################################################
+ def _url_find_update_add_parameters(url: str, parameters: dict) -> str:
+-    uri = '/FindUpdate.aspx?'
+-    return url + uri + '&'.join(['%s=%s' % (key, parameters[key]) for key in parameters])
++    uri = "/FindUpdate.aspx?"
++    return (
++        url + uri + "&".join(["%s=%s" % (key, parameters[key]) for key in parameters])
++    )
+ 
+ 
+-def isu_find_update(mac: str, customisation: str, version: str,
+-                    verbose: bool = False,
+-                    netconfig: FSNetConfiguration = None) -> dict:
+-    '''Tries to find updates for the given version and customisation.
++def isu_find_update(
++    mac: str,
++    customisation: str,
++    version: str,
++    verbose: bool = False,
++    netconfig: FSNetConfiguration = None,
++) -> dict:
++    """Tries to find updates for the given version and customisation.
+ 
+     :param mac: The MAC-Address string of a frontier silicon device in the following
+                 format: ``002261xxxxxx``. This string must start with ``002261``.
+     :param customisation: Information about the used interface, module and version
+                             number.
+     :param version: As the name already states, the full version string.
+     :param verbose: if enabled/True, error messages will be printed to stdout
+     :param netconfig: if a custom configuration like a proxy should be used, this
+                         object can be passed as a parameter
+ 
+     :returns: ``None`` if an error occurred or a dictionary with the following structure
+                 if one ore more updates are present::
+ 
+-                return {
+-                    'update_present': bool,
+-                    'headers': dict,
+-                    'updates': list[ISUSoftwareElement]
+-                }
+-    '''
++                    return {
++                        'update_present': bool,
++                        'headers': dict,
++                        'updates': list[ISUSoftwareElement]
++                    }
++    """
+ 
+-    result = {'update_present': False, 'headers': None, 'updates': []}
++    result = {"update_present": False, "headers": None, "updates": []}
+     if not re.match(RE_FSIR_MAC_ADDR, mac):
+-        if verbose: print("[-] Failed to find an update: malformed MAC-Address")
++        if verbose:
++            print("[-] Failed to find an update: malformed MAC-Address")
+         return result
+ 
+-    if not re.match(RE_FS_CUSTOMISATION, customisation):
+-        if verbose: print("[-] Failed to find an update: malformed customisation string")
++    if not re.match(RE_CUSTOMISATION, customisation):
++        if verbose:
++            print("[-] Failed to find an update: malformed customisation string")
+         return result
+ 
+-    if not re.match(RE_FS_VERSION, version):
+-        if verbose: print("[-] Failed to find an update: malformed version string")
++    if not re.match(RE_VERSION, version):
++        if verbose:
++            print("[-] Failed to find an update: malformed version string")
+         return result
+ 
+-    url = _url_find_update_add_parameters('https://' + ISU_FILE_PROVIDER_HOST, {
+-        'mac': mac,
+-        'customisation': customisation,
+-        'version': version
+-    })
++    url = _url_find_update_add_parameters(
++        "https://" + ISU_FILE_PROVIDER_HOST,
++        {"mac": mac, "customisation": customisation, "version": version},
++    )
+ 
+     if netconfig:
+-        response = netconfig.delegate_request('GET', url, ISU_REQUEST_HEADERS)
++        response = netconfig.delegate_request("GET", url, ISU_REQUEST_HEADERS)
+     else:
+-        pool = urllib3.HTTPSConnectionPool(host=ISU_FILE_PROVIDER_HOST, headers=ISU_REQUEST_HEADERS)
+-        response = pool.request('GET', url)
++        pool = urllib3.HTTPSConnectionPool(
++            host=ISU_FILE_PROVIDER_HOST, headers=ISU_REQUEST_HEADERS
++        )
++        response = pool.request("GET", url)
+         pool.close()
+ 
+     if response.status == 404:
+-        if verbose: print("[-] Update not found: invalid version or customisation")
++        if verbose:
++            print("[-] Update not found: invalid version or customisation")
+         return result
+     elif response.status == 304:
+-        if verbose: print("[-] No Update available for: ", customisation)
++        if verbose:
++            print("[-] No Update available for: ", customisation)
+         return result
+ 
+     if response.status != 200:
+-        if verbose: print("[-] Unexpected result code:", response.status)
++        if verbose:
++            print("[-] Unexpected result code:", response.status)
+         return result
+     else:
+         try:
+-            result['headers'] = response.headers
+-            content = str(response.data, 'utf-8')
++            result["headers"] = response.headers
++            content = str(response.data, "utf-8")
+ 
+-            pos = content.find('<?xml')
++            pos = content.find("<?xml")
+             if pos == -1:
+-                if verbose: print("[-] Unexpected result: XML-Content missing")
++                if verbose:
++                    print("[-] Unexpected result: XML-Content missing")
+                 return result
+             else:
+-                content = content[pos:pos+content.find('</updates>', pos)+9]
++                content = content[pos : pos + content.find("</updates>", pos) + 9]
+                 root = xmltree.fromstring(content)
+                 updates = []
+                 for software in root:
+                     s = ISUSoftwareElement()
+                     s.loadxml(software)
+                     updates.append(s)
+ 
+-                result['updates'] = updates
+-                result['update_present'] = True
++                result["updates"] = updates
++                result["update_present"] = True
+                 return result
+         except Exception as e:
+-            if verbose: print("[-] Error while parsing response: %s" % e)
++            if verbose:
++                print("[-] Error while parsing response: %s" % e)
+             return result
+ 
+ 
+-def isu_get_update(path: str, url: str = None, software: ISUSoftwareElement = None,
+-                   verbose: bool = False,
+-                   netconfig: FSNetConfiguration = None):
+-    '''Tries to download and save the firmware binary located at the given URL.
++def isu_get_update(
++    path: str,
++    url: str = None,
++    software: ISUSoftwareElement = None,
++    verbose: bool = False,
++    netconfig: FSNetConfiguration = None,
++):
++    """Tries to download and save the firmware binary located at the given URL.
+ 
+     :param path: an absolute or relative path to the output file
+     :param url: optional the direct download link - if not set, the software parameter
+                 must be defined
+     :param software: the software object containing the relevant data for downloading
+                     the update file
+     :param verbose: if enabled/True, error messages will be printed to stdout
+     :param netconfig: if a custom configuration like a proxy should be used, this object
+                         can be passed as a parameter
+-    '''
++    """
+     if not url and (not software or not software.download_url):
+-        if verbose: print("[-] Invalid choice of parameters: either url or software has to be nonnull")
++        if verbose:
++            print(
++                "[-] Invalid choice of parameters: either url or software has to be nonnull"
++            )
+         return
+ 
+     url = url if url else software.download_url
+     if netconfig:
+-        response = netconfig.delegate_request('GET', url, ISU_REQUEST_HEADERS, preload_content=False)
++        response = netconfig.delegate_request(
++            "GET", url, ISU_REQUEST_HEADERS, preload_content=False
++        )
+     else:
+-        if 'https' not in url: url = url.replace('http', 'https')
+-        pool = urllib3.HTTPSConnectionPool(host=url.split("/")[2], headers=ISU_REQUEST_HEADERS, timeout=5)
+-        response = pool.request('GET', url, preload_content=False)
++        if "https" not in url:
++            url = url.replace("http", "https")
++        pool = urllib3.HTTPSConnectionPool(
++            host=url.split("/")[2], headers=ISU_REQUEST_HEADERS, timeout=5
++        )
++        response = pool.request("GET", url, preload_content=False)
+ 
+     if response.status != 200:
+-        if verbose: print("[-] Unexpected result code:", response.status)
++        if verbose:
++            print("[-] Unexpected result code:", response.status)
+     else:
+         try:
+-            with open(path, 'wb') as _res:
+-                for chunk in response.stream(4096*16):
+-                    if chunk: _res.write(chunk)
++            with open(path, "wb") as _res:
++                for chunk in response.stream(4096 * 16):
++                    if chunk:
++                        _res.write(chunk)
+         except TimeoutError:
+-            print('[-] Timeout Error...')
++            print("[-] Timeout Error...")
+     response.release_conn()
+-    
++
+ 
+ def isu_new_url(name: str) -> str:
+-    '''An URL generator for the given product descriptor.
++    """An URL generator for the given product descriptor.
+ 
+     :param name: the customisation and version put toghether wither with
+                 a '`_V`'.
+     :returns: the newly generated url where the firmware can be downloaded
+-    '''
+-    parts = name.split('-')
++    """
++    parts = name.split("-")
+     fs_part = None
+     url = None
+ 
+     # NOTE: Some firmware binaries contain different sub-interfaces, so
+-    # the FSXXXX module definition will be shift to the right.
+-    for f in filter(lambda x: 'FS' in x, parts):
++    # the FSXXXX module definition will be shifted to the right.
++    for f in filter(lambda x: "FS" in x, parts):
+         fs_part = f
+         break
+ 
+     if fs_part is not None:
+-        if fs_part == 'FS2340':
+-            customisation = name.split('_V')[0]
+-            url = 'https://%s/srupdates/srupdates/%s/%s.isu.bin' % (
+-                ISU_EDGE_PROVIDER_HOST, customisation, name
++        if fs_part == "FS2340":
++            customisation = name.split("_V")[0]
++            url = "https://%s/srupdates/srupdates/%s/%s.isu.bin" % (
++                ISU_EDGE_PROVIDER_HOST,
++                customisation,
++                name,
+             )
+-        elif fs_part == 'FS5332':
+-            customisation = name.split('_')[0]
+-            url = 'https://%s/nsupdates/nsupdates/%s/%s.ota.bin' % (
+-                ISU_EDGE_PROVIDER_HOST, customisation, name
++        elif fs_part == "FS5332":
++            customisation = name.split("_")[0]
++            url = "https://%s/nsupdates/nsupdates/%s/%s.ota.bin" % (
++                ISU_EDGE_PROVIDER_HOST,
++                customisation,
++                name,
+             )
+         else:
+-            url = 'https://%s/Update.aspx?f=/updates/%s.isu.bin' % (
+-                ISU_FILE_PROVIDER_HOST, name.replace('_V', '.')
++            url = "https://%s/Update.aspx?f=/updates/%s.isu.bin" % (
++                ISU_FILE_PROVIDER_HOST,
++                name.replace("_V", "."),
+             )
+ 
+     return url
+-
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/netconfig.py` & `fsapi-tools-1.0.0rc0/fsapi/netconfig.py`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -17,19 +17,23 @@
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+ import urllib3
+ 
++
+ class FSNetConfiguration:
+-    def __init__(self, proxy_manager: urllib3.ProxyManager = None,
+-                http_pool: urllib3.HTTPConnectionPool = None,
+-                https_pool: urllib3.HTTPSConnectionPool = None,
+-                headers: dict = None) -> None:
++    def __init__(
++        self,
++        proxy_manager: urllib3.ProxyManager = None,
++        http_pool: urllib3.HTTPConnectionPool = None,
++        https_pool: urllib3.HTTPSConnectionPool = None,
++        headers: dict = None,
++    ) -> None:
+         self.proxy_manager = proxy_manager
+         self.http_pool = http_pool
+         self.https_pool = https_pool
+         self.headers = headers
+ 
+     def should_use_http(self) -> bool:
+         return self.http_pool is not None
+@@ -39,26 +43,26 @@
+ 
+     def should_use_proxy(self) -> bool:
+         return self.proxy_manager is not None
+ 
+     def use_custom_headers(self) -> bool:
+         return self.headers is not None
+ 
+-    def delegate_request(self, method: str, url: str, headers: dict = None,
+-                        fields: dict = None,
+-                        **kwargs) -> urllib3.HTTPResponse:
++    def delegate_request(
++        self, method: str, url: str, headers: dict = None, fields: dict = None, **kwargs
++    ) -> urllib3.HTTPResponse:
+         pool = self.http_pool
+         if self.should_use_https():
+             pool = self.https_pool
+         elif self.should_use_proxy():
+             pool = self.proxy_manager
+ 
+-        if self.should_use_https() and 'https' not in url: url = url.replace('http', 'https')
++        if self.should_use_https() and "https" not in url:
++            url = url.replace("http", "https")
+ 
+         if not pool:
+-            raise ValueError('Invalid pool option: missing pool object')
++            raise ValueError("Invalid pool option: missing pool object")
+ 
+         if self.use_custom_headers():
+             headers = self.headers
+ 
+         return pool.request(method, url, headers=headers, fields=fields, **kwargs)
+-
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi/netremote/basenode.py` & `fsapi-tools-1.0.0rc0/fsapi/netremote/basenode.py`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -15,151 +15,197 @@
+ # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ # SOFTWARE.
+-__doc__ = '''
+-The first two classes are used to add a prototype template to each node. By adding
+-a ``NodeArg`` to a ``NodePrototype`` object, the same parameter has to be specified
+-when calling the ``netremote_request('SET', ...)`` method. A small example should
+-show the importance::
++__doc__ = """
++The first two classes, "NodePrototype" and "NodeArg", are used to add a prototype
++template to each node. By adding a "NodeArg" to a "NodePrototype" object, the same
++parameter has to be specified when calling the ``netremote_request('SET', ...)`` method.
++
++Here's a small example to illustrate its importance:
++
++.. code-block:: python
++    :linenos:
+ 
+     # <in specific Node class> -> do not change this code
+     # Creating a prototype for the default parameter 'value' of type ui16.
+     prototype = NodePrototype(arg=NodeArg(data_Type=ARG_TYPE_U16))
+ 
+     # <custom code>
+     # If calling the SET method, the parameter has to be given
+-    result = fsapi.netremote_request('SET', $node_class, $radio, parameters={'value': 1})
++    result = fsapi.netremote_request('SET', node_class, radio, parameters={'value': 1})
++
+ 
+-There are only a few `ARG_TYPE` values implemented and possible to use. These are:
++There are only a few ``ARG_TYPE`` values implemented and available for use. They are:
+ 
+-* ``ARG_TYPE_C``:   int = 0x10  # C8-Array (char array)
+-* ``ARG_TYPE_E8``:  int = 0x11  # Type defined by an Enum
+-* ``ARG_TYPE_U8``:  int = 0x12  # unsigned char
+-* ``ARG_TYPE_U16``: int = 0x13  # unsigned short
+-* ``ARG_TYPE_U32``: int = 0x14  # unsigned int
+-* ``ARG_TYPE_S8``:  int = 0x15  # signed char
+-* ``ARG_TYPE_S16``: int = 0x16  # signed short
+-* ``ARG_TYPE_S32``: int = 0x17  # signed int
+-* ``ARG_TYPE_U``:   int = 0x18  # array of data
+-
+-The node classes represent the base of all possible functionalities this API provides. The
+-package name of each node class can be fetched by calling the static method ``node_class.get_name()``.
+-Use ``fsapi.get_all_node_names()`` to get all implemented nodes.
+-
+-Each node provides the following attributes: ``cacheable`` [bool], ``notifying`` [bool],
+-``readonly`` [bool], <static> ``package_name`` [str], ``prototype`` [NodePrototype] and the
+-stored value in case the node is not a ``NodeList``. These node list classes just contain a list
+-of ``NodeListItems``, which can contain one ore more fields. These are packed into a dictionary
+-named `attr`.
+-
+-To make the import of NodeLists and NodeListItems easier, these classes come with an inbuild function
+-named ``loadxml()``. Note that the XMLElement always needs to be the root element.
+-'''
++- ``ARG_TYPE_C``:   int = ``0x10``, C8-Array (char array)
++- ``ARG_TYPE_E8``:  int = ``0x11``, Type defined by an Enum
++- ``ARG_TYPE_U8``:  int = ``0x12``, unsigned char
++- ``ARG_TYPE_U16``: int = ``0x13``, unsigned short
++- ``ARG_TYPE_U32``: int = ``0x14``, unsigned int
++- ``ARG_TYPE_S8``:  int = ``0x15``, signed char
++- ``ARG_TYPE_S16``: int = ``0x16``, signed short
++- ``ARG_TYPE_S32``: int = ``0x17``, signed int
++- ``ARG_TYPE_U``:   int = ``0x18``, array of data
++
++The node classes represent the foundation of all possible functionalities provided by
++this API. The package name of each node class can be obtained by calling the static method
++``node_class.get_name()``. You can use *fsapi.get_all_node_names()* to retrieve all
++implemented nodes.
++
++Each node provides the following attributes:
++
++- `cacheable` [bool],
++- `notifying` [bool],
++- `readonly` [bool],
++- <static> `package_name` [str],
++- `prototype` [NodePrototype],
++
++and the stored value in case the node is not a :class:`NodeList`. The node list classes simply
++contain a list of :class:`NodeListItem`, which can have one or more fields. These fields are
++packed into a dictionary named ``attr``.
++
++To simplify the import of NodeLists and NodeListItems, these classes come with an inbuilt
++function called `loadxml()`. Please note that the XMLElement always needs to be the root element.
++"""
+ 
+ from xml.etree import ElementTree as xmltree
+ 
+ __all__ = [
+-    "ARG_TYPE_C", "ARG_TYPE_E8", "ARG_TYPE_U8", "ARG_TYPE_U16", "ARG_TYPE_U32", "ARG_TYPE_S8",
+-    "ARG_TYPE_S16", "ARG_TYPE_S32", "ARG_TYPE_U", "NodeArg", "NodePrototype", "NodeInfo",
+-    "NodeInteger", "NodeS8", "NodeS16", "NodeS32", "NodeU8", "NodeU16", "NodeU32", "NodeE8",
+-    "NodeC", "NodeU", "NodeListItem", "NodeList",
++    "ARG_TYPE_C",
++    "ARG_TYPE_E8",
++    "ARG_TYPE_U8",
++    "ARG_TYPE_U16",
++    "ARG_TYPE_U32",
++    "ARG_TYPE_S8",
++    "ARG_TYPE_S16",
++    "ARG_TYPE_S32",
++    "ARG_TYPE_U",
++    "NodeArg",
++    "NodePrototype",
++    "NodeInfo",
++    "NodeInteger",
++    "NodeS8",
++    "NodeS16",
++    "NodeS32",
++    "NodeU8",
++    "NodeU16",
++    "NodeU32",
++    "NodeE8",
++    "NodeC",
++    "NodeU",
++    "NodeListItem",
++    "NodeList",
+ ]
+ 
+ ARG_TYPE_C: int = 0x10
+-'''C8-Array (char array)'''
++"""C8-Array (char array)"""
+ ARG_TYPE_E8: int = 0x11
+-'''Type defined by an Enum'''
++"""Type defined by an Enum"""
+ ARG_TYPE_U8: int = 0x12
+-'''unsigned char'''
++"""unsigned char"""
+ ARG_TYPE_U16: int = 0x13
+-'''unsigned short'''
++"""unsigned short"""
+ ARG_TYPE_U32: int = 0x14
+-'''unsigned int'''
++"""unsigned int"""
+ ARG_TYPE_S8: int = 0x15
+-'''signed char'''
++"""signed char"""
+ ARG_TYPE_S16: int = 0x16
+-'''signed short'''
++"""signed short"""
+ ARG_TYPE_S32: int = 0x17
+-'''signed int'''
++"""signed int"""
+ ARG_TYPE_U: int = 0x18
+-'''array of data'''
++"""array of data"""
++
+ 
+ class NodeArg:
+-    '''A simple Node-Argument.
++    """A simple Node-Argument.
+ 
+     This class has to be added to the ``NodePrototype`` if the node can be altered. The
+     default name for an argument is "`value`".
+ 
+     :param name: the argument's name (default "`value`")
+     :param length: the maximum data length
+     :param data_type: one of the previous declared data types
+-    '''
++    """
++
+     def __init__(self, name: str = None, length: int = 0, data_type: int = 0) -> None:
+         self.name = name
+         self.length = length
+         self.data_type = data_type
+ 
++
+ class NodePrototype:
+-    '''The prototype for a node definition.
++    """The prototype for a node definition.
+ 
+     This class stores the arguments that are necessary when reading from or writing to
+     a node.
+ 
+     :param arg: a single ``NodeArg``
+     :param args: a list of ``NodeArg``
+-    '''
++    """
+ 
+     def __init__(self, arg: NodeArg = None, args: list = None) -> None:
+-        if arg: self.arguments = [arg]
+-        elif args: self.arguments = args if args else []
+-        else: self.arguments = []
++        if arg:
++            self.arguments = [arg]
++        elif args:
++            self.arguments = args if args else []
++        else:
++            self.arguments = []
+ 
+     def get_args(self) -> list:
+-        '''Returns the stored node's arguments.'''
++        """Returns the stored node's arguments."""
+         return self.arguments
+ 
+     def __iter__(self):
+         return iter(self.arguments)
+ 
++
+ class NodeInfo:
+-    '''The base class for all nodes.
++    """The base class for all nodes.
++
++    As defined above, each node provides the following attributes:
++
++    - ``cacheable`` [bool],
++    - ``notifying`` [bool],
++    - ``readonly`` [bool],
++    - <static> ``package_name`` [str],
++    - ``prototype``[NodePrototype]
+ 
+-    As defined above, each node provides the following attributes: ``cacheable`` [bool],
+-    ``notifying`` [bool], ``readonly`` [bool], <static> ``package_name`` [str], ``prototype``
+-    [NodePrototype] and the stored value in case the node is not a ``NodeList``.
+-    '''
++    and the stored value in case the node is not a ``NodeList``.
++    """
+ 
+     def is_cacheable(self) -> bool:
+-        '''Returns whether this node can be cached (on the device).'''
++        """Returns whether this node can be cached (on the device)."""
+         return False
+ 
+     def is_notifying(self) -> bool:
+-        '''Returns whether this node is notifying.'''
++        """Returns whether this node is notifying."""
+         return False
+ 
+     def is_readonly(self) -> bool:
+-        '''Returns whether this node can't be altered.'''
++        """Returns whether this node can't be altered."""
+         return False
+ 
+     def get_name(self) -> str:
+-        '''Returns the name of this node.'''
++        """Returns the name of this node."""
+         pass
+ 
+     def get_prototype(self) -> NodePrototype:
+-        '''Returns the prototype for this node.'''
++        """Returns the prototype for this node."""
+         pass
+ 
+     def update(self):
+-        '''@Deprecated'''
++        """@Deprecated"""
+         pass
+ 
++
+ class NodeInteger(NodeInfo):
+     def __init__(self, value: int, min_value: int = 0, max_value: int = 0) -> None:
+         self.value = value
+         self.minimum = min_value
+         self.maximum = max_value
+ 
+     def get_value(self) -> int:
+@@ -172,87 +218,100 @@
+     def __str__(self) -> str:
+         return "NodeInt(v=%s)" % str(self.get_value())
+ 
+     def __eq__(self, __o: object) -> bool:
+         if isinstance(__o, self.__class__):
+             return __o.get_value() == self.get_value()
+ 
++
+ class NodeS8(NodeInteger):
+     def __init__(self, value: int, max_size: int = 0) -> None:
+         super().__init__(value, 127, -127)
+ 
++
+ class NodeS16(NodeInteger):
+     def __init__(self, value: int, max_size: int = 0) -> None:
+-        super().__init__(value, 0x7fff, -0x7fff)
++        super().__init__(value, 0x7FFF, -0x7FFF)
++
+ 
+ class NodeS32(NodeInteger):
+     def __init__(self, value: int, max_size: int = 0) -> None:
+-        super().__init__(value, 0x7fffffff, -0x7fffffff)
++        super().__init__(value, 0x7FFFFFFF, -0x7FFFFFFF)
++
+ 
+ class NodeU8(NodeInteger):
+     def __init__(self, value: int, max_size: int = 0) -> None:
+-        super().__init__(value, 0xff, 0)
++        super().__init__(value, 0xFF, 0)
++
+ 
+ class NodeU16(NodeInteger):
+     def __init__(self, value: int, max_size: int = 0) -> None:
+-        super().__init__(value, 0xffff, 0)
++        super().__init__(value, 0xFFFF, 0)
++
+ 
+ class NodeU32(NodeInteger):
+     def __init__(self, value: int, max_size: int = 0) -> None:
+-        super().__init__(value, 0xffffffff, 0)
++        super().__init__(value, 0xFFFFFFFF, 0)
++
+ 
+ class NodeE8(NodeInfo):
+     def __init__(self, value: int = 0, mapping: dict = None) -> None:
+         self.value = value
+         self.mapping = mapping
+ 
+     def get_enum_value(self) -> object:
+-        if not self.mapping or self.value not in self.mapping: return None
++        if not self.mapping or self.value not in self.mapping:
++            return None
+         return self.mapping[self.value]
+ 
+     def get_value(self) -> int:
+         return self.value
+ 
+     def __str__(self) -> str:
+-        return f'NodeE8<{self.get_enum_value()}>'
++        return f"NodeE8<{self.get_enum_value()}>"
++
+ 
+ class NodeC(NodeInfo):
+     def __init__(self, value: str = None, max_size: int = 0) -> None:
+         super().__init__()
+         self.value = value
+         self.max_size = max_size
+ 
+     def get_maximum_length(self) -> int:
+         return self.max_size
+ 
++
+ class NodeU(NodeC):
+     def __init__(self, value: str = None, max_size: int = 0) -> None:
+         super().__init__(value, max_size)
+ 
++
+ class NodeListItem:
+     def __init__(self, attributes: dict = None) -> None:
+         self.attr = attributes if attributes else {}
+ 
+     def loadxml(self, element: xmltree.Element):
+-        key = element.get('key', None)
+-        self.attr['key'] = key
+-        for field_node in element.findall('field'):
+-            self.attr[field_node.attrib['name']] = field_node[0].text
++        key = element.get("key", None)
++        self.attr["key"] = key
++        for field_node in element.findall("field"):
++            self.attr[field_node.attrib["name"]] = field_node[0].text
+ 
+     def get_attr_by_name(self, field: str) -> object:
+-        if not field or field not in self.attr: return None
++        if not field or field not in self.attr:
++            return None
+         return self.attr[field]
+ 
++
+ class NodeList(NodeInfo):
+     def __init__(self, items: list = None) -> None:
+         super().__init__()
+         self.items = items if items else []
+ 
+     def loadxml(self, element: xmltree.Element):
+-        for item in element.findall('item'):
++        for item in element.findall("item"):
+             node_item = NodeListItem()
+             node_item.loadxml(item)
+             self.get_items().append(node_item)
+ 
+     def size(self) -> int:
+         return len(self.items)
+```
+
+### Comparing `fsapi-tools-0.3.4/fsapi_tools.egg-info/SOURCES.txt` & `fsapi-tools-1.0.0rc0/fsapi_tools.egg-info/SOURCES.txt`
+
+ * *Files 26% similar despite different names*
+
+```diff
+@@ -1,31 +1,28 @@
+ LICENSE
+ README.md
+ pyproject.toml
+ fsapi/__init__.py
+ fsapi/__main__.py
+-fsapi/all.py
+-fsapi/isudata.py
+ fsapi/netconfig.py
+ fsapi/ecmascript/__init__.py
+ fsapi/ecmascript/__main__.py
++fsapi/ecmascript/cli.py
+ fsapi/ecmascript/esbin.py
+ fsapi/ecmascript/opcode.py
+ fsapi/isu/__init__.py
+ fsapi/isu/__main__.py
+-fsapi/isu/fsfs.py
+-fsapi/isu/ioutils.py
+-fsapi/isu/model.py
++fsapi/isu/cli.py
++fsapi/isu/format.py
+ fsapi/isu/product.py
+-fsapi/isu/inspectors/__init__.py
+-fsapi/isu/inspectors/fs2026.py
+-fsapi/isu/inspectors/fs2028.py
+-fsapi/isu/inspectors/fs2340.py
+-fsapi/isu/inspectors/fs5332.py
++fsapi/isu/update.py
++fsapi/isu/util.py
+ fsapi/netremote/__init__.py
+ fsapi/netremote/basenode.py
++fsapi/netremote/cli.py
+ fsapi/netremote/nodes.py
+ fsapi/netremote/radiohttp.py
+ fsapi_tools.egg-info/PKG-INFO
+ fsapi_tools.egg-info/SOURCES.txt
+ fsapi_tools.egg-info/dependency_links.txt
++fsapi_tools.egg-info/entry_points.txt
+ fsapi_tools.egg-info/top_level.txt
+```
+
+### Comparing `fsapi-tools-0.3.4/pyproject.toml` & `fsapi-tools-1.0.0rc0/pyproject.toml`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -1,52 +1,61 @@
+ 00000000: 5b70 726f 6a65 6374 5d0d 0a6e 616d 6520  [project]..name 
+ 00000010: 3d20 2266 7361 7069 2d74 6f6f 6c73 220d  = "fsapi-tools".
+-00000020: 0a76 6572 7369 6f6e 203d 2022 302e 332e  .version = "0.3.
+-00000030: 3422 0d0a 6465 7363 7269 7074 696f 6e3d  4"..description=
+-00000040: 2246 726f 6e74 6965 7220 536d 6172 7420  "Frontier Smart 
+-00000050: 2866 6f72 6d65 7220 4672 6f6e 7469 6572  (former Frontier
+-00000060: 2053 696c 6963 6f6e 2920 4150 4922 0d0a   Silicon) API"..
+-00000070: 6175 7468 6f72 7320 3d20 5b0d 0a20 207b  authors = [..  {
+-00000080: 206e 616d 653d 224d 6174 7269 7845 6469   name="MatrixEdi
+-00000090: 746f 7222 2c20 656d 6169 6c3d 226e 6f74  tor", email="not
+-000000a0: 4073 7570 706f 7274 6564 2e63 6f6d 2220  @supported.com" 
+-000000b0: 7d2c 0d0a 5d0d 0a72 6561 646d 6520 3d20  },..]..readme = 
+-000000c0: 2252 4541 444d 452e 6d64 220d 0a63 6c61  "README.md"..cla
+-000000d0: 7373 6966 6965 7273 203d 205b 0d0a 2020  ssifiers = [..  
+-000000e0: 2020 2744 6576 656c 6f70 6d65 6e74 2053    'Development S
+-000000f0: 7461 7475 7320 3a3a 2035 202d 2050 726f  tatus :: 5 - Pro
+-00000100: 6475 6374 696f 6e2f 5374 6162 6c65 272c  duction/Stable',
+-00000110: 0d0a 2020 2020 2749 6e74 656e 6465 6420  ..    'Intended 
+-00000120: 4175 6469 656e 6365 203a 3a20 5363 6965  Audience :: Scie
+-00000130: 6e63 652f 5265 7365 6172 6368 272c 0d0a  nce/Research',..
+-00000140: 2020 2020 274c 6963 656e 7365 203a 3a20      'License :: 
+-00000150: 4f53 4920 4170 7072 6f76 6564 203a 3a20  OSI Approved :: 
+-00000160: 4d49 5420 4c69 6365 6e73 6527 2c20 200d  MIT License',  .
+-00000170: 0a20 2020 2027 5072 6f67 7261 6d6d 696e  .    'Programmin
+-00000180: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
+-00000190: 7468 6f6e 203a 3a20 332e 3627 2c0d 0a20  thon :: 3.6',.. 
+-000001a0: 2020 2027 5072 6f67 7261 6d6d 696e 6720     'Programming 
+-000001b0: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
+-000001c0: 6f6e 203a 3a20 332e 3727 2c0d 0a20 2020  on :: 3.7',..   
+-000001d0: 2027 5072 6f67 7261 6d6d 696e 6720 4c61   'Programming La
+-000001e0: 6e67 7561 6765 203a 3a20 5079 7468 6f6e  nguage :: Python
+-000001f0: 203a 3a20 332e 3827 2c0d 0a20 2020 2027   :: 3.8',..    '
+-00000200: 5072 6f67 7261 6d6d 696e 6720 4c61 6e67  Programming Lang
+-00000210: 7561 6765 203a 3a20 5079 7468 6f6e 203a  uage :: Python :
+-00000220: 3a20 332e 3927 2c0d 0a20 2020 2027 5072  : 3.9',..    'Pr
+-00000230: 6f67 7261 6d6d 696e 6720 4c61 6e67 7561  ogramming Langua
+-00000240: 6765 203a 3a20 5079 7468 6f6e 203a 3a20  ge :: Python :: 
+-00000250: 332e 3130 272c 0d0a 2020 5d0d 0a0d 0a5b  3.10',..  ]....[
+-00000260: 7072 6f6a 6563 742e 7572 6c73 5d0d 0a22  project.urls].."
+-00000270: 486f 6d65 7061 6765 2220 3d20 2268 7474  Homepage" = "htt
+-00000280: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00000290: 4d61 7472 6978 4564 6974 6f72 2f66 726f  MatrixEditor/fro
+-000002a0: 6e74 6965 722d 736d 6172 742d 6170 6922  ntier-smart-api"
+-000002b0: 0d0a 2241 5049 2d44 6f63 7322 203d 2022  .."API-Docs" = "
+-000002c0: 6874 7470 733a 2f2f 6672 6f6e 7469 6572  https://frontier
+-000002d0: 2d73 6d61 7274 2d61 7069 2e72 6561 6474  -smart-api.readt
+-000002e0: 6865 646f 6373 2e69 6f22 0d0a 0d0a 5b74  hedocs.io"....[t
+-000002f0: 6f6f 6c2e 7365 7475 7074 6f6f 6c73 2e70  ool.setuptools.p
+-00000300: 6163 6b61 6765 732e 6669 6e64 5d0d 0a77  ackages.find]..w
+-00000310: 6865 7265 203d 205b 222e 225d 0d0a 696e  here = ["."]..in
+-00000320: 636c 7564 6520 3d20 5b22 6673 6170 692a  clude = ["fsapi*
+-00000330: 225d                                     "]
++00000020: 0a76 6572 7369 6f6e 203d 2022 312e 302e  .version = "1.0.
++00000030: 302d 7263 220d 0a64 6573 6372 6970 7469  0-rc"..descripti
++00000040: 6f6e 3d22 4672 6f6e 7469 6572 2053 6d61  on="Frontier Sma
++00000050: 7274 2046 6972 6d77 6172 6520 546f 6f6c  rt Firmware Tool
++00000060: 7320 616e 6420 4653 4150 4920 496d 706c  s and FSAPI Impl
++00000070: 656d 656e 7461 7469 6f6e 2e22 0d0a 6175  ementation."..au
++00000080: 7468 6f72 7320 3d20 5b0d 0a20 207b 206e  thors = [..  { n
++00000090: 616d 653d 224d 6174 7269 7845 6469 746f  ame="MatrixEdito
++000000a0: 7222 2c20 656d 6169 6c3d 226e 6f74 4073  r", email="not@s
++000000b0: 7570 706f 7274 6564 2e63 6f6d 2220 7d2c  upported.com" },
++000000c0: 0d0a 5d0d 0a72 6561 646d 6520 3d20 2252  ..]..readme = "R
++000000d0: 4541 444d 452e 6d64 220d 0a63 6c61 7373  EADME.md"..class
++000000e0: 6966 6965 7273 203d 205b 0d0a 2020 2020  ifiers = [..    
++000000f0: 2744 6576 656c 6f70 6d65 6e74 2053 7461  'Development Sta
++00000100: 7475 7320 3a3a 2035 202d 2050 726f 6475  tus :: 5 - Produ
++00000110: 6374 696f 6e2f 5374 6162 6c65 272c 0d0a  ction/Stable',..
++00000120: 2020 2020 2749 6e74 656e 6465 6420 4175      'Intended Au
++00000130: 6469 656e 6365 203a 3a20 5363 6965 6e63  dience :: Scienc
++00000140: 652f 5265 7365 6172 6368 272c 0d0a 2020  e/Research',..  
++00000150: 2020 274c 6963 656e 7365 203a 3a20 4f53    'License :: OS
++00000160: 4920 4170 7072 6f76 6564 203a 3a20 4d49  I Approved :: MI
++00000170: 5420 4c69 6365 6e73 6527 2c0d 0a20 2020  T License',..   
++00000180: 2027 5072 6f67 7261 6d6d 696e 6720 4c61   'Programming La
++00000190: 6e67 7561 6765 203a 3a20 5079 7468 6f6e  nguage :: Python
++000001a0: 203a 3a20 332e 3627 2c0d 0a20 2020 2027   :: 3.6',..    '
++000001b0: 5072 6f67 7261 6d6d 696e 6720 4c61 6e67  Programming Lang
++000001c0: 7561 6765 203a 3a20 5079 7468 6f6e 203a  uage :: Python :
++000001d0: 3a20 332e 3727 2c0d 0a20 2020 2027 5072  : 3.7',..    'Pr
++000001e0: 6f67 7261 6d6d 696e 6720 4c61 6e67 7561  ogramming Langua
++000001f0: 6765 203a 3a20 5079 7468 6f6e 203a 3a20  ge :: Python :: 
++00000200: 332e 3827 2c0d 0a20 2020 2027 5072 6f67  3.8',..    'Prog
++00000210: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
++00000220: 203a 3a20 5079 7468 6f6e 203a 3a20 332e   :: Python :: 3.
++00000230: 3927 2c0d 0a20 2020 2027 5072 6f67 7261  9',..    'Progra
++00000240: 6d6d 696e 6720 4c61 6e67 7561 6765 203a  mming Language :
++00000250: 3a20 5079 7468 6f6e 203a 3a20 332e 3130  : Python :: 3.10
++00000260: 272c 0d0a 2020 5d0d 0a0d 0a5b 7072 6f6a  ',..  ]....[proj
++00000270: 6563 742e 7572 6c73 5d0d 0a22 486f 6d65  ect.urls].."Home
++00000280: 7061 6765 2220 3d20 2268 7474 7073 3a2f  page" = "https:/
++00000290: 2f67 6974 6875 622e 636f 6d2f 4d61 7472  /github.com/Matr
++000002a0: 6978 4564 6974 6f72 2f66 726f 6e74 6965  ixEditor/frontie
++000002b0: 722d 736d 6172 742d 6170 6922 0d0a 2241  r-smart-api".."A
++000002c0: 5049 2d44 6f63 7322 203d 2022 6874 7470  PI-Docs" = "http
++000002d0: 733a 2f2f 6d61 7472 6978 6564 6974 6f72  s://matrixeditor
++000002e0: 2e67 6974 6875 622e 696f 2f66 726f 6e74  .github.io/front
++000002f0: 6965 722d 736d 6172 742d 6170 692f 220d  ier-smart-api/".
++00000300: 0a0d 0a5b 7072 6f6a 6563 742e 7363 7269  ...[project.scri
++00000310: 7074 735d 0d0a 6973 7574 6f6f 6c20 3d20  pts]..isutool = 
++00000320: 2266 7361 7069 2e69 7375 2e63 6c69 3a6d  "fsapi.isu.cli:m
++00000330: 6169 6e22 0d0a 6673 6170 692d 7864 7220  ain"..fsapi-xdr 
++00000340: 3d20 2266 7361 7069 2e65 636d 6173 6372  = "fsapi.ecmascr
++00000350: 6970 742e 636c 693a 6d61 696e 220d 0a66  ipt.cli:main"..f
++00000360: 7361 7069 2d6e 6574 203d 2022 6673 6170  sapi-net = "fsap
++00000370: 692e 6e65 7472 656d 6f74 652e 636c 693a  i.netremote.cli:
++00000380: 6d61 696e 220d 0a0d 0a5b 746f 6f6c 2e73  main"....[tool.s
++00000390: 6574 7570 746f 6f6c 732e 7061 636b 6167  etuptools.packag
++000003a0: 6573 2e66 696e 645d 0d0a 7768 6572 6520  es.find]..where 
++000003b0: 3d20 5b22 2e22 5d0d 0a69 6e63 6c75 6465  = ["."]..include
++000003c0: 203d 205b 2266 7361 7069 2a22 5d          = ["fsapi*"]
+```
+
