@@ -20552,3 +20552,216 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:13:48] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
 [2023-07-17 16:13:48] INFO root fetch - main [MainThread]: End processing [petisco]: success
 [2023-07-17 16:13:48] INFO root fetch - main [MainThread]: Store serial: [18917977]
+[2023-07-17 16:18:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917977]
+[2023-07-17 16:18:58] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expert-intelligence-toolbox
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inuits-policy-based-auth
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medialoopster
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-sqs-consumer
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Carter-Offline
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fwdviewpy
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skale-contracts
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: astartes
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glazari-test
+[2023-07-17 16:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: darwinio
+[2023-07-17 16:18:58] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [darwinio]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [astartes]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [inuits-policy-based-auth]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.4b0] Old Version: [2.0.4a0]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [aws-sqs-consumer]: New version: [0.0.5] Old Version: [0.0.15]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [medialoopster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:18:58] WARNING root fetch - processPackages [glazari-test]: Skipping, unable to determine old version
+[2023-07-17 16:18:58] INFO root fetch - processPackages [glazari-test]: Start processing: macrometa-target-mongo
+[2023-07-17 16:18:58] INFO root fetch - main [MainThread]: End processing [glazari-test] error
+[2023-07-17 16:18:58] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:18:58] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/01/bf/1dca668cbee3b0bb273193928327fff5ec2baa511706f18e3f9a50615d6f/darwinio-0.5.0.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/9a/61/e6f361276291a246af9793e8ebfc01fac611b26a963d00524129734bc6b0/Carter-Offline-2.0.4a0.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/1c/0c/66496a5615318f18eb988da0d164764efc2e48d1e079f1bff85b32880753/medialoopster-0.0.8.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [aws-sqs-consumer]: Downloading https://files.pythonhosted.org/packages/d5/fe/ed833e3ee84325c65a2df66c638ff9623d39c305ccc5754fc8b80d3a7d79/aws_sqs_consumer-0.0.15.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [inuits-policy-based-auth]: Downloading https://files.pythonhosted.org/packages/ae/01/3d54b1e64cf51e6131f6655ce71d023f3a7058e02494f4f11e59c4e99613/inuits_policy_based_auth-5.0.0.tar.gz
+[2023-07-17 16:18:58] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/b0/63/73265f4e468624c348157bd7d2b6ef568849dedfcfff05c9888b94ed1ac2/astartes-1.1.1.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/ef/d4/a749f2e67e9171099f2c4ed2c75142cadd30ab1784967ffc875704a40ee6/macrometa-target-mongo-0.0.8.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [aws-sqs-consumer]: Downloading https://files.pythonhosted.org/packages/38/93/c70b9987bdf482a684dc9ac24aa74c1e106804a911bc2724a1946e1aa677/aws_sqs_consumer-0.0.5.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/c1/3e/a4179f41caf4368dd57457489a0ec6c958b1c5f0f1682474fb152891d64a/medialoopster-0.0.9.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/fc/59/aa167e5bf2285800c19e12c18080921a704c083080bfc63dfeeff16f09ee/Carter-Offline-2.0.4b0.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230717/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [inuits-policy-based-auth]: Downloading https://files.pythonhosted.org/packages/ec/a5/95b841150bb0be2017b9951343be086c3a1381963fe4178abe806deab68c/inuits_policy_based_auth-5.1.0.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230717/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/7b/03/865671c1777ccc9557b37caf1d79d459768849f315de95526a0cfd6453c4/darwinio-0.5.1.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [aws-sqs-consumer]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [aws-sqs-consumer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_sqs_consumer-0.0.15.tar.gz tmp/aws_sqs_consumer-0.0.5.tar.gz --markdown 20230717/a/aws-sqs-consumer/0.0.15-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/4f/77/8be9f492512757ed57bac910650e1a28da7c7e6120661fc829dca56aa379/astartes-1.1.2.tar.gz
+[2023-07-17 16:18:59] INFO root fetch - processPackages [medialoopster]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [medialoopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medialoopster-0.0.8.tar.gz tmp/medialoopster-0.0.9.tar.gz --markdown 20230717/m/medialoopster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.4a0.tar.gz tmp/Carter-Offline-2.0.4b0.tar.gz --markdown 20230717/C/Carter-Offline/2.0.4a0-2.0.4b0/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [inuits-policy-based-auth]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [inuits-policy-based-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits_policy_based_auth-5.0.0.tar.gz tmp/inuits_policy_based_auth-5.1.0.tar.gz --markdown 20230717/i/inuits-policy-based-auth/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [astartes]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [astartes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astartes-1.1.1.tar.gz tmp/astartes-1.1.2.tar.gz --markdown 20230717/a/astartes/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-07-17 16:18:59] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.5.0.tar.gz tmp/darwinio-0.5.1.tar.gz --markdown 20230717/d/darwinio/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 16:18:59] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/7d/ba/e4d42212a121d6658bf7d01b8b0e4fde578004371ebe2f5ad0d4905926e9/macrometa-target-mongo-0.0.9.tar.gz
+[2023-07-17 16:19:00] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-07-17 16:19:00] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230717/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:00] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:19:00] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:19:00] INFO root fetch - processPackages [skale-contracts]: Start processing: cenas
+[2023-07-17 16:19:00] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:19:00] INFO root fetch - processPackages [cenas]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-17 16:19:00] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/1d/fd/4730d38cf7fd7a44c1dc34767892a52ca408376b7bf82eb54d3d6d2d8f63/cenas-1.1.5.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [aws-sqs-consumer]: Remove: archive file [/home/abi/fetcher/tmp/aws_sqs_consumer-0.0.15.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [aws-sqs-consumer]: Remove: archive file [/home/abi/fetcher/tmp/aws_sqs_consumer-0.0.5.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [aws-sqs-consumer]: Start processing: pycows
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [aws-sqs-consumer]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/91/b5/2a8e540eec356b935d93fe6ab5e92dba1585b77543913959f2f8e038a16a/cenas-1.1.6.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: macrometa-target-mssql
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [pycows]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-17 16:19:01] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.5.tar.gz tmp/cenas-1.1.6.tar.gz --markdown 20230717/c/cenas/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-17 16:19:01] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.4a0.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.4b0.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [Carter-Offline]: Start processing: quickfix-ch
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [fwdviewpy]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.8.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.9.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [medialoopster]: Start processing: apifoncier
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [medialoopster]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [pycows]: Downloading https://files.pythonhosted.org/packages/35/53/82f2898423d0b04b7c91dedfbe824e2fb7e1e8ac28373d0b8c522bd7de45/pycows-0.0.1.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [apifoncier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.1.1.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.1.2.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [astartes]: Start processing: macrometa-target-oracle
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [astartes]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.8.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.9.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [macrometa-target-mongo]: Start processing: skale-contracts
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [inuits-policy-based-auth]: Remove: archive file [/home/abi/fetcher/tmp/inuits_policy_based_auth-5.0.0.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [inuits-policy-based-auth]: Remove: archive file [/home/abi/fetcher/tmp/inuits_policy_based_auth-5.1.0.tar.gz]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [inuits-policy-based-auth]: Start processing: pathgenmap
+[2023-07-17 16:19:01] INFO root fetch - main [MainThread]: End processing [inuits-policy-based-auth]: success
+[2023-07-17 16:19:01] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/1c/66/47b5e1f67dfe9fb0211022ec20b33402daa353df3e1fbbc7a023ddfb1d4c/apifoncier-0.0.8.tar.gz
+[2023-07-17 16:19:01] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:19:01] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.5.0.tar.gz]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.5.1.tar.gz]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [darwinio]: Start processing: fwdviewpy
+[2023-07-17 16:19:02] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pycows]: Downloading https://files.pythonhosted.org/packages/31/d1/002b0926822339370b4b01bf63523e86f101aefabb849b8974d275432fab/pycows-0.0.2.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/a0/80/e2b08a616a27c8e81c0443ee41200ad4d121227c68ab6f394093dad44b33/macrometa-target-oracle-0.0.8.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230717/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/28/10/cf7ae79f9da26ce747727dc57da1227311afde52a03ddfcc1edf8a34a866/apifoncier-0.0.9.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pycows]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pycows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycows-0.0.1.tar.gz tmp/pycows-0.0.2.tar.gz --markdown 20230717/p/pycows/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.8.tar.gz tmp/apifoncier-0.0.9.tar.gz --markdown 20230717/a/apifoncier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230717/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.5.tar.gz]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.6.tar.gz]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [cenas]: Start processing: Carter-Offline
+[2023-07-17 16:19:02] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230717/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:02] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.4rc0] Old Version: [2.0.4b0]
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/f8/ce/aadb11448727303fc74399e4726f9128a801d5b6900e10ebdc91d4c6e5cd/macrometa-target-oracle-0.0.9.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/fc/59/aa167e5bf2285800c19e12c18080921a704c083080bfc63dfeeff16f09ee/Carter-Offline-2.0.4b0.tar.gz
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-17 16:19:02] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.8.tar.gz tmp/macrometa-target-oracle-0.0.9.tar.gz --markdown 20230717/m/macrometa-target-oracle/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:19:03] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/b0/0e/cb9d65a741e2f27dbb7ec73e4f33c4d2a60e43c248469aa42f4009749a6a/Carter-Offline-2.0.4rc0.tar.gz
+[2023-07-17 16:19:03] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-07-17 16:19:03] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.4b0.tar.gz tmp/Carter-Offline-2.0.4rc0.tar.gz --markdown 20230717/C/Carter-Offline/2.0.4b0-2.0.4rc0/diff.md --exclude *.pyd
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: bump-pydantic
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [bump-pydantic]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.8.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.9.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [apifoncier]: Start processing: dcg-service
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [dcg-service]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [bump-pydantic]: Downloading https://files.pythonhosted.org/packages/cf/3d/80c3f16e6198d09404dabeb769dfaa05d45bd6e6c8d58f8a33fabf6f1370/bump_pydantic-0.3.0.tar.gz
+[2023-07-17 16:19:04] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pycows]: Remove: archive file [/home/abi/fetcher/tmp/pycows-0.0.1.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [pycows]: Remove: archive file [/home/abi/fetcher/tmp/pycows-0.0.2.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [pycows]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/85/ef/e749182cebb48868bfec93b289a25ef79679733d8690cf9697630f97800d/dcg_service-0.0.5.tar.gz
+[2023-07-17 16:19:04] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.8.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.9.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-17 16:19:04] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.4b0.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.4rc0.tar.gz]
+[2023-07-17 16:19:04] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-07-17 16:19:05] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/0a/74/e2ffc1b373e805f7b3a117711c7df0c28c38561da572c02bde349f0a90dc/dcg_service-0.0.6.tar.gz
+[2023-07-17 16:19:05] INFO root fetch - processPackages [dcg-service]: executing diffoscope
+[2023-07-17 16:19:05] INFO root fetch - processPackages [dcg-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcg_service-0.0.5.tar.gz tmp/dcg_service-0.0.6.tar.gz --markdown 20230717/d/dcg-service/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 16:19:05] INFO root fetch - processPackages [bump-pydantic]: Downloading https://files.pythonhosted.org/packages/01/44/c5400a587f289e3db51aae1553ef36d4fd8b53ccdf1e09abf4eb0804e0e9/bump_pydantic-0.4.0.tar.gz
+[2023-07-17 16:19:05] INFO root fetch - processPackages [bump-pydantic]: executing diffoscope
+[2023-07-17 16:19:05] INFO root fetch - processPackages [bump-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump_pydantic-0.3.0.tar.gz tmp/bump_pydantic-0.4.0.tar.gz --markdown 20230717/b/bump-pydantic/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 16:19:05] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.5.tar.gz]
+[2023-07-17 16:19:05] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.6.tar.gz]
+[2023-07-17 16:19:05] INFO root fetch - main [MainThread]: End processing [dcg-service]: success
+[2023-07-17 16:19:06] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-17 16:19:06] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-17 16:19:06] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-17 16:19:06] INFO root fetch - processPackages [bump-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/bump_pydantic-0.3.0.tar.gz]
+[2023-07-17 16:19:06] INFO root fetch - processPackages [bump-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/bump_pydantic-0.4.0.tar.gz]
+[2023-07-17 16:19:06] INFO root fetch - main [MainThread]: End processing [bump-pydantic]: success
+[2023-07-17 16:19:06] INFO root fetch - main [MainThread]: Store serial: [18918053]
