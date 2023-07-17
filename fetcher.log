@@ -5973,3 +5973,51 @@
 [2023-07-17 04:56:37] INFO root fetch - processPackages [ramanchada2]: Remove: archive file [/home/abi/fetcher/tmp/ramanchada2-0.0.8.tar.gz]
 [2023-07-17 04:56:37] INFO root fetch - main [MainThread]: End processing [ramanchada2]: success
 [2023-07-17 04:56:37] INFO root fetch - main [MainThread]: Store serial: [18911901]
+[2023-07-17 05:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911901]
+[2023-07-17 05:01:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 05:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-load-density-dev
+[2023-07-17 05:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-ndev-blizzardapi
+[2023-07-17 05:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xklb
+[2023-07-17 05:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdock
+[2023-07-17 05:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-07-17 05:01:46] INFO root fetch - processPackages [sdock]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 05:01:46] INFO root fetch - processPackages [je-load-density-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 05:01:46] INFO root fetch - processPackages [python-ndev-blizzardapi]: New version: [0.0.5a0] Old Version: [0.0.5]
+[2023-07-17 05:01:46] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230717] Old Version: [1.2.20230716]
+[2023-07-17 05:01:46] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-17 05:01:46] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/c6/79/309acfebb12c740550f50613e586bf6b94e6a7c40d8d0c83073de43cee1d/sdock-0.1.1.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/3b/77/431d2bb2c22512e41b8be4404f6c8f8c0ab0669a9e2c9d8a783beb878903/iam_actions-1.2.20230716.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [je-load-density-dev]: Downloading https://files.pythonhosted.org/packages/08/9b/276d10cd2af97e0ba353bbce459ef1dce5ce5648ae6fdb78fd6862f6d685/je_load_density_dev-0.0.8.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [python-ndev-blizzardapi]: Downloading https://files.pythonhosted.org/packages/ab/8a/506b1f8db28100ed0f7f1764b6ffb1244c9d178d1b52d13f80b9e3f162ee/python-ndev-blizzardapi-0.0.5.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/1d/e5/515265901dac8bc1c48dbfc20966356b68d08f830170b363355ec6e66266/sdock-0.1.2.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/20/ad/31b6188d1c33bc381d2cc3a6bdab1844921506d4b7d03724edd5f404c9b0/iam_actions-1.2.20230717.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [python-ndev-blizzardapi]: Downloading https://files.pythonhosted.org/packages/9d/7a/30999a6f58b9a69c2fb9ed6c0b0e6808e404946a69f23d4fb63f9525104b/python-ndev-blizzardapi-0.0.5a0.tar.gz
+[2023-07-17 05:01:46] INFO root fetch - processPackages [je-load-density-dev]: Downloading https://files.pythonhosted.org/packages/df/2d/a480de55778bfb00b70ded4769d73832026bfcb50fcc2ad9500f506c347f/je_load_density_dev-0.0.9.tar.gz
+[2023-07-17 05:01:47] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 05:01:47] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.1.tar.gz tmp/sdock-0.1.2.tar.gz --markdown 20230717/s/sdock/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 05:01:47] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-17 05:01:47] INFO root fetch - processPackages [python-ndev-blizzardapi]: executing diffoscope
+[2023-07-17 05:01:47] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230716.tar.gz tmp/iam_actions-1.2.20230717.tar.gz --markdown 20230717/i/iam-actions/1.2.20230716-1.2.20230717/diff.md --exclude *.pyd
+[2023-07-17 05:01:47] INFO root fetch - processPackages [python-ndev-blizzardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ndev-blizzardapi-0.0.5.tar.gz tmp/python-ndev-blizzardapi-0.0.5a0.tar.gz --markdown 20230717/p/python-ndev-blizzardapi/0.0.5-0.0.5a0/diff.md --exclude *.pyd
+[2023-07-17 05:01:47] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-17 05:01:47] INFO root fetch - processPackages [je-load-density-dev]: executing diffoscope
+[2023-07-17 05:01:47] INFO root fetch - processPackages [je-load-density-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density_dev-0.0.8.tar.gz tmp/je_load_density_dev-0.0.9.tar.gz --markdown 20230717/j/je-load-density-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 05:01:47] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-17 05:01:47] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230717/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-17 05:01:48] INFO root fetch - processPackages [python-ndev-blizzardapi]: Remove: archive file [/home/abi/fetcher/tmp/python-ndev-blizzardapi-0.0.5.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - processPackages [python-ndev-blizzardapi]: Remove: archive file [/home/abi/fetcher/tmp/python-ndev-blizzardapi-0.0.5a0.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - main [MainThread]: End processing [python-ndev-blizzardapi]: success
+[2023-07-17 05:01:48] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.1.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.2.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 05:01:48] INFO root fetch - processPackages [je-load-density-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density_dev-0.0.8.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - processPackages [je-load-density-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density_dev-0.0.9.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - main [MainThread]: End processing [je-load-density-dev]: success
+[2023-07-17 05:01:48] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-17 05:01:48] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230716.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230717.tar.gz]
+[2023-07-17 05:01:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-17 05:01:48] INFO root fetch - main [MainThread]: Store serial: [18911915]
