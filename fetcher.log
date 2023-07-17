@@ -16478,3 +16478,147 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:03:42] INFO root fetch - processPackages [matrx]: Remove: archive file [/home/abi/fetcher/tmp/matrx-2.3.2.tar.gz]
 [2023-07-17 14:03:42] INFO root fetch - main [MainThread]: End processing [matrx]: success
 [2023-07-17 14:03:42] INFO root fetch - main [MainThread]: Store serial: [18916378]
+[2023-07-17 14:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916378]
+[2023-07-17 14:08:58] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pollination-annual-daylight
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappadata
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudproof-aesgcm
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudproof-fpe
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudproof-ecies
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findex
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mango-framework
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mwdb-iocextract
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pollination-annual-daylight.full
+[2023-07-17 14:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-openai-tr
+[2023-07-17 14:08:59] WARNING root fetch - processPackages [cloudproof-aesgcm]: Skipping, unable to determine old version
+[2023-07-17 14:08:59] INFO root fetch - processPackages [cloudproof-aesgcm]: Start processing: pollination-annual-daylight.viz
+[2023-07-17 14:08:59] INFO root fetch - main [MainThread]: End processing [cloudproof-aesgcm] error
+[2023-07-17 14:08:59] WARNING root fetch - processPackages [cloudproof-ecies]: Skipping, unable to determine old version
+[2023-07-17 14:08:59] INFO root fetch - processPackages [cloudproof-ecies]: Start processing: motti
+[2023-07-17 14:08:59] INFO root fetch - main [MainThread]: End processing [cloudproof-ecies] error
+[2023-07-17 14:08:59] INFO root fetch - processPackages [pollination-annual-daylight.full]: New version: [0.10.8] Old Version: [0.10.7]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [pollination-annual-daylight]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 14:08:59] WARNING root fetch - processPackages [mango-framework]: Skipping, unable to determine old version
+[2023-07-17 14:08:59] INFO root fetch - processPackages [mango-framework]: Start processing: unified-planning
+[2023-07-17 14:08:59] INFO root fetch - main [MainThread]: End processing [mango-framework] error
+[2023-07-17 14:08:59] INFO root fetch - processPackages [mwdb-iocextract]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-17 14:08:59] WARNING root fetch - processPackages [azure-openai-tr]: Skipping, unable to determine old version
+[2023-07-17 14:08:59] INFO root fetch - processPackages [azure-openai-tr]: Start processing: matorikkusu
+[2023-07-17 14:08:59] INFO root fetch - main [MainThread]: End processing [azure-openai-tr] error
+[2023-07-17 14:08:59] INFO root fetch - processPackages [findex]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [cloudproof-fpe]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [kappadata]: New version: [1.3.7] Old Version: [1.3.5]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [pollination-annual-daylight.viz]: New version: [0.10.8] Old Version: [0.10.7]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [motti]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 14:08:59] WARNING root fetch - processPackages [matorikkusu]: Skipping, unable to determine old version
+[2023-07-17 14:08:59] INFO root fetch - processPackages [matorikkusu]: Start processing: ramodels
+[2023-07-17 14:08:59] INFO root fetch - main [MainThread]: End processing [matorikkusu] error
+[2023-07-17 14:08:59] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.6.dev1] Old Version: [1.0.0.2.dev1]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-17 14:08:59] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/63/c4/2b7802d8d949500e4ed164304004d6e3963893d8d1e878687012007d4b60/motti-0.0.5.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/dd/65/577d81f52f4fc6c631d7cea19752fa71759ac01c492326f04677b3fc4710/unified_planning-1.0.0.2.dev1.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Downloading https://files.pythonhosted.org/packages/c4/74/d0e2583a6348ff404e0eddfdaff7957019b009831ff245e240483155e7bc/pollination-annual-daylight.viz-0.10.7.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/84/2c/8efad4f9a84def4f540967d3f5d5a7b176697357ade3b81901f19f2f7d70/pollination-annual-daylight-0.9.8.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [findex]: Downloading https://files.pythonhosted.org/packages/7c/31/245b1a1af21a1b7d4d61984af80128919293a25e8f1d8573828b370e9b89/findex-4.0.1-cp37-abi3-win_amd64.whl
+[2023-07-17 14:08:59] INFO root fetch - processPackages [pollination-annual-daylight.full]: Downloading https://files.pythonhosted.org/packages/54/c8/2c4a03af686a7ac910121b7107afc4f94c58f60a25fecedc987742e4e311/pollination-annual-daylight.full-0.10.7.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/41/c6/dbc55ca549b97f727c82302f616d2bfd54e6eabb7961c5670cb1b12aa17c/kappadata-1.3.5.tar.gz
+[2023-07-17 14:08:59] INFO root fetch - processPackages [cloudproof-fpe]: Downloading https://files.pythonhosted.org/packages/bd/67/adb6a776fa01b451a36c0375cbb8f2f05bda8cd9718712447a8441ee4a8b/cloudproof_fpe-0.1.0-cp37-abi3-win_amd64.whl
+[2023-07-17 14:08:59] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/29/e8/dff869f9d86051f15e5e02740585351f828317ecb12d90bc3d28de12821a/mwdb-iocextract-1.1.3.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/07/64/0176c8d2e9ce173378b5725e6192e61eaaddea3e16f229f3f477f974d171/motti-0.0.6.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/4b/89/1a7921a8b2b4f3dc61cc55714316c320e1ee5c16f956a55ccb771ecf1d28/unified_planning-1.0.0.6.dev1.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight.full]: Downloading https://files.pythonhosted.org/packages/ef/d5/8716000754bf19464b9fb583886db0bfb6af07ce7a01e73eb05346c2ac6e/pollination-annual-daylight.full-0.10.8.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/10/c5/559b2756d31b6577f38e6b68028bbf766263addea33a06ffc66626b19bb2/kappadata-1.3.7.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Downloading https://files.pythonhosted.org/packages/9b/07/8ae5b1660da808ce1aec5c1b439db899fe2ca9f83369077cb6c685c1bc2b/pollination-annual-daylight.viz-0.10.8.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [motti]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [motti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motti-0.0.5.tar.gz tmp/motti-0.0.6.tar.gz --markdown 20230717/m/motti/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/22/5e/ba5634ad513d1e9cb6ef20713f977dec5eb7e8c19e7168a143e12d0f128c/mwdb-iocextract-1.1.4.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [cloudproof-fpe]: Downloading https://files.pythonhosted.org/packages/19/1e/ed55aa8593dd58cb940cd89ea52cf1a0453e59420bf7ae5aafd19daa9d57/cloudproof_fpe-0.2.0-cp37-abi3-win_amd64.whl
+[2023-07-17 14:09:00] INFO root fetch - processPackages [findex]: Downloading https://files.pythonhosted.org/packages/4d/62/a4719b798b0a71299e3ff74c2631b4ee65f63f3e92a1a6c1941b7704fad4/findex-4.0.2-cp37-abi3-win_amd64.whl
+[2023-07-17 14:09:00] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.2.dev1.tar.gz tmp/unified_planning-1.0.0.6.dev1.tar.gz --markdown 20230717/u/unified-planning/1.0.0.2.dev1-1.0.0.6.dev1/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/3f/e1/394fb4b8480edc7dea37f64330776b542e5453f9784b22f4e61e89bb4ecd/pollination-annual-daylight-0.9.9.tar.gz
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight.full]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight.full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight.full-0.10.7.tar.gz tmp/pollination-annual-daylight.full-0.10.8.tar.gz --markdown 20230717/p/pollination-annual-daylight.full/0.10.7-0.10.8/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230717/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [mwdb-iocextract]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [mwdb-iocextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwdb-iocextract-1.1.3.tar.gz tmp/mwdb-iocextract-1.1.4.tar.gz --markdown 20230717/m/mwdb-iocextract/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.5.tar.gz tmp/kappadata-1.3.7.tar.gz --markdown 20230717/k/kappadata/1.3.5-1.3.7/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight.viz]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [cloudproof-fpe]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [cloudproof-fpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_fpe-0.1.0-cp37-abi3-win_amd64.whl.zip tmp/cloudproof_fpe-0.2.0-cp37-abi3-win_amd64.whl.zip --markdown 20230717/c/cloudproof-fpe/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight.viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight.viz-0.10.7.tar.gz tmp/pollination-annual-daylight.viz-0.10.8.tar.gz --markdown 20230717/p/pollination-annual-daylight.viz/0.10.7-0.10.8/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [pollination-annual-daylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-0.9.8.tar.gz tmp/pollination-annual-daylight-0.9.9.tar.gz --markdown 20230717/p/pollination-annual-daylight/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 14:09:00] INFO root fetch - processPackages [findex]: executing diffoscope
+[2023-07-17 14:09:00] INFO root fetch - processPackages [findex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findex-4.0.1-cp37-abi3-win_amd64.whl.zip tmp/findex-4.0.2-cp37-abi3-win_amd64.whl.zip --markdown 20230717/f/findex/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-17 14:09:01] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.5.tar.gz]
+[2023-07-17 14:09:01] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.6.tar.gz]
+[2023-07-17 14:09:01] INFO root fetch - processPackages [motti]: Start processing: timeexecution
+[2023-07-17 14:09:01] INFO root fetch - main [MainThread]: End processing [motti]: success
+[2023-07-17 14:09:01] INFO root fetch - processPackages [timeexecution]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-17 14:09:01] INFO root fetch - processPackages [pollination-annual-daylight.full]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.full-0.10.7.tar.gz]
+[2023-07-17 14:09:01] INFO root fetch - processPackages [pollination-annual-daylight.full]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.full-0.10.8.tar.gz]
+[2023-07-17 14:09:01] INFO root fetch - processPackages [pollination-annual-daylight.full]: Start processing: moto
+[2023-07-17 14:09:01] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.full]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [timeexecution]: Downloading https://files.pythonhosted.org/packages/bf/e5/57a801288fa4725cb2a1e165fc4a0054881fc91388ebf9bf5b4ab7934d91/timeexecution-8.0.0.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.8.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.9.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [pollination-annual-daylight]: Start processing: localstack-core
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.viz-0.10.7.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.viz-0.10.8.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [cloudproof-fpe]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_fpe-0.1.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [cloudproof-fpe]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_fpe-0.2.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Start processing: splight-cli
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.viz]: success
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [cloudproof-fpe]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230717120805] Old Version: [2.1.1.dev20230717084853]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [splight-cli]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [findex]: Remove: archive file [/home/abi/fetcher/tmp/findex-4.0.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [findex]: Remove: archive file [/home/abi/fetcher/tmp/findex-4.0.2-cp37-abi3-win_amd64.whl.zip]
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [findex]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.1.3.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.1.4.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [mwdb-iocextract]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/82/fe/1eb18ddcbc3fe59402a2560311f8c245bb2fbc862970e084f83ef6807d96/localstack-core-2.1.1.dev20230717084853.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [timeexecution]: Downloading https://files.pythonhosted.org/packages/83/9e/39ed8251b26d2c0549edcc8e338adc8f876f387680d182b545e9b887ae9a/timeexecution-8.0.1.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/e2/8f/e67afcacc89875498526ad916af5b1b605af7b055ee4e1c86646a2d11b86/splight-cli-3.1.1.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.5.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.7.tar.gz]
+[2023-07-17 14:09:02] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-07-17 14:09:02] INFO root fetch - processPackages [timeexecution]: executing diffoscope
+[2023-07-17 14:09:02] INFO root fetch - processPackages [timeexecution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeexecution-8.0.0.tar.gz tmp/timeexecution-8.0.1.tar.gz --markdown 20230717/t/timeexecution/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-17 14:09:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/50/4c/971de3c63efa300479e3470cf497cf44535c04d168fcd00be5fb6e423034/localstack-core-2.1.1.dev20230717120805.tar.gz
+[2023-07-17 14:09:02] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/bb/bb/ee0101b5d5ddf6afabd49482f87f8bf6445bbc048d1bae2d3e1d9556da76/splight-cli-3.1.2.tar.gz
+[2023-07-17 14:09:03] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-17 14:09:03] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230717/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-17 14:09:03] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-07-17 14:09:03] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.1.1.tar.gz tmp/splight-cli-3.1.2.tar.gz --markdown 20230717/s/splight-cli/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-17 14:09:03] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-17 14:09:03] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230717084853.tar.gz tmp/localstack-core-2.1.1.dev20230717120805.tar.gz --markdown 20230717/l/localstack-core/2.1.1.dev20230717084853-2.1.1.dev20230717120805/diff.md --exclude *.pyd
+[2023-07-17 14:09:03] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.2.dev1.tar.gz]
+[2023-07-17 14:09:03] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
+[2023-07-17 14:09:03] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-07-17 14:09:03] INFO root fetch - processPackages [timeexecution]: Remove: archive file [/home/abi/fetcher/tmp/timeexecution-8.0.0.tar.gz]
+[2023-07-17 14:09:03] INFO root fetch - processPackages [timeexecution]: Remove: archive file [/home/abi/fetcher/tmp/timeexecution-8.0.1.tar.gz]
+[2023-07-17 14:09:03] INFO root fetch - main [MainThread]: End processing [timeexecution]: success
+[2023-07-17 14:09:04] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.1.1.tar.gz]
+[2023-07-17 14:09:04] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.1.2.tar.gz]
+[2023-07-17 14:09:04] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-07-17 14:09:07] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717084853.tar.gz]
+[2023-07-17 14:09:07] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717120805.tar.gz]
+[2023-07-17 14:09:07] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-17 14:09:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-17 14:09:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-17 14:09:16] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-17 14:09:16] INFO root fetch - main [MainThread]: Store serial: [18916450]
