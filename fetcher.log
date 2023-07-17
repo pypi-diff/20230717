@@ -10128,3 +10128,102 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 09:48:18] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.6.tar.gz]
 [2023-07-17 09:48:18] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
 [2023-07-17 09:48:18] INFO root fetch - main [MainThread]: Store serial: [18913587]
+[2023-07-17 09:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913587]
+[2023-07-17 09:53:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sees
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdcget
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbix-chinese
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unified-planning
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: labw-utils
+[2023-07-17 09:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assisted-service-client
+[2023-07-17 09:53:27] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.6.dev1] Old Version: [1.0.0.2.dev1]
+[2023-07-17 09:53:27] WARNING root fetch - processPackages [xdcget]: Skipping, unable to determine old version
+[2023-07-17 09:53:27] INFO root fetch - processPackages [xdcget]: Start processing: claude-ai
+[2023-07-17 09:53:27] INFO root fetch - main [MainThread]: End processing [xdcget] error
+[2023-07-17 09:53:27] WARNING root fetch - processPackages [pbix-chinese]: Skipping, unable to determine old version
+[2023-07-17 09:53:27] INFO root fetch - processPackages [pbix-chinese]: Start processing: medcase
+[2023-07-17 09:53:27] INFO root fetch - main [MainThread]: End processing [pbix-chinese] error
+[2023-07-17 09:53:27] WARNING root fetch - processPackages [labw-utils]: Skipping, unable to determine old version
+[2023-07-17 09:53:27] INFO root fetch - processPackages [labw-utils]: Start processing: stigg-api-client
+[2023-07-17 09:53:27] INFO root fetch - main [MainThread]: End processing [labw-utils] error
+[2023-07-17 09:53:27] INFO root fetch - processPackages [sees]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 09:53:27] WARNING root fetch - processPackages [claude-ai]: Skipping, unable to determine old version
+[2023-07-17 09:53:27] INFO root fetch - processPackages [claude-ai]: Start processing: stigg-api-client-v2
+[2023-07-17 09:53:27] INFO root fetch - main [MainThread]: End processing [claude-ai] error
+[2023-07-17 09:53:27] INFO root fetch - processPackages [ork.build]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-07-17 09:53:27] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-17 09:53:27] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-17 09:53:27] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.488.0]
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.488.0] Old Version: [0.487.0]
+[2023-07-17 09:53:27] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230717] Old Version: [2.14.0.dev20230716]
+[2023-07-17 09:53:27] WARNING root fetch - processPackages [medcase]: Skipping, unable to determine old version
+[2023-07-17 09:53:27] INFO root fetch - main [MainThread]: End processing [medcase] error
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6a/a8/9ec60656cead547e627adfbd6138e723f6fee75259a7f6e227be000d4220/stigg_api_client-0.488.0.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/24/cc/9a1d534ec600b5a585fdd0abd2dc31c1ce63d909f54bc9dd3017947d883f/ork.build-0.0.55.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-17 09:53:27] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/dd/65/577d81f52f4fc6c631d7cea19752fa71759ac01c492326f04677b3fc4710/unified_planning-1.0.0.2.dev1.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/ac/66/d0cc11cbfc3fcc72c6cab736887f480f35b24f621f26a440982b65878b52/sees-0.0.4.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/ac/37/6f9d892915ae472d991dba5736e1998b9b6bdf3b5ca02b06648a83f876a7/stigg_api_client_v2-0.487.0.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a5/9f/4598428599b1164d9699a618b5e16ad0cac92b3066c60debca63db41612f/tf_nightly_cpu-2.14.0.dev20230716-cp39-cp39-win_amd64.whl
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/4d/86/618ccd33b93ca83bc191c29c67a841f583c22082baa1b84135138110cead/sees-0.0.5.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/f9/48/484f7a9d13b84e354f6111c400c8752bef74aa82f809d1ea82cf0b8de3b6/stigg_api_client_v2-0.488.0.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/95/16/268afe5bab9c539aa89f93fa9ba8535b7261c90c086973e21e578c4c616a/ork.build-0.0.56.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/4b/89/1a7921a8b2b4f3dc61cc55714316c320e1ee5c16f956a55ccb771ecf1d28/unified_planning-1.0.0.6.dev1.tar.gz
+[2023-07-17 09:53:27] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-17 09:53:27] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4b/e5/5266bce23a266e5298739648484ea6be29b31ced2fdd2e84d6f7e74db217/tf_nightly_cpu-2.14.0.dev20230717-cp39-cp39-win_amd64.whl
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-17 09:53:27] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.488.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230717/s/stigg-api-client/0.488.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 09:53:27] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-17 09:53:27] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230717/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [sees]: executing diffoscope
+[2023-07-17 09:53:28] INFO root fetch - processPackages [sees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sees-0.0.4.tar.gz tmp/sees-0.0.5.tar.gz --markdown 20230717/s/sees/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-17 09:53:28] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.487.0.tar.gz tmp/stigg_api_client_v2-0.488.0.tar.gz --markdown 20230717/s/stigg-api-client-v2/0.487.0-0.488.0/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-17 09:53:28] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.55.tar.gz tmp/ork.build-0.0.56.tar.gz --markdown 20230717/o/ork.build/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-17 09:53:28] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230716-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230717-cp39-cp39-win_amd64.whl.zip --markdown 20230717/t/tf-nightly-cpu/2.14.0.dev20230716-2.14.0.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-07-17 09:53:28] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.2.dev1.tar.gz tmp/unified_planning-1.0.0.6.dev1.tar.gz --markdown 20230717/u/unified-planning/1.0.0.2.dev1-1.0.0.6.dev1/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-17 09:53:28] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230717/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-17 09:53:28] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-17 09:53:29] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-17 09:53:29] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230717/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-17 09:53:29] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-17 09:53:29] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.488.0.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-17 09:53:29] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230716-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 09:53:29] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230717-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 09:53:29] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-17 09:53:29] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.4.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.5.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - main [MainThread]: End processing [sees]: success
+[2023-07-17 09:53:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.487.0.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.488.0.tar.gz]
+[2023-07-17 09:53:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-17 09:53:31] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.55.tar.gz]
+[2023-07-17 09:53:31] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.56.tar.gz]
+[2023-07-17 09:53:31] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-17 09:53:31] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.2.dev1.tar.gz]
+[2023-07-17 09:53:31] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
+[2023-07-17 09:53:31] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-07-17 09:53:31] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-17 09:53:31] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-17 09:53:31] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-17 09:53:32] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-17 09:53:32] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-17 09:53:32] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-17 09:53:32] INFO root fetch - main [MainThread]: Store serial: [18913639]
