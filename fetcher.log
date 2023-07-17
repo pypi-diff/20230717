@@ -18206,3 +18206,151 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:03:54] INFO root fetch - processPackages [read5]: Remove: archive file [/home/abi/fetcher/tmp/read5-1.1.9.tar.gz]
 [2023-07-17 15:03:54] INFO root fetch - main [MainThread]: End processing [read5]: success
 [2023-07-17 15:03:54] INFO root fetch - main [MainThread]: Store serial: [18917124]
+[2023-07-17 15:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917124]
+[2023-07-17 15:09:03] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digimat.bac0
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: photon-packet-parser
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spdb
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlink-repo
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolkit-python
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spdb
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonk8s
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flash-attn
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Hellomanna1
+[2023-07-17 15:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypomes-core
+[2023-07-17 15:09:03] WARNING root fetch - processPackages [streamlink-repo]: Skipping, unable to determine old version
+[2023-07-17 15:09:03] INFO root fetch - processPackages [streamlink-repo]: Start processing: password-generator-library
+[2023-07-17 15:09:03] INFO root fetch - main [MainThread]: End processing [streamlink-repo] error
+[2023-07-17 15:09:03] WARNING root fetch - processPackages [photon-packet-parser]: Skipping, unable to determine old version
+[2023-07-17 15:09:03] INFO root fetch - processPackages [photon-packet-parser]: Start processing: oarepo-ui
+[2023-07-17 15:09:03] INFO root fetch - main [MainThread]: End processing [photon-packet-parser] error
+[2023-07-17 15:09:03] INFO root fetch - processPackages [spdb]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [dragonk8s]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [spdb]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 15:09:03] WARNING root fetch - processPackages [Hellomanna1]: Skipping, unable to determine old version
+[2023-07-17 15:09:03] INFO root fetch - processPackages [flash-attn]: New version: [2.0.0.post1] Old Version: [1.0.9]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [Hellomanna1]: Start processing: readarr-py
+[2023-07-17 15:09:03] INFO root fetch - main [MainThread]: End processing [Hellomanna1] error
+[2023-07-17 15:09:03] INFO root fetch - processPackages [toolkit-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [pypomes-core]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 15:09:03] WARNING root fetch - processPackages [password-generator-library]: Skipping, unable to determine old version
+[2023-07-17 15:09:03] INFO root fetch - processPackages [password-generator-library]: Start processing: era-5g-client
+[2023-07-17 15:09:03] INFO root fetch - main [MainThread]: End processing [password-generator-library] error
+[2023-07-17 15:09:03] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [readarr-py]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/e7/20/2ca0de62a81db26c32ed61ffcc3f1a75ddc8f48d3230909dffdc4e55f7e2/dragonk8s-1.0.2.tar.gz
+[2023-07-17 15:09:03] INFO root fetch - processPackages [era-5g-client]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 15:09:03] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/96/9c/0550790c1f94bb223abd67cdeaece462c0ac56b5cf2cf84080a593e57987/flash_attn-1.0.9.tar.gz
+[2023-07-17 15:09:03] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/0c/13/d69cb071b5aea8edb816faf61527dca9e6ae246847ee9a997f1c26d0ff05/spdb-1.0.6.tar.gz
+[2023-07-17 15:09:03] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/0c/13/d69cb071b5aea8edb816faf61527dca9e6ae246847ee9a997f1c26d0ff05/spdb-1.0.6.tar.gz
+[2023-07-17 15:09:03] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-17 15:09:03] INFO root fetch - processPackages [toolkit-python]: Downloading https://files.pythonhosted.org/packages/0c/d8/5604bce7f64c136aaa43b576efa30a808b0d15b298350b8c6c23aa94438d/toolkit_python-1.0.1.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/f1/64/c34bf89977118c6cb9c7361389f88e10340b003a8b78a4feb61dea5dc790/pypomes_core-0.1.4.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/54/be/1d98f7e12e56e3c9ddb243466f08d99cfd297ee7e51c9195de45a399b75d/era_5g_client-0.3.0.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [readarr-py]: Downloading https://files.pythonhosted.org/packages/e6/cf/9c89cb9ade0e0447b4a09cd41a98dd7f66a499ae0c96fecabdccccd08518/readarr-py-0.3.0.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/94/17/5bd6ac94b914e1b09c5b6c054b2e5c5ac1987166ad74e9d5750ca2c35860/dragonk8s-1.0.3.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [toolkit-python]: Downloading https://files.pythonhosted.org/packages/c7/85/c98ef1580c4e450c86f6b8befd04de864f33fe5f2ee86f9009c5b54c45c3/toolkit_python-1.0.2.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/03/12/3f5fa563429e5a715567289498395391d97d09b23e650d68b81b2ecb49ff/spdb-1.0.7.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/a4/52/868536dd609c42071c2b9aeda8ceb11cf7186508ff568021beaa7dab09a8/flash_attn-2.0.0.post1.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/03/12/3f5fa563429e5a715567289498395391d97d09b23e650d68b81b2ecb49ff/spdb-1.0.7.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230717/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/f0/70/3f766a6bd4af0313041678b0072f4e387adb22899381348dcb718afe1ac3/pypomes_core-0.1.5.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230717/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [dragonk8s]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [dragonk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonk8s-1.0.2.tar.gz tmp/dragonk8s-1.0.3.tar.gz --markdown 20230717/d/dragonk8s/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.6.tar.gz tmp/spdb-1.0.7.tar.gz --markdown 20230717/s/spdb/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.6.tar.gz tmp/spdb-1.0.7.tar.gz --markdown 20230717/s/spdb/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [toolkit-python]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [toolkit-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolkit_python-1.0.1.tar.gz tmp/toolkit_python-1.0.2.tar.gz --markdown 20230717/t/toolkit-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.1.4.tar.gz tmp/pypomes_core-0.1.5.tar.gz --markdown 20230717/p/pypomes-core/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/90/de/d64ba1c957e03616b1dd5c20e976a25a827109c1156a6e547241e6a3f4ca/era_5g_client-0.4.0.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [readarr-py]: Downloading https://files.pythonhosted.org/packages/26/d5/b0a4faf9732e6961cbefc60819038e1a2bed7c168b5820a9589ad9ecb74d/readarr-py-0.4.0.tar.gz
+[2023-07-17 15:09:04] INFO root fetch - processPackages [readarr-py]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [readarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readarr-py-0.3.0.tar.gz tmp/readarr-py-0.4.0.tar.gz --markdown 20230717/r/readarr-py/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 15:09:04] INFO root fetch - processPackages [era-5g-client]: executing diffoscope
+[2023-07-17 15:09:04] INFO root fetch - processPackages [era-5g-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_client-0.3.0.tar.gz tmp/era_5g_client-0.4.0.tar.gz --markdown 20230717/e/era-5g-client/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 15:09:05] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-07-17 15:09:05] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.9.tar.gz tmp/flash_attn-2.0.0.post1.tar.gz --markdown 20230717/f/flash-attn/1.0.9-2.0.0.post1/diff.md --exclude *.pyd
+[2023-07-17 15:09:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-17 15:09:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-17 15:09:05] INFO root fetch - processPackages [digimat.bac0]: Start processing: aliyundriveAutoCheckin
+[2023-07-17 15:09:05] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-17 15:09:06] WARNING root fetch - processPackages [aliyundriveAutoCheckin]: Skipping, unable to determine old version
+[2023-07-17 15:09:06] INFO root fetch - processPackages [aliyundriveAutoCheckin]: Start processing: highrise-bot-sdk
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [aliyundriveAutoCheckin] error
+[2023-07-17 15:09:06] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.3.0] Old Version: [23.2.0]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [toolkit-python]: Remove: archive file [/home/abi/fetcher/tmp/toolkit_python-1.0.1.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [toolkit-python]: Remove: archive file [/home/abi/fetcher/tmp/toolkit_python-1.0.2.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [toolkit-python]: Start processing: nids-datasets
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [toolkit-python]: success
+[2023-07-17 15:09:06] WARNING root fetch - processPackages [nids-datasets]: Skipping, unable to determine old version
+[2023-07-17 15:09:06] INFO root fetch - processPackages [nids-datasets]: Start processing: model-monitoring
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [nids-datasets] error
+[2023-07-17 15:09:06] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.6.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.7.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [spdb]: Start processing: comun-va
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 15:09:06] INFO root fetch - processPackages [model-monitoring]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [spdb]: Start processing: odoo-addon-base-portal-type
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 15:09:06] INFO root fetch - processPackages [comun-va]: New version: [0.2] Old Version: [0.1]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/bd/30/91375d8d260969241f5c540b08dc12e81483f6bc1bd2a90634c8261e5467/highrise_bot_sdk-23.2.0.tar.gz
+[2023-07-17 15:09:06] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.4.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.5.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [pypomes-core]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-07-17 15:09:06] WARNING root fetch - processPackages [odoo-addon-base-portal-type]: Skipping, unable to determine old version
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-portal-type] error
+[2023-07-17 15:09:06] INFO root fetch - processPackages [model-monitoring]: Downloading https://files.pythonhosted.org/packages/9a/18/471069598ac55bf1b838e712dc070f253b61ddf246903dda9ff530257f60/model_monitoring-1.1.1.tar.gz
+[2023-07-17 15:09:06] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/6f/c3/ccdc10fc4f7f5ca9582f30307f4db8741404fa727d1aad699d50a30ddb5d/comun_va-0.1.tar.gz
+[2023-07-17 15:09:06] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.3.0.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.4.0.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [era-5g-client]: success
+[2023-07-17 15:09:06] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-17 15:09:06] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-17 15:09:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.17] Old Version: [2023.7.16]
+[2023-07-17 15:09:06] INFO root fetch - processPackages [model-monitoring]: Downloading https://files.pythonhosted.org/packages/0a/bd/a7a7cfb7df693830be295f082308de84d580f5565d7e8b56052403228971/model_monitoring-1.1.2.tar.gz
+[2023-07-17 15:09:06] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/2a/78/d55767f95004d0091a6ae42a0685aac6d474986a60eca874db0c10af1135/highrise_bot_sdk-23.3.0.tar.gz
+[2023-07-17 15:09:07] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/e6/f8/d6c99c7055c6920855dae54dd34458c2df82266627d58ffc2d2b80f7fca8/comun_va-0.2.tar.gz
+[2023-07-17 15:09:07] INFO root fetch - processPackages [model-monitoring]: executing diffoscope
+[2023-07-17 15:09:07] INFO root fetch - processPackages [model-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_monitoring-1.1.1.tar.gz tmp/model_monitoring-1.1.2.tar.gz --markdown 20230717/m/model-monitoring/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-17 15:09:07] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/7e/c9/301dde23904e91c378eebd2aeb34c145252578eba03f48668b6ff39f015c/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 15:09:07] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-07-17 15:09:07] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.2.0.tar.gz tmp/highrise_bot_sdk-23.3.0.tar.gz --markdown 20230717/h/highrise-bot-sdk/23.2.0-23.3.0/diff.md --exclude *.pyd
+[2023-07-17 15:09:07] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2023-07-17 15:09:07] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-0.1.tar.gz tmp/comun_va-0.2.tar.gz --markdown 20230717/c/comun-va/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-17 15:09:07] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bf/47/b9fe8caaac9baa14948c6950cc703615f816872676d8210e88d3bca5d9c6/fbgemm_gpu_nightly_cpu-2023.7.17-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 15:09:07] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.2.tar.gz]
+[2023-07-17 15:09:07] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.3.tar.gz]
+[2023-07-17 15:09:07] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
+[2023-07-17 15:09:08] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.1.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.2.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2023-07-17 15:09:08] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.2.0.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.3.0.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-07-17 15:09:08] INFO root fetch - processPackages [model-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/model_monitoring-1.1.1.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - processPackages [model-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/model_monitoring-1.1.2.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - main [MainThread]: End processing [model-monitoring]: success
+[2023-07-17 15:09:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-17 15:09:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.17-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230717/f/fbgemm-gpu-nightly-cpu/2023.7.16-2023.7.17/diff.md --exclude *.pyd
+[2023-07-17 15:09:08] INFO root fetch - processPackages [readarr-py]: Remove: archive file [/home/abi/fetcher/tmp/readarr-py-0.3.0.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - processPackages [readarr-py]: Remove: archive file [/home/abi/fetcher/tmp/readarr-py-0.4.0.tar.gz]
+[2023-07-17 15:09:08] INFO root fetch - main [MainThread]: End processing [readarr-py]: success
+[2023-07-17 15:09:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-17 15:09:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.17-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-17 15:09:09] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-17 15:09:18] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-1.0.9.tar.gz]
+[2023-07-17 15:09:18] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.0.post1.tar.gz]
+[2023-07-17 15:09:18] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-07-17 15:09:18] INFO root fetch - main [MainThread]: Store serial: [18917199]
