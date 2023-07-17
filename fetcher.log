@@ -6021,3 +6021,60 @@
 [2023-07-17 05:01:48] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230717.tar.gz]
 [2023-07-17 05:01:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-17 05:01:48] INFO root fetch - main [MainThread]: Store serial: [18911915]
+[2023-07-17 05:06:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911915]
+[2023-07-17 05:06:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 05:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gunfolds
+[2023-07-17 05:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple2encrypt
+[2023-07-17 05:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphatools-jv
+[2023-07-17 05:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-services
+[2023-07-17 05:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assistorgapi
+[2023-07-17 05:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icpp-free
+[2023-07-17 05:06:57] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-17 05:06:57] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.2] Old Version: [202306.0.9]
+[2023-07-17 05:06:57] INFO root fetch - processPackages [gunfolds]: New version: [0.8] Old Version: [0.7]
+[2023-07-17 05:06:57] INFO root fetch - processPackages [assistorgapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 05:06:57] INFO root fetch - processPackages [alphatools-jv]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-17 05:06:57] INFO root fetch - processPackages [icpp-free]: New version: [3.0.0] Old Version: [2.9.0]
+[2023-07-17 05:06:57] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/08/41/3a7338e3b1b230f7a6897d02226657a65b246a7762d1354a1f7604d18d65/alphatools_jv-3.0.0.tar.gz
+[2023-07-17 05:06:57] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/b7/2e/e3e5a0d9f14f1e7474f9ef9ef674df1cc9f0f4b95155c951059026af2665/simple2encrypt-1.5.4.tar.gz
+[2023-07-17 05:06:57] INFO root fetch - processPackages [gunfolds]: Downloading https://files.pythonhosted.org/packages/ca/2c/e0a7e0facf6a8d1a7aacca6cac657ea5fd11437c3e750f7d85dd2ad15198/gunfolds-0.7.tar.gz
+[2023-07-17 05:06:57] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/bc/e3/061cecea233052b949cddb0873938181fa6cb0505dfc75b3e278680bd013/assistorgapi-0.0.6.tar.gz
+[2023-07-17 05:06:57] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/7c/8f/52db6d4fc0befe0c9b5f19a2a30473cefa36dc1a34c5d78e135b27f89a7b/icpp_free-2.9.0-py3-none-any.whl
+[2023-07-17 05:06:57] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-07-17 05:06:58] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/d5/79/283a2b2830b26415ad60b6c4b277b7537306f7d2b3a6990c546446d7103f/simple2encrypt-1.5.5.tar.gz
+[2023-07-17 05:06:58] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/ce/cb/46836a137ae6f4e553c9fcc49a8483380abe1b7996b15d943c4f518e2509/alphatools_jv-3.1.0.tar.gz
+[2023-07-17 05:06:58] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/06/44/7ece81fee328e1cd77236e26a8e0b8a2f02f3583d78427a74266b44794ba/assistorgapi-0.0.7.tar.gz
+[2023-07-17 05:06:58] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/98/83/7b3ebc3ec1d027cdea8afb11d644e6fe4a050794b3f4a0951224588ad1c8/data_ecosystem_services-202307.0.2.tar.gz
+[2023-07-17 05:06:58] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-17 05:06:58] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.5.4.tar.gz tmp/simple2encrypt-1.5.5.tar.gz --markdown 20230717/s/simple2encrypt/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-17 05:06:58] INFO root fetch - processPackages [alphatools-jv]: executing diffoscope
+[2023-07-17 05:06:58] INFO root fetch - processPackages [alphatools-jv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphatools_jv-3.0.0.tar.gz tmp/alphatools_jv-3.1.0.tar.gz --markdown 20230717/a/alphatools-jv/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-17 05:06:58] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/49/69/2228b53d308b0839fcadbd9dc3f65e70eb439b3489cfaa1c7b8da0da6a8b/icpp_free-3.0.0-py3-none-any.whl
+[2023-07-17 05:06:58] INFO root fetch - processPackages [assistorgapi]: executing diffoscope
+[2023-07-17 05:06:58] INFO root fetch - processPackages [assistorgapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistorgapi-0.0.6.tar.gz tmp/assistorgapi-0.0.7.tar.gz --markdown 20230717/a/assistorgapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 05:06:58] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-17 05:06:58] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.9.tar.gz tmp/data_ecosystem_services-202307.0.2.tar.gz --markdown 20230717/d/data-ecosystem-services/202306.0.9-202307.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:06:58] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-07-17 05:06:58] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.9.0-py3-none-any.whl.zip tmp/icpp_free-3.0.0-py3-none-any.whl.zip --markdown 20230717/i/icpp-free/2.9.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-17 05:06:58] INFO root fetch - processPackages [gunfolds]: Downloading https://files.pythonhosted.org/packages/7d/c9/f0d2d76e92069b5e4a69a088b1330c4f7e2583ac98f3c067674aad6d5c66/gunfolds-0.8.tar.gz
+[2023-07-17 05:06:59] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.0.0.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.1.0.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - main [MainThread]: End processing [alphatools-jv]: success
+[2023-07-17 05:06:59] INFO root fetch - processPackages [gunfolds]: executing diffoscope
+[2023-07-17 05:06:59] INFO root fetch - processPackages [gunfolds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gunfolds-0.7.tar.gz tmp/gunfolds-0.8.tar.gz --markdown 20230717/g/gunfolds/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-17 05:06:59] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.6.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.7.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - main [MainThread]: End processing [assistorgapi]: success
+[2023-07-17 05:06:59] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.4.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.5.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-17 05:06:59] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.2.tar.gz]
+[2023-07-17 05:06:59] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-17 05:06:59] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.9.0-py3-none-any.whl.zip]
+[2023-07-17 05:06:59] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-3.0.0-py3-none-any.whl.zip]
+[2023-07-17 05:06:59] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-07-17 05:07:00] INFO root fetch - processPackages [gunfolds]: Remove: archive file [/home/abi/fetcher/tmp/gunfolds-0.7.tar.gz]
+[2023-07-17 05:07:00] INFO root fetch - processPackages [gunfolds]: Remove: archive file [/home/abi/fetcher/tmp/gunfolds-0.8.tar.gz]
+[2023-07-17 05:07:00] INFO root fetch - main [MainThread]: End processing [gunfolds]: success
+[2023-07-17 05:07:00] INFO root fetch - main [MainThread]: Store serial: [18911934]
