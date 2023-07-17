@@ -4309,3 +4309,103 @@
 [2023-07-17 02:56:17] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
 [2023-07-17 02:56:17] INFO root fetch - main [MainThread]: End processing [datahtml]: success
 [2023-07-17 02:56:17] INFO root fetch - main [MainThread]: Store serial: [18911231]
+[2023-07-17 03:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911231]
+[2023-07-17 03:01:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcsfe-discord
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyopencga
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mystring
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reata
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Finance-Seleya
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: px-recount
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pantsbuild.pants
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-interpreter
+[2023-07-17 03:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pantsbuild.pants.testutil
+[2023-07-17 03:01:26] INFO root fetch - processPackages [pyopencga]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [px-recount]: New version: [3.11.0rc3] Old Version: [3.11.0rc2]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [reata]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.228] Old Version: [0.0.227]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [Finance-Seleya]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/f3/e7/5f55e6a80e07f5a1842ab633b605bb8163878a72515d4eb2b7cda3782ec4/open_interpreter-0.0.227.tar.gz
+[2023-07-17 03:01:26] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-17 03:01:26] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: simplechain
+[2023-07-17 03:01:26] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-17 03:01:26] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [px-recount]: Downloading https://files.pythonhosted.org/packages/cb/8c/35d3e2cd522fffbd0fcaf098a6e26e9bdd3fd3bd128383c0c7f831693711/px_recount-3.11.0rc2.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [reata]: Downloading https://files.pythonhosted.org/packages/41/79/a671185f55d63b7fe8ccdbd87bfa8dc0a4f92ea49376925a12aa1d0877aa/reata-1.0.2.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/35/74/f264d741b89b9a4517e4e8a67c691d6fb13d4f9e55ba432814831e1514cc/pyopencga-2.9.0.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [simplechain]: New version: [0.0.5.8] Old Version: [0.0.5.7]
+[2023-07-17 03:01:26] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 03:01:26] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [Finance-Seleya]: Downloading https://files.pythonhosted.org/packages/64/bd/8f0eae955c6d5e76fb551c57428d978c6f958f67688e83bd54dcd8f4beb9/Finance-Seleya-1.1.4.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/4e/7d/aeafade716239bdbf6323e1aa8cab40ec135933628cd8b4f30180462f909/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl
+[2023-07-17 03:01:26] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a8/1f/feca85f7402f71f2d6c1ca44a89c5a0b8dc6fb7646bd32518202113ce6d1/open_interpreter-0.0.228.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/85/29/044d422d4059165174482879d760cbc173eb8ee2f144384f2a72e3d33aff/simplechain-0.0.5.7.tar.gz
+[2023-07-17 03:01:26] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-17 03:01:26] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.227.tar.gz tmp/open_interpreter-0.0.228.tar.gz --markdown 20230717/o/open-interpreter/0.0.227-0.0.228/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: bcsfe-discord
+[2023-07-17 03:01:27] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-07-17 03:01:27] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [px-recount]: Downloading https://files.pythonhosted.org/packages/f7/3a/afc31b859605e6d96afdccd930281b590d8bf5360268edd69cfe10c6d393/px_recount-3.11.0rc3.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-17 03:01:27] INFO root fetch - processPackages [reata]: Downloading https://files.pythonhosted.org/packages/55/0d/cc0446a5a162f72270962877a74b160e6ce8694370a49f1d7fb1ca06e89a/reata-1.1.0.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [Finance-Seleya]: Downloading https://files.pythonhosted.org/packages/8d/cf/8e079abf20c036459008ab2a071821a3e620b5d51f1e0b20fcc03e27b62a/Finance-Seleya-1.1.5.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230717/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/02/8c/3a16f6b46f42c7346f118222e0e0ecdaf687f3ae9f7c1433d89882fc7f93/pyopencga-2.9.1.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [reata]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [reata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reata-1.0.2.tar.gz tmp/reata-1.1.0.tar.gz --markdown 20230717/r/reata/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [px-recount]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [px-recount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/px_recount-3.11.0rc2.tar.gz tmp/px_recount-3.11.0rc3.tar.gz --markdown 20230717/p/px-recount/3.11.0rc2-3.11.0rc3/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [Finance-Seleya]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [Finance-Seleya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Seleya-1.1.4.tar.gz tmp/Finance-Seleya-1.1.5.tar.gz --markdown 20230717/F/Finance-Seleya/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/99/3d/05b882eb653f3774a6e1520e5e16ce1c59df3737b664846d8bde71c8a2c1/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pyopencga]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pyopencga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencga-2.9.0.tar.gz tmp/pyopencga-2.9.1.tar.gz --markdown 20230717/p/pyopencga/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230717/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230717/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/65/9c/5fcf176a7860691b0d6bc5ae6a3751877377119f1bc2ea7bf84fa81d5369/simplechain-0.0.5.8.tar.gz
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230717/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-07-17 03:01:27] INFO root fetch - processPackages [simplechain]: executing diffoscope
+[2023-07-17 03:01:27] INFO root fetch - processPackages [simplechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechain-0.0.5.7.tar.gz tmp/simplechain-0.0.5.8.tar.gz --markdown 20230717/s/simplechain/0.0.5.7-0.0.5.8/diff.md --exclude *.pyd
+[2023-07-17 03:01:28] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.227.tar.gz]
+[2023-07-17 03:01:28] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.228.tar.gz]
+[2023-07-17 03:01:28] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-17 03:01:28] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-17 03:01:28] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-17 03:01:28] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-17 03:01:28] INFO root fetch - processPackages [reata]: Remove: archive file [/home/abi/fetcher/tmp/reata-1.0.2.tar.gz]
+[2023-07-17 03:01:28] INFO root fetch - processPackages [reata]: Remove: archive file [/home/abi/fetcher/tmp/reata-1.1.0.tar.gz]
+[2023-07-17 03:01:28] INFO root fetch - main [MainThread]: End processing [reata]: success
+[2023-07-17 03:01:29] INFO root fetch - processPackages [px-recount]: Remove: archive file [/home/abi/fetcher/tmp/px_recount-3.11.0rc2.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - processPackages [px-recount]: Remove: archive file [/home/abi/fetcher/tmp/px_recount-3.11.0rc3.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [px-recount]: success
+[2023-07-17 03:01:29] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip]
+[2023-07-17 03:01:29] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip]
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-07-17 03:01:29] INFO root fetch - processPackages [simplechain]: Remove: archive file [/home/abi/fetcher/tmp/simplechain-0.0.5.7.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - processPackages [simplechain]: Remove: archive file [/home/abi/fetcher/tmp/simplechain-0.0.5.8.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [simplechain]: success
+[2023-07-17 03:01:29] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-2.9.0.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-2.9.1.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [pyopencga]: success
+[2023-07-17 03:01:29] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.8.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.9.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-07-17 03:01:29] INFO root fetch - processPackages [Finance-Seleya]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Seleya-1.1.4.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - processPackages [Finance-Seleya]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Seleya-1.1.5.tar.gz]
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: End processing [Finance-Seleya]: success
+[2023-07-17 03:01:29] INFO root fetch - main [MainThread]: Store serial: [18911274]
