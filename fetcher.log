@@ -13209,3 +13209,117 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:39:30] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.6.tar.gz]
 [2023-07-17 11:39:30] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
 [2023-07-17 11:39:30] INFO root fetch - main [MainThread]: Store serial: [18914862]
+[2023-07-17 11:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914862]
+[2023-07-17 11:44:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2gui
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-awsx
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serra-cli
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prodigy-teams
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-lw-data-provider
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liveramp-automation-framework
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IMSmartFinderNinja
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-widget-s3
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spai
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-landed-costs-currency
+[2023-07-17 11:44:39] WARNING root fetch - processPackages [serra-cli]: Skipping, unable to determine old version
+[2023-07-17 11:44:39] INFO root fetch - processPackages [serra-cli]: Start processing: diaossama-test3
+[2023-07-17 11:44:39] INFO root fetch - main [MainThread]: End processing [serra-cli] error
+[2023-07-17 11:44:39] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 11:44:39] WARNING root fetch - processPackages [odoo-addon-stock-landed-costs-currency]: Skipping, unable to determine old version
+[2023-07-17 11:44:39] INFO root fetch - processPackages [odoo-addon-stock-landed-costs-currency]: Start processing: pynisher
+[2023-07-17 11:44:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-landed-costs-currency] error
+[2023-07-17 11:44:39] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [spai]: New version: [2023.7.4] Old Version: [2023.7.17.post2]
+[2023-07-17 11:44:39] WARNING root fetch - processPackages [jupyterlab-widget-s3]: Skipping, unable to determine old version
+[2023-07-17 11:44:39] INFO root fetch - processPackages [jupyterlab-widget-s3]: Start processing: poetry-template-plugin
+[2023-07-17 11:44:39] INFO root fetch - main [MainThread]: End processing [jupyterlab-widget-s3] error
+[2023-07-17 11:44:39] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 11:44:39] WARNING root fetch - processPackages [diaossama-test3]: Skipping, unable to determine old version
+[2023-07-17 11:44:39] INFO root fetch - processPackages [diaossama-test3]: Start processing: ecallisto-ng
+[2023-07-17 11:44:39] INFO root fetch - main [MainThread]: End processing [diaossama-test3] error
+[2023-07-17 11:44:39] INFO root fetch - processPackages [prodigy-teams]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [pynisher]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5574085857]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/e9/fb/e261ee22c8349a011610d0c1a903b2e01beab782851e67652edd7d60fefa/liveramp_automation_framework-0.1.8.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [poetry-template-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 11:44:39] INFO root fetch - processPackages [pynisher]: Downloading https://files.pythonhosted.org/packages/06/c9/ae65927f382f80e99841d05b3ef19fc5dd6fa0684f00812ed055c0909821/pynisher-1.0.5.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/29/52/87de09b2a0a10017cbe74b2f77f1639ada2381d6c83c83ea62808da1c73a/spai-2023.7.17.post2.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [prodigy-teams]: Downloading https://files.pythonhosted.org/packages/57/07/71027c4957e6a1622fb80cd60a705edc10baedef545efd04b767e8678c42/prodigy-teams-0.1.8.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ae/ed/ffc448f52a3f8a475797e889b02703d43aaff6ff9fd950f2b46e8fedd442/th2_grpc_lw_data_provider-2.0.0.dev5574085857.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/bf/8c/7b8f18a8de1dd52474461cf9c3f88be614510c18e8c2345cdf1d94bce5b1/IMSmartFinderNinja-0.0.6.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/0f/dd/8ea091f5a3b852457e6c9d99d1c5d183950fc845afdd4458d997aa59d6ed/ecallisto_ng-0.1.5.tar.gz
+[2023-07-17 11:44:39] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/4d/e8/5491d5cfef95e88245d7b464299ca8b4a0005d2a2d6fdcc6f685d350fc01/pulumi_awsx-1.0.1.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [poetry-template-plugin]: Downloading https://files.pythonhosted.org/packages/85/d6/b233f2309db764ddbe79c1db98116aca331036ff7c5a644901c8a53e1db0/poetry_template_plugin-0.1.8.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/c2/0c/0bc6b3353bec28e518e220c6aa4f8106f4a04db21cce4633917a331f6d2d/liveramp_automation_framework-0.1.9.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [pynisher]: Downloading https://files.pythonhosted.org/packages/b7/33/8e9a0cbf2bd7aeb6a2b2a003d8ebe6c19fda10150d4efdae1dacd78d4fac/pynisher-1.0.6.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [prodigy-teams]: Downloading https://files.pythonhosted.org/packages/17/4c/a5f4f3cdaf7487d887d1aeabe53a3c3c0a1fe1985296cca2b2f3d0775821/prodigy-teams-0.1.9.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [poetry-template-plugin]: Downloading https://files.pythonhosted.org/packages/72/2a/369b7f06387879f3b2025a727145ef89b469694ad4fc0ef42631fbdb5c63/poetry_template_plugin-0.1.9.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/51/dd/9e5ad813caef75cde0c19b188acf75c7707d393ccbf90aea4cdd1c8fc1fd/IMSmartFinderNinja-0.0.7.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230717/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/0d/b7/3c777fc1f6c582e4e2ef65945c2502c353f0736521393fcef61604ecca91/ecallisto_ng-0.1.6.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5574085857.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230717/t/th2-grpc-lw-data-provider/2.0.0.dev5574085857-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.8.tar.gz tmp/liveramp_automation_framework-0.1.9.tar.gz --markdown 20230717/l/liveramp-automation-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-07-17 11:44:40] INFO root fetch - processPackages [pynisher]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [pynisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynisher-1.0.5.tar.gz tmp/pynisher-1.0.6.tar.gz --markdown 20230717/p/pynisher/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [poetry-template-plugin]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [poetry-template-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_template_plugin-0.1.8.tar.gz tmp/poetry_template_plugin-0.1.9.tar.gz --markdown 20230717/p/poetry-template-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [prodigy-teams]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [prodigy-teams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy-teams-0.1.8.tar.gz tmp/prodigy-teams-0.1.9.tar.gz --markdown 20230717/p/prodigy-teams/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.0.6.tar.gz tmp/IMSmartFinderNinja-0.0.7.tar.gz --markdown 20230717/I/IMSmartFinderNinja/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.1.5.tar.gz tmp/ecallisto_ng-0.1.6.tar.gz --markdown 20230717/e/ecallisto-ng/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.17.post2.tar.gz tmp/spai-2023.7.4.tar.gz --markdown 20230717/s/spai/2023.7.17.post2-2023.7.4/diff.md --exclude *.pyd
+[2023-07-17 11:44:40] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-07-17 11:44:40] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.1.tar.gz tmp/pulumi_awsx-1.0.2.tar.gz --markdown 20230717/p/pulumi-awsx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 11:44:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5574085857.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: captif-cpx-db
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.8.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.9.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [captif-cpx-db]: New version: [1.0.0] Old Version: [0.9]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [pynisher]: Remove: archive file [/home/abi/fetcher/tmp/pynisher-1.0.5.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [pynisher]: Remove: archive file [/home/abi/fetcher/tmp/pynisher-1.0.6.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [pynisher]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.6.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.7.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [poetry-template-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_template_plugin-0.1.8.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [poetry-template-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_template_plugin-0.1.9.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [poetry-template-plugin]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/13/2d/bfd1ce82d1877d5c33ba5d16cc355203b48146e1b37fc019560379c8f923/captif_cpx_db-0.9.tar.gz
+[2023-07-17 11:44:42] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.1.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.5.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.6.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.17.post2.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [prodigy-teams]: Remove: archive file [/home/abi/fetcher/tmp/prodigy-teams-0.1.8.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - processPackages [prodigy-teams]: Remove: archive file [/home/abi/fetcher/tmp/prodigy-teams-0.1.9.tar.gz]
+[2023-07-17 11:44:42] INFO root fetch - main [MainThread]: End processing [prodigy-teams]: success
+[2023-07-17 11:44:42] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/68/92/01fd80e27dfb43f4b2e1ad25bb41948e69f5803ba9025e733d7a349c1204/captif_cpx_db-1.0.0.tar.gz
+[2023-07-17 11:44:43] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-07-17 11:44:43] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.9.tar.gz tmp/captif_cpx_db-1.0.0.tar.gz --markdown 20230717/c/captif-cpx-db/0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 11:44:43] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.9.tar.gz]
+[2023-07-17 11:44:43] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-1.0.0.tar.gz]
+[2023-07-17 11:44:43] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-07-17 11:44:43] INFO root fetch - main [MainThread]: Store serial: [18914918]
