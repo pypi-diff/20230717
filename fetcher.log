@@ -12135,3 +12135,321 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:02:18] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2023-07-17 11:02:18] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-07-17 11:02:18] INFO root fetch - main [MainThread]: Store serial: [18914428]
+[2023-07-17 11:07:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914428]
+[2023-07-17 11:07:28] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adadmire
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-acft-accelerator
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-acft-common-components
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-acft-contrib-hf-diffusion
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-acft-contrib-hf-nlp
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-acft-image-components
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-evaluate-mlflow
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azureml-metrics
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-swag
+[2023-07-17 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.common
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-accelerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-common-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [adadmire]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [simple-swag]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:28] INFO root fetch - processPackages [adadmire]: Downloading https://files.pythonhosted.org/packages/73/9b/d72051251263f77bddef01a53af7611f6aed50e4a132833a2f8bffffc552/adadmire-1.0.1.tar.gz
+[2023-07-17 11:07:28] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/47/21/dbec7fb64743610750b0caeff00317ed5db71c162b20334222ea6813c206/autogluon.common-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:28] INFO root fetch - processPackages [simple-swag]: Downloading https://files.pythonhosted.org/packages/46/73/2cc86817b44e3df3c0d9ba914079781ba89bb2790bd7131aa799994eedfc/simple-swag-0.1.1.tar.gz
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/b3/e4/d85f7a1a243a906f8c0c1337e73e9679cc506d3cacd07e2751e7fe7db717/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/c6/b4/92fe2844600ef202ad1bfb17d785a9983adaed2ba8c40362e8d46f44641f/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/7e/ef/bae82174f8ae37679572ec1080feac58efa577918ab6594b2b38d1113bcd/azureml_acft_accelerator-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/54/14/b21660f0894f00e8b252c21c555bfa0f0d81cb9c5e21a5d0558cef89779c/azureml_acft_image_components-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/bf/82/f2b5cca48caac7cedb5d44dff46c9fbcc32c3cde13444bead6d5aacb0c43/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:28] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/1b/69/79c753b95642820059ac6078e8d3304c534d5fb1670b39f2979261b8e8e5/azureml_acft_common_components-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/ab/8d/c00408ae3f836d5caab609c4e0207687802fba036c489afd1de05df60ee8/azureml_metrics-0.0.8-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [simple-swag]: Downloading https://files.pythonhosted.org/packages/96/d0/e9e5df6b8ffccb1b9f71bc116cbd27e70bbf84e2e1ebf16bee1c913bb22c/simple-swag-0.1.2.tar.gz
+[2023-07-17 11:07:29] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/95/60/4b337657af10ba9b42ec3a25a5c28dfc70d4a8e78883c5cb9d90b608e2ef/autogluon.common-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:29] INFO root fetch - processPackages [adadmire]: Downloading https://files.pythonhosted.org/packages/f8/91/43bd341bcae86eb6b4d6bc4e33158f7e9e9ad04d75019e0c830b19a54078/adadmire-1.0.2.tar.gz
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/17/fa/51d9356bdb0000b44f3f9e37245c49c28a3dd3170bd8534527159f3ba71a/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/74/d7/91a6d6d711d3c106762e53ec7cae4d9dc23f91a43d347e9d438e3934f50b/azureml_acft_common_components-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [simple-swag]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [simple-swag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-swag-0.1.1.tar.gz tmp/simple-swag-0.1.2.tar.gz --markdown 20230717/s/simple-swag/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/f4/a3/15bfb45471496789ba0291a4458055542302f2b954414120e64af247a54d/azureml_acft_accelerator-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/3f/53/207e2ef0fc5d44967253be36d79a263cd47893128e4f9c253c01c386828a/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/c2/4c/c39c6718dda35b70925d6b2c893e31372e3c932478f5c52caf1ae909f8fa/azureml_acft_image_components-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [adadmire]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [adadmire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adadmire-1.0.1.tar.gz tmp/adadmire-1.0.2.tar.gz --markdown 20230717/a/adadmire/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.3b20230716.tar.gz tmp/autogluon.common-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.common/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/b8/d5/37e5123c1308f4fb41e069c8fe225331772b429781cd0e55a35c8a932e20/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-acft-contrib-hf-diffusion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-accelerator]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-accelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-acft-accelerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/d9/b6/db1d2bb7b04794fb4db613f74b2e3f42e69d272672dc18a156a2eab656c4/azureml_metrics-0.0.9-py3-none-any.whl
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-acft-contrib-hf-nlp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-evaluate-mlflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-metrics]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2023-07-17 11:07:29] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-acft-image-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:30] INFO root fetch - processPackages [azureml-acft-common-components]: executing diffoscope
+[2023-07-17 11:07:30] INFO root fetch - processPackages [azureml-acft-common-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip --markdown 20230717/a/azureml-acft-common-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:31] INFO root fetch - processPackages [simple-swag]: Remove: archive file [/home/abi/fetcher/tmp/simple-swag-0.1.1.tar.gz]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [simple-swag]: Remove: archive file [/home/abi/fetcher/tmp/simple-swag-0.1.2.tar.gz]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [simple-swag]: Start processing: autogluon.core
+[2023-07-17 11:07:31] INFO root fetch - main [MainThread]: End processing [simple-swag]: success
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/f1/60/7d569d2450e3adbfe2faf66282f16e71b37837c4fb5f905d7115e60e6e38/autogluon.core-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:31] INFO root fetch - processPackages [adadmire]: Remove: archive file [/home/abi/fetcher/tmp/adadmire-1.0.1.tar.gz]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [adadmire]: Remove: archive file [/home/abi/fetcher/tmp/adadmire-1.0.2.tar.gz]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [adadmire]: Start processing: nucliadb-contributor-assets
+[2023-07-17 11:07:31] INFO root fetch - main [MainThread]: End processing [adadmire]: success
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.features
+[2023-07-17 11:07:31] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post888] Old Version: [1.0.0.post887]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/3f/f9/9fa1a30ebd3d3089cdd094d48624cc79919c61dd3001465bd74bf612acd0/autogluon.core-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:31] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/df/f4/9892afcce257de1df681c5ea65be23c1beb8a30b183597120c2caa88d0df/autogluon.features-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:31] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [azureml-metrics]: Start processing: data-disaggregation
+[2023-07-17 11:07:31] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
+[2023-07-17 11:07:31] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:31] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Start processing: autogluon.tabular
+[2023-07-17 11:07:31] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-07-17 11:07:31] INFO root fetch - processPackages [data-disaggregation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/db/cd/de993af25d024f29b79b480254a51b9813389f9b1ced02ba560aca4a5afb/nucliadb_contributor_assets-1.0.0.post887-py3-none-any.whl
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.3b20230716.tar.gz tmp/autogluon.core-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.core/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a3/d8/f3ac5122a95ee3f2e844be8c9d235cc7cf9fe03864f3cc363d798368a519/autogluon.tabular-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/21/69/dd293a5910ead59b696dd3d75e7cb4be4ba8b14db3f24888a85b516c824a/autogluon.features-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-accelerator]: Start processing: autogluon.multimodal
+[2023-07-17 11:07:32] INFO root fetch - main [MainThread]: End processing [azureml-acft-accelerator]: success
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-image-components]: Start processing: autogluon.timeseries
+[2023-07-17 11:07:32] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2023-07-17 11:07:32] INFO root fetch - processPackages [data-disaggregation]: Downloading https://files.pythonhosted.org/packages/8d/76/e93c60cb255deff5582642bc032804ebbc1a884262b79de9b549235b543a/data-disaggregation-0.9.2.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-common-components]: Start processing: autogluon
+[2023-07-17 11:07:32] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/bb/c2/cd757a1da2617ba27bf6a5e3a4330908abcf8e2b1e9d5ba3bc5a6cb1447b/autogluon.multimodal-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/45/37/16af39a7be1ceb01ca480c7d70fa352cc0afeb3c0332cdc8f675bcaad46f/nucliadb_contributor_assets-1.0.0.post888-py3-none-any.whl
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.3b20230716.tar.gz tmp/autogluon.features-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.features/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e3/09/14244c707bae8870ddfe62c10ae1c5414d5bf785ee4f035b2902616dbde1/autogluon.timeseries-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/9c/d9/635f1ee69edaf2e83418ec5b4265a35324c21b3eecd212f673553d4ec09b/autogluon.tabular-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/fe/72/b0e1b7249c8232c6ec27c1161f5e6460e5dfcd1c43bb2d3a2b72148bc912/autogluon-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-17 11:07:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post887-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post888-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-contributor-assets/1.0.0.post887-1.0.0.post888/diff.md --exclude *.pyd
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Start processing: bowtie-json-schema
+[2023-07-17 11:07:32] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2023-07-17 11:07:32] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Start processing: napari-svetlana
+[2023-07-17 11:07:32] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ab/f5/6c16af183609b3e0f8425c497cfa58e3c42437eb45bfc22e521aa98deae6/autogluon.multimodal-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.3b20230716.tar.gz tmp/autogluon.tabular-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.tabular/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:32] INFO root fetch - processPackages [data-disaggregation]: Downloading https://files.pythonhosted.org/packages/ff/7b/55ecbb5681b1b48e8d67b0e9ca291948a635ea47d218f002ce0bc1ad8a3b/data-disaggregation-0.9.3.tar.gz
+[2023-07-17 11:07:32] INFO root fetch - processPackages [napari-svetlana]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-17 11:07:32] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/06/43/43d6dc92c88763162642107c5f65503cd60501c937698b257b422deef713/autogluon.timeseries-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/4b/bd/a5da1b3f2730e7bcb99c44ee0fef0614782c73c49360ca358d4ff19e277d/autogluon-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:33] INFO root fetch - processPackages [data-disaggregation]: executing diffoscope
+[2023-07-17 11:07:33] INFO root fetch - processPackages [data-disaggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-disaggregation-0.9.2.tar.gz tmp/data-disaggregation-0.9.3.tar.gz --markdown 20230717/d/data-disaggregation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-17 11:07:33] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/0a/31/f1d895398a4ee26167a3f21f52f6fcdb35b42ce01b8de36265b308df6b47/bowtie_json_schema-2023.7.7.tar.gz
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.3b20230716.tar.gz tmp/autogluon.multimodal-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.multimodal/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-07-17 11:07:33] INFO root fetch - processPackages [napari-svetlana]: Downloading https://files.pythonhosted.org/packages/ec/45/ac22b44458f0a861c03c5e048a95bf51ae4d5401ca0400ea666e903bba88/napari_svetlana-0.2.9.tar.gz
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.3b20230716.tar.gz tmp/autogluon.timeseries-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.timeseries/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-07-17 11:07:33] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.3b20230716.tar.gz tmp/autogluon-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:33] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/d9/91/5e379451e7d009963e089d67a85367e46b3ea24e5c231e996876df596e91/bowtie_json_schema-2023.7.8.tar.gz
+[2023-07-17 11:07:33] INFO root fetch - processPackages [napari-svetlana]: Downloading https://files.pythonhosted.org/packages/0a/e0/7b3a40eb572ef7c1c305ebd2480e4156ceb32f7b617ef970969cc1e3e233/napari_svetlana-0.3.0.tar.gz
+[2023-07-17 11:07:33] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-07-17 11:07:33] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.7.7.tar.gz tmp/bowtie_json_schema-2023.7.8.tar.gz --markdown 20230717/b/bowtie-json-schema/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-17 11:07:33] INFO root fetch - processPackages [napari-svetlana]: executing diffoscope
+[2023-07-17 11:07:33] INFO root fetch - processPackages [napari-svetlana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_svetlana-0.2.9.tar.gz tmp/napari_svetlana-0.3.0.tar.gz --markdown 20230717/n/napari-svetlana/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.core]: Start processing: autogluon.eda
+[2023-07-17 11:07:34] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.features]: Start processing: opsapp
+[2023-07-17 11:07:34] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.3b20230717] Old Version: [0.8.3b20230716]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [opsapp]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/61/8a/1125550899cd360fe8964031f15796944749a161d02746f61aed224da73e/autogluon.eda-0.8.3b20230716.tar.gz
+[2023-07-17 11:07:34] INFO root fetch - processPackages [opsapp]: Downloading https://files.pythonhosted.org/packages/82/a2/735f226773b374f8ab3c5d2bb0d32a363b50b9c4d07ef06568cd8be9d9d5/opsapp-0.0.24.tar.gz
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/de/bd/91deb7cb791c1662b4d17ebfbbb7712a88b853049b137e96ee7b915118f5/autogluon.eda-0.8.3b20230717.tar.gz
+[2023-07-17 11:07:34] INFO root fetch - processPackages [data-disaggregation]: Remove: archive file [/home/abi/fetcher/tmp/data-disaggregation-0.9.2.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [data-disaggregation]: Remove: archive file [/home/abi/fetcher/tmp/data-disaggregation-0.9.3.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [data-disaggregation]: Start processing: archinstall
+[2023-07-17 11:07:34] INFO root fetch - main [MainThread]: End processing [data-disaggregation]: success
+[2023-07-17 11:07:34] INFO root fetch - processPackages [archinstall]: New version: [2.6.0rc1] Old Version: [2.5.6]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon]: Start processing: autogluon.cloud
+[2023-07-17 11:07:34] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-07-17 11:07:34] INFO root fetch - processPackages [opsapp]: Downloading https://files.pythonhosted.org/packages/85/76/b80b1e20ca4131991c229fda760e4d23aff682a25ad49fcdbdf516337033/opsapp-0.0.25.tar.gz
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230717] Old Version: [0.2.1b20230716]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: tigersyn
+[2023-07-17 11:07:34] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.3b20230716.tar.gz tmp/autogluon.eda-0.8.3b20230717.tar.gz --markdown 20230717/a/autogluon.eda/0.8.3b20230716-0.8.3b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:34] INFO root fetch - processPackages [tigersyn]: New version: [0.0.2a0] Old Version: [0.0.2]
+[2023-07-17 11:07:34] INFO root fetch - processPackages [opsapp]: executing diffoscope
+[2023-07-17 11:07:34] INFO root fetch - processPackages [opsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsapp-0.0.24.tar.gz tmp/opsapp-0.0.25.tar.gz --markdown 20230717/o/opsapp/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-07-17 11:07:34] INFO root fetch - processPackages [archinstall]: Downloading https://files.pythonhosted.org/packages/67/47/538ed051533692cf27df7cc6cac2c41de2016de0e88bd78c962f81a519d7/archinstall-2.5.6-py3-none-any.whl
+[2023-07-17 11:07:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/0a/82/8ff2aaf19e1077e8625031e62944b86ef65aec2da3f07f0e08dd1c208f49/autogluon.cloud-0.2.1b20230716.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.tabular]: Start processing: quickfix-ch
+[2023-07-17 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-07-17 11:07:35] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/0d/af/a2d8c7b66bc7703f5476dcdb2b130549957b26c07d39bbf3c8f61106d269/tigersyn-0.0.2.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [archinstall]: Downloading https://files.pythonhosted.org/packages/44/68/aa2c45d33d5861fb1176b1b088567b59b3112c6d0329410ca3ed9180d305/archinstall-2.6.0rc1-py3-none-any.whl
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/dc/0e/c4f9eb9e66d2e5c7843a1b6ef2dd90b48d812dfa889da97ee1ab0db55360/autogluon.cloud-0.2.1b20230717.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [napari-svetlana]: Remove: archive file [/home/abi/fetcher/tmp/napari_svetlana-0.2.9.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [napari-svetlana]: Remove: archive file [/home/abi/fetcher/tmp/napari_svetlana-0.3.0.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [napari-svetlana]: Start processing: image-sky
+[2023-07-17 11:07:35] INFO root fetch - main [MainThread]: End processing [napari-svetlana]: success
+[2023-07-17 11:07:35] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/4f/fd/71a206fa6fb72c7ef50dbf6181da46f8e0c41c57d77e0175f78627a1b2ff/tigersyn-0.0.2a0.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [image-sky]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.7.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: qontract-reconcile
+[2023-07-17 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-07-17 11:07:35] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.8.tar.gz]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [bowtie-json-schema]: Start processing: escnn
+[2023-07-17 11:07:35] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-07-17 11:07:35] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230716.tar.gz tmp/autogluon.cloud-0.2.1b20230717.tar.gz --markdown 20230717/a/autogluon.cloud/0.2.1b20230716-0.2.1b20230717/diff.md --exclude *.pyd
+[2023-07-17 11:07:35] INFO root fetch - processPackages [archinstall]: executing diffoscope
+[2023-07-17 11:07:35] INFO root fetch - processPackages [archinstall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archinstall-2.5.6-py3-none-any.whl.zip tmp/archinstall-2.6.0rc1-py3-none-any.whl.zip --markdown 20230717/a/archinstall/2.5.6-2.6.0rc1/diff.md --exclude *.pyd
+[2023-07-17 11:07:35] INFO root fetch - processPackages [escnn]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-17 11:07:35] INFO root fetch - processPackages [tigersyn]: executing diffoscope
+[2023-07-17 11:07:35] INFO root fetch - processPackages [tigersyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigersyn-0.0.2.tar.gz tmp/tigersyn-0.0.2a0.tar.gz --markdown 20230717/t/tigersyn/0.0.2-0.0.2a0/diff.md --exclude *.pyd
+[2023-07-17 11:07:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-17 11:07:35] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [image-sky]: Downloading https://files.pythonhosted.org/packages/0e/7f/a900ff7fa576d6765d1340b2e320717f976fd03ed239195ac606273c6aa7/image_sky-0.3.0.tar.gz
+[2023-07-17 11:07:35] INFO root fetch - processPackages [escnn]: Downloading https://files.pythonhosted.org/packages/83/92/4b68706909e99ca84cc02b23875376ff5db5e6531af2dd81f54e7b103ff7/escnn-1.0.7.tar.gz
+[2023-07-17 11:07:36] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-17 11:07:36] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230717/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:36] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-17 11:07:36] INFO root fetch - processPackages [image-sky]: Downloading https://files.pythonhosted.org/packages/43/ad/2b9513c8f7a7d62f10423e714d8ebc11e76faf546f8786c2780c932975fe/image_sky-0.4.0.tar.gz
+[2023-07-17 11:07:36] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-17 11:07:36] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230717/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-17 11:07:36] INFO root fetch - processPackages [image-sky]: executing diffoscope
+[2023-07-17 11:07:36] INFO root fetch - processPackages [image-sky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_sky-0.3.0.tar.gz tmp/image_sky-0.4.0.tar.gz --markdown 20230717/i/image-sky/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 11:07:36] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230716.tar.gz]
+[2023-07-17 11:07:36] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230717.tar.gz]
+[2023-07-17 11:07:36] INFO root fetch - processPackages [autogluon.eda]: Start processing: odoo-addon-maintenance-team-hierarchy
+[2023-07-17 11:07:36] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-07-17 11:07:36] INFO root fetch - processPackages [escnn]: Downloading https://files.pythonhosted.org/packages/a1/07/989ab82e24b2b1ae57826197a61ca7ebd3ad2ecfaa6251225bd630920cdd/escnn-1.0.8.tar.gz
+[2023-07-17 11:07:36] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-07-17 11:07:36] INFO root fetch - processPackages [escnn]: executing diffoscope
+[2023-07-17 11:07:36] INFO root fetch - processPackages [escnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escnn-1.0.7.tar.gz tmp/escnn-1.0.8.tar.gz --markdown 20230717/e/escnn/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-17 11:07:36] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/01/d4/25c3dcebe30c99e3cd64988ca118b00a065799e3de26ac23b6c28ac58da3/odoo_addon_maintenance_team_hierarchy-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-17 11:07:37] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/79/11/b81a65b68990f07471b56d915e926b28ba93c61b0efaf946dafe4ef824b0/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-17 11:07:37] INFO root fetch - processPackages [opsapp]: Remove: archive file [/home/abi/fetcher/tmp/opsapp-0.0.24.tar.gz]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [opsapp]: Remove: archive file [/home/abi/fetcher/tmp/opsapp-0.0.25.tar.gz]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [opsapp]: Start processing: landingzone-organization
+[2023-07-17 11:07:37] INFO root fetch - main [MainThread]: End processing [opsapp]: success
+[2023-07-17 11:07:37] INFO root fetch - processPackages [landingzone-organization]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.2.tar.gz]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.2a0.tar.gz]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [tigersyn]: Start processing: songtradr-api-client-python
+[2023-07-17 11:07:37] INFO root fetch - main [MainThread]: End processing [tigersyn]: success
+[2023-07-17 11:07:37] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: executing diffoscope
+[2023-07-17 11:07:37] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_team_hierarchy-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-maintenance-team-hierarchy/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-17 11:07:37] INFO root fetch - processPackages [songtradr-api-client-python]: New version: [1.12.23] Old Version: [1.12.22]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/d3/f0/2569c0aa99e11012d4131c609e3b4ecd5f3dba24ed6f9e963ddd13c80b27/landingzone_organization-0.6.1.tar.gz
+[2023-07-17 11:07:37] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230716.tar.gz]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230717.tar.gz]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [autogluon.cloud]: Start processing: logprep
+[2023-07-17 11:07:37] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-07-17 11:07:37] INFO root fetch - processPackages [logprep]: New version: [6.7.0] Old Version: [6.6.0]
+[2023-07-17 11:07:37] INFO root fetch - processPackages [songtradr-api-client-python]: Downloading https://files.pythonhosted.org/packages/78/4e/61dc4ab6a3d8265eab803fbc449760f641cf63a481732dac5928d578662c/songtradr-api-client-python-1.12.22.tar.gz
+[2023-07-17 11:07:37] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/ef/73/dbda9cba6d1d01e4fb1e8011f9fb0029aa1689b6eeea7bfeb4e459866cfc/landingzone_organization-0.6.2.tar.gz
+[2023-07-17 11:07:37] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-07-17 11:07:37] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.6.1.tar.gz tmp/landingzone_organization-0.6.2.tar.gz --markdown 20230717/l/landingzone-organization/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-17 11:07:37] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/5d/9b/28739f33b35f67d10dfa63c3163071a962c6b549e1299ebcf88b308248d0/logprep-6.6.0.tar.gz
+[2023-07-17 11:07:38] INFO root fetch - processPackages [songtradr-api-client-python]: Downloading https://files.pythonhosted.org/packages/84/7b/a99e6f00e497a72f4ad830caf35de9afb231108d699c8c6063b565b0eb3c/songtradr-api-client-python-1.12.23.tar.gz
+[2023-07-17 11:07:38] INFO root fetch - processPackages [songtradr-api-client-python]: executing diffoscope
+[2023-07-17 11:07:38] INFO root fetch - processPackages [songtradr-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/songtradr-api-client-python-1.12.22.tar.gz tmp/songtradr-api-client-python-1.12.23.tar.gz --markdown 20230717/s/songtradr-api-client-python/1.12.22-1.12.23/diff.md --exclude *.pyd
+[2023-07-17 11:07:38] INFO root fetch - processPackages [image-sky]: Remove: archive file [/home/abi/fetcher/tmp/image_sky-0.3.0.tar.gz]
+[2023-07-17 11:07:38] INFO root fetch - processPackages [image-sky]: Remove: archive file [/home/abi/fetcher/tmp/image_sky-0.4.0.tar.gz]
+[2023-07-17 11:07:38] INFO root fetch - processPackages [image-sky]: Start processing: oarepo-model-builder
+[2023-07-17 11:07:38] INFO root fetch - main [MainThread]: End processing [image-sky]: success
+[2023-07-17 11:07:38] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/55/5a/dcdfbaab39aa44c7abd0a6fe8d3194fada7bf26063d8527ec70eb2a6934c/logprep-6.7.0.tar.gz
+[2023-07-17 11:07:38] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-17 11:07:38] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2023-07-17 11:07:38] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-6.6.0.tar.gz tmp/logprep-6.7.0.tar.gz --markdown 20230717/l/logprep/6.6.0-6.7.0/diff.md --exclude *.pyd
+[2023-07-17 11:07:38] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-17 11:07:38] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_team_hierarchy-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-17 11:07:38] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-17 11:07:38] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Start processing: power-grid-model
+[2023-07-17 11:07:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-team-hierarchy]: success
+[2023-07-17 11:07:39] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9219310821193] Old Version: [1.5.0rc9216009937633]
+[2023-07-17 11:07:39] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/0c/59/e1dfd69a526f85d898ca05236444e9c190fac75d1eb38a499f7ff56dbf2e/power-grid-model-1.5.0rc9216009937633.tar.gz
+[2023-07-17 11:07:39] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-17 11:07:39] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/7e/03/177877b1ba537a83af2a04375237a0543000549c386112c10f8a0e5e4278/power-grid-model-1.5.0rc9219310821193.tar.gz
+[2023-07-17 11:07:39] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-17 11:07:39] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230717/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:07:39] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.6.1.tar.gz]
+[2023-07-17 11:07:39] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.6.2.tar.gz]
+[2023-07-17 11:07:39] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-07-17 11:07:39] INFO root fetch - processPackages [escnn]: Remove: archive file [/home/abi/fetcher/tmp/escnn-1.0.7.tar.gz]
+[2023-07-17 11:07:39] INFO root fetch - processPackages [escnn]: Remove: archive file [/home/abi/fetcher/tmp/escnn-1.0.8.tar.gz]
+[2023-07-17 11:07:39] INFO root fetch - main [MainThread]: End processing [escnn]: success
+[2023-07-17 11:07:39] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-17 11:07:39] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9216009937633.tar.gz tmp/power-grid-model-1.5.0rc9219310821193.tar.gz --markdown 20230717/p/power-grid-model/1.5.0rc9216009937633-1.5.0rc9219310821193/diff.md --exclude *.pyd
+[2023-07-17 11:07:39] INFO root fetch - processPackages [archinstall]: Remove: archive file [/home/abi/fetcher/tmp/archinstall-2.5.6-py3-none-any.whl.zip]
+[2023-07-17 11:07:39] INFO root fetch - processPackages [archinstall]: Remove: archive file [/home/abi/fetcher/tmp/archinstall-2.6.0rc1-py3-none-any.whl.zip]
+[2023-07-17 11:07:39] INFO root fetch - main [MainThread]: End processing [archinstall]: success
+[2023-07-17 11:07:40] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-17 11:07:40] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-17 11:07:40] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-17 11:07:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-17 11:07:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-17 11:07:41] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-17 11:07:41] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-17 11:07:41] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-17 11:07:41] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-17 11:07:41] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr-api-client-python-1.12.22.tar.gz]
+[2023-07-17 11:07:41] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr-api-client-python-1.12.23.tar.gz]
+[2023-07-17 11:07:41] INFO root fetch - main [MainThread]: End processing [songtradr-api-client-python]: success
+[2023-07-17 11:07:42] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-6.6.0.tar.gz]
+[2023-07-17 11:07:42] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-6.7.0.tar.gz]
+[2023-07-17 11:07:42] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2023-07-17 11:07:42] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9216009937633.tar.gz]
+[2023-07-17 11:07:42] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9219310821193.tar.gz]
+[2023-07-17 11:07:42] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-17 11:07:48] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post887-py3-none-any.whl.zip]
+[2023-07-17 11:07:48] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post888-py3-none-any.whl.zip]
+[2023-07-17 11:07:48] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-17 11:07:48] INFO root fetch - main [MainThread]: Store serial: [18914525]
