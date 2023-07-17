@@ -7004,3 +7004,79 @@
 [2023-07-17 06:11:11] INFO root fetch - processPackages [adafruit-circuitpython-sgp40]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-sgp40-1.3.9.tar.gz]
 [2023-07-17 06:11:11] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-sgp40]: success
 [2023-07-17 06:11:11] INFO root fetch - main [MainThread]: Store serial: [18912305]
+[2023-07-17 06:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912305]
+[2023-07-17 06:16:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pegasusX
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c4p
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-enos-theme
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argil
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-dataworks-public
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visidata
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pegasusX
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-plantuml
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ci-cmg-mb-cruise-migration
+[2023-07-17 06:16:19] WARNING root fetch - processPackages [argil]: Skipping, unable to determine old version
+[2023-07-17 06:16:19] INFO root fetch - main [MainThread]: End processing [argil] error
+[2023-07-17 06:16:19] INFO root fetch - processPackages [visidata]: New version: [2.9.1] Old Version: [2.9]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [c4p]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [pegasusX]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [pegasusX]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [langchain-plantuml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/b9/72/2dafdc151188840523dbb8740bc309c41e98059cd6a26ad7140891b1419f/langchain_plantuml-0.0.2.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: New version: [1.1] Old Version: [1.0]
+[2023-07-17 06:16:19] INFO root fetch - processPackages [visidata]: Downloading https://files.pythonhosted.org/packages/cf/3c/0a283f1cf4f1d78478dc8da0fe812d6b0d142d7417a07e13f773d3e76b32/visidata-2.9.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/2b/42/cb6419298dbfc758d7e27aa4cd9e90d1bdfb9413f0ea6ba3e36c39b79c31/pegasusX-0.1.5.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/2b/42/cb6419298dbfc758d7e27aa4cd9e90d1bdfb9413f0ea6ba3e36c39b79c31/pegasusX-0.1.5.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [c4p]: Downloading https://files.pythonhosted.org/packages/ac/af/0711f6543ad7ce2b82e28b9084bbeec144df193bc8aac3266670f4e35285/c4p-2023.7.6.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Downloading https://files.pythonhosted.org/packages/96/49/e76efcaa20369f76904f8af3a66c1ea97bc4e02faa5b11ce86611fe55043/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/d1/91/a94ff8e2f017a275c7162f624377aa91f191fa1086cc9b0c9871f44f67ed/sphinx_enos_theme-0.2.8.tar.gz
+[2023-07-17 06:16:19] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Downloading https://files.pythonhosted.org/packages/1b/1e/f548fecbffe6f60b3ea1b2fb597d6a06de64283ec7736a993b598b5f8d1a/ci_cmg_mb_cruise_migration-1.0.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/0b/86/042e0915b8b6aff6f9e449fb39e4da0886b6ae30137b135e4effaf8724c6/langchain_plantuml-0.0.3.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/e5/85/bad57fcc3c8ddf653bc14dc030d574494ddd13a839d0a280dc3b78a6d9ef/pegasusX-0.1.6.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/e5/85/bad57fcc3c8ddf653bc14dc030d574494ddd13a839d0a280dc3b78a6d9ef/pegasusX-0.1.6.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Downloading https://files.pythonhosted.org/packages/66/7b/40e839eef2e07cdd5d4feac12d689f8e31edb282dab80793f438c618762d/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [langchain-plantuml]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [langchain-plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_plantuml-0.0.2.tar.gz tmp/langchain_plantuml-0.0.3.tar.gz --markdown 20230717/l/langchain-plantuml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 06:16:20] INFO root fetch - processPackages [visidata]: Downloading https://files.pythonhosted.org/packages/79/29/4a2b973164a1d453980e87c0b8ac45498c1b1836070b178c1ad92add852b/visidata-2.9.1.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz tmp/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz --markdown 20230717/a/aliyun-python-sdk-dataworks-public/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-07-17 06:16:20] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.1.5.tar.gz tmp/pegasusX-0.1.6.tar.gz --markdown 20230717/p/pegasusX/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 06:16:20] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.1.5.tar.gz tmp/pegasusX-0.1.6.tar.gz --markdown 20230717/p/pegasusX/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 06:16:20] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Downloading https://files.pythonhosted.org/packages/6b/61/f647c47739756ec56c73e57a6e8c61a10c1099fc03d2d436c30213597e85/ci_cmg_mb_cruise_migration-1.1.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2023-07-17 06:16:20] INFO root fetch - processPackages [visidata]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [visidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visidata-2.9.tar.gz tmp/visidata-2.9.1.tar.gz --markdown 20230717/v/visidata/2.9-2.9.1/diff.md --exclude *.pyd
+[2023-07-17 06:16:20] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.8.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20230717/s/sphinx-enos-theme/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 06:16:20] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: executing diffoscope
+[2023-07-17 06:16:20] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cmg_mb_cruise_migration-1.0.tar.gz tmp/ci_cmg_mb_cruise_migration-1.1.tar.gz --markdown 20230717/c/ci-cmg-mb-cruise-migration/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-17 06:16:21] INFO root fetch - processPackages [c4p]: Downloading https://files.pythonhosted.org/packages/3c/04/40e6befb0702aa7438ebe7d45f4f3e3e48829aac5322c0fdba139a1d1226/c4p-2023.7.7.tar.gz
+[2023-07-17 06:16:21] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.2.tar.gz]
+[2023-07-17 06:16:21] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.3.tar.gz]
+[2023-07-17 06:16:21] INFO root fetch - main [MainThread]: End processing [langchain-plantuml]: success
+[2023-07-17 06:16:21] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.1.5.tar.gz]
+[2023-07-17 06:16:21] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.1.6.tar.gz]
+[2023-07-17 06:16:21] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 06:16:21] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 06:16:21] INFO root fetch - processPackages [c4p]: executing diffoscope
+[2023-07-17 06:16:21] INFO root fetch - processPackages [c4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4p-2023.7.6.tar.gz tmp/c4p-2023.7.7.tar.gz --markdown 20230717/c/c4p/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-17 06:16:22] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.8.tar.gz]
+[2023-07-17 06:16:22] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2023-07-17 06:16:22] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2023-07-17 06:16:22] INFO root fetch - processPackages [visidata]: Remove: archive file [/home/abi/fetcher/tmp/visidata-2.9.tar.gz]
+[2023-07-17 06:16:22] INFO root fetch - processPackages [visidata]: Remove: archive file [/home/abi/fetcher/tmp/visidata-2.9.1.tar.gz]
+[2023-07-17 06:16:22] INFO root fetch - main [MainThread]: End processing [visidata]: success
+[2023-07-17 06:16:22] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz]
+[2023-07-17 06:16:22] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz]
+[2023-07-17 06:16:22] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dataworks-public]: success
+[2023-07-17 06:16:23] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Remove: archive file [/home/abi/fetcher/tmp/ci_cmg_mb_cruise_migration-1.0.tar.gz]
+[2023-07-17 06:16:23] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Remove: archive file [/home/abi/fetcher/tmp/ci_cmg_mb_cruise_migration-1.1.tar.gz]
+[2023-07-17 06:16:23] INFO root fetch - main [MainThread]: End processing [ci-cmg-mb-cruise-migration]: success
+[2023-07-17 06:16:23] INFO root fetch - processPackages [c4p]: Remove: archive file [/home/abi/fetcher/tmp/c4p-2023.7.6.tar.gz]
+[2023-07-17 06:16:23] INFO root fetch - processPackages [c4p]: Remove: archive file [/home/abi/fetcher/tmp/c4p-2023.7.7.tar.gz]
+[2023-07-17 06:16:23] INFO root fetch - main [MainThread]: End processing [c4p]: success
+[2023-07-17 06:16:23] INFO root fetch - main [MainThread]: Store serial: [18912332]
