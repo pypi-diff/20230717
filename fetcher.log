@@ -12677,3 +12677,130 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:18:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-07-17 11:18:21] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-07-17 11:18:21] INFO root fetch - main [MainThread]: Store serial: [18914646]
+[2023-07-17 11:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914646]
+[2023-07-17 11:23:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CartiMorph-nnUNet
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg2p
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edcpy
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odd-collector-sdk
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-function-call
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geomanager
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-thread
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vollseg
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udata
+[2023-07-17 11:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphabase
+[2023-07-17 11:23:31] INFO root fetch - processPackages [geomanager]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [alphabase]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [edcpy]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [openai-function-call]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [pyg2p]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25662] Old Version: [6.1.6.dev25643]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-17 11:23:31] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/b5/bd/4b2d04e44012e855f4374a8e38e4f6a0235bb179ae787303d4ac2969c33d/CartiMorph_nnUNet-1.7.7.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/b9/97/075a5986d5d6663fbbe51f59af7eb14be51b1f3297a8787c002e27994f72/edcpy-0.1.1a0.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [geomanager]: Downloading https://files.pythonhosted.org/packages/a0/5c/55675bb3c4b36d3a071c37cf889d0eceed20d4056b6f55d12ba01fa0e765/geomanager-0.0.3.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [pyg2p]: Downloading https://files.pythonhosted.org/packages/3b/52/3a28aecf50bb67fc148ae1b36cfc15eb77a8cb1a51a5aa0d6c868e507c5d/pyg2p-3.2.4.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/f0/64/044280c3486079ddc3eda210f303acacc6664927397eb2673a145207bd14/openai_function_call-0.1.1.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [alphabase]: Downloading https://files.pythonhosted.org/packages/6f/6a/ff920951f673a665110b2abea193a180109e5c679444e7e003eccf16c11d/alphabase-1.0.2.tar.gz
+[2023-07-17 11:23:31] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/16/ef/5c818eb16783d52ddda4a221cb1eefdb7f279ec0ab56112c5f9e7b6a33e2/udata-6.1.6.dev25643-py2.py3-none-any.whl
+[2023-07-17 11:23:31] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-17 11:23:32] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-17 11:23:32] INFO root fetch - processPackages [vollseg]: Start processing: easylabwork
+[2023-07-17 11:23:32] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-17 11:23:32] WARNING root fetch - processPackages [easylabwork]: Skipping, unable to determine old version
+[2023-07-17 11:23:32] INFO root fetch - processPackages [easylabwork]: Start processing: paaster
+[2023-07-17 11:23:32] INFO root fetch - main [MainThread]: End processing [easylabwork] error
+[2023-07-17 11:23:32] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/90/4e/497a7b8a5378b8a0a95623121ce0d4b38157f410e2e8197fe0be67b18fec/CartiMorph_nnUNet-1.7.8.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [geomanager]: Downloading https://files.pythonhosted.org/packages/24/e2/d3f7017f39494a95f8e83f9e2bb6b4deb396d4b42bc22eba72fb8d382f3e/geomanager-0.0.4.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [paaster]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 11:23:32] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/b1/35/097bffc55fa133b7604d7abf826143355ab323cac1276fd5a4b0d0343a52/edcpy-0.1.1a1.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [pyg2p]: Downloading https://files.pythonhosted.org/packages/e9/88/428e8f9a00c187f90e91a39b6841744fbca6b73f180552548fc68d7cba26/pyg2p-3.2.5.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUNet-1.7.7.tar.gz tmp/CartiMorph_nnUNet-1.7.8.tar.gz --markdown 20230717/C/CartiMorph-nnUNet/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [geomanager]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [geomanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomanager-0.0.3.tar.gz tmp/geomanager-0.0.4.tar.gz --markdown 20230717/g/geomanager/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/5f/2b/f7961d6ac8ddc64145fb0dd446b2f7d6a52327ec47162d414771b94c3b88/openai_function_call-0.1.2.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-07-17 11:23:32] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19609480>=10485760
+[2023-07-17 11:23:32] INFO root fetch - processPackages [udata]: Start processing: rele
+[2023-07-17 11:23:32] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-17 11:23:32] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [pyg2p]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [pyg2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg2p-3.2.4.tar.gz tmp/pyg2p-3.2.5.tar.gz --markdown 20230717/p/pyg2p/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [edcpy]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [edcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edcpy-0.1.1a0.tar.gz tmp/edcpy-0.1.1a1.tar.gz --markdown 20230717/e/edcpy/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [alphabase]: Downloading https://files.pythonhosted.org/packages/17/61/b732e72ef4d7e2cf102d9d853a3dbeccd95c3997a963b4ed5f0aa7039b36/alphabase-1.0.3.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/ee/9d/94feb9b72911ecbf255cfd6414631461e9075020a69a0abb61ebc195d316/paaster-1.0.5.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [rele]: New version: [1.9.0] Old Version: [1.8.1b0]
+[2023-07-17 11:23:32] INFO root fetch - processPackages [openai-function-call]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [openai-function-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_call-0.1.1.tar.gz tmp/openai_function_call-0.1.2.tar.gz --markdown 20230717/o/openai-function-call/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230717/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230717/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [alphabase]: executing diffoscope
+[2023-07-17 11:23:32] INFO root fetch - processPackages [alphabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabase-1.0.2.tar.gz tmp/alphabase-1.0.3.tar.gz --markdown 20230717/a/alphabase/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 11:23:32] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/af/c5/1d2fe4cdfa79835b03d5d636ed4ab2d805ca22386efa668c24824049209b/rele-1.8.1b0.tar.gz
+[2023-07-17 11:23:32] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/a8/03/ab93c7a81dd62362499292eb74e68ec243290f84c390685bd936365543aa/paaster-1.0.6.tar.gz
+[2023-07-17 11:23:33] INFO root fetch - processPackages [paaster]: executing diffoscope
+[2023-07-17 11:23:33] INFO root fetch - processPackages [paaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaster-1.0.5.tar.gz tmp/paaster-1.0.6.tar.gz --markdown 20230717/p/paaster/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 11:23:33] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/7f/14/927dd6d17266f198e10e105853ef8d590e720dca15feac751fccf7746159/rele-1.9.0.tar.gz
+[2023-07-17 11:23:33] INFO root fetch - processPackages [rele]: executing diffoscope
+[2023-07-17 11:23:33] INFO root fetch - processPackages [rele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rele-1.8.1b0.tar.gz tmp/rele-1.9.0.tar.gz --markdown 20230717/r/rele/1.8.1b0-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 11:23:34] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.1.1a0.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.1.1a1.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [edcpy]: Start processing: tbp-nightly
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [edcpy]: success
+[2023-07-17 11:23:34] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-17 11:23:34] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.1.1.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.1.2.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [openai-function-call]: Start processing: diaossama-test3
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [openai-function-call]: success
+[2023-07-17 11:23:34] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.7.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.8.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [CartiMorph-nnUNet]: Start processing: spanishconjugator
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-07-17 11:23:34] WARNING root fetch - processPackages [diaossama-test3]: Skipping, unable to determine old version
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [diaossama-test3] error
+[2023-07-17 11:23:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.0.5.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.0.6.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [paaster]: success
+[2023-07-17 11:23:34] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-07-17 11:23:34] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-17 11:23:34] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-17 11:23:34] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-17 11:23:35] INFO root fetch - processPackages [pyg2p]: Remove: archive file [/home/abi/fetcher/tmp/pyg2p-3.2.4.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - processPackages [pyg2p]: Remove: archive file [/home/abi/fetcher/tmp/pyg2p-3.2.5.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - main [MainThread]: End processing [pyg2p]: success
+[2023-07-17 11:23:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-17 11:23:35] INFO root fetch - processPackages [alphabase]: Remove: archive file [/home/abi/fetcher/tmp/alphabase-1.0.2.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - processPackages [alphabase]: Remove: archive file [/home/abi/fetcher/tmp/alphabase-1.0.3.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - main [MainThread]: End processing [alphabase]: success
+[2023-07-17 11:23:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-17 11:23:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230717/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-17 11:23:35] INFO root fetch - processPackages [geomanager]: Remove: archive file [/home/abi/fetcher/tmp/geomanager-0.0.3.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - processPackages [geomanager]: Remove: archive file [/home/abi/fetcher/tmp/geomanager-0.0.4.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - main [MainThread]: End processing [geomanager]: success
+[2023-07-17 11:23:35] INFO root fetch - processPackages [rele]: Remove: archive file [/home/abi/fetcher/tmp/rele-1.8.1b0.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - processPackages [rele]: Remove: archive file [/home/abi/fetcher/tmp/rele-1.9.0.tar.gz]
+[2023-07-17 11:23:35] INFO root fetch - main [MainThread]: End processing [rele]: success
+[2023-07-17 11:23:36] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-17 11:23:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-17 11:23:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-17 11:23:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-17 11:23:37] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-17 11:23:37] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230717/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-17 11:23:39] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-17 11:23:39] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-17 11:23:39] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-17 11:23:39] INFO root fetch - main [MainThread]: Store serial: [18914696]
