@@ -5633,3 +5633,72 @@
 [2023-07-17 04:30:22] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.7-cp39-cp39-macosx_13_0_arm64.whl.zip]
 [2023-07-17 04:30:22] INFO root fetch - main [MainThread]: End processing [awadb]: success
 [2023-07-17 04:30:22] INFO root fetch - main [MainThread]: Store serial: [18911759]
+[2023-07-17 04:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911759]
+[2023-07-17 04:35:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluesgpt-vector-index
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: entelecheia
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-sort
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyundriveAutoCheckin
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: distcrab
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mgmt
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-auto-control-dev
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slicetca
+[2023-07-17 04:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: treemodel2sql
+[2023-07-17 04:35:31] INFO root fetch - processPackages [slicetca]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 04:35:31] WARNING root fetch - processPackages [bluesgpt-vector-index]: Skipping, unable to determine old version
+[2023-07-17 04:35:31] INFO root fetch - main [MainThread]: End processing [bluesgpt-vector-index] error
+[2023-07-17 04:35:31] INFO root fetch - processPackages [mgmt]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-17 04:35:31] WARNING root fetch - processPackages [aliyundriveAutoCheckin]: Skipping, unable to determine old version
+[2023-07-17 04:35:31] INFO root fetch - main [MainThread]: End processing [aliyundriveAutoCheckin] error
+[2023-07-17 04:35:31] INFO root fetch - processPackages [entelecheia]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-17 04:35:31] INFO root fetch - processPackages [adafri]: New version: [0.0.19.41] Old Version: [0.0.19.40]
+[2023-07-17 04:35:31] WARNING root fetch - processPackages [treemodel2sql]: Skipping, unable to determine old version
+[2023-07-17 04:35:31] INFO root fetch - main [MainThread]: End processing [treemodel2sql] error
+[2023-07-17 04:35:31] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 04:35:31] WARNING root fetch - processPackages [pytest-sort]: Skipping, unable to determine old version
+[2023-07-17 04:35:31] INFO root fetch - main [MainThread]: End processing [pytest-sort] error
+[2023-07-17 04:35:31] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-07-17 04:35:31] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/b9/b1/b0030d9352d0f82e56d5bcb7a9f1a30a394906455688ce9db744419c394f/adafri-0.0.19.40.tar.gz
+[2023-07-17 04:35:31] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/44/60/75b834e8224c5580e346d864412407917e254baa80dd77169ee05fc96b29/entelecheia-0.2.7.tar.gz
+[2023-07-17 04:35:31] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-17 04:35:31] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/c9/5f/0643706459f1ef8fbf7196a76573643a0b1950cd0060f41814ccb9f4be0f/je_auto_control_dev-0.0.88.tar.gz
+[2023-07-17 04:35:31] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/30/72/349f9b34ef6f62ceeccb33ac79e3790f0a140dd833dc0e32687e33e3fa82/slicetca-0.1.8.tar.gz
+[2023-07-17 04:35:31] INFO root fetch - processPackages [mgmt]: Downloading https://files.pythonhosted.org/packages/63/e1/ad30f97b74e621ffe35c7145235aadd1554152237de04a8a23a4eaf00416/mgmt-0.6.2.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/3c/03/7d31baeb2cac0b3113dae73d48e3a6872cb43311edb1af1ffbfdb320a3aa/entelecheia-0.2.8.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/bf/2e/6026c4968eddae60b27fcf5a1aab0bc1c3364b46be83fb26000d30256fe2/adafri-0.0.19.41.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/8f/de/3ef772ad16425d4f1ddfbfa08d4b0a2b2414c45488e55db81011fb478cf3/slicetca-0.1.9.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-17 04:35:32] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.40.tar.gz tmp/adafri-0.0.19.41.tar.gz --markdown 20230717/a/adafri/0.0.19.40-0.0.19.41/diff.md --exclude *.pyd
+[2023-07-17 04:35:32] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-17 04:35:32] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.7.tar.gz tmp/entelecheia-0.2.8.tar.gz --markdown 20230717/e/entelecheia/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-17 04:35:32] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [mgmt]: Downloading https://files.pythonhosted.org/packages/8f/31/89d2b4eb8d4714d389c19cd5dc36dc72f47de6ca2a12f38be3187e1bea5d/mgmt-0.7.0.tar.gz
+[2023-07-17 04:35:32] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-17 04:35:32] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230717/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:35:32] INFO root fetch - processPackages [slicetca]: executing diffoscope
+[2023-07-17 04:35:32] INFO root fetch - processPackages [slicetca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicetca-0.1.8.tar.gz tmp/slicetca-0.1.9.tar.gz --markdown 20230717/s/slicetca/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 04:35:32] INFO root fetch - processPackages [mgmt]: executing diffoscope
+[2023-07-17 04:35:32] INFO root fetch - processPackages [mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgmt-0.6.2.tar.gz tmp/mgmt-0.7.0.tar.gz --markdown 20230717/m/mgmt/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-17 04:35:32] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-07-17 04:35:32] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.88.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230717/j/je-auto-control-dev/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:35:33] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.40.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.41.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-17 04:35:33] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-17 04:35:33] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.7.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.8.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-17 04:35:33] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-0.1.8.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-0.1.9.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [slicetca]: success
+[2023-07-17 04:35:33] INFO root fetch - processPackages [mgmt]: Remove: archive file [/home/abi/fetcher/tmp/mgmt-0.6.2.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - processPackages [mgmt]: Remove: archive file [/home/abi/fetcher/tmp/mgmt-0.7.0.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [mgmt]: success
+[2023-07-17 04:35:33] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.88.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-07-17 04:35:33] INFO root fetch - main [MainThread]: Store serial: [18911796]
