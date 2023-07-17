@@ -12453,3 +12453,135 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:07:48] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post888-py3-none-any.whl.zip]
 [2023-07-17 11:07:48] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-17 11:07:48] INFO root fetch - main [MainThread]: Store serial: [18914525]
+[2023-07-17 11:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914525]
+[2023-07-17 11:13:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perseus-restful-api-framework
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolcat
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resomapper
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoCarver
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cosmian-kms
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splunk-add-on-ucc-framework
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polarismesh-specification
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-formatter
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: serra-cli
+[2023-07-17 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-filer
+[2023-07-17 11:13:03] INFO root fetch - processPackages [AutoCarver]: New version: [5.1.4] Old Version: [5.1.3]
+[2023-07-17 11:13:03] WARNING root fetch - processPackages [serra-cli]: Skipping, unable to determine old version
+[2023-07-17 11:13:03] INFO root fetch - processPackages [serra-cli]: Start processing: mariqt
+[2023-07-17 11:13:03] INFO root fetch - main [MainThread]: End processing [serra-cli] error
+[2023-07-17 11:13:03] INFO root fetch - processPackages [cosmian-kms]: New version: [4.4.3] Old Version: [4.4.2]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [invenio-formatter]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [toolcat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.3.2a5] Old Version: [1.3.2a4]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [django-filer]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [resomapper]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.27.2] Old Version: [1.27.1]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [mariqt]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-17 11:13:03] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/9a/41/019181818cb7327fc39490e2f0e94ef4a89d9d832f76750da881e657b8fa/AutoCarver-5.1.3.tar.gz
+[2023-07-17 11:13:03] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/a8/48/45769c84ca94a5ef9f01d28e1a1de562c332b500e41bace8ecb0100cdf1b/polarismesh_specification-1.3.2a4.tar.gz
+[2023-07-17 11:13:03] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/36/74/c82157a1764941ca7efacab41cf52e3aea2d5267a40b9c352f056aeb1461/cosmian_kms-4.4.2-cp37-abi3-win_amd64.whl
+[2023-07-17 11:13:03] INFO root fetch - processPackages [resomapper]: Downloading https://files.pythonhosted.org/packages/41/ea/8fcefc3abf03509a1e9a1c4b535f4eb2ce1424d0758d7f37c3b3ab16b04e/resomapper-0.3.0.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [toolcat]: Downloading https://files.pythonhosted.org/packages/b4/ee/b26a5afbdbb612808327d853251b7de261f92e123326e172f345766cc964/toolcat-0.0.5.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [invenio-formatter]: Downloading https://files.pythonhosted.org/packages/a2/75/b415b5d0c25333c6d0c56ab9e8a21d1ad6fba319f0126f6b8b1997de4dfb/invenio-formatter-1.2.0.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/fb/7f/fd5b1ff035fc75a5714300585759db9479364732a0c5e832089b3b46ee10/django-filer-3.0.1.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/f4/0b/68aa1c941a8bad3264eb25aaaa835303def5e17193440fdcb776a3de3f1a/mariqt-0.5.3-py2.py3-none-any.whl
+[2023-07-17 11:13:04] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/67/ea/280a558bdf4c0b459e0b1a6ac2a6a7ae4eca577eb955478e3cb340b55fad/perseus_restful_api_framework-1.27.1.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/b1/a0/574fa7ab212ecec2994ed4c099f3c1027f23ac2693ab71b95e2205216969/AutoCarver-5.1.4.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-17 11:13:04] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.1.3.tar.gz tmp/AutoCarver-5.1.4.tar.gz --markdown 20230717/A/AutoCarver/5.1.3-5.1.4/diff.md --exclude *.pyd
+[2023-07-17 11:13:04] INFO root fetch - processPackages [resomapper]: Downloading https://files.pythonhosted.org/packages/0d/09/f4a12d6ddd73faab3ef501bd005fdad3ffc7e7ae20e790b14afe8eb8a177/resomapper-0.4.0.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [toolcat]: Downloading https://files.pythonhosted.org/packages/2f/1a/c93398c736ab6ea836b504945af05c127615eda1d05f7b20e8e65fee7236/toolcat-0.0.6.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/de/28/8d6874a5d8dc5b29acd054788b5b0b369e7dbd486665d0d6cc52827a3119/polarismesh_specification-1.3.2a5.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [invenio-formatter]: Downloading https://files.pythonhosted.org/packages/cf/50/f25932aa57e2e39e0ef0dc01578957f3905371b9a59953bc01498ae9b9c8/invenio-formatter-1.3.0.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/0a/8a/3730ef7d882d332cfb0767a410748911b5e0c7800724ddd9752005f35190/mariqt-0.5.4-py2.py3-none-any.whl
+[2023-07-17 11:13:04] INFO root fetch - processPackages [toolcat]: executing diffoscope
+[2023-07-17 11:13:04] INFO root fetch - processPackages [toolcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolcat-0.0.5.tar.gz tmp/toolcat-0.0.6.tar.gz --markdown 20230717/t/toolcat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 11:13:04] INFO root fetch - processPackages [invenio-formatter]: executing diffoscope
+[2023-07-17 11:13:04] INFO root fetch - processPackages [invenio-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-formatter-1.2.0.tar.gz tmp/invenio-formatter-1.3.0.tar.gz --markdown 20230717/i/invenio-formatter/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-17 11:13:04] INFO root fetch - processPackages [resomapper]: executing diffoscope
+[2023-07-17 11:13:04] INFO root fetch - processPackages [resomapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resomapper-0.3.0.tar.gz tmp/resomapper-0.4.0.tar.gz --markdown 20230717/r/resomapper/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 11:13:04] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2023-07-17 11:13:04] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.5.3-py2.py3-none-any.whl.zip tmp/mariqt-0.5.4-py2.py3-none-any.whl.zip --markdown 20230717/m/mariqt/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-17 11:13:04] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-07-17 11:13:04] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.3.2a4.tar.gz tmp/polarismesh_specification-1.3.2a5.tar.gz --markdown 20230717/p/polarismesh-specification/1.3.2a4-1.3.2a5/diff.md --exclude *.pyd
+[2023-07-17 11:13:04] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/c7/87/588a85913bc1fc0d7d5f23b7977f1116c67638cfb3acaf136ca9be35730f/cosmian_kms-4.4.3-cp37-abi3-win_amd64.whl
+[2023-07-17 11:13:04] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/52/dc/7335c46059d15471bfdf338b8b1ecdbeb90cd6ee2f8cc9bc430f69f314fa/django-filer-3.0.2.tar.gz
+[2023-07-17 11:13:04] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-07-17 11:13:05] INFO root fetch - processPackages [cosmian-kms]: executing diffoscope
+[2023-07-17 11:13:05] INFO root fetch - processPackages [cosmian-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_kms-4.4.2-cp37-abi3-win_amd64.whl.zip tmp/cosmian_kms-4.4.3-cp37-abi3-win_amd64.whl.zip --markdown 20230717/c/cosmian-kms/4.4.2-4.4.3/diff.md --exclude *.pyd
+[2023-07-17 11:13:05] INFO root fetch - processPackages [django-filer]: executing diffoscope
+[2023-07-17 11:13:05] INFO root fetch - processPackages [django-filer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filer-3.0.1.tar.gz tmp/django-filer-3.0.2.tar.gz --markdown 20230717/d/django-filer/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-17 11:13:05] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/d5/9d/9b22b3f54bdf8a5e12a2cd030ade83ca98d8feafa0b8540ab0c73b8fe7c6/perseus_restful_api_framework-1.27.2.tar.gz
+[2023-07-17 11:13:05] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-07-17 11:13:05] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230717/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-07-17 11:13:05] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-07-17 11:13:05] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.27.1.tar.gz tmp/perseus_restful_api_framework-1.27.2.tar.gz --markdown 20230717/p/perseus-restful-api-framework/1.27.1-1.27.2/diff.md --exclude *.pyd
+[2023-07-17 11:13:05] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.3.tar.gz]
+[2023-07-17 11:13:05] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.4.tar.gz]
+[2023-07-17 11:13:05] INFO root fetch - processPackages [AutoCarver]: Start processing: eggella
+[2023-07-17 11:13:05] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-17 11:13:06] INFO root fetch - processPackages [eggella]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [toolcat]: Remove: archive file [/home/abi/fetcher/tmp/toolcat-0.0.5.tar.gz]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [toolcat]: Remove: archive file [/home/abi/fetcher/tmp/toolcat-0.0.6.tar.gz]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [toolcat]: Start processing: cpyvpn
+[2023-07-17 11:13:06] INFO root fetch - main [MainThread]: End processing [toolcat]: success
+[2023-07-17 11:13:06] INFO root fetch - processPackages [cpyvpn]: New version: [1.6.1] Old Version: [1.6]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/af/fc/cc4823537026bff0a5a8cc79de0b4d450304e2aa7b5664fd6dfc46d99cad/eggella-0.0.2.tar.gz
+[2023-07-17 11:13:06] INFO root fetch - processPackages [resomapper]: Remove: archive file [/home/abi/fetcher/tmp/resomapper-0.3.0.tar.gz]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [resomapper]: Remove: archive file [/home/abi/fetcher/tmp/resomapper-0.4.0.tar.gz]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [resomapper]: Start processing: few-shot-priming
+[2023-07-17 11:13:06] INFO root fetch - main [MainThread]: End processing [resomapper]: success
+[2023-07-17 11:13:06] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [cpyvpn]: Downloading https://files.pythonhosted.org/packages/fb/a5/74ea601ccf766fd12d6914f352f2d50fe1563b32bb5920bed9ad51f89148/cpyvpn-1.6.tar.gz
+[2023-07-17 11:13:06] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/bb/1b/44f6849e464ad14b61b79401b70b45413044469858cb1e1247146390a1b5/eggella-0.0.3.tar.gz
+[2023-07-17 11:13:06] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.4.2-cp37-abi3-win_amd64.whl.zip]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.4.3-cp37-abi3-win_amd64.whl.zip]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [cosmian-kms]: Start processing: immosheets
+[2023-07-17 11:13:06] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
+[2023-07-17 11:13:06] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.3.2a4.tar.gz]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.3.2a5.tar.gz]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.3-py2.py3-none-any.whl.zip]
+[2023-07-17 11:13:06] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-07-17 11:13:06] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.4-py2.py3-none-any.whl.zip]
+[2023-07-17 11:13:06] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2023-07-17 11:13:06] INFO root fetch - processPackages [immosheets]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-17 11:13:06] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 11:13:06] INFO root fetch - processPackages [eggella]: executing diffoscope
+[2023-07-17 11:13:06] INFO root fetch - processPackages [eggella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eggella-0.0.2.tar.gz tmp/eggella-0.0.3.tar.gz --markdown 20230717/e/eggella/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 11:13:07] INFO root fetch - processPackages [cpyvpn]: Downloading https://files.pythonhosted.org/packages/17/8e/e2b79171a212e300b66fd52a03407cf2dc25eacefb01ed062c1b09a2a0c1/cpyvpn-1.6.1.tar.gz
+[2023-07-17 11:13:07] INFO root fetch - processPackages [immosheets]: Downloading https://files.pythonhosted.org/packages/22/cc/4173bf76c7c185ea69652707524b4c1efa53ab7b01c694562ddd85f9017a/immosheets-1.0.9-py3-none-any.whl
+[2023-07-17 11:13:07] INFO root fetch - processPackages [cpyvpn]: executing diffoscope
+[2023-07-17 11:13:07] INFO root fetch - processPackages [cpyvpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpyvpn-1.6.tar.gz tmp/cpyvpn-1.6.1.tar.gz --markdown 20230717/c/cpyvpn/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-07-17 11:13:07] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 11:13:07] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 11:13:07] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 11:13:07] INFO root fetch - processPackages [immosheets]: Downloading https://files.pythonhosted.org/packages/16/aa/2df13dde505186d8c3987739c045a40460e9ec1f9206b342fec87c1a4e1a/immosheets-1.1.0-py3-none-any.whl
+[2023-07-17 11:13:07] INFO root fetch - processPackages [immosheets]: executing diffoscope
+[2023-07-17 11:13:07] INFO root fetch - processPackages [immosheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immosheets-1.0.9-py3-none-any.whl.zip tmp/immosheets-1.1.0-py3-none-any.whl.zip --markdown 20230717/i/immosheets/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-17 11:13:07] INFO root fetch - processPackages [invenio-formatter]: Remove: archive file [/home/abi/fetcher/tmp/invenio-formatter-1.2.0.tar.gz]
+[2023-07-17 11:13:07] INFO root fetch - processPackages [invenio-formatter]: Remove: archive file [/home/abi/fetcher/tmp/invenio-formatter-1.3.0.tar.gz]
+[2023-07-17 11:13:07] INFO root fetch - main [MainThread]: End processing [invenio-formatter]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.2.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.3.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [eggella]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.27.1.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.27.2.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.1.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.2.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [django-filer]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [cpyvpn]: Remove: archive file [/home/abi/fetcher/tmp/cpyvpn-1.6.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [cpyvpn]: Remove: archive file [/home/abi/fetcher/tmp/cpyvpn-1.6.1.tar.gz]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [cpyvpn]: success
+[2023-07-17 11:13:08] INFO root fetch - processPackages [immosheets]: Remove: archive file [/home/abi/fetcher/tmp/immosheets-1.0.9-py3-none-any.whl.zip]
+[2023-07-17 11:13:08] INFO root fetch - processPackages [immosheets]: Remove: archive file [/home/abi/fetcher/tmp/immosheets-1.1.0-py3-none-any.whl.zip]
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: End processing [immosheets]: success
+[2023-07-17 11:13:08] INFO root fetch - main [MainThread]: Store serial: [18914595]
