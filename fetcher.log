@@ -7914,3 +7914,69 @@
 [2023-07-17 07:34:39] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
 [2023-07-17 07:34:39] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
 [2023-07-17 07:34:39] INFO root fetch - main [MainThread]: Store serial: [18912707]
+[2023-07-17 07:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912707]
+[2023-07-17 07:39:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytcomments
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-auto-control
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dock-py-selenium
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-file
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-load-density
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-mail-thunder
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-web-runner
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-load-density]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-mail-thunder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ytcomments]: New version: [0.6] Old Version: [0.5]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [dock-py-selenium]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 07:39:48] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/78/6e/8fe07e40719f250ab4607d96a861c28e5b6191fcf0928d3a27f4a050b3d1/dock-py-selenium-1.0.4.tar.gz
+[2023-07-17 07:39:48] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/56/9f/716ca2882008e4b06493c49e54092c5ed13581059fbc9db32e5f3dc494df/ytcomments-0.5.tar.gz
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/4c/8c/dba8992c47ab061a70303761eacd4d5fbff44d8f454381c8e568f6b95847/je_load_density-0.0.8.tar.gz
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/00/f5/1fddea644fa72ad7caf4c3541fd95402c82966b9bf3cee33a9664308ae54/je_mail_thunder-0.0.8.tar.gz
+[2023-07-17 07:39:48] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-07-17 07:39:48] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/a1/3d/2522f0887e7b8cebb83d6e2f4005293722ce3c733b630e7995e44880577d/dock-py-selenium-1.0.5.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/7b/f5/d9a5f82eb7bdac1cddfd1666c58b059f79d85cd3a655cde659a395b6f15e/ytcomments-0.6.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-1.0.4.tar.gz tmp/dock-py-selenium-1.0.5.tar.gz --markdown 20230717/d/dock-py-selenium/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 07:39:49] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/0e/52/72dbb2396dffc495c2d329b371da485bd85f60db90b846ea3b2ad2944f73/je_mail_thunder-0.0.9.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/7c/6d/23fc8524faa26c12e97439e14d6a72ec372159914b55201815df9724ddb5/je_load_density-0.0.9.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-07-17 07:39:49] INFO root fetch - processPackages [ytcomments]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [ytcomments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytcomments-0.5.tar.gz tmp/ytcomments-0.6.tar.gz --markdown 20230717/y/ytcomments/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-17 07:39:49] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230717/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-mail-thunder]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-mail-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder-0.0.8.tar.gz tmp/je_mail_thunder-0.0.9.tar.gz --markdown 20230717/j/je-mail-thunder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-load-density]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-load-density]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density-0.0.8.tar.gz tmp/je_load_density-0.0.9.tar.gz --markdown 20230717/j/je-load-density/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230717/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-07-17 07:39:49] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230717/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 07:39:50] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.4.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.5.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 07:39:50] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.5.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.6.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - main [MainThread]: End processing [ytcomments]: success
+[2023-07-17 07:39:50] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-07-17 07:39:50] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-07-17 07:39:50] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.8.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.9.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - main [MainThread]: End processing [je-mail-thunder]: success
+[2023-07-17 07:39:50] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.8.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.9.tar.gz]
+[2023-07-17 07:39:50] INFO root fetch - main [MainThread]: End processing [je-load-density]: success
+[2023-07-17 07:39:51] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-07-17 07:39:51] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-07-17 07:39:51] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-07-17 07:39:51] INFO root fetch - main [MainThread]: Store serial: [18912728]
