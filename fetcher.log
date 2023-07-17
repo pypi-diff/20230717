@@ -11641,3 +11641,248 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
 [2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
 [2023-07-17 10:46:24] INFO root fetch - main [MainThread]: Store serial: [18914248]
+[2023-07-17 10:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914248]
+[2023-07-17 10:51:34] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RapidMangaDL
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tff-nightly
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opsapp
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miss-hit
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miss-hit-core
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-sdk
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phanos
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gridappsd-python
+[2023-07-17 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gridappsd-field-bus
+[2023-07-17 10:51:34] INFO root fetch - processPackages [miss-hit]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.21rc21]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [miss-hit-core]: New version: [0.9.42] Old Version: [0.9.41]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a9] Old Version: [2023.7.1a8]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a9] Old Version: [2023.7.1a8]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [opsapp]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230717] Old Version: [0.0.1.dev20230716]
+[2023-07-17 10:51:34] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/ee/8a/7d21944e66c6b092e00f3755cad4b583835a5d12a9c9645de7a22d2155ae/RapidMangaDL-0.0.7.tar.gz
+[2023-07-17 10:51:34] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/a1/33/3f5e455924b828ccb47d3d780882ea7673ae0bc798f17b170ea6e034c82e/spark_sdk-0.4.21rc21-py3-none-any.whl
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/1c/96/4c973e30d07fedf81b12c6fb134d759aa025e62feb55965f9bed29270382/gridappsd_field_bus-2023.7.1a8.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/98/aa/ff5b0b1f09207e907c2f709f8bd1835c5ae01e9628926eb5a0d200c16d11/gridappsd_python-2023.7.1a8.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit]: Downloading https://files.pythonhosted.org/packages/c2/7c/cca759481b0453b6bd05ec897d727324838ed98429ed04fa429a30638ce9/miss_hit-0.9.7.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit-core]: Downloading https://files.pythonhosted.org/packages/28/1d/08d3569c07a14d98b7115c2da86fc95a9eaf729f8f6372f8331756c0c26e/miss_hit_core-0.9.41.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [opsapp]: Downloading https://files.pythonhosted.org/packages/9c/78/9f21827d2240cfd54f80a65d23f66be600ed86d198b22bd0b1ce2a1b4a7c/opsapp-0.0.23.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1f/9a/44ce2a04c87469837d9dcc087f2205e517d698f156293b2562e3164c3479/tff_nightly-0.0.1.dev20230716-py2.py3-none-any.whl
+[2023-07-17 10:51:35] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-17 10:51:35] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/18/88/8f081654d602d7a42f21f96d608b9868a732095e53f2da8970f439769cc3/RapidMangaDL-0.0.8.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/1e/04/2d21034d721190aa8a943b17965461893e97474bd57f36f5fd0800538987/gridappsd_field_bus-2023.7.1a9.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/50/0d/8b680f6e59cddf3072bbc7dc80100d7900f41636d843cbffc9981a51e9c5/gridappsd_python-2023.7.1a9.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.21rc21-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230717/s/spark-sdk/0.4.21rc21-0.4.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit]: Downloading https://files.pythonhosted.org/packages/e0/76/04376a16bd6d5de2282fe2ef77b4c64abd7d57d40f97b9b3c0b03d66daf4/miss_hit-0.9.9.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit-core]: Downloading https://files.pythonhosted.org/packages/cd/ef/07bcb7d72eb0ffcb8efbeaeb6b42a899b77617cf611da0507122ac2c515b/miss_hit_core-0.9.42.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.7.tar.gz tmp/RapidMangaDL-0.0.8.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a8.tar.gz tmp/gridappsd_field_bus-2023.7.1a9.tar.gz --markdown 20230717/g/gridappsd-field-bus/2023.7.1a8-2023.7.1a9/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a8.tar.gz tmp/gridappsd_python-2023.7.1a9.tar.gz --markdown 20230717/g/gridappsd-python/2023.7.1a8-2023.7.1a9/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit-core]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miss_hit_core-0.9.41.tar.gz tmp/miss_hit_core-0.9.42.tar.gz --markdown 20230717/m/miss-hit-core/0.9.41-0.9.42/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [opsapp]: Downloading https://files.pythonhosted.org/packages/82/a2/735f226773b374f8ab3c5d2bb0d32a363b50b9c4d07ef06568cd8be9d9d5/opsapp-0.0.24.tar.gz
+[2023-07-17 10:51:35] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230717/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [miss-hit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miss_hit-0.9.7.tar.gz tmp/miss_hit-0.9.9.tar.gz --markdown 20230717/m/miss-hit/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:35] INFO root fetch - processPackages [opsapp]: executing diffoscope
+[2023-07-17 10:51:35] INFO root fetch - processPackages [opsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsapp-0.0.23.tar.gz tmp/opsapp-0.0.24.tar.gz --markdown 20230717/o/opsapp/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-17 10:51:36] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d6/4a/ac78617cd0b6996b427327d9a608f73df279c7fcea43b362ed1f82c59519/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl
+[2023-07-17 10:51:36] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-17 10:51:36] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230716-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl.zip --markdown 20230717/t/tff-nightly/0.0.1.dev20230716-0.0.1.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 10:51:37] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-17 10:51:37] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a8.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a9.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [gridappsd-field-bus]: Start processing: sanctify
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.21rc21-py3-none-any.whl.zip]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [spark-sdk]: Start processing: aliyun-python-sdk-schedulerx2
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [sanctify]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [phanos]: Start processing: localstack-core
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/89/e0/a4e87b276ded6e4ea97dba58d8ff095dd0c8a1369c7586530b7a29f2d010/sanctify-1.0.4.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Downloading https://files.pythonhosted.org/packages/c7/3d/1f141ddaf53ce494a126b4b5fe2dc9100c180fd5cc7656567b5afd3ebe76/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.7.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.8.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [RapidMangaDL]: Start processing: whop-api-wrapper
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230717084853] Old Version: [2.1.1.dev20230717073228]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [whop-api-wrapper]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [miss-hit-core]: Remove: archive file [/home/abi/fetcher/tmp/miss_hit_core-0.9.41.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [miss-hit-core]: Remove: archive file [/home/abi/fetcher/tmp/miss_hit_core-0.9.42.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [miss-hit-core]: Start processing: coretex
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [miss-hit-core]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [miss-hit]: Remove: archive file [/home/abi/fetcher/tmp/miss_hit-0.9.7.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [miss-hit]: Remove: archive file [/home/abi/fetcher/tmp/miss_hit-0.9.9.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [miss-hit]: Start processing: bmw-lobster-core
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [miss-hit]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b6/fc/e78be3ccb85ad16836d99abaa120974c6d8d1c28117afa247162e04d0960/localstack-core-2.1.1.dev20230717073228.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [bmw-lobster-core]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a8.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a9.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [gridappsd-python]: Start processing: power-grid-model
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9219310821193] Old Version: [1.5.0rc9216009937633]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [opsapp]: Remove: archive file [/home/abi/fetcher/tmp/opsapp-0.0.23.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [opsapp]: Remove: archive file [/home/abi/fetcher/tmp/opsapp-0.0.24.tar.gz]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/e3/f2/a0e60cc2f81bb4d72e6ba2e081600e1ff8aee0d3c07aeed9fefa049541be/sanctify-1.0.5.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [opsapp]: Start processing: bmw-lobster
+[2023-07-17 10:51:37] INFO root fetch - main [MainThread]: End processing [opsapp]: success
+[2023-07-17 10:51:37] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Downloading https://files.pythonhosted.org/packages/64/40/c70f62fb7e6c33845452845cfa4ac95defb85984002d2411c4525ade42eb/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/0e/3c/b6c28be7da43d77b081f3f4a658ca22751cc7ccfd2ebb02e0e81443af672/whop-api-wrapper-1.0.5.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [bmw-lobster]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:37] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [sanctify]: executing diffoscope
+[2023-07-17 10:51:37] INFO root fetch - processPackages [sanctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctify-1.0.4.tar.gz tmp/sanctify-1.0.5.tar.gz --markdown 20230717/s/sanctify/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 10:51:37] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/70/b8/a4235658f71e54481da8b59a0e17b44ad185175cb3b8219a59edf46c3542/bmw-lobster-core-0.9.8.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: executing diffoscope
+[2023-07-17 10:51:37] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/0c/59/e1dfd69a526f85d898ca05236444e9c190fac75d1eb38a499f7ff56dbf2e/power-grid-model-1.5.0rc9216009937633.tar.gz
+[2023-07-17 10:51:37] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz tmp/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz --markdown 20230717/a/aliyun-python-sdk-schedulerx2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/82/fe/1eb18ddcbc3fe59402a2560311f8c245bb2fbc862970e084f83ef6807d96/localstack-core-2.1.1.dev20230717084853.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/81/43/335a815d64466da449c11109ca9b59dcc5c30060b8a9762d7c9be021246e/whop-api-wrapper-1.0.6.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/e3/0f/938a4999a754b1687272b3dc78a83485d90666572b6b62be7434bb766622/bmw-lobster-0.9.8.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [whop-api-wrapper]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [whop-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whop-api-wrapper-1.0.5.tar.gz tmp/whop-api-wrapper-1.0.6.tar.gz --markdown 20230717/w/whop-api-wrapper/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/bc/63/3bad0685981f69e10acfb89c0a71935ddcba9d844330d40d78942971914b/bmw-lobster-core-0.9.9.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230717073228.tar.gz tmp/localstack-core-2.1.1.dev20230717084853.tar.gz --markdown 20230717/l/localstack-core/2.1.1.dev20230717073228-2.1.1.dev20230717084853/diff.md --exclude *.pyd
+[2023-07-17 10:51:38] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/7e/03/177877b1ba537a83af2a04375237a0543000549c386112c10f8a0e5e4278/power-grid-model-1.5.0rc9219310821193.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster-core]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-core-0.9.8.tar.gz tmp/bmw-lobster-core-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-core/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:38] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230717/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/48/d6/256e5b22d6d0df395968bca66053af1e8e0074b805d092a8dae091b72498/bmw-lobster-0.9.9.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9216009937633.tar.gz tmp/power-grid-model-1.5.0rc9219310821193.tar.gz --markdown 20230717/p/power-grid-model/1.5.0rc9216009937633-1.5.0rc9219310821193/diff.md --exclude *.pyd
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [bmw-lobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-0.9.8.tar.gz tmp/bmw-lobster-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:38] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-07-17 10:51:38] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-07-17 10:51:38] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230717/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:39] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.0.4.tar.gz]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.0.5.tar.gz]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [sanctify]: Start processing: bmw-lobster-tool-codebeamer
+[2023-07-17 10:51:39] INFO root fetch - main [MainThread]: End processing [sanctify]: success
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/e9/20/95922881543b39744f5e93a5683718bc46490879274f0fee9af9c45f5130/bmw-lobster-tool-codebeamer-0.9.8.tar.gz
+[2023-07-17 10:51:39] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230716-py2.py3-none-any.whl.zip]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl.zip]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [tff-nightly]: Start processing: bmw-lobster-tool-cpp
+[2023-07-17 10:51:39] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-17 10:51:39] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Start processing: bmw-lobster-tool-gtest
+[2023-07-17 10:51:39] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-schedulerx2]: success
+[2023-07-17 10:51:39] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.5.tar.gz]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.6.tar.gz]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [whop-api-wrapper]: Start processing: bmw-lobster-tool-json
+[2023-07-17 10:51:39] INFO root fetch - main [MainThread]: End processing [whop-api-wrapper]: success
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/7f/8f/583e623fa8c344459aa54e1c093e6e461694f79fa13bca8cb62011bd6600/bmw-lobster-tool-cpp-0.9.8.tar.gz
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/0f/7e/66725fa301e36e6c27de5776e9069ab78db150a5efc2879cdaacb93ddbfc/bmw-lobster-tool-gtest-0.9.8.tar.gz
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/05/45/4882e7702707c38a14ffee12dfd1e58f96c7a25305e03377c038ea0519d9/bmw-lobster-tool-json-0.9.8.tar.gz
+[2023-07-17 10:51:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/76/8b/9d9fca6061984dc71c1a29bf70e33c8fe812790e20ac506bcc48ce77dc54/bmw-lobster-tool-codebeamer-0.9.9.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.8.tar.gz]
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.9.tar.gz]
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-core]: Start processing: bmw-lobster-tool-python
+[2023-07-17 10:51:40] INFO root fetch - main [MainThread]: End processing [bmw-lobster-core]: success
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.8.tar.gz]
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.9.tar.gz]
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster]: Start processing: bmw-lobster-tool-trlc
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:40] INFO root fetch - main [MainThread]: End processing [bmw-lobster]: success
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: executing diffoscope
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-codebeamer-0.9.8.tar.gz tmp/bmw-lobster-tool-codebeamer-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-tool-codebeamer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/7c/f5/c7a66d84f38ba64fc544cd74507800f22d6cd6bfcd94a3bfc06787926679/bmw-lobster-tool-python-0.9.8.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/9c/2e/e8d7f3888e4e1c828e34a7f3bf6622283d9aa40093c28c3e0001257a9631/bmw-lobster-tool-json-0.9.9.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/cd/14/6bfaf65e775599b434e86ac7e542f9c09046efc32ba67f90c1c9f64ac704/bmw-lobster-tool-gtest-0.9.9.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/f0/60/881e40a849d92bf797daabfd53af5d6451e054c4a6ffa0f10e459b6f4f35/bmw-lobster-tool-trlc-0.9.8.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/aa/6e/91dcea1889a684c13cf868f389601f14242d76085ced786a96f4f7eeec4e/bmw-lobster-tool-cpp-0.9.9.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-json]: executing diffoscope
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-json-0.9.8.tar.gz tmp/bmw-lobster-tool-json-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-tool-json/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: executing diffoscope
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-gtest-0.9.8.tar.gz tmp/bmw-lobster-tool-gtest-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-tool-gtest/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: executing diffoscope
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-cpp-0.9.8.tar.gz tmp/bmw-lobster-tool-cpp-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-tool-cpp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/13/ba/0f726a4c76c280fe09eb2bb632b935e8824ae1c682e9f0c1e40dcec7205d/bmw-lobster-tool-python-0.9.9.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/6c/af/03b09790074308287893148728fc9d158e70a34aa4f9de9a5961dffe665a/bmw-lobster-tool-trlc-0.9.9.tar.gz
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: executing diffoscope
+[2023-07-17 10:51:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-python-0.9.8.tar.gz tmp/bmw-lobster-tool-python-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-tool-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:41] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: executing diffoscope
+[2023-07-17 10:51:41] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-trlc-0.9.8.tar.gz tmp/bmw-lobster-tool-trlc-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-tool-trlc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:41] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.8.tar.gz]
+[2023-07-17 10:51:41] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.9.tar.gz]
+[2023-07-17 10:51:41] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Start processing: bmw-lobster-monolithic
+[2023-07-17 10:51:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-codebeamer]: success
+[2023-07-17 10:51:41] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-07-17 10:51:41] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-07-17 10:51:41] INFO root fetch - processPackages [coretex]: Start processing: quickfix-ch
+[2023-07-17 10:51:41] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-07-17 10:51:41] INFO root fetch - processPackages [bmw-lobster-monolithic]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 10:51:41] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 10:51:41] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-monolithic]: Downloading https://files.pythonhosted.org/packages/a7/83/f17b3ab37b5da2fc27192529bab2bbd0acc99e7dc2b1b1855991a266267f/bmw-lobster-monolithic-0.9.8.tar.gz
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.8.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.9.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-json]: Start processing: clicknium
+[2023-07-17 10:51:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-json]: success
+[2023-07-17 10:51:42] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-17 10:51:42] INFO root fetch - processPackages [clicknium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.8.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.9.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Start processing: Al3X
+[2023-07-17 10:51:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-cpp]: success
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.8.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.9.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-gtest]: success
+[2023-07-17 10:51:42] WARNING root fetch - processPackages [Al3X]: Skipping, unable to determine old version
+[2023-07-17 10:51:42] INFO root fetch - main [MainThread]: End processing [Al3X] error
+[2023-07-17 10:51:42] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-17 10:51:42] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230717/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-monolithic]: Downloading https://files.pythonhosted.org/packages/55/c0/dcc7952dcb7a6308603adcafcc63a92a6513da47775cba851506d1c9674c/bmw-lobster-monolithic-0.9.9.tar.gz
+[2023-07-17 10:51:42] INFO root fetch - processPackages [clicknium]: Downloading https://files.pythonhosted.org/packages/84/71/4824f63134aa72e96a0f3b4d15c2438e0f8ead6dc8745c4870dd5f2a991b/clicknium-0.1.8-py3-none-win_amd64.whl
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.8.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.9.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-python]: success
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-monolithic]: executing diffoscope
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-monolithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-monolithic-0.9.8.tar.gz tmp/bmw-lobster-monolithic-0.9.9.tar.gz --markdown 20230717/b/bmw-lobster-monolithic/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.8.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.9.tar.gz]
+[2023-07-17 10:51:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-trlc]: success
+[2023-07-17 10:51:43] WARNING root fetch - processPackages [clicknium]: Skipping package: exceeds size limit 36084312>=10485760
+[2023-07-17 10:51:43] INFO root fetch - main [MainThread]: End processing [clicknium] error
+[2023-07-17 10:51:43] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9216009937633.tar.gz]
+[2023-07-17 10:51:43] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9219310821193.tar.gz]
+[2023-07-17 10:51:43] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-17 10:51:44] INFO root fetch - processPackages [bmw-lobster-monolithic]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-monolithic-0.9.8.tar.gz]
+[2023-07-17 10:51:44] INFO root fetch - processPackages [bmw-lobster-monolithic]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-monolithic-0.9.9.tar.gz]
+[2023-07-17 10:51:44] INFO root fetch - main [MainThread]: End processing [bmw-lobster-monolithic]: success
+[2023-07-17 10:51:45] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717073228.tar.gz]
+[2023-07-17 10:51:45] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717084853.tar.gz]
+[2023-07-17 10:51:45] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-17 10:51:45] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-17 10:51:45] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-17 10:51:45] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-17 10:51:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-17 10:51:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-17 10:51:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-17 10:51:46] INFO root fetch - main [MainThread]: Store serial: [18914340]
