@@ -6528,3 +6528,91 @@
 [2023-07-17 05:34:49] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
 [2023-07-17 05:34:49] INFO root fetch - main [MainThread]: End processing [caqui]: success
 [2023-07-17 05:34:49] INFO root fetch - main [MainThread]: Store serial: [18912122]
+[2023-07-17 05:39:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912122]
+[2023-07-17 05:39:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caqui
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolbox-utils
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retrival
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: har2pm
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databend
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypetal
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noelmode
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msplotter
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyVIA
+[2023-07-17 05:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnata-plugin-devkit
+[2023-07-17 05:39:58] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.17.0]
+[2023-07-17 05:39:58] WARNING root fetch - processPackages [har2pm]: Skipping, unable to determine old version
+[2023-07-17 05:39:58] INFO root fetch - processPackages [har2pm]: Start processing: oyehr-tools-package
+[2023-07-17 05:39:58] INFO root fetch - main [MainThread]: End processing [har2pm] error
+[2023-07-17 05:39:58] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [pypetal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [retrival]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [toolbox-utils]: New version: [4.0.0] Old Version: [3.0.7]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [msplotter]: New version: [0.1.28] Old Version: [0.1.23]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [noelmode]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [oyehr-tools-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 05:39:58] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 05:39:58] INFO root fetch - processPackages [toolbox-utils]: Downloading https://files.pythonhosted.org/packages/bc/18/75912d1acf2c7783618c5dd09d7e207753f357d6fcce23029a4a65068bba/toolbox_utils-3.0.7.tar.gz
+[2023-07-17 05:39:58] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/2b/44/a11fe37124274a4a1466b1186fa53d655e385b81a0b4f198c0b05250c3bd/caqui-1.17.0.tar.gz
+[2023-07-17 05:39:58] INFO root fetch - processPackages [oyehr-tools-package]: Downloading https://files.pythonhosted.org/packages/6f/75/549b371339fda3fdd80c5973a673d4bc2701a310c68f86d7fd9c0a4eea4d/oyehr-tools-package-0.0.1.tar.gz
+[2023-07-17 05:39:58] INFO root fetch - processPackages [retrival]: Downloading https://files.pythonhosted.org/packages/9b/40/91dc8a9646ebb8a5647f8556be7d8e3b32938c67f437885ff48d5950f15c/retrival-1.0.1.tar.gz
+[2023-07-17 05:39:58] INFO root fetch - processPackages [noelmode]: Downloading https://files.pythonhosted.org/packages/04/77/4f54271b158c70403cf34ce669420b41955a9b36aa4581190540d9bec399/noelmode-1.0.4.tar.gz
+[2023-07-17 05:39:58] INFO root fetch - processPackages [pypetal]: Downloading https://files.pythonhosted.org/packages/2b/b7/4717cc8699a702e0a52ca9f20b34751db1e8c55ea08c0c3ee57c28316f41/pypetal-0.1.0.tar.gz
+[2023-07-17 05:39:58] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/f5/0f/b7a93fa93919e3a4052e13a5483f03870ec2858b9df3596e61d063c6e766/pyVIA-0.1.86.tar.gz
+[2023-07-17 05:39:58] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-17 05:39:58] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-17 05:39:58] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/ba/08/9ed468a969fa3362751a32085e5263b811f3c8780662e44fdb93f215a8ae/msplotter-0.1.23.tar.gz
+[2023-07-17 05:39:59] WARNING root fetch - processPackages [toolbox-utils]: Skipping package: exceeds size limit 18398433>=10485760
+[2023-07-17 05:39:59] INFO root fetch - main [MainThread]: End processing [toolbox-utils] error
+[2023-07-17 05:39:59] INFO root fetch - processPackages [oyehr-tools-package]: Downloading https://files.pythonhosted.org/packages/9a/fa/8608ad311209e43d41301b4a9875b0b54f1408a24b3f4bc72adecbb2c1ca/oyehr-tools-package-0.0.2.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [noelmode]: Downloading https://files.pythonhosted.org/packages/e6/4b/d8795b286eec3114016bc0beeebe86ac3e653234ffa1ff9ebcee102b8a6b/noelmode-1.0.5.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/d5/b9/ed4f87c25d4affc2519e91d1c1929090996dd52336da2b1111e969948fc0/msplotter-0.1.28.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [retrival]: Downloading https://files.pythonhosted.org/packages/14/44/9f8c9467beb0daff48962139ac0aa0ddc50807db827cabb361c1e2a22825/retrival-1.0.2.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [oyehr-tools-package]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [oyehr-tools-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oyehr-tools-package-0.0.1.tar.gz tmp/oyehr-tools-package-0.0.2.tar.gz --markdown 20230717/o/oyehr-tools-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [pypetal]: Downloading https://files.pythonhosted.org/packages/95/91/ca31d654d4c5dc453b7cb199ddad6ecb88cda4f0bd87298f51f44c5fdf78/pypetal-0.1.1.tar.gz
+[2023-07-17 05:39:59] INFO root fetch - processPackages [msplotter]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [msplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msplotter-0.1.23.tar.gz tmp/msplotter-0.1.28.tar.gz --markdown 20230717/m/msplotter/0.1.23-0.1.28/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [noelmode]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [noelmode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noelmode-1.0.4.tar.gz tmp/noelmode-1.0.5.tar.gz --markdown 20230717/n/noelmode/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.86.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230717/p/pyVIA/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [retrival]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [retrival]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrival-1.0.1.tar.gz tmp/retrival-1.0.2.tar.gz --markdown 20230717/r/retrival/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230717/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [pypetal]: executing diffoscope
+[2023-07-17 05:39:59] INFO root fetch - processPackages [pypetal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypetal-0.1.0.tar.gz tmp/pypetal-0.1.1.tar.gz --markdown 20230717/p/pypetal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 05:39:59] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-07-17 05:40:00] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-17 05:40:00] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.17.0.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230717/c/caqui/1.17.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:40:00] INFO root fetch - processPackages [oyehr-tools-package]: Remove: archive file [/home/abi/fetcher/tmp/oyehr-tools-package-0.0.1.tar.gz]
+[2023-07-17 05:40:00] INFO root fetch - processPackages [oyehr-tools-package]: Remove: archive file [/home/abi/fetcher/tmp/oyehr-tools-package-0.0.2.tar.gz]
+[2023-07-17 05:40:00] INFO root fetch - main [MainThread]: End processing [oyehr-tools-package]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.86.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.9.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [retrival]: Remove: archive file [/home/abi/fetcher/tmp/retrival-1.0.1.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [retrival]: Remove: archive file [/home/abi/fetcher/tmp/retrival-1.0.2.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [retrival]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.23.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.28.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [msplotter]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [pypetal]: Remove: archive file [/home/abi/fetcher/tmp/pypetal-0.1.0.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [pypetal]: Remove: archive file [/home/abi/fetcher/tmp/pypetal-0.1.1.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [pypetal]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [noelmode]: Remove: archive file [/home/abi/fetcher/tmp/noelmode-1.0.4.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [noelmode]: Remove: archive file [/home/abi/fetcher/tmp/noelmode-1.0.5.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [noelmode]: success
+[2023-07-17 05:40:01] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.17.0.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-17 05:40:01] INFO root fetch - main [MainThread]: Store serial: [18912158]
