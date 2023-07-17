@@ -6138,3 +6138,90 @@
 [2023-07-17 05:12:11] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
 [2023-07-17 05:12:11] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
 [2023-07-17 05:12:11] INFO root fetch - main [MainThread]: Store serial: [18911958]
+[2023-07-17 05:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911958]
+[2023-07-17 05:17:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-agent-llm
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calcipy
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suparkanbun
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-services
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-arms20210422-py2
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esupar
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alphatools-jv
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-arms20210422
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geoxarray
+[2023-07-17 05:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: youtube-livechat-scraper-ohn0
+[2023-07-17 05:17:20] WARNING root fetch - processPackages [openai-agent-llm]: Skipping, unable to determine old version
+[2023-07-17 05:17:20] INFO root fetch - processPackages [openai-agent-llm]: Start processing: devpm
+[2023-07-17 05:17:20] INFO root fetch - main [MainThread]: End processing [openai-agent-llm] error
+[2023-07-17 05:17:20] WARNING root fetch - processPackages [alibabacloud-arms20210422-py2]: Skipping, unable to determine old version
+[2023-07-17 05:17:20] INFO root fetch - processPackages [alibabacloud-arms20210422-py2]: Start processing: assistorgapi
+[2023-07-17 05:17:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20210422-py2] error
+[2023-07-17 05:17:20] WARNING root fetch - processPackages [alibabacloud-arms20210422]: Skipping, unable to determine old version
+[2023-07-17 05:17:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20210422] error
+[2023-07-17 05:17:20] INFO root fetch - processPackages [esupar]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [suparkanbun]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.3] Old Version: [202307.0.2]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [calcipy]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [alphatools-jv]: New version: [3.4.0] Old Version: [3.1.0]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [devpm]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 05:17:20] INFO root fetch - processPackages [assistorgapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 05:17:20] WARNING root fetch - processPackages [geoxarray]: Skipping, unable to determine old version
+[2023-07-17 05:17:20] INFO root fetch - main [MainThread]: End processing [geoxarray] error
+[2023-07-17 05:17:20] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/98/83/7b3ebc3ec1d027cdea8afb11d644e6fe4a050794b3f4a0951224588ad1c8/data_ecosystem_services-202307.0.2.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/06/44/7ece81fee328e1cd77236e26a8e0b8a2f02f3583d78427a74266b44794ba/assistorgapi-0.0.7.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/ce/cb/46836a137ae6f4e553c9fcc49a8483380abe1b7996b15d943c4f518e2509/alphatools_jv-3.1.0.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/fb/dc/f1028d32da2a69ec674245f87a1b1f35c21c7c5b1f6bbab50b09645b1695/esupar-1.6.2-py3-none-any.whl
+[2023-07-17 05:17:20] INFO root fetch - processPackages [suparkanbun]: Downloading https://files.pythonhosted.org/packages/af/19/e14179962409863477cab2e7ae7fd790a6f770f47dec4542ccfb5db47b4c/suparkanbun-1.4.8-py3-none-any.whl
+[2023-07-17 05:17:20] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: Downloading https://files.pythonhosted.org/packages/0c/a9/1ab640a8a94963173074e8f34d3f40c66a4284c37cdabfc76ec2e4e843c9/youtube_livechat_scraper_ohn0-1.0.0.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/bd/ed/deb7275187493acc86a3e03fae856f006c9c8faeb25c87961b6cc2d6f3c7/calcipy-1.4.1.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/d4/93/7dff0c41cc096ff955f6e6095292630a232df749325cec999b9c3b6187ad/devpm-1.0.1.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/0b/1d/f51b00ee0f3343d3087e325ac29c26ec1a7f9a9212913b2b0614f6a712a1/assistorgapi-0.0.8.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [assistorgapi]: executing diffoscope
+[2023-07-17 05:17:20] INFO root fetch - processPackages [assistorgapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistorgapi-0.0.7.tar.gz tmp/assistorgapi-0.0.8.tar.gz --markdown 20230717/a/assistorgapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 05:17:20] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/d7/48/7bc68f8bf79ea2ea8b228bee2506398a90edee13aa99df75768be582c885/alphatools_jv-3.4.0.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/f7/99/b3b75343e64a50b32d473d63127689a0d55ea44774583da2f4f341973981/data_ecosystem_services-202307.0.3.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: Downloading https://files.pythonhosted.org/packages/88/28/1ffbc50856746ea9026c9d5695444ef1f46bbf2f1b5bb89aeb7a56c50b61/youtube_livechat_scraper_ohn0-1.0.1.tar.gz
+[2023-07-17 05:17:20] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/62/ea/c5ba2c2199b3ea8e278f903478d26271beb18b939d7b08e33fc67183f3e1/esupar-1.6.3-py3-none-any.whl
+[2023-07-17 05:17:20] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/63/97/d2577de6166fbf25dc90586f9e33be151b3b232c2b10b3b267b00f092ebd/devpm-1.0.2.tar.gz
+[2023-07-17 05:17:21] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.2.tar.gz tmp/data_ecosystem_services-202307.0.3.tar.gz --markdown 20230717/d/data-ecosystem-services/202307.0.2-202307.0.3/diff.md --exclude *.pyd
+[2023-07-17 05:17:21] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/56/e6/99cfdea1a839497e6e0851a976bb5d7bbc486ec26ecf6597955b04c2cd3f/calcipy-1.4.2.tar.gz
+[2023-07-17 05:17:21] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_livechat_scraper_ohn0-1.0.0.tar.gz tmp/youtube_livechat_scraper_ohn0-1.0.1.tar.gz --markdown 20230717/y/youtube-livechat-scraper-ohn0/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 05:17:21] INFO root fetch - processPackages [alphatools-jv]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [alphatools-jv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphatools_jv-3.1.0.tar.gz tmp/alphatools_jv-3.4.0.tar.gz --markdown 20230717/a/alphatools-jv/3.1.0-3.4.0/diff.md --exclude *.pyd
+[2023-07-17 05:17:21] INFO root fetch - processPackages [esupar]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [esupar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esupar-1.6.2-py3-none-any.whl.zip tmp/esupar-1.6.3-py3-none-any.whl.zip --markdown 20230717/e/esupar/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 05:17:21] INFO root fetch - processPackages [suparkanbun]: Downloading https://files.pythonhosted.org/packages/9c/29/9f2b0d69e10f1d7227f43228c603ec749183315d80aab8948bcaac3340e4/suparkanbun-1.4.9-py3-none-any.whl
+[2023-07-17 05:17:21] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.4.1.tar.gz tmp/calcipy-1.4.2.tar.gz --markdown 20230717/c/calcipy/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-17 05:17:21] INFO root fetch - processPackages [devpm]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [devpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpm-1.0.1.tar.gz tmp/devpm-1.0.2.tar.gz --markdown 20230717/d/devpm/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:17:21] INFO root fetch - processPackages [suparkanbun]: executing diffoscope
+[2023-07-17 05:17:21] INFO root fetch - processPackages [suparkanbun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suparkanbun-1.4.8-py3-none-any.whl.zip tmp/suparkanbun-1.4.9-py3-none-any.whl.zip --markdown 20230717/s/suparkanbun/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-17 05:17:22] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.7.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.8.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [assistorgapi]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: Remove: archive file [/home/abi/fetcher/tmp/youtube_livechat_scraper_ohn0-1.0.0.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [youtube-livechat-scraper-ohn0]: Remove: archive file [/home/abi/fetcher/tmp/youtube_livechat_scraper_ohn0-1.0.1.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [youtube-livechat-scraper-ohn0]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.6.2-py3-none-any.whl.zip]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.6.3-py3-none-any.whl.zip]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [esupar]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.1.0.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.4.0.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [alphatools-jv]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.0.1.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.0.2.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [devpm]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.2.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.3.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.1.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.2.tar.gz]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [calcipy]: success
+[2023-07-17 05:17:22] INFO root fetch - processPackages [suparkanbun]: Remove: archive file [/home/abi/fetcher/tmp/suparkanbun-1.4.8-py3-none-any.whl.zip]
+[2023-07-17 05:17:22] INFO root fetch - processPackages [suparkanbun]: Remove: archive file [/home/abi/fetcher/tmp/suparkanbun-1.4.9-py3-none-any.whl.zip]
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [suparkanbun]: success
+[2023-07-17 05:17:22] INFO root fetch - main [MainThread]: Store serial: [18911998]
