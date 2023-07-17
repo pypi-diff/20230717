@@ -5343,3 +5343,90 @@
 [2023-07-17 04:04:23] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.9.tar.gz]
 [2023-07-17 04:04:23] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
 [2023-07-17 04:04:23] INFO root fetch - main [MainThread]: Store serial: [18911625]
+[2023-07-17 04:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911625]
+[2023-07-17 04:09:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statute-utils
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyhapi
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KMMTR
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgen
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Bgolearn
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyTcgpr
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hooks-toolkit
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TCLR
+[2023-07-17 04:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: switbuilder-core
+[2023-07-17 04:09:32] INFO root fetch - processPackages [statute-utils]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [lyhapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [PyTcgpr]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [fgen]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [TCLR]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [KMMTR]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-17 04:09:32] WARNING root fetch - processPackages [hooks-toolkit]: Skipping, unable to determine old version
+[2023-07-17 04:09:32] INFO root fetch - main [MainThread]: End processing [hooks-toolkit] error
+[2023-07-17 04:09:32] INFO root fetch - processPackages [Bgolearn]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 04:09:32] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/7d/a4/93ecbf940dd9be8c60f298294b7f95f39bbe307ee808eed0e3d95434e3ad/statute_utils-0.6.0.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/7c/73/7bf155553bc13640b9e04afdc3b7c489df9f8d0da56ae341ebf9d2d4305f/switbuilder_core-0.0.5.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [PyTcgpr]: Downloading https://files.pythonhosted.org/packages/88/cf/5ed49f4f4d4a944605cb2d7c808905ac57dd5498d8867b84c2545ecb53e5/PyTcgpr-1.1.0.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/ae/69/8ac870c71acc773cf282fc2e0f111a212d61880800a7b001e5907367c3cd/Bgolearn-2.1.1.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [TCLR]: Downloading https://files.pythonhosted.org/packages/a3/2f/772ef549a641f2c7f911468fc379e9bfa1a5c7ee3e5a6381c5bd9d28732b/TCLR-2.0.0.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [fgen]: Downloading https://files.pythonhosted.org/packages/d8/bc/243fd0aa508cdb1b37ba3230378844508b6a3d467a1b0cb25b035723ec54/fgen-0.1.1.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/86/8c/89a29f1bc5dd5ea4282bf5697116e13d1b6abd2d9ab57ea6f93192b63873/KMMTR-1.1.2.tar.gz
+[2023-07-17 04:09:32] INFO root fetch - processPackages [lyhapi]: Downloading https://files.pythonhosted.org/packages/d6/04/bf6e791c0815e84f1d79c3dd208de49cf78bb3f7a1d5dca33fc60dac5eee/lyhapi-0.0.5.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/19/db/674dc41e75ea08d189c42a468d888c57d52dd8cac3d1dddba26b25362abb/statute_utils-0.6.1.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [PyTcgpr]: Downloading https://files.pythonhosted.org/packages/e4/7b/70202bc94ef3ec26c68501a64c145dc9733b2494f508d96ec44f6eba354d/PyTcgpr-1.1.1.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/c6/c1/ac6281be5446d8a9671d795f0ebfc9bf2223bf2d1f6091fa8947b94806fc/Bgolearn-2.2.0.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [fgen]: Downloading https://files.pythonhosted.org/packages/80/84/1efa3e9fd7d593068505ac8af2669a9197008b91fcc697b6d2c388443a7d/fgen-0.1.2.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/cb/9c/7de15686f916eff3da21eed8f511e6c01e6e86575ac87b588ed51e53d9f2/switbuilder_core-0.0.6.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [TCLR]: Downloading https://files.pythonhosted.org/packages/2b/fe/e3ef3008fd3ca4bc886fa267bcd4322651fec1430a0c41b25b2a4dc9cdd5/TCLR-2.0.1.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/d1/de/e5853296934a377ce8776d234905376de07b6a5195c28f384d825367f83a/KMMTR-1.1.3.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [PyTcgpr]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [PyTcgpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTcgpr-1.1.0.tar.gz tmp/PyTcgpr-1.1.1.tar.gz --markdown 20230717/P/PyTcgpr/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [lyhapi]: Downloading https://files.pythonhosted.org/packages/c4/8d/530fc421b36f4578a1e0e98372bb5bc5bc5d2329de79b7b834ec8d83d88a/lyhapi-0.0.6.tar.gz
+[2023-07-17 04:09:33] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.6.0.tar.gz tmp/statute_utils-0.6.1.tar.gz --markdown 20230717/s/statute-utils/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.1.1.tar.gz tmp/Bgolearn-2.2.0.tar.gz --markdown 20230717/B/Bgolearn/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [fgen]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [fgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgen-0.1.1.tar.gz tmp/fgen-0.1.2.tar.gz --markdown 20230717/f/fgen/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [KMMTR]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [KMMTR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMMTR-1.1.2.tar.gz tmp/KMMTR-1.1.3.tar.gz --markdown 20230717/K/KMMTR/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [TCLR]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [TCLR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCLR-2.0.0.tar.gz tmp/TCLR-2.0.1.tar.gz --markdown 20230717/T/TCLR/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [lyhapi]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [lyhapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyhapi-0.0.5.tar.gz tmp/lyhapi-0.0.6.tar.gz --markdown 20230717/l/lyhapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 04:09:33] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-17 04:09:33] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.5.tar.gz tmp/switbuilder_core-0.0.6.tar.gz --markdown 20230717/s/switbuilder-core/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 04:09:34] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 04:09:34] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 04:09:34] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 04:09:34] INFO root fetch - processPackages [PyTcgpr]: Remove: archive file [/home/abi/fetcher/tmp/PyTcgpr-1.1.0.tar.gz]
+[2023-07-17 04:09:34] INFO root fetch - processPackages [PyTcgpr]: Remove: archive file [/home/abi/fetcher/tmp/PyTcgpr-1.1.1.tar.gz]
+[2023-07-17 04:09:34] INFO root fetch - main [MainThread]: End processing [PyTcgpr]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.1.1.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.0.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [TCLR]: Remove: archive file [/home/abi/fetcher/tmp/TCLR-2.0.0.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [TCLR]: Remove: archive file [/home/abi/fetcher/tmp/TCLR-2.0.1.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [TCLR]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.0.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.1.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [lyhapi]: Remove: archive file [/home/abi/fetcher/tmp/lyhapi-0.0.5.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [lyhapi]: Remove: archive file [/home/abi/fetcher/tmp/lyhapi-0.0.6.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [lyhapi]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [fgen]: Remove: archive file [/home/abi/fetcher/tmp/fgen-0.1.1.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [fgen]: Remove: archive file [/home/abi/fetcher/tmp/fgen-0.1.2.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [fgen]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [KMMTR]: Remove: archive file [/home/abi/fetcher/tmp/KMMTR-1.1.2.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [KMMTR]: Remove: archive file [/home/abi/fetcher/tmp/KMMTR-1.1.3.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [KMMTR]: success
+[2023-07-17 04:09:35] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.5.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.6.tar.gz]
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-17 04:09:35] INFO root fetch - main [MainThread]: Store serial: [18911658]
