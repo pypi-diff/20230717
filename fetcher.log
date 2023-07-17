@@ -12804,3 +12804,148 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:23:39] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-17 11:23:39] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-17 11:23:39] INFO root fetch - main [MainThread]: Store serial: [18914696]
+[2023-07-17 11:28:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914696]
+[2023-07-17 11:28:48] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lqq-tool-weekreport
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-auth-jwt-demo
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-auth-jwt
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LjxMathTest
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: saracendb
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: faasmctl
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CartiMorph-nnUNet
+[2023-07-17 11:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-pos-margin
+[2023-07-17 11:28:48] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-17 11:28:49] WARNING root fetch - processPackages [odoo-addon-pos-margin]: Skipping, unable to determine old version
+[2023-07-17 11:28:49] INFO root fetch - processPackages [odoo-addon-pos-margin]: Start processing: landingzone-organization
+[2023-07-17 11:28:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-margin] error
+[2023-07-17 11:28:49] INFO root fetch - processPackages [LjxMathTest]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.0]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.0]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [faasmctl]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [saracendb]: New version: [0.8] Old Version: [0.7.1]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/90/4e/497a7b8a5378b8a0a95623121ce0d4b38157f410e2e8197fe0be67b18fec/CartiMorph_nnUNet-1.7.8.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [lqq-tool-weekreport]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [landingzone-organization]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-17 11:28:49] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/2a/af/c324ec8be631a4af16c72c5b21851f91cbbab8232fcc4fc58a24f7911959/faasmctl-0.3.9.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [LjxMathTest]: Downloading https://files.pythonhosted.org/packages/44/45/20572e7feda61c0b266c868361bea5c5940805c6b0a52e85cc0d7c72921c/LjxMathTest-1.0.0.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/ef/73/dbda9cba6d1d01e4fb1e8011f9fb0029aa1689b6eeea7bfeb4e459866cfc/landingzone_organization-0.6.2.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [saracendb]: Downloading https://files.pythonhosted.org/packages/f6/3f/e8f12bb802ecc487e302d2e7cfc1e18b63e91991bec90a5bb6aced84ba02/saracendb-0.7.1.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: Downloading https://files.pythonhosted.org/packages/2c/90/e1fc049d9e94602132156b08d9bfb1862d92a1277a9dea99345781cc0fb6/odoo14_addon_auth_jwt-14.0.2.0.0-py3-none-any.whl
+[2023-07-17 11:28:49] INFO root fetch - processPackages [lqq-tool-weekreport]: Downloading https://files.pythonhosted.org/packages/d6/15/cca0bd7210425f14f4015891b9baae900e2b5bf6cdb14398499ceb9cf443/lqq_tool_weekreport-1.0.0.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: Downloading https://files.pythonhosted.org/packages/7c/c4/a9d8b5cafa6f07894df16722baa49138dbd4795e42f64d98ed814b26b25b/odoo14_addon_auth_jwt_demo-14.0.1.2.0-py3-none-any.whl
+[2023-07-17 11:28:49] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/de/5f/ebd4100eca4e779740c0c7565c5aa7782dac9b87757b8dc4e9d688909d88/CartiMorph_nnUNet-1.7.9.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/9a/43/5ff351de2f0c481efca6f4e792604a25511b5c871b3b329b19b7d3a6d978/faasmctl-0.4.0.tar.gz
+[2023-07-17 11:28:49] INFO root fetch - processPackages [LjxMathTest]: Downloading https://files.pythonhosted.org/packages/e7/eb/821a95dc1e947e68d01ca99f8f0850d083633831bcd239686e79583becee/LjxMathTest-1.0.1.tar.gz
+[2023-07-17 11:28:50] INFO root fetch - processPackages [lqq-tool-weekreport]: Downloading https://files.pythonhosted.org/packages/9e/86/cb1bb309d4fa9a0da85c162ac0faba259f98f4b71f2702f2a8c76e6fb22a/lqq_tool_weekreport-1.0.1.tar.gz
+[2023-07-17 11:28:50] INFO root fetch - processPackages [saracendb]: Downloading https://files.pythonhosted.org/packages/c6/56/92d06e81abbfa231c54ea6b3b1013ce277df3886008421e5cce48e7a3f26/saracendb-0.8.tar.gz
+[2023-07-17 11:28:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230717/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/c7/59/df4426a414661d6f22608e97913d62775ff406d567f2a0143d0ba66cf84a/landingzone_organization-0.6.3.tar.gz
+[2023-07-17 11:28:50] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUNet-1.7.8.tar.gz tmp/CartiMorph_nnUNet-1.7.9.tar.gz --markdown 20230717/C/CartiMorph-nnUNet/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230717/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: Downloading https://files.pythonhosted.org/packages/52/e6/52345da11b45e5df86df4105b3344b9a833c798be693d315d065136c7def/odoo14_addon_auth_jwt-14.0.2.1.0-py3-none-any.whl
+[2023-07-17 11:28:50] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.9.tar.gz tmp/faasmctl-0.4.0.tar.gz --markdown 20230717/f/faasmctl/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: Downloading https://files.pythonhosted.org/packages/c2/72/47d46edc80c51afb5f4d753498a1263ace61692c2421f9534a682744ded3/odoo14_addon_auth_jwt_demo-14.0.1.3.0-py3-none-any.whl
+[2023-07-17 11:28:50] INFO root fetch - processPackages [LjxMathTest]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [LjxMathTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LjxMathTest-1.0.0.tar.gz tmp/LjxMathTest-1.0.1.tar.gz --markdown 20230717/L/LjxMathTest/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [lqq-tool-weekreport]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [lqq-tool-weekreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqq_tool_weekreport-1.0.0.tar.gz tmp/lqq_tool_weekreport-1.0.1.tar.gz --markdown 20230717/l/lqq-tool-weekreport/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [saracendb]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [saracendb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saracendb-0.7.1.tar.gz tmp/saracendb-0.8.tar.gz --markdown 20230717/s/saracendb/0.7.1-0.8/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.6.2.tar.gz tmp/landingzone_organization-0.6.3.tar.gz --markdown 20230717/l/landingzone-organization/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auth_jwt-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_auth_jwt-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-auth-jwt/14.0.2.0.0-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-07-17 11:28:50] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: executing diffoscope
+[2023-07-17 11:28:50] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auth_jwt_demo-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_auth_jwt_demo-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-auth-jwt-demo/14.0.1.2.0-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-07-17 11:28:51] INFO root fetch - processPackages [LjxMathTest]: Remove: archive file [/home/abi/fetcher/tmp/LjxMathTest-1.0.0.tar.gz]
+[2023-07-17 11:28:51] INFO root fetch - processPackages [LjxMathTest]: Remove: archive file [/home/abi/fetcher/tmp/LjxMathTest-1.0.1.tar.gz]
+[2023-07-17 11:28:51] INFO root fetch - processPackages [LjxMathTest]: Start processing: Telethon-repl
+[2023-07-17 11:28:51] INFO root fetch - main [MainThread]: End processing [LjxMathTest]: success
+[2023-07-17 11:28:52] WARNING root fetch - processPackages [Telethon-repl]: Skipping, unable to determine old version
+[2023-07-17 11:28:52] INFO root fetch - processPackages [Telethon-repl]: Start processing: fastembed
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [Telethon-repl] error
+[2023-07-17 11:28:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: simple2encrypt
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-17 11:28:52] WARNING root fetch - processPackages [fastembed]: Skipping, unable to determine old version
+[2023-07-17 11:28:52] INFO root fetch - processPackages [fastembed]: Start processing: fan-tools
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [fastembed] error
+[2023-07-17 11:28:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: mizdb-tomselect
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [fan-tools]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [mizdb-tomselect]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [lqq-tool-weekreport]: Remove: archive file [/home/abi/fetcher/tmp/lqq_tool_weekreport-1.0.0.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [lqq-tool-weekreport]: Remove: archive file [/home/abi/fetcher/tmp/lqq_tool_weekreport-1.0.1.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [lqq-tool-weekreport]: Start processing: IMSmartFinderNinja
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [lqq-tool-weekreport]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/d5/79/283a2b2830b26415ad60b6c4b277b7537306f7d2b3a6990c546446d7103f/simple2encrypt-1.5.5.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [saracendb]: Remove: archive file [/home/abi/fetcher/tmp/saracendb-0.7.1.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [saracendb]: Remove: archive file [/home/abi/fetcher/tmp/saracendb-0.8.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [saracendb]: Start processing: bugsnag
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [saracendb]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.9.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.4.0.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [fan-tools]: Downloading https://files.pythonhosted.org/packages/3d/cb/5e36b24ed2a6b1c28ca2e1d682120d4cd1599e73b8857ff6a4843ff6045a/fan_tools-4.0.1.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [bugsnag]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/15/4a/9c69d901effbe28ed414e8921c922431ba2dec3907cf8400528138d59390/IMSmartFinderNinja-0.0.4.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/49/2c/a5d3726bb8b0a0d37dc46596fe4ca5e619366d760315f08c9c6fe7eb2388/mizdb-tomselect-0.4.0.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_jwt-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [odoo14-addon-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_jwt-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auth-jwt]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.6.2.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.6.3.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.8.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.9.tar.gz]
+[2023-07-17 11:28:52] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_jwt_demo-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [odoo14-addon-auth-jwt-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_jwt_demo-14.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-17 11:28:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auth-jwt-demo]: success
+[2023-07-17 11:28:52] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/7b/ea/35ed4c922c841c0883b4c36b3b6fa84620a39ecd9d2518b4c089c59367b1/simple2encrypt-1.5.6.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/c5/79/886e157e5198e2b57fd3ce16446c4fc57edcb636cf382715e1d85be5452b/IMSmartFinderNinja-0.0.5.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-17 11:28:52] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.0.4.tar.gz tmp/IMSmartFinderNinja-0.0.5.tar.gz --markdown 20230717/I/IMSmartFinderNinja/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 11:28:52] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/51/b8/f738b554798d255df3aff46afc7c96313f4a9ac72446dd2dc32c707ab4d2/mizdb-tomselect-0.5.0.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-17 11:28:52] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.5.5.tar.gz tmp/simple2encrypt-1.5.6.tar.gz --markdown 20230717/s/simple2encrypt/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-17 11:28:52] INFO root fetch - processPackages [fan-tools]: Downloading https://files.pythonhosted.org/packages/a5/61/06c8f3704988e8559d85274fe3c7e906204ba1dec4300cbfb776727e8da0/fan_tools-4.1.0.tar.gz
+[2023-07-17 11:28:52] INFO root fetch - processPackages [bugsnag]: Downloading https://files.pythonhosted.org/packages/31/36/4d5eb676072ea647f0172cfac11d4c747c6bf660334e32f31c6b4aebfd71/bugsnag-4.4.0.tar.gz
+[2023-07-17 11:28:53] INFO root fetch - processPackages [mizdb-tomselect]: executing diffoscope
+[2023-07-17 11:28:53] INFO root fetch - processPackages [mizdb-tomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb-tomselect-0.4.0.tar.gz tmp/mizdb-tomselect-0.5.0.tar.gz --markdown 20230717/m/mizdb-tomselect/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 11:28:53] INFO root fetch - processPackages [fan-tools]: executing diffoscope
+[2023-07-17 11:28:53] INFO root fetch - processPackages [fan-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fan_tools-4.0.1.tar.gz tmp/fan_tools-4.1.0.tar.gz --markdown 20230717/f/fan-tools/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-07-17 11:28:53] INFO root fetch - processPackages [bugsnag]: Downloading https://files.pythonhosted.org/packages/73/98/13f32a09caca9e7c5dd32482be3d121738dfb2f3a93ed63f2ec97f74ff32/bugsnag-4.5.0.tar.gz
+[2023-07-17 11:28:53] INFO root fetch - processPackages [bugsnag]: executing diffoscope
+[2023-07-17 11:28:53] INFO root fetch - processPackages [bugsnag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugsnag-4.4.0.tar.gz tmp/bugsnag-4.5.0.tar.gz --markdown 20230717/b/bugsnag/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-07-17 11:28:53] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.4.tar.gz]
+[2023-07-17 11:28:53] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.5.tar.gz]
+[2023-07-17 11:28:53] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-17 11:28:54] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.5.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.6.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-17 11:28:54] INFO root fetch - processPackages [fan-tools]: Remove: archive file [/home/abi/fetcher/tmp/fan_tools-4.0.1.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - processPackages [fan-tools]: Remove: archive file [/home/abi/fetcher/tmp/fan_tools-4.1.0.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - main [MainThread]: End processing [fan-tools]: success
+[2023-07-17 11:28:54] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.4.0.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.5.0.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - main [MainThread]: End processing [bugsnag]: success
+[2023-07-17 11:28:54] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.4.0.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.5.0.tar.gz]
+[2023-07-17 11:28:54] INFO root fetch - main [MainThread]: End processing [mizdb-tomselect]: success
+[2023-07-17 11:28:54] INFO root fetch - main [MainThread]: Store serial: [18914758]
