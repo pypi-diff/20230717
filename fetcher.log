@@ -10227,3 +10227,68 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 09:53:32] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-17 09:53:32] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-17 09:53:32] INFO root fetch - main [MainThread]: Store serial: [18913639]
+[2023-07-17 09:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913639]
+[2023-07-17 09:58:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightstreamer-adapter
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sensitivities
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-enroll
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydoris
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rest-framework-simplejwt-byforde2
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medcase
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbix-chinese
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opents
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: escaper-utils
+[2023-07-17 09:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piperider
+[2023-07-17 09:58:42] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 09:58:43] WARNING root fetch - processPackages [pydoris]: Skipping, unable to determine old version
+[2023-07-17 09:58:43] INFO root fetch - main [MainThread]: End processing [pydoris] error
+[2023-07-17 09:58:43] INFO root fetch - processPackages [lightstreamer-adapter]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-07-17 09:58:43] WARNING root fetch - processPackages [sensitivities]: Skipping, unable to determine old version
+[2023-07-17 09:58:43] INFO root fetch - main [MainThread]: End processing [sensitivities] error
+[2023-07-17 09:58:43] WARNING root fetch - processPackages [medcase]: Skipping, unable to determine old version
+[2023-07-17 09:58:43] INFO root fetch - main [MainThread]: End processing [medcase] error
+[2023-07-17 09:58:43] ERROR root fetch - processPackages [pbix-chinese]: Unable to get metadata: No such project 'pbix-chinese'
+[2023-07-17 09:58:43] INFO root fetch - main [MainThread]: End processing [pbix-chinese] error
+[2023-07-17 09:58:43] INFO root fetch - processPackages [opents]: New version: [0.1.3.1] Old Version: [0.1.3]
+[2023-07-17 09:58:43] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-17 09:58:43] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/14/3d/6b0506cb0c24a8ad345fb7014dc61f027669c3633f091e59971d25506246/rest_framework_simplejwt_byforde2-0.1.0.tar.gz
+[2023-07-17 09:58:43] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-17 09:58:43] INFO root fetch - processPackages [escaper-utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-17 09:58:43] INFO root fetch - processPackages [lightstreamer-adapter]: Downloading https://files.pythonhosted.org/packages/a2/b2/a76031aa5012306e705d1004fb0590c79beba8e64a146eba8c329e28049f/lightstreamer_adapter-1.2.3.zip
+[2023-07-17 09:58:43] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/1a/6a/d6d6b116590a936413455a70bc7e65c79dddc82d798cf1931bb7ded2ac44/opents-0.1.3-py3-none-any.whl
+[2023-07-17 09:58:43] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-07-17 09:58:43] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-17 09:58:43] INFO root fetch - processPackages [escaper-utils]: Downloading https://files.pythonhosted.org/packages/7d/c1/a7ab7610c577fac65344772c4e4dc5ca753a71e4b6dbc0f5ef1a962886d1/escaper_utils-2.9.8-py3-none-any.whl
+[2023-07-17 09:58:43] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/9e/0b/357bd12615e44a76497d55f5a3abc236808a4dad5cd045eb7793acebf6fd/rest_framework_simplejwt_byforde2-0.1.1.tar.gz
+[2023-07-17 09:58:43] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: executing diffoscope
+[2023-07-17 09:58:43] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_simplejwt_byforde2-0.1.0.tar.gz tmp/rest_framework_simplejwt_byforde2-0.1.1.tar.gz --markdown 20230717/r/rest-framework-simplejwt-byforde2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 09:58:43] WARNING root fetch - processPackages [escaper-utils]: Skipping package: exceeds size limit 64284635>=10485760
+[2023-07-17 09:58:43] INFO root fetch - main [MainThread]: End processing [escaper-utils] error
+[2023-07-17 09:58:43] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/c3/25/3f182f88d94a67d2ba481809ff0c5f94bcf9a590316f4f8452e4c533c4d0/opents-0.1.3.1-py3-none-any.whl
+[2023-07-17 09:58:43] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-07-17 09:58:43] INFO root fetch - processPackages [lightstreamer-adapter]: Downloading https://files.pythonhosted.org/packages/79/c8/234a354599c023bb7b67b5cc5e4a38d3c5fe94dd35089e371948f9b3ce65/lightstreamer_adapter-1.3.0.zip
+[2023-07-17 09:58:43] INFO root fetch - processPackages [opents]: executing diffoscope
+[2023-07-17 09:58:43] INFO root fetch - processPackages [opents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opents-0.1.3-py3-none-any.whl.zip tmp/opents-0.1.3.1-py3-none-any.whl.zip --markdown 20230717/o/opents/0.1.3-0.1.3.1/diff.md --exclude *.pyd
+[2023-07-17 09:58:43] INFO root fetch - processPackages [lightstreamer-adapter]: executing diffoscope
+[2023-07-17 09:58:43] INFO root fetch - processPackages [lightstreamer-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightstreamer_adapter-1.2.3.zip tmp/lightstreamer_adapter-1.3.0.zip --markdown 20230717/l/lightstreamer-adapter/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-17 09:58:43] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-07-17 09:58:43] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230717/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-17 09:58:44] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.0.tar.gz]
+[2023-07-17 09:58:44] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.1.tar.gz]
+[2023-07-17 09:58:44] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde2]: success
+[2023-07-17 09:58:44] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-17 09:58:44] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.3-py3-none-any.whl.zip]
+[2023-07-17 09:58:44] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.3.1-py3-none-any.whl.zip]
+[2023-07-17 09:58:44] INFO root fetch - main [MainThread]: End processing [opents]: success
+[2023-07-17 09:58:45] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-07-17 09:58:45] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-07-17 09:58:45] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-07-17 09:58:45] INFO root fetch - processPackages [lightstreamer-adapter]: Remove: archive file [/home/abi/fetcher/tmp/lightstreamer_adapter-1.2.3.zip]
+[2023-07-17 09:58:45] INFO root fetch - processPackages [lightstreamer-adapter]: Remove: archive file [/home/abi/fetcher/tmp/lightstreamer_adapter-1.3.0.zip]
+[2023-07-17 09:58:45] INFO root fetch - main [MainThread]: End processing [lightstreamer-adapter]: success
+[2023-07-17 09:58:45] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-17 09:58:45] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230717/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-17 09:58:48] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-17 09:58:48] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-17 09:58:48] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-17 09:58:48] INFO root fetch - main [MainThread]: Store serial: [18913676]
