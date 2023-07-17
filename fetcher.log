@@ -5889,3 +5889,87 @@
 [2023-07-17 04:51:18] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-17 04:51:18] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-17 04:51:18] INFO root fetch - main [MainThread]: Store serial: [18911874]
+[2023-07-17 04:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911874]
+[2023-07-17 04:56:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaylib
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramanchada2
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdock
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyjamas-rfglab
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syft
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver-buckets
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qcloud-setup
+[2023-07-17 04:56:32] INFO root fetch - processPackages [yaylib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [syft]: New version: [0.8.2b5] Old Version: [0.8.2b4]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [adafri]: New version: [0.0.19.42] Old Version: [0.0.19.41]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [sdock]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [ramanchada2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [pyjamas-rfglab]: New version: [2023.7.6] Old Version: [2023.7.4]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 04:56:32] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-17 04:56:33] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/e6/df/dea66e124e14b58921f1dfbf249b2d03e0e6f76a040ffd9f475a26ca2e44/yaylib-1.0.0.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/bf/2e/6026c4968eddae60b27fcf5a1aab0bc1c3364b46be83fb26000d30256fe2/adafri-0.0.19.41.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/c1/fe/e5bf5406c8449d58fd1511684a7225d335bef49ef4df80f06477f36bc86c/sdock-0.1.0.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/1c/3d/e0e1352a19dc94a0ce1940423f515ddf420a6caf1dcf8704ed1aeb8cfd1c/pyjamas-rfglab-2023.7.4.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/f5/6d/848953459d6cdcd485e0845ae2a95079bbcaa03258a920ddd099110fb5f6/syft-0.8.2b4.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/fc/d6/1c60f668061544352eaeadfb35ec125580ffa8f73089e46ceed609c855c3/heaserver-buckets-1.0.0a8.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/7f/ab/cbc9325c78153960ec2e14f5fd1f5a221d5b1b91c857eafef1bdbcbf4844/qcloud_setup-1.0.2.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [ramanchada2]: Downloading https://files.pythonhosted.org/packages/28/b4/2d530dc46d8c4510675bc811b77549f0099e184a3f1130cfc0c6b8b63d3b/ramanchada2-0.0.7.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/c6/79/309acfebb12c740550f50613e586bf6b94e6a7c40d8d0c83073de43cee1d/sdock-0.1.1.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/5f/f3/edcfb084adb2e53f86faa0429755bbc00cd34e88bc187de053644eb56b3e/yaylib-1.0.1.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/93/d0/34f628aabb3f5e5af3f133958fde84e595311e55013f3bd00670710fc2ba/adafri-0.0.19.42.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/94/11/912862223c9c5b351af25b5eddb355bc929632fd859fd9ee5528524cf17e/pyjamas-rfglab-2023.7.6.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/68/31/1168ae58d9c7b555c0550b25fcc1d28f2171d00fc0978a68a07864d3b523/qcloud_setup-1.0.3.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 04:56:33] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.0.tar.gz tmp/sdock-0.1.1.tar.gz --markdown 20230717/s/sdock/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 04:56:33] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-17 04:56:33] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.41.tar.gz tmp/adafri-0.0.19.42.tar.gz --markdown 20230717/a/adafri/0.0.19.41-0.0.19.42/diff.md --exclude *.pyd
+[2023-07-17 04:56:33] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-07-17 04:56:33] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.0.tar.gz tmp/yaylib-1.0.1.tar.gz --markdown 20230717/y/yaylib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 04:56:33] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/b2/21/73482f43980d3af825e1789d51ad40303efaa20c55b8e48cd52e9467c0d5/syft-0.8.2b5.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [pyjamas-rfglab]: executing diffoscope
+[2023-07-17 04:56:33] INFO root fetch - processPackages [pyjamas-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjamas-rfglab-2023.7.4.tar.gz tmp/pyjamas-rfglab-2023.7.6.tar.gz --markdown 20230717/p/pyjamas-rfglab/2023.7.4-2023.7.6/diff.md --exclude *.pyd
+[2023-07-17 04:56:33] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/4d/60/7a6118e0c68cc6934cfbc2b25d3a6f5193ae5ab0d0c9b3787970dfd52e5c/heaserver-buckets-1.0.0a9.tar.gz
+[2023-07-17 04:56:33] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2023-07-17 04:56:33] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.2.tar.gz tmp/qcloud_setup-1.0.3.tar.gz --markdown 20230717/q/qcloud-setup/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 04:56:34] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-17 04:56:34] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-07-17 04:56:34] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.2b4.tar.gz tmp/syft-0.8.2b5.tar.gz --markdown 20230717/s/syft/0.8.2b4-0.8.2b5/diff.md --exclude *.pyd
+[2023-07-17 04:56:34] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-07-17 04:56:34] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 04:56:34] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-17 04:56:34] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230717/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-17 04:56:34] INFO root fetch - processPackages [ramanchada2]: Downloading https://files.pythonhosted.org/packages/33/96/b0f80571bdbadbf74c83dbcb98f68bc1405fc03fbece8f72a195d94f6be6/ramanchada2-0.0.8.tar.gz
+[2023-07-17 04:56:34] INFO root fetch - processPackages [ramanchada2]: executing diffoscope
+[2023-07-17 04:56:34] INFO root fetch - processPackages [ramanchada2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramanchada2-0.0.7.tar.gz tmp/ramanchada2-0.0.8.tar.gz --markdown 20230717/r/ramanchada2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 04:56:35] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.0.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.1.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 04:56:35] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.41.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.42.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-17 04:56:35] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.0.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.1.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-07-17 04:56:35] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.2.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.3.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2023-07-17 04:56:35] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a8.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a9.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-07-17 04:56:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-17 04:56:35] INFO root fetch - processPackages [pyjamas-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/pyjamas-rfglab-2023.7.4.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - processPackages [pyjamas-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/pyjamas-rfglab-2023.7.6.tar.gz]
+[2023-07-17 04:56:35] INFO root fetch - main [MainThread]: End processing [pyjamas-rfglab]: success
+[2023-07-17 04:56:36] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b4.tar.gz]
+[2023-07-17 04:56:36] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b5.tar.gz]
+[2023-07-17 04:56:36] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-07-17 04:56:37] INFO root fetch - processPackages [ramanchada2]: Remove: archive file [/home/abi/fetcher/tmp/ramanchada2-0.0.7.tar.gz]
+[2023-07-17 04:56:37] INFO root fetch - processPackages [ramanchada2]: Remove: archive file [/home/abi/fetcher/tmp/ramanchada2-0.0.8.tar.gz]
+[2023-07-17 04:56:37] INFO root fetch - main [MainThread]: End processing [ramanchada2]: success
+[2023-07-17 04:56:37] INFO root fetch - main [MainThread]: Store serial: [18911901]
