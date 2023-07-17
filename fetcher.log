@@ -4102,3 +4102,96 @@
 [2023-07-17 02:40:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.936.tar.gz]
 [2023-07-17 02:40:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wss]: success
 [2023-07-17 02:40:36] INFO root fetch - main [MainThread]: Store serial: [18911172]
+[2023-07-17 02:45:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911172]
+[2023-07-17 02:45:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-youmall
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-yunjing
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-yunsou
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-zj
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astropy-iers-data
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-monitoring-constructs
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aeppl-nightly
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-26
+[2023-07-17 02:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyGraphica
+[2023-07-17 02:45:45] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2023.7.6.22.3.16] Old Version: [0.2023.7.17.0.39.4]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: New version: [3.0.936] Old Version: [3.0.935]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: New version: [3.0.936] Old Version: [3.0.935]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [PyGraphica]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230716] Old Version: [0.1.5.dev20230715]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.93] Old Version: [2.4.92]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [cdk-monitoring-constructs]: New version: [5.3.4] Old Version: [5.3.3]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.936] Old Version: [3.0.935]
+[2023-07-17 02:45:45] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: New version: [3.0.936] Old Version: [3.0.935]
+[2023-07-17 02:45:46] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/71/7a/5043a95f38e914e29fc563136768edf4b92b79a8f835bbfba4919d686eea/aeppl-nightly-0.1.5.dev20230715.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/9a/21/4dc39de7b67a95b346552ae70c58bef7340da5613f67549134b0b304e9bc/astropy-iers-data-0.2023.7.17.0.39.4.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/4a/7c/d6d4aa6649ea34f69eda5119a4e228b3641664fc4484b5d7757c436f6682/PyGraphica-0.0.6.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/40/3c/ce4bcf854134f77e4e410c244a6223f7679e820c13b61245ff7af99c9dfb/cdk8s-plus-26-2.4.92.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/e8/75/d47bc326a5192a5f4871e5ab1ac51071c77cde2d39631bb1fecb193ad091/tencentcloud-sdk-python-zj-3.0.935.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/44/80/474fde0be8b914e049b41f4f11ff16ad443c65436464d6a361222f3138ea/tencentcloud-sdk-python-yunjing-3.0.935.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [cdk-monitoring-constructs]: Downloading https://files.pythonhosted.org/packages/32/bb/53ca22c44e7c8302321a82d3cebb39820917dfae37e46f9d79112ea9fffd/cdk-monitoring-constructs-5.3.3.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/d2/9d/9bd9e8ca428b31936893335a199b4792e0964495c8787d3730da75a8f073/tencentcloud-sdk-python-youmall-3.0.935.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/16/6d/7e8bf6b7302b9ecaaa13375db937982c2583146331d8f4e87f8f80305682/tencentcloud-sdk-python-yunsou-3.0.935.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/1d/3c/438ed6612ba6c433f63dbda747deb638f849550d6f7a025248ff184d875d/aeppl-nightly-0.1.5.dev20230716.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/2c/9c/e9c02216d9183ab35359939785ea1e8009ddc41c6215077c2015cd0eced6/tencentcloud-sdk-python-zj-3.0.936.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-17 02:45:46] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230717/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/3e/47/4ce68b31f9d0bcbc20bc9e225af02fabc24d938cb8413705057a10301125/tencentcloud-sdk-python-yunjing-3.0.936.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/d2/e0/a246a74b9cb7654dfaa1b83b051432469e0982e3f49bf36ecc65cdba3a5f/tencentcloud-sdk-python-youmall-3.0.936.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/74/9f/f7a98c2b66e6904328375c617e2f66ba78cfa4b4ccb2efdc3b8b56722511/tencentcloud-sdk-python-yunsou-3.0.936.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: executing diffoscope
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-zj-3.0.935.tar.gz tmp/tencentcloud-sdk-python-zj-3.0.936.tar.gz --markdown 20230717/t/tencentcloud-sdk-python-zj/3.0.935-3.0.936/diff.md --exclude *.pyd
+[2023-07-17 02:45:46] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-17 02:45:46] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230715.tar.gz tmp/aeppl-nightly-0.1.5.dev20230716.tar.gz --markdown 20230717/a/aeppl-nightly/0.1.5.dev20230715-0.1.5.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 02:45:46] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/fd/f9/9e4d612974aca15c4dc3c715235c4aa2f9b9bf2e68cacc06d72620f57821/PyGraphica-0.0.7.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: executing diffoscope
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunjing-3.0.935.tar.gz tmp/tencentcloud-sdk-python-yunjing-3.0.936.tar.gz --markdown 20230717/t/tencentcloud-sdk-python-yunjing/3.0.935-3.0.936/diff.md --exclude *.pyd
+[2023-07-17 02:45:46] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/d3/92/498095ea68b16bd60d68231b6f8a0dd7e0812579a482009eeec42902ed8c/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: executing diffoscope
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-youmall-3.0.935.tar.gz tmp/tencentcloud-sdk-python-youmall-3.0.936.tar.gz --markdown 20230717/t/tencentcloud-sdk-python-youmall/3.0.935-3.0.936/diff.md --exclude *.pyd
+[2023-07-17 02:45:46] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/9d/ae/b0b210a668d5ffc65044b60844d9e45a3b3bd8a7bc8428fb02b33b4349c0/cdk8s-plus-26-2.4.93.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [cdk-monitoring-constructs]: Downloading https://files.pythonhosted.org/packages/f7/d4/12de5a4eb3ca24c06fb1a2ab5aefc7b14a22ddcda9ed396847eb92d287d7/cdk-monitoring-constructs-5.3.4.tar.gz
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2023-07-17 02:45:46] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.935.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.936.tar.gz --markdown 20230717/t/tencentcloud-sdk-python-yunsou/3.0.935-3.0.936/diff.md --exclude *.pyd
+[2023-07-17 02:45:47] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-17 02:45:47] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.92.tar.gz tmp/cdk8s-plus-26-2.4.93.tar.gz --markdown 20230717/c/cdk8s-plus-26/2.4.92-2.4.93/diff.md --exclude *.pyd
+[2023-07-17 02:45:47] INFO root fetch - processPackages [cdk-monitoring-constructs]: executing diffoscope
+[2023-07-17 02:45:47] INFO root fetch - processPackages [cdk-monitoring-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-monitoring-constructs-5.3.3.tar.gz tmp/cdk-monitoring-constructs-5.3.4.tar.gz --markdown 20230717/c/cdk-monitoring-constructs/5.3.3-5.3.4/diff.md --exclude *.pyd
+[2023-07-17 02:45:47] INFO root fetch - processPackages [PyGraphica]: executing diffoscope
+[2023-07-17 02:45:47] INFO root fetch - processPackages [PyGraphica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGraphica-0.0.6.tar.gz tmp/PyGraphica-0.0.7.tar.gz --markdown 20230717/P/PyGraphica/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 02:45:47] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2023-07-17 02:45:47] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy-iers-data-0.2023.7.17.0.39.4.tar.gz tmp/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz --markdown 20230717/a/astropy-iers-data/0.2023.7.17.0.39.4-0.2023.7.6.22.3.16/diff.md --exclude *.pyd
+[2023-07-17 02:45:47] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-17 02:45:47] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-17 02:45:47] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.935.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.936.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.935.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.936.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.935.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.936.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-youmall]: success
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.935.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.936.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
+[2023-07-17 02:45:48] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230715.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230716.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-17 02:45:48] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.92.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.93.tar.gz]
+[2023-07-17 02:45:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-17 02:45:49] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.0.6.tar.gz]
+[2023-07-17 02:45:49] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.0.7.tar.gz]
+[2023-07-17 02:45:49] INFO root fetch - main [MainThread]: End processing [PyGraphica]: success
+[2023-07-17 02:45:49] INFO root fetch - processPackages [cdk-monitoring-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-monitoring-constructs-5.3.3.tar.gz]
+[2023-07-17 02:45:49] INFO root fetch - processPackages [cdk-monitoring-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-monitoring-constructs-5.3.4.tar.gz]
+[2023-07-17 02:45:49] INFO root fetch - main [MainThread]: End processing [cdk-monitoring-constructs]: success
+[2023-07-17 02:45:49] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.7.17.0.39.4.tar.gz]
+[2023-07-17 02:45:49] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz]
+[2023-07-17 02:45:49] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2023-07-17 02:45:49] INFO root fetch - main [MainThread]: Store serial: [18911200]
