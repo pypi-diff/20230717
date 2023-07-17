@@ -20765,3 +20765,216 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:19:06] INFO root fetch - processPackages [bump-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/bump_pydantic-0.4.0.tar.gz]
 [2023-07-17 16:19:06] INFO root fetch - main [MainThread]: End processing [bump-pydantic]: success
 [2023-07-17 16:19:06] INFO root fetch - main [MainThread]: Store serial: [18918053]
+[2023-07-17 16:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918053]
+[2023-07-17 16:24:15] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepl-cli
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skale-contracts
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psqlpandas
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collei
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-veryfi
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataclass-binder
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hpcflow-new2
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ztfidr
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bionty
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myopic-mces
+[2023-07-17 16:24:15] INFO root fetch - processPackages [ztfidr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [collei]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [deepl-cli]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [dataclass-binder]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [psqlpandas]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-07-17 16:24:15] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-17 16:24:15] WARNING root fetch - processPackages [myopic-mces]: Skipping, unable to determine old version
+[2023-07-17 16:24:15] INFO root fetch - processPackages [myopic-mces]: Start processing: PySolidState
+[2023-07-17 16:24:15] INFO root fetch - main [MainThread]: End processing [myopic-mces] error
+[2023-07-17 16:24:15] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/88/64/05c220616703ad6d07eda5a57ed43f0ad88896e1bc6e942c9d4f1ec72dad/psqlpandas-1.3.1.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [PySolidState]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-17 16:24:16] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/fc/b2/69c438a7965e64908af61ea79fa1aee3f7f461818088f5baa6f61c467832/ztfidr-0.9.4.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [deepl-cli]: Downloading https://files.pythonhosted.org/packages/89/56/44efc5317013d1c59e349a20f63c456c94dd4640697d6a10a7c9d75f0308/deepl_cli-0.5.0.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/ba/b3/c47f5cdde4bcb586b525f90977f4fea5ba21bc6d3423f6db9d1ae0b49f44/dj-veryfi-0.1.5.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/c3/20/c5d2c2855bda95f0ba89f0b733fa3006fcc4cc15c3f9a3e052a9ac01ff95/PySolidState-0.0.9.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [dataclass-binder]: Downloading https://files.pythonhosted.org/packages/6e/fe/ad477ed1e417002f5166a0de60b43c37bd03ad70a55d51c1180fae7fe971/dataclass_binder-0.3.0.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [collei]: Downloading https://files.pythonhosted.org/packages/66/84/7bc61187b6e9f6f72a250d102e6fda04ffad803137ca609a3825495954c9/collei-1.0.1.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/8c/cc/3019aa0470ed031ff5bd681ceea6241a95d574f2666eed9b7638b6a14875/psqlpandas-1.3.2-py3-none-any.whl
+[2023-07-17 16:24:16] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:24:16] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:24:16] INFO root fetch - processPackages [deepl-cli]: Downloading https://files.pythonhosted.org/packages/93/98/df1d6eb135ad9d165db161e98c00bce0b06e2cac2cd55a1d4d52b815d7eb/deepl_cli-0.5.1-py3-none-any.whl
+[2023-07-17 16:24:16] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/bc/d0/47246f9fb8747cbd26ef35b3847e616d0542b3d47a2aa532cd614575218b/ztfidr-0.9.5.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/15/2c/696fccb10fa0b2ed719cb4015f4b695aea107aa902352ec186430b30a835/dj-veryfi-0.1.7.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/cf/21/f991b171cb2cd75a83b0328ba7d685f95d2c43a0873d9a6df6812fa3fa71/PySolidState-0.1.0.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [dataclass-binder]: Downloading https://files.pythonhosted.org/packages/92/2e/34ea146ea12c28084ed4483471a67e8eeaeda02ba38413f29b446ba52752/dataclass_binder-0.3.1.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-07-17 16:24:16] INFO root fetch - processPackages [psqlpandas]: executing diffoscope
+[2023-07-17 16:24:16] INFO root fetch - processPackages [psqlpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psqlpandas-1.3.1.tar.gz tmp/psqlpandas-1.3.2-py3-none-any.whl.zip --markdown 20230717/p/psqlpandas/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-17 16:24:16] INFO root fetch - processPackages [collei]: Downloading https://files.pythonhosted.org/packages/1b/c1/a09498dbea7b7c8c6de1299354be97a22c3debdd940ed05196b2dd39a0c2/collei-1.0.2-py3-none-any.whl
+[2023-07-17 16:24:16] INFO root fetch - processPackages [deepl-cli]: executing diffoscope
+[2023-07-17 16:24:16] INFO root fetch - processPackages [deepl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_cli-0.5.0.tar.gz tmp/deepl_cli-0.5.1-py3-none-any.whl.zip --markdown 20230717/d/deepl-cli/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 16:24:16] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-17 16:24:16] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.5.tar.gz tmp/dj-veryfi-0.1.7.tar.gz --markdown 20230717/d/dj-veryfi/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 16:24:16] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-07-17 16:24:16] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.9.4.tar.gz tmp/ztfidr-0.9.5.tar.gz --markdown 20230717/z/ztfidr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-17 16:24:16] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-17 16:24:16] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.0.9.tar.gz tmp/PySolidState-0.1.0.tar.gz --markdown 20230717/P/PySolidState/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 16:24:17] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-07-17 16:24:17] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230717/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-17 16:24:17] INFO root fetch - processPackages [collei]: executing diffoscope
+[2023-07-17 16:24:17] INFO root fetch - processPackages [collei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collei-1.0.1.tar.gz tmp/collei-1.0.2-py3-none-any.whl.zip --markdown 20230717/c/collei/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 16:24:17] INFO root fetch - processPackages [dataclass-binder]: executing diffoscope
+[2023-07-17 16:24:17] INFO root fetch - processPackages [dataclass-binder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_binder-0.3.0.tar.gz tmp/dataclass_binder-0.3.1.tar.gz --markdown 20230717/d/dataclass-binder/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-17 16:24:17] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-07-17 16:24:17] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230717/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-07-17 16:24:18] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [skale-contracts]: Start processing: chgksuite
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.3.1.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.3.2-py3-none-any.whl.zip]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [psqlpandas]: Start processing: model-monitoring
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [psqlpandas]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/08/2b/0f75e642fcf6761c9237515450091e8f2eada4286e45f82cc52053558c7b/chgksuite-0.9.0.tar.gz
+[2023-07-17 16:24:18] INFO root fetch - processPackages [model-monitoring]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [deepl-cli]: Remove: archive file [/home/abi/fetcher/tmp/deepl_cli-0.5.0.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [deepl-cli]: Remove: archive file [/home/abi/fetcher/tmp/deepl_cli-0.5.1-py3-none-any.whl.zip]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [deepl-cli]: Start processing: pegasusX
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [deepl-cli]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [pegasusX]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/e3/c3/1fa1bb7d62cd36527c8dc8c4e050ebb40ea131b086bf7f4a8a4ee93c64e6/pegasusX-0.2.1.tar.gz
+[2023-07-17 16:24:18] INFO root fetch - processPackages [model-monitoring]: Downloading https://files.pythonhosted.org/packages/89/79/23ccb6159b4d7d0eee623e47894606fe60ff7757743199b912bcec9a753c/model_monitoring-1.1.3.tar.gz
+[2023-07-17 16:24:18] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.9.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.1.0.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [PySolidState]: Start processing: fabric-credmgr-client
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [collei]: Remove: archive file [/home/abi/fetcher/tmp/collei-1.0.1.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [collei]: Remove: archive file [/home/abi/fetcher/tmp/collei-1.0.2-py3-none-any.whl.zip]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [collei]: Start processing: maxia-pipedrive
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [collei]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [fabric-credmgr-client]: New version: [1.6.0b3] Old Version: [1.6.0b2]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [maxia-pipedrive]: New version: [1.4] Old Version: [1.1]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/cd/f6/800bb5f46eb8b4639b4c81f8c7ad31a582abdb353fd822359c239ec699fd/chgksuite-0.9.1.tar.gz
+[2023-07-17 16:24:18] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.5.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.7.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [dj-veryfi]: Start processing: Carter-Offline
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [dataclass-binder]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_binder-0.3.0.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [dataclass-binder]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_binder-0.3.1.tar.gz]
+[2023-07-17 16:24:18] INFO root fetch - processPackages [dataclass-binder]: Start processing: ory-oathkeeper-client
+[2023-07-17 16:24:18] INFO root fetch - main [MainThread]: End processing [dataclass-binder]: success
+[2023-07-17 16:24:18] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.5] Old Version: [2.0.4rc0]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [maxia-pipedrive]: Downloading https://files.pythonhosted.org/packages/99/88/a6e4f51dfb03e7393795f50ddd2f0889039f94e902228a07760d21c1ebb7/maxia_pipedrive-1.1.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [ory-oathkeeper-client]: New version: [0.40.5] Old Version: [0.40.4]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2023-07-17 16:24:19] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20230717/c/chgksuite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 16:24:19] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [hpcflow-new2]: Start processing: digimat.bac0
+[2023-07-17 16:24:19] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-07-17 16:24:19] INFO root fetch - processPackages [ztfidr]: Remove: archive file [/home/abi/fetcher/tmp/ztfidr-0.9.4.tar.gz]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [ztfidr]: Remove: archive file [/home/abi/fetcher/tmp/ztfidr-0.9.5.tar.gz]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [ztfidr]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-17 16:24:19] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-07-17 16:24:19] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/b0/0e/cb9d65a741e2f27dbb7ec73e4f33c4d2a60e43c248469aa42f4009749a6a/Carter-Offline-2.0.4rc0.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [bionty]: Start processing: skale-contracts
+[2023-07-17 16:24:19] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-07-17 16:24:19] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/84/79/5fd3f08ef42ac8dd62031a95ed37450f2982a03756fef1d1808bf1d03cbb/fabric-credmgr-client-1.6.0b2.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [model-monitoring]: Downloading https://files.pythonhosted.org/packages/8c/e9/bbb6abcb919e0f378f2cbbf3ded6bd2fd251c514555673bf0e690782ca0e/model_monitoring-1.1.4.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [ory-oathkeeper-client]: Downloading https://files.pythonhosted.org/packages/f4/78/2b82f5abbd9fe8f28836de7a1ca4ceb04069b2a2091db05ef3445c347e39/ory-oathkeeper-client-0.40.4.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:24:19] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/a6/ee/35da4af977c6c203893313c00014a0f697ad0cb74c7cf5fa744ca379cc2b/pegasusX-0.2.2.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [model-monitoring]: executing diffoscope
+[2023-07-17 16:24:19] INFO root fetch - processPackages [model-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_monitoring-1.1.3.tar.gz tmp/model_monitoring-1.1.4.tar.gz --markdown 20230717/m/model-monitoring/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-17 16:24:19] INFO root fetch - processPackages [maxia-pipedrive]: Downloading https://files.pythonhosted.org/packages/d7/86/bb03ca4266b7e14ed1501b4d4e7d78fc1410e271c1f094cb1a981e275b95/maxia_pipedrive-1.4.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/4a/28/42ba8f3f336e7b82ff805cb800e67fdeee6c1cc8c5cf8014793eaf631c87/Carter-Offline-2.0.5.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 16:24:19] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.2.1.tar.gz tmp/pegasusX-0.2.2.tar.gz --markdown 20230717/p/pegasusX/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 16:24:19] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [ory-oathkeeper-client]: Downloading https://files.pythonhosted.org/packages/0d/05/4ce9887b9dbf05340414bc16e6e6af587cb24f423d27c3f93053d711acd7/ory-oathkeeper-client-0.40.5.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [maxia-pipedrive]: executing diffoscope
+[2023-07-17 16:24:19] INFO root fetch - processPackages [maxia-pipedrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxia_pipedrive-1.1.tar.gz tmp/maxia_pipedrive-1.4.tar.gz --markdown 20230717/m/maxia-pipedrive/1.1-1.4/diff.md --exclude *.pyd
+[2023-07-17 16:24:19] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/d9/51/4340ee55a191c35ed5566fa0cf183a9253224e85746b9bd35f1ca752c6e5/fabric-credmgr-client-1.6.0b3.tar.gz
+[2023-07-17 16:24:19] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-17 16:24:19] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230717/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 16:24:19] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-07-17 16:24:19] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.4rc0.tar.gz tmp/Carter-Offline-2.0.5.tar.gz --markdown 20230717/C/Carter-Offline/2.0.4rc0-2.0.5/diff.md --exclude *.pyd
+[2023-07-17 16:24:20] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:24:20] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:24:20] INFO root fetch - processPackages [ory-oathkeeper-client]: executing diffoscope
+[2023-07-17 16:24:20] INFO root fetch - processPackages [ory-oathkeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-oathkeeper-client-0.40.4.tar.gz tmp/ory-oathkeeper-client-0.40.5.tar.gz --markdown 20230717/o/ory-oathkeeper-client/0.40.4-0.40.5/diff.md --exclude *.pyd
+[2023-07-17 16:24:20] INFO root fetch - processPackages [fabric-credmgr-client]: executing diffoscope
+[2023-07-17 16:24:20] INFO root fetch - processPackages [fabric-credmgr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-credmgr-client-1.6.0b2.tar.gz tmp/fabric-credmgr-client-1.6.0b3.tar.gz --markdown 20230717/f/fabric-credmgr-client/1.6.0b2-1.6.0b3/diff.md --exclude *.pyd
+[2023-07-17 16:24:20] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-17 16:24:20] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 16:24:20] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.0.tar.gz]
+[2023-07-17 16:24:20] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.1.tar.gz]
+[2023-07-17 16:24:20] INFO root fetch - processPackages [chgksuite]: Start processing: DKCloudCommand
+[2023-07-17 16:24:20] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2023-07-17 16:24:20] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.277rc1] Old Version: [1.1.276rc3]
+[2023-07-17 16:24:20] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/b0/cf/5b6c9f89341be026ae4e397862e3f7342c7f8640e7d2194e0c3651f0931b/DKCloudCommand-1.1.276rc3-py2.py3-none-any.whl
+[2023-07-17 16:24:21] INFO root fetch - processPackages [model-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/model_monitoring-1.1.3.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [model-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/model_monitoring-1.1.4.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [model-monitoring]: Start processing: meowy
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [model-monitoring]: success
+[2023-07-17 16:24:21] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.1.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.2.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [pegasusX]: Start processing: py-clob-client
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 16:24:21] INFO root fetch - processPackages [meowy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/f7/a5/6bccfec00f61b42df53edd93a7af9851bd0559e10997d439f85f296046e3/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl
+[2023-07-17 16:24:21] INFO root fetch - processPackages [py-clob-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [maxia-pipedrive]: Remove: archive file [/home/abi/fetcher/tmp/maxia_pipedrive-1.1.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [maxia-pipedrive]: Remove: archive file [/home/abi/fetcher/tmp/maxia_pipedrive-1.4.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [maxia-pipedrive]: success
+[2023-07-17 16:24:21] INFO root fetch - processPackages [meowy]: Downloading https://files.pythonhosted.org/packages/70/24/357c7355086c1466cd2345310354c0e2c687a1b75e57dc6d674bcec4ce57/meowy-1.0.0.tar.gz
+[2023-07-17 16:24:21] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-07-17 16:24:21] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.276rc3-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl.zip --markdown 20230717/D/DKCloudCommand/1.1.276rc3-1.1.277rc1/diff.md --exclude *.pyd
+[2023-07-17 16:24:21] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.4rc0.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.5.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-07-17 16:24:21] INFO root fetch - processPackages [py-clob-client]: Downloading https://files.pythonhosted.org/packages/86/92/a6533377fe315e8abfcdd3bdc311cfaf6ec6b7ceb57a4a2b704a68c8496c/py_clob_client-0.8.0.tar.gz
+[2023-07-17 16:24:21] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-17 16:24:21] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:24:21] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-17 16:24:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-17 16:24:22] INFO root fetch - processPackages [meowy]: Downloading https://files.pythonhosted.org/packages/65/d5/6b8e9fd364e5c603ab05ff9e9dd906f645bfe2b573fb358a63b113a557a4/meowy-1.0.1.tar.gz
+[2023-07-17 16:24:22] INFO root fetch - processPackages [ory-oathkeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-oathkeeper-client-0.40.4.tar.gz]
+[2023-07-17 16:24:22] INFO root fetch - processPackages [ory-oathkeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-oathkeeper-client-0.40.5.tar.gz]
+[2023-07-17 16:24:22] INFO root fetch - main [MainThread]: End processing [ory-oathkeeper-client]: success
+[2023-07-17 16:24:22] INFO root fetch - processPackages [py-clob-client]: Downloading https://files.pythonhosted.org/packages/85/41/e2c5c9799536adbdad984faeeb42c8f33ba55ab84a84cae054f4a83e4700/py_clob_client-0.9.0.tar.gz
+[2023-07-17 16:24:22] INFO root fetch - processPackages [meowy]: executing diffoscope
+[2023-07-17 16:24:22] INFO root fetch - processPackages [meowy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowy-1.0.0.tar.gz tmp/meowy-1.0.1.tar.gz --markdown 20230717/m/meowy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 16:24:22] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.6.0b2.tar.gz]
+[2023-07-17 16:24:22] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.6.0b3.tar.gz]
+[2023-07-17 16:24:22] INFO root fetch - main [MainThread]: End processing [fabric-credmgr-client]: success
+[2023-07-17 16:24:22] INFO root fetch - processPackages [py-clob-client]: executing diffoscope
+[2023-07-17 16:24:22] INFO root fetch - processPackages [py-clob-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_clob_client-0.8.0.tar.gz tmp/py_clob_client-0.9.0.tar.gz --markdown 20230717/p/py-clob-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 16:24:22] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.276rc3-py2.py3-none-any.whl.zip]
+[2023-07-17 16:24:22] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl.zip]
+[2023-07-17 16:24:22] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-07-17 16:24:23] INFO root fetch - processPackages [meowy]: Remove: archive file [/home/abi/fetcher/tmp/meowy-1.0.0.tar.gz]
+[2023-07-17 16:24:23] INFO root fetch - processPackages [meowy]: Remove: archive file [/home/abi/fetcher/tmp/meowy-1.0.1.tar.gz]
+[2023-07-17 16:24:23] INFO root fetch - main [MainThread]: End processing [meowy]: success
+[2023-07-17 16:24:23] INFO root fetch - processPackages [py-clob-client]: Remove: archive file [/home/abi/fetcher/tmp/py_clob_client-0.8.0.tar.gz]
+[2023-07-17 16:24:23] INFO root fetch - processPackages [py-clob-client]: Remove: archive file [/home/abi/fetcher/tmp/py_clob_client-0.9.0.tar.gz]
+[2023-07-17 16:24:23] INFO root fetch - main [MainThread]: End processing [py-clob-client]: success
+[2023-07-17 16:24:23] INFO root fetch - main [MainThread]: Store serial: [18918121]
