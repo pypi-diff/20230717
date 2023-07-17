@@ -15128,3 +15128,92 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:54:36] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.19.tar.gz]
 [2023-07-17 12:54:36] INFO root fetch - main [MainThread]: End processing [task2b]: success
 [2023-07-17 12:54:36] INFO root fetch - main [MainThread]: Store serial: [18915702]
+[2023-07-17 12:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915702]
+[2023-07-17 12:59:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-octostar-research
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: platform-library
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtreemesh
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upstash-ratelimit
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-profiles-brand
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canals
+[2023-07-17 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resolwe
+[2023-07-17 12:59:46] INFO root fetch - processPackages [platform-library]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [streamlit-octostar-research]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [selenium-profiles-brand]: New version: [2.2.7.3.1] Old Version: [2.2.7.3]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [canals]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [qtreemesh]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-17 12:59:46] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/9f/dc/d12cc5c7ebed32c5af58ee33ebdefbb406c7418d57a4d39092b3b30d5518/platform-library-0.1.1.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [selenium-profiles-brand]: Downloading https://files.pythonhosted.org/packages/6b/00/f808e498c4c8316e06564edffd52171519c6b181b28a4aa87beeb06bf9ee/selenium_profiles_brand-2.2.7.3.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/9d/af/a01dd5f07f41c72a872338ecbbf48e07dbfae6121c33dd341312d7089eac/canals-0.3.1.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [qtreemesh]: Downloading https://files.pythonhosted.org/packages/a1/00/f179ef87bda6ace95c963c8ac910feeb8e22f684d66e5fe92a1a7223d816/qtreemesh-0.0.1.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/f7/30/41bd2b7bd8dbf1c5bc4087cec3076306dcd7c07c947f73f771c882a33370/upstash_ratelimit-0.5.0.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [streamlit-octostar-research]: Downloading https://files.pythonhosted.org/packages/6d/a5/5674102e965fda7fa09cd0730c76ceae01b08b8a7e8b4e572d504e66dc07/streamlit-octostar-research-0.1.6.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/d7/85/abe578881cee92e2688140ed638509d61045261e95d2a388080b9b0591f4/platform-library-0.1.2.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-07-17 12:59:46] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.1.1.tar.gz tmp/platform-library-0.1.2.tar.gz --markdown 20230717/p/platform-library/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 12:59:46] INFO root fetch - processPackages [selenium-profiles-brand]: Downloading https://files.pythonhosted.org/packages/97/02/2b0cadbf5c1fd041b3d6ecd35a2cba2d87e231f648c6db2b2885d3365350/selenium_profiles_brand-2.2.7.3.1.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/ca/c2/78dfcce5a9a9597faa8e110879bef5c06ee23ef1220a79d0efea810087ce/canals-0.3.2.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [qtreemesh]: Downloading https://files.pythonhosted.org/packages/f0/14/6ad3b4e21cec2e19a190cf11cb3af39eee4804d5e0f87d566760a7460876/qtreemesh-0.1.1.tar.gz
+[2023-07-17 12:59:46] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-07-17 12:59:47] INFO root fetch - processPackages [streamlit-octostar-research]: Downloading https://files.pythonhosted.org/packages/be/15/011cccf53141941a5bc71378a2c6d139c01dfad227ed0a3edd407b56ecda/streamlit-octostar-research-0.1.7.tar.gz
+[2023-07-17 12:59:47] INFO root fetch - processPackages [selenium-profiles-brand]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [selenium-profiles-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_profiles_brand-2.2.7.3.tar.gz tmp/selenium_profiles_brand-2.2.7.3.1.tar.gz --markdown 20230717/s/selenium-profiles-brand/2.2.7.3-2.2.7.3.1/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [qtreemesh]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [qtreemesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtreemesh-0.0.1.tar.gz tmp/qtreemesh-0.1.1.tar.gz --markdown 20230717/q/qtreemesh/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-17 12:59:47] INFO root fetch - processPackages [canals]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [canals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canals-0.3.1.tar.gz tmp/canals-0.3.2.tar.gz --markdown 20230717/c/canals/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-17 12:59:47] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/ae/f9/607fed068dcf6557e1cc200e9a6a745a012dac9a78d0d667f86395d3fe24/upstash_ratelimit-0.5.1.tar.gz
+[2023-07-17 12:59:47] INFO root fetch - processPackages [streamlit-octostar-research]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [streamlit-octostar-research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-octostar-research-0.1.6.tar.gz tmp/streamlit-octostar-research-0.1.7.tar.gz --markdown 20230717/s/streamlit-octostar-research/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230717/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230717/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.5.0.tar.gz tmp/upstash_ratelimit-0.5.1.tar.gz --markdown 20230717/u/upstash-ratelimit/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230717/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-17 12:59:47] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-07-17 12:59:47] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230717/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-17 12:59:48] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.1.1.tar.gz]
+[2023-07-17 12:59:48] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.1.2.tar.gz]
+[2023-07-17 12:59:48] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-07-17 12:59:48] INFO root fetch - processPackages [qtreemesh]: Remove: archive file [/home/abi/fetcher/tmp/qtreemesh-0.0.1.tar.gz]
+[2023-07-17 12:59:48] INFO root fetch - processPackages [qtreemesh]: Remove: archive file [/home/abi/fetcher/tmp/qtreemesh-0.1.1.tar.gz]
+[2023-07-17 12:59:48] INFO root fetch - main [MainThread]: End processing [qtreemesh]: success
+[2023-07-17 12:59:48] INFO root fetch - processPackages [streamlit-octostar-research]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-octostar-research-0.1.6.tar.gz]
+[2023-07-17 12:59:48] INFO root fetch - processPackages [streamlit-octostar-research]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-octostar-research-0.1.7.tar.gz]
+[2023-07-17 12:59:48] INFO root fetch - main [MainThread]: End processing [streamlit-octostar-research]: success
+[2023-07-17 12:59:49] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.5.0.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.5.1.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-17 12:59:49] INFO root fetch - processPackages [selenium-profiles-brand]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles_brand-2.2.7.3.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - processPackages [selenium-profiles-brand]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles_brand-2.2.7.3.1.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - main [MainThread]: End processing [selenium-profiles-brand]: success
+[2023-07-17 12:59:49] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-17 12:59:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-17 12:59:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-17 12:59:49] INFO root fetch - processPackages [canals]: Remove: archive file [/home/abi/fetcher/tmp/canals-0.3.1.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - processPackages [canals]: Remove: archive file [/home/abi/fetcher/tmp/canals-0.3.2.tar.gz]
+[2023-07-17 12:59:49] INFO root fetch - main [MainThread]: End processing [canals]: success
+[2023-07-17 12:59:50] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-07-17 12:59:50] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-07-17 12:59:50] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-07-17 12:59:50] INFO root fetch - main [MainThread]: Store serial: [18915731]
