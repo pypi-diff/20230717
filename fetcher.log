@@ -22841,3 +22841,197 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 17:17:54] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
 [2023-07-17 17:17:54] INFO root fetch - main [MainThread]: End processing [finesse]: success
 [2023-07-17 17:17:54] INFO root fetch - main [MainThread]: Store serial: [18918826]
+[2023-07-17 17:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918826]
+[2023-07-17 17:23:07] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hserv
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: obis
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mexca
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-notification-sdk-preview
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Cython
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airavata-django-portal-sdk
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oak9-tython
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gen3-util
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-neat
+[2023-07-17 17:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shapelets-native
+[2023-07-17 17:23:08] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.786] Old Version: [0.1.784]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [airavata-django-portal-sdk]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [obis]: New version: [0.4.2rc5] Old Version: [0.4.2rc4]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [mexca]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.9] Old Version: [1.0.8b7]
+[2023-07-17 17:23:08] WARNING root fetch - processPackages [hserv]: Skipping, unable to determine old version
+[2023-07-17 17:23:08] INFO root fetch - processPackages [hserv]: Start processing: coiled
+[2023-07-17 17:23:08] INFO root fetch - main [MainThread]: End processing [hserv] error
+[2023-07-17 17:23:08] INFO root fetch - processPackages [gen3-util]: New version: [0.0.3rc2] Old Version: [0.0.3rc1]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [cognite-neat]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.89] Old Version: [2.0.88]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [Cython]: New version: [3.0a7] Old Version: [3.0a6]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-17 17:23:08] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/ba/65/090a681d43cebea093017988d6c5cb5d398c449f4d60c98c757f5c869175/oak9_tython-1.0.8b7.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/c9/d1/6e15780b38faf49e9e89624ec3a530b2ad6c7c58cf30462e22f571472244/obis-0.4.2rc4.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [airavata-django-portal-sdk]: Downloading https://files.pythonhosted.org/packages/20/e3/6dd0f5106b3afa9c10cc6807684d776601b732fa58dc5aa042d2264517fe/airavata-django-portal-sdk-1.8.3.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/4e/fc/62af3448159569719c5a0212bdf7ce6ffbfe4cdd0d25c4a939a0ffc1b038/lusid-notification-sdk-preview-0.1.784.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/48/40/fbdb40285eaf1e34789ed9c4e8ee3b92634f623598acda3aaca8180c102c/gen3_util-0.0.3rc1.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [mexca]: Downloading https://files.pythonhosted.org/packages/39/81/b809b9788e17b06026b35c48943f7d42586e5f4c1ad81b8e68e3d7c29619/mexca-0.4.0.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8d/33/4ca0d9a4f3236e66b63631b0be387ead925d667c0522c309aa8585df688f/cognite_neat-0.16.0.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/7a/ae/d0da7f38d0b36b084ec4d5cfe6ca5ff7fa6bd8ed30a0f11ab21e5505631d/shapelets_native-2.0.88-cp39-cp39-win_amd64.whl
+[2023-07-17 17:23:08] INFO root fetch - processPackages [Cython]: Downloading https://files.pythonhosted.org/packages/5b/40/8165ee55b276382b0c3ab3c1300020427d571d710675e70b9a6a0161dbd7/Cython-3.0a6.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/67/7f/b8887923346bacbd062a8653176487f834ba349eae4541381538b2fd30e5/lusid-notification-sdk-preview-0.1.786.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/af/36/8f01395527a0cc965e848898ade0281cc26d08ab3928486ce9d1e1aee26b/oak9_tython-1.0.9.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [airavata-django-portal-sdk]: Downloading https://files.pythonhosted.org/packages/c8/8b/22dab9a36bf22cd297e06b731ef76568436d957b641d1134da5a9a4121ab/airavata-django-portal-sdk-1.8.4.tar.gz
+[2023-07-17 17:23:08] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/56/f3/880b0f22b53f01b7ae2979dc1b518a5b9be724c54a8b5ded3826c96fe312/obis-0.4.2rc5.tar.gz
+[2023-07-17 17:23:09] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.784.tar.gz tmp/lusid-notification-sdk-preview-0.1.786.tar.gz --markdown 20230717/l/lusid-notification-sdk-preview/0.1.784-0.1.786/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [mexca]: Downloading https://files.pythonhosted.org/packages/60/ff/ffd3d29c1bedca6d7d23721fd931a5969dc7b0eefc0cedd912d61df73124/mexca-0.5.0.tar.gz
+[2023-07-17 17:23:09] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/6e/f2/8cce50085cf55361ce9fdc6c24b156d066f54a66b882a00a9d9ddc5a3f44/shapelets_native-2.0.89-cp38-cp38-win_amd64.whl
+[2023-07-17 17:23:09] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/5a/ec/a93e54b58320a2bd000f30160b103741eb221bbea236384e06a5959c145b/gen3_util-0.0.3rc2.tar.gz
+[2023-07-17 17:23:09] INFO root fetch - processPackages [airavata-django-portal-sdk]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [airavata-django-portal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airavata-django-portal-sdk-1.8.3.tar.gz tmp/airavata-django-portal-sdk-1.8.4.tar.gz --markdown 20230717/a/airavata-django-portal-sdk/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230717/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [mexca]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [mexca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mexca-0.4.0.tar.gz tmp/mexca-0.5.0.tar.gz --markdown 20230717/m/mexca/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [obis]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [obis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obis-0.4.2rc4.tar.gz tmp/obis-0.4.2rc5.tar.gz --markdown 20230717/o/obis/0.4.2rc4-0.4.2rc5/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/58/4d/8a5928bf5309022ac48ebfd08e639e1bcc09345467b5dff81733793fb3b3/cognite_neat-0.17.0.tar.gz
+[2023-07-17 17:23:09] INFO root fetch - processPackages [gen3-util]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [gen3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_util-0.0.3rc1.tar.gz tmp/gen3_util-0.0.3rc2.tar.gz --markdown 20230717/g/gen3-util/0.0.3rc1-0.0.3rc2/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [shapelets-native]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [shapelets-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets_native-2.0.88-cp39-cp39-win_amd64.whl.zip tmp/shapelets_native-2.0.89-cp38-cp38-win_amd64.whl.zip --markdown 20230717/s/shapelets-native/2.0.88-2.0.89/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.16.0.tar.gz tmp/cognite_neat-0.17.0.tar.gz --markdown 20230717/c/cognite-neat/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-07-17 17:23:09] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.8b7.tar.gz tmp/oak9_tython-1.0.9.tar.gz --markdown 20230717/o/oak9-tython/1.0.8b7-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:23:09] INFO root fetch - processPackages [Cython]: Downloading https://files.pythonhosted.org/packages/e5/96/c67b06e24002cac938eacdd72d390c30c5542b6ea0d7f886bf5bbfbd8231/Cython-3.0a7.tar.gz
+[2023-07-17 17:23:10] INFO root fetch - processPackages [Cython]: executing diffoscope
+[2023-07-17 17:23:10] INFO root fetch - processPackages [Cython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cython-3.0a6.tar.gz tmp/Cython-3.0a7.tar.gz --markdown 20230717/C/Cython/3.0a6-3.0a7/diff.md --exclude *.pyd
+[2023-07-17 17:23:10] INFO root fetch - processPackages [airavata-django-portal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/airavata-django-portal-sdk-1.8.3.tar.gz]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [airavata-django-portal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/airavata-django-portal-sdk-1.8.4.tar.gz]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [airavata-django-portal-sdk]: Start processing: balena-sdk
+[2023-07-17 17:23:10] INFO root fetch - main [MainThread]: End processing [airavata-django-portal-sdk]: success
+[2023-07-17 17:23:10] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.88-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.89-cp38-cp38-win_amd64.whl.zip]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [shapelets-native]: Start processing: ipfabric
+[2023-07-17 17:23:10] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
+[2023-07-17 17:23:10] INFO root fetch - processPackages [ipfabric]: New version: [6.3.2b0] Old Version: [6.3.1b2]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-07-17 17:23:10] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-17 17:23:10] INFO root fetch - processPackages [coiled]: Start processing: ipfabric
+[2023-07-17 17:23:10] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-17 17:23:10] INFO root fetch - processPackages [ipfabric]: New version: [6.3.2b0] Old Version: [6.3.1b2]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [mexca]: Remove: archive file [/home/abi/fetcher/tmp/mexca-0.4.0.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [mexca]: Remove: archive file [/home/abi/fetcher/tmp/mexca-0.5.0.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [mexca]: Start processing: molgraph
+[2023-07-17 17:23:11] INFO root fetch - main [MainThread]: End processing [mexca]: success
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/82/85/afe9254fcef7cbb809e404d8c98d87c1f0ec0f7539abbe6193be67a72b31/ipfabric-6.3.1b2.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [molgraph]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/82/85/afe9254fcef7cbb809e404d8c98d87c1f0ec0f7539abbe6193be67a72b31/ipfabric-6.3.1b2.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.3rc1.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.3rc2.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [gen3-util]: Start processing: pingertron
+[2023-07-17 17:23:11] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
+[2023-07-17 17:23:11] INFO root fetch - processPackages [pingertron]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/53/76/a5fe817fe71a0a0e833ba2f942b7fcf2c56bc413b2d63ada3916997e5a60/molgraph-0.5.4.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.784.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.786.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Start processing: typedhttp
+[2023-07-17 17:23:11] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-17 17:23:11] INFO root fetch - processPackages [typedhttp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc4.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc5.tar.gz]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [obis]: Start processing: ipfabric
+[2023-07-17 17:23:11] INFO root fetch - main [MainThread]: End processing [obis]: success
+[2023-07-17 17:23:11] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [pingertron]: Downloading https://files.pythonhosted.org/packages/e0/1f/6d66f6c35ad307f78d6b05c3fd46c6bdbbe53ea41cf9826254e793484a31/pingertron-0.2.0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [typedhttp]: Downloading https://files.pythonhosted.org/packages/74/5d/b934355ac1a4faaaaaaa653feef0145a5cc4866ef576cef5e95bf805654f/typedhttp-0.2.0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: New version: [6.3.2b0] Old Version: [6.3.1b2]
+[2023-07-17 17:23:11] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-07-17 17:23:11] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230717/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/3f/5e/f0c3df5e81efb4ec2947f4bae3b668925eb529c31bd685e17055c018aaf5/ipfabric-6.3.2b0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/3f/5e/f0c3df5e81efb4ec2947f4bae3b668925eb529c31bd685e17055c018aaf5/ipfabric-6.3.2b0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/fb/8d/ebbbe3c43df54fb880a5c75bbb38e833e9dbbe985b46d6cbad76181ea52f/molgraph-0.5.5.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/3f/5e/f0c3df5e81efb4ec2947f4bae3b668925eb529c31bd685e17055c018aaf5/ipfabric-6.3.2b0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.5.4.tar.gz tmp/molgraph-0.5.5.tar.gz --markdown 20230717/m/molgraph/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.3.1b2.tar.gz tmp/ipfabric-6.3.2b0.tar.gz --markdown 20230717/i/ipfabric/6.3.1b2-6.3.2b0/diff.md --exclude *.pyd
+[2023-07-17 17:23:11] INFO root fetch - processPackages [typedhttp]: Downloading https://files.pythonhosted.org/packages/f3/f8/4788f62253497eeec46c1d4f3e78059a134bb456dbfc461650f83abafde8/typedhttp-0.3.0.tar.gz
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.3.1b2.tar.gz tmp/ipfabric-6.3.2b0.tar.gz --markdown 20230717/i/ipfabric/6.3.1b2-6.3.2b0/diff.md --exclude *.pyd
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2023-07-17 17:23:11] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.3.1b2.tar.gz tmp/ipfabric-6.3.2b0.tar.gz --markdown 20230717/i/ipfabric/6.3.1b2-6.3.2b0/diff.md --exclude *.pyd
+[2023-07-17 17:23:11] INFO root fetch - processPackages [typedhttp]: executing diffoscope
+[2023-07-17 17:23:11] INFO root fetch - processPackages [typedhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhttp-0.2.0.tar.gz tmp/typedhttp-0.3.0.tar.gz --markdown 20230717/t/typedhttp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:23:11] INFO root fetch - processPackages [pingertron]: Downloading https://files.pythonhosted.org/packages/cb/42/5b2e15d4e350ffca82af86b2aaeb449fd756efdc9121acee2323a9e017d7/pingertron-0.3.0.tar.gz
+[2023-07-17 17:23:12] INFO root fetch - processPackages [pingertron]: executing diffoscope
+[2023-07-17 17:23:12] INFO root fetch - processPackages [pingertron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingertron-0.2.0.tar.gz tmp/pingertron-0.3.0.tar.gz --markdown 20230717/p/pingertron/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:23:13] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.4.1.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.5.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [balena-sdk]: Start processing: few-shot-priming
+[2023-07-17 17:23:13] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-07-17 17:23:13] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 17:23:13] INFO root fetch - processPackages [typedhttp]: Remove: archive file [/home/abi/fetcher/tmp/typedhttp-0.2.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [typedhttp]: Remove: archive file [/home/abi/fetcher/tmp/typedhttp-0.3.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [typedhttp]: Start processing: planetary-system-stacker
+[2023-07-17 17:23:13] INFO root fetch - main [MainThread]: End processing [typedhttp]: success
+[2023-07-17 17:23:13] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.8.3] Old Version: [0.9.8.2]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [pingertron]: Remove: archive file [/home/abi/fetcher/tmp/pingertron-0.2.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [pingertron]: Remove: archive file [/home/abi/fetcher/tmp/pingertron-0.3.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [pingertron]: Start processing: cenas
+[2023-07-17 17:23:13] INFO root fetch - main [MainThread]: End processing [pingertron]: success
+[2023-07-17 17:23:13] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 17:23:13] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.16.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.0.tar.gz]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [cognite-neat]: Start processing: planetary-system-stacker
+[2023-07-17 17:23:13] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-17 17:23:13] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/66/51/fe56b31104c8c270b226002b9537bead560038242970e3f62fd36ce869a9/planetary_system_stacker-0.9.8.2-py3-none-manylinux1_x86_64.whl
+[2023-07-17 17:23:13] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.8.3] Old Version: [0.9.8.2]
+[2023-07-17 17:23:13] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 17:23:13] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 17:23:13] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-17 17:23:13] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/66/51/fe56b31104c8c270b226002b9537bead560038242970e3f62fd36ce869a9/planetary_system_stacker-0.9.8.2-py3-none-manylinux1_x86_64.whl
+[2023-07-17 17:23:14] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-17 17:23:14] INFO root fetch - processPackages [ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric-6.3.1b2.tar.gz]
+[2023-07-17 17:23:14] INFO root fetch - processPackages [ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric-6.3.2b0.tar.gz]
+[2023-07-17 17:23:14] INFO root fetch - processPackages [ipfabric]: Start processing: planetary-system-stacker
+[2023-07-17 17:23:14] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.8.3] Old Version: [0.9.8.2]
+[2023-07-17 17:23:14] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2023-07-17 17:23:14] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2023-07-17 17:23:14] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.4.tar.gz]
+[2023-07-17 17:23:14] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.5.tar.gz]
+[2023-07-17 17:23:14] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-07-17 17:23:14] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-17 17:23:14] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230717/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/c7/44/6dff349efdbc8071790c93a5d42b0f030f50bcb93b6771a75bd964544e15/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/c7/44/6dff349efdbc8071790c93a5d42b0f030f50bcb93b6771a75bd964544e15/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/c7/44/6dff349efdbc8071790c93a5d42b0f030f50bcb93b6771a75bd964544e15/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.8.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230717/p/planetary-system-stacker/0.9.8.2-0.9.8.3/diff.md --exclude *.pyd
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.8.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230717/p/planetary-system-stacker/0.9.8.2-0.9.8.3/diff.md --exclude *.pyd
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-07-17 17:23:14] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.8.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230717/p/planetary-system-stacker/0.9.8.2-0.9.8.3/diff.md --exclude *.pyd
+[2023-07-17 17:23:15] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 17:23:15] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 17:23:15] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 17:23:15] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-17 17:23:15] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-17 17:23:15] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-17 17:23:15] INFO root fetch - processPackages [planetary-system-stacker]: Remove: archive file [/home/abi/fetcher/tmp/planetary_system_stacker-0.9.8.2-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 17:23:15] INFO root fetch - processPackages [planetary-system-stacker]: Remove: archive file [/home/abi/fetcher/tmp/planetary_system_stacker-0.9.8.3-py3-none-macosx_10_6_intel.whl.zip]
+[2023-07-17 17:23:15] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-07-17 17:23:15] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-07-17 17:23:15] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-07-17 17:23:18] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.8b7.tar.gz]
+[2023-07-17 17:23:18] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.9.tar.gz]
+[2023-07-17 17:23:18] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-07-17 17:23:27] INFO root fetch - processPackages [Cython]: Remove: archive file [/home/abi/fetcher/tmp/Cython-3.0a6.tar.gz]
+[2023-07-17 17:23:27] INFO root fetch - processPackages [Cython]: Remove: archive file [/home/abi/fetcher/tmp/Cython-3.0a7.tar.gz]
+[2023-07-17 17:23:27] INFO root fetch - main [MainThread]: End processing [Cython]: success
+[2023-07-17 17:23:27] INFO root fetch - main [MainThread]: Store serial: [18918937]
