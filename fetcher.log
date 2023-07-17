@@ -11275,3 +11275,158 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:30:40] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-17 10:30:40] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-17 10:30:40] INFO root fetch - main [MainThread]: Store serial: [18914076]
+[2023-07-17 10:35:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914076]
+[2023-07-17 10:35:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rayen
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-webview
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esupar
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQtGuiLib-PySide
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-test-common
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: c2cciutils
+[2023-07-17 10:35:49] INFO root fetch - processPackages [rayen]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [esupar]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ckanext-webview]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [PyQtGuiLib-PySide]: New version: [1.2] Old Version: [1.1]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.491.1]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-17 10:35:49] INFO root fetch - processPackages [rayen]: Downloading https://files.pythonhosted.org/packages/b9/f8/42489b71b470ba2154a2dd004928ee234a67ecc7900caf5e5c476e7277ac/rayen-0.0.3.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/62/ea/c5ba2c2199b3ea8e278f903478d26271beb18b939d7b08e33fc67183f3e1/esupar-1.6.3-py3-none-any.whl
+[2023-07-17 10:35:49] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/bb/fa/21ace2b1a52d390186b377da84db7845c39e2a538018a77d5ac67c72c2df/RapidMangaDL-0.0.4.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Downloading https://files.pythonhosted.org/packages/a8/e8/8f92d51cc4273569736329e6e4592d7bb5a9594857a090f3b9b2e1cdcaa0/PyQtGuiLib-PySide-1.1.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/ac/a0/b92b743681cdd87ff6f7f9dfb16a1f97321fb2ade83c422f20731a4a0abd/stigg_api_client-0.491.1.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-17 10:35:49] INFO root fetch - processPackages [ckanext-webview]: Downloading https://files.pythonhosted.org/packages/fd/37/6a593fd4b460704c3cc6e17db1190e7b77f2af40c5bd861549a166162904/ckanext-webview-1.1.7.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [rayen]: Downloading https://files.pythonhosted.org/packages/fc/8d/5ed010d4df83741faa3aa3d56c4dcb457fd840ac6f3fdf68868325e379ce/rayen-0.0.4.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/87/06/c354564d8bf7dce5e8c9739182dbab9131cd98e52c5cf06c94d6f5230276/esupar-1.6.4-py3-none-any.whl
+[2023-07-17 10:35:50] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/82/d0/60fb860d1185c7733c289be781a144f810a849f83094ae13a6b0ab1e5331/RapidMangaDL-0.0.5.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Downloading https://files.pythonhosted.org/packages/6c/d8/b187e185f20c031523fce538a0b5ac95ad6a91e4904ff0c4fdd0f9728cb2/PyQtGuiLib-PySide-1.2.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230717/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [PyQtGuiLib-PySide]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [PyQtGuiLib-PySide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtGuiLib-PySide-1.1.tar.gz tmp/PyQtGuiLib-PySide-1.2.tar.gz --markdown 20230717/P/PyQtGuiLib-PySide/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [esupar]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [esupar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esupar-1.6.3-py3-none-any.whl.zip tmp/esupar-1.6.4-py3-none-any.whl.zip --markdown 20230717/e/esupar/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [rayen]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [rayen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayen-0.0.3.tar.gz tmp/rayen-0.0.4.tar.gz --markdown 20230717/r/rayen/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [ckanext-webview]: Downloading https://files.pythonhosted.org/packages/71/3c/09c8487ff723d6be5b5c9d56f20ea41f4e36f97ebafb31892dda9390e59a/ckanext-webview-1.1.8.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.4.tar.gz tmp/RapidMangaDL-0.0.5.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-17 10:35:50] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.491.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230717/s/stigg-api-client/0.491.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [ckanext-webview]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [ckanext-webview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-webview-1.1.7.tar.gz tmp/ckanext-webview-1.1.8.tar.gz --markdown 20230717/c/ckanext-webview/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230717/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230717/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-17 10:35:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230717/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-17 10:35:51] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [auto-test-common]: Start processing: shapelets-platform
+[2023-07-17 10:35:51] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-07-17 10:35:51] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.88] Old Version: [2.0.87]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.6.3-py3-none-any.whl.zip]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.6.4-py3-none-any.whl.zip]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [esupar]: Start processing: openlane
+[2023-07-17 10:35:51] INFO root fetch - main [MainThread]: End processing [esupar]: success
+[2023-07-17 10:35:51] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-PySide-1.1.tar.gz]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-PySide-1.2.tar.gz]
+[2023-07-17 10:35:51] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Start processing: terminal-manager
+[2023-07-17 10:35:51] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib-PySide]: success
+[2023-07-17 10:35:52] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.491.1.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [stigg-api-client]: Start processing: nvfuser-cu121
+[2023-07-17 10:35:52] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-17 10:35:52] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/44/5d/610870652a9ff8ce30f0a4d11980c647eb5cda9686d029429f86be83e637/terminal_manager-0.8.1.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.4.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.5.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [RapidMangaDL]: Start processing: ffmpy
+[2023-07-17 10:35:52] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 10:35:52] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/b7/e8/ff7b53fb9181db57fd0ac4c22d220ebd8753d00eb8ac53a835666dff48a9/shapelets-platform-2.0.87.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [ckanext-webview]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-webview-1.1.7.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [ckanext-webview]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-webview-1.1.8.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [ckanext-webview]: Start processing: Werkzeug-mireq
+[2023-07-17 10:35:52] INFO root fetch - main [MainThread]: End processing [ckanext-webview]: success
+[2023-07-17 10:35:52] INFO root fetch - processPackages [ffmpy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:35:52] WARNING root fetch - processPackages [Werkzeug-mireq]: Skipping, unable to determine old version
+[2023-07-17 10:35:52] INFO root fetch - processPackages [Werkzeug-mireq]: Start processing: whop-api-wrapper
+[2023-07-17 10:35:52] INFO root fetch - main [MainThread]: End processing [Werkzeug-mireq] error
+[2023-07-17 10:35:52] INFO root fetch - processPackages [rayen]: Remove: archive file [/home/abi/fetcher/tmp/rayen-0.0.3.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [rayen]: Remove: archive file [/home/abi/fetcher/tmp/rayen-0.0.4.tar.gz]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [rayen]: Start processing: nvfuser-cu118
+[2023-07-17 10:35:52] INFO root fetch - main [MainThread]: End processing [rayen]: success
+[2023-07-17 10:35:52] INFO root fetch - processPackages [whop-api-wrapper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [ffmpy]: Downloading https://files.pythonhosted.org/packages/bf/e2/947df4b3d666bfdd2b0c6355d215c45d2d40f929451cb29a8a2995b29788/ffmpy-0.3.0.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/28/d4/7334ffc683ee983c908f25cb651636f7d1573a9accd2f0c7dcb91aed0e7a/terminal_manager-0.8.2.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/26/11/17d5c59aafc3ae860b62e867228367fb05bf8a939f78c6a768dd1eb522a2/whop-api-wrapper-1.0.3.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-17 10:35:52] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-17 10:35:52] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.1.tar.gz tmp/terminal_manager-0.8.2.tar.gz --markdown 20230717/t/terminal-manager/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-17 10:35:52] INFO root fetch - processPackages [ffmpy]: Downloading https://files.pythonhosted.org/packages/9a/06/49b275a312eb207e2a2718a7414dedfded05088437352b67aaa9a355f948/ffmpy-0.3.1.tar.gz
+[2023-07-17 10:35:52] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/fa/f6a23a328111b60e4b66d031911e8259e24a6cc9e0db21088ca067b85234/whop-api-wrapper-1.0.4.tar.gz
+[2023-07-17 10:35:53] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:35:53] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-07-17 10:35:53] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230717/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 10:35:53] INFO root fetch - processPackages [whop-api-wrapper]: executing diffoscope
+[2023-07-17 10:35:53] INFO root fetch - processPackages [whop-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whop-api-wrapper-1.0.3.tar.gz tmp/whop-api-wrapper-1.0.4.tar.gz --markdown 20230717/w/whop-api-wrapper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-17 10:35:53] INFO root fetch - processPackages [ffmpy]: executing diffoscope
+[2023-07-17 10:35:53] INFO root fetch - processPackages [ffmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpy-0.3.0.tar.gz tmp/ffmpy-0.3.1.tar.gz --markdown 20230717/f/ffmpy/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-17 10:35:53] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:35:53] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/56/d7/2e4a63714c50cc43bb6f3d82d74e7908e63a1b7ee348ab87baa636e1e10b/shapelets-platform-2.0.88.tar.gz
+[2023-07-17 10:35:53] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:35:53] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-07-17 10:35:53] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.87.tar.gz tmp/shapelets-platform-2.0.88.tar.gz --markdown 20230717/s/shapelets-platform/2.0.87-2.0.88/diff.md --exclude *.pyd
+[2023-07-17 10:35:54] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.3.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.4.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - main [MainThread]: End processing [whop-api-wrapper]: success
+[2023-07-17 10:35:54] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.1.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.2.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-17 10:35:54] INFO root fetch - processPackages [ffmpy]: Remove: archive file [/home/abi/fetcher/tmp/ffmpy-0.3.0.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - processPackages [ffmpy]: Remove: archive file [/home/abi/fetcher/tmp/ffmpy-0.3.1.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - main [MainThread]: End processing [ffmpy]: success
+[2023-07-17 10:35:54] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-17 10:35:54] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230717/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-17 10:35:54] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-17 10:35:54] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230717/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-17 10:35:54] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-07-17 10:35:54] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-07-17 10:35:56] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 10:35:56] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-17 10:35:56] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 10:35:56] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-17 10:35:56] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-17 10:35:56] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-17 10:35:56] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.87.tar.gz]
+[2023-07-17 10:35:56] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.88.tar.gz]
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-07-17 10:35:56] INFO root fetch - main [MainThread]: Store serial: [18914134]
