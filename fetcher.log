@@ -1125,3 +1125,78 @@
 [2023-07-17 02:02:48] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.4.tar.gz]
 [2023-07-17 02:02:48] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
 [2023-07-17 02:02:48] INFO root fetch - main [MainThread]: Store serial: [18910148]
+[2023-07-17 02:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910148]
+[2023-07-17 02:07:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unigui
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fondat
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli
+[2023-07-17 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mentpy
+[2023-07-17 02:07:56] INFO root fetch - processPackages [fondat]: New version: [4.1.8] Old Version: [4.1.7]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [unigui]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230716.post515] Old Version: [1.9.0.20230715.post417]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230716] Old Version: [0.0.8.dev20230715]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689465836] Old Version: [1689379423]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [mentpy]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-17 02:07:56] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/f9/db/a21def4f1bfa59bbac6854069b1f7cd9499640e6d7bf421c29c727a645f1/unigui-1.8.3.tar.gz
+[2023-07-17 02:07:56] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-17 02:07:56] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/02/c4/4a9d72c7ab2e10d94785ea92db81ab5a971611ef53cfb672d9b9d400a541/fondat-4.1.7.tar.gz
+[2023-07-17 02:07:56] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/82/80/f7e6e4c36a9a5c7f8c2c9b319187063fe2b58a7205144ed37757a90a285f/jaxutils-nightly-0.0.8.dev20230715.tar.gz
+[2023-07-17 02:07:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/41/e0/a2fdd805bc852aa74f9b12b569e95887e918adda8033d51163d4fe9478d9/mct-nightly-1.9.0.20230715.post417.tar.gz
+[2023-07-17 02:07:56] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/0e/d1/cb6299ecd10d17511e71a4057cc6acfb14109093db55d44c1e00b084fca2/torchdatasets-nightly-1689379423.tar.gz
+[2023-07-17 02:07:56] INFO root fetch - processPackages [mentpy]: Downloading https://files.pythonhosted.org/packages/5a/2b/36a39c9aa1d247ae70b95f8ee2ab4aeedfffa91a0b9c2e7263c878e47be3/mentpy-0.1.0a7.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/d9/d9/1c7369f929cd457b6d1bbfb270bb1778b772f9034803f63dd034ca47323b/fondat-4.1.8.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/07/79/18e770cc993f323b011a50f14b43e5d7b0bd00e399d76d5e2f63f7ee266d/unigui-1.8.4.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/14/22/ed342876ff0fcdd478aeeb778d9deeb7df37f833fac3d698476e3d5f90de/torchdatasets-nightly-1689465836.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/4a/d4/8eaba53db59c4c023ff58592b32ade864844bd70b62f155056bf0de4faa8/jaxutils-nightly-0.0.8.dev20230716.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [fondat]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [fondat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat-4.1.7.tar.gz tmp/fondat-4.1.8.tar.gz --markdown 20230717/f/fondat/4.1.7-4.1.8/diff.md --exclude *.pyd
+[2023-07-17 02:07:57] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/54/f9/5eaf324d225b8b85c6fb7bb4690c2398b9e8bb157a3be2fe0c13ef1a11dd/mct-nightly-1.9.0.20230716.post515.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.8.3.tar.gz tmp/unigui-1.8.4.tar.gz --markdown 20230717/u/unigui/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-17 02:07:57] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689379423.tar.gz tmp/torchdatasets-nightly-1689465836.tar.gz --markdown 20230717/t/torchdatasets-nightly/1689379423-1689465836/diff.md --exclude *.pyd
+[2023-07-17 02:07:57] INFO root fetch - processPackages [mentpy]: Downloading https://files.pythonhosted.org/packages/8a/9d/e9e1659a14367b7920d9519e838689aec6cdded9de859121f8961b13a731/mentpy-0.1.0a8.tar.gz
+[2023-07-17 02:07:57] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230715.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230716.tar.gz --markdown 20230717/j/jaxutils-nightly/0.0.8.dev20230715-0.0.8.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 02:07:57] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230717/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-17 02:07:57] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230715.post417.tar.gz tmp/mct-nightly-1.9.0.20230716.post515.tar.gz --markdown 20230717/m/mct-nightly/1.9.0.20230715.post417-1.9.0.20230716.post515/diff.md --exclude *.pyd
+[2023-07-17 02:07:57] INFO root fetch - processPackages [mentpy]: executing diffoscope
+[2023-07-17 02:07:57] INFO root fetch - processPackages [mentpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentpy-0.1.0a7.tar.gz tmp/mentpy-0.1.0a8.tar.gz --markdown 20230717/m/mentpy/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-17 02:07:58] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-07-17 02:07:58] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-07-17 02:07:58] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230717/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-17 02:07:58] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.7.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.8.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - main [MainThread]: End processing [fondat]: success
+[2023-07-17 02:07:58] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230715.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230716.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-17 02:07:58] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689379423.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689465836.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-17 02:07:58] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-17 02:07:58] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-17 02:07:59] INFO root fetch - processPackages [mentpy]: Remove: archive file [/home/abi/fetcher/tmp/mentpy-0.1.0a7.tar.gz]
+[2023-07-17 02:07:59] INFO root fetch - processPackages [mentpy]: Remove: archive file [/home/abi/fetcher/tmp/mentpy-0.1.0a8.tar.gz]
+[2023-07-17 02:07:59] INFO root fetch - main [MainThread]: End processing [mentpy]: success
+[2023-07-17 02:08:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230715.post417.tar.gz]
+[2023-07-17 02:08:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230716.post515.tar.gz]
+[2023-07-17 02:08:00] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-17 02:08:01] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-07-17 02:08:01] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-07-17 02:08:01] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-07-17 02:08:12] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.3.tar.gz]
+[2023-07-17 02:08:12] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.4.tar.gz]
+[2023-07-17 02:08:12] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-17 02:08:12] INFO root fetch - main [MainThread]: Store serial: [18910171]
