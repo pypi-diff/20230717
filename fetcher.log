@@ -6616,3 +6616,72 @@
 [2023-07-17 05:40:01] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
 [2023-07-17 05:40:01] INFO root fetch - main [MainThread]: End processing [caqui]: success
 [2023-07-17 05:40:01] INFO root fetch - main [MainThread]: Store serial: [18912158]
+[2023-07-17 05:45:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912158]
+[2023-07-17 05:45:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokenmonster
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnc-bench
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsrs4anki-optimizer
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaserver-buckets
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pegasusX
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2023-07-17 05:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: electrolytes
+[2023-07-17 05:45:10] INFO root fetch - processPackages [onnc-bench]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-07-17 05:45:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.1.0] Old Version: [4.0.4]
+[2023-07-17 05:45:10] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-17 05:45:10] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 05:45:10] WARNING root fetch - processPackages [pegasusX]: Skipping, unable to determine old version
+[2023-07-17 05:45:10] INFO root fetch - main [MainThread]: End processing [pegasusX] error
+[2023-07-17 05:45:10] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.83]
+[2023-07-17 05:45:10] INFO root fetch - processPackages [electrolytes]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 05:45:10] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 05:45:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/0e/4fde403eab1d44d4c7a2d7da8b272ab2d10cbe5080fa9c2ccc666db24de0/fsrs4anki_optimizer-4.0.4.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/fc/d6/1c60f668061544352eaeadfb35ec125580ffa8f73089e46ceed609c855c3/heaserver-buckets-1.0.0a8.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/83/ee/06818d01b5776cb1bd44d28e7be159debafa4added5711e164bc3d71adcd/tokenmonster-1.1.5.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/7e/7b/90db67bc312f0b8dc5bb70530bbdfd8505f294bad21181770e2d4956e76c/sj_tool-1.0.83-py3-none-any.whl
+[2023-07-17 05:45:10] INFO root fetch - processPackages [onnc-bench]: Downloading https://files.pythonhosted.org/packages/2d/1d/7c53f4f8596761ce05d7cbaddeed73fb0f2f375e5c2750c5ad06b3fe2dd3/onnc-bench-4.3.0.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/6d/67/b46bb4f2c99382404b5bf6c658a8579eab4023d58e7559e9f0579683b1da/electrolytes-0.2.1.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/4d/60/7a6118e0c68cc6934cfbc2b25d3a6f5193ae5ab0d0c9b3787970dfd52e5c/heaserver-buckets-1.0.0a9.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 05:45:10] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 05:45:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/2f/2d/78c5fd970336e61245c2d2f34dd1295787c72d7d7dea2a771049a45714c0/fsrs4anki_optimizer-4.1.0.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-17 05:45:10] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-07-17 05:45:10] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 05:45:10] INFO root fetch - processPackages [onnc-bench]: Downloading https://files.pythonhosted.org/packages/a9/95/cfb7969923124cfc6e841252b7f9cf2b34688b338b81c7463789765707ec/onnc-bench-4.3.1.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-17 05:45:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.0.4.tar.gz tmp/fsrs4anki_optimizer-4.1.0.tar.gz --markdown 20230717/f/fsrs4anki-optimizer/4.0.4-4.1.0/diff.md --exclude *.pyd
+[2023-07-17 05:45:10] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/90/5e/712190af9be4ee37932de26a7b0c4ad28b2d5ed3a412399cfa92aeaba853/tokenmonster-1.1.6.tar.gz
+[2023-07-17 05:45:10] INFO root fetch - processPackages [onnc-bench]: executing diffoscope
+[2023-07-17 05:45:10] INFO root fetch - processPackages [onnc-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnc-bench-4.3.0.tar.gz tmp/onnc-bench-4.3.1.tar.gz --markdown 20230717/o/onnc-bench/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-07-17 05:45:11] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/d4/74/ea73bc3bd7cad4f2489c53b4e3e367291ad5870cec8b7fca3051a27c1473/electrolytes-0.2.2.tar.gz
+[2023-07-17 05:45:11] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-17 05:45:11] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.83-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230717/s/sj-tool/1.0.83-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 05:45:11] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-17 05:45:11] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.1.5.tar.gz tmp/tokenmonster-1.1.6.tar.gz --markdown 20230717/t/tokenmonster/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-17 05:45:11] INFO root fetch - processPackages [electrolytes]: executing diffoscope
+[2023-07-17 05:45:11] INFO root fetch - processPackages [electrolytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrolytes-0.2.1.tar.gz tmp/electrolytes-0.2.2.tar.gz --markdown 20230717/e/electrolytes/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 05:45:12] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a8.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a9.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-07-17 05:45:12] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 05:45:12] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.0.4.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.1.0.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-17 05:45:12] INFO root fetch - processPackages [onnc-bench]: Remove: archive file [/home/abi/fetcher/tmp/onnc-bench-4.3.0.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [onnc-bench]: Remove: archive file [/home/abi/fetcher/tmp/onnc-bench-4.3.1.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [onnc-bench]: success
+[2023-07-17 05:45:12] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.5.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.6.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-17 05:45:12] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.2.1.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.2.2.tar.gz]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [electrolytes]: success
+[2023-07-17 05:45:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.83-py3-none-any.whl.zip]
+[2023-07-17 05:45:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-17 05:45:12] INFO root fetch - main [MainThread]: Store serial: [18912183]
