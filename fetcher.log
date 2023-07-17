@@ -17189,3 +17189,102 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:31:38] INFO root fetch - processPackages [starlite]: Remove: archive file [/home/abi/fetcher/tmp/starlite-2.0.0a2.tar.gz]
 [2023-07-17 14:31:38] INFO root fetch - main [MainThread]: End processing [starlite]: success
 [2023-07-17 14:31:38] INFO root fetch - main [MainThread]: Store serial: [18916673]
+[2023-07-17 14:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916673]
+[2023-07-17 14:36:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysqlbuilder
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langroid
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ioddcombase
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamaestro-text
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolo
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: su6-plugin-svelte-check
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smodels
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: image-analyst-onnx
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-openai-tr
+[2023-07-17 14:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geoxarray
+[2023-07-17 14:36:48] INFO root fetch - processPackages [image-analyst-onnx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [mysqlbuilder]: New version: [1.0.18] Old Version: [1.0.14]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [smodels]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 14:36:49] WARNING root fetch - processPackages [geoxarray]: Skipping, unable to determine old version
+[2023-07-17 14:36:49] INFO root fetch - processPackages [geoxarray]: Start processing: robotframework-robosapiens
+[2023-07-17 14:36:49] INFO root fetch - main [MainThread]: End processing [geoxarray] error
+[2023-07-17 14:36:49] WARNING root fetch - processPackages [su6-plugin-svelte-check]: Skipping, unable to determine old version
+[2023-07-17 14:36:49] INFO root fetch - processPackages [su6-plugin-svelte-check]: Start processing: pyoxynet
+[2023-07-17 14:36:49] INFO root fetch - main [MainThread]: End processing [su6-plugin-svelte-check] error
+[2023-07-17 14:36:49] INFO root fetch - processPackages [azure-openai-tr]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [datamaestro-text]: New version: [2023.7.6.1] Old Version: [2023.7.6]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [kolo]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [ioddcombase]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/13/a6/0dee626c399020dd89b4265f1c89877850fd6c0a73192337e9419f7cddd6/mysqlbuilder-1.0.14.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [image-analyst-onnx]: Downloading https://files.pythonhosted.org/packages/f4/89/ca80abaa77666392a3277b10a272fe8087fabc71b268b43bf73cba02dd1c/image_analyst_onnx-0.1.0.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/ac/7b/b489384148b371cb229cff0d83be8f409510aa022c53e01429f54267d6ee/robotframework_robosapiens-1.2.2-py3-none-any.whl
+[2023-07-17 14:36:49] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-17 14:36:49] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/f9/1a/dd108d9edbccf912f4b78520ab7c3ddc6df0c064bff5c7f1b3b50ce67a5d/kolo-2.9.3.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/6d/b9/2da00b8c9dffc9bc4d7e39c1980207162a9529255ed4b22f965aa3fd2f34/azure_openai_tr-0.1.0a0.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/c2/b6/07d7e2bebfd85d32313a5149497dd813d306e9666c8e7b5809b6b2c16220/datamaestro-text-2023.7.6.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [ioddcombase]: Downloading https://files.pythonhosted.org/packages/56/54/97ab8e4ccd81b67586ee736ace3138a3ba0e8aaafb0f1ab4a88cda2cb387/ioddcombase-1.6.7-cp39-cp39-win_amd64.whl
+[2023-07-17 14:36:49] INFO root fetch - processPackages [smodels]: Downloading https://files.pythonhosted.org/packages/2f/79/60e319c2732f32ad9a7ecd6b2e259c59934c70fdc2d24b1b53df5b36ba19/smodels-2.3.0.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [image-analyst-onnx]: Downloading https://files.pythonhosted.org/packages/0a/ec/9ea7eb463bbc3faea37f928aaa1d6a95e8a892aeac2b56eecc083a1cbf27/image_analyst_onnx-0.1.1.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/93/1c/7bb90d6c2c3fdb67a3c065d5435f2527f6185181d5aa8800eb0a89fcf95a/mysqlbuilder-1.0.18.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/d7/35/a0c2cdd9206f5a6dc51ac47598f4fd1b57fc73cb1beeaccdab9217197099/kolo-2.9.4.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/e2/ca/e340e5d6be5ddff98e10be1c35a0bfae3ac32c2f358d2d5ec6d575108e8a/azure_openai_tr-0.1.0a1.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/e9/77/2c8f6b171b34dc0563bd614fcc0c506c20f54af2ed1492b99f0d90d34555/datamaestro-text-2023.7.6.1.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-17 14:36:49] INFO root fetch - processPackages [kolo]: executing diffoscope
+[2023-07-17 14:36:49] INFO root fetch - processPackages [kolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolo-2.9.3.tar.gz tmp/kolo-2.9.4.tar.gz --markdown 20230717/k/kolo/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [mysqlbuilder]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [mysqlbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlbuilder-1.0.14.tar.gz tmp/mysqlbuilder-1.0.18.tar.gz --markdown 20230717/m/mysqlbuilder/1.0.14-1.0.18/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [image-analyst-onnx]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [image-analyst-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst_onnx-0.1.0.tar.gz tmp/image_analyst_onnx-0.1.1.tar.gz --markdown 20230717/i/image-analyst-onnx/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [azure-openai-tr]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [azure-openai-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_openai_tr-0.1.0a0.tar.gz tmp/azure_openai_tr-0.1.0a1.tar.gz --markdown 20230717/a/azure-openai-tr/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230717/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [datamaestro-text]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [datamaestro-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaestro-text-2023.7.6.tar.gz tmp/datamaestro-text-2023.7.6.1.tar.gz --markdown 20230717/d/datamaestro-text/2023.7.6-2023.7.6.1/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [ioddcombase]: Downloading https://files.pythonhosted.org/packages/e0/f4/47fc38917bc5b5a796935b5a4b041293d8777fe7a9e9452b74272fb52ffa/ioddcombase-1.6.8-cp39-cp39-win_amd64.whl
+[2023-07-17 14:36:50] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/22/f5/90ec19e43c4bdf903004da33045726d916af50a91d2739e71372a37e954b/robotframework_robosapiens-1.2.3-py3-none-any.whl
+[2023-07-17 14:36:50] INFO root fetch - processPackages [ioddcombase]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [ioddcombase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioddcombase-1.6.7-cp39-cp39-win_amd64.whl.zip tmp/ioddcombase-1.6.8-cp39-cp39-win_amd64.whl.zip --markdown 20230717/i/ioddcombase/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-07-17 14:36:50] INFO root fetch - processPackages [smodels]: Downloading https://files.pythonhosted.org/packages/1c/56/45f2f60c7ec988d92683fc97167bed593b3d434ac65489cc58a2945194d5/smodels-2.3.1.tar.gz
+[2023-07-17 14:36:50] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2023-07-17 14:36:50] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.2.2-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.2.3-py3-none-any.whl.zip --markdown 20230717/r/robotframework-robosapiens/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-17 14:36:51] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-17 14:36:51] INFO root fetch - processPackages [smodels]: executing diffoscope
+[2023-07-17 14:36:51] INFO root fetch - processPackages [smodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smodels-2.3.0.tar.gz tmp/smodels-2.3.1.tar.gz --markdown 20230717/s/smodels/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-17 14:36:51] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.14.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.18.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - main [MainThread]: End processing [mysqlbuilder]: success
+[2023-07-17 14:36:51] INFO root fetch - processPackages [image-analyst-onnx]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_onnx-0.1.0.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - processPackages [image-analyst-onnx]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_onnx-0.1.1.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - main [MainThread]: End processing [image-analyst-onnx]: success
+[2023-07-17 14:36:51] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-17 14:36:51] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-text-2023.7.6.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-text-2023.7.6.1.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - main [MainThread]: End processing [datamaestro-text]: success
+[2023-07-17 14:36:51] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a0.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a1.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - main [MainThread]: End processing [azure-openai-tr]: success
+[2023-07-17 14:36:51] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.3.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.4.tar.gz]
+[2023-07-17 14:36:51] INFO root fetch - main [MainThread]: End processing [kolo]: success
+[2023-07-17 14:36:52] INFO root fetch - processPackages [ioddcombase]: Remove: archive file [/home/abi/fetcher/tmp/ioddcombase-1.6.7-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 14:36:52] INFO root fetch - processPackages [ioddcombase]: Remove: archive file [/home/abi/fetcher/tmp/ioddcombase-1.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 14:36:52] INFO root fetch - main [MainThread]: End processing [ioddcombase]: success
+[2023-07-17 14:36:52] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.2-py3-none-any.whl.zip]
+[2023-07-17 14:36:52] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.3-py3-none-any.whl.zip]
+[2023-07-17 14:36:52] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2023-07-17 14:36:52] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-17 14:36:52] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230717/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-17 14:36:54] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-17 14:36:54] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-17 14:36:54] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-17 14:37:10] INFO root fetch - processPackages [smodels]: Remove: archive file [/home/abi/fetcher/tmp/smodels-2.3.0.tar.gz]
+[2023-07-17 14:37:10] INFO root fetch - processPackages [smodels]: Remove: archive file [/home/abi/fetcher/tmp/smodels-2.3.1.tar.gz]
+[2023-07-17 14:37:10] INFO root fetch - main [MainThread]: End processing [smodels]: success
+[2023-07-17 14:37:10] INFO root fetch - main [MainThread]: Store serial: [18916791]
