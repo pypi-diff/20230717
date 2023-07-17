@@ -10292,3 +10292,147 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 09:58:48] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
 [2023-07-17 09:58:48] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-07-17 09:58:48] INFO root fetch - main [MainThread]: Store serial: [18913676]
+[2023-07-17 10:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913676]
+[2023-07-17 10:03:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-stachoutils
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whop-api-wrapper
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-delivery-schenker-picking-volume
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-delivery-schenker
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runtype
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbix-chinese
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazysdk
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idoctorai
+[2023-07-17 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: invenio-app-rdm
+[2023-07-17 10:03:58] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [runtype]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [django-stachoutils]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.3.dev1]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [idoctorai]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-17 10:03:58] WARNING root fetch - processPackages [whop-api-wrapper]: Skipping, unable to determine old version
+[2023-07-17 10:03:58] INFO root fetch - processPackages [whop-api-wrapper]: Start processing: claude-ai
+[2023-07-17 10:03:58] INFO root fetch - main [MainThread]: End processing [whop-api-wrapper] error
+[2023-07-17 10:03:58] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:03:58] WARNING root fetch - processPackages [pbix-chinese]: Skipping, unable to determine old version
+[2023-07-17 10:03:58] INFO root fetch - processPackages [pbix-chinese]: Start processing: xdcget
+[2023-07-17 10:03:58] INFO root fetch - main [MainThread]: End processing [pbix-chinese] error
+[2023-07-17 10:03:58] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [claude-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [xdcget]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 10:03:58] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: Downloading https://files.pythonhosted.org/packages/e8/56/f88f39948d506b645d4bde677307f7040813ccdc64601e3965790f1a8216/odoo14_addon_delivery_schenker_picking_volume-14.0.1.1.1-py3-none-any.whl
+[2023-07-17 10:03:58] INFO root fetch - processPackages [runtype]: Downloading https://files.pythonhosted.org/packages/86/92/00a5ffaca50348e831d07c13bc6f788d6ea1030ff1305529a6e610058ea0/runtype-0.3.4.tar.gz
+[2023-07-17 10:03:58] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/ab/1e/e230fbea213f520ae628412d78c9bc08b311de62118d6a5cb21e4a728f3d/idoctorai-0.7.4.tar.gz
+[2023-07-17 10:03:58] INFO root fetch - processPackages [django-stachoutils]: Downloading https://files.pythonhosted.org/packages/10/5b/116fdce0a9848116cfb6a41315ca5722ae5919a4cb5c1b8b13e16b420830/django-stachoutils-4.1.0.tar.gz
+[2023-07-17 10:03:58] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-17 10:03:58] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: Downloading https://files.pythonhosted.org/packages/b1/06/60035e4e1d0045f80199d73a6ee7b188dae28329e0700b1372e72c82cce3/odoo14_addon_delivery_schenker-14.0.1.1.3.dev1-py3-none-any.whl
+[2023-07-17 10:03:58] INFO root fetch - processPackages [claude-ai]: Downloading https://files.pythonhosted.org/packages/b0/ba/9e2f6b3a6efb2cf462006bd610eeaab9a2bbbd27a70448f53ffbcb0f54ef/claude_ai-0.0.1.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [xdcget]: Downloading https://files.pythonhosted.org/packages/f3/ed/4d84319287841a2bbb82550316d1a258582f95b07d6a7ab4a3509e8f8762/xdcget-0.2.0.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: Downloading https://files.pythonhosted.org/packages/e1/92/f5aea271744567db43b52f553f1abdf4181a11f86b11d886abad381ccb67/odoo14_addon_delivery_schenker_picking_volume-14.0.1.2.0-py3-none-any.whl
+[2023-07-17 10:03:59] INFO root fetch - processPackages [runtype]: Downloading https://files.pythonhosted.org/packages/32/09/17b39eea6f4df5fe2e0beac361867941087fcbaccda1b7c8e6504b3febad/runtype-0.3.5.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/9f/20/dc65aa5f0d2052d6e98b0fa552ad9a57e26dc91ddb1b77e3c46edd361a7f/idoctorai-0.7.5.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230717/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_schenker_picking_volume-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_schenker_picking_volume-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-delivery-schenker-picking-volume/14.0.1.1.1-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [runtype]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [runtype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtype-0.3.4.tar.gz tmp/runtype-0.3.5.tar.gz --markdown 20230717/r/runtype/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [xdcget]: Downloading https://files.pythonhosted.org/packages/f6/6a/95096afcb6c943c516ffc4a0e0cd8fd1ca146a9a09bb8164fc3eed24df6d/xdcget-0.2.1.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [claude-ai]: Downloading https://files.pythonhosted.org/packages/81/b1/0c9530734999a4f9d55b089b4d7149fd47239b3286a092d043271e0704be/claude_ai-0.0.2.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.7.4.tar.gz tmp/idoctorai-0.7.5.tar.gz --markdown 20230717/i/idoctorai/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: Downloading https://files.pythonhosted.org/packages/fb/36/343b17d8284ac9e019f1d40b8d60c3a91fc2f8eb064f0325b01897ad7a63/odoo14_addon_delivery_schenker-14.0.1.2.0-py3-none-any.whl
+[2023-07-17 10:03:59] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [django-stachoutils]: Downloading https://files.pythonhosted.org/packages/4c/30/ee408736e392c0fce00b1f9a63f41883d6c2175b178e23d79af05ddc45bf/django-stachoutils-4.2.0.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-17 10:03:59] INFO root fetch - processPackages [claude-ai]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [claude-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude_ai-0.0.1.tar.gz tmp/claude_ai-0.0.2.tar.gz --markdown 20230717/c/claude-ai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_schenker-14.0.1.1.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_schenker-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-delivery-schenker/14.0.1.1.3.dev1-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230717/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [xdcget]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [xdcget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdcget-0.2.0.tar.gz tmp/xdcget-0.2.1.tar.gz --markdown 20230717/x/xdcget/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230717/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-17 10:03:59] INFO root fetch - processPackages [django-stachoutils]: executing diffoscope
+[2023-07-17 10:03:59] INFO root fetch - processPackages [django-stachoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stachoutils-4.1.0.tar.gz tmp/django-stachoutils-4.2.0.tar.gz --markdown 20230717/d/django-stachoutils/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-07-17 10:04:01] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.4.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.5.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [idoctorai]: Start processing: t2iapi
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_schenker_picking_volume-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_schenker_picking_volume-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [odoo14-addon-delivery-schenker-picking-volume]: Start processing: quickfix-ch
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-schenker-picking-volume]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev233] Old Version: [3.0.0.dev227]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [lazysdk]: Start processing: rest-framework-simplejwt-byforde2
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [xdcget]: Remove: archive file [/home/abi/fetcher/tmp/xdcget-0.2.0.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [xdcget]: Remove: archive file [/home/abi/fetcher/tmp/xdcget-0.2.1.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [xdcget]: Start processing: whoisdomain
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [xdcget]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [runtype]: Remove: archive file [/home/abi/fetcher/tmp/runtype-0.3.4.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [runtype]: Remove: archive file [/home/abi/fetcher/tmp/runtype-0.3.5.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [runtype]: Start processing: resolwe
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [runtype]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [claude-ai]: Remove: archive file [/home/abi/fetcher/tmp/claude_ai-0.0.1.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [claude-ai]: Remove: archive file [/home/abi/fetcher/tmp/claude_ai-0.0.2.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [claude-ai]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-17 10:04:01] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_schenker-14.0.1.1.3.dev1-py3-none-any.whl.zip]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [odoo14-addon-delivery-schenker]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_schenker-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-schenker]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230717.1] Old Version: [1.20230712.2]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/9e/0b/357bd12615e44a76497d55f5a3abc236808a4dad5cd045eb7793acebf6fd/rest_framework_simplejwt_byforde2-0.1.1.tar.gz
+[2023-07-17 10:04:01] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/1a/30/f31406020bd937e6e251b1a79b5bf7051f00602dfd85c989bdc5f05bc0f1/t2iapi-3.0.0.dev227.tar.gz
+[2023-07-17 10:04:01] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-17 10:04:01] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-17 10:04:01] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/d2/9a/372e79f552d19333e1e3c6224851d03a28d7aac023b16fee62469f403777/whoisdomain-1.20230712.2.tar.gz
+[2023-07-17 10:04:01] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-07-17 10:04:01] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/85/79/0fccaf12e63d4bbb89de6a9c0f3fc92231a7d74773d31d978847d01bcb35/t2iapi-3.0.0.dev233.tar.gz
+[2023-07-17 10:04:02] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/e2/82/4abb3489bd2e2fa45b012d8ceed75a0020398633998e088127c6b1b4874c/rest_framework_simplejwt_byforde2-0.1.2.tar.gz
+[2023-07-17 10:04:02] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-07-17 10:04:02] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev227.tar.gz tmp/t2iapi-3.0.0.dev233.tar.gz --markdown 20230717/t/t2iapi/3.0.0.dev227-3.0.0.dev233/diff.md --exclude *.pyd
+[2023-07-17 10:04:02] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-17 10:04:02] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/52/69/66df3889754b04c1cb25ee38cf25257811f2f54bfe062359d91e9bc2d695/whoisdomain-1.20230717.1.tar.gz
+[2023-07-17 10:04:02] INFO root fetch - processPackages [django-stachoutils]: Remove: archive file [/home/abi/fetcher/tmp/django-stachoutils-4.1.0.tar.gz]
+[2023-07-17 10:04:02] INFO root fetch - processPackages [django-stachoutils]: Remove: archive file [/home/abi/fetcher/tmp/django-stachoutils-4.2.0.tar.gz]
+[2023-07-17 10:04:02] INFO root fetch - main [MainThread]: End processing [django-stachoutils]: success
+[2023-07-17 10:04:02] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2023-07-17 10:04:02] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2023-07-17 10:04:02] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-07-17 10:04:02] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: executing diffoscope
+[2023-07-17 10:04:02] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_simplejwt_byforde2-0.1.1.tar.gz tmp/rest_framework_simplejwt_byforde2-0.1.2.tar.gz --markdown 20230717/r/rest-framework-simplejwt-byforde2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 10:04:02] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-07-17 10:04:02] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-07-17 10:04:02] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230712.2.tar.gz tmp/whoisdomain-1.20230717.1.tar.gz --markdown 20230717/w/whoisdomain/1.20230712.2-1.20230717.1/diff.md --exclude *.pyd
+[2023-07-17 10:04:02] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-17 10:04:02] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230717/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:04:02] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-07-17 10:04:02] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230717/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-17 10:04:03] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.1.tar.gz]
+[2023-07-17 10:04:03] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.2.tar.gz]
+[2023-07-17 10:04:03] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde2]: success
+[2023-07-17 10:04:03] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev227.tar.gz]
+[2023-07-17 10:04:03] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev233.tar.gz]
+[2023-07-17 10:04:03] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-07-17 10:04:03] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230712.2.tar.gz]
+[2023-07-17 10:04:03] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230717.1.tar.gz]
+[2023-07-17 10:04:03] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-07-17 10:04:04] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-07-17 10:04:04] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-07-17 10:04:04] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-07-17 10:04:05] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-17 10:04:05] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-17 10:04:05] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-17 10:04:05] INFO root fetch - main [MainThread]: Store serial: [18913732]
