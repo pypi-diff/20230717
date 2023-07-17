@@ -14533,3 +14533,162 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:33:20] INFO root fetch - processPackages [BabitMF]: Remove: archive file [/home/abi/fetcher/tmp/BabitMF-0.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-17 12:33:20] INFO root fetch - main [MainThread]: End processing [BabitMF]: success
 [2023-07-17 12:33:20] INFO root fetch - main [MainThread]: Store serial: [18915471]
+[2023-07-17 12:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915471]
+[2023-07-17 12:38:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-private-bucket
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gov-uk-dashboards
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: godoo-cli
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foambryo
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: task2a
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fontFeatures
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-be-mis-reports-xml
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IMSmartFinderNinja
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: obis
+[2023-07-17 12:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chainfury
+[2023-07-17 12:38:34] INFO root fetch - processPackages [godoo-cli]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-17 12:38:34] WARNING root fetch - processPackages [odoo14-addon-l10n-be-mis-reports-xml]: Skipping, unable to determine old version
+[2023-07-17 12:38:34] INFO root fetch - processPackages [odoo14-addon-l10n-be-mis-reports-xml]: Start processing: udps
+[2023-07-17 12:38:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-be-mis-reports-xml] error
+[2023-07-17 12:38:34] INFO root fetch - processPackages [foambryo]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [fontFeatures]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [chainfury]: New version: [1.2.0] Old Version: [0.1.1]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [task2a]: New version: [1.0.22] Old Version: [1.0.21]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [obis]: New version: [0.4.2rc4] Old Version: [0.4.2rc3]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [udps]: New version: [0.1.21] Old Version: [0.1.20]
+[2023-07-17 12:38:34] INFO root fetch - processPackages [godoo-cli]: Downloading https://files.pythonhosted.org/packages/aa/b0/ccdf17f7e69c45e7d607cdfd92d24651a5a71bf6473d845cbd56b12de794/godoo_cli-0.5.2.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/fb/32/4cd4142e73c5b7d932770424e5d986f2f629d0c3f353a31438752b51ccf2/IMSmartFinderNinja-0.0.9.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/76/cb/55585422463036dba44a57ae58c9b228c2879fa110826a098d2b22f20d20/obis-0.4.2rc3.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/8d/9d/c5ac4c46b00d209b28ad41b3e8c46add81dba8fc487cecb993168b2e16a8/foambryo-0.2.6.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [chainfury]: Downloading https://files.pythonhosted.org/packages/27/43/d0b4f996c518d7a904eb1863b6a5511bc7adc7fc23c2a6a10f7fdf3ca0d8/chainfury-0.1.1.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/a8/f2/4fc9ad13878d62095b5ffd962f074a1306af831d7de24f507d63ed1e04ab/task2a-1.0.21.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [fontFeatures]: Downloading https://files.pythonhosted.org/packages/b9/37/19d72ce8a2df20da0f2cd7ae898bb00287099565ab79d621892fb332a592/fontFeatures-1.7.4.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/17/83/5086b5bed4256b66f75988497b4b4e3a11fc1e02a7178d3c939a1b9140b4/udps-0.1.20.tar.gz
+[2023-07-17 12:38:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/f3/35/5e583e58e4e80eb7cd4faf47f34b8a3a10bb7c6fd16709a3317e6afe8e9a/IMSmartFinderNinja-0.1.0.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [godoo-cli]: Downloading https://files.pythonhosted.org/packages/e6/aa/bc262517e6128a22a28c3a48bb108adf0206e14a245d8dcd8891402ead78/godoo_cli-0.6.0.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [chainfury]: Downloading https://files.pythonhosted.org/packages/30/46/6f22daf025bc1223da0f3993389dfdbb9093b5688fd0f0ff14e5fa1be14a/chainfury-1.2.0.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/c9/d1/6e15780b38faf49e9e89624ec3a530b2ad6c7c58cf30462e22f571472244/obis-0.4.2rc4.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/1a/ed/f926eeb674ac4ad2cfcddac44982fb9f3ccc5e1ddce15951ed1262b68cb9/foambryo-0.2.7.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/fe/0d/73c17268ba74a8241b3c5301daa97b5dc2d1d29ac3adb633d0001a49df7a/udps-0.1.21.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/85/a7/8e330978f8238c34d18fb92e5acf1c916bcb657cac80ec4a08c13c1c79e2/task2a-1.0.22.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [chainfury]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [chainfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainfury-0.1.1.tar.gz tmp/chainfury-1.2.0.tar.gz --markdown 20230717/c/chainfury/0.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.0.9.tar.gz tmp/IMSmartFinderNinja-0.1.0.tar.gz --markdown 20230717/I/IMSmartFinderNinja/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [fontFeatures]: Downloading https://files.pythonhosted.org/packages/c3/d4/0e5e4d68e2c24bf5ee289de7197736c3da9c367d59c09dd6a42e9827d62e/fontFeatures-1.8.0.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [godoo-cli]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [godoo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godoo_cli-0.5.2.tar.gz tmp/godoo_cli-0.6.0.tar.gz --markdown 20230717/g/godoo-cli/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-17 12:38:35] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.2.6.tar.gz tmp/foambryo-0.2.7.tar.gz --markdown 20230717/f/foambryo/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.21.tar.gz tmp/task2a-1.0.22.tar.gz --markdown 20230717/t/task2a/1.0.21-1.0.22/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [udps]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [udps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udps-0.1.20.tar.gz tmp/udps-0.1.21.tar.gz --markdown 20230717/u/udps/0.1.20-0.1.21/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 12:38:35] INFO root fetch - processPackages [obis]: executing diffoscope
+[2023-07-17 12:38:35] INFO root fetch - processPackages [obis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obis-0.4.2rc3.tar.gz tmp/obis-0.4.2rc4.tar.gz --markdown 20230717/o/obis/0.4.2rc3-0.4.2rc4/diff.md --exclude *.pyd
+[2023-07-17 12:38:36] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-07-17 12:38:36] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230717/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:36] INFO root fetch - processPackages [fontFeatures]: executing diffoscope
+[2023-07-17 12:38:36] INFO root fetch - processPackages [fontFeatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fontFeatures-1.7.4.tar.gz tmp/fontFeatures-1.8.0.tar.gz --markdown 20230717/f/fontFeatures/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:36] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.9.tar.gz]
+[2023-07-17 12:38:36] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.1.0.tar.gz]
+[2023-07-17 12:38:36] INFO root fetch - processPackages [IMSmartFinderNinja]: Start processing: ms3
+[2023-07-17 12:38:36] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-17 12:38:36] INFO root fetch - processPackages [ms3]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [chainfury]: Remove: archive file [/home/abi/fetcher/tmp/chainfury-0.1.1.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [chainfury]: Remove: archive file [/home/abi/fetcher/tmp/chainfury-1.2.0.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [chainfury]: Start processing: tuxrun
+[2023-07-17 12:38:37] INFO root fetch - main [MainThread]: End processing [chainfury]: success
+[2023-07-17 12:38:37] INFO root fetch - processPackages [godoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.5.2.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [godoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.6.0.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [godoo-cli]: Start processing: riptide-lib
+[2023-07-17 12:38:37] INFO root fetch - main [MainThread]: End processing [godoo-cli]: success
+[2023-07-17 12:38:37] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [riptide-lib]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/31/cf/83b591e0b23ae6b992dae2702cee130e9452ee36c5f87c64bdf6c2787780/ms3-1.2.8.tar.gz
+[2023-07-17 12:38:37] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.6.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.7.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [foambryo]: Start processing: qtreemesh
+[2023-07-17 12:38:37] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-07-17 12:38:37] INFO root fetch - processPackages [qtreemesh]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.21.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.22.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [task2a]: Start processing: pysui
+[2023-07-17 12:38:37] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: pulumi-aws-native
+[2023-07-17 12:38:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-17 12:38:37] INFO root fetch - processPackages [riptide-lib]: Downloading https://files.pythonhosted.org/packages/c9/30/e783117deee29322e4aba64dfb8d601d1cb3cd4d09c798d27c8a591e68cf/riptide_lib-0.8.0-py3-none-any.whl
+[2023-07-17 12:38:37] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/05/75/c3a2f3d058040a29b90033ef83341a25499a52eb95f05ae733070a447399/tuxrun-0.9.5.tar.gz
+[2023-07-17 12:38:37] INFO root fetch - processPackages [qtreemesh]: Downloading https://files.pythonhosted.org/packages/a1/00/f179ef87bda6ace95c963c8ac910feeb8e22f684d66e5fe92a1a7223d816/qtreemesh-0.0.1.tar.gz
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-07-17 12:38:37] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc3.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc4.tar.gz]
+[2023-07-17 12:38:37] INFO root fetch - processPackages [obis]: Start processing: oarepo
+[2023-07-17 12:38:37] INFO root fetch - main [MainThread]: End processing [obis]: success
+[2023-07-17 12:38:37] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/ae/5a/4fe00d549cd779f2a99801a6e2061f2501e373810e56871af8b037beb43f/tuxrun-0.9.6.tar.gz
+[2023-07-17 12:38:37] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-17 12:38:37] INFO root fetch - processPackages [riptide-lib]: Downloading https://files.pythonhosted.org/packages/61/4e/0c358819c81b5754a7aa35ca0e55f4ee5dd3492989d3a16691d30879dd78/riptide_lib-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:38:37] INFO root fetch - processPackages [qtreemesh]: Downloading https://files.pythonhosted.org/packages/8a/24/74fd712d8256a33566c515519274266498d0e70f72d57bf1023481186b31/qtreemesh-0.1.0-py3-none-any.whl
+[2023-07-17 12:38:38] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-07-17 12:38:38] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-07-17 12:38:38] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-07-17 12:38:38] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2023-07-17 12:38:38] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20230717/t/tuxrun/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-17 12:38:38] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-07-17 12:38:38] INFO root fetch - processPackages [qtreemesh]: executing diffoscope
+[2023-07-17 12:38:38] INFO root fetch - processPackages [qtreemesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtreemesh-0.0.1.tar.gz tmp/qtreemesh-0.1.0-py3-none-any.whl.zip --markdown 20230717/q/qtreemesh/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:38] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.20.tar.gz]
+[2023-07-17 12:38:38] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.21.tar.gz]
+[2023-07-17 12:38:38] INFO root fetch - main [MainThread]: End processing [udps]: success
+[2023-07-17 12:38:38] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-17 12:38:38] INFO root fetch - processPackages [riptide-lib]: executing diffoscope
+[2023-07-17 12:38:38] INFO root fetch - processPackages [riptide-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_lib-0.8.0-py3-none-any.whl.zip tmp/riptide_lib-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-lib/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:38:38] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-07-17 12:38:38] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230717/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 12:38:38] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-07-17 12:38:39] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-07-17 12:38:39] INFO root fetch - processPackages [qtreemesh]: Remove: archive file [/home/abi/fetcher/tmp/qtreemesh-0.0.1.tar.gz]
+[2023-07-17 12:38:39] INFO root fetch - processPackages [qtreemesh]: Remove: archive file [/home/abi/fetcher/tmp/qtreemesh-0.1.0-py3-none-any.whl.zip]
+[2023-07-17 12:38:39] INFO root fetch - main [MainThread]: End processing [qtreemesh]: success
+[2023-07-17 12:38:39] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.5.tar.gz]
+[2023-07-17 12:38:39] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.6.tar.gz]
+[2023-07-17 12:38:39] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2023-07-17 12:38:39] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-17 12:38:39] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-07-17 12:38:39] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230717/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:38:39] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/d3/fa/e228c927dfc09fe7f00b674a2276261b6a051178ccca7f6fc929aa494f86/ms3-1.2.9.tar.gz
+[2023-07-17 12:38:39] INFO root fetch - processPackages [riptide-lib]: Remove: archive file [/home/abi/fetcher/tmp/riptide_lib-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:38:39] INFO root fetch - processPackages [riptide-lib]: Remove: archive file [/home/abi/fetcher/tmp/riptide_lib-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:38:39] INFO root fetch - main [MainThread]: End processing [riptide-lib]: success
+[2023-07-17 12:38:39] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:38:39] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-07-17 12:38:39] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-07-17 12:38:39] INFO root fetch - processPackages [fontFeatures]: Remove: archive file [/home/abi/fetcher/tmp/fontFeatures-1.7.4.tar.gz]
+[2023-07-17 12:38:39] INFO root fetch - processPackages [fontFeatures]: Remove: archive file [/home/abi/fetcher/tmp/fontFeatures-1.8.0.tar.gz]
+[2023-07-17 12:38:39] INFO root fetch - main [MainThread]: End processing [fontFeatures]: success
+[2023-07-17 12:38:39] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-17 12:38:39] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230717/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-17 12:38:40] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-07-17 12:38:40] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-07-17 12:38:40] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-07-17 12:38:42] INFO root fetch - processPackages [ms3]: executing diffoscope
+[2023-07-17 12:38:42] INFO root fetch - processPackages [ms3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms3-1.2.8.tar.gz tmp/ms3-1.2.9.tar.gz --markdown 20230717/m/ms3/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-17 12:38:50] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-17 12:38:50] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-17 12:38:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-17 12:38:50] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-1.2.8.tar.gz]
+[2023-07-17 12:38:50] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-1.2.9.tar.gz]
+[2023-07-17 12:38:50] INFO root fetch - main [MainThread]: End processing [ms3]: success
+[2023-07-17 12:38:50] INFO root fetch - main [MainThread]: Store serial: [18915519]
