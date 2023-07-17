@@ -5072,3 +5072,116 @@
 [2023-07-17 03:43:28] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.4.tar.gz]
 [2023-07-17 03:43:28] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
 [2023-07-17 03:43:28] INFO root fetch - main [MainThread]: Store serial: [18911526]
+[2023-07-17 03:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911526]
+[2023-07-17 03:48:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transia-xrpl-py
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transia-xrpl-py
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svg.charts
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-django
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alphatools-jv
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rankfmc
+[2023-07-17 03:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mystring
+[2023-07-17 03:48:36] WARNING root fetch - processPackages [transia-xrpl-py]: Skipping, unable to determine old version
+[2023-07-17 03:48:36] INFO root fetch - processPackages [transia-xrpl-py]: Start processing: metaphor-models
+[2023-07-17 03:48:36] INFO root fetch - main [MainThread]: End processing [transia-xrpl-py] error
+[2023-07-17 03:48:36] INFO root fetch - processPackages [alphatools-jv]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-07-17 03:48:36] INFO root fetch - processPackages [rankfmc]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 03:48:36] INFO root fetch - processPackages [svg.charts]: New version: [7.3.0] Old Version: [7.2.1]
+[2023-07-17 03:48:36] WARNING root fetch - processPackages [transia-xrpl-py]: Skipping, unable to determine old version
+[2023-07-17 03:48:36] INFO root fetch - processPackages [transia-xrpl-py]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-17 03:48:36] INFO root fetch - main [MainThread]: End processing [transia-xrpl-py] error
+[2023-07-17 03:48:37] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-17 03:48:37] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-17 03:48:37] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/7d/dd/fc9aa430458c0dc666aa2c067a82026d4e6cdb1292bef766be5f1071dde2/alphatools_jv-2.2.0.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [rankfmc]: Downloading https://files.pythonhosted.org/packages/0f/9b/682d75318ff0b784f80ad864f244949b8a98e7d701dd6b762ac456a848f1/rankfmc-0.2.8.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [svg.charts]: Downloading https://files.pythonhosted.org/packages/0d/d9/17631f905ad80fdcb8aa670ec38b92a41adae384e7510921211ebe825ce9/svg.charts-7.2.1.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-17 03:48:37] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/84/32/9480bb2a9d727344aa2917fd054f57e67ce0b3e85633dc673fc050063379/bytetrade-recommend-model-sdk-0.0.25.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [rankfmc]: Downloading https://files.pythonhosted.org/packages/d6/92/6dfdf0b9506451db1e3aa5a5c28703f998d672abe23c2b6e31e34b263dd2/rankfmc-0.2.9.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230717/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:48:37] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-17 03:48:37] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230717/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-17 03:48:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230717/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-17 03:48:37] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/08/41/3a7338e3b1b230f7a6897d02226657a65b246a7762d1354a1f7604d18d65/alphatools_jv-3.0.0.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-17 03:48:37] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230717/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:48:37] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f9/1d953f7640b98a2ae8e7b050efc7d5b11969320ee135c085501f3ea4ba4c/bytetrade-recommend-model-sdk-0.0.26.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [svg.charts]: Downloading https://files.pythonhosted.org/packages/70/af/6f37f01582de05c790c9576e4f9a527df3af6450f7abb7a2954b1ab794be/svg.charts-7.3.0.tar.gz
+[2023-07-17 03:48:37] INFO root fetch - processPackages [rankfmc]: executing diffoscope
+[2023-07-17 03:48:37] INFO root fetch - processPackages [rankfmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rankfmc-0.2.8.tar.gz tmp/rankfmc-0.2.9.tar.gz --markdown 20230717/r/rankfmc/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 03:48:37] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-07-17 03:48:38] INFO root fetch - processPackages [alphatools-jv]: executing diffoscope
+[2023-07-17 03:48:38] INFO root fetch - processPackages [alphatools-jv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphatools_jv-2.2.0.tar.gz tmp/alphatools_jv-3.0.0.tar.gz --markdown 20230717/a/alphatools-jv/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-17 03:48:38] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-17 03:48:38] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.25.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.26.tar.gz --markdown 20230717/b/bytetrade-recommend-model-sdk/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-17 03:48:38] INFO root fetch - processPackages [svg.charts]: executing diffoscope
+[2023-07-17 03:48:38] INFO root fetch - processPackages [svg.charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg.charts-7.2.1.tar.gz tmp/svg.charts-7.3.0.tar.gz --markdown 20230717/s/svg.charts/7.2.1-7.3.0/diff.md --exclude *.pyd
+[2023-07-17 03:48:38] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-07-17 03:48:38] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230717/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 03:48:38] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-17 03:48:38] INFO root fetch - processPackages [proactive]: Start processing: nbdev-apl
+[2023-07-17 03:48:38] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-17 03:48:38] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.899] Old Version: [0.0.898]
+[2023-07-17 03:48:38] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/40/52/5f6ec453466fc7b216d76a266215d96fd725b5b0e33886455a73f9d02066/nbdev-apl-0.0.898.tar.gz
+[2023-07-17 03:48:38] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/73/bc/3888a0505d731f040b8084cab60add903b784c0ab3659f82b6f7106c2c10/nbdev-apl-0.0.899.tar.gz
+[2023-07-17 03:48:39] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-17 03:48:39] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.898.tar.gz tmp/nbdev-apl-0.0.899.tar.gz --markdown 20230717/n/nbdev-apl/0.0.898-0.0.899/diff.md --exclude *.pyd
+[2023-07-17 03:48:39] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [mystring]: Start processing: cdk-lambda-layer-curl
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-17 03:48:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-2.2.0.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.0.0.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [alphatools-jv]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-17 03:48:39] INFO root fetch - processPackages [svg.charts]: Remove: archive file [/home/abi/fetcher/tmp/svg.charts-7.2.1.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [svg.charts]: Remove: archive file [/home/abi/fetcher/tmp/svg.charts-7.3.0.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [svg.charts]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.25.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.26.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [rankfmc]: Remove: archive file [/home/abi/fetcher/tmp/rankfmc-0.2.8.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [rankfmc]: Remove: archive file [/home/abi/fetcher/tmp/rankfmc-0.2.9.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [rankfmc]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2023-07-17 03:48:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-17 03:48:39] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-07-17 03:48:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230717/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:48:40] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.898.tar.gz]
+[2023-07-17 03:48:40] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.899.tar.gz]
+[2023-07-17 03:48:40] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-17 03:48:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-17 03:48:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-17 03:48:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-17 03:48:40] INFO root fetch - main [MainThread]: Store serial: [18911580]
