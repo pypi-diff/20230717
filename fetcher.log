@@ -6495,3 +6495,36 @@
 [2023-07-17 05:29:38] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a9.tar.gz]
 [2023-07-17 05:29:38] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
 [2023-07-17 05:29:38] INFO root fetch - main [MainThread]: Store serial: [18912108]
+[2023-07-17 05:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912108]
+[2023-07-17 05:34:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-17 05:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openi-dev
+[2023-07-17 05:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-07-17 05:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bgolearn
+[2023-07-17 05:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caqui
+[2023-07-17 05:34:47] WARNING root fetch - processPackages [openi-dev]: Skipping, unable to determine old version
+[2023-07-17 05:34:47] INFO root fetch - main [MainThread]: End processing [openi-dev] error
+[2023-07-17 05:34:47] INFO root fetch - processPackages [Bgolearn]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-17 05:34:47] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.82]
+[2023-07-17 05:34:47] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/c6/c1/ac6281be5446d8a9671d795f0ebfc9bf2223bf2d1f6091fa8947b94806fc/Bgolearn-2.2.0.tar.gz
+[2023-07-17 05:34:47] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.17.0]
+[2023-07-17 05:34:47] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/03/e9/6c1e29b6a331e386c4b34672e7ba6c7f63ae205fc4f81a985edbce1089bf/sj_tool-1.0.82-py3-none-any.whl
+[2023-07-17 05:34:48] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/dd/61/96e166d4b2af827e6016c3dae176b80e9ce1622edb55634993455d5a150f/caqui-1.17.0-py3-none-any.whl
+[2023-07-17 05:34:48] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/3e/66/b8004a60e6cfa0fcfb8db65a8fc4badeac4dc718a056d0eb450224d676bd/Bgolearn-2.2.1.tar.gz
+[2023-07-17 05:34:48] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2023-07-17 05:34:48] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.2.0.tar.gz tmp/Bgolearn-2.2.1.tar.gz --markdown 20230717/B/Bgolearn/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-17 05:34:48] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-17 05:34:48] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-17 05:34:48] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.82-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230717/s/sj-tool/1.0.82-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 05:34:48] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.0.tar.gz]
+[2023-07-17 05:34:48] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.1.tar.gz]
+[2023-07-17 05:34:48] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2023-07-17 05:34:48] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-07-17 05:34:49] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-17 05:34:49] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.17.0-py3-none-any.whl.zip tmp/caqui-1.9.0.tar.gz --markdown 20230717/c/caqui/1.17.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:34:49] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.82-py3-none-any.whl.zip]
+[2023-07-17 05:34:49] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-17 05:34:49] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-17 05:34:49] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.17.0-py3-none-any.whl.zip]
+[2023-07-17 05:34:49] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-07-17 05:34:49] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-17 05:34:49] INFO root fetch - main [MainThread]: Store serial: [18912122]
