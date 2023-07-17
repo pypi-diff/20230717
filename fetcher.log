@@ -10558,3 +10558,107 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:09:20] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish-web3-utils-0.1.0.tar.gz]
 [2023-07-17 10:09:20] INFO root fetch - main [MainThread]: End processing [stakefish-web3-utils]: success
 [2023-07-17 10:09:20] INFO root fetch - main [MainThread]: Store serial: [18913789]
+[2023-07-17 10:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913789]
+[2023-07-17 10:14:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tigersyn
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commandeft
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clauderevised
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power1d
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiledb-bioimg
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridappsd-python
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridappsd-field-bus
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: packan
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dpdispatcher
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ckanext-attribution
+[2023-07-17 10:14:30] WARNING root fetch - processPackages [packan]: Skipping, unable to determine old version
+[2023-07-17 10:14:30] INFO root fetch - processPackages [packan]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-17 10:14:30] INFO root fetch - main [MainThread]: End processing [packan] error
+[2023-07-17 10:14:30] WARNING root fetch - processPackages [tigersyn]: Skipping, unable to determine old version
+[2023-07-17 10:14:30] INFO root fetch - processPackages [tigersyn]: Start processing: sj-tool
+[2023-07-17 10:14:30] INFO root fetch - main [MainThread]: End processing [tigersyn] error
+[2023-07-17 10:14:30] INFO root fetch - processPackages [tiledb-bioimg]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a6] Old Version: [2023.7.1a5]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [clauderevised]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [dpdispatcher]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [power1d]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a6] Old Version: [2023.7.1a5]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [ckanext-attribution]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [commandeft]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.84]
+[2023-07-17 10:14:30] INFO root fetch - processPackages [clauderevised]: Downloading https://files.pythonhosted.org/packages/35/48/fd2e28755cb54f7fbe60036e362ffcd5f677caa83d8b362cbb7e4727d538/clauderevised-0.0.1.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/d0/5e/4dc0d8f3fb7313b5d29623bc81266c1885335405d4e0ce55ca4631c4c980/power1d-0.1.8.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/ee/3c/d112dd0e3a90c0b4b93043895d4b0681425cc32ec91141ee84484c412699/gridappsd_python-2023.7.1a5.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [tiledb-bioimg]: Downloading https://files.pythonhosted.org/packages/a7/e6/2eab00c8dbdaa687b8b39dd58c3b7b5e571623ba1324a64c504e3f5f95af/tiledb-bioimg-0.2.4.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/3e/52/51a87cb6a7896c325fdeadc09cea1574eeff796fc4093c01a185996ee238/gridappsd_field_bus-2023.7.1a5.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/ba/ee/6d038133d402cb638a1ec7dcab112e5612a09b7c0c06c62c4a45eb83fa38/dpdispatcher-0.5.7.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/e7/6f/18120f4d7cdc41fbbca45810a0e02adc0fcc733192c4693f48fc79d6bb19/commandeft-0.4.0.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [ckanext-attribution]: Downloading https://files.pythonhosted.org/packages/44/de/e2cc4681974564645b0a5edbcf3dc0ac47246b7c20f2790ebd9547158dc5/ckanext-attribution-1.2.8.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-17 10:14:31] WARNING root fetch - processPackages [tiledb-bioimg]: Skipping package: exceeds size limit 32342325>=10485760
+[2023-07-17 10:14:31] INFO root fetch - processPackages [tiledb-bioimg]: Start processing: ckanext-ckanpackager
+[2023-07-17 10:14:31] INFO root fetch - main [MainThread]: End processing [tiledb-bioimg] error
+[2023-07-17 10:14:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/79/93/095402aa392820f5e7e063f18b7476765eaaaec964d0292e62f208b1feb3/sj_tool-1.0.84-py3-none-any.whl
+[2023-07-17 10:14:31] INFO root fetch - processPackages [clauderevised]: Downloading https://files.pythonhosted.org/packages/26/df/02e15051ab2fb004397a44cddf3a8e4c8cb3d67e1e7c45b03874cfb9ddec/clauderevised-0.0.2.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [ckanext-ckanpackager]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-17 10:14:31] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/da/ec/b98876e43cad01164f00b0f0b2b60aad5e701afa49b84ecaf200fc9b4f89/power1d-0.1.9.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/06/7e/2f2d1b91ffe735984834d7392af5078daba0308a06e5d47575c4a06c58de/gridappsd_field_bus-2023.7.1a6.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/b0/be/c219f71ea3d2395cdb044892de52028073736fe7a0cdfeb02edd65b973d5/gridappsd_python-2023.7.1a6.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [clauderevised]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [clauderevised]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clauderevised-0.0.1.tar.gz tmp/clauderevised-0.0.2.tar.gz --markdown 20230717/c/clauderevised/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 10:14:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-17 10:14:31] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/cb/bb/616c52bb2f07b2c5571893592de235d0cf399ed54ffd30490f3693576d16/commandeft-0.5.0.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/dd/4a/7dcd74097970bfaa64783aeff6f963714c5e1a91abd30156e36d83bcec2d/dpdispatcher-0.5.8.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [power1d]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [power1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power1d-0.1.8.tar.gz tmp/power1d-0.1.9.tar.gz --markdown 20230717/p/power1d/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:14:31] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.84-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230717/s/sj-tool/1.0.84-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a5.tar.gz tmp/gridappsd_field_bus-2023.7.1a6.tar.gz --markdown 20230717/g/gridappsd-field-bus/2023.7.1a5-2023.7.1a6/diff.md --exclude *.pyd
+[2023-07-17 10:14:31] INFO root fetch - processPackages [ckanext-attribution]: Downloading https://files.pythonhosted.org/packages/94/93/c710f6f0c5a08eb62f4d08291afe597cf3410c6cdf0bb1e82aa0dad8a681/ckanext-attribution-1.2.9.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [ckanext-ckanpackager]: Downloading https://files.pythonhosted.org/packages/48/20/da40f78d0e09614be15510900c0c2875fcd924a9be1990bfc7eb8cdbb333/ckanext-ckanpackager-2.2.8.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [commandeft]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [commandeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandeft-0.4.0.tar.gz tmp/commandeft-0.5.0.tar.gz --markdown 20230717/c/commandeft/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 10:14:31] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-17 10:14:31] INFO root fetch - processPackages [dpdispatcher]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [dpdispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpdispatcher-0.5.7.tar.gz tmp/dpdispatcher-0.5.8.tar.gz --markdown 20230717/d/dpdispatcher/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-17 10:14:31] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a5.tar.gz tmp/gridappsd_python-2023.7.1a6.tar.gz --markdown 20230717/g/gridappsd-python/2023.7.1a5-2023.7.1a6/diff.md --exclude *.pyd
+[2023-07-17 10:14:32] INFO root fetch - processPackages [ckanext-attribution]: executing diffoscope
+[2023-07-17 10:14:32] INFO root fetch - processPackages [ckanext-attribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-attribution-1.2.8.tar.gz tmp/ckanext-attribution-1.2.9.tar.gz --markdown 20230717/c/ckanext-attribution/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-17 10:14:32] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-17 10:14:32] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230717/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 10:14:32] INFO root fetch - processPackages [ckanext-ckanpackager]: Downloading https://files.pythonhosted.org/packages/16/eb/fee799d371126ab436f5da90f83b68de654c498a6194289902022677f8e0/ckanext-ckanpackager-2.2.9.tar.gz
+[2023-07-17 10:14:32] INFO root fetch - processPackages [ckanext-ckanpackager]: executing diffoscope
+[2023-07-17 10:14:32] INFO root fetch - processPackages [ckanext-ckanpackager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ckanpackager-2.2.8.tar.gz tmp/ckanext-ckanpackager-2.2.9.tar.gz --markdown 20230717/c/ckanext-ckanpackager/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-17 10:14:33] INFO root fetch - processPackages [clauderevised]: Remove: archive file [/home/abi/fetcher/tmp/clauderevised-0.0.1.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - processPackages [clauderevised]: Remove: archive file [/home/abi/fetcher/tmp/clauderevised-0.0.2.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - main [MainThread]: End processing [clauderevised]: success
+[2023-07-17 10:14:33] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a5.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a6.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-17 10:14:33] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.8.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.9.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - main [MainThread]: End processing [power1d]: success
+[2023-07-17 10:14:33] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a5.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a6.tar.gz]
+[2023-07-17 10:14:33] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-17 10:14:34] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.4.0.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.5.0.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [commandeft]: success
+[2023-07-17 10:14:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.84-py3-none-any.whl.zip]
+[2023-07-17 10:14:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-17 10:14:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-17 10:14:34] INFO root fetch - processPackages [ckanext-ckanpackager]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ckanpackager-2.2.8.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - processPackages [ckanext-ckanpackager]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ckanpackager-2.2.9.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [ckanext-ckanpackager]: success
+[2023-07-17 10:14:34] INFO root fetch - processPackages [ckanext-attribution]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-attribution-1.2.8.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - processPackages [ckanext-attribution]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-attribution-1.2.9.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [ckanext-attribution]: success
+[2023-07-17 10:14:34] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.7.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.8.tar.gz]
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
+[2023-07-17 10:14:34] INFO root fetch - main [MainThread]: Store serial: [18913830]
