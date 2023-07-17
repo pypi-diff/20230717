@@ -22073,3 +22073,138 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:56:21] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.2.1.tar.gz]
 [2023-07-17 16:56:21] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-17 16:56:21] INFO root fetch - main [MainThread]: Store serial: [18918510]
+[2023-07-17 17:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918510]
+[2023-07-17 17:01:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-auth-audit
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LbAPCommon
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: learninghouse
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elody
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ContactApi
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: busrt-async
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Janex
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TextClassification
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lamindb_setup
+[2023-07-17 17:01:32] INFO root fetch - processPackages [learninghouse]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [lamindb_setup]: New version: [0.48.8] Old Version: [0.48.7]
+[2023-07-17 17:01:32] WARNING root fetch - processPackages [dj-auth-audit]: Skipping, unable to determine old version
+[2023-07-17 17:01:32] INFO root fetch - processPackages [dj-auth-audit]: Start processing: QualysPy
+[2023-07-17 17:01:32] INFO root fetch - main [MainThread]: End processing [dj-auth-audit] error
+[2023-07-17 17:01:32] INFO root fetch - processPackages [busrt-async]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202307171458] Old Version: [99.0.202307171048]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [TextClassification]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [Janex]: New version: [0.0.7] Old Version: [0.0.6a0]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [LbAPCommon]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [ContactApi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.7] Old Version: [0.3.9.6]
+[2023-07-17 17:01:32] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/47/d9/ab5f6f29860109390ed48273ce979085f76cfd692d953339783fdf819996/learninghouse-1.9.4.tar.gz
+[2023-07-17 17:01:32] INFO root fetch - processPackages [busrt-async]: Downloading https://files.pythonhosted.org/packages/2e/22/17593a57325c957c4dc261590ff356be98bb0060b96ea396396a7efc7611/busrt_async-0.1.1.tar.gz
+[2023-07-17 17:01:32] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/84/5e/e8598f4289b35a1db28b75dbbcd0fc6406f5da6b3fad390aec5e3258da6f/TextClassification-0.1.4-py2.py3-none-any.whl
+[2023-07-17 17:01:32] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/22/0c/61e9b921607fb7bb8b7771e4024bfe95fedc781935dfa77dee225ff56adf/lamindb_setup-0.48.7.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/9e/29/89f0e1f08f97c804a86c888bae62a3aa7606e78688e4195f075b67e30184/ContactApi-0.0.8.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7f/05/4a684568554cdfae66e77336fd0ef899a8c10d68e883762bfe641ffb6d4c/kfish-99.0.202307171048-py3-none-any.whl
+[2023-07-17 17:01:33] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/b5/77/aa6a0a73dec269c10202d0a44c3aad785c80778185598e4d2551d55bbd0c/Janex-0.0.6a0.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/a2/4c/873b2a6b734b48cc0f1cf7b790236c8234e9cba9a7eee71c763e8d1d6296/LbAPCommon-0.9.8.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/de/e2/e21670564f5f8d32740de29c9a4e3bb1858cc4cc6fa0b8ecf16fc3bc11ab/qualyspy-0.3.9.6.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/ca/a2/2a24d393d975eebc1283957f5b82a1de005c79211be0fbeabfaaefd3c7eb/learninghouse-1.9.5.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/46/78/859c18c5e434da570f283aaa6a563918a62a3cb476160677486dff20b03a/TextClassification-0.1.6-py2.py3-none-any.whl
+[2023-07-17 17:01:33] INFO root fetch - processPackages [busrt-async]: Downloading https://files.pythonhosted.org/packages/4c/88/95a9a7048a27113cc4773a8074c618899ed58e758fc1aca2076cf43bbd1f/busrt_async-0.1.2.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cc/7b/1c9e2cd0713bf9ccf25eee2578575bdf8d83ab202fbc1a580a708cdf7b9b/kfish-99.0.202307171458-py3-none-any.whl
+[2023-07-17 17:01:33] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/3e/b9/7acbd3f62ecb9570e15107a4710b46c534decd3250e771857f587f963f6c/ContactApi-0.0.9.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [learninghouse]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [learninghouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learninghouse-1.9.4.tar.gz tmp/learninghouse-1.9.5.tar.gz --markdown 20230717/l/learninghouse/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.1.4-py2.py3-none-any.whl.zip tmp/TextClassification-0.1.6-py2.py3-none-any.whl.zip --markdown 20230717/T/TextClassification/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/75/89/c7c760a94bac15ab15437318c4bb169f467aa185c4a28ec66f7bd5a98fb3/lamindb_setup-0.48.8.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20230717/e/elody/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [busrt-async]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [busrt-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busrt_async-0.1.1.tar.gz tmp/busrt_async-0.1.2.tar.gz --markdown 20230717/b/busrt-async/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ff/d9/b926add1d2185e56ef77a01632a1eaf7b52cec59b62c353d10a3b84acdad/Janex-0.0.7.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/92/5a/1e15bb98f669addaed5630440fe6d18928bb7a2969d23b8f96794bec8c97/qualyspy-0.3.9.7.tar.gz
+[2023-07-17 17:01:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307171048-py3-none-any.whl.zip tmp/kfish-99.0.202307171458-py3-none-any.whl.zip --markdown 20230717/k/kfish/99.0.202307171048-99.0.202307171458/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [ContactApi]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [ContactApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ContactApi-0.0.8.tar.gz tmp/ContactApi-0.0.9.tar.gz --markdown 20230717/C/ContactApi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.7.tar.gz tmp/lamindb_setup-0.48.8.tar.gz --markdown 20230717/l/lamindb_setup/0.48.7-0.48.8/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.6a0.tar.gz tmp/Janex-0.0.7.tar.gz --markdown 20230717/J/Janex/0.0.6a0-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 17:01:33] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-17 17:01:33] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.6.tar.gz tmp/qualyspy-0.3.9.7.tar.gz --markdown 20230717/Q/QualysPy/0.3.9.6-0.3.9.7/diff.md --exclude *.pyd
+[2023-07-17 17:01:34] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/8d/40/270ffe24cea731ed2cbe8e73d29b72ca20b5d707e3aaf201d50d97ac74d4/LbAPCommon-0.9.9.tar.gz
+[2023-07-17 17:01:34] INFO root fetch - processPackages [LbAPCommon]: executing diffoscope
+[2023-07-17 17:01:34] INFO root fetch - processPackages [LbAPCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPCommon-0.9.8.tar.gz tmp/LbAPCommon-0.9.9.tar.gz --markdown 20230717/L/LbAPCommon/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 17:01:35] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.4-py2.py3-none-any.whl.zip]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.6-py2.py3-none-any.whl.zip]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [TextClassification]: Start processing: pgpipe
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-17 17:01:35] WARNING root fetch - processPackages [pgpipe]: Skipping, unable to determine old version
+[2023-07-17 17:01:35] INFO root fetch - processPackages [pgpipe]: Start processing: mysqlx-generator
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [pgpipe] error
+[2023-07-17 17:01:35] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307171048-py3-none-any.whl.zip]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307171458-py3-none-any.whl.zip]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [kfish]: Start processing: metaflow
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.8.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.9.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: Start processing: ContactApi
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [ContactApi]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [busrt-async]: Remove: archive file [/home/abi/fetcher/tmp/busrt_async-0.1.1.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [busrt-async]: Remove: archive file [/home/abi/fetcher/tmp/busrt_async-0.1.2.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [busrt-async]: Start processing: prelude-sdk
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [busrt-async]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.6a0.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.7.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/9e/29/89f0e1f08f97c804a86c888bae62a3aa7606e78688e4195f075b67e30184/ContactApi-0.0.8.tar.gz
+[2023-07-17 17:01:35] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [prelude-sdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2023-07-17 17:01:35] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.6.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.7.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/77/44/c216c4dfd22ac7eca23562cdfa723184df8afdcbca78109def48da5b1d82/mysqlx-generator-1.5.1.tar.gz
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/3e/b9/7acbd3f62ecb9570e15107a4710b46c534decd3250e771857f587f963f6c/ContactApi-0.0.9.tar.gz
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: executing diffoscope
+[2023-07-17 17:01:35] INFO root fetch - processPackages [ContactApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ContactApi-0.0.8.tar.gz tmp/ContactApi-0.0.9.tar.gz --markdown 20230717/C/ContactApi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 17:01:35] INFO root fetch - processPackages [prelude-sdk]: Downloading https://files.pythonhosted.org/packages/cb/b5/7fac2751f9dc890c4abb5c562ac7889d1e8f7ddbca72bdc6827e56df0b63/prelude-sdk-1.3.0.tar.gz
+[2023-07-17 17:01:35] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.7.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.8.tar.gz]
+[2023-07-17 17:01:35] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-17 17:01:35] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2023-07-17 17:01:36] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/92/48/4719c5e4c8a622477a4607a160e86ac51889c7efee3314a27f99b3843eaf/mysqlx-generator-1.5.2.tar.gz
+[2023-07-17 17:01:36] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2023-07-17 17:01:36] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20230717/m/metaflow/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-17 17:01:36] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-17 17:01:36] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.5.1.tar.gz tmp/mysqlx-generator-1.5.2.tar.gz --markdown 20230717/m/mysqlx-generator/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-17 17:01:36] INFO root fetch - processPackages [prelude-sdk]: Downloading https://files.pythonhosted.org/packages/2a/22/1adcc0b5aef1c5fcbcc9788094fcc7451356fa7f0d3fc36dc46699398f10/prelude-sdk-1.3.1.tar.gz
+[2023-07-17 17:01:36] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.8.tar.gz]
+[2023-07-17 17:01:36] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.9.tar.gz]
+[2023-07-17 17:01:36] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
+[2023-07-17 17:01:36] INFO root fetch - processPackages [prelude-sdk]: executing diffoscope
+[2023-07-17 17:01:36] INFO root fetch - processPackages [prelude-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude-sdk-1.3.0.tar.gz tmp/prelude-sdk-1.3.1.tar.gz --markdown 20230717/p/prelude-sdk/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-17 17:01:36] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.8.tar.gz]
+[2023-07-17 17:01:36] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.9.tar.gz]
+[2023-07-17 17:01:36] INFO root fetch - main [MainThread]: End processing [ContactApi]: success
+[2023-07-17 17:01:37] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.5.1.tar.gz]
+[2023-07-17 17:01:37] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.5.2.tar.gz]
+[2023-07-17 17:01:37] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-17 17:01:37] INFO root fetch - processPackages [prelude-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prelude-sdk-1.3.0.tar.gz]
+[2023-07-17 17:01:37] INFO root fetch - processPackages [prelude-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prelude-sdk-1.3.1.tar.gz]
+[2023-07-17 17:01:37] INFO root fetch - main [MainThread]: End processing [prelude-sdk]: success
+[2023-07-17 17:01:38] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2023-07-17 17:01:38] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2023-07-17 17:01:38] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2023-07-17 17:01:41] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.4.tar.gz]
+[2023-07-17 17:01:41] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.5.tar.gz]
+[2023-07-17 17:01:41] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
+[2023-07-17 17:01:41] INFO root fetch - main [MainThread]: Store serial: [18918561]
