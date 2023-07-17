@@ -16622,3 +16622,171 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:09:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-17 14:09:16] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-17 14:09:16] INFO root fetch - main [MainThread]: Store serial: [18916450]
+[2023-07-17 14:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916450]
+[2023-07-17 14:14:25] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomlite
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multireg
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gibberishpy
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: su6
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-editable-dataframe
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odd-collector-sdk
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cgcsdk
+[2023-07-17 14:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyxllib
+[2023-07-17 14:14:26] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [su6]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [gibberishpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [streamlit-editable-dataframe]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [cgcsdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [atomlite]: New version: [2.0.0] Old Version: [1.3.2]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [multireg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-07-17 14:14:26] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 14:14:26] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/b5/93/6706206e88c0c5c2e561faac0a9694503d04a0bc652ece1c893ec641946f/atomlite-1.3.2.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/67/14/1ae5d355bb601bf3ddc9d598227d948531d59f3dedfe24b051d0347edd1c/gibberishpy-1.0.0.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [streamlit-editable-dataframe]: Downloading https://files.pythonhosted.org/packages/b1/22/9671b3aa4b730032f9ef765b37eddd9e1f83f78fb8f944e1e36752d512f4/streamlit-editable-dataframe-0.0.2.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/0d/a9/ae4174d37ce1bf4ef399802d5a8adc4d22a906e8c52d07705d32b80c3307/su6-1.5.2.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/11/e3/60629781a8c34baa111a4f59e38106d324f9caa86dc94b39e5b9f81589de/cgcsdk-0.9.1.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/d1/11/cd7ccb6cb83f7f63c18937a27a8f85832130dc502173eb6eef8007621d19/multireg-0.0.8.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/92/b3/63c0f112ecbc647b12359588e1a5e43868ba4542e1fdb6d0f037c3b00b1f/pyxllib-0.3.8.1.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 14:14:26] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/c0/41/46d5802b6bfd5d323fce41e27bf23bb2c2d78dbdeab59978e98e97456f65/gibberishpy-1.0.1.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/f2/3d/41c2a9ce7cecf16684ae29c2c47eaa6e3284d49ba98fbe864de6ab3a5603/atomlite-2.0.0.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/08/73/dc40172e4a3d64d103ab5473c19a7e76ec7d50f859983ff830ea0ef16b89/cgcsdk-0.9.2.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 14:14:26] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 14:14:26] INFO root fetch - processPackages [streamlit-editable-dataframe]: Downloading https://files.pythonhosted.org/packages/08/cb/6fc66f833e66c3cdf953dce0e268ff392302ac5925846c8afdbe86f241d8/streamlit-editable-dataframe-0.0.3.tar.gz
+[2023-07-17 14:14:26] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-17 14:14:26] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230717/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/c3/0e/afe000aba0f38b61bb2e54ce1cdfd01cd2d03ad61079a34c64e741aa5a1e/multireg-0.0.9.tar.gz
+[2023-07-17 14:14:27] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-17 14:14:27] INFO root fetch - processPackages [gibberishpy]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [gibberishpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gibberishpy-1.0.0.tar.gz tmp/gibberishpy-1.0.1.tar.gz --markdown 20230717/g/gibberishpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/13/39/f5a231f530fcc02e172ed8ed86feec98a3adf3989fabedaeb988e624cefa/pyxllib-0.3.9.tar.gz
+[2023-07-17 14:14:27] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/c7/7a/7b0059d654ddce3845a32d0c1cd6094fa64a35b887551a5cad8c68f0306d/su6-1.6.0.tar.gz
+[2023-07-17 14:14:27] INFO root fetch - processPackages [cgcsdk]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [cgcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgcsdk-0.9.1.tar.gz tmp/cgcsdk-0.9.2.tar.gz --markdown 20230717/c/cgcsdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [atomlite]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.8.tar.gz tmp/multireg-0.0.9.tar.gz --markdown 20230717/m/multireg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [atomlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomlite-1.3.2.tar.gz tmp/atomlite-2.0.0.tar.gz --markdown 20230717/a/atomlite/1.3.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [streamlit-editable-dataframe]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [streamlit-editable-dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-editable-dataframe-0.0.2.tar.gz tmp/streamlit-editable-dataframe-0.0.3.tar.gz --markdown 20230717/s/streamlit-editable-dataframe/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230717/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 14:14:27] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-07-17 14:14:27] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.5.2.tar.gz tmp/su6-1.6.0.tar.gz --markdown 20230717/s/su6/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-07-17 14:14:28] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [odd-collector-sdk]: Start processing: woke
+[2023-07-17 14:14:28] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-17 14:14:28] INFO root fetch - processPackages [woke]: New version: [3.5.0] Old Version: [3.4.2]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [gibberishpy]: Remove: archive file [/home/abi/fetcher/tmp/gibberishpy-1.0.0.tar.gz]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [gibberishpy]: Remove: archive file [/home/abi/fetcher/tmp/gibberishpy-1.0.1.tar.gz]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [gibberishpy]: Start processing: AutoCarver
+[2023-07-17 14:14:28] INFO root fetch - main [MainThread]: End processing [gibberishpy]: success
+[2023-07-17 14:14:28] INFO root fetch - processPackages [AutoCarver]: New version: [5.1.5] Old Version: [5.1.4]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [few-shot-priming]: Start processing: PyFlyt
+[2023-07-17 14:14:28] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 14:14:28] INFO root fetch - processPackages [PyFlyt]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [woke]: Downloading https://files.pythonhosted.org/packages/17/5f/1bca3d13f00fa14f9b179c1f1d1b51df76fec8e335ab51975f704b1677d4/woke-3.4.2.tar.gz
+[2023-07-17 14:14:28] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/b1/a0/574fa7ab212ecec2994ed4c099f3c1027f23ac2693ab71b95e2205216969/AutoCarver-5.1.4.tar.gz
+[2023-07-17 14:14:28] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-1.3.2.tar.gz]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-2.0.0.tar.gz]
+[2023-07-17 14:14:28] INFO root fetch - processPackages [atomlite]: Start processing: mango-framework
+[2023-07-17 14:14:28] INFO root fetch - main [MainThread]: End processing [atomlite]: success
+[2023-07-17 14:14:29] INFO root fetch - processPackages [mango-framework]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/59/3d/6ab0364fbcfbe1995ad6a4bb2ab71aef45e7d981b1ace9294cea0ccd6c69/PyFlyt-0.7.5.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.8.tar.gz]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.9.tar.gz]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [multireg]: Start processing: shinherpro
+[2023-07-17 14:14:29] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-07-17 14:14:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: je-api-testka-dev
+[2023-07-17 14:14:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-17 14:14:29] INFO root fetch - processPackages [shinherpro]: New version: [1.7.3] Old Version: [1.7.1]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-0.9.1.tar.gz]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-0.9.2.tar.gz]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [cgcsdk]: Start processing: gibberishpy
+[2023-07-17 14:14:29] INFO root fetch - main [MainThread]: End processing [cgcsdk]: success
+[2023-07-17 14:14:29] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/9d/28/9cf9619f8faee8962c8c96419b3c5216659deb98fb2a5787d3b2dedbb94b/mango-framework-0.5.0.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/39/c3/7f64e9cfdc98ddd14142cdb26d7a63ea0f076d277299b011b55569879ec4/AutoCarver-5.1.5.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [woke]: Downloading https://files.pythonhosted.org/packages/96/e7/66a26a39e18b4a78dbcc65cf1bc9b6cf0e07f2e14dceaa1f61d7734cb5f9/woke-3.5.0.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [gibberishpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 14:14:29] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/92/49/f38d1276f6eeea1d06806088abcb16743a3b113216899600e65561d41420/je_api_testka_dev-0.0.98.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/c4/2d/4d7d057bb5c5f50a4c1d367d4ee0a3160507ac050337ec0b19eba58868af/shinherpro-1.7.1.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/67/14/1ae5d355bb601bf3ddc9d598227d948531d59f3dedfe24b051d0347edd1c/gibberishpy-1.0.0.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/29/9a/a479a154f8e5a8ad2467e87c00ccce297010f152d4c7fd8cd186ea24b7a6/PyFlyt-0.7.6.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [woke]: executing diffoscope
+[2023-07-17 14:14:29] INFO root fetch - processPackages [woke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woke-3.4.2.tar.gz tmp/woke-3.5.0.tar.gz --markdown 20230717/w/woke/3.4.2-3.5.0/diff.md --exclude *.pyd
+[2023-07-17 14:14:29] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-17 14:14:29] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.1.4.tar.gz tmp/AutoCarver-5.1.5.tar.gz --markdown 20230717/A/AutoCarver/5.1.4-5.1.5/diff.md --exclude *.pyd
+[2023-07-17 14:14:29] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/77/7d/0b05e639b702138e6bbe22ac499535d8815c2524be1a78c59585071287dc/mango-framework-0.5.1.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-17 14:14:29] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.7.5.tar.gz tmp/PyFlyt-0.7.6.tar.gz --markdown 20230717/P/PyFlyt/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-17 14:14:29] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/2c/1d/fcd4ebf844f853e6ba33ca71dd156f408545707c8e66109c284040bd08b1/je_api_testka_dev-0.0.99.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [gibberishpy]: Downloading https://files.pythonhosted.org/packages/c0/41/46d5802b6bfd5d323fce41e27bf23bb2c2d78dbdeab59978e98e97456f65/gibberishpy-1.0.1.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-07-17 14:14:29] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.98.tar.gz tmp/je_api_testka_dev-0.0.99.tar.gz --markdown 20230717/j/je-api-testka-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 14:14:29] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/aa/b6/5ca2a6c556be1921b11c3d310eab46578791789c576a4b54f4675f0508f8/shinherpro-1.7.3.tar.gz
+[2023-07-17 14:14:29] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-17 14:14:29] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.5.0.tar.gz tmp/mango-framework-0.5.1.tar.gz --markdown 20230717/m/mango-framework/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 14:14:30] INFO root fetch - processPackages [gibberishpy]: executing diffoscope
+[2023-07-17 14:14:30] INFO root fetch - processPackages [gibberishpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gibberishpy-1.0.0.tar.gz tmp/gibberishpy-1.0.1.tar.gz --markdown 20230717/g/gibberishpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 14:14:30] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-07-17 14:14:30] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.7.1.tar.gz tmp/shinherpro-1.7.3.tar.gz --markdown 20230717/s/shinherpro/1.7.1-1.7.3/diff.md --exclude *.pyd
+[2023-07-17 14:14:31] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.4.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.5.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - processPackages [AutoCarver]: Start processing: clargs
+[2023-07-17 14:14:31] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-17 14:14:31] WARNING root fetch - processPackages [clargs]: Skipping, unable to determine old version
+[2023-07-17 14:14:31] INFO root fetch - processPackages [clargs]: Start processing: digimat.bac0
+[2023-07-17 14:14:31] INFO root fetch - main [MainThread]: End processing [clargs] error
+[2023-07-17 14:14:31] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 14:14:31] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-17 14:14:31] INFO root fetch - processPackages [gibberishpy]: Remove: archive file [/home/abi/fetcher/tmp/gibberishpy-1.0.0.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - processPackages [gibberishpy]: Remove: archive file [/home/abi/fetcher/tmp/gibberishpy-1.0.1.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - main [MainThread]: End processing [gibberishpy]: success
+[2023-07-17 14:14:31] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.5.0.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.5.1.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-17 14:14:31] INFO root fetch - processPackages [shinherpro]: Remove: archive file [/home/abi/fetcher/tmp/shinherpro-1.7.1.tar.gz]
+[2023-07-17 14:14:31] INFO root fetch - processPackages [shinherpro]: Remove: archive file [/home/abi/fetcher/tmp/shinherpro-1.7.3.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-07-17 14:14:32] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.7.5.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.7.6.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-17 14:14:32] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-17 14:14:32] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.8.1.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.9.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-07-17 14:14:32] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.98.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.99.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-07-17 14:14:32] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-17 14:14:32] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230717/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 14:14:32] INFO root fetch - processPackages [woke]: Remove: archive file [/home/abi/fetcher/tmp/woke-3.4.2.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - processPackages [woke]: Remove: archive file [/home/abi/fetcher/tmp/woke-3.5.0.tar.gz]
+[2023-07-17 14:14:32] INFO root fetch - main [MainThread]: End processing [woke]: success
+[2023-07-17 14:14:33] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-17 14:14:33] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-17 14:14:33] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-17 14:14:42] INFO root fetch - processPackages [streamlit-editable-dataframe]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-editable-dataframe-0.0.2.tar.gz]
+[2023-07-17 14:14:42] INFO root fetch - processPackages [streamlit-editable-dataframe]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-editable-dataframe-0.0.3.tar.gz]
+[2023-07-17 14:14:42] INFO root fetch - main [MainThread]: End processing [streamlit-editable-dataframe]: success
+[2023-07-17 14:14:44] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.2.tar.gz]
+[2023-07-17 14:14:44] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.0.tar.gz]
+[2023-07-17 14:14:44] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-07-17 14:14:44] INFO root fetch - main [MainThread]: Store serial: [18916510]
