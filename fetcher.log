@@ -6078,3 +6078,63 @@
 [2023-07-17 05:07:00] INFO root fetch - processPackages [gunfolds]: Remove: archive file [/home/abi/fetcher/tmp/gunfolds-0.8.tar.gz]
 [2023-07-17 05:07:00] INFO root fetch - main [MainThread]: End processing [gunfolds]: success
 [2023-07-17 05:07:00] INFO root fetch - main [MainThread]: Store serial: [18911934]
+[2023-07-17 05:12:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911934]
+[2023-07-17 05:12:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matrix-nio
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mortardata
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-mail-thunder-dev
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-web-runner-dev
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharkpoint
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assistorgapi
+[2023-07-17 05:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-flask
+[2023-07-17 05:12:09] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.2] Old Version: [202306.0.34]
+[2023-07-17 05:12:09] WARNING root fetch - processPackages [mortardata]: Skipping, unable to determine old version
+[2023-07-17 05:12:09] INFO root fetch - main [MainThread]: End processing [mortardata] error
+[2023-07-17 05:12:09] INFO root fetch - processPackages [matrix-nio]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 05:12:09] INFO root fetch - processPackages [sharkpoint]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-17 05:12:09] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 05:12:09] INFO root fetch - processPackages [assistorgapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 05:12:09] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 05:12:09] INFO root fetch - processPackages [sharkpoint]: Downloading https://files.pythonhosted.org/packages/d8/43/51bf8fb76ce40c7692908a060a309a83079243ff6895f6da3b23f5eea639/sharkpoint-2.0.0.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/06/44/7ece81fee328e1cd77236e26a8e0b8a2f02f3583d78427a74266b44794ba/assistorgapi-0.0.7.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/f5/d9/ce1e0b3cb456c54026c77ace6184124393d7d816f366c35a2da00e91910e/data_ecosystem_flask-202306.0.34.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/a5/c4/a53a587da9939f040b85c249cddd31ebf334beb746d794c6807c8ba96a2c/matrix-nio-0.8.0.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [sharkpoint]: Downloading https://files.pythonhosted.org/packages/b7/f7/04d323f811be96441e26e50ef8b9379b9e869c0a4796917861180a20678e/sharkpoint-2.0.1.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/0b/1d/f51b00ee0f3343d3087e325ac29c26ec1a7f9a9212913b2b0614f6a712a1/assistorgapi-0.0.8.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/8e/95/6fa390c26d384877552824a8fe6114996538b03844405f9dc4e3cb4bf066/data_ecosystem_flask-202307.0.2.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [sharkpoint]: executing diffoscope
+[2023-07-17 05:12:09] INFO root fetch - processPackages [sharkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharkpoint-2.0.0.tar.gz tmp/sharkpoint-2.0.1.tar.gz --markdown 20230717/s/sharkpoint/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-17 05:12:09] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-07-17 05:12:09] INFO root fetch - processPackages [assistorgapi]: executing diffoscope
+[2023-07-17 05:12:09] INFO root fetch - processPackages [assistorgapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistorgapi-0.0.7.tar.gz tmp/assistorgapi-0.0.8.tar.gz --markdown 20230717/a/assistorgapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 05:12:09] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-17 05:12:09] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202306.0.34.tar.gz tmp/data_ecosystem_flask-202307.0.2.tar.gz --markdown 20230717/d/data-ecosystem-flask/202306.0.34-202307.0.2/diff.md --exclude *.pyd
+[2023-07-17 05:12:10] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/3d/2f/b4c4fea1cb5a05e5871c63040020922a45b619663b0923c49d4cb933387c/matrix-nio-0.9.0.tar.gz
+[2023-07-17 05:12:10] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-07-17 05:12:10] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-07-17 05:12:10] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230717/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 05:12:10] INFO root fetch - processPackages [matrix-nio]: executing diffoscope
+[2023-07-17 05:12:10] INFO root fetch - processPackages [matrix-nio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-nio-0.8.0.tar.gz tmp/matrix-nio-0.9.0.tar.gz --markdown 20230717/m/matrix-nio/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:12:10] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-07-17 05:12:10] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230717/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 05:12:10] INFO root fetch - processPackages [sharkpoint]: Remove: archive file [/home/abi/fetcher/tmp/sharkpoint-2.0.0.tar.gz]
+[2023-07-17 05:12:10] INFO root fetch - processPackages [sharkpoint]: Remove: archive file [/home/abi/fetcher/tmp/sharkpoint-2.0.1.tar.gz]
+[2023-07-17 05:12:10] INFO root fetch - main [MainThread]: End processing [sharkpoint]: success
+[2023-07-17 05:12:10] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.7.tar.gz]
+[2023-07-17 05:12:10] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.8.tar.gz]
+[2023-07-17 05:12:10] INFO root fetch - main [MainThread]: End processing [assistorgapi]: success
+[2023-07-17 05:12:11] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202306.0.34.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.2.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-17 05:12:11] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-07-17 05:12:11] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-07-17 05:12:11] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.8.0.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
+[2023-07-17 05:12:11] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
+[2023-07-17 05:12:11] INFO root fetch - main [MainThread]: Store serial: [18911958]
