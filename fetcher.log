@@ -21598,3 +21598,166 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:40:25] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
 [2023-07-17 16:40:25] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-07-17 16:40:25] INFO root fetch - main [MainThread]: Store serial: [18918349]
+[2023-07-17 16:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918349]
+[2023-07-17 16:45:35] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firetune
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glean-cli
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-web-runner-dev
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clarifai
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omero-cli-transfer
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pegasusX
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Carter-Offline
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bxsolana-trader-proto
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evilHunter
+[2023-07-17 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bluecellulab
+[2023-07-17 16:45:35] INFO root fetch - processPackages [clarifai]: New version: [9.6.0] Old Version: [9.5.4]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.5b0] Old Version: [2.0.5a0]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [omero-cli-transfer]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [evilHunter]: New version: [0.2a0] Old Version: [0.2.1]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [bluecellulab]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [glean-cli]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [pegasusX]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-07-17 16:45:35] WARNING root fetch - processPackages [firetune]: Skipping, unable to determine old version
+[2023-07-17 16:45:35] INFO root fetch - processPackages [firetune]: Start processing: sysplant
+[2023-07-17 16:45:35] INFO root fetch - main [MainThread]: End processing [firetune] error
+[2023-07-17 16:45:35] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [sysplant]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-07-17 16:45:35] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/30/3d/5b428aa83a06a69bcb26d21af33159f8fc2e21eb42adac4e0580d87f15f9/Carter-Offline-2.0.5a0.tar.gz
+[2023-07-17 16:45:35] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-07-17 16:45:35] INFO root fetch - processPackages [glean-cli]: Downloading https://files.pythonhosted.org/packages/dc/03/a458be2025e6134e3deb378f1f67e4f7886492c04c575a7ebc58ccf0a4a2/glean-cli-0.6.2.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [omero-cli-transfer]: Downloading https://files.pythonhosted.org/packages/fe/8e/49bd191c70a1c18483491c4dfe5261ee482dc483ecde88f7768ec7ad910f/omero-cli-transfer-0.5.0.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/da/74/8a0e786305967c00ea7f5949693fd516f970159a7c9596d8274dd664e1df/clarifai-9.5.4.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/a6/ee/35da4af977c6c203893313c00014a0f697ad0cb74c7cf5fa744ca379cc2b/pegasusX-0.2.2.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/a1/f3/0c69ddf20839b4ee1860162ec175052b80b5dfa2271d15f89d906ae199c6/evilHunter-0.2.1.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/cc/d4/3f7c211a4ccb59865cc2c8d794c3929a7c5bb19d89429a74cc76c5c682c2/bxsolana-trader-proto-0.0.8.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/6a/8e/68c7524626c1bebb5ea13502090e0629498dac2359c891065dc1a790351b/bluecellulab-1.2.8.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/0c/e2/e363824dcadecaf90f2232c75b2ded5b266c82686c0c13d5a2d3d97fde6f/sysplant-0.1.1.tar.gz
+[2023-07-17 16:45:36] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13627199>=10485760
+[2023-07-17 16:45:36] INFO root fetch - processPackages [bluecellulab]: Start processing: pynkdv
+[2023-07-17 16:45:36] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-17 16:45:36] INFO root fetch - processPackages [pynkdv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:45:36] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/7a/5b/a2b4f48c6c2f475afc151914dfbb30e555e8e23019fa215a91bbf9b435c0/pegasusX-0.2.4.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/b8/d2/a8c0111080939ca6ded9847fab97cd9bee70f14c759258f11fa53885e606/Carter-Offline-2.0.5b0.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230717/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:45:36] INFO root fetch - processPackages [glean-cli]: Downloading https://files.pythonhosted.org/packages/69/c0/fbf1b2bfba9b0f41e91657ea0702b7d7c58ca8831439e150a6bd5d36de19/glean-cli-0.6.3.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [omero-cli-transfer]: Downloading https://files.pythonhosted.org/packages/ba/62/93a64c25067f5e0b5bfb64711c88e554866b9785ffa3210c26bd650edf46/omero-cli-transfer-0.6.0.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/41/ba/ce66d3a3835446ff90e4197c9717f45bb547106587012a097b7be9f8e1a8/clarifai-9.6.0.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/32/74/57a46a687d2c07a1865fc3eb3ead2f846fd2d3029f381a745c382b14ad30/evilHunter-0.2a0.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [pynkdv]: Downloading https://files.pythonhosted.org/packages/60/ae/3dff1130bdc59842dc37999b93afd517413cc708e48cda07beef2d4a2668/pynkdv-0.0.8.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/1d/c1/c8fbfc83b42a32b0d62b903a5979a34825d1bde50627a22c056a8b12ff76/sysplant-0.1.4.tar.gz
+[2023-07-17 16:45:36] INFO root fetch - processPackages [glean-cli]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [glean-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-cli-0.6.2.tar.gz tmp/glean-cli-0.6.3.tar.gz --markdown 20230717/g/glean-cli/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-17 16:45:36] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.2.2.tar.gz tmp/pegasusX-0.2.4.tar.gz --markdown 20230717/p/pegasusX/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-07-17 16:45:36] INFO root fetch - processPackages [omero-cli-transfer]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [omero-cli-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-cli-transfer-0.5.0.tar.gz tmp/omero-cli-transfer-0.6.0.tar.gz --markdown 20230717/o/omero-cli-transfer/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 16:45:36] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.5a0.tar.gz tmp/Carter-Offline-2.0.5b0.tar.gz --markdown 20230717/C/Carter-Offline/2.0.5a0-2.0.5b0/diff.md --exclude *.pyd
+[2023-07-17 16:45:36] INFO root fetch - processPackages [sysplant]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [sysplant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysplant-0.1.1.tar.gz tmp/sysplant-0.1.4.tar.gz --markdown 20230717/s/sysplant/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-07-17 16:45:36] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-07-17 16:45:36] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.2.1.tar.gz tmp/evilHunter-0.2a0.tar.gz --markdown 20230717/e/evilHunter/0.2.1-0.2a0/diff.md --exclude *.pyd
+[2023-07-17 16:45:37] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/f1/4d/2dae934faee772dba6ffca551f80a4bf48f3e12feb404256a37b431161ac/bxsolana-trader-proto-0.0.9.tar.gz
+[2023-07-17 16:45:37] INFO root fetch - processPackages [pynkdv]: Downloading https://files.pythonhosted.org/packages/5c/30/75861c1b48fe5866bdadc7984bd4433cbc99f6636c754830cd421592dd9e/pynkdv-0.0.9.tar.gz
+[2023-07-17 16:45:37] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2023-07-17 16:45:37] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.5.4.tar.gz tmp/clarifai-9.6.0.tar.gz --markdown 20230717/c/clarifai/9.5.4-9.6.0/diff.md --exclude *.pyd
+[2023-07-17 16:45:37] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-07-17 16:45:37] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230717/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:45:37] INFO root fetch - processPackages [pynkdv]: executing diffoscope
+[2023-07-17 16:45:37] INFO root fetch - processPackages [pynkdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynkdv-0.0.8.tar.gz tmp/pynkdv-0.0.9.tar.gz --markdown 20230717/p/pynkdv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:45:37] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-07-17 16:45:37] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-07-17 16:45:37] INFO root fetch - processPackages [je-web-runner-dev]: Start processing: pepperize.cdk-security-group
+[2023-07-17 16:45:37] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.2.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.4.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pegasusX]: Start processing: learninghouse
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [learninghouse]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [omero-cli-transfer]: Remove: archive file [/home/abi/fetcher/tmp/omero-cli-transfer-0.5.0.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [omero-cli-transfer]: Remove: archive file [/home/abi/fetcher/tmp/omero-cli-transfer-0.6.0.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [omero-cli-transfer]: Start processing: emvoice
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [omero-cli-transfer]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-07-17 16:45:38] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.2.1.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.2a0.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [evilHunter]: Start processing: fwdviewpy
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-07-17 16:45:38] WARNING root fetch - processPackages [emvoice]: Skipping, unable to determine old version
+[2023-07-17 16:45:38] INFO root fetch - processPackages [emvoice]: Start processing: dj-veryfi
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [emvoice] error
+[2023-07-17 16:45:38] INFO root fetch - processPackages [glean-cli]: Remove: archive file [/home/abi/fetcher/tmp/glean-cli-0.6.2.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [glean-cli]: Remove: archive file [/home/abi/fetcher/tmp/glean-cli-0.6.3.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [glean-cli]: Start processing: visu
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [glean-cli]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.5a0.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.5b0.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [Carter-Offline]: Start processing: nobinobi-child
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 16:45:38] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/78/62/9d72383820c07720f1f55f5a5b66bb307aa12c66719465e65d483134b611/learninghouse-1.9.3.tar.gz
+[2023-07-17 16:45:38] INFO root fetch - processPackages [visu]: New version: [2023.7] Old Version: [2023.1]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.1.1.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.1.4.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [sysplant]: Start processing: strangeworks-optimization
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [sysplant]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-17 16:45:38] INFO root fetch - processPackages [nobinobi-child]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/ba/b3/c47f5cdde4bcb586b525f90977f4fea5ba21bc6d3423f6db9d1ae0b49f44/dj-veryfi-0.1.5.tar.gz
+[2023-07-17 16:45:38] INFO root fetch - processPackages [bxsolana-trader-proto]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-proto-0.0.8.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [bxsolana-trader-proto]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-proto-0.0.9.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pynkdv]: Remove: archive file [/home/abi/fetcher/tmp/pynkdv-0.0.8.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [pynkdv]: Remove: archive file [/home/abi/fetcher/tmp/pynkdv-0.0.9.tar.gz]
+[2023-07-17 16:45:38] INFO root fetch - main [MainThread]: End processing [pynkdv]: success
+[2023-07-17 16:45:38] INFO root fetch - processPackages [strangeworks-optimization]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 16:45:38] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/15/2c/696fccb10fa0b2ed719cb4015f4b695aea107aa902352ec186430b30a835/dj-veryfi-0.1.7.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [nobinobi-child]: Downloading https://files.pythonhosted.org/packages/40/89/6206738eb561e922dee10ccaa698474d2dabc50afd9e0b3f694caafe1ced/nobinobi-child-0.1.4.8.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [visu]: Downloading https://files.pythonhosted.org/packages/1c/82/f12588fa0d50f378c5d47a8f58a44f5b3d284ba3c23fe3ebac45f3b83ca0/visu-2023.1.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-17 16:45:39] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230717/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 16:45:39] INFO root fetch - processPackages [strangeworks-optimization]: Downloading https://files.pythonhosted.org/packages/ed/f0/4437b45c06331174f505b9eff5733023e3bf56af69ffefab5af01ff8ca04/strangeworks_optimization-0.1.4.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-17 16:45:39] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.5.tar.gz tmp/dj-veryfi-0.1.7.tar.gz --markdown 20230717/d/dj-veryfi/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 16:45:39] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/47/d9/ab5f6f29860109390ed48273ce979085f76cfd692d953339783fdf819996/learninghouse-1.9.4.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.98.tar.gz]
+[2023-07-17 16:45:39] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.99.tar.gz]
+[2023-07-17 16:45:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-07-17 16:45:39] INFO root fetch - processPackages [strangeworks-optimization]: Downloading https://files.pythonhosted.org/packages/d5/0d/66b73b6e6b0fd075e5c742de31640893046cbc11a31616b88354032dc5df/strangeworks_optimization-0.1.5.tar.gz
+[2023-07-17 16:45:39] INFO root fetch - processPackages [learninghouse]: executing diffoscope
+[2023-07-17 16:45:39] INFO root fetch - processPackages [learninghouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learninghouse-1.9.3.tar.gz tmp/learninghouse-1.9.4.tar.gz --markdown 20230717/l/learninghouse/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-17 16:45:39] INFO root fetch - processPackages [visu]: Downloading https://files.pythonhosted.org/packages/a1/25/0137b519f071b2115567afcf08b2b8d2e0f7dbb2a1a2edfd280e2993d1a1/visu-2023.7-py3-none-any.whl
+[2023-07-17 16:45:39] INFO root fetch - processPackages [strangeworks-optimization]: executing diffoscope
+[2023-07-17 16:45:39] INFO root fetch - processPackages [strangeworks-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_optimization-0.1.4.tar.gz tmp/strangeworks_optimization-0.1.5.tar.gz --markdown 20230717/s/strangeworks-optimization/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 16:45:39] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.5.4.tar.gz]
+[2023-07-17 16:45:39] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.6.0.tar.gz]
+[2023-07-17 16:45:39] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2023-07-17 16:45:39] WARNING root fetch - processPackages [nobinobi-child]: Skipping package: exceeds size limit 24753372>=10485760
+[2023-07-17 16:45:39] INFO root fetch - main [MainThread]: End processing [nobinobi-child] error
+[2023-07-17 16:45:40] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-17 16:45:40] INFO root fetch - processPackages [visu]: executing diffoscope
+[2023-07-17 16:45:40] INFO root fetch - processPackages [visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visu-2023.1.tar.gz tmp/visu-2023.7-py3-none-any.whl.zip --markdown 20230717/v/visu/2023.1-2023.7/diff.md --exclude *.pyd
+[2023-07-17 16:45:40] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.5.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.7.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-17 16:45:40] INFO root fetch - processPackages [strangeworks-optimization]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization-0.1.4.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - processPackages [strangeworks-optimization]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization-0.1.5.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - main [MainThread]: End processing [strangeworks-optimization]: success
+[2023-07-17 16:45:40] INFO root fetch - processPackages [visu]: Remove: archive file [/home/abi/fetcher/tmp/visu-2023.1.tar.gz]
+[2023-07-17 16:45:40] INFO root fetch - processPackages [visu]: Remove: archive file [/home/abi/fetcher/tmp/visu-2023.7-py3-none-any.whl.zip]
+[2023-07-17 16:45:40] INFO root fetch - main [MainThread]: End processing [visu]: success
+[2023-07-17 16:45:47] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.3.tar.gz]
+[2023-07-17 16:45:47] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.4.tar.gz]
+[2023-07-17 16:45:47] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
+[2023-07-17 16:45:47] INFO root fetch - main [MainThread]: Store serial: [18918410]
