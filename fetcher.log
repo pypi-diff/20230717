@@ -8420,3 +8420,137 @@
 [2023-07-17 08:11:03] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.0.tar.gz]
 [2023-07-17 08:11:03] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
 [2023-07-17 08:11:03] INFO root fetch - main [MainThread]: Store serial: [18912881]
+[2023-07-17 08:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912881]
+[2023-07-17 08:16:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-quant-manual-assign
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: network-dataset
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfsBlankDetection
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adbutils
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dms-influx2
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utbot-executor
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medcase
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ML-Algo
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: requestsbankrko
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: helios-opentelemetry-sdk
+[2023-07-17 08:16:13] INFO root fetch - processPackages [adbutils]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 08:16:13] WARNING root fetch - processPackages [network-dataset]: Skipping, unable to determine old version
+[2023-07-17 08:16:13] INFO root fetch - processPackages [network-dataset]: Start processing: iman
+[2023-07-17 08:16:13] INFO root fetch - main [MainThread]: End processing [network-dataset] error
+[2023-07-17 08:16:13] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ML-Algo]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [pdfsBlankDetection]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [dms-influx2]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-17 08:16:13] WARNING root fetch - processPackages [medcase]: Skipping, unable to determine old version
+[2023-07-17 08:16:13] INFO root fetch - processPackages [medcase]: Start processing: pyg-nightly
+[2023-07-17 08:16:13] INFO root fetch - main [MainThread]: End processing [medcase] error
+[2023-07-17 08:16:13] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230716] Old Version: [2.4.0.dev20230715]
+[2023-07-17 08:16:13] INFO root fetch - processPackages [pdfsBlankDetection]: Downloading https://files.pythonhosted.org/packages/5c/37/b85fb6ab93ccf0cae7c82767bad6693bbc08628d9f43228ed206de769216/pdfsBlankDetection-0.1.4.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/6c/0d/447d0da3afaac566a4677f40bfaaf9119a161673b798cd1724cc3b5ef131/adbutils-1.2.8.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/a9/d90eebd18da44f617aa3349e3526fd1e640123480c7522680806d38b32aa/pyg_nightly-2.4.0.dev20230715.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/d5/15/938d6cb49d2365dca32eb203260c7f465ce8d8bf1fc2959be7d6eb904fb8/iman-0.0.85.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/d8/10/047f15f279a63531faaa9801785d47bff1b8f4c225816958349b30fa2d04/helios-opentelemetry-sdk-1.0.98.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/28/5b/2c15abd58973f94ccc17a3fcb3cc1306ac229461512c87b5fac000210351/requestsbankrko-0.2.1.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [dms-influx2]: Downloading https://files.pythonhosted.org/packages/51/e2/f17f6975a3a6b6a1ae11c09b3a2ec98259622299188d6854a42ace5577e5/dms-influx2-0.3.3.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-17 08:16:13] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/91/82/1abb30539c4b4cfe2b7affed29ce6417182d04c97b8515d558db258324f7/ML-Algo-1.2.8.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/4e/a6/28cf3f9975d8fb6fb93ccd8eed04f0542edcb955f9cc022e7a59c6960013/odoo_addon_stock_quant_manual_assign-16.0.1.0.1-py3-none-any.whl
+[2023-07-17 08:16:14] INFO root fetch - processPackages [pdfsBlankDetection]: Downloading https://files.pythonhosted.org/packages/5f/0c/80bfec45946f1df277cc4c07d64b0499470c6793621e4266ed4b9f4ca286/pdfsBlankDetection-0.1.5.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_quant_manual_assign-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_stock_quant_manual_assign-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-stock-quant-manual-assign/16.0.1.0.0.9-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [dms-influx2]: Downloading https://files.pythonhosted.org/packages/ed/e9/8226f858b75859d73a688c8a6b4e67869bd9bf289ed47f63edec7357c742/dms-influx2-0.3.4.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/2a/95/1e92cbe11fbfa1cf0013b03e01578f10954d92a629c256151d336d70f3b9/adbutils-1.2.9.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [pdfsBlankDetection]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [pdfsBlankDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfsBlankDetection-0.1.4.tar.gz tmp/pdfsBlankDetection-0.1.5.tar.gz --markdown 20230717/p/pdfsBlankDetection/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/31/66/b44d6358ffff432fcd6c61faf2b95d21ada66db7a4d1a490a0869c43e4c5/ML-Algo-1.2.9.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.85.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230717/i/iman/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/40/13/84c65a198e96deee8ac7a5131d8c201b0748977047fd077a4a518622cb32/helios-opentelemetry-sdk-1.0.99.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/2e/a3/022986334579bbe62537af5ad8e2821e5ff157c1926cc1330b0586577a19/requestsbankrko-0.2.2.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/4f/51/20689c4247f84499c42fc4ad109d275f91b71a0d5b500b417eea5bef3f04/pyg_nightly-2.4.0.dev20230716.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [dms-influx2]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [dms-influx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dms-influx2-0.3.3.tar.gz tmp/dms-influx2-0.3.4.tar.gz --markdown 20230717/d/dms-influx2/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-1.2.8.tar.gz tmp/adbutils-1.2.9.tar.gz --markdown 20230717/a/adbutils/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-17 08:16:14] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML-Algo-1.2.8.tar.gz tmp/ML-Algo-1.2.9.tar.gz --markdown 20230717/M/ML-Algo/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.98.tar.gz tmp/helios-opentelemetry-sdk-1.0.99.tar.gz --markdown 20230717/h/helios-opentelemetry-sdk/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.1.tar.gz tmp/requestsbankrko-0.2.2.tar.gz --markdown 20230717/r/requestsbankrko/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230717/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 08:16:14] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-17 08:16:14] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230715.tar.gz tmp/pyg_nightly-2.4.0.dev20230716.tar.gz --markdown 20230717/p/pyg-nightly/2.4.0.dev20230715-2.4.0.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 08:16:15] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.85.tar.gz]
+[2023-07-17 08:16:15] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-17 08:16:15] INFO root fetch - processPackages [iman]: Start processing: volstreet
+[2023-07-17 08:16:15] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-17 08:16:15] INFO root fetch - processPackages [pdfsBlankDetection]: Remove: archive file [/home/abi/fetcher/tmp/pdfsBlankDetection-0.1.4.tar.gz]
+[2023-07-17 08:16:15] INFO root fetch - processPackages [pdfsBlankDetection]: Remove: archive file [/home/abi/fetcher/tmp/pdfsBlankDetection-0.1.5.tar.gz]
+[2023-07-17 08:16:15] INFO root fetch - processPackages [pdfsBlankDetection]: Start processing: queryandprocessdatautility
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [pdfsBlankDetection]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [volstreet]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/79/85/f54e4062776c3938fc683552388804c4a6173c737339a83cd5e447f647e1/volstreet-1.0.1.tar.gz
+[2023-07-17 08:16:16] INFO root fetch - processPackages [dms-influx2]: Remove: archive file [/home/abi/fetcher/tmp/dms-influx2-0.3.3.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [dms-influx2]: Remove: archive file [/home/abi/fetcher/tmp/dms-influx2-0.3.4.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [dms-influx2]: Start processing: lyhapi
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [dms-influx2]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [lyhapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.8.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.9.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [ML-Algo]: Start processing: network-dataset
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [lyhapi]: Downloading https://files.pythonhosted.org/packages/d6/04/bf6e791c0815e84f1d79c3dd208de49cf78bb3f7a1d5dca33fc60dac5eee/lyhapi-0.0.5.tar.gz
+[2023-07-17 08:16:16] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-07-17 08:16:16] INFO root fetch - processPackages [network-dataset]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/db/c5/79b69beedd08f65d6093479963cf055afb9d9381a8f1bd4fa88f3ac79be2/volstreet-1.0.2.tar.gz
+[2023-07-17 08:16:16] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_manual_assign-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_manual_assign-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-quant-manual-assign]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.1.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.2.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-1.2.8.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-1.2.9.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.98.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.99.tar.gz]
+[2023-07-17 08:16:16] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-07-17 08:16:16] INFO root fetch - processPackages [network-dataset]: Downloading https://files.pythonhosted.org/packages/12/dc/78ec98f55e38d6c522e8bc9c9a126b677ecbdb586c1920ee16ae731af5d8/network-dataset-0.0.1.tar.gz
+[2023-07-17 08:16:16] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-17 08:16:16] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.1.tar.gz tmp/volstreet-1.0.2.tar.gz --markdown 20230717/v/volstreet/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 08:16:16] INFO root fetch - processPackages [lyhapi]: Downloading https://files.pythonhosted.org/packages/c4/8d/530fc421b36f4578a1e0e98372bb5bc5bc5d2329de79b7b834ec8d83d88a/lyhapi-0.0.6.tar.gz
+[2023-07-17 08:16:16] INFO root fetch - processPackages [lyhapi]: executing diffoscope
+[2023-07-17 08:16:16] INFO root fetch - processPackages [lyhapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyhapi-0.0.5.tar.gz tmp/lyhapi-0.0.6.tar.gz --markdown 20230717/l/lyhapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 08:16:16] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-07-17 08:16:16] INFO root fetch - processPackages [network-dataset]: Downloading https://files.pythonhosted.org/packages/5d/97/ea4318fca30928276ac7c539e0fa9b6eb9c5448052b79980eb650589af39/network-dataset-0.0.2.tar.gz
+[2023-07-17 08:16:17] INFO root fetch - processPackages [network-dataset]: executing diffoscope
+[2023-07-17 08:16:17] INFO root fetch - processPackages [network-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network-dataset-0.0.1.tar.gz tmp/network-dataset-0.0.2.tar.gz --markdown 20230717/n/network-dataset/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 08:16:17] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-07-17 08:16:17] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230717/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 08:16:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.1.tar.gz]
+[2023-07-17 08:16:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.2.tar.gz]
+[2023-07-17 08:16:17] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-17 08:16:17] INFO root fetch - processPackages [lyhapi]: Remove: archive file [/home/abi/fetcher/tmp/lyhapi-0.0.5.tar.gz]
+[2023-07-17 08:16:17] INFO root fetch - processPackages [lyhapi]: Remove: archive file [/home/abi/fetcher/tmp/lyhapi-0.0.6.tar.gz]
+[2023-07-17 08:16:17] INFO root fetch - main [MainThread]: End processing [lyhapi]: success
+[2023-07-17 08:16:17] INFO root fetch - processPackages [network-dataset]: Remove: archive file [/home/abi/fetcher/tmp/network-dataset-0.0.1.tar.gz]
+[2023-07-17 08:16:17] INFO root fetch - processPackages [network-dataset]: Remove: archive file [/home/abi/fetcher/tmp/network-dataset-0.0.2.tar.gz]
+[2023-07-17 08:16:17] INFO root fetch - main [MainThread]: End processing [network-dataset]: success
+[2023-07-17 08:16:17] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 08:16:17] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 08:16:17] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-07-17 08:16:19] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230715.tar.gz]
+[2023-07-17 08:16:19] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230716.tar.gz]
+[2023-07-17 08:16:19] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-17 08:16:19] INFO root fetch - main [MainThread]: Store serial: [18912936]
