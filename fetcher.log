@@ -9013,3 +9013,42 @@
 [2023-07-17 08:45:12] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-07-17 08:45:12] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-07-17 08:45:12] INFO root fetch - main [MainThread]: Store serial: [18913122]
+[2023-07-17 08:50:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913122]
+[2023-07-17 08:50:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argil
+[2023-07-17 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plasmid-design
+[2023-07-17 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genpasswbykann
+[2023-07-17 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services-lwdp
+[2023-07-17 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chik-clvm
+[2023-07-17 08:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nowcasting-datamodel
+[2023-07-17 08:50:23] WARNING root fetch - processPackages [genpasswbykann]: Skipping, unable to determine old version
+[2023-07-17 08:50:23] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [3.0.1.0.dev5572612359] Old Version: [3.0.1.0.dev5451550241]
+[2023-07-17 08:50:23] INFO root fetch - main [MainThread]: End processing [genpasswbykann] error
+[2023-07-17 08:50:23] INFO root fetch - processPackages [plasmid-design]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 08:50:23] WARNING root fetch - processPackages [argil]: Skipping, unable to determine old version
+[2023-07-17 08:50:23] INFO root fetch - main [MainThread]: End processing [argil] error
+[2023-07-17 08:50:23] WARNING root fetch - processPackages [chik-clvm]: Skipping, unable to determine old version
+[2023-07-17 08:50:23] INFO root fetch - main [MainThread]: End processing [chik-clvm] error
+[2023-07-17 08:50:23] INFO root fetch - processPackages [plasmid-design]: Downloading https://files.pythonhosted.org/packages/0f/ba/094d8109243eaae6f60aaa20f856ee6f6009da2ffc113bd3668cf11482e5/plasmid_design-0.0.3.tar.gz
+[2023-07-17 08:50:23] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/68/fb/ca4fcb2554097f109aac5a85779dc6ab900825a1629ff66b70f664131fe3/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz
+[2023-07-17 08:50:23] INFO root fetch - processPackages [plasmid-design]: Downloading https://files.pythonhosted.org/packages/9a/29/344ed8543f45e4fe23c4e5fa4d1d707580b127aa89b4c20d6728f415171d/plasmid_design-0.0.4.tar.gz
+[2023-07-17 08:50:23] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-17 08:50:23] INFO root fetch - processPackages [plasmid-design]: executing diffoscope
+[2023-07-17 08:50:23] INFO root fetch - processPackages [plasmid-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmid_design-0.0.3.tar.gz tmp/plasmid_design-0.0.4.tar.gz --markdown 20230717/p/plasmid-design/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 08:50:23] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/29/d6/c49583d1d2d12fa83fec16ef4e3b1d6a02389d231ad005300e431630527f/th2_data_services_lwdp-3.0.1.0.dev5572612359.tar.gz
+[2023-07-17 08:50:23] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-17 08:50:24] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-07-17 08:50:24] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz tmp/th2_data_services_lwdp-3.0.1.0.dev5572612359.tar.gz --markdown 20230717/t/th2-data-services-lwdp/3.0.1.0.dev5451550241-3.0.1.0.dev5572612359/diff.md --exclude *.pyd
+[2023-07-17 08:50:24] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-17 08:50:24] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-17 08:50:24] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230717/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-17 08:50:24] INFO root fetch - processPackages [plasmid-design]: Remove: archive file [/home/abi/fetcher/tmp/plasmid_design-0.0.3.tar.gz]
+[2023-07-17 08:50:24] INFO root fetch - processPackages [plasmid-design]: Remove: archive file [/home/abi/fetcher/tmp/plasmid_design-0.0.4.tar.gz]
+[2023-07-17 08:50:24] INFO root fetch - main [MainThread]: End processing [plasmid-design]: success
+[2023-07-17 08:50:24] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz]
+[2023-07-17 08:50:24] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.0.1.0.dev5572612359.tar.gz]
+[2023-07-17 08:50:24] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-07-17 08:50:25] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.8.tar.gz]
+[2023-07-17 08:50:25] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.9.tar.gz]
+[2023-07-17 08:50:25] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-17 08:50:25] INFO root fetch - main [MainThread]: Store serial: [18913142]
