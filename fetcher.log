@@ -7296,3 +7296,45 @@
 [2023-07-17 06:47:37] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.2.tar.gz]
 [2023-07-17 06:47:37] INFO root fetch - main [MainThread]: End processing [score-models]: success
 [2023-07-17 06:47:37] INFO root fetch - main [MainThread]: Store serial: [18912427]
+[2023-07-17 06:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912427]
+[2023-07-17 06:52:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dock-py-selenium
+[2023-07-17 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getbestfontsize
+[2023-07-17 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamsbpy
+[2023-07-17 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decancer-py
+[2023-07-17 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudlanguagetools
+[2023-07-17 06:52:46] INFO root fetch - processPackages [streamsbpy]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-17 06:52:46] INFO root fetch - processPackages [dock-py-selenium]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 06:52:46] INFO root fetch - processPackages [decancer-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 06:52:46] WARNING root fetch - processPackages [getbestfontsize]: Skipping, unable to determine old version
+[2023-07-17 06:52:46] INFO root fetch - main [MainThread]: End processing [getbestfontsize] error
+[2023-07-17 06:52:46] INFO root fetch - processPackages [cloudlanguagetools]: New version: [5.9] Old Version: [5.8]
+[2023-07-17 06:52:47] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/53/93/d4a78ae012145415e8cefab03cf8d04b286592a6f88dac0c4b8495e11b31/streamsbpy-1.0.6.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/c5/76/0ec9ebc260b93775cb3237d54c5e8e181c6baa5767c619145472db79b8c4/cloudlanguagetools-5.8.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/7c/63/5f7658582e31546f999cd9c4a1d91c8c43c3f7925c298e9dab58388e82d1/dock-py-selenium-1.0.0.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [decancer-py]: Downloading https://files.pythonhosted.org/packages/ca/e8/efd59a18a8af2d1eb6d755f9d6858036168e0d968728792d61aa226c2561/decancer_py-0.2.1.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/f2/cf/3a13b15882efb70f23d24f1fa85ce8eb293887e711a319bc3897caafec0d/cloudlanguagetools-5.9.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/bd/f1/8b37ebe8f792a3209f54bec8503ff07400f91b5fce8fb8ddaa64dbca7743/streamsbpy-1.0.7.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-07-17 06:52:47] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-5.8.tar.gz tmp/cloudlanguagetools-5.9.tar.gz --markdown 20230717/c/cloudlanguagetools/5.8-5.9/diff.md --exclude *.pyd
+[2023-07-17 06:52:47] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/4d/58/c0bacfccb3290be54ad7dd585ba5666b3b65bfc4f61118f81640bf31c7b3/dock-py-selenium-1.0.1.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [streamsbpy]: executing diffoscope
+[2023-07-17 06:52:47] INFO root fetch - processPackages [streamsbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamsbpy-1.0.6.tar.gz tmp/streamsbpy-1.0.7.tar.gz --markdown 20230717/s/streamsbpy/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-17 06:52:47] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 06:52:47] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-1.0.0.tar.gz tmp/dock-py-selenium-1.0.1.tar.gz --markdown 20230717/d/dock-py-selenium/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 06:52:47] INFO root fetch - processPackages [decancer-py]: Downloading https://files.pythonhosted.org/packages/50/92/1844560d834ab8ba9390348cd7bb0801307f76c9698a65f233e2d5f4a663/decancer_py-0.2.2.tar.gz
+[2023-07-17 06:52:47] INFO root fetch - processPackages [decancer-py]: executing diffoscope
+[2023-07-17 06:52:47] INFO root fetch - processPackages [decancer-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decancer_py-0.2.1.tar.gz tmp/decancer_py-0.2.2.tar.gz --markdown 20230717/d/decancer-py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 06:52:48] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.6.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.7.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - main [MainThread]: End processing [streamsbpy]: success
+[2023-07-17 06:52:48] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.0.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-1.0.1.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 06:52:48] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.8.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.9.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-07-17 06:52:48] INFO root fetch - processPackages [decancer-py]: Remove: archive file [/home/abi/fetcher/tmp/decancer_py-0.2.1.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - processPackages [decancer-py]: Remove: archive file [/home/abi/fetcher/tmp/decancer_py-0.2.2.tar.gz]
+[2023-07-17 06:52:48] INFO root fetch - main [MainThread]: End processing [decancer-py]: success
+[2023-07-17 06:52:48] INFO root fetch - main [MainThread]: Store serial: [18912472]
