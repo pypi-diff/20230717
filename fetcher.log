@@ -13101,3 +13101,111 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:34:15] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11742-py2.py3-none-any.whl.zip]
 [2023-07-17 11:34:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-07-17 11:34:15] INFO root fetch - main [MainThread]: Store serial: [18914811]
+[2023-07-17 11:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914811]
+[2023-07-17 11:39:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-github
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Al4X
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corrai
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkgUdit
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazysdk
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-auto-control-dev
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-azuread
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-mail-thunder
+[2023-07-17 11:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: q2rad
+[2023-07-17 11:39:25] INFO root fetch - processPackages [je-mail-thunder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-17 11:39:25] WARNING root fetch - processPackages [corrai]: Skipping, unable to determine old version
+[2023-07-17 11:39:25] INFO root fetch - processPackages [corrai]: Start processing: housenomics
+[2023-07-17 11:39:25] INFO root fetch - main [MainThread]: End processing [corrai] error
+[2023-07-17 11:39:25] INFO root fetch - processPackages [invenio-github]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [pkgUdit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 11:39:25] WARNING root fetch - processPackages [Al4X]: Skipping, unable to determine old version
+[2023-07-17 11:39:25] INFO root fetch - processPackages [Al4X]: Start processing: renderg-sdk
+[2023-07-17 11:39:25] INFO root fetch - main [MainThread]: End processing [Al4X] error
+[2023-07-17 11:39:25] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [housenomics]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [renderg-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-17 11:39:25] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/00/f5/1fddea644fa72ad7caf4c3541fd95402c82966b9bf3cee33a9664308ae54/je_mail_thunder-0.0.8.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/69/18/97c9818d8e8f3b00e9da2658190a5cdceceae04855c1694e6301de1b405d/pkgUdit-0.0.4-py3-none-any.whl
+[2023-07-17 11:39:25] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/4d/89/57db6ffb4bb6ff5246efa407e5920a1221b9844717232b666d9b2cda756c/je_auto_control_dev-0.0.91.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/bc/61/b49f6b9597b10fe4121f250a201d6a331220ff9d9ea37b5942a82026eb07/invenio-github-1.0.0b1.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/aa/3c/15881623ff2ae3efc215d768656c78b40d5675eb634a5c45fc4af5754356/renderg-sdk-0.1.5.tar.gz
+[2023-07-17 11:39:25] INFO root fetch - processPackages [housenomics]: Downloading https://files.pythonhosted.org/packages/7d/3c/f1e29f285e26f978b72f10b8ebc7f6403bf737ad13700bab263d7acfb8ea/housenomics-1.2.6.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/0e/52/72dbb2396dffc495c2d329b371da485bd85f60db90b846ea3b2ad2944f73/je_mail_thunder-0.0.9.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/05/85/23717d0f3870020ce66265ece084c22f061a86a21a9824e8203f72024b83/pkgUdit-0.0.5-py3-none-any.whl
+[2023-07-17 11:39:26] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/4a/51/6bc64564112119779f6cc7b7000c21f7f1b21b6695747b613999fc2322c8/je_auto_control_dev-0.0.92.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-0.0.4-py3-none-any.whl.zip tmp/pkgUdit-0.0.5-py3-none-any.whl.zip --markdown 20230717/p/pkgUdit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230717/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/8e/a7/db699c49f80ff00a72c3e2d02fc1aaad77e67f0cc186a971647c821736d0/invenio-github-1.0.0b2.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [je-mail-thunder]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [je-mail-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder-0.0.8.tar.gz tmp/je_mail_thunder-0.0.9.tar.gz --markdown 20230717/j/je-mail-thunder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230717/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.91.tar.gz tmp/je_auto_control_dev-0.0.92.tar.gz --markdown 20230717/j/je-auto-control-dev/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [housenomics]: Downloading https://files.pythonhosted.org/packages/e2/10/6dd2d689e6b0ce9c532ad05656d653c301f5983b612be51c6b9b4a2c6626/housenomics-1.2.7.tar.gz
+[2023-07-17 11:39:26] INFO root fetch - processPackages [invenio-github]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [invenio-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-github-1.0.0b1.tar.gz tmp/invenio-github-1.0.0b2.tar.gz --markdown 20230717/i/invenio-github/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [housenomics]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [housenomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housenomics-1.2.6.tar.gz tmp/housenomics-1.2.7.tar.gz --markdown 20230717/h/housenomics/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-07-17 11:39:26] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230717/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-07-17 11:39:26] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-17 11:39:27] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-17 11:39:27] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230717/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-17 11:39:27] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.4-py3-none-any.whl.zip]
+[2023-07-17 11:39:27] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.5-py3-none-any.whl.zip]
+[2023-07-17 11:39:27] INFO root fetch - processPackages [pkgUdit]: Start processing: flaggie
+[2023-07-17 11:39:27] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-17 11:39:27] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/31/dd/e32a117c5d10fdc33eb7c1675c03826c2e84cf53a8b31e05b1027d4eeef8/renderg-sdk-0.1.6.tar.gz
+[2023-07-17 11:39:27] INFO root fetch - processPackages [flaggie]: New version: [0.99.5] Old Version: [0.99.4]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-17 11:39:28] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.8.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.9.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [je-mail-thunder]: success
+[2023-07-17 11:39:28] INFO root fetch - processPackages [renderg-sdk]: executing diffoscope
+[2023-07-17 11:39:28] INFO root fetch - processPackages [renderg-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderg-sdk-0.1.5.tar.gz tmp/renderg-sdk-0.1.6.tar.gz --markdown 20230717/r/renderg-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-17 11:39:28] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-17 11:39:28] INFO root fetch - processPackages [flaggie]: Downloading https://files.pythonhosted.org/packages/32/6a/e064236133b820b261ec8c97f2eb30f3dc3feddf776043f3f32091370801/flaggie-0.99.4.tar.gz
+[2023-07-17 11:39:28] INFO root fetch - processPackages [housenomics]: Remove: archive file [/home/abi/fetcher/tmp/housenomics-1.2.6.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [housenomics]: Remove: archive file [/home/abi/fetcher/tmp/housenomics-1.2.7.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [housenomics]: success
+[2023-07-17 11:39:28] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.91.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.92.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-07-17 11:39:28] INFO root fetch - processPackages [flaggie]: Downloading https://files.pythonhosted.org/packages/96/82/6d914d0e4c4e6bdae302938c21dad1ed6a80da67f187027a8a2c929d06fa/flaggie-0.99.5.tar.gz
+[2023-07-17 11:39:28] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-07-17 11:39:28] INFO root fetch - processPackages [flaggie]: executing diffoscope
+[2023-07-17 11:39:28] INFO root fetch - processPackages [flaggie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaggie-0.99.4.tar.gz tmp/flaggie-0.99.5.tar.gz --markdown 20230717/f/flaggie/0.99.4-0.99.5/diff.md --exclude *.pyd
+[2023-07-17 11:39:28] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b1.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b2.tar.gz]
+[2023-07-17 11:39:28] INFO root fetch - main [MainThread]: End processing [invenio-github]: success
+[2023-07-17 11:39:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-17 11:39:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-17 11:39:29] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-17 11:39:29] INFO root fetch - processPackages [flaggie]: Remove: archive file [/home/abi/fetcher/tmp/flaggie-0.99.4.tar.gz]
+[2023-07-17 11:39:29] INFO root fetch - processPackages [flaggie]: Remove: archive file [/home/abi/fetcher/tmp/flaggie-0.99.5.tar.gz]
+[2023-07-17 11:39:29] INFO root fetch - main [MainThread]: End processing [flaggie]: success
+[2023-07-17 11:39:30] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.5.tar.gz]
+[2023-07-17 11:39:30] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.6.tar.gz]
+[2023-07-17 11:39:30] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
+[2023-07-17 11:39:30] INFO root fetch - main [MainThread]: Store serial: [18914862]
