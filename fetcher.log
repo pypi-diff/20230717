@@ -13889,3 +13889,180 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:06:10] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-17 12:06:11] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-17 12:06:11] INFO root fetch - main [MainThread]: Store serial: [18915129]
+[2023-07-17 12:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915129]
+[2023-07-17 12:11:21] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faasmctl
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cluster-tools
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webknossos
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kucoin-python
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-sdk
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CartiMorph-nnUNet
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-be-national-number
+[2023-07-17 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-grpc-lw-data-provider
+[2023-07-17 12:11:22] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [faasmctl]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [spark-sdk]: New version: [0.5.0rc0] Old Version: [0.4.9]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 12:11:22] WARNING root fetch - processPackages [odoo14-addon-l10n-be-national-number]: Skipping, unable to determine old version
+[2023-07-17 12:11:22] INFO root fetch - processPackages [odoo14-addon-l10n-be-national-number]: Start processing: tigersyn
+[2023-07-17 12:11:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-be-national-number] error
+[2023-07-17 12:11:22] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [kucoin-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [cluster-tools]: New version: [1.61] Old Version: [1.60]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5574333128]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [tigersyn]: New version: [0.0.3] Old Version: [0.0.2rc0]
+[2023-07-17 12:11:22] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-17 12:11:22] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/90/4e/497a7b8a5378b8a0a95623121ce0d4b38157f410e2e8197fe0be67b18fec/CartiMorph_nnUNet-1.7.8.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/9a/43/5ff351de2f0c481efca6f4e792604a25511b5c871b3b329b19b7d3a6d978/faasmctl-0.4.0.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-17 12:11:22] INFO root fetch - processPackages [kucoin-python]: Downloading https://files.pythonhosted.org/packages/39/ab/0ee959a7e97864773cf92e92353965af3db970675161065bc8baa07468e0/kucoin-python-1.0.8.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/0e/84/9071144946b198d56793a7e048fb51d3d2bf38f72b5e6b9d312bfd010478/tigersyn-0.0.2rc0.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/18/88/8f081654d602d7a42f21f96d608b9868a732095e53f2da8970f439769cc3/RapidMangaDL-0.0.8.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/e6/d5/ade5029f9fd97990ac65d54b7f8162d0c329e4ed0d91363db5bb1abe416f/th2_grpc_lw_data_provider-2.0.0.dev5574333128.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [cluster-tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/de/5f/ebd4100eca4e779740c0c7565c5aa7782dac9b87757b8dc4e9d688909d88/CartiMorph_nnUNet-1.7.9.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [kucoin-python]: Downloading https://files.pythonhosted.org/packages/20/ec/42f6813133e8b8abdbab7cad9538b5feadb0e097193388bcfd58089587b2/kucoin-python-1.0.9.tar.gz
+[2023-07-17 12:11:22] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/d8/7d/ee0265727a9515737605efb49209a7dc2f1900377a685eb9f9494c9d6549/spark_sdk-0.5.0rc0-py3-none-any.whl
+[2023-07-17 12:11:23] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-17 12:11:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-17 12:11:23] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/a1/10/b6f1a3fda782160e1bab42c8e87fcfa4678e5b14ffa01fe07a550f46bad2/RapidMangaDL-0.0.9.tar.gz
+[2023-07-17 12:11:23] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/f2/55/a74b793edd55a0ce4c64472e7f28a0accabb143990f1e5f3c11f9adedce5/faasmctl-0.4.1.tar.gz
+[2023-07-17 12:11:23] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/c3/71/1b2a1a3726401e6612e7affcb344f518268090ee295f7d6cde2e63b54ebb/tigersyn-0.0.3.tar.gz
+[2023-07-17 12:11:23] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUNet-1.7.8.tar.gz tmp/CartiMorph_nnUNet-1.7.9.tar.gz --markdown 20230717/C/CartiMorph-nnUNet/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [kucoin-python]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [kucoin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin-python-1.0.8.tar.gz tmp/kucoin-python-1.0.9.tar.gz --markdown 20230717/k/kucoin-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.9-py3-none-any.whl.zip tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip --markdown 20230717/s/spark-sdk/0.4.9-0.5.0rc0/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5574333128.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230717/t/th2-grpc-lw-data-provider/2.0.0.dev5574333128-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.8.tar.gz tmp/RapidMangaDL-0.0.9.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [tigersyn]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [tigersyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigersyn-0.0.2rc0.tar.gz tmp/tigersyn-0.0.3.tar.gz --markdown 20230717/t/tigersyn/0.0.2rc0-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230717/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [cluster-tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2023-07-17 12:11:23] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.4.0.tar.gz tmp/faasmctl-0.4.1.tar.gz --markdown 20230717/f/faasmctl/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2023-07-17 12:11:23] INFO root fetch - processPackages [cluster-tools]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [cluster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20230717/c/cluster-tools/1.60-1.61/diff.md --exclude *.pyd
+[2023-07-17 12:11:23] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2023-07-17 12:11:23] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20230717/w/webknossos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 12:11:24] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.2rc0.tar.gz]
+[2023-07-17 12:11:24] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.3.tar.gz]
+[2023-07-17 12:11:24] INFO root fetch - processPackages [tigersyn]: Start processing: crypto-info
+[2023-07-17 12:11:24] INFO root fetch - main [MainThread]: End processing [tigersyn]: success
+[2023-07-17 12:11:24] INFO root fetch - processPackages [kucoin-python]: Remove: archive file [/home/abi/fetcher/tmp/kucoin-python-1.0.8.tar.gz]
+[2023-07-17 12:11:24] INFO root fetch - processPackages [kucoin-python]: Remove: archive file [/home/abi/fetcher/tmp/kucoin-python-1.0.9.tar.gz]
+[2023-07-17 12:11:24] INFO root fetch - processPackages [kucoin-python]: Start processing: finbourne-access-sdk
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [kucoin-python]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5574333128.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: villa
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [crypto-info]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [villa]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [spark-sdk]: Start processing: stock-open-api
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.4.0.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.4.1.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [faasmctl]: Start processing: RapidMangaDL
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/4a/a9/192090257584383b0cf5496f42bc0a2bc556a510d9411fde4d3d06eb052a/crypto-info-1.1.0.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [QuNet]: Start processing: bridgecrew
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/69/44/b964efc44cb8f5057ba841bea8b45d298ca52a37ecd5b175002cc7265533/villa-0.6.3.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.8.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.9.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [CartiMorph-nnUNet]: Start processing: hkfdb
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/d8/37/a0628ae9b40632a93e09a1bc89fed12ac7412705e4076454aa6264c2b4c3/stock-open-api-0.0.1.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [cluster-tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [cluster-tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [cluster-tools]: Start processing: CartiMorph-nnUNet
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [cluster-tools]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [hkfdb]: New version: [3.7.5] Old Version: [3.7.4]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.8.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.9.tar.gz]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: Start processing: molgenis-emx2-pyclient
+[2023-07-17 12:11:25] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 12:11:25] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.206.1] Old Version: [8.206.0]
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/a1/10/b6f1a3fda782160e1bab42c8e87fcfa4678e5b14ffa01fe07a550f46bad2/RapidMangaDL-0.0.9.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/90/4e/497a7b8a5378b8a0a95623121ce0d4b38157f410e2e8197fe0be67b18fec/CartiMorph_nnUNet-1.7.8.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/7e/2c/b6f739a36afd18258a6acd71fb8f4a08d8d89fec9d060ec2e04872448880/hkfdb-3.7.4.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/bd/02/588029ed422f9d7dfbba3e33c0f1f19768e93c036bd417131325e065d35e/villa-0.7.0.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/0c/1d/112b4c7f4504435d0b0f7f92e92ec5251cd21615eb12c22e6365ea30b9e7/stock-open-api-0.0.2.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 12:11:25] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.8.tar.gz tmp/RapidMangaDL-0.0.9.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:11:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/ee/75/fbe05b3abe3a35d10f2087f042344f8d29e2f0a03c4c1964c004710b1103/molgenis_emx2_pyclient-8.206.0.tar.gz
+[2023-07-17 12:11:25] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-17 12:11:26] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-17 12:11:26] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2023-07-17 12:11:26] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2023-07-17 12:11:26] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2023-07-17 12:11:26] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/de/5f/ebd4100eca4e779740c0c7565c5aa7782dac9b87757b8dc4e9d688909d88/CartiMorph_nnUNet-1.7.9.tar.gz
+[2023-07-17 12:11:26] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.1.tar.gz tmp/stock-open-api-0.0.2.tar.gz --markdown 20230717/s/stock-open-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.6.3.tar.gz tmp/villa-0.7.0.tar.gz --markdown 20230717/v/villa/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230717/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230717/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/2b/b9/96878de283d5f02db84c4f00d86253339ea3cf14a5a8f177657b6807539e/hkfdb-3.7.5.tar.gz
+[2023-07-17 12:11:26] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUNet-1.7.8.tar.gz tmp/CartiMorph_nnUNet-1.7.9.tar.gz --markdown 20230717/C/CartiMorph-nnUNet/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/ed/b5/fccb8ea3665cc4d6b39e0a39460454cc2708c8e286ced8b13048a3fc1638/molgenis_emx2_pyclient-8.206.1.tar.gz
+[2023-07-17 12:11:26] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.7.4.tar.gz tmp/hkfdb-3.7.5.tar.gz --markdown 20230717/h/hkfdb/3.7.4-3.7.5/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-17 12:11:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.206.0.tar.gz tmp/molgenis_emx2_pyclient-8.206.1.tar.gz --markdown 20230717/m/molgenis-emx2-pyclient/8.206.0-8.206.1/diff.md --exclude *.pyd
+[2023-07-17 12:11:26] ERROR root fetch - processPackages [RapidMangaDL]: Diffoscope failed: time="2023-07-17T12:11:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/RapidMangaDL-0.0.8.tar.gz: No such file or directory
+
+[2023-07-17 12:11:26] INFO root fetch - main [MainThread]: End processing [RapidMangaDL] error
+[2023-07-17 12:11:26] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/ea/69/5299e8a0a27ef013f345af2eae7f6741e744489f84440a8cc590f743233b/crypto-info-1.2.0.tar.gz
+[2023-07-17 12:11:27] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.1.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.2.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-17 12:11:27] INFO root fetch - processPackages [crypto-info]: executing diffoscope
+[2023-07-17 12:11:27] INFO root fetch - processPackages [crypto-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-info-1.1.0.tar.gz tmp/crypto-info-1.2.0.tar.gz --markdown 20230717/c/crypto-info/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 12:11:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-17 12:11:27] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.6.3.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.0.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-07-17 12:11:27] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.8.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.9.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-07-17 12:11:27] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.4.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.5.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-07-17 12:11:27] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.206.0.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.206.1.tar.gz]
+[2023-07-17 12:11:27] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-17 12:11:28] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-17 12:11:28] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-17 12:11:28] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-17 12:11:41] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.1.0.tar.gz]
+[2023-07-17 12:11:41] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.2.0.tar.gz]
+[2023-07-17 12:11:41] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
+[2023-07-17 12:11:41] INFO root fetch - main [MainThread]: Store serial: [18915192]
