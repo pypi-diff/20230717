@@ -23035,3 +23035,128 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 17:23:27] INFO root fetch - processPackages [Cython]: Remove: archive file [/home/abi/fetcher/tmp/Cython-3.0a7.tar.gz]
 [2023-07-17 17:23:27] INFO root fetch - main [MainThread]: End processing [Cython]: success
 [2023-07-17 17:23:27] INFO root fetch - main [MainThread]: Store serial: [18918937]
+[2023-07-17 17:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918937]
+[2023-07-17 17:28:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypergbm
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypernets
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-unused-files
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sadic
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loadero-python
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salure-helpers-azure
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typedhttp
+[2023-07-17 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taegis-sdk-python
+[2023-07-17 17:28:38] INFO root fetch - processPackages [hypernets]: New version: [0.3.0] Old Version: [0.2.5.7]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [taegis-sdk-python]: New version: [1.0.0rc1] Old Version: [1.0.0a9]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [hypergbm]: New version: [0.3.0] Old Version: [0.2.5.7]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [mkdocs-unused-files]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [typedhttp]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [salure-helpers-azure]: New version: [1.2.1] Old Version: [1.0.1]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [loadero-python]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [sadic]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25719] Old Version: [6.1.6.dev25698]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230717152554] Old Version: [2.1.1.dev20230717150901]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [typedhttp]: Downloading https://files.pythonhosted.org/packages/f3/f8/4788f62253497eeec46c1d4f3e78059a134bb456dbfc461650f83abafde8/typedhttp-0.3.0.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ad/4f/77bf3fe93bbb01e569f6d107c040a0c611ecb9232663a8dd43637a990846/localstack-core-2.1.1.dev20230717150901.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/98/09/04dae14820e03a61109d7dcffaa9be8f447e2d88f6dc3c7e86f29cbe5981/taegis-sdk-python-1.0.0a9.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [hypergbm]: Downloading https://files.pythonhosted.org/packages/3f/d8/ea31b4a724d0fe24a33a7eedf44eb937218be85a2421e96cb12bed4842d0/hypergbm-0.2.5.7.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/0e/d3/9be7049cdd5683565ffecd89fc538b8f33385bb8dbfc4d07b0310786cf8e/udata-6.1.6.dev25698-py2.py3-none-any.whl
+[2023-07-17 17:28:38] INFO root fetch - processPackages [mkdocs-unused-files]: Downloading https://files.pythonhosted.org/packages/1b/7c/41bb6a5779a9da0ef2b04767f3c7170ee5ebdb68027a327c9f4600bbb11f/mkdocs_unused_files-0.1.7-py3-none-any.whl
+[2023-07-17 17:28:38] INFO root fetch - processPackages [loadero-python]: Downloading https://files.pythonhosted.org/packages/17/6c/b516cf8be4698171eaca5a2be7bfdea0765b8f427b58cb9edd7fd20b26d9/loadero_python-1.1.0.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [salure-helpers-azure]: Downloading https://files.pythonhosted.org/packages/6b/89/afa11033881ce92f25ea7178a011badcf21c26351e8bcc98c594a732c474/salure_helpers_azure-1.0.1.tar.gz
+[2023-07-17 17:28:38] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19609518>=10485760
+[2023-07-17 17:28:38] INFO root fetch - processPackages [udata]: Start processing: bchmnn.poodle
+[2023-07-17 17:28:38] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-17 17:28:38] INFO root fetch - processPackages [sadic]: Downloading https://files.pythonhosted.org/packages/82/db/92f9499b7cffa9dc0fee55c76f4ea5b7a505c35930225500e6ea0aaa1c8e/sadic-0.1.0.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [hypernets]: Downloading https://files.pythonhosted.org/packages/2e/93/c5170d883f8ac7883f14bd91f4fcfc52ad5cd520cd78d08fa080684b5ef6/hypernets-0.2.5.7.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [bchmnn.poodle]: New version: [0.2.3] Old Version: [0.1.0]
+[2023-07-17 17:28:38] INFO root fetch - processPackages [typedhttp]: Downloading https://files.pythonhosted.org/packages/6b/2d/387693c5616cc87e52eab15fc898978fe98c08b538ab7d2d660c3667bf91/typedhttp-0.4.0.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/64/83/c82cd20c25375fdb3921a1b37e03c1a8ec37530b2fe6350f19063c652743/taegis-sdk-python-1.0.0rc1.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [bchmnn.poodle]: Downloading https://files.pythonhosted.org/packages/03/c7/ae70c404a29caea67c5e7f93725ad1f62d60e6d63a0e3164f1f67ef0b428/bchmnn.poodle-0.1.0.tar.gz
+[2023-07-17 17:28:38] INFO root fetch - processPackages [mkdocs-unused-files]: Downloading https://files.pythonhosted.org/packages/53/9d/afe190935d118d5893186b0663c039db469b599a0fe949120d2c9d77a32f/mkdocs_unused_files-0.2.0-py3-none-any.whl
+[2023-07-17 17:28:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/04/6d/a2e1f415c66d940d06fb818cc95f4c689e8eb6cb9e49d94fbec1f5354d16/localstack-core-2.1.1.dev20230717152554.tar.gz
+[2023-07-17 17:28:39] INFO root fetch - processPackages [typedhttp]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [typedhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhttp-0.3.0.tar.gz tmp/typedhttp-0.4.0.tar.gz --markdown 20230717/t/typedhttp/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [salure-helpers-azure]: Downloading https://files.pythonhosted.org/packages/e1/a0/8a69122380b674884033fb7fc93f6070a73056aba843f2ac6babe86af33f/salure_helpers_azure-1.2.1.tar.gz
+[2023-07-17 17:28:39] INFO root fetch - processPackages [loadero-python]: Downloading https://files.pythonhosted.org/packages/2a/2f/ab9d78ff61bde6ad055fb7df4e12cf082b4c23b4b4f6b4b159a04ab5f59c/loadero_python-1.2.0.tar.gz
+[2023-07-17 17:28:39] INFO root fetch - processPackages [sadic]: Downloading https://files.pythonhosted.org/packages/d1/ea/243d9dfcf59e55fdbeac8dab0ef45964fd4bbb12ab394a56f9480d7b5daa/sadic-0.2.0.tar.gz
+[2023-07-17 17:28:39] INFO root fetch - processPackages [taegis-sdk-python]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [taegis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taegis-sdk-python-1.0.0a9.tar.gz tmp/taegis-sdk-python-1.0.0rc1.tar.gz --markdown 20230717/t/taegis-sdk-python/1.0.0a9-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [mkdocs-unused-files]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [mkdocs-unused-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_unused_files-0.1.7-py3-none-any.whl.zip tmp/mkdocs_unused_files-0.2.0-py3-none-any.whl.zip --markdown 20230717/m/mkdocs-unused-files/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [salure-helpers-azure]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [salure-helpers-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_azure-1.0.1.tar.gz tmp/salure_helpers_azure-1.2.1.tar.gz --markdown 20230717/s/salure-helpers-azure/1.0.1-1.2.1/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [loadero-python]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [loadero-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loadero_python-1.1.0.tar.gz tmp/loadero_python-1.2.0.tar.gz --markdown 20230717/l/loadero-python/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [sadic]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [sadic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sadic-0.1.0.tar.gz tmp/sadic-0.2.0.tar.gz --markdown 20230717/s/sadic/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [hypergbm]: Downloading https://files.pythonhosted.org/packages/f3/1e/f154a4d9275d6c8bf5a3fbb2667a473852bcc5cc94eaa8ea87ccd6ca007c/hypergbm-0.3.0.tar.gz
+[2023-07-17 17:28:39] INFO root fetch - processPackages [bchmnn.poodle]: Downloading https://files.pythonhosted.org/packages/59/54/bf6b59dc2939ba0fb62201cb8a78f78ae046890302a1c8d8545335903eff/bchmnn.poodle-0.2.3.tar.gz
+[2023-07-17 17:28:39] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230717150901.tar.gz tmp/localstack-core-2.1.1.dev20230717152554.tar.gz --markdown 20230717/l/localstack-core/2.1.1.dev20230717150901-2.1.1.dev20230717152554/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [hypergbm]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [hypergbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypergbm-0.2.5.7.tar.gz tmp/hypergbm-0.3.0.tar.gz --markdown 20230717/h/hypergbm/0.2.5.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [bchmnn.poodle]: executing diffoscope
+[2023-07-17 17:28:39] INFO root fetch - processPackages [bchmnn.poodle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bchmnn.poodle-0.1.0.tar.gz tmp/bchmnn.poodle-0.2.3.tar.gz --markdown 20230717/b/bchmnn.poodle/0.1.0-0.2.3/diff.md --exclude *.pyd
+[2023-07-17 17:28:39] INFO root fetch - processPackages [hypernets]: Downloading https://files.pythonhosted.org/packages/05/d9/24aa692b3cba020d7efa50e402731f81bb5f2938db9b47f0e1a275714e2a/hypernets-0.3.0.tar.gz
+[2023-07-17 17:28:40] INFO root fetch - processPackages [hypernets]: executing diffoscope
+[2023-07-17 17:28:40] INFO root fetch - processPackages [hypernets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypernets-0.2.5.7.tar.gz tmp/hypernets-0.3.0.tar.gz --markdown 20230717/h/hypernets/0.2.5.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:40] INFO root fetch - processPackages [typedhttp]: Remove: archive file [/home/abi/fetcher/tmp/typedhttp-0.3.0.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [typedhttp]: Remove: archive file [/home/abi/fetcher/tmp/typedhttp-0.4.0.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [typedhttp]: Start processing: pht-train-container-library
+[2023-07-17 17:28:40] INFO root fetch - main [MainThread]: End processing [typedhttp]: success
+[2023-07-17 17:28:40] INFO root fetch - processPackages [pht-train-container-library]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [pht-train-container-library]: Downloading https://files.pythonhosted.org/packages/75/01/0b2b51a9d785aeb99ed39bab72a647f9e0509e56c6e5269612a3c218ffa4/pht_train_container_library-2.0.5.tar.gz
+[2023-07-17 17:28:40] INFO root fetch - processPackages [mkdocs-unused-files]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_unused_files-0.1.7-py3-none-any.whl.zip]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [mkdocs-unused-files]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_unused_files-0.2.0-py3-none-any.whl.zip]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [mkdocs-unused-files]: Start processing: ipfabric-diagrams
+[2023-07-17 17:28:40] INFO root fetch - main [MainThread]: End processing [mkdocs-unused-files]: success
+[2023-07-17 17:28:40] INFO root fetch - processPackages [salure-helpers-azure]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_azure-1.0.1.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [salure-helpers-azure]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_azure-1.2.1.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [salure-helpers-azure]: Start processing: SLAMBUC
+[2023-07-17 17:28:40] INFO root fetch - main [MainThread]: End processing [salure-helpers-azure]: success
+[2023-07-17 17:28:40] INFO root fetch - processPackages [ipfabric-diagrams]: New version: [6.3.0b1] Old Version: [6.3.0b0]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [SLAMBUC]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [sadic]: Remove: archive file [/home/abi/fetcher/tmp/sadic-0.1.0.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [sadic]: Remove: archive file [/home/abi/fetcher/tmp/sadic-0.2.0.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - main [MainThread]: End processing [sadic]: success
+[2023-07-17 17:28:40] INFO root fetch - processPackages [pht-train-container-library]: Downloading https://files.pythonhosted.org/packages/73/33/daae7c665e3e30a4cdf6eb6ca3947a18119096304402a8b0b5dccaa97843/pht_train_container_library-2.0.6.tar.gz
+[2023-07-17 17:28:40] INFO root fetch - processPackages [loadero-python]: Remove: archive file [/home/abi/fetcher/tmp/loadero_python-1.1.0.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - processPackages [loadero-python]: Remove: archive file [/home/abi/fetcher/tmp/loadero_python-1.2.0.tar.gz]
+[2023-07-17 17:28:40] INFO root fetch - main [MainThread]: End processing [loadero-python]: success
+[2023-07-17 17:28:40] INFO root fetch - processPackages [ipfabric-diagrams]: Downloading https://files.pythonhosted.org/packages/e3/59/2f0d6ba46cf6fa13017e59dd18aeb2ac61fd7832620e36614ba06205e87e/ipfabric_diagrams-6.3.0b0.tar.gz
+[2023-07-17 17:28:41] INFO root fetch - processPackages [pht-train-container-library]: executing diffoscope
+[2023-07-17 17:28:41] INFO root fetch - processPackages [pht-train-container-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pht_train_container_library-2.0.5.tar.gz tmp/pht_train_container_library-2.0.6.tar.gz --markdown 20230717/p/pht-train-container-library/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-17 17:28:41] INFO root fetch - processPackages [SLAMBUC]: Downloading https://files.pythonhosted.org/packages/8b/e4/313efa4b3fcf90756f12940a4a8a544e3b14dbfa4380831eb16b7717f8ea/SLAMBUC-0.1.0.tar.gz
+[2023-07-17 17:28:41] INFO root fetch - processPackages [bchmnn.poodle]: Remove: archive file [/home/abi/fetcher/tmp/bchmnn.poodle-0.1.0.tar.gz]
+[2023-07-17 17:28:41] INFO root fetch - processPackages [bchmnn.poodle]: Remove: archive file [/home/abi/fetcher/tmp/bchmnn.poodle-0.2.3.tar.gz]
+[2023-07-17 17:28:41] INFO root fetch - main [MainThread]: End processing [bchmnn.poodle]: success
+[2023-07-17 17:28:41] INFO root fetch - processPackages [ipfabric-diagrams]: Downloading https://files.pythonhosted.org/packages/58/d9/a732224ee5fe2ea5b31c0106ca1af7c4c629bc256e0db9e13a3e76ae4101/ipfabric_diagrams-6.3.0b1.tar.gz
+[2023-07-17 17:28:41] INFO root fetch - processPackages [SLAMBUC]: Downloading https://files.pythonhosted.org/packages/f2/2c/3297eff6555c66e31aa0e537c82d9995efd66c4f2f8470eb401f0fd1e4aa/SLAMBUC-0.2.0.tar.gz
+[2023-07-17 17:28:41] INFO root fetch - processPackages [ipfabric-diagrams]: executing diffoscope
+[2023-07-17 17:28:41] INFO root fetch - processPackages [ipfabric-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric_diagrams-6.3.0b0.tar.gz tmp/ipfabric_diagrams-6.3.0b1.tar.gz --markdown 20230717/i/ipfabric-diagrams/6.3.0b0-6.3.0b1/diff.md --exclude *.pyd
+[2023-07-17 17:28:41] INFO root fetch - processPackages [SLAMBUC]: executing diffoscope
+[2023-07-17 17:28:41] INFO root fetch - processPackages [SLAMBUC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SLAMBUC-0.1.0.tar.gz tmp/SLAMBUC-0.2.0.tar.gz --markdown 20230717/S/SLAMBUC/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 17:28:42] INFO root fetch - processPackages [hypergbm]: Remove: archive file [/home/abi/fetcher/tmp/hypergbm-0.2.5.7.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - processPackages [hypergbm]: Remove: archive file [/home/abi/fetcher/tmp/hypergbm-0.3.0.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - main [MainThread]: End processing [hypergbm]: success
+[2023-07-17 17:28:42] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.0a9.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.0rc1.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - main [MainThread]: End processing [taegis-sdk-python]: success
+[2023-07-17 17:28:42] INFO root fetch - processPackages [pht-train-container-library]: Remove: archive file [/home/abi/fetcher/tmp/pht_train_container_library-2.0.5.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - processPackages [pht-train-container-library]: Remove: archive file [/home/abi/fetcher/tmp/pht_train_container_library-2.0.6.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - main [MainThread]: End processing [pht-train-container-library]: success
+[2023-07-17 17:28:42] INFO root fetch - processPackages [ipfabric-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_diagrams-6.3.0b0.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - processPackages [ipfabric-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_diagrams-6.3.0b1.tar.gz]
+[2023-07-17 17:28:42] INFO root fetch - main [MainThread]: End processing [ipfabric-diagrams]: success
+[2023-07-17 17:28:43] INFO root fetch - processPackages [hypernets]: Remove: archive file [/home/abi/fetcher/tmp/hypernets-0.2.5.7.tar.gz]
+[2023-07-17 17:28:43] INFO root fetch - processPackages [hypernets]: Remove: archive file [/home/abi/fetcher/tmp/hypernets-0.3.0.tar.gz]
+[2023-07-17 17:28:43] INFO root fetch - main [MainThread]: End processing [hypernets]: success
+[2023-07-17 17:28:43] INFO root fetch - processPackages [SLAMBUC]: Remove: archive file [/home/abi/fetcher/tmp/SLAMBUC-0.1.0.tar.gz]
+[2023-07-17 17:28:43] INFO root fetch - processPackages [SLAMBUC]: Remove: archive file [/home/abi/fetcher/tmp/SLAMBUC-0.2.0.tar.gz]
+[2023-07-17 17:28:43] INFO root fetch - main [MainThread]: End processing [SLAMBUC]: success
+[2023-07-17 17:28:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717150901.tar.gz]
+[2023-07-17 17:28:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717152554.tar.gz]
+[2023-07-17 17:28:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-17 17:28:44] INFO root fetch - main [MainThread]: Store serial: [18918987]
