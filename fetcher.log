@@ -21761,3 +21761,141 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:45:47] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.4.tar.gz]
 [2023-07-17 16:45:47] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
 [2023-07-17 16:45:47] INFO root fetch - main [MainThread]: Store serial: [18918410]
+[2023-07-17 16:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918410]
+[2023-07-17 16:50:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skale-contracts
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amsterdam-schema-tools
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pegasusX
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-speech-tools
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-client
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gefslim
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2023-07-17 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2023-07-17 16:50:56] INFO root fetch - processPackages [gefslim]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [azure-speech-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [pegasusX]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:56] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/7a/5b/a2b4f48c6c2f475afc151914dfbb30e555e8e23019fa215a91bbf9b435c0/pegasusX-0.2.4.tar.gz
+[2023-07-17 16:50:56] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:56] INFO root fetch - processPackages [gefslim]: Downloading https://files.pythonhosted.org/packages/d9/9c/971d408caf397e599cad798aca88f6dacbcfbd8290f3e0c827049848c748/gefslim-0.0.1.tar.gz
+[2023-07-17 16:50:56] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/6a/24/7aed55bdffe940934c252329029fa42e4aaa2da226afb8c7343f7651a918/azure_speech_tools-0.0.1.tar.gz
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:56] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:56] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-07-17 16:50:57] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:50:57] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/d7/4b/614a7b01bb1a5ec60fc47afb63007d921c0a04763c1844dca741dd425c95/pegasusX-0.2.5.tar.gz
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:57] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/36/53/dea25cb4b1991e88e046502e372937667dbddb9aec8bfada3a638afadeb1/azure_speech_tools-0.0.2.tar.gz
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:57] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.2.4.tar.gz tmp/pegasusX-0.2.5.tar.gz --markdown 20230717/p/pegasusX/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [gefslim]: Downloading https://files.pythonhosted.org/packages/55/14/6b7238dff5b5a371cf43076a6711c13b9b554ea066f9b54810cade1a72e4/gefslim-0.1.1.tar.gz
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [azure-speech-tools]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [azure-speech-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_speech_tools-0.0.1.tar.gz tmp/azure_speech_tools-0.0.2.tar.gz --markdown 20230717/a/azure-speech-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [gefslim]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [gefslim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefslim-0.0.1.tar.gz tmp/gefslim-0.1.1.tar.gz --markdown 20230717/g/gefslim/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:57] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-07-17 16:50:57] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230717/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-07-17 16:50:58] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:50:58] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:50:58] INFO root fetch - processPackages [skale-contracts]: Start processing: nucliadb-sdk
+[2023-07-17 16:50:58] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:50:58] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:58] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-client]: Start processing: pasteboard2
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.4.tar.gz]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.5.tar.gz]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pegasusX]: Start processing: nobinobi-daily-follow-up
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.1.tar.gz]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.2.tar.gz]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [azure-speech-tools]: Start processing: PySolidState
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [azure-speech-tools]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pasteboard2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [PySolidState]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nobinobi-daily-follow-up]: New version: [0.1.2.8] Old Version: [0.1.2.7]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-17 16:50:59] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/c3/20/c5d2c2855bda95f0ba89f0b733fa3006fcc4cc15c3f9a3e052a9ac01ff95/PySolidState-0.0.9.tar.gz
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pasteboard2]: Downloading https://files.pythonhosted.org/packages/f3/91/9ffb52ed07f2c93ef42a1bad8805bca7773ad48c59199a6424937c966cfd/pasteboard2-0.0.3.tar.gz
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Downloading https://files.pythonhosted.org/packages/f5/54/369170ac82f9c7f439adfa049c8f76efd39a62c6bd5458f51ef86a0ae3a5/nobinobi-daily-follow-up-0.1.2.7.tar.gz
+[2023-07-17 16:50:59] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/cf/21/f991b171cb2cd75a83b0328ba7d685f95d2c43a0873d9a6df6812fa3fa71/PySolidState-0.1.0.tar.gz
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pasteboard2]: Downloading https://files.pythonhosted.org/packages/23/dc/6c019b9fd368c267751738200b9067ac772f156e785dad25bc10628f6af2/pasteboard2-0.0.4.tar.gz
+[2023-07-17 16:50:59] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-17 16:50:59] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.0.9.tar.gz tmp/PySolidState-0.1.0.tar.gz --markdown 20230717/P/PySolidState/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 16:50:59] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-07-17 16:50:59] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-07-17 16:50:59] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-17 16:50:59] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230717/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pasteboard2]: executing diffoscope
+[2023-07-17 16:50:59] INFO root fetch - processPackages [pasteboard2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasteboard2-0.0.3.tar.gz tmp/pasteboard2-0.0.4.tar.gz --markdown 20230717/p/pasteboard2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Downloading https://files.pythonhosted.org/packages/4d/78/891adbe9d78fd3d80d463226b561077f8549bdc22c3a7c52bb6074025a09/nobinobi-daily-follow-up-0.1.2.8.tar.gz
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nobinobi-daily-follow-up]: executing diffoscope
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nobinobi-daily-follow-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobinobi-daily-follow-up-0.1.2.7.tar.gz tmp/nobinobi-daily-follow-up-0.1.2.8.tar.gz --markdown 20230717/n/nobinobi-daily-follow-up/0.1.2.7-0.1.2.8/diff.md --exclude *.pyd
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:51:00] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-17 16:51:00] INFO root fetch - processPackages [gefslim]: Remove: archive file [/home/abi/fetcher/tmp/gefslim-0.0.1.tar.gz]
+[2023-07-17 16:51:00] INFO root fetch - processPackages [gefslim]: Remove: archive file [/home/abi/fetcher/tmp/gefslim-0.1.1.tar.gz]
+[2023-07-17 16:51:00] INFO root fetch - main [MainThread]: End processing [gefslim]: success
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:51:00] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-17 16:51:00] INFO root fetch - processPackages [pasteboard2]: Remove: archive file [/home/abi/fetcher/tmp/pasteboard2-0.0.3.tar.gz]
+[2023-07-17 16:51:00] INFO root fetch - processPackages [pasteboard2]: Remove: archive file [/home/abi/fetcher/tmp/pasteboard2-0.0.4.tar.gz]
+[2023-07-17 16:51:00] INFO root fetch - main [MainThread]: End processing [pasteboard2]: success
+[2023-07-17 16:51:00] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.9.tar.gz]
+[2023-07-17 16:51:00] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.1.0.tar.gz]
+[2023-07-17 16:51:00] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-17 16:51:00] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-17 16:51:00] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-17 16:51:01] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Remove: archive file [/home/abi/fetcher/tmp/nobinobi-daily-follow-up-0.1.2.7.tar.gz]
+[2023-07-17 16:51:01] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Remove: archive file [/home/abi/fetcher/tmp/nobinobi-daily-follow-up-0.1.2.8.tar.gz]
+[2023-07-17 16:51:01] INFO root fetch - main [MainThread]: End processing [nobinobi-daily-follow-up]: success
+[2023-07-17 16:51:01] INFO root fetch - main [MainThread]: Store serial: [18918450]
