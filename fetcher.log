@@ -15217,3 +15217,104 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:59:50] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
 [2023-07-17 12:59:50] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-07-17 12:59:50] INFO root fetch - main [MainThread]: Store serial: [18915731]
+[2023-07-17 13:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915731]
+[2023-07-17 13:04:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliya-server
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catopuma
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quadkey-boosted
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matorikkusu
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: socnavgym
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-monitoring
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ural
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splunk-add-on-ucc-framework
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digimat.bac0
+[2023-07-17 13:04:59] INFO root fetch - processPackages [quadkey-boosted]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-17 13:04:59] WARNING root fetch - processPackages [catopuma]: Skipping, unable to determine old version
+[2023-07-17 13:04:59] INFO root fetch - processPackages [catopuma]: Start processing: lusid-configuration-sdk-preview
+[2023-07-17 13:04:59] INFO root fetch - main [MainThread]: End processing [catopuma] error
+[2023-07-17 13:04:59] WARNING root fetch - processPackages [aliya-server]: Skipping, unable to determine old version
+[2023-07-17 13:04:59] INFO root fetch - processPackages [aliya-server]: Start processing: py40kie
+[2023-07-17 13:04:59] INFO root fetch - main [MainThread]: End processing [aliya-server] error
+[2023-07-17 13:04:59] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 13:04:59] WARNING root fetch - processPackages [model-monitoring]: Skipping, unable to determine old version
+[2023-07-17 13:04:59] INFO root fetch - processPackages [model-monitoring]: Start processing: RapidMangaDL
+[2023-07-17 13:04:59] INFO root fetch - main [MainThread]: End processing [model-monitoring] error
+[2023-07-17 13:04:59] WARNING root fetch - processPackages [matorikkusu]: Skipping, unable to determine old version
+[2023-07-17 13:04:59] INFO root fetch - processPackages [matorikkusu]: Start processing: nvidia-dali-nightly-cuda120
+[2023-07-17 13:04:59] INFO root fetch - main [MainThread]: End processing [matorikkusu] error
+[2023-07-17 13:04:59] INFO root fetch - processPackages [socnavgym]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [ural]: New version: [1.0.0a1] Old Version: [0.9.0]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.29.0.dev20230717] Old Version: [1.29.0.dev20230714]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.446] Old Version: [0.1.443]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [py40kie]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 13:04:59] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-17 13:04:59] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-07-17 13:04:59] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/18/88/8f081654d602d7a42f21f96d608b9868a732095e53f2da8970f439769cc3/RapidMangaDL-0.0.8.tar.gz
+[2023-07-17 13:04:59] INFO root fetch - processPackages [quadkey-boosted]: Downloading https://files.pythonhosted.org/packages/11/f3/bd8bbbb1cd6652eb4df20e0c197b5e7faed4f4d29e170c499c7ae7f095b6/quadkey-boosted-1.0.3.tar.gz
+[2023-07-17 13:04:59] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.29.0.dev20230717] Old Version: [1.29.0.dev20230714]
+[2023-07-17 13:05:00] INFO root fetch - processPackages [py40kie]: Downloading https://files.pythonhosted.org/packages/1a/c6/c2ab91b5c5e7fecdd2b190412622cdc575102d18f8a2f672575a7b88f533/py40kie-0.1.1.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [socnavgym]: Downloading https://files.pythonhosted.org/packages/c9/f1/29d8b61b0a2ea1be6a14f0364115c089093358924918b9f87ab0b05e9d85/socnavgym-0.1.0.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8d/1a/a55321eefe2a11952939c061467755bbb0efafe278341985aebf3333527c/ural-0.9.0.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/a3/85/2c1ee4796b7210542cb1f588a7393dc71cc078991e7d118caae47cd4d9e1/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230714.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/73/de/8383caae08a0625e985d52e61ed04a60b2861024c09a981d5e4471dbbb62/lusid-configuration-sdk-preview-0.1.443.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-17 13:05:00] WARNING root fetch - processPackages [socnavgym]: Skipping package: exceeds size limit 16439462>=10485760
+[2023-07-17 13:05:00] INFO root fetch - main [MainThread]: End processing [socnavgym] error
+[2023-07-17 13:05:00] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/ef/19/4b51fbbafa0d18a771fbb4b49ed315e37d2d9a90144cf5715d8f39c5454f/nvidia-dali-nightly-cuda120-1.29.0.dev20230714.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/a1/10/b6f1a3fda782160e1bab42c8e87fcfa4678e5b14ffa01fe07a550f46bad2/RapidMangaDL-0.0.9.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [py40kie]: Downloading https://files.pythonhosted.org/packages/3f/c5/f4901eb443f839a5554bef907a3a77a8384ace15979b387d85f12974f7ca/py40kie-0.1.2.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [quadkey-boosted]: Downloading https://files.pythonhosted.org/packages/0a/a2/62eda2abebc1e865f997d9babb906ba650f7f4bd56dd729a3ebde598c5f1/quadkey-boosted-1.0.4.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230717/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/25/a5/f49b01191479913e3e8d8aa313c6704db4009a60e1a5587e71c03f3c3a41/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230717.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [py40kie]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [py40kie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py40kie-0.1.1.tar.gz tmp/py40kie-0.1.2.tar.gz --markdown 20230717/p/py40kie/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.8.tar.gz tmp/RapidMangaDL-0.0.9.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8c/42/0625c8c178d537021e39bbbc11838397f1f8270c024b541b1afd9e87dcfe/ural-1.0.0a1.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230717/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/34/91/814cb286dca8cfa4c455d1556a85219b4bbff516852b441a01681768b416/lusid-configuration-sdk-preview-0.1.446.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [quadkey-boosted]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [quadkey-boosted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quadkey-boosted-1.0.3.tar.gz tmp/quadkey-boosted-1.0.4.tar.gz --markdown 20230717/q/quadkey-boosted/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/a3/14/20dc87aa4c3e8fd30d3f3fbf8ce9109980586479231f4270ee6730b62bf9/nvidia-dali-nightly-cuda120-1.29.0.dev20230717.tar.gz
+[2023-07-17 13:05:00] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230714.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230717.tar.gz --markdown 20230717/n/nvidia-dali-tf-plugin-nightly-cuda120/1.29.0.dev20230714-1.29.0.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.9.0.tar.gz tmp/ural-1.0.0a1.tar.gz --markdown 20230717/u/ural/0.9.0-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-17 13:05:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2023-07-17 13:05:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.443.tar.gz tmp/lusid-configuration-sdk-preview-0.1.446.tar.gz --markdown 20230717/l/lusid-configuration-sdk-preview/0.1.443-0.1.446/diff.md --exclude *.pyd
+[2023-07-17 13:05:01] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-07-17 13:05:01] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.29.0.dev20230714.tar.gz tmp/nvidia-dali-nightly-cuda120-1.29.0.dev20230717.tar.gz --markdown 20230717/n/nvidia-dali-nightly-cuda120/1.29.0.dev20230714-1.29.0.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 13:05:01] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-17 13:05:01] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-17 13:05:01] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.1.1.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.1.2.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [py40kie]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [quadkey-boosted]: Remove: archive file [/home/abi/fetcher/tmp/quadkey-boosted-1.0.3.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [quadkey-boosted]: Remove: archive file [/home/abi/fetcher/tmp/quadkey-boosted-1.0.4.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [quadkey-boosted]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230714.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230717.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.29.0.dev20230714.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.29.0.dev20230717.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.9.0.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-1.0.0a1.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.8.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.9.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 13:05:02] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.443.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.446.tar.gz]
+[2023-07-17 13:05:02] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2023-07-17 13:05:03] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz]
+[2023-07-17 13:05:03] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz]
+[2023-07-17 13:05:03] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-07-17 13:05:03] INFO root fetch - main [MainThread]: Store serial: [18915784]
