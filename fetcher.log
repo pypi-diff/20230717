@@ -8166,3 +8166,99 @@
 [2023-07-17 07:55:25] INFO root fetch - processPackages [z3c.form]: Remove: archive file [/home/abi/fetcher/tmp/z3c.form-5.0.tar.gz]
 [2023-07-17 07:55:25] INFO root fetch - main [MainThread]: End processing [z3c.form]: success
 [2023-07-17 07:55:25] INFO root fetch - main [MainThread]: Store serial: [18912792]
+[2023-07-17 08:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912792]
+[2023-07-17 08:00:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytrend
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genocide
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Zeraora
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbn
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neurotechdevkit
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gridappsd-python
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gridappsd-field-bus
+[2023-07-17 08:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opr
+[2023-07-17 08:00:35] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a3] Old Version: [2023.7.1a2]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [talkytrend]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [Zeraora]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a3] Old Version: [2023.7.1a2]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [sbn]: New version: [20] Old Version: [12]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [opr]: New version: [240] Old Version: [230]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 08:00:35] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/c2/63/51680ec97a59c3626f3cf8751f1ef886c829f4b4100c044710ba8273d041/talkytrend-1.8.1.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/bd/57/49875dce2570e6fcf1dd387cfe4f94381e97e4cb1b09896ee0e95292564d/gridappsd_field_bus-2023.7.1a2.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/d3/2e/40d7ab07eea6b4b5b38f483dd315bace135ee12309e2e2bf14d6266c9de7/fileformats_medimage-0.3.5.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/34/cc/1f208ca0392e42314727b79689b2d227f1b30cf1f5483bbf891270aa15c6/sbn-12.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/69/e4/a2782cbc292dbe1f7718a49e0620bf80a648120e73b1cf6f344b1bcb7bb7/neurotechdevkit-0.1.2.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/98/4f/505894dc84a9e05755f93d2385327be80c88bbdcf5174ae75accffe81a1c/Zeraora-0.3.4.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [opr]: Downloading https://files.pythonhosted.org/packages/d6/2a/4eb8d1d5971df2117d89de8a4283b13facdb261a4dcb58819a2d26bcd2b4/opr-230.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/b4/76/0e08d63eeb9521fe33b3b3d06c4e147e04470e8e8b38a2721fd364191860/gridappsd_python-2023.7.1a2.tar.gz
+[2023-07-17 08:00:35] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/bd/27/4b058017b68a049302ec6a67d1d6a10667c8a14474fcf59b99701813166c/talkytrend-1.8.2.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/37/f3/6b444cc32671b435332caf1513fc08414ec1e397cd5d198ba2430990591d/fileformats_medimage-0.4.0.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [opr]: Downloading https://files.pythonhosted.org/packages/e5/ab/d4d8fe359e9aaaddc21f4c4203560a38cc0f125d6a0b4145606ca2680d7e/opr-240.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/27/6d/2d9647cac747f512b6aad810931ae53ce33611f09afdcb4962040a855c66/gridappsd_field_bus-2023.7.1a3.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/11/c4/bfbf081704bc9d8bf5a1238b021758f6ebb5a314da5bcd5123b6ced28942/Zeraora-0.3.5.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/ab/e2/d7db50f8e5bb0d3379f5a6159c718bfec7255c90b2950a657c18c919c9a4/gridappsd_python-2023.7.1a3.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.8.1.tar.gz tmp/talkytrend-1.8.2.tar.gz --markdown 20230717/t/talkytrend/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.3.5.tar.gz tmp/fileformats_medimage-0.4.0.tar.gz --markdown 20230717/f/fileformats-medimage/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [opr]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [opr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opr-230.tar.gz tmp/opr-240.tar.gz --markdown 20230717/o/opr/230-240/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a2.tar.gz tmp/gridappsd_field_bus-2023.7.1a3.tar.gz --markdown 20230717/g/gridappsd-field-bus/2023.7.1a2-2023.7.1a3/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.3.4.tar.gz tmp/Zeraora-0.3.5.tar.gz --markdown 20230717/Z/Zeraora/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/e9/6f/e1d924104b99cfd9befe6b076aca751bafd0be5f71ad97f42e764ca61041/sbn-20.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-17 08:00:36] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a2.tar.gz tmp/gridappsd_python-2023.7.1a3.tar.gz --markdown 20230717/g/gridappsd-python/2023.7.1a2-2023.7.1a3/diff.md --exclude *.pyd
+[2023-07-17 08:00:36] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/74/91/ccd0e7d693dd07d01c0ba30b4b32022e3432e57fdf92376a56a104f5d176/neurotechdevkit-0.2.0.tar.gz
+[2023-07-17 08:00:36] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2023-07-17 08:00:37] INFO root fetch - processPackages [sbn]: executing diffoscope
+[2023-07-17 08:00:37] INFO root fetch - processPackages [sbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbn-12.tar.gz tmp/sbn-20.tar.gz --markdown 20230717/s/sbn/12-20/diff.md --exclude *.pyd
+[2023-07-17 08:00:37] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-07-17 08:00:37] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.1.2.tar.gz tmp/neurotechdevkit-0.2.0.tar.gz --markdown 20230717/n/neurotechdevkit/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 08:00:37] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2023-07-17 08:00:37] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20230717/g/genocide/90-91/diff.md --exclude *.pyd
+[2023-07-17 08:00:37] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 08:00:37] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 08:00:37] INFO root fetch - processPackages [dank-mids]: Start processing: genpassw
+[2023-07-17 08:00:37] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 08:00:37] WARNING root fetch - processPackages [genpassw]: Skipping, unable to determine old version
+[2023-07-17 08:00:37] INFO root fetch - main [MainThread]: End processing [genpassw] error
+[2023-07-17 08:00:37] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.8.1.tar.gz]
+[2023-07-17 08:00:37] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.8.2.tar.gz]
+[2023-07-17 08:00:37] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-17 08:00:37] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a2.tar.gz]
+[2023-07-17 08:00:37] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a3.tar.gz]
+[2023-07-17 08:00:37] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-17 08:00:38] INFO root fetch - processPackages [opr]: Remove: archive file [/home/abi/fetcher/tmp/opr-230.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - processPackages [opr]: Remove: archive file [/home/abi/fetcher/tmp/opr-240.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - main [MainThread]: End processing [opr]: success
+[2023-07-17 08:00:38] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.3.5.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.4.0.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2023-07-17 08:00:38] INFO root fetch - processPackages [Zeraora]: Remove: archive file [/home/abi/fetcher/tmp/Zeraora-0.3.4.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - processPackages [Zeraora]: Remove: archive file [/home/abi/fetcher/tmp/Zeraora-0.3.5.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-07-17 08:00:38] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a2.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a3.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-17 08:00:38] INFO root fetch - processPackages [neurotechdevkit]: Remove: archive file [/home/abi/fetcher/tmp/neurotechdevkit-0.1.2.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - processPackages [neurotechdevkit]: Remove: archive file [/home/abi/fetcher/tmp/neurotechdevkit-0.2.0.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-07-17 08:00:38] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-12.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-20.tar.gz]
+[2023-07-17 08:00:38] INFO root fetch - main [MainThread]: End processing [sbn]: success
+[2023-07-17 08:00:39] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2023-07-17 08:00:39] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2023-07-17 08:00:39] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2023-07-17 08:00:39] INFO root fetch - main [MainThread]: Store serial: [18912827]
