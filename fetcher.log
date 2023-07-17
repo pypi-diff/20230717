@@ -16946,3 +16946,122 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:20:02] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.8.0-py3-none-any.whl.zip]
 [2023-07-17 14:20:02] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-07-17 14:20:02] INFO root fetch - main [MainThread]: Store serial: [18916565]
+[2023-07-17 14:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916565]
+[2023-07-17 14:25:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locuaz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gandai
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdbeccdutils
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multireg
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niha1999
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotify-recommender-api
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sigtech
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsii
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dragonk8s
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ms3
+[2023-07-17 14:25:11] INFO root fetch - processPackages [locuaz]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 14:25:11] ERROR root fetch - processPackages [niha1999]: Unable to get metadata: No such project 'niha1999'
+[2023-07-17 14:25:11] INFO root fetch - processPackages [niha1999]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-17 14:25:11] INFO root fetch - main [MainThread]: End processing [niha1999] error
+[2023-07-17 14:25:11] WARNING root fetch - processPackages [sigtech]: Skipping, unable to determine old version
+[2023-07-17 14:25:11] INFO root fetch - processPackages [sigtech]: Start processing: pydantic-partial
+[2023-07-17 14:25:11] INFO root fetch - main [MainThread]: End processing [sigtech] error
+[2023-07-17 14:25:11] INFO root fetch - processPackages [multireg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [pdbeccdutils]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [spotify-recommender-api]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [dragonk8s]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ms3]: New version: [2.0.0] Old Version: [1.2.9]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [gandai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [pydantic-partial]: New version: [0.5.0] Old Version: [0.3.4]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [jsii]: New version: [1.9.0] Old Version: [1.85.0]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/b2/d0/cdf85a78e76bb0cf09892546a064bf5d1f4b9d2923e3e527df83a041f8ef/locuaz-0.5.0.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/d1/11/cd7ccb6cb83f7f63c18937a27a8f85832130dc502173eb6eef8007621d19/multireg-0.0.8.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/3c/ae/9043c584082cf59604711d6fb99c9dea3763943c59a954f49e48267a26e0/dragonk8s-1.0.1.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [pdbeccdutils]: Downloading https://files.pythonhosted.org/packages/8a/5a/14c349acf5400490f6c222647f7461188e4cc809150a86c4c7d8064442b2/pdbeccdutils-0.7.2.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.29.0.dev20230717] Old Version: [1.29.0.dev20230714]
+[2023-07-17 14:25:11] WARNING root fetch - processPackages [locuaz]: Skipping package: exceeds size limit 35163651>=10485760
+[2023-07-17 14:25:11] INFO root fetch - processPackages [locuaz]: Start processing: quantplay
+[2023-07-17 14:25:11] INFO root fetch - main [MainThread]: End processing [locuaz] error
+[2023-07-17 14:25:11] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/d3/fa/e228c927dfc09fe7f00b674a2276261b6a051178ccca7f6fc929aa494f86/ms3-1.2.9.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/40/4d/d0cfe5014432b5ada7e175797b701ffa0c9f0b3501e0e61b512fbd0fe6be/spotify_recommender_api-5.0.0-py3-none-any.whl
+[2023-07-17 14:25:11] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-17 14:25:11] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/98/b3/699448aa0995b063c6bc944265b0a5cd436eb4a42aefdd1fcff58ef988dd/jsii-1.85.0.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-07-17 14:25:11] INFO root fetch - processPackages [pydantic-partial]: Downloading https://files.pythonhosted.org/packages/1e/7a/e1e84740afb402244c11cfa730e8f64bb303ccd693d177847aeffed5d405/pydantic_partial-0.3.4.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/c3/0e/afe000aba0f38b61bb2e54ce1cdfd01cd2d03ad61079a34c64e741aa5a1e/multireg-0.0.9.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/46/8d/e30d3b4307a5a3859e45bab68447fc27c34c26bd62760c537d51e60186fd/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230714.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/e7/20/2ca0de62a81db26c32ed61ffcc3f1a75ddc8f48d3230909dffdc4e55f7e2/dragonk8s-1.0.2.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.8.tar.gz tmp/multireg-0.0.9.tar.gz --markdown 20230717/m/multireg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/bd/58/bd6ef63e743e35136ecca83a4ffcc031553451ec2c95855ed1afd264282e/spotify_recommender_api-5.0.1-py3-none-any.whl
+[2023-07-17 14:25:12] INFO root fetch - processPackages [pdbeccdutils]: Downloading https://files.pythonhosted.org/packages/3a/0b/3c2f715c07c12c7de1779485ee379b905932527681f298c3c9d9dacd4109/pdbeccdutils-0.8.0.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [pydantic-partial]: Downloading https://files.pythonhosted.org/packages/ed/62/75fe00eecafa40b250b3162d042faf42a7ac4e8c65ea752968e91e14e0ba/pydantic_partial-0.5.0.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/78/20/6098655fcf481a83444339de8b2275a7c0eaf7b4b960911939b279a0b5e6/jsii-1.9.0.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/fa/78/9e61752ae4b054d8d85783acf274822cfec428a89a386eac678521a67509/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230717.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [dragonk8s]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [dragonk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonk8s-1.0.1.tar.gz tmp/dragonk8s-1.0.2.tar.gz --markdown 20230717/d/dragonk8s/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-5.0.0-py3-none-any.whl.zip tmp/spotify_recommender_api-5.0.1-py3-none-any.whl.zip --markdown 20230717/s/spotify-recommender-api/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.9.tar.gz tmp/gandai-1.2.0.tar.gz --markdown 20230717/g/gandai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [pydantic-partial]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [pydantic-partial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_partial-0.3.4.tar.gz tmp/pydantic_partial-0.5.0.tar.gz --markdown 20230717/p/pydantic-partial/0.3.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230714.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230717.tar.gz --markdown 20230717/n/nvidia-dali-tf-plugin-nightly-cuda110/1.29.0.dev20230714-1.29.0.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/21/c7/8d4116b616ed7e3fe2c9b954e5385f8f2d01863c44ea8c9bdb6a8706c4e4/ms3-2.0.0.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [pdbeccdutils]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [pdbeccdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbeccdutils-0.7.2.tar.gz tmp/pdbeccdutils-0.8.0.tar.gz --markdown 20230717/p/pdbeccdutils/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 14:25:12] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-17 14:25:12] INFO root fetch - processPackages [jsii]: executing diffoscope
+[2023-07-17 14:25:12] INFO root fetch - processPackages [jsii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsii-1.85.0.tar.gz tmp/jsii-1.9.0.tar.gz --markdown 20230717/j/jsii/1.85.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 14:25:13] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-17 14:25:13] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230717/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-17 14:25:13] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.8.tar.gz]
+[2023-07-17 14:25:13] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.9.tar.gz]
+[2023-07-17 14:25:13] INFO root fetch - processPackages [multireg]: Start processing: openwholeslide
+[2023-07-17 14:25:13] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-07-17 14:25:13] WARNING root fetch - processPackages [openwholeslide]: Skipping, unable to determine old version
+[2023-07-17 14:25:13] INFO root fetch - processPackages [openwholeslide]: Start processing: trapi-predict-kit
+[2023-07-17 14:25:13] INFO root fetch - main [MainThread]: End processing [openwholeslide] error
+[2023-07-17 14:25:13] WARNING root fetch - processPackages [trapi-predict-kit]: Skipping, unable to determine old version
+[2023-07-17 14:25:13] INFO root fetch - processPackages [trapi-predict-kit]: Start processing: nvidia-dali-nightly-cuda110
+[2023-07-17 14:25:13] INFO root fetch - main [MainThread]: End processing [trapi-predict-kit] error
+[2023-07-17 14:25:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.29.0.dev20230717] Old Version: [1.29.0.dev20230714]
+[2023-07-17 14:25:14] INFO root fetch - processPackages [ms3]: executing diffoscope
+[2023-07-17 14:25:14] INFO root fetch - processPackages [ms3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms3-1.2.9.tar.gz tmp/ms3-2.0.0.tar.gz --markdown 20230717/m/ms3/1.2.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 14:25:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/00/7c/77d8e7fb4b5ab776ca6b17ded76d602ec1eef6e188420a9a1801b91e4a99/nvidia-dali-nightly-cuda110-1.29.0.dev20230714.tar.gz
+[2023-07-17 14:25:14] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-5.0.0-py3-none-any.whl.zip]
+[2023-07-17 14:25:14] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-5.0.1-py3-none-any.whl.zip]
+[2023-07-17 14:25:14] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-07-17 14:25:14] INFO root fetch - processPackages [pydantic-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_partial-0.3.4.tar.gz]
+[2023-07-17 14:25:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/b1/56/70e9e3688689432f224a0bde665c195d79d4e7a1cb92338b5df05f1f9a6c/nvidia-dali-nightly-cuda110-1.29.0.dev20230717.tar.gz
+[2023-07-17 14:25:14] INFO root fetch - processPackages [pydantic-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_partial-0.5.0.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - main [MainThread]: End processing [pydantic-partial]: success
+[2023-07-17 14:25:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230714.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230717.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-17 14:25:15] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.85.0.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.9.0.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - main [MainThread]: End processing [jsii]: success
+[2023-07-17 14:25:15] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.1.9.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-17 14:25:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-07-17 14:25:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230714.tar.gz tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230717.tar.gz --markdown 20230717/n/nvidia-dali-nightly-cuda110/1.29.0.dev20230714-1.29.0.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 14:25:15] INFO root fetch - processPackages [pdbeccdutils]: Remove: archive file [/home/abi/fetcher/tmp/pdbeccdutils-0.7.2.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - processPackages [pdbeccdutils]: Remove: archive file [/home/abi/fetcher/tmp/pdbeccdutils-0.8.0.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - main [MainThread]: End processing [pdbeccdutils]: success
+[2023-07-17 14:25:15] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-17 14:25:15] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-17 14:25:16] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.1.tar.gz]
+[2023-07-17 14:25:16] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.2.tar.gz]
+[2023-07-17 14:25:16] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
+[2023-07-17 14:25:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230714.tar.gz]
+[2023-07-17 14:25:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230717.tar.gz]
+[2023-07-17 14:25:16] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-07-17 14:25:59] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-1.2.9.tar.gz]
+[2023-07-17 14:25:59] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-2.0.0.tar.gz]
+[2023-07-17 14:25:59] INFO root fetch - main [MainThread]: End processing [ms3]: success
+[2023-07-17 14:25:59] INFO root fetch - main [MainThread]: Store serial: [18916620]
