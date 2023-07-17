@@ -17576,3 +17576,128 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:47:53] INFO root fetch - processPackages [treemodel2sql]: Remove: archive file [/home/abi/fetcher/tmp/treemodel2sql-0.1.1.tar.gz]
 [2023-07-17 14:47:53] INFO root fetch - main [MainThread]: End processing [treemodel2sql]: success
 [2023-07-17 14:47:53] INFO root fetch - main [MainThread]: Store serial: [18916919]
+[2023-07-17 14:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916919]
+[2023-07-17 14:53:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flash-attn
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ursactl
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clargs
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-openai-tr
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorcircuit-nightly
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eolymp
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bagbag
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resolwe
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dissect.target
+[2023-07-17 14:53:02] INFO root fetch - processPackages [flash-attn]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [clargs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [azure-openai-tr]: New version: [0.1.0a4] Old Version: [0.1.0a2]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ursactl]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [eolymp]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-17 14:53:02] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/96/9c/0550790c1f94bb223abd67cdeaece462c0ac56b5cf2cf84080a593e57987/flash_attn-1.0.9.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/80/22/ba0a0a2c7563be393b43438baf8ee4d95d554dce37df6e1fd851c8429f47/azure_openai_tr-0.1.0a2.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/7b/bc/e77099f6a0b357136ada3c2e22b4ecb013f395a6d45494b766ac809cb740/ursactl-0.2.0.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/12/a3/5c892996407b59c9b200f2da46c388d566c274b12ba7ab70b4d1c458c9d5/clargs-0.5.0.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-17 14:53:02] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/a9/e8/7a53143301513a3d23b8ff6bd713240d10d9fa3e677972ff6099c2e3d6f5/eolymp-0.7.8.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/9a/e5/e05acdab728e07215ddc5bcb63c7d85ea833b99ac520e77e6742e49c4a32/flash_attn-2.0.0.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/23/96/f8d6d48568a340299be5376ea7d086842c9d7ba7d182870c93d4e15bcbf4/ursactl-0.3.0.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/f8/ea/54e13f5ba583f941cb599fa10e1839cdce84e6dc94d091fb84903ea9de09/clargs-0.5.1.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/83/04/5c5f5f93b7b852456dc9345dbd186a5a16d12b894c973227c32e0f901dd1/azure_openai_tr-0.1.0a4.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [ursactl]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [ursactl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ursactl-0.2.0.tar.gz tmp/ursactl-0.3.0.tar.gz --markdown 20230717/u/ursactl/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.9.tar.gz tmp/flash_attn-2.0.0.tar.gz --markdown 20230717/f/flash-attn/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230717/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230717/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/d3/a6/47575613e7c452ec8f1d6563d0eec5350ca947c2574e3512eab1b3262678/eolymp-0.7.9.tar.gz
+[2023-07-17 14:53:03] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.5.0.tar.gz tmp/clargs-0.5.1.tar.gz --markdown 20230717/c/clargs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230717/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-17 14:53:03] INFO root fetch - processPackages [azure-openai-tr]: executing diffoscope
+[2023-07-17 14:53:03] INFO root fetch - processPackages [azure-openai-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_openai_tr-0.1.0a2.tar.gz tmp/azure_openai_tr-0.1.0a4.tar.gz --markdown 20230717/a/azure-openai-tr/0.1.0a2-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-17 14:53:04] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-17 14:53:04] INFO root fetch - processPackages [dissect.target]: Start processing: oarepo-ui
+[2023-07-17 14:53:04] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-17 14:53:04] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-17 14:53:04] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-17 14:53:04] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2023-07-17 14:53:04] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.7.8.tar.gz tmp/eolymp-0.7.9.tar.gz --markdown 20230717/e/eolymp/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-17 14:53:04] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-17 14:53:04] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-17 14:53:04] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230717/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-17 14:53:05] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.5.0.tar.gz]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.5.1.tar.gz]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [clargs]: Start processing: utbot-executor
+[2023-07-17 14:53:05] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2023-07-17 14:53:05] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a2.tar.gz]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a4.tar.gz]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [azure-openai-tr]: Start processing: fyers-apiv2
+[2023-07-17 14:53:05] INFO root fetch - main [MainThread]: End processing [azure-openai-tr]: success
+[2023-07-17 14:53:05] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.2.0.tar.gz]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.3.0.tar.gz]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [ursactl]: Start processing: spdb
+[2023-07-17 14:53:05] INFO root fetch - main [MainThread]: End processing [ursactl]: success
+[2023-07-17 14:53:05] INFO root fetch - processPackages [fyers-apiv2]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [spdb]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 14:53:05] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-17 14:53:05] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/bf/9e/376cb1fa1676e95e4a545eafe005ae698ba8167a4f2a07b30b835597fd73/spdb-1.0.2.tar.gz
+[2023-07-17 14:53:05] INFO root fetch - processPackages [fyers-apiv2]: Downloading https://files.pythonhosted.org/packages/bd/a5/4068bc55a03c1de4b709d4956b66bfff0fc7a58dfc6679ce202079074ba7/fyers_apiv2-2.0.6.tar.gz
+[2023-07-17 14:53:05] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-17 14:53:05] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-17 14:53:05] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230717/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 14:53:05] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/56/e8/4737dee9e2014e04d1f6076a048259e2d55b1d4aea1375a962594ada02b6/spdb-1.0.3.tar.gz
+[2023-07-17 14:53:05] INFO root fetch - processPackages [fyers-apiv2]: Downloading https://files.pythonhosted.org/packages/54/f7/88e3a5270bef587654740122bf3bedf763f2da4096428c8d129953279317/fyers_apiv2-2.0.7.tar.gz
+[2023-07-17 14:53:06] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 14:53:06] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.2.tar.gz tmp/spdb-1.0.3.tar.gz --markdown 20230717/s/spdb/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 14:53:06] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-17 14:53:06] INFO root fetch - processPackages [fyers-apiv2]: executing diffoscope
+[2023-07-17 14:53:06] INFO root fetch - processPackages [fyers-apiv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_apiv2-2.0.6.tar.gz tmp/fyers_apiv2-2.0.7.tar.gz --markdown 20230717/f/fyers-apiv2/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-17 14:53:06] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-17 14:53:06] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-17 14:53:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-17 14:53:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-17 14:53:07] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-07-17 14:53:07] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.7.8.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.7.9.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2023-07-17 14:53:07] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-17 14:53:07] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.2.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.3.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 14:53:07] INFO root fetch - processPackages [fyers-apiv2]: Remove: archive file [/home/abi/fetcher/tmp/fyers_apiv2-2.0.6.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - processPackages [fyers-apiv2]: Remove: archive file [/home/abi/fetcher/tmp/fyers_apiv2-2.0.7.tar.gz]
+[2023-07-17 14:53:07] INFO root fetch - main [MainThread]: End processing [fyers-apiv2]: success
+[2023-07-17 14:53:16] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-1.0.9.tar.gz]
+[2023-07-17 14:53:16] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.0.tar.gz]
+[2023-07-17 14:53:16] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-07-17 14:53:16] INFO root fetch - main [MainThread]: Store serial: [18916967]
