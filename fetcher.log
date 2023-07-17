@@ -12949,3 +12949,155 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 11:28:54] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.5.0.tar.gz]
 [2023-07-17 11:28:54] INFO root fetch - main [MainThread]: End processing [mizdb-tomselect]: success
 [2023-07-17 11:28:54] INFO root fetch - main [MainThread]: Store serial: [18914758]
+[2023-07-17 11:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914758]
+[2023-07-17 11:34:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2gui
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npgbq
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opsapp
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata-hydra-csvapi
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-mytc
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cyberwatch-api
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: q2db
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imlmlib
+[2023-07-17 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastembed
+[2023-07-17 11:34:04] INFO root fetch - processPackages [antchain-mytc]: New version: [1.6.4] Old Version: [1.6.2]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [cyberwatch-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [npgbq]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [opsapp]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [udata-hydra-csvapi]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev4]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [imlmlib]: New version: [0.0.3.dev0] Old Version: [0.0.2.dev0]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [fastembed]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11742] Old Version: [3.2.5.dev11700]
+[2023-07-17 11:34:04] INFO root fetch - processPackages [cyberwatch-api]: Downloading https://files.pythonhosted.org/packages/7a/5c/a1f75ed5b11c8fa9155f3d369f70aac668958b79c495b9bb1ec4596e15f7/cyberwatch_api-0.3.0.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [antchain-mytc]: Downloading https://files.pythonhosted.org/packages/76/e0/c6b38cc61e5044c176edc955e60ff71ae692b241f48e8195ffce485c3c5f/antchain_mytc-1.6.2.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [imlmlib]: Downloading https://files.pythonhosted.org/packages/f9/fd/c20823cdc424051db9e7f0643606b3a361e3f0cdf15ae8f180dd58eb3e4d/imlmlib-0.0.2.dev0.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [opsapp]: Downloading https://files.pythonhosted.org/packages/85/76/b80b1e20ca4131991c229fda760e4d23aff682a25ad49fcdbdf516337033/opsapp-0.0.25.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [fastembed]: Downloading https://files.pythonhosted.org/packages/20/a1/0553e184e6d3ddf2f61d8ffec7cbc5a886470e3f9e1eded37641f398d0e2/fastembed-0.0.1a1.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [npgbq]: Downloading https://files.pythonhosted.org/packages/bc/46/b24630de85f485a571588b036e6a4f3b2ee994e7da7d331f1890a2c09e91/npgbq-2.1.8.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/dd/d4/915c71fb752947282ac82fa4775713f687edb3db33fec32266730c61298e/udata_front-3.2.5.dev11700-py2.py3-none-any.whl
+[2023-07-17 11:34:04] INFO root fetch - processPackages [udata-hydra-csvapi]: Downloading https://files.pythonhosted.org/packages/e9/b0/cc88136b45823ceb7e446c42fae7c9102c7190aad8ace621402a345c5e1f/udata_hydra_csvapi-0.1.0.dev4.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [cyberwatch-api]: Downloading https://files.pythonhosted.org/packages/0e/77/9d70fcf4c230b0f4263110c2273fbe0bd6bdd0eaedac98d8150afcea53f7/cyberwatch_api-0.3.1.tar.gz
+[2023-07-17 11:34:04] INFO root fetch - processPackages [antchain-mytc]: Downloading https://files.pythonhosted.org/packages/4b/cd/e6a261913c60bebdfac7d868e33af7feffd166291ad5755641898cf122a1/antchain_mytc-1.6.4.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [imlmlib]: Downloading https://files.pythonhosted.org/packages/a9/f1/8b0fd813cd81d23b6d9635943d77caa5872c14eac37c2522efd0ff56d993/imlmlib-0.0.3.dev0.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [fastembed]: Downloading https://files.pythonhosted.org/packages/5b/1c/c2b0aeb27f60a825f93cd30369b91671152d4e8ca8b1d244feab761fd5c5/fastembed-0.0.1a2.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [udata-hydra-csvapi]: Downloading https://files.pythonhosted.org/packages/ef/6a/b48808d0dd13ed4d6dfb188e68b311ea645fbff6a3312d5ffd0e45f27e2e/udata_hydra_csvapi-0.1.0.dev9.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [cyberwatch-api]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [cyberwatch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberwatch_api-0.3.0.tar.gz tmp/cyberwatch_api-0.3.1.tar.gz --markdown 20230717/c/cyberwatch-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [antchain-mytc]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [antchain-mytc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_mytc-1.6.2.tar.gz tmp/antchain_mytc-1.6.4.tar.gz --markdown 20230717/a/antchain-mytc/1.6.2-1.6.4/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [npgbq]: Downloading https://files.pythonhosted.org/packages/f5/bd/62b479770cc4e08977d4172a5c293321ed064faab5c3473f3cc44d9962f3/npgbq-2.1.9.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [opsapp]: Downloading https://files.pythonhosted.org/packages/75/3b/a9d0a8f51b3515f1a0abeb52cfec7804a2f5c1e0a9098558aec0a0bce6bf/opsapp-0.0.26.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [imlmlib]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [imlmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imlmlib-0.0.2.dev0.tar.gz tmp/imlmlib-0.0.3.dev0.tar.gz --markdown 20230717/i/imlmlib/0.0.2.dev0-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [fastembed]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [fastembed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastembed-0.0.1a1.tar.gz tmp/fastembed-0.0.1a2.tar.gz --markdown 20230717/f/fastembed/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [udata-hydra-csvapi]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [udata-hydra-csvapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra_csvapi-0.1.0.dev4.tar.gz tmp/udata_hydra_csvapi-0.1.0.dev9.tar.gz --markdown 20230717/u/udata-hydra-csvapi/0.1.0.dev4-0.1.0.dev9/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230717/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [npgbq]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [npgbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npgbq-2.1.8.tar.gz tmp/npgbq-2.1.9.tar.gz --markdown 20230717/n/npgbq/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:34:05] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ae/a4/092d00ae75619b431326c6d2075e4d8ef15a6cf8087050a6768b6993725b/udata_front-3.2.5.dev11742-py2.py3-none-any.whl
+[2023-07-17 11:34:05] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2023-07-17 11:34:05] INFO root fetch - processPackages [opsapp]: executing diffoscope
+[2023-07-17 11:34:05] INFO root fetch - processPackages [opsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsapp-0.0.25.tar.gz tmp/opsapp-0.0.26.tar.gz --markdown 20230717/o/opsapp/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-17 11:34:06] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2023-07-17 11:34:06] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20230717/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 11:34:07] INFO root fetch - processPackages [cyberwatch-api]: Remove: archive file [/home/abi/fetcher/tmp/cyberwatch_api-0.3.0.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [cyberwatch-api]: Remove: archive file [/home/abi/fetcher/tmp/cyberwatch_api-0.3.1.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [cyberwatch-api]: Start processing: ambrosio
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [cyberwatch-api]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [imlmlib]: Remove: archive file [/home/abi/fetcher/tmp/imlmlib-0.0.2.dev0.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [imlmlib]: Remove: archive file [/home/abi/fetcher/tmp/imlmlib-0.0.3.dev0.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [imlmlib]: Start processing: tondortools
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [imlmlib]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [ambrosio]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.5.dev11700-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11742-py2.py3-none-any.whl.zip --markdown 20230717/u/udata-front/3.2.5.dev11700-3.2.5.dev11742/diff.md --exclude *.pyd
+[2023-07-17 11:34:07] INFO root fetch - processPackages [fastembed]: Remove: archive file [/home/abi/fetcher/tmp/fastembed-0.0.1a1.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [fastembed]: Remove: archive file [/home/abi/fetcher/tmp/fastembed-0.0.1a2.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [antchain-mytc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mytc-1.6.2.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [antchain-mytc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mytc-1.6.4.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [fastembed]: Start processing: logtalk-jupyter-kernel
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [fastembed]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [antchain-mytc]: Start processing: fastapi-pagination
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [antchain-mytc]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata-hydra-csvapi]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra_csvapi-0.1.0.dev4.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata-hydra-csvapi]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra_csvapi-0.1.0.dev9.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata-hydra-csvapi]: Start processing: q2rad
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [udata-hydra-csvapi]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [npgbq]: Remove: archive file [/home/abi/fetcher/tmp/npgbq-2.1.8.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [npgbq]: Remove: archive file [/home/abi/fetcher/tmp/npgbq-2.1.9.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [npgbq]: Start processing: udata
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [npgbq]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [fastapi-pagination]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [logtalk-jupyter-kernel]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2gui]: Start processing: gpforecaster
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [ambrosio]: Downloading https://files.pythonhosted.org/packages/8d/51/c581b403828f81f032b2f857bd288bf28d58c533c6ec0a6a99a78afbf451/ambrosio-0.0.3.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25669] Old Version: [6.1.6.dev25662]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.91] Old Version: [0.3.90]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/39/46/fafce73b8bad18a8922e9051e433e47b6044c1072f012b5db926bf510376/gpforecaster-0.3.90.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/54/38/52db6bdf19417602084dfda74d5caf2af9752242fa29fcc26a8c8d55668c/fastapi-pagination-0.9.2.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.8.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.9.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2023-07-17 11:34:07] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/68/d9/cd0c1faac3e29e8d0a1fe1c6d912539b7005291e89ab51ce442be77601a7/logtalk-jupyter-kernel-0.2.0.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/71/2a/c3a57ce4c728bb2d07a0c0976bf8e5a5415a5a4777163621c9f8fd7c8a24/udata-6.1.6.dev25662-py2.py3-none-any.whl
+[2023-07-17 11:34:07] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [opsapp]: Remove: archive file [/home/abi/fetcher/tmp/opsapp-0.0.25.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - processPackages [opsapp]: Remove: archive file [/home/abi/fetcher/tmp/opsapp-0.0.26.tar.gz]
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [opsapp]: success
+[2023-07-17 11:34:07] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19609455>=10485760
+[2023-07-17 11:34:07] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-17 11:34:07] INFO root fetch - processPackages [ambrosio]: Downloading https://files.pythonhosted.org/packages/00/29/19fb482de7c77c0fafd98db5ca87294a9028070f32be9a98bb26d0247067/ambrosio-0.0.4.tar.gz
+[2023-07-17 11:34:07] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-07-17 11:34:07] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230717/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 11:34:08] INFO root fetch - processPackages [ambrosio]: executing diffoscope
+[2023-07-17 11:34:08] INFO root fetch - processPackages [ambrosio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambrosio-0.0.3.tar.gz tmp/ambrosio-0.0.4.tar.gz --markdown 20230717/a/ambrosio/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 11:34:08] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/30/fd/38d63415fb16c0d7220787cfc0e2d03beed85b6d4b7c2fc20f249054329e/gpforecaster-0.3.91.tar.gz
+[2023-07-17 11:34:08] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-07-17 11:34:08] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/ae/72/c53269908968568bb661a08b6faf00ce7b8219af0f9541920ed5bcd83724/fastapi-pagination-0.9.3.tar.gz
+[2023-07-17 11:34:08] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/bf/6e/bf4f0f075ae455ba35d83b45efeeffc92e4ca67468106deca42e012be433/logtalk-jupyter-kernel-0.3.0.tar.gz
+[2023-07-17 11:34:08] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-17 11:34:08] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230717/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 11:34:08] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-17 11:34:08] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.90.tar.gz tmp/gpforecaster-0.3.91.tar.gz --markdown 20230717/g/gpforecaster/0.3.90-0.3.91/diff.md --exclude *.pyd
+[2023-07-17 11:34:08] INFO root fetch - processPackages [logtalk-jupyter-kernel]: executing diffoscope
+[2023-07-17 11:34:08] INFO root fetch - processPackages [logtalk-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtalk-jupyter-kernel-0.2.0.tar.gz tmp/logtalk-jupyter-kernel-0.3.0.tar.gz --markdown 20230717/l/logtalk-jupyter-kernel/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 11:34:08] INFO root fetch - processPackages [fastapi-pagination]: executing diffoscope
+[2023-07-17 11:34:08] INFO root fetch - processPackages [fastapi-pagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-pagination-0.9.2.tar.gz tmp/fastapi-pagination-0.9.3.tar.gz --markdown 20230717/f/fastapi-pagination/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-17 11:34:09] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-07-17 11:34:09] INFO root fetch - processPackages [ambrosio]: Remove: archive file [/home/abi/fetcher/tmp/ambrosio-0.0.3.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - processPackages [ambrosio]: Remove: archive file [/home/abi/fetcher/tmp/ambrosio-0.0.4.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - main [MainThread]: End processing [ambrosio]: success
+[2023-07-17 11:34:09] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-17 11:34:09] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.90.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.91.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-17 11:34:09] INFO root fetch - processPackages [fastapi-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-0.9.2.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - processPackages [fastapi-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-0.9.3.tar.gz]
+[2023-07-17 11:34:09] INFO root fetch - main [MainThread]: End processing [fastapi-pagination]: success
+[2023-07-17 11:34:10] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/logtalk-jupyter-kernel-0.2.0.tar.gz]
+[2023-07-17 11:34:10] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/logtalk-jupyter-kernel-0.3.0.tar.gz]
+[2023-07-17 11:34:10] INFO root fetch - main [MainThread]: End processing [logtalk-jupyter-kernel]: success
+[2023-07-17 11:34:15] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11700-py2.py3-none-any.whl.zip]
+[2023-07-17 11:34:15] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11742-py2.py3-none-any.whl.zip]
+[2023-07-17 11:34:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-07-17 11:34:15] INFO root fetch - main [MainThread]: Store serial: [18914811]
