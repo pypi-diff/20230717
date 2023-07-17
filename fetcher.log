@@ -9866,3 +9866,159 @@
 [2023-07-17 09:37:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717073228.tar.gz]
 [2023-07-17 09:37:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-17 09:37:35] INFO root fetch - main [MainThread]: Store serial: [18913495]
+[2023-07-17 09:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913495]
+[2023-07-17 09:42:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-dyvmsapi-intl20211015
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctransformers-langdash
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connectors-to-databases
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-cordex
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-role
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BitCash
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mxcubecore
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-test-common
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adnuntius
+[2023-07-17 09:42:44] INFO root fetch - processPackages [BitCash]: New version: [1.0.0] Old Version: [0.6.8]
+[2023-07-17 09:42:44] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-07-17 09:42:44] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.88]
+[2023-07-17 09:42:44] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-17 09:42:44] INFO root fetch - processPackages [connectors-to-databases]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-17 09:42:44] INFO root fetch - processPackages [ctransformers-langdash]: New version: [0.2.9] Old Version: [0.2.12.1]
+[2023-07-17 09:42:44] INFO root fetch - processPackages [py-cordex]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-17 09:42:45] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 09:42:45] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-17 09:42:45] INFO root fetch - processPackages [mxcubecore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-17 09:42:45] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/83/99/85160c5017bebc418e8b47970fc7e6fd83fbe0c6f74fadc24ab41d875d89/connectors_to_databases-1.0.3.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2d/e0/f24e2cb809d708a10ac95c9203c77fdc31857a8cc38af8ba7c0a8b169432/xj_role-1.0.88.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [BitCash]: Downloading https://files.pythonhosted.org/packages/51/98/cce1b98e961cad5c09952d618e9e4fad66427e2f72265a354cf1fdd55573/BitCash-0.6.8-py3-none-any.whl
+[2023-07-17 09:42:45] INFO root fetch - processPackages [ctransformers-langdash]: Downloading https://files.pythonhosted.org/packages/a1/2f/ad946e0b29ede2fadc53e7893d1b26e6fade088aeb32618d6d424e36bd75/ctransformers-langdash-0.2.12.1.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: Downloading https://files.pythonhosted.org/packages/67/d7/35166ae022fe28efa0fad823487ae467e1d55a6796691aa4b25fcf7f7a6c/alibabacloud_dyvmsapi-intl20211015-1.0.0.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [py-cordex]: Downloading https://files.pythonhosted.org/packages/8e/1f/b89d5390eb5d679f486f7f11a46f46141c422483011c30ae7e872f468308/py-cordex-0.6.0.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/de/b6/f23c68a8d44340168d91a592a2c31237fe151e457eeaa1ae34a615d3da8b/mxcubecore-1.8.0.tar.gz
+[2023-07-17 09:42:45] WARNING root fetch - processPackages [py-cordex]: Skipping package: exceeds size limit 12463942>=10485760
+[2023-07-17 09:42:45] INFO root fetch - processPackages [py-cordex]: Start processing: lazysdk
+[2023-07-17 09:42:45] INFO root fetch - main [MainThread]: End processing [py-cordex] error
+[2023-07-17 09:42:45] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 09:42:45] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-07-17 09:42:45] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 28908102>=10485760
+[2023-07-17 09:42:45] INFO root fetch - processPackages [mxcubecore]: Start processing: connectors-to-databases
+[2023-07-17 09:42:45] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2023-07-17 09:42:45] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/f9/2b/ad25612947e0647c6217eb3707a7e9ea458605b29132cd13bf8e9f3c61a5/connectors_to_databases-1.0.4.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [connectors-to-databases]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 09:42:45] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [BitCash]: Downloading https://files.pythonhosted.org/packages/ec/8e/9b09d682b24418ad1d555315fa54abc6638ab24d81aa349582501cde822d/BitCash-1.0.0-py3-none-any.whl
+[2023-07-17 09:42:45] INFO root fetch - processPackages [ctransformers-langdash]: Downloading https://files.pythonhosted.org/packages/de/d8/1d9e5ddca496d8dca7cce1bef5bd11320693af3e71cef3df53ea8be2b1ee/ctransformers-langdash-0.2.9.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: Downloading https://files.pythonhosted.org/packages/80/b4/d0a199adc267f4d34e3c280e02280eabf5bdf0f978eab6c62b1c3d2a57c6/alibabacloud_dyvmsapi-intl20211015-2.0.0.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-07-17 09:42:45] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230717/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-17 09:42:45] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/f9/2b/ad25612947e0647c6217eb3707a7e9ea458605b29132cd13bf8e9f3c61a5/connectors_to_databases-1.0.4.tar.gz
+[2023-07-17 09:42:45] INFO root fetch - processPackages [connectors-to-databases]: executing diffoscope
+[2023-07-17 09:42:45] INFO root fetch - processPackages [connectors-to-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectors_to_databases-1.0.3.tar.gz tmp/connectors_to_databases-1.0.4.tar.gz --markdown 20230717/c/connectors-to-databases/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dyvmsapi-intl20211015-1.0.0.tar.gz tmp/alibabacloud_dyvmsapi-intl20211015-2.0.0.tar.gz --markdown 20230717/a/alibabacloud-dyvmsapi-intl20211015/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230717/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.88.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230717/x/xj-role/1.0.88-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230717/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [BitCash]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-17 09:42:46] INFO root fetch - processPackages [BitCash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BitCash-0.6.8-py3-none-any.whl.zip tmp/BitCash-1.0.0-py3-none-any.whl.zip --markdown 20230717/B/BitCash/0.6.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [ctransformers-langdash]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [ctransformers-langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-langdash-0.2.12.1.tar.gz tmp/ctransformers-langdash-0.2.9.tar.gz --markdown 20230717/c/ctransformers-langdash/0.2.12.1-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230717/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 09:42:46] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/fa/99/213d4788d7b8e91fd93aa0500a402f54f66a593566ab7a46223a790df859/connectors_to_databases-1.0.5.tar.gz
+[2023-07-17 09:42:46] INFO root fetch - processPackages [connectors-to-databases]: executing diffoscope
+[2023-07-17 09:42:46] INFO root fetch - processPackages [connectors-to-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectors_to_databases-1.0.4.tar.gz tmp/connectors_to_databases-1.0.5.tar.gz --markdown 20230717/c/connectors-to-databases/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 09:42:47] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.8.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.9.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [adnuntius]: Start processing: fsrs4anki-optimizer
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-07-17 09:42:47] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.1.0] Old Version: [4.0.4]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/0e/4fde403eab1d44d4c7a2d7da8b272ab2d10cbe5080fa9c2ccc666db24de0/fsrs4anki_optimizer-4.0.4.tar.gz
+[2023-07-17 09:42:47] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.0.3.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.0.4.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [connectors-to-databases]: Start processing: rest-framework-simplejwt-byforde2
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [connectors-to-databases]: success
+[2023-07-17 09:42:47] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dyvmsapi-intl20211015-1.0.0.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dyvmsapi-intl20211015-2.0.0.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [alibabacloud-dyvmsapi-intl20211015]: Start processing: rest-framework-simplejwt-byforde2
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-dyvmsapi-intl20211015]: success
+[2023-07-17 09:42:47] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.88.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [xj-role]: Start processing: requestsbankrko
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-17 09:42:47] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/2f/2d/78c5fd970336e61245c2d2f34dd1295787c72d7d7dea2a771049a45714c0/fsrs4anki_optimizer-4.1.0.tar.gz
+[2023-07-17 09:42:47] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-07-17 09:42:47] ERROR root fetch - processPackages [connectors-to-databases]: Diffoscope failed: time="2023-07-17T09:42:46+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
+
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [connectors-to-databases] error
+[2023-07-17 09:42:47] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/28/5b/2c15abd58973f94ccc17a3fcb3cc1306ac229461512c87b5fac000210351/requestsbankrko-0.2.1.tar.gz
+[2023-07-17 09:42:47] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-17 09:42:47] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-17 09:42:47] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-17 09:42:47] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.0.4.tar.gz tmp/fsrs4anki_optimizer-4.1.0.tar.gz --markdown 20230717/f/fsrs4anki-optimizer/4.0.4-4.1.0/diff.md --exclude *.pyd
+[2023-07-17 09:42:48] INFO root fetch - processPackages [BitCash]: Remove: archive file [/home/abi/fetcher/tmp/BitCash-0.6.8-py3-none-any.whl.zip]
+[2023-07-17 09:42:48] INFO root fetch - processPackages [BitCash]: Remove: archive file [/home/abi/fetcher/tmp/BitCash-1.0.0-py3-none-any.whl.zip]
+[2023-07-17 09:42:48] INFO root fetch - main [MainThread]: End processing [BitCash]: success
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/01/98/edede2c6bcd206191b543fb282cf50de4017463db45b3fc9456f3e6d3446/rest_framework_simplejwt_byforde2-0.0.3.tar.gz
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/01/98/edede2c6bcd206191b543fb282cf50de4017463db45b3fc9456f3e6d3446/rest_framework_simplejwt_byforde2-0.0.3.tar.gz
+[2023-07-17 09:42:48] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/2e/a3/022986334579bbe62537af5ad8e2821e5ff157c1926cc1330b0586577a19/requestsbankrko-0.2.2.tar.gz
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/14/3d/6b0506cb0c24a8ad345fb7014dc61f027669c3633f091e59971d25506246/rest_framework_simplejwt_byforde2-0.1.0.tar.gz
+[2023-07-17 09:42:48] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-17 09:42:48] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.1.tar.gz tmp/requestsbankrko-0.2.2.tar.gz --markdown 20230717/r/requestsbankrko/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/14/3d/6b0506cb0c24a8ad345fb7014dc61f027669c3633f091e59971d25506246/rest_framework_simplejwt_byforde2-0.1.0.tar.gz
+[2023-07-17 09:42:48] INFO root fetch - processPackages [ctransformers-langdash]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-langdash-0.2.12.1.tar.gz]
+[2023-07-17 09:42:48] INFO root fetch - processPackages [ctransformers-langdash]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-langdash-0.2.9.tar.gz]
+[2023-07-17 09:42:48] INFO root fetch - main [MainThread]: End processing [ctransformers-langdash]: success
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: executing diffoscope
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_simplejwt_byforde2-0.0.3.tar.gz tmp/rest_framework_simplejwt_byforde2-0.1.0.tar.gz --markdown 20230717/r/rest-framework-simplejwt-byforde2/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: executing diffoscope
+[2023-07-17 09:42:48] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_simplejwt_byforde2-0.0.3.tar.gz tmp/rest_framework_simplejwt_byforde2-0.1.0.tar.gz --markdown 20230717/r/rest-framework-simplejwt-byforde2/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 09:42:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.0.4.tar.gz]
+[2023-07-17 09:42:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.1.0.tar.gz]
+[2023-07-17 09:42:48] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-17 09:42:49] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.1.tar.gz]
+[2023-07-17 09:42:49] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.2.tar.gz]
+[2023-07-17 09:42:49] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-17 09:42:49] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.0.3.tar.gz]
+[2023-07-17 09:42:49] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.0.tar.gz]
+[2023-07-17 09:42:49] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde2]: success
+[2023-07-17 09:42:49] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde2]: success
+[2023-07-17 09:43:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-17 09:43:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-17 09:43:00] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-17 09:43:00] INFO root fetch - main [MainThread]: Store serial: [18913552]
