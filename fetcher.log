@@ -7525,3 +7525,97 @@
 [2023-07-17 07:08:22] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.8.tar.gz]
 [2023-07-17 07:08:22] INFO root fetch - main [MainThread]: End processing [streamsbpy]: success
 [2023-07-17 07:08:22] INFO root fetch - main [MainThread]: Store serial: [18912540]
+[2023-07-17 07:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912540]
+[2023-07-17 07:13:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysersic
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argil
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cocos2d
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-deckgl
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitsandbytes
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dank-mids
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wdmtoolbox
+[2023-07-17 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tflite-runtime-nightly
+[2023-07-17 07:13:31] INFO root fetch - processPackages [bitsandbytes]: New version: [0.40.2] Old Version: [0.40.1.post1]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [argil]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [streamlit-deckgl]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [cocos2d]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [pysersic]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230717] Old Version: [23.8.0a230716]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [wdmtoolbox]: New version: [8.9.7.5] Old Version: [7.9.7.5]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230717] Old Version: [0.1.1.dev20230716]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230715] Old Version: [2.14.0.dev20230714]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/3c/07/44af6692e9c57e0bb6de65277b090bd15a029ef5cb864272859d0621128b/argil-0.0.23.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [pysersic]: Downloading https://files.pythonhosted.org/packages/00/c9/649d0d52a422b24824227f3b7f8b11bb61db2ebb9798da91770b28ab902a/pysersic-0.1.1.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/25/84/7b2ea2036aa5ecff7210b0610483c7346619e243d37bd8ae460dca956109/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 07:13:31] INFO root fetch - processPackages [bitsandbytes]: Downloading https://files.pythonhosted.org/packages/f6/3b/a2f992246686a31507b941ade8512c6e70aed5b54c8dbf690641e2e150a8/bitsandbytes-0.40.1.post1.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [cocos2d]: Downloading https://files.pythonhosted.org/packages/db/5c/7975d625bf1f1fa5c0def9a2f0455aa1616d97debc4038010844449f9abb/cocos2d-0.6.8.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/66/b5/716ffe6971da626d34695ac5c8b1ee718ea0206b2da66dff76f25c9259b2/rapid_pe-0.1.1.dev20230716.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/0b/ed/cf4a934e2a68a6a73f581af2b2af9841a504b7db9767dff3200caff06b90/dask-cuda-23.8.0a230716.tar.gz
+[2023-07-17 07:13:31] WARNING root fetch - processPackages [bitsandbytes]: Skipping package: exceeds size limit 91812210>=10485760
+[2023-07-17 07:13:31] INFO root fetch - processPackages [bitsandbytes]: Start processing: tflite-support-nightly
+[2023-07-17 07:13:31] INFO root fetch - main [MainThread]: End processing [bitsandbytes] error
+[2023-07-17 07:13:31] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/ec/9a/3bc801645af851093802a64c43c71137b82cab1db34a7279d8f696cf0b19/wdmtoolbox-7.9.7.5.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230715] Old Version: [0.4.4.dev20230714]
+[2023-07-17 07:13:31] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/42/ff/4123f5136f5e9530eeaf9178320d2074c816783b998f7bff9aebfb7df142/streamlit-deckgl-0.5.0.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/13/c5/7b357ac170ee20b52c3f6e812236052a64b1871540d658a49f86da93cf4b/argil-0.0.24.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/4b/35/2726b241f4c924fd99e3e0d3c56d6e59ba87ad954914e6d5f5e18f3ac959/tflite_support_nightly-0.4.4.dev20230714-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 07:13:31] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/81/67/937e1191ca409009ed8e35ba7633490410d4f9b5bd895c246c8163d29b15/rapid_pe-0.1.1.dev20230717.tar.gz
+[2023-07-17 07:13:31] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815122>=10485760
+[2023-07-17 07:13:31] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-17 07:13:31] INFO root fetch - processPackages [pysersic]: Downloading https://files.pythonhosted.org/packages/64/2e/1bb9399f40f0eb7e802880a291251c0628bc0c4491224f3079b1056476ec/pysersic-0.1.2.tar.gz
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 07:13:31] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/41/49/43f70100def831c8c6037fa270aed063c13462738ad9ac931110af27671f/dask-cuda-23.8.0a230717.tar.gz
+[2023-07-17 07:13:32] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.23.tar.gz tmp/argil-0.0.24.tar.gz --markdown 20230717/a/argil/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/76/86/b82985c67bfe835f1e1142aee44e21aa76adaccbf1193aace5d9c498978a/streamlit-deckgl-0.5.1.tar.gz
+[2023-07-17 07:13:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/56/f7/1ae91b95ff72d03710e52a5bcddbd56695e74c5a49171915564248cfcdde/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 07:13:32] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230716.tar.gz tmp/dask-cuda-23.8.0a230717.tar.gz --markdown 20230717/d/dask-cuda/23.8.0a230716-23.8.0a230717/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [pysersic]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [pysersic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysersic-0.1.1.tar.gz tmp/pysersic-0.1.2.tar.gz --markdown 20230717/p/pysersic/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230716.tar.gz tmp/rapid_pe-0.1.1.dev20230717.tar.gz --markdown 20230717/r/rapid-pe/0.1.1.dev20230716-0.1.1.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [streamlit-deckgl]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [streamlit-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-deckgl-0.5.0.tar.gz tmp/streamlit-deckgl-0.5.1.tar.gz --markdown 20230717/s/streamlit-deckgl/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [cocos2d]: Downloading https://files.pythonhosted.org/packages/2f/45/d3efb5f3e635adc5b49ee2b890910c672f4c98b927a820230abadde9c9bf/cocos2d-0.6.9.tar.gz
+[2023-07-17 07:13:32] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/70/67/62d4bfd6f784827489a14b4c543d4ca60b65a5484ef88e082f73ff0a2de0/wdmtoolbox-8.9.7.5.tar.gz
+[2023-07-17 07:13:32] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230717/t/tflite-runtime-nightly/2.14.0.dev20230714-2.14.0.dev20230715/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [wdmtoolbox]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [wdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdmtoolbox-7.9.7.5.tar.gz tmp/wdmtoolbox-8.9.7.5.tar.gz --markdown 20230717/w/wdmtoolbox/7.9.7.5-8.9.7.5/diff.md --exclude *.pyd
+[2023-07-17 07:13:32] INFO root fetch - processPackages [cocos2d]: executing diffoscope
+[2023-07-17 07:13:32] INFO root fetch - processPackages [cocos2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocos2d-0.6.8.tar.gz tmp/cocos2d-0.6.9.tar.gz --markdown 20230717/c/cocos2d/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-17 07:13:33] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.23.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.24.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 07:13:33] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 07:13:33] INFO root fetch - processPackages [pysersic]: Remove: archive file [/home/abi/fetcher/tmp/pysersic-0.1.1.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [pysersic]: Remove: archive file [/home/abi/fetcher/tmp/pysersic-0.1.2.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [pysersic]: success
+[2023-07-17 07:13:33] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230716.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230717.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-17 07:13:33] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230716.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230717.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-17 07:13:33] INFO root fetch - processPackages [streamlit-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-deckgl-0.5.0.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [streamlit-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-deckgl-0.5.1.tar.gz]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [streamlit-deckgl]: success
+[2023-07-17 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-17 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-17 07:13:33] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-17 07:13:34] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-7.9.7.5.tar.gz]
+[2023-07-17 07:13:34] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-8.9.7.5.tar.gz]
+[2023-07-17 07:13:34] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
+[2023-07-17 07:13:45] INFO root fetch - processPackages [cocos2d]: Remove: archive file [/home/abi/fetcher/tmp/cocos2d-0.6.8.tar.gz]
+[2023-07-17 07:13:45] INFO root fetch - processPackages [cocos2d]: Remove: archive file [/home/abi/fetcher/tmp/cocos2d-0.6.9.tar.gz]
+[2023-07-17 07:13:45] INFO root fetch - main [MainThread]: End processing [cocos2d]: success
+[2023-07-17 07:13:45] INFO root fetch - main [MainThread]: Store serial: [18912582]
