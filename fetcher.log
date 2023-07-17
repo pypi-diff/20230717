@@ -20351,3 +20351,204 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:08:31] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.4.3.tar.gz]
 [2023-07-17 16:08:31] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
 [2023-07-17 16:08:31] INFO root fetch - main [MainThread]: Store serial: [18917896]
+[2023-07-17 16:13:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917896]
+[2023-07-17 16:13:41] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebbs
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skale-contracts
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-mssql
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pegasusX
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-source-oracle
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcpipe
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scw-gateway
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: capsulecorp
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rotarypi
+[2023-07-17 16:13:41] INFO root fetch - processPackages [funcpipe]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [rotarypi]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [macrometa-source-oracle]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [capsulecorp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [pegasusX]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [macrometa-source-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.9.1.1.dev1] Old Version: [14.0.9.0.1]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [scw-gateway]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-17 16:13:41] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/c3/66/97eeccb606624cb7ad597693d9c934892d773b3f54702bae1767dae4cb05/pegasusX-0.2.0.tar.gz
+[2023-07-17 16:13:41] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/1e/ae/997a8d2afc2b7be219d447dde407db2ec4f8b2557611ffc67918883cebfa/macrometa-source-mssql-0.0.8.tar.gz
+[2023-07-17 16:13:41] INFO root fetch - processPackages [funcpipe]: Downloading https://files.pythonhosted.org/packages/a6/c9/c8780099f0d551c427ed0999985d91d8cd732c2d835304113218da97e6c1/funcpipe-0.1.0.tar.gz
+[2023-07-17 16:13:41] INFO root fetch - processPackages [rotarypi]: Downloading https://files.pythonhosted.org/packages/16/e7/d21625bf610f7e920a8fe141421edde2d22453b7cbab987ac1c52e7962d0/rotarypi-1.0.1.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [capsulecorp]: Downloading https://files.pythonhosted.org/packages/bd/c9/bd123b3defbb42ec4e91c1dfff8c0033fb6d32f19cd0fd7549c60d44e9da/capsulecorp-0.1.3.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/3e/ef/8d03e69dafb938232250a08233d95b50b58eccf94673e06c58011c80e378/macrometa-source-oracle-0.0.37.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/46/db/9e0e9409a72a57d8151dfb799698df89f21c7a394a4d283b44efb6157a47/scw_gateway-0.6.0.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/e4/4d/600e9b8522cb5e4288fadbaae0e9d2b951d0b79be24416d8b78414a5efb6/ebbs-2.2.8.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/e3/8c/24116b604c6bc22ce1e4e6d458ad5f4941cc363b81eabac01fe2ae3bcd9c/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl
+[2023-07-17 16:13:42] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/e3/c3/1fa1bb7d62cd36527c8dc8c4e050ebb40ea131b086bf7f4a8a4ee93c64e6/pegasusX-0.2.1.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/16/2e/a07b54c556f63c34f6240953b4c373c3600fe49ffe313270b48e7ef524fc/macrometa-source-mssql-0.0.9.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.2.0.tar.gz tmp/pegasusX-0.2.1.tar.gz --markdown 20230717/p/pegasusX/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [funcpipe]: Downloading https://files.pythonhosted.org/packages/a2/65/fd2c3e0c568511a460850306148b9b33e267cad62d649c9ecdc18b6b7d7c/funcpipe-0.2.0.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/ad/d2/0586c51fea46843960257f4cad3b00e7bcd3912d13ecd9d343940708c688/scw_gateway-0.6.1.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [rotarypi]: Downloading https://files.pythonhosted.org/packages/a4/c9/20f394fa48d9e61c56305a98214986095f391b91aed1136bbcfc2ccd587c/rotarypi-2.0.0.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [capsulecorp]: Downloading https://files.pythonhosted.org/packages/ee/37/d8210055b4113ace24ac2c8b8ac6a56b35750236a587b81588b4d46a7047/capsulecorp-0.1.4.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/3b/c0/43acacc646df6c4efed183bc9ba97f4026648e82caf7538c2e65133aaf52/macrometa-source-oracle-0.0.38.tar.gz
+[2023-07-17 16:13:42] INFO root fetch - processPackages [funcpipe]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [funcpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcpipe-0.1.0.tar.gz tmp/funcpipe-0.2.0.tar.gz --markdown 20230717/f/funcpipe/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-mssql]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mssql-0.0.8.tar.gz tmp/macrometa-source-mssql-0.0.9.tar.gz --markdown 20230717/m/macrometa-source-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [scw-gateway]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [scw-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scw_gateway-0.6.0.tar.gz tmp/scw_gateway-0.6.1.tar.gz --markdown 20230717/s/scw-gateway/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [rotarypi]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [rotarypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotarypi-1.0.1.tar.gz tmp/rotarypi-2.0.0.tar.gz --markdown 20230717/r/rotarypi/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [capsulecorp]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [capsulecorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsulecorp-0.1.3.tar.gz tmp/capsulecorp-0.1.4.tar.gz --markdown 20230717/c/capsulecorp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-oracle]: executing diffoscope
+[2023-07-17 16:13:42] INFO root fetch - processPackages [macrometa-source-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-oracle-0.0.37.tar.gz tmp/macrometa-source-oracle-0.0.38.tar.gz --markdown 20230717/m/macrometa-source-oracle/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-07-17 16:13:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/f8/ef/5b863388381c35c36cfea4e1f356dafa923aab127c4dfe81de1ea7bd0465/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl
+[2023-07-17 16:13:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-07-17 16:13:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-l10n-br-nfe/14.0.9.0.1-14.0.9.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-17 16:13:43] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/a1/17/09488d6e7c260166edfebc9cb5a173db17c6d6a621677ea3280cda9da438/ebbs-2.2.9.tar.gz
+[2023-07-17 16:13:43] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-07-17 16:13:43] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230717/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:43] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.0.tar.gz]
+[2023-07-17 16:13:43] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.1.tar.gz]
+[2023-07-17 16:13:43] INFO root fetch - processPackages [pegasusX]: Start processing: macrometa-source-postgres
+[2023-07-17 16:13:43] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 16:13:43] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/b2/b5/796fee820df011cc0e0898208c5e4e508f7ca755de3bc0f16a084ef62bc7/macrometa-source-postgres-0.0.51.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [funcpipe]: Remove: archive file [/home/abi/fetcher/tmp/funcpipe-0.1.0.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [funcpipe]: Remove: archive file [/home/abi/fetcher/tmp/funcpipe-0.2.0.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [funcpipe]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [funcpipe]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mssql-0.0.8.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mssql-0.0.9.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-mssql]: Start processing: streamlitopencvplayer
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [macrometa-source-mssql]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [rotarypi]: Remove: archive file [/home/abi/fetcher/tmp/rotarypi-1.0.1.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [rotarypi]: Remove: archive file [/home/abi/fetcher/tmp/rotarypi-2.0.0.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [rotarypi]: Start processing: skale-contracts
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [rotarypi]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9714958449586304] Old Version: [0.0.1.dev9117570598767099862]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [skale-contracts]: Start processing: macrometa-source-snowflake
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [capsulecorp]: Remove: archive file [/home/abi/fetcher/tmp/capsulecorp-0.1.3.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [capsulecorp]: Remove: archive file [/home/abi/fetcher/tmp/capsulecorp-0.1.4.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [capsulecorp]: Start processing: ovs-dbg
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [capsulecorp]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [scw-gateway]: Remove: archive file [/home/abi/fetcher/tmp/scw_gateway-0.6.0.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [scw-gateway]: Remove: archive file [/home/abi/fetcher/tmp/scw_gateway-0.6.1.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [scw-gateway]: Start processing: gambaterm
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [scw-gateway]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/d8/b0/19752adf887148669dd8964e16c3b9c2149fc4c553e4fcf9d109f5d3c179/macrometa-source-postgres-0.0.52.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [ovs-dbg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [gambaterm]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/80/3e/2e7ee3401f9b2a852e265947d57aff0cc5c1fbad59d18698dbf58cca728d/streamlitopencvplayer-1.3.6.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.51.tar.gz tmp/macrometa-source-postgres-0.0.52.tar.gz --markdown 20230717/m/macrometa-source-postgres/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-07-17 16:13:44] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.8.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [ebbs]: Start processing: petisco
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-oracle-0.0.37.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-oracle-0.0.38.tar.gz]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-oracle]: Start processing: ar-ex-sys-worker
+[2023-07-17 16:13:44] INFO root fetch - main [MainThread]: End processing [macrometa-source-oracle]: success
+[2023-07-17 16:13:44] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [macrometa-source-snowflake]: Downloading https://files.pythonhosted.org/packages/6f/04/89a4f6b25c2ccd3248b00b2eeb4c9cfd010be518d7d6b05312ac488dea69/macrometa-source-snowflake-0.0.8.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [ovs-dbg]: Downloading https://files.pythonhosted.org/packages/8a/94/ff70de7bd903b8bbc07dbe9813b5d27e90239fb9601ffe850c0dcb2eb52f/ovs_dbg-0.0.8.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.4] Old Version: [1.6.34]
+[2023-07-17 16:13:44] INFO root fetch - processPackages [gambaterm]: Downloading https://files.pythonhosted.org/packages/5a/80/c5169e869756813783746e3e0c8166baa9f72cfd1a2e9d46e391478dea07/gambaterm-0.9.8.tar.gz
+[2023-07-17 16:13:44] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-17 16:13:45] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz --markdown 20230717/s/skale-contracts/0.0.1.dev9117570598767099862-0.0.1.dev9714958449586304/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip]
+[2023-07-17 16:13:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-17 16:13:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Start processing: macrometa-target-bigquery
+[2023-07-17 16:13:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-07-17 16:13:45] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/d6/c8/ea6142fa3a821ddeb3c3ad150e7e6aacd9cb07c226b47f8a12396c789d3d/streamlitopencvplayer-1.3.7.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:13:45] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.3.6.tar.gz tmp/streamlitopencvplayer-1.3.7.tar.gz --markdown 20230717/s/streamlitopencvplayer/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/30/5c/02524050fc34767e72592c751209ecf316db8ef3c4b3d213ea52149ea801/ar_ex_sys_worker-1.6.34-py3-none-any.whl
+[2023-07-17 16:13:45] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/19/d5/1c6e9cb56f5373994835dd5aba2b936858eadbde4d813e4738603c1abf9a/macrometa-target-bigquery-0.0.8.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [macrometa-source-snowflake]: Downloading https://files.pythonhosted.org/packages/2e/9e/785f1d5ca8fd1608cadf7e6fb62934878661764e686ccbda2e5d32e7c7f5/macrometa-source-snowflake-0.0.9.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ovs-dbg]: Downloading https://files.pythonhosted.org/packages/67/37/44589f2d9ba1d49e114551dbc156764bacfb96c3f381bd5faeea1c1cc814/ovs_dbg-0.0.9.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [gambaterm]: Downloading https://files.pythonhosted.org/packages/49/df/3dd3936698ee4d6c0b032d9b50338c67d4b55051f2e0751a7b345ba8b3ca/gambaterm-0.9.9.tar.gz
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/f4/5c/f3af3b82878b5bd5409bf0480622893d2b30a572245967c159c2f4e25174/ar_ex_sys_worker-1.6.4-py3-none-any.whl
+[2023-07-17 16:13:45] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230717/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [macrometa-source-snowflake]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [macrometa-source-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-snowflake-0.0.8.tar.gz tmp/macrometa-source-snowflake-0.0.9.tar.gz --markdown 20230717/m/macrometa-source-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ovs-dbg]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ovs-dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs_dbg-0.0.8.tar.gz tmp/ovs_dbg-0.0.9.tar.gz --markdown 20230717/o/ovs-dbg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [gambaterm]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [gambaterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gambaterm-0.9.8.tar.gz tmp/gambaterm-0.9.9.tar.gz --markdown 20230717/g/gambaterm/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-07-17 16:13:45] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.34-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.4-py3-none-any.whl.zip --markdown 20230717/a/ar-ex-sys-worker/1.6.34-1.6.4/diff.md --exclude *.pyd
+[2023-07-17 16:13:46] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/6e/cd/6f15044ed527373c8f1a213e0addddd5bc37d37fd5844bbee63eb7fdaa81/macrometa-target-bigquery-0.0.9.tar.gz
+[2023-07-17 16:13:46] INFO root fetch - processPackages [macrometa-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-postgres-0.0.51.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [macrometa-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-postgres-0.0.52.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [macrometa-source-postgres]: Start processing: motti
+[2023-07-17 16:13:46] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-07-17 16:13:46] INFO root fetch - processPackages [motti]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/07/64/0176c8d2e9ce173378b5725e6192e61eaaddea3e16f229f3f477f974d171/motti-0.0.6.tar.gz
+[2023-07-17 16:13:46] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-07-17 16:13:46] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.8.tar.gz tmp/macrometa-target-bigquery-0.0.9.tar.gz --markdown 20230717/m/macrometa-target-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:46] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [skale-contracts]: Start processing: PySolidState
+[2023-07-17 16:13:46] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-17 16:13:46] INFO root fetch - processPackages [PySolidState]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/03/07/93179b1735a61be0ae038aebf9fb250453f978c8e6d1cad6824f708ce70f/PySolidState-0.0.8.tar.gz
+[2023-07-17 16:13:46] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.6.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.7.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-17 16:13:46] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/4f/aa/a79ab22ad755a6c217323091f52b69ee1319badbe6b200fa61144578ead4/motti-0.0.7.tar.gz
+[2023-07-17 16:13:46] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-17 16:13:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-17 16:13:46] INFO root fetch - processPackages [motti]: executing diffoscope
+[2023-07-17 16:13:46] INFO root fetch - processPackages [motti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motti-0.0.6.tar.gz tmp/motti-0.0.7.tar.gz --markdown 20230717/m/motti/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 16:13:46] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/c3/20/c5d2c2855bda95f0ba89f0b733fa3006fcc4cc15c3f9a3e052a9ac01ff95/PySolidState-0.0.9.tar.gz
+[2023-07-17 16:13:46] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-17 16:13:46] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.0.8.tar.gz tmp/PySolidState-0.0.9.tar.gz --markdown 20230717/P/PySolidState/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:13:47] INFO root fetch - processPackages [macrometa-source-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-snowflake-0.0.8.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - processPackages [macrometa-source-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-snowflake-0.0.9.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - main [MainThread]: End processing [macrometa-source-snowflake]: success
+[2023-07-17 16:13:47] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.6.34-py3-none-any.whl.zip]
+[2023-07-17 16:13:47] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.6.4-py3-none-any.whl.zip]
+[2023-07-17 16:13:47] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-07-17 16:13:47] INFO root fetch - processPackages [ovs-dbg]: Remove: archive file [/home/abi/fetcher/tmp/ovs_dbg-0.0.8.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - processPackages [ovs-dbg]: Remove: archive file [/home/abi/fetcher/tmp/ovs_dbg-0.0.9.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - main [MainThread]: End processing [ovs-dbg]: success
+[2023-07-17 16:13:47] INFO root fetch - processPackages [macrometa-target-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-bigquery-0.0.8.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - processPackages [macrometa-target-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-bigquery-0.0.9.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-07-17 16:13:47] INFO root fetch - processPackages [gambaterm]: Remove: archive file [/home/abi/fetcher/tmp/gambaterm-0.9.8.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - processPackages [gambaterm]: Remove: archive file [/home/abi/fetcher/tmp/gambaterm-0.9.9.tar.gz]
+[2023-07-17 16:13:47] INFO root fetch - main [MainThread]: End processing [gambaterm]: success
+[2023-07-17 16:13:48] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.6.tar.gz]
+[2023-07-17 16:13:48] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.7.tar.gz]
+[2023-07-17 16:13:48] INFO root fetch - main [MainThread]: End processing [motti]: success
+[2023-07-17 16:13:48] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.8.tar.gz]
+[2023-07-17 16:13:48] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.9.tar.gz]
+[2023-07-17 16:13:48] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-17 16:13:48] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-07-17 16:13:48] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-07-17 16:13:48] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-07-17 16:13:48] INFO root fetch - main [MainThread]: Store serial: [18917977]
