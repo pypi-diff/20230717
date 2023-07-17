@@ -10436,3 +10436,125 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:04:05] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
 [2023-07-17 10:04:05] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
 [2023-07-17 10:04:05] INFO root fetch - main [MainThread]: Store serial: [18913732]
+[2023-07-17 10:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913732]
+[2023-07-17 10:09:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quick-menu
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-menu
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whop-api-wrapper
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fink-filters
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xdcget
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whop-api-wrapper
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyglove
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minddatapack
+[2023-07-17 10:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clauderevised
+[2023-07-17 10:09:16] WARNING root fetch - processPackages [clauderevised]: Skipping, unable to determine old version
+[2023-07-17 10:09:16] INFO root fetch - processPackages [clauderevised]: Start processing: medcase
+[2023-07-17 10:09:16] INFO root fetch - main [MainThread]: End processing [clauderevised] error
+[2023-07-17 10:09:16] INFO root fetch - processPackages [xdcget]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [whop-api-wrapper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 10:09:16] WARNING root fetch - processPackages [minddatapack]: Skipping, unable to determine old version
+[2023-07-17 10:09:16] INFO root fetch - processPackages [minddatapack]: Start processing: AndroidTools
+[2023-07-17 10:09:16] INFO root fetch - main [MainThread]: End processing [minddatapack] error
+[2023-07-17 10:09:16] INFO root fetch - processPackages [quick-menu]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230717] Old Version: [0.4.1.dev20230716]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [whop-api-wrapper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [quick-menu]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [fink-filters]: New version: [3.9] Old Version: [3.8]
+[2023-07-17 10:09:16] WARNING root fetch - processPackages [medcase]: Skipping, unable to determine old version
+[2023-07-17 10:09:16] INFO root fetch - processPackages [medcase]: Start processing: AndroidTools
+[2023-07-17 10:09:16] INFO root fetch - main [MainThread]: End processing [medcase] error
+[2023-07-17 10:09:16] INFO root fetch - processPackages [AndroidTools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [AndroidTools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [xdcget]: Downloading https://files.pythonhosted.org/packages/f6/6a/95096afcb6c943c516ffc4a0e0cd8fd1ca146a9a09bb8164fc3eed24df6d/xdcget-0.2.1.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9f/51/e287da74c1d475df916f8fec41ea71c1f8ffb66e2f5e250f59f428de19da/pyglove-0.4.1.dev20230716.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/20/9f/2c127b6333e7068a9a61fa1d5d49bfd683dacc54f78309182920f2a807d8/whop-api-wrapper-1.0.1.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/20/9f/2c127b6333e7068a9a61fa1d5d49bfd683dacc54f78309182920f2a807d8/whop-api-wrapper-1.0.1.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/ab/ca/8c3614f0d1c89ec99f60bc3833bbf170e79f26c8101b00aa5e832f085d1c/quick_menu-0.5.0.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/ab/ca/8c3614f0d1c89ec99f60bc3833bbf170e79f26c8101b00aa5e832f085d1c/quick_menu-0.5.0.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/6b/dd/8dcda7cd53d59e7f2ce3e317663a3eddeb6a4d0b2ec74c8e131b6d349199/AndroidTools-0.0.1.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/6b/dd/8dcda7cd53d59e7f2ce3e317663a3eddeb6a4d0b2ec74c8e131b6d349199/AndroidTools-0.0.1.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [fink-filters]: Downloading https://files.pythonhosted.org/packages/ad/03/a1e30cd9ef3fd94bad1a3a4191fe94f321e88803bceeeb3342e49219b4af/fink-filters-3.8.tar.gz
+[2023-07-17 10:09:16] WARNING root fetch - processPackages [fink-filters]: Skipping package: exceeds size limit 10772648>=10485760
+[2023-07-17 10:09:16] INFO root fetch - processPackages [fink-filters]: Start processing: rest-framework-simplejwt-byforde2
+[2023-07-17 10:09:16] INFO root fetch - main [MainThread]: End processing [fink-filters] error
+[2023-07-17 10:09:16] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 10:09:16] INFO root fetch - processPackages [xdcget]: Downloading https://files.pythonhosted.org/packages/31/6c/9a1ca8698c749874937504ee4c4f3b11cbc36466fc0d3b6dc753e2b77a73/xdcget-0.2.2.tar.gz
+[2023-07-17 10:09:16] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/ee/c6/221d5ad74dd4e7a91197661c74a82682b4e344f9a5eed7c659b612748055/quick_menu-0.6.0.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b0/6c/50b97e495c98217e4247a2dd6ca4af2d5d8ca0f2c8b796528fd48b2060f3/pyglove-0.4.1.dev20230717.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/ee/c6/221d5ad74dd4e7a91197661c74a82682b4e344f9a5eed7c659b612748055/quick_menu-0.6.0.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/6c/05/dedf6455af19f29af4e0024d3287d52ec23f4b80d0ce63e3ffc9ecd1e725/whop-api-wrapper-1.0.2.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [whop-api-wrapper]: Downloading https://files.pythonhosted.org/packages/6c/05/dedf6455af19f29af4e0024d3287d52ec23f4b80d0ce63e3ffc9ecd1e725/whop-api-wrapper-1.0.2.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/f2/55/3a75ea42f7ed8c97d8eca6e2237f4faf58fbe0f30f8c8a730759d34ce510/AndroidTools-0.0.2.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/f2/55/3a75ea42f7ed8c97d8eca6e2237f4faf58fbe0f30f8c8a730759d34ce510/AndroidTools-0.0.2.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/e2/82/4abb3489bd2e2fa45b012d8ceed75a0020398633998e088127c6b1b4874c/rest_framework_simplejwt_byforde2-0.1.2.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [xdcget]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [xdcget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdcget-0.2.1.tar.gz tmp/xdcget-0.2.2.tar.gz --markdown 20230717/x/xdcget/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [quick-menu]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [quick-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_menu-0.5.0.tar.gz tmp/quick_menu-0.6.0.tar.gz --markdown 20230717/q/quick-menu/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [quick-menu]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [quick-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_menu-0.5.0.tar.gz tmp/quick_menu-0.6.0.tar.gz --markdown 20230717/q/quick-menu/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [whop-api-wrapper]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [whop-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whop-api-wrapper-1.0.1.tar.gz tmp/whop-api-wrapper-1.0.2.tar.gz --markdown 20230717/w/whop-api-wrapper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [whop-api-wrapper]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [whop-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whop-api-wrapper-1.0.1.tar.gz tmp/whop-api-wrapper-1.0.2.tar.gz --markdown 20230717/w/whop-api-wrapper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230716.tar.gz tmp/pyglove-0.4.1.dev20230717.tar.gz --markdown 20230717/p/pyglove/0.4.1.dev20230716-0.4.1.dev20230717/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.0.1.tar.gz tmp/AndroidTools-0.0.2.tar.gz --markdown 20230717/A/AndroidTools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.0.1.tar.gz tmp/AndroidTools-0.0.2.tar.gz --markdown 20230717/A/AndroidTools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/22/09/891521b8266823dd79d1b347f5ab7a7361946271b11d2ab1d78699692497/rest_framework_simplejwt_byforde2-0.1.3.tar.gz
+[2023-07-17 10:09:17] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230717/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 10:09:17] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: executing diffoscope
+[2023-07-17 10:09:17] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_simplejwt_byforde2-0.1.2.tar.gz tmp/rest_framework_simplejwt_byforde2-0.1.3.tar.gz --markdown 20230717/r/rest-framework-simplejwt-byforde2/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 10:09:18] INFO root fetch - processPackages [quick-menu]: Remove: archive file [/home/abi/fetcher/tmp/quick_menu-0.5.0.tar.gz]
+[2023-07-17 10:09:18] INFO root fetch - processPackages [quick-menu]: Remove: archive file [/home/abi/fetcher/tmp/quick_menu-0.6.0.tar.gz]
+[2023-07-17 10:09:18] INFO root fetch - processPackages [quick-menu]: Start processing: stakefish-web3-utils
+[2023-07-17 10:09:18] INFO root fetch - main [MainThread]: End processing [quick-menu]: success
+[2023-07-17 10:09:18] INFO root fetch - processPackages [xdcget]: Remove: archive file [/home/abi/fetcher/tmp/xdcget-0.2.1.tar.gz]
+[2023-07-17 10:09:18] INFO root fetch - processPackages [xdcget]: Remove: archive file [/home/abi/fetcher/tmp/xdcget-0.2.2.tar.gz]
+[2023-07-17 10:09:18] INFO root fetch - processPackages [xdcget]: Start processing: mappings-utility
+[2023-07-17 10:09:18] INFO root fetch - main [MainThread]: End processing [xdcget]: success
+[2023-07-17 10:09:19] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.1.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - processPackages [whop-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/whop-api-wrapper-1.0.2.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - processPackages [whop-api-wrapper]: Start processing: gnd-distributions
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [whop-api-wrapper]: success
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [quick-menu]: success
+[2023-07-17 10:09:19] INFO root fetch - processPackages [mappings-utility]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-17 10:09:19] INFO root fetch - processPackages [stakefish-web3-utils]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [whop-api-wrapper]: success
+[2023-07-17 10:09:19] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.1.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.2.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-07-17 10:09:19] WARNING root fetch - processPackages [gnd-distributions]: Skipping, unable to determine old version
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [gnd-distributions] error
+[2023-07-17 10:09:19] INFO root fetch - processPackages [stakefish-web3-utils]: Downloading https://files.pythonhosted.org/packages/2b/11/c9ddfcf6f7d628dc802fdf490b83edb3924016062fed93aad02e12d97a23/stakefish-web3-utils-0.0.8.tar.gz
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-07-17 10:09:19] INFO root fetch - processPackages [mappings-utility]: Downloading https://files.pythonhosted.org/packages/98/14/30a308755da1d42a80773336178a1d75a73f53153010a315cc2dc9041798/mappings_utility-0.1.6.tar.gz
+[2023-07-17 10:09:19] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.2.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.3.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde2]: success
+[2023-07-17 10:09:19] INFO root fetch - processPackages [mappings-utility]: Downloading https://files.pythonhosted.org/packages/5e/41/c8d6c34fad209c7c1f9603674a08bf18c5ba6bf895a712b96993d198f541/mappings_utility-0.2.0.tar.gz
+[2023-07-17 10:09:19] INFO root fetch - processPackages [stakefish-web3-utils]: Downloading https://files.pythonhosted.org/packages/b4/f0/badcc9ae2c18b30c0c2b8547acc05fb95514a6bb856465a258c86a277e4d/stakefish-web3-utils-0.1.0.tar.gz
+[2023-07-17 10:09:19] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-17 10:09:19] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-17 10:09:19] INFO root fetch - processPackages [mappings-utility]: executing diffoscope
+[2023-07-17 10:09:19] INFO root fetch - processPackages [mappings-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mappings_utility-0.1.6.tar.gz tmp/mappings_utility-0.2.0.tar.gz --markdown 20230717/m/mappings-utility/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 10:09:19] INFO root fetch - processPackages [stakefish-web3-utils]: executing diffoscope
+[2023-07-17 10:09:19] INFO root fetch - processPackages [stakefish-web3-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stakefish-web3-utils-0.0.8.tar.gz tmp/stakefish-web3-utils-0.1.0.tar.gz --markdown 20230717/s/stakefish-web3-utils/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 10:09:20] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230716.tar.gz]
+[2023-07-17 10:09:20] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230717.tar.gz]
+[2023-07-17 10:09:20] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-17 10:09:20] INFO root fetch - processPackages [mappings-utility]: Remove: archive file [/home/abi/fetcher/tmp/mappings_utility-0.1.6.tar.gz]
+[2023-07-17 10:09:20] INFO root fetch - processPackages [mappings-utility]: Remove: archive file [/home/abi/fetcher/tmp/mappings_utility-0.2.0.tar.gz]
+[2023-07-17 10:09:20] INFO root fetch - main [MainThread]: End processing [mappings-utility]: success
+[2023-07-17 10:09:20] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish-web3-utils-0.0.8.tar.gz]
+[2023-07-17 10:09:20] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish-web3-utils-0.1.0.tar.gz]
+[2023-07-17 10:09:20] INFO root fetch - main [MainThread]: End processing [stakefish-web3-utils]: success
+[2023-07-17 10:09:20] INFO root fetch - main [MainThread]: Store serial: [18913789]
