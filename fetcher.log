@@ -7688,3 +7688,87 @@
 [2023-07-17 07:19:01] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-17 07:19:01] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-17 07:19:01] INFO root fetch - main [MainThread]: Store serial: [18912615]
+[2023-07-17 07:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912615]
+[2023-07-17 07:24:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-pgsql
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coba
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fundialogues
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: df-config
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tqsdk
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dlt
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eons
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamsbpy
+[2023-07-17 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: argil
+[2023-07-17 07:24:10] INFO root fetch - processPackages [coba]: New version: [7.0.0] Old Version: [6.5.0]
+[2023-07-17 07:24:10] INFO root fetch - processPackages [eons]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-07-17 07:24:10] WARNING root fetch - processPackages [easy-pgsql]: Skipping, unable to determine old version
+[2023-07-17 07:24:10] INFO root fetch - processPackages [easy-pgsql]: Start processing: fundialogues
+[2023-07-17 07:24:10] INFO root fetch - main [MainThread]: End processing [easy-pgsql] error
+[2023-07-17 07:24:10] ERROR root fetch - processPackages [fundialogues]: Unable to get metadata: No such project 'fundialogues'
+[2023-07-17 07:24:10] INFO root fetch - main [MainThread]: End processing [fundialogues] error
+[2023-07-17 07:24:10] INFO root fetch - processPackages [dlt]: New version: [0.3.4] Old Version: [0.3.3a0]
+[2023-07-17 07:24:10] INFO root fetch - processPackages [argil]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-17 07:24:10] INFO root fetch - processPackages [streamsbpy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 07:24:10] INFO root fetch - processPackages [df-config]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 07:24:10] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-17 07:24:10] INFO root fetch - processPackages [tqsdk]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-07-17 07:24:10] ERROR root fetch - processPackages [fundialogues]: Unable to get metadata: No such project 'fundialogues'
+[2023-07-17 07:24:10] INFO root fetch - main [MainThread]: End processing [fundialogues] error
+[2023-07-17 07:24:10] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/0c/ee/eccc454bb8b994dabd99fe940931d5e47eb6cefd91212ded8ad7540c82ad/argil-0.0.25.tar.gz
+[2023-07-17 07:24:10] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/2f/20/4fe478158e015521d85c65a97d96eb315a74c344fce924b0b69fc80b0d99/streamsbpy-1.0.8.tar.gz
+[2023-07-17 07:24:10] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/c5/ca/efe727a0804d4b3fbf9e4703aef7528147243548e02b0b8c29a52e31ab2c/coba-6.5.0.tar.gz
+[2023-07-17 07:24:10] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/0d/e9/eb59b69998b4122038292257505fab13880844e34ac370651302d8dabc0d/eons-2.7.0.tar.gz
+[2023-07-17 07:24:10] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/c2/5b/4d883d5c64dc6b0aef223b761b7cf131b0773ba71ea334b4c9be57a7da6a/dlt-0.3.3a0.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [df-config]: Downloading https://files.pythonhosted.org/packages/09/91/df36954d7f97ae19a46241196d5ae26563010e569c1db34ee364330db382/df_config-1.1.8.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/7f/11/ff5523ae10e933d92c98e5bfa8e295ed67404dee2c4fbd938abf77b04258/tqsdk-3.4.4.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/d5/ef/caf81c7b6fba98968ed7b88dab7c6ace87159817a2e24e1b7b5ab16738a3/argil-0.0.26.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/e8/8c/c2f4fa475359beeedde5ed0703f25110f235a6f0c357a586b3ccb41dac93/streamsbpy-1.0.9.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/dd/7a/aa2dcd3c2bda3b3e0c4829ae1c82cfdc4e2e82b240d17c68b82a0d21024f/eons-2.7.1.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/1c/4c/9b38deeb5a2de08d3c5c781e778189231fc08629ece21127ac92ecb8d4df/coba-7.0.0.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/7a/62/82e6f87c5c2bad3e3102465a69669a095acaf1cd62fd00deca90582af3c1/dlt-0.3.4.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 07:24:11] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.25.tar.gz tmp/argil-0.0.26.tar.gz --markdown 20230717/a/argil/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-17 07:24:11] INFO root fetch - processPackages [streamsbpy]: executing diffoscope
+[2023-07-17 07:24:11] INFO root fetch - processPackages [streamsbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamsbpy-1.0.8.tar.gz tmp/streamsbpy-1.0.9.tar.gz --markdown 20230717/s/streamsbpy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 07:24:11] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-07-17 07:24:11] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.7.0.tar.gz tmp/eons-2.7.1.tar.gz --markdown 20230717/e/eons/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-07-17 07:24:11] INFO root fetch - processPackages [coba]: executing diffoscope
+[2023-07-17 07:24:11] INFO root fetch - processPackages [coba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coba-6.5.0.tar.gz tmp/coba-7.0.0.tar.gz --markdown 20230717/c/coba/6.5.0-7.0.0/diff.md --exclude *.pyd
+[2023-07-17 07:24:11] INFO root fetch - processPackages [df-config]: Downloading https://files.pythonhosted.org/packages/b4/ad/2b2b0a0d45e34bce362659c39c446e5470998570dbb424c47f25b2f25f3e/df_config-1.1.9.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/45/36/e76a499992f6ae4675b35514fe999b28c5a3cffec7d56dfc0b6bf32805f3/tqsdk-3.4.5.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-07-17 07:24:11] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.3a0.tar.gz tmp/dlt-0.3.4.tar.gz --markdown 20230717/d/dlt/0.3.3a0-0.3.4/diff.md --exclude *.pyd
+[2023-07-17 07:24:11] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-17 07:24:11] INFO root fetch - processPackages [df-config]: executing diffoscope
+[2023-07-17 07:24:11] INFO root fetch - processPackages [df-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_config-1.1.8.tar.gz tmp/df_config-1.1.9.tar.gz --markdown 20230717/d/df-config/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 07:24:12] INFO root fetch - processPackages [tqsdk]: executing diffoscope
+[2023-07-17 07:24:12] INFO root fetch - processPackages [tqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqsdk-3.4.4.tar.gz tmp/tqsdk-3.4.5.tar.gz --markdown 20230717/t/tqsdk/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-07-17 07:24:12] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-17 07:24:12] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230717/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-17 07:24:12] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.25.tar.gz]
+[2023-07-17 07:24:12] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.26.tar.gz]
+[2023-07-17 07:24:12] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 07:24:12] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.8.tar.gz]
+[2023-07-17 07:24:12] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.9.tar.gz]
+[2023-07-17 07:24:12] INFO root fetch - main [MainThread]: End processing [streamsbpy]: success
+[2023-07-17 07:24:12] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.7.0.tar.gz]
+[2023-07-17 07:24:12] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.7.1.tar.gz]
+[2023-07-17 07:24:12] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-07-17 07:24:13] INFO root fetch - processPackages [df-config]: Remove: archive file [/home/abi/fetcher/tmp/df_config-1.1.8.tar.gz]
+[2023-07-17 07:24:13] INFO root fetch - processPackages [df-config]: Remove: archive file [/home/abi/fetcher/tmp/df_config-1.1.9.tar.gz]
+[2023-07-17 07:24:13] INFO root fetch - main [MainThread]: End processing [df-config]: success
+[2023-07-17 07:24:13] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-6.5.0.tar.gz]
+[2023-07-17 07:24:13] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-7.0.0.tar.gz]
+[2023-07-17 07:24:13] INFO root fetch - main [MainThread]: End processing [coba]: success
+[2023-07-17 07:24:13] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.3a0.tar.gz]
+[2023-07-17 07:24:13] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.4.tar.gz]
+[2023-07-17 07:24:13] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-07-17 07:24:14] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.4.4.tar.gz]
+[2023-07-17 07:24:14] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.4.5.tar.gz]
+[2023-07-17 07:24:14] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
+[2023-07-17 07:24:15] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-17 07:24:15] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-17 07:24:15] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-17 07:24:15] INFO root fetch - main [MainThread]: Store serial: [18912657]
