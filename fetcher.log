@@ -7248,3 +7248,51 @@
 [2023-07-17 06:42:27] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.9.tar.gz]
 [2023-07-17 06:42:27] INFO root fetch - main [MainThread]: End processing [power1d]: success
 [2023-07-17 06:42:27] INFO root fetch - main [MainThread]: Store serial: [18912412]
+[2023-07-17 06:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912412]
+[2023-07-17 06:47:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 06:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: score-models
+[2023-07-17 06:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez-a-sync
+[2023-07-17 06:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamsbpy
+[2023-07-17 06:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FinanceTrackerCLI
+[2023-07-17 06:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pegasusX
+[2023-07-17 06:47:35] INFO root fetch - processPackages [streamsbpy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 06:47:35] INFO root fetch - processPackages [pegasusX]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-17 06:47:35] INFO root fetch - processPackages [FinanceTrackerCLI]: New version: [1.3.0.9] Old Version: [1.3.0.8]
+[2023-07-17 06:47:35] INFO root fetch - processPackages [score-models]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-07-17 06:47:35] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.3.dev2] Old Version: [0.6.3.dev1]
+[2023-07-17 06:47:36] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/b7/f1/0595c34363e69b58cbbb2491b0c5e9efaa2e35831068ba5b5a8ad8931d70/FinanceTrackerCLI-1.3.0.8.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/70/6b/b57f6476466b28cf3123851bbe3dda0adafa7e6e38545a738f2d11e75b53/pegasusX-0.1.7.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/33/08/b45b1d675c1557025a604790d4f6e1fd58e6caeb457cfcf15402329de3d3/ez-a-sync-0.6.3.dev1.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/f9/10/a1374a8d5a5dafa732b39ff778e3099f50a6d0203094abf19814197bc094/streamsbpy-1.0.5.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/1e/8d/98fd6fce94690a3f2bbfff85ac92b6bde5843b4e77be5b1096220a238d1b/score_models-0.4.0.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/37/5c/55b9b45fffb108a03558125a7a9ae3574958082b6766dafa815defa5414a/FinanceTrackerCLI-1.3.0.9.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/c3/66/97eeccb606624cb7ad597693d9c934892d773b3f54702bae1767dae4cb05/pegasusX-0.2.0.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/f1/b8/3e1d40f62b42d5bc642126dc7f8d43e91f2783418c23cbc7a84b828071a3/ez-a-sync-0.6.3.dev2.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [FinanceTrackerCLI]: executing diffoscope
+[2023-07-17 06:47:36] INFO root fetch - processPackages [FinanceTrackerCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinanceTrackerCLI-1.3.0.8.tar.gz tmp/FinanceTrackerCLI-1.3.0.9.tar.gz --markdown 20230717/F/FinanceTrackerCLI/1.3.0.8-1.3.0.9/diff.md --exclude *.pyd
+[2023-07-17 06:47:36] INFO root fetch - processPackages [streamsbpy]: Downloading https://files.pythonhosted.org/packages/53/93/d4a78ae012145415e8cefab03cf8d04b286592a6f88dac0c4b8495e11b31/streamsbpy-1.0.6.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-17 06:47:36] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.3.dev1.tar.gz tmp/ez-a-sync-0.6.3.dev2.tar.gz --markdown 20230717/e/ez-a-sync/0.6.3.dev1-0.6.3.dev2/diff.md --exclude *.pyd
+[2023-07-17 06:47:36] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/4f/93/ac786dea6c94cc20d5786ee829ac18811d2e7bd63accef8f6841aab9e591/score_models-0.4.2.tar.gz
+[2023-07-17 06:47:36] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 06:47:36] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.1.7.tar.gz tmp/pegasusX-0.2.0.tar.gz --markdown 20230717/p/pegasusX/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 06:47:36] INFO root fetch - processPackages [streamsbpy]: executing diffoscope
+[2023-07-17 06:47:36] INFO root fetch - processPackages [streamsbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamsbpy-1.0.5.tar.gz tmp/streamsbpy-1.0.6.tar.gz --markdown 20230717/s/streamsbpy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 06:47:36] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-07-17 06:47:36] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.0.tar.gz tmp/score_models-0.4.2.tar.gz --markdown 20230717/s/score-models/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-07-17 06:47:37] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.8.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.9.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - main [MainThread]: End processing [FinanceTrackerCLI]: success
+[2023-07-17 06:47:37] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.5.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - processPackages [streamsbpy]: Remove: archive file [/home/abi/fetcher/tmp/streamsbpy-1.0.6.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - main [MainThread]: End processing [streamsbpy]: success
+[2023-07-17 06:47:37] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.3.dev1.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.3.dev2.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-17 06:47:37] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.1.7.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.0.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 06:47:37] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.0.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.2.tar.gz]
+[2023-07-17 06:47:37] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-07-17 06:47:37] INFO root fetch - main [MainThread]: Store serial: [18912427]
