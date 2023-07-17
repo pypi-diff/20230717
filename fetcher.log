@@ -5838,3 +5838,54 @@
 [2023-07-17 04:46:05] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud_iac_pulumi-0.1.4.tar.gz]
 [2023-07-17 04:46:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-iac-pulumi]: success
 [2023-07-17 04:46:05] INFO root fetch - main [MainThread]: Store serial: [18911856]
+[2023-07-17 04:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911856]
+[2023-07-17 04:51:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 04:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-07-17 04:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iotboard
+[2023-07-17 04:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: distcrab
+[2023-07-17 04:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyGraphica
+[2023-07-17 04:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-file-dev
+[2023-07-17 04:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naif-eop-high-prec
+[2023-07-17 04:51:15] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 04:51:15] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 04:51:15] INFO root fetch - processPackages [PyGraphica]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 04:51:15] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 04:51:15] WARNING root fetch - processPackages [iotboard]: Skipping, unable to determine old version
+[2023-07-17 04:51:15] INFO root fetch - main [MainThread]: End processing [iotboard] error
+[2023-07-17 04:51:15] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.94] Old Version: [2.8.93]
+[2023-07-17 04:51:15] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-17 04:51:15] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/55/e0/e7f822c31ca9e85d7c6586c806f96f5db9c5db79db97cc5d5f31990876fc/PyGraphica-0.1.0.tar.gz
+[2023-07-17 04:51:15] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-17 04:51:15] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-07-17 04:51:15] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/e3/6a/d222e84800cad5127b69a7c4e400991d13df50818699e04e11bd2c2a9662/cdk8s-plus-25-2.8.93.tar.gz
+[2023-07-17 04:51:15] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-17 04:51:15] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-17 04:51:15] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230717/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:51:15] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-17 04:51:16] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/a7/1a/283d9bac32124d2959d67474471c274fdcb0ffc7c5d535fa9f4ccb86d24a/PyGraphica-0.1.1.tar.gz
+[2023-07-17 04:51:16] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-07-17 04:51:16] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/0b/d0/95eedfbaca18104db8722c0ce43b58b3a460db845ff40e7506bdeb2d2623/cdk8s-plus-25-2.8.94.tar.gz
+[2023-07-17 04:51:16] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-07-17 04:51:16] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230717/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:51:16] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-17 04:51:16] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230717/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-17 04:51:16] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-17 04:51:16] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.93.tar.gz tmp/cdk8s-plus-25-2.8.94.tar.gz --markdown 20230717/c/cdk8s-plus-25/2.8.93-2.8.94/diff.md --exclude *.pyd
+[2023-07-17 04:51:16] INFO root fetch - processPackages [PyGraphica]: executing diffoscope
+[2023-07-17 04:51:16] INFO root fetch - processPackages [PyGraphica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGraphica-0.1.0.tar.gz tmp/PyGraphica-0.1.1.tar.gz --markdown 20230717/P/PyGraphica/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 04:51:16] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-17 04:51:16] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-17 04:51:16] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-17 04:51:17] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-07-17 04:51:17] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-07-17 04:51:17] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-07-17 04:51:17] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.93.tar.gz]
+[2023-07-17 04:51:17] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.94.tar.gz]
+[2023-07-17 04:51:17] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-17 04:51:17] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.1.0.tar.gz]
+[2023-07-17 04:51:17] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.1.1.tar.gz]
+[2023-07-17 04:51:17] INFO root fetch - main [MainThread]: End processing [PyGraphica]: success
+[2023-07-17 04:51:18] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-17 04:51:18] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-17 04:51:18] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-17 04:51:18] INFO root fetch - main [MainThread]: Store serial: [18911874]
