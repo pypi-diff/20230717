@@ -10662,3 +10662,149 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:14:34] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.8.tar.gz]
 [2023-07-17 10:14:34] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
 [2023-07-17 10:14:34] INFO root fetch - main [MainThread]: Store serial: [18913830]
+[2023-07-17 10:19:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913830]
+[2023-07-17 10:19:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvosscript
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlflow
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Alpha-Rabbit
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fp23dpy
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-contact
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rest-framework-simplejwt-byforde2
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3seed
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlflow-skinny
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ckanext-gallery
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ckanext-contact]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [ckanext-gallery]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [mlflow]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [mlflow-skinny]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [fp23dpy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [nvosscript]: New version: [1.3.7.5] Old Version: [1.3.7.4]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [py3seed]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 10:19:43] INFO root fetch - processPackages [mlflow]: Downloading https://files.pythonhosted.org/packages/19/78/3d12f8bf5aed17ddc5e6972cba6c88e1e9a93af13cc6ffc8b3422d2d71ed/mlflow-2.4.2.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [ckanext-contact]: Downloading https://files.pythonhosted.org/packages/74/cd/59d74cc5626d7aeb277d836316f050bdccb819794bcb496076cc73f8aa20/ckanext-contact-2.3.0.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/0b/6e/e2fc0214c9d6a7c53afde40502cdbafda192a0978fc61e4aa29c752eaf6a/Alpha_Rabbit-1.4.8.tar.gz
+[2023-07-17 10:19:44] WARNING root fetch - processPackages [mlflow]: Skipping package: exceeds size limit 17732665>=10485760
+[2023-07-17 10:19:44] INFO root fetch - processPackages [mlflow]: Start processing: rayen
+[2023-07-17 10:19:44] INFO root fetch - main [MainThread]: End processing [mlflow] error
+[2023-07-17 10:19:44] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/22/09/891521b8266823dd79d1b347f5ab7a7361946271b11d2ab1d78699692497/rest_framework_simplejwt_byforde2-0.1.3.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [ckanext-gallery]: Downloading https://files.pythonhosted.org/packages/06/cd/569f738b14a316c5b60f639a5b951a9b1c9bc0b6ca76c963905d0ee04d8a/ckanext-gallery-2.2.8.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/a2/4b/519ee80833a5a3b83635f1dd01f2fcda12c52d30203442b96563c191463e/mlflow-skinny-2.4.2.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [fp23dpy]: Downloading https://files.pythonhosted.org/packages/d8/d6/bacabc70b9ec906b82c77f0ac681719d4e351e6122c6b4f6db5b1e49eada/fp23dpy-0.3.8.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-17 10:19:44] WARNING root fetch - processPackages [rayen]: Skipping, unable to determine old version
+[2023-07-17 10:19:44] INFO root fetch - processPackages [rayen]: Start processing: th2-grpc-lw-data-provider
+[2023-07-17 10:19:44] INFO root fetch - main [MainThread]: End processing [rayen] error
+[2023-07-17 10:19:44] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/ad/ad/28be712593f50b0731b73e2675b162e8321d9739ce0cfd0975396cff6e9c/nvosscript-1.3.7.4.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/3e/6f/c6e952b3c7dcf19ef2d4b2a4b77c15034339b0d6e830dcef1b3cea787580/py3seed-0.1.2.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5573315786]
+[2023-07-17 10:19:44] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Downloading https://files.pythonhosted.org/packages/c0/85/03df260a51f0d0270e60ccf55633f772feaf5007a571b7d15ab3c8a21333/rest_framework_simplejwt_byforde2-0.1.4.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/c3/e2/386010caf6aecd54924b20c6b916229809a046a0e6e8564ee6d60d736b5f/th2_grpc_lw_data_provider-2.0.0.dev5573315786.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [ckanext-contact]: Downloading https://files.pythonhosted.org/packages/9a/7b/7105ac81f0b3ece6f1bd2d0cff776eebcd76d8b224bb3c8707cbaf61fea8/ckanext-contact-2.3.1.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/1a/57/1d7aa8328400899ccdbc2e3725b24789b28ff0b7e740fdc2a2a625af56d0/Alpha_Rabbit-1.4.9.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [ckanext-gallery]: Downloading https://files.pythonhosted.org/packages/cc/4f/b74ce908a7abb8ca886c9a3738d0f1fbaae2ceb5be93461d2b68f77de9b6/ckanext-gallery-2.2.9.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: executing diffoscope
+[2023-07-17 10:19:44] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_simplejwt_byforde2-0.1.3.tar.gz tmp/rest_framework_simplejwt_byforde2-0.1.4.tar.gz --markdown 20230717/r/rest-framework-simplejwt-byforde2/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-17 10:19:44] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/43/27/9a4dd86115b114f13d386be07f55c0d1a37de53ef6cd43ba8e43f55f680f/nvosscript-1.3.7.5.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-17 10:19:44] INFO root fetch - processPackages [fp23dpy]: Downloading https://files.pythonhosted.org/packages/cb/30/3a4583d9e636410e31624a47fe6d61b094feb130298d0f33892dd8d9b920/fp23dpy-0.3.9.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/d7/3e/3b9aa4c5675dd5a7c3fa357b2cd71fc0a04e7db3cb44931736ebf0968c2d/py3seed-0.1.3.tar.gz
+[2023-07-17 10:19:44] INFO root fetch - processPackages [ckanext-contact]: executing diffoscope
+[2023-07-17 10:19:44] INFO root fetch - processPackages [ckanext-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-contact-2.3.0.tar.gz tmp/ckanext-contact-2.3.1.tar.gz --markdown 20230717/c/ckanext-contact/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-17 10:19:44] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-17 10:19:44] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.8.tar.gz tmp/Alpha_Rabbit-1.4.9.tar.gz --markdown 20230717/A/Alpha-Rabbit/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.7.4.tar.gz tmp/nvosscript-1.3.7.5.tar.gz --markdown 20230717/n/nvosscript/1.3.7.4-1.3.7.5/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [ckanext-gallery]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [ckanext-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-gallery-2.2.8.tar.gz tmp/ckanext-gallery-2.2.9.tar.gz --markdown 20230717/c/ckanext-gallery/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.1.2.tar.gz tmp/py3seed-0.1.3.tar.gz --markdown 20230717/p/py3seed/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230717/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-17 10:19:45] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/38/f2/e3f17a7e46015320d49b0dbe0d3749c3f295f88a34e5920b3408d3fe41c8/mlflow-skinny-2.5.0.tar.gz
+[2023-07-17 10:19:45] INFO root fetch - processPackages [fp23dpy]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [fp23dpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fp23dpy-0.3.8.tar.gz tmp/fp23dpy-0.3.9.tar.gz --markdown 20230717/f/fp23dpy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5573315786.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230717/t/th2-grpc-lw-data-provider/2.0.0.dev5573315786-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-17 10:19:45] INFO root fetch - processPackages [mlflow-skinny]: executing diffoscope
+[2023-07-17 10:19:45] INFO root fetch - processPackages [mlflow-skinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-skinny-2.4.2.tar.gz tmp/mlflow-skinny-2.5.0.tar.gz --markdown 20230717/m/mlflow-skinny/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-07-17 10:19:46] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.3.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Remove: archive file [/home/abi/fetcher/tmp/rest_framework_simplejwt_byforde2-0.1.4.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [rest-framework-simplejwt-byforde2]: Start processing: ckanext-gbif
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde2]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-gbif]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-contact]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-contact-2.3.0.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-contact]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-contact-2.3.1.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-contact]: Start processing: ckanext-doi
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [ckanext-contact]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-gbif]: Downloading https://files.pythonhosted.org/packages/7b/25/8caea5f2dabee0b174d77f2b8533a1f7fb486386a4b4033dc4c41474a62f/ckanext-gbif-2.1.7.tar.gz
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-doi]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.8.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.9.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: xdcget
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-doi]: Downloading https://files.pythonhosted.org/packages/4b/f2/d6429db50f3ed97f0c33412ff9267564222abc4b6780f96cbe186fa233a1/ckanext-doi-3.1.7.tar.gz
+[2023-07-17 10:19:46] INFO root fetch - processPackages [xdcget]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.4.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.5.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [nvosscript]: Start processing: sphractal
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.2.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.3.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [py3seed]: Start processing: ckanext-list
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [fp23dpy]: Remove: archive file [/home/abi/fetcher/tmp/fp23dpy-0.3.8.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [fp23dpy]: Remove: archive file [/home/abi/fetcher/tmp/fp23dpy-0.3.9.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [fp23dpy]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5573315786.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-17 10:19:46] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-17 10:19:46] INFO root fetch - processPackages [ckanext-gbif]: Downloading https://files.pythonhosted.org/packages/69/67/c79c3f4787e5797906c687c3791ce1a14eb27996a2ac41c1a74eb4991394/ckanext-gbif-2.1.8.tar.gz
+[2023-07-17 10:19:46] INFO root fetch - processPackages [xdcget]: Downloading https://files.pythonhosted.org/packages/31/6c/9a1ca8698c749874937504ee4c4f3b11cbc36466fc0d3b6dc753e2b77a73/xdcget-0.2.2.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-list]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-gallery]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-gallery-2.2.8.tar.gz]
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-gallery]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-gallery-2.2.9.tar.gz]
+[2023-07-17 10:19:47] INFO root fetch - main [MainThread]: End processing [ckanext-gallery]: success
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-gbif]: executing diffoscope
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-gbif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-gbif-2.1.7.tar.gz tmp/ckanext-gbif-2.1.8.tar.gz --markdown 20230717/c/ckanext-gbif/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-doi]: Downloading https://files.pythonhosted.org/packages/c1/b2/02547a45564f3223ebb8254e955bbb808941540beaf2a8eff90569c48ce4/ckanext-doi-3.1.8.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [xdcget]: Downloading https://files.pythonhosted.org/packages/cd/a2/6946bd67deb8cfb80c1aa6d45b5f43c5a2add25042fa4f3af07caa211710/xdcget-0.2.3.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-list]: Downloading https://files.pythonhosted.org/packages/b4/07/23f43681d8c587c69a33500dc5527bdde3824d232775043d908c85679b62/ckanext-list-2.1.7.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-doi]: executing diffoscope
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-doi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-doi-3.1.7.tar.gz tmp/ckanext-doi-3.1.8.tar.gz --markdown 20230717/c/ckanext-doi/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-07-17 10:19:47] INFO root fetch - processPackages [xdcget]: executing diffoscope
+[2023-07-17 10:19:47] INFO root fetch - processPackages [xdcget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdcget-0.2.2.tar.gz tmp/xdcget-0.2.3.tar.gz --markdown 20230717/x/xdcget/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-17 10:19:47] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-17 10:19:47] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230717/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-list]: Downloading https://files.pythonhosted.org/packages/5f/a1/67294445a0ef6c1f403ed801c161229d7bf585bbca40e12a6c7bd3569d0a/ckanext-list-2.1.8.tar.gz
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-list]: executing diffoscope
+[2023-07-17 10:19:47] INFO root fetch - processPackages [ckanext-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-list-2.1.7.tar.gz tmp/ckanext-list-2.1.8.tar.gz --markdown 20230717/c/ckanext-list/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-17 10:19:48] INFO root fetch - processPackages [ckanext-gbif]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-gbif-2.1.7.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - processPackages [ckanext-gbif]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-gbif-2.1.8.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - main [MainThread]: End processing [ckanext-gbif]: success
+[2023-07-17 10:19:48] INFO root fetch - processPackages [ckanext-doi]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-doi-3.1.7.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - processPackages [ckanext-doi]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-doi-3.1.8.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - main [MainThread]: End processing [ckanext-doi]: success
+[2023-07-17 10:19:48] INFO root fetch - processPackages [xdcget]: Remove: archive file [/home/abi/fetcher/tmp/xdcget-0.2.2.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - processPackages [xdcget]: Remove: archive file [/home/abi/fetcher/tmp/xdcget-0.2.3.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - main [MainThread]: End processing [xdcget]: success
+[2023-07-17 10:19:48] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-17 10:19:48] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-17 10:19:49] INFO root fetch - processPackages [ckanext-list]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-list-2.1.7.tar.gz]
+[2023-07-17 10:19:49] INFO root fetch - processPackages [ckanext-list]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-list-2.1.8.tar.gz]
+[2023-07-17 10:19:49] INFO root fetch - main [MainThread]: End processing [ckanext-list]: success
+[2023-07-17 10:19:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-17 10:19:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-17 10:19:49] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-17 10:19:56] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.4.2.tar.gz]
+[2023-07-17 10:19:56] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.5.0.tar.gz]
+[2023-07-17 10:19:56] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
+[2023-07-17 10:19:56] INFO root fetch - main [MainThread]: Store serial: [18913888]
