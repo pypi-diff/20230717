@@ -11886,3 +11886,60 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:51:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-17 10:51:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-17 10:51:46] INFO root fetch - main [MainThread]: Store serial: [18914340]
+[2023-07-17 10:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914340]
+[2023-07-17 10:56:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LjxMathTest
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-swag
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-schedulerx220190430-py2
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-schedulerx220190430
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-table
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlbuilder
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phanos
+[2023-07-17 10:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CartiMorph-nnUNet
+[2023-07-17 10:56:56] WARNING root fetch - processPackages [mysqlbuilder]: Skipping, unable to determine old version
+[2023-07-17 10:56:56] WARNING root fetch - processPackages [simple-swag]: Skipping, unable to determine old version
+[2023-07-17 10:56:56] INFO root fetch - main [MainThread]: End processing [mysqlbuilder] error
+[2023-07-17 10:56:56] INFO root fetch - main [MainThread]: End processing [simple-swag] error
+[2023-07-17 10:56:56] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 10:56:56] WARNING root fetch - processPackages [LjxMathTest]: Skipping, unable to determine old version
+[2023-07-17 10:56:56] INFO root fetch - main [MainThread]: End processing [LjxMathTest] error
+[2023-07-17 10:56:56] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 10:56:56] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 10:56:56] INFO root fetch - processPackages [rapid-table]: New version: [3.6] Old Version: [0.1.0]
+[2023-07-17 10:56:56] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-07-17 10:56:56] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Downloading https://files.pythonhosted.org/packages/32/60/350585393a803cd68fddd287b1285df3989a26e8091d389ec97c9f63ccf8/alibabacloud_schedulerx220190430-1.1.8.tar.gz
+[2023-07-17 10:56:56] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Downloading https://files.pythonhosted.org/packages/a2/90/5d7f5e4814f903f51db48f1e60f8630c06694c9476949f2f913c3bb767d2/alibabacloud_schedulerx220190430_py2-1.1.8.tar.gz
+[2023-07-17 10:56:56] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-17 10:56:56] INFO root fetch - processPackages [rapid-table]: Downloading https://files.pythonhosted.org/packages/40/68/d2e8be2b8f506a6df0f66d9c863b53fdf72411ae08d7b07e1bf5c0233295/rapid_table-0.1.0-py3-none-any.whl
+[2023-07-17 10:56:57] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/d4/cf/354567903a28b80ee5e0d0e4ee57a7ed2ef81cdcc02c44a7df573c9e5f52/CartiMorph_nnUNet-1.7.6.tar.gz
+[2023-07-17 10:56:57] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Downloading https://files.pythonhosted.org/packages/2b/e7/a2c25333e9d7eb58c4b84ce13554a4be642c7d3f262f90ae4603f896a472/alibabacloud_schedulerx220190430-1.1.9.tar.gz
+[2023-07-17 10:56:57] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-17 10:56:57] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Downloading https://files.pythonhosted.org/packages/2e/5d/7333ff90b38474e89651788af3d17675d492bca1e65ef000372cd3ad5946/alibabacloud_schedulerx220190430_py2-1.1.9.tar.gz
+[2023-07-17 10:56:57] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-17 10:56:57] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230717/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:56:57] INFO root fetch - processPackages [rapid-table]: Downloading https://files.pythonhosted.org/packages/2e/ee/9f9acee096fcfbcfcf0c5a2a4408856fef0b78979d6f62a2721c1e476ba5/rapid_table-3.6-py3-none-any.whl
+[2023-07-17 10:56:57] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: executing diffoscope
+[2023-07-17 10:56:57] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_schedulerx220190430-1.1.8.tar.gz tmp/alibabacloud_schedulerx220190430-1.1.9.tar.gz --markdown 20230717/a/alibabacloud-schedulerx220190430/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:56:57] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/b5/bd/4b2d04e44012e855f4374a8e38e4f6a0235bb179ae787303d4ac2969c33d/CartiMorph_nnUNet-1.7.7.tar.gz
+[2023-07-17 10:56:57] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: executing diffoscope
+[2023-07-17 10:56:57] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_schedulerx220190430_py2-1.1.8.tar.gz tmp/alibabacloud_schedulerx220190430_py2-1.1.9.tar.gz --markdown 20230717/a/alibabacloud-schedulerx220190430-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:56:57] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-07-17 10:56:57] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUNet-1.7.6.tar.gz tmp/CartiMorph_nnUNet-1.7.7.tar.gz --markdown 20230717/C/CartiMorph-nnUNet/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-07-17 10:56:58] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-17 10:56:58] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430-1.1.8.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430-1.1.9.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-schedulerx220190430]: success
+[2023-07-17 10:56:58] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430_py2-1.1.8.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - processPackages [alibabacloud-schedulerx220190430-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430_py2-1.1.9.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-schedulerx220190430-py2]: success
+[2023-07-17 10:56:58] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.6.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.7.tar.gz]
+[2023-07-17 10:56:58] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-07-17 10:56:59] INFO root fetch - processPackages [rapid-table]: executing diffoscope
+[2023-07-17 10:56:59] INFO root fetch - processPackages [rapid-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_table-0.1.0-py3-none-any.whl.zip tmp/rapid_table-3.6-py3-none-any.whl.zip --markdown 20230717/r/rapid-table/0.1.0-3.6/diff.md --exclude *.pyd
+[2023-07-17 10:56:59] INFO root fetch - processPackages [rapid-table]: Remove: archive file [/home/abi/fetcher/tmp/rapid_table-0.1.0-py3-none-any.whl.zip]
+[2023-07-17 10:56:59] INFO root fetch - processPackages [rapid-table]: Remove: archive file [/home/abi/fetcher/tmp/rapid_table-3.6-py3-none-any.whl.zip]
+[2023-07-17 10:56:59] INFO root fetch - main [MainThread]: End processing [rapid-table]: success
+[2023-07-17 10:56:59] INFO root fetch - main [MainThread]: Store serial: [18914372]
