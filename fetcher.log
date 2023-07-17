@@ -6846,3 +6846,75 @@
 [2023-07-17 05:55:36] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-1.3.884.post7.tar.gz]
 [2023-07-17 05:55:36] INFO root fetch - main [MainThread]: End processing [pycollimator]: success
 [2023-07-17 05:55:36] INFO root fetch - main [MainThread]: Store serial: [18912243]
+[2023-07-17 06:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912243]
+[2023-07-17 06:00:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-organizations
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notionaut
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clfutils4r
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-mail-thunder-dev
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bose
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evals-nightly
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oyehr-tools-package
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sounderpy
+[2023-07-17 06:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-starter
+[2023-07-17 06:00:45] INFO root fetch - processPackages [notionaut]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-17 06:00:45] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 06:00:45] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230715] Old Version: [1.0.3.dev20230714]
+[2023-07-17 06:00:45] WARNING root fetch - processPackages [clfutils4r]: Skipping, unable to determine old version
+[2023-07-17 06:00:45] INFO root fetch - processPackages [oyehr-tools-package]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 06:00:45] INFO root fetch - processPackages [bose]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-17 06:00:45] INFO root fetch - main [MainThread]: End processing [clfutils4r] error
+[2023-07-17 06:00:45] INFO root fetch - processPackages [heaserver-organizations]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 06:00:45] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 06:00:45] WARNING root fetch - processPackages [sounderpy]: Skipping, unable to determine old version
+[2023-07-17 06:00:45] INFO root fetch - main [MainThread]: End processing [sounderpy] error
+[2023-07-17 06:00:45] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/3c/41/2d8f3397b066de7a7b3c25f3b20c162e89286dad104a5599912df1d825bb/evals-nightly-1.0.3.dev20230714.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [oyehr-tools-package]: Downloading https://files.pythonhosted.org/packages/9a/fa/8608ad311209e43d41301b4a9875b0b54f1408a24b3f4bc72adecbb2c1ca/oyehr-tools-package-0.0.2.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/d3/78/d764a9885b78c95e0f85181729c496d6ec4d7ab9869390b7828b87afa3df/bose-2.0.7.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [notionaut]: Downloading https://files.pythonhosted.org/packages/82/7f/27753fb24268cc579c5306399188e6ef9bbd65970d0fcd16c93d7e08d591/notionaut-0.1.1.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/af/40/a34910cbc227ce1d8e9d9c0e4c1b2ff19b2bf94be7a8e6cacdc8ddbf074e/heaserver-organizations-1.0.0a8.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-17 06:00:45] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230717/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 06:00:45] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/e0/15/f0276a12b68970c761017d1338e4189b163ae25c362505aec828b53f34a9/evals-nightly-1.0.3.dev20230715.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [oyehr-tools-package]: Downloading https://files.pythonhosted.org/packages/07/c1/ecb73107a0ef43ae91e4fc939a4d4c81ceec38faf209b58ce14d87bd8609/oyehr-tools-package-0.0.3.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/fb/a2/8b256687327fb4807c2c68295224ca84bca13feb5b12e00d6e71d929253e/bose-2.0.8.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-07-17 06:00:45] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230717/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 06:00:45] INFO root fetch - processPackages [oyehr-tools-package]: executing diffoscope
+[2023-07-17 06:00:45] INFO root fetch - processPackages [oyehr-tools-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oyehr-tools-package-0.0.2.tar.gz tmp/oyehr-tools-package-0.0.3.tar.gz --markdown 20230717/o/oyehr-tools-package/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 06:00:45] INFO root fetch - processPackages [notionaut]: Downloading https://files.pythonhosted.org/packages/45/bc/14a17fb4d4e48dfa6270b43116482078eea53e47f0fb9309fa5eb1e5fc3c/notionaut-0.2.0.tar.gz
+[2023-07-17 06:00:45] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-07-17 06:00:45] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-2.0.7.tar.gz tmp/bose-2.0.8.tar.gz --markdown 20230717/b/bose/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-17 06:00:45] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-17 06:00:45] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230714.tar.gz tmp/evals-nightly-1.0.3.dev20230715.tar.gz --markdown 20230717/e/evals-nightly/1.0.3.dev20230714-1.0.3.dev20230715/diff.md --exclude *.pyd
+[2023-07-17 06:00:46] INFO root fetch - processPackages [notionaut]: executing diffoscope
+[2023-07-17 06:00:46] INFO root fetch - processPackages [notionaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notionaut-0.1.1.tar.gz tmp/notionaut-0.2.0.tar.gz --markdown 20230717/n/notionaut/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 06:00:46] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/4e/ea/6b7b1bfa9d09b9d43c9efbbcba7e9414a1db5f2e17037e7cb061370995e1/heaserver-organizations-1.0.0a9.tar.gz
+[2023-07-17 06:00:46] INFO root fetch - processPackages [heaserver-organizations]: executing diffoscope
+[2023-07-17 06:00:46] INFO root fetch - processPackages [heaserver-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-organizations-1.0.0a8.tar.gz tmp/heaserver-organizations-1.0.0a9.tar.gz --markdown 20230717/h/heaserver-organizations/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-17 06:00:47] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-07-17 06:00:47] INFO root fetch - processPackages [oyehr-tools-package]: Remove: archive file [/home/abi/fetcher/tmp/oyehr-tools-package-0.0.2.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - processPackages [oyehr-tools-package]: Remove: archive file [/home/abi/fetcher/tmp/oyehr-tools-package-0.0.3.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - main [MainThread]: End processing [oyehr-tools-package]: success
+[2023-07-17 06:00:47] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.7.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.8.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-07-17 06:00:47] INFO root fetch - processPackages [notionaut]: Remove: archive file [/home/abi/fetcher/tmp/notionaut-0.1.1.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - processPackages [notionaut]: Remove: archive file [/home/abi/fetcher/tmp/notionaut-0.2.0.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - main [MainThread]: End processing [notionaut]: success
+[2023-07-17 06:00:47] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-organizations-1.0.0a8.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-organizations-1.0.0a9.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - main [MainThread]: End processing [heaserver-organizations]: success
+[2023-07-17 06:00:47] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-17 06:00:47] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-17 06:00:48] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230714.tar.gz]
+[2023-07-17 06:00:48] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230715.tar.gz]
+[2023-07-17 06:00:48] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-17 06:00:48] INFO root fetch - main [MainThread]: Store serial: [18912272]
