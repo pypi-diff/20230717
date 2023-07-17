@@ -19877,3 +19877,150 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:52:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230717131509-py3-none-any.whl.zip]
 [2023-07-17 15:52:39] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-17 15:52:39] INFO root fetch - main [MainThread]: Store serial: [18917732]
+[2023-07-17 15:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917732]
+[2023-07-17 15:57:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ambient-toolbox
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mango-framework
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphractal
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-schema-for-humans
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitauto
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: relevanceai
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sanctify
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decoratory
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sv-ttk
+[2023-07-17 15:57:48] INFO root fetch - processPackages [unitauto]: New version: [1.0.0] Old Version: [0.9.3]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [mango-framework]: New version: [0.6.7] Old Version: [0.6.5]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [decoratory]: New version: [0.9.5.3] Old Version: [0.9.4.1]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.4.1] Old Version: [8.4.0]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [json-schema-for-humans]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [sv-ttk]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [relevanceai]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [sanctify]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-17 15:57:48] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/e3/4a/4ec56d0defd7252e67fed3c5eab14edff422546708a018ab2e4a18ea944e/mango-framework-0.6.5.tar.gz
+[2023-07-17 15:57:48] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/33/ec/eb5e6e5074cb2791b1973172f7c48beebfa6ec72465baeb469d23dcbcca4/unitauto-0.9.3.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/30/e6/d91b3efa87984efddaaedbe1464cd619601bfa99388fdf6ec05f8e09f16c/decoratory-0.9.4.1.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/53/df/b82fef977534a6230e25ef75c063b2510e818e0e1cf345cfff7d957476c5/ambient-toolbox-8.4.0.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/e3/f2/a0e60cc2f81bb4d72e6ba2e081600e1ff8aee0d3c07aeed9fefa049541be/sanctify-1.0.5.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sv-ttk]: Downloading https://files.pythonhosted.org/packages/fd/3c/2fa5cdb132973660eb43482b7f381b2562fdf773250f32563cc7e725a7f8/sv_ttk-2.5.3.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/a4/f4/a4a68eab03effa984a9a13605c73897876fc688d59a3fa218e60a4baaf78/relevanceai-5.0.2.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [json-schema-for-humans]: Downloading https://files.pythonhosted.org/packages/d6/f3/8c235f99312fdddf6e8e33a3274ff1a71a488a47975eb6c8796f8ce24043/json-schema-for-humans-0.9.0.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/bc/e2/fb88ac14f5b2019bf4a84c909ec8eb4ef636dfc3a4e1a28bd4e0b9c8d0b0/decoratory-0.9.5.3.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/33/57/10a4dd2c05bffe60ed39cb71caec1b6eed13edc5e43a6d60a76cc68c6ca7/mango-framework-0.6.7.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/a9/ec/4a91d4a402eed788bb247d78317636fc72beb649edae4199d5c70bdcf8e2/ambient-toolbox-8.4.1.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sv-ttk]: Downloading https://files.pythonhosted.org/packages/16/af/9766948e653f58a0e0ec019d9cce3545fb1238f4fe449493172d37c5c1cf/sv_ttk-2.5.4.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/88/f6/22aca7479b5c39c8698f6cb870fd405333f000025243f9c5c83b367cf57d/sanctify-1.0.6.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/f9/ab/fddae13d574c5322ed513fce9d5b4ea73af5b52b8324717ca28de16af1fd/unitauto-1.0.0.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [json-schema-for-humans]: Downloading https://files.pythonhosted.org/packages/e2/1c/e624e472e2d596bd8ea13f1fb258c6ec0715dc4498039c2d806e0a160ae0/json-schema-for-humans-0.9.1.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230717/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 15:57:49] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-17 15:57:49] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230717/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 15:57:49] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/8c/a4/348c6cd47dea01e784e8ce8bdf9ad1a74d15d8576660d6c98eb226901695/relevanceai-5.0.3.tar.gz
+[2023-07-17 15:57:49] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-07-17 15:57:49] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.4.1.tar.gz tmp/decoratory-0.9.5.3.tar.gz --markdown 20230717/d/decoratory/0.9.4.1-0.9.5.3/diff.md --exclude *.pyd
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sv-ttk]: executing diffoscope
+[2023-07-17 15:57:49] INFO root fetch - processPackages [sv-ttk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sv_ttk-2.5.3.tar.gz tmp/sv_ttk-2.5.4.tar.gz --markdown 20230717/s/sv-ttk/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-07-17 15:57:49] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-17 15:57:49] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.6.5.tar.gz tmp/mango-framework-0.6.7.tar.gz --markdown 20230717/m/mango-framework/0.6.5-0.6.7/diff.md --exclude *.pyd
+[2023-07-17 15:57:50] INFO root fetch - processPackages [sanctify]: executing diffoscope
+[2023-07-17 15:57:50] INFO root fetch - processPackages [sanctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctify-1.0.5.tar.gz tmp/sanctify-1.0.6.tar.gz --markdown 20230717/s/sanctify/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 15:57:50] INFO root fetch - processPackages [relevanceai]: executing diffoscope
+[2023-07-17 15:57:50] INFO root fetch - processPackages [relevanceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relevanceai-5.0.2.tar.gz tmp/relevanceai-5.0.3.tar.gz --markdown 20230717/r/relevanceai/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-07-17 15:57:50] INFO root fetch - processPackages [unitauto]: executing diffoscope
+[2023-07-17 15:57:50] INFO root fetch - processPackages [unitauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitauto-0.9.3.tar.gz tmp/unitauto-1.0.0.tar.gz --markdown 20230717/u/unitauto/0.9.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 15:57:50] INFO root fetch - processPackages [json-schema-for-humans]: executing diffoscope
+[2023-07-17 15:57:50] INFO root fetch - processPackages [json-schema-for-humans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-schema-for-humans-0.9.0.tar.gz tmp/json-schema-for-humans-0.9.1.tar.gz --markdown 20230717/j/json-schema-for-humans/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 15:57:50] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-07-17 15:57:50] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.4.0.tar.gz tmp/ambient-toolbox-8.4.1.tar.gz --markdown 20230717/a/ambient-toolbox/8.4.0-8.4.1/diff.md --exclude *.pyd
+[2023-07-17 15:57:51] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-17 15:57:51] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-17 15:57:51] INFO root fetch - processPackages [bridgecrew]: Start processing: easyconfig
+[2023-07-17 15:57:51] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-17 15:57:51] INFO root fetch - processPackages [easyconfig]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-17 15:57:51] INFO root fetch - processPackages [easyconfig]: Downloading https://files.pythonhosted.org/packages/c7/1e/37e811fcc2bac0d5cc65546c9f6f6f4282f75c9e730de4ce539c9b39c636/easyconfig-0.2.8.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.5.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.7.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [mango-framework]: Start processing: tensordict-nightly
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sv-ttk]: Remove: archive file [/home/abi/fetcher/tmp/sv_ttk-2.5.3.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sv-ttk]: Remove: archive file [/home/abi/fetcher/tmp/sv_ttk-2.5.4.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sv-ttk]: Start processing: cenas
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [sv-ttk]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sphractal]: Start processing: dve-lumipy-preview
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cenas]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.0.5.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.0.6.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [sanctify]: Start processing: relevanceai
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [sanctify]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.9.3.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-1.0.0.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [unitauto]: Start processing: cybrid-api-organization-python
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [unitauto]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.2.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.3.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [relevanceai]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [json-schema-for-humans]: Remove: archive file [/home/abi/fetcher/tmp/json-schema-for-humans-0.9.0.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [json-schema-for-humans]: Remove: archive file [/home/abi/fetcher/tmp/json-schema-for-humans-0.9.1.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [json-schema-for-humans]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.4.1.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.5.3.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/8c/a4/348c6cd47dea01e784e8ce8bdf9ad1a74d15d8576660d6c98eb226901695/relevanceai-5.0.3.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [easyconfig]: Downloading https://files.pythonhosted.org/packages/d4/a7/5f9737ee324e2dc3a98e45dc2fdbd426f4109a2724f9ba4669ea5c731515/easyconfig-0.3.0.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/94/56/8cc8dfc969cebf985f23782249b5df78291602554720ed3f72c0d19d5fd1/cenas-1.1.3.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-17 15:57:52] INFO root fetch - processPackages [easyconfig]: executing diffoscope
+[2023-07-17 15:57:52] INFO root fetch - processPackages [easyconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyconfig-0.2.8.tar.gz tmp/easyconfig-0.3.0.tar.gz --markdown 20230717/e/easyconfig/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 15:57:52] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/d7/44/3917674fd27819b5c77114619704a3f0c07cfa839e772ffdfd79e95f76b8/relevanceai-5.0.4.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [ambient-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ambient-toolbox-8.4.0.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - processPackages [ambient-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ambient-toolbox-8.4.1.tar.gz]
+[2023-07-17 15:57:52] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/47/27/12f3075e20fcee1eaf9e0fcac80b1649a567be998c9dc508f3b9bf743c1b/cenas-1.1.4.tar.gz
+[2023-07-17 15:57:52] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-17 15:57:52] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230717/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: executing diffoscope
+[2023-07-17 15:57:52] INFO root fetch - processPackages [relevanceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relevanceai-5.0.3.tar.gz tmp/relevanceai-5.0.4.tar.gz --markdown 20230717/r/relevanceai/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-17 15:57:52] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.3.tar.gz tmp/cenas-1.1.4.tar.gz --markdown 20230717/c/cenas/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-17 15:57:53] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-17 15:57:53] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230717/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-17 15:57:53] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-07-17 15:57:53] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230717/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-17 15:57:53] INFO root fetch - processPackages [easyconfig]: Remove: archive file [/home/abi/fetcher/tmp/easyconfig-0.2.8.tar.gz]
+[2023-07-17 15:57:53] INFO root fetch - processPackages [easyconfig]: Remove: archive file [/home/abi/fetcher/tmp/easyconfig-0.3.0.tar.gz]
+[2023-07-17 15:57:53] INFO root fetch - main [MainThread]: End processing [easyconfig]: success
+[2023-07-17 15:57:53] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.3.tar.gz]
+[2023-07-17 15:57:53] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.4.tar.gz]
+[2023-07-17 15:57:53] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-17 15:57:54] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.3.tar.gz]
+[2023-07-17 15:57:54] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.4.tar.gz]
+[2023-07-17 15:57:54] INFO root fetch - main [MainThread]: End processing [relevanceai]: success
+[2023-07-17 15:57:54] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-17 15:57:54] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-17 15:57:54] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-17 15:57:54] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 15:57:54] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-17 15:57:54] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-17 15:57:54] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-07-17 15:57:54] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-07-17 15:57:54] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-07-17 15:57:54] INFO root fetch - main [MainThread]: Store serial: [18917783]
