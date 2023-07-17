@@ -16185,3 +16185,113 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:47:36] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
 [2023-07-17 13:47:36] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
 [2023-07-17 13:47:36] INFO root fetch - main [MainThread]: Store serial: [18916226]
+[2023-07-17 13:52:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916226]
+[2023-07-17 13:52:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: processview
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrizdat
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ag-llama-hub
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gandai
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: locuaz
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlbuilder
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cciutils
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-statement-import-file
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geopyv
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-rpautom
+[2023-07-17 13:52:45] WARNING root fetch - processPackages [qrizdat]: Skipping, unable to determine old version
+[2023-07-17 13:52:45] INFO root fetch - processPackages [qrizdat]: Start processing: dataplicity
+[2023-07-17 13:52:45] INFO root fetch - main [MainThread]: End processing [qrizdat] error
+[2023-07-17 13:52:45] INFO root fetch - processPackages [mysqlbuilder]: New version: [1.0.13] Old Version: [1.0.12]
+[2023-07-17 13:52:45] INFO root fetch - processPackages [processview]: New version: [1.3.0a0] Old Version: [1.3.0]
+[2023-07-17 13:52:45] INFO root fetch - processPackages [ag-llama-hub]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 13:52:45] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2023-07-17 13:52:45] INFO root fetch - processPackages [locuaz]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [gandai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/cb/ae/93c5e33306fa98a16fc6efc6bc071b02d68fef0c7d9a30aaf390482c2035/mysqlbuilder-1.0.12.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [processview]: Downloading https://files.pythonhosted.org/packages/1e/b1/215f80f364ef605d1644c5a43c5d415780f59cfcda14644990d2f8a481a8/processview-1.3.0.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [ag-llama-hub]: Downloading https://files.pythonhosted.org/packages/0d/34/906567cc594bf1344e8a7b74ca26ddd9fc38d68e2a2c8e2777a505ef548e/ag_llama_hub-0.0.6.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/87/1d/16f3a8b5d218d08514e857c6e57046f698cac55cee3909c967f09aacaddf/locuaz-0.4.1.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Downloading https://files.pythonhosted.org/packages/75/2f/6f7930e65a9a5db3610d61703874fc6f2a185b756adca597cd4ab186d9f0/odoo_addon_account_statement_import_file-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-17 13:52:46] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/6e/39/46bb536db45da28d5a4efe63087cf7df066dd3b823715358df3eaff4fe72/py-rpautom-0.0.8b0.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-17 13:52:46] WARNING root fetch - processPackages [locuaz]: Skipping package: exceeds size limit 35161315>=10485760
+[2023-07-17 13:52:46] INFO root fetch - processPackages [locuaz]: Start processing: adofaipy
+[2023-07-17 13:52:46] INFO root fetch - main [MainThread]: End processing [locuaz] error
+[2023-07-17 13:52:46] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/a5/f1/70a3268e7561dd47a669147e7fbf57bcf7deae1fdf52010e4121f02a3ba4/mysqlbuilder-1.0.13.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [adofaipy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 13:52:46] INFO root fetch - processPackages [processview]: Downloading https://files.pythonhosted.org/packages/11/98/e29756d8b11c8a5ca6336e3ba12749aef7a5adfa79a8165676902f7ea955/processview-1.3.0a0.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [ag-llama-hub]: Downloading https://files.pythonhosted.org/packages/ac/4b/b4a9a59198d48525058386b52848cb064d43e52b898828d9b9f64f47c6db/ag_llama_hub-0.0.7.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [mysqlbuilder]: executing diffoscope
+[2023-07-17 13:52:46] INFO root fetch - processPackages [mysqlbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlbuilder-1.0.12.tar.gz tmp/mysqlbuilder-1.0.13.tar.gz --markdown 20230717/m/mysqlbuilder/1.0.12-1.0.13/diff.md --exclude *.pyd
+[2023-07-17 13:52:46] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-17 13:52:46] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.9.tar.gz tmp/gandai-1.2.0.tar.gz --markdown 20230717/g/gandai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 13:52:46] INFO root fetch - processPackages [processview]: executing diffoscope
+[2023-07-17 13:52:46] INFO root fetch - processPackages [processview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processview-1.3.0.tar.gz tmp/processview-1.3.0a0.tar.gz --markdown 20230717/p/processview/1.3.0-1.3.0a0/diff.md --exclude *.pyd
+[2023-07-17 13:52:46] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/15/df/aca01fc29617ab2b4273b63a58b5cabaec5b193a2123d1bda0b5f8e7a87a/py-rpautom-0.0.9b0.tar.gz
+[2023-07-17 13:52:46] INFO root fetch - processPackages [ag-llama-hub]: executing diffoscope
+[2023-07-17 13:52:46] INFO root fetch - processPackages [ag-llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_hub-0.0.6.tar.gz tmp/ag_llama_hub-0.0.7.tar.gz --markdown 20230717/a/ag-llama-hub/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 13:52:46] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Downloading https://files.pythonhosted.org/packages/ea/2c/c5611dc940ce4549b10a479da02114ce9d025659a381bdc7f8bffeb39ac9/odoo_addon_account_statement_import_file-16.0.1.0.1-py3-none-any.whl
+[2023-07-17 13:52:47] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-07-17 13:52:47] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230717/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-07-17 13:52:47] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-17 13:52:47] INFO root fetch - processPackages [adofaipy]: Downloading https://files.pythonhosted.org/packages/be/ce/63ec6b5bc2654f8a0ec7475f06bcc1a620f1e08d6eef4d20659e6a9df8e4/adofaipy-0.1.0.tar.gz
+[2023-07-17 13:52:47] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-07-17 13:52:47] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-17 13:52:47] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230717/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-17 13:52:47] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-07-17 13:52:47] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230717/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:52:47] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: executing diffoscope
+[2023-07-17 13:52:47] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_file-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_file-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-account-statement-import-file/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-17 13:52:47] INFO root fetch - processPackages [adofaipy]: Downloading https://files.pythonhosted.org/packages/8b/e8/a76f203fcc5db0157f8e8996d4f7cd68b3582809f516cd2d5c4db7f50280/adofaipy-0.1.1.tar.gz
+[2023-07-17 13:52:47] INFO root fetch - processPackages [adofaipy]: executing diffoscope
+[2023-07-17 13:52:47] INFO root fetch - processPackages [adofaipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adofaipy-0.1.0.tar.gz tmp/adofaipy-0.1.1.tar.gz --markdown 20230717/a/adofaipy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 13:52:48] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.12.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.13.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [mysqlbuilder]: Start processing: lavlab-python-utils
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [mysqlbuilder]: success
+[2023-07-17 13:52:48] INFO root fetch - processPackages [lavlab-python-utils]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/ad/59/023c130cbe7b609144d9b405167f2b252e466ab95dc31d7ed942667f87f3/lavlab-python-utils-1.2.1.tar.gz
+[2023-07-17 13:52:48] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-17 13:52:48] INFO root fetch - processPackages [ag-llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub-0.0.6.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [ag-llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub-0.0.7.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [ag-llama-hub]: success
+[2023-07-17 13:52:48] INFO root fetch - processPackages [processview]: Remove: archive file [/home/abi/fetcher/tmp/processview-1.3.0.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [processview]: Remove: archive file [/home/abi/fetcher/tmp/processview-1.3.0a0.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [processview]: success
+[2023-07-17 13:52:48] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.1.9.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-17 13:52:48] INFO root fetch - processPackages [py-rpautom]: Remove: archive file [/home/abi/fetcher/tmp/py-rpautom-0.0.8b0.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [py-rpautom]: Remove: archive file [/home/abi/fetcher/tmp/py-rpautom-0.0.9b0.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-07-17 13:52:48] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/c0/fb/e62ba384cfff9fb272963093debaed6cba55815ed64173593a1e1679eba9/lavlab-python-utils-1.2.2.tar.gz
+[2023-07-17 13:52:48] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-17 13:52:48] INFO root fetch - processPackages [lavlab-python-utils]: executing diffoscope
+[2023-07-17 13:52:48] INFO root fetch - processPackages [lavlab-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavlab-python-utils-1.2.1.tar.gz tmp/lavlab-python-utils-1.2.2.tar.gz --markdown 20230717/l/lavlab-python-utils/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-17 13:52:48] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-07-17 13:52:48] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-07-17 13:52:49] INFO root fetch - processPackages [adofaipy]: Remove: archive file [/home/abi/fetcher/tmp/adofaipy-0.1.0.tar.gz]
+[2023-07-17 13:52:49] INFO root fetch - processPackages [adofaipy]: Remove: archive file [/home/abi/fetcher/tmp/adofaipy-0.1.1.tar.gz]
+[2023-07-17 13:52:49] INFO root fetch - main [MainThread]: End processing [adofaipy]: success
+[2023-07-17 13:52:49] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.1.tar.gz]
+[2023-07-17 13:52:49] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.2.tar.gz]
+[2023-07-17 13:52:49] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
+[2023-07-17 13:52:49] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_file-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-17 13:52:49] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_file-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-17 13:52:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-file]: success
+[2023-07-17 13:52:49] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-17 13:52:49] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230717/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-17 13:52:53] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-17 13:52:53] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-17 13:52:53] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-17 13:52:53] INFO root fetch - main [MainThread]: Store serial: [18916301]
