@@ -11430,3 +11430,123 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:35:56] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.88.tar.gz]
 [2023-07-17 10:35:56] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
 [2023-07-17 10:35:56] INFO root fetch - main [MainThread]: Store serial: [18914134]
+[2023-07-17 10:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914134]
+[2023-07-17 10:41:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu117
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openlrc
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codecov-cli
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqeleton
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capnpy
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgstools
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mariqt-widgets
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: absl-extra
+[2023-07-17 10:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gridappsd-python
+[2023-07-17 10:41:07] INFO root fetch - processPackages [mariqt-widgets]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a8] Old Version: [2023.7.1a7]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [codecov-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [sqeleton]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [absl-extra]: New version: [0.0.3.dev1] Old Version: [0.0.2.dev9]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [openlrc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [capnpy]: New version: [0.9.0rc2] Old Version: [0.9.0]
+[2023-07-17 10:41:07] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-17 10:41:07] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/08/91/f589735b65b300233aaf2f9ff731715a7507f425fc951348a727982b6858/gridappsd_python-2023.7.1a7.tar.gz
+[2023-07-17 10:41:07] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-17 10:41:07] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/e1/06/c00e687def4fde947b312788667d971b8db08d36c003e0abeaeb3c9830ed/mariqt_widgets-0.3.0-py2.py3-none-any.whl
+[2023-07-17 10:41:08] INFO root fetch - processPackages [codecov-cli]: Downloading https://files.pythonhosted.org/packages/29/d2/34ea421302ac578c18b3ed19cde1397aa3e6fc7a0c89e3ae8732033ccf3c/codecov-cli-0.1.8.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:41:08] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/0d/e7/f142e3c5f9bdafec6a9aff388ad67a3015a1eb7eb88ff71cbff607984fe8/capnpy-0.9.0.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/1f/f5/986406029f5d72f053c75ae1cc744e04563697f4ce1e39ff08e5a4dfceed/openlrc-0.2.0.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [sqeleton]: Downloading https://files.pythonhosted.org/packages/98/56/5805e4733345740d509bb7caae7347ec2924a76678cd1266fae82f8689fb/sqeleton-0.0.8.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-17 10:41:08] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/98/aa/ff5b0b1f09207e907c2f709f8bd1835c5ae01e9628926eb5a0d200c16d11/gridappsd_python-2023.7.1a8.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230717/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-17 10:41:08] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/c8/2b/b3c5051a7872560e7012f46ed5fb5a29b6b28a6d075ad67b129531862fe5/mariqt_widgets-0.3.1-py2.py3-none-any.whl
+[2023-07-17 10:41:08] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/05/d2/62c3c984b5e1754ecadeaa79f3be9cffa6b3c1ed1de18827cd77f1863778/openlrc-0.2.1.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [mariqt-widgets]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [mariqt-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt_widgets-0.3.0-py2.py3-none-any.whl.zip tmp/mariqt_widgets-0.3.1-py2.py3-none-any.whl.zip --markdown 20230717/m/mariqt-widgets/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-17 10:41:08] INFO root fetch - processPackages [sqeleton]: Downloading https://files.pythonhosted.org/packages/7b/3b/8d67fe020791bc6668ab41e6502bfe6429f2cdcf0db18269489e0a35f002/sqeleton-0.0.9.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a7.tar.gz tmp/gridappsd_python-2023.7.1a8.tar.gz --markdown 20230717/g/gridappsd-python/2023.7.1a7-2023.7.1a8/diff.md --exclude *.pyd
+[2023-07-17 10:41:08] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/7c/7a/6f0c8cf8fbe9fc7ff2edee7d67bb9cb6964f5d6480120b9e14f9ebdc0da6/absl_extra-0.0.3.dev1.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230717/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:41:08] INFO root fetch - processPackages [codecov-cli]: Downloading https://files.pythonhosted.org/packages/0c/e4/568353f208ad000e0597c937944dbb2c2f9b4e1864dbaad15c9c43ac3c91/codecov-cli-0.1.9.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/81/e3/b59d3b23b5cb2eb0437e07ae38e6b9d692d492cad4da849e9ad25d2f25d5/capnpy-0.9.0rc2.tar.gz
+[2023-07-17 10:41:08] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 10:41:08] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.2.0.tar.gz tmp/openlrc-0.2.1.tar.gz --markdown 20230717/o/openlrc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 10:41:08] INFO root fetch - processPackages [sqeleton]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [sqeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqeleton-0.0.8.tar.gz tmp/sqeleton-0.0.9.tar.gz --markdown 20230717/s/sqeleton/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 10:41:08] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-17 10:41:08] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev9.tar.gz tmp/absl_extra-0.0.3.dev1.tar.gz --markdown 20230717/a/absl-extra/0.0.2.dev9-0.0.3.dev1/diff.md --exclude *.pyd
+[2023-07-17 10:41:09] INFO root fetch - processPackages [codecov-cli]: executing diffoscope
+[2023-07-17 10:41:09] INFO root fetch - processPackages [codecov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecov-cli-0.1.8.tar.gz tmp/codecov-cli-0.1.9.tar.gz --markdown 20230717/c/codecov-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:41:09] INFO root fetch - processPackages [capnpy]: executing diffoscope
+[2023-07-17 10:41:09] INFO root fetch - processPackages [capnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capnpy-0.9.0.tar.gz tmp/capnpy-0.9.0rc2.tar.gz --markdown 20230717/c/capnpy/0.9.0-0.9.0rc2/diff.md --exclude *.pyd
+[2023-07-17 10:41:09] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-17 10:41:09] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230717/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-17 10:41:10] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.0-py2.py3-none-any.whl.zip]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [mariqt-widgets]: Start processing: gridappsd-field-bus
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [mariqt-widgets]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a8] Old Version: [2023.7.1a7]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [bgstools]: Start processing: paasta-tools
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/0e/53/bc6c2c320f43360ede31a0def558af156af9f24bb710813a1b8c5f9eb808/gridappsd_field_bus-2023.7.1a7.tar.gz
+[2023-07-17 10:41:10] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a7.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a8.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-python]: Start processing: misk
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.2.0.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.2.1.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [misk]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.3.dev1.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-07-17 10:41:10] INFO root fetch - processPackages [sqeleton]: Remove: archive file [/home/abi/fetcher/tmp/sqeleton-0.0.8.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - processPackages [sqeleton]: Remove: archive file [/home/abi/fetcher/tmp/sqeleton-0.0.9.tar.gz]
+[2023-07-17 10:41:10] INFO root fetch - main [MainThread]: End processing [sqeleton]: success
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/1c/96/4c973e30d07fedf81b12c6fb134d759aa025e62feb55965f9bed29270382/gridappsd_field_bus-2023.7.1a8.tar.gz
+[2023-07-17 10:41:10] INFO root fetch - processPackages [misk]: Downloading https://files.pythonhosted.org/packages/4f/0f/7881a02fb0863efe24bb5236081c467df0b325bb1a21f6adce70cf7e4a89/misk-0.7.0.tar.gz
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-17 10:41:10] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a7.tar.gz tmp/gridappsd_field_bus-2023.7.1a8.tar.gz --markdown 20230717/g/gridappsd-field-bus/2023.7.1a7-2023.7.1a8/diff.md --exclude *.pyd
+[2023-07-17 10:41:11] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-07-17 10:41:11] INFO root fetch - processPackages [codecov-cli]: Remove: archive file [/home/abi/fetcher/tmp/codecov-cli-0.1.8.tar.gz]
+[2023-07-17 10:41:11] INFO root fetch - processPackages [codecov-cli]: Remove: archive file [/home/abi/fetcher/tmp/codecov-cli-0.1.9.tar.gz]
+[2023-07-17 10:41:11] INFO root fetch - main [MainThread]: End processing [codecov-cli]: success
+[2023-07-17 10:41:11] INFO root fetch - processPackages [misk]: Downloading https://files.pythonhosted.org/packages/28/ef/247b4ab32f86f27c0f373dba6f9c72f524bd9a3ff59f1d8580485c50b63b/misk-0.7.1.tar.gz
+[2023-07-17 10:41:11] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-07-17 10:41:11] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230717/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-07-17 10:41:11] INFO root fetch - processPackages [misk]: executing diffoscope
+[2023-07-17 10:41:11] INFO root fetch - processPackages [misk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misk-0.7.0.tar.gz tmp/misk-0.7.1.tar.gz --markdown 20230717/m/misk/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-17 10:41:11] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 10:41:11] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 10:41:11] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-17 10:41:11] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a7.tar.gz]
+[2023-07-17 10:41:11] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a8.tar.gz]
+[2023-07-17 10:41:11] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-17 10:41:12] INFO root fetch - processPackages [misk]: Remove: archive file [/home/abi/fetcher/tmp/misk-0.7.0.tar.gz]
+[2023-07-17 10:41:12] INFO root fetch - processPackages [misk]: Remove: archive file [/home/abi/fetcher/tmp/misk-0.7.1.tar.gz]
+[2023-07-17 10:41:12] INFO root fetch - main [MainThread]: End processing [misk]: success
+[2023-07-17 10:41:12] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0.tar.gz]
+[2023-07-17 10:41:12] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0rc2.tar.gz]
+[2023-07-17 10:41:12] INFO root fetch - main [MainThread]: End processing [capnpy]: success
+[2023-07-17 10:41:13] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-07-17 10:41:13] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-07-17 10:41:13] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-07-17 10:41:13] INFO root fetch - main [MainThread]: Store serial: [18914194]
