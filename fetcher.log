@@ -15459,3 +15459,147 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:15:29] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230717.125417.tar.gz]
 [2023-07-17 13:15:29] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-17 13:15:29] INFO root fetch - main [MainThread]: Store serial: [18915851]
+[2023-07-17 13:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915851]
+[2023-07-17 13:20:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WinJobster
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-robosapiens
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lavlab-python-utils
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-engineering-pulumi-components
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invoicing-pdf2105
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: protarrow
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: requestsbankrko
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-sdk
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrape-schema
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tb-nightly
+[2023-07-17 13:20:38] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev6]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [lavlab-python-utils]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [WinJobster]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [scrape-schema]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [protarrow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 13:20:38] WARNING root fetch - processPackages [pydantic-sdk]: Skipping, unable to determine old version
+[2023-07-17 13:20:38] INFO root fetch - processPackages [pydantic-sdk]: Start processing: ecallisto-ng
+[2023-07-17 13:20:38] INFO root fetch - main [MainThread]: End processing [pydantic-sdk] error
+[2023-07-17 13:20:38] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-17 13:20:38] WARNING root fetch - processPackages [invoicing-pdf2105]: Skipping, unable to determine old version
+[2023-07-17 13:20:38] INFO root fetch - processPackages [invoicing-pdf2105]: Start processing: autohooks-plugin-black
+[2023-07-17 13:20:38] INFO root fetch - main [MainThread]: End processing [invoicing-pdf2105] error
+[2023-07-17 13:20:38] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/ad/59/023c130cbe7b609144d9b405167f2b252e466ab95dc31d7ed942667f87f3/lavlab-python-utils-1.2.1.tar.gz
+[2023-07-17 13:20:38] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/46/70/791cd35f5fe3abe51347dc51d632306f770bb7ce1094affa099d4b7d5372/protarrow-0.2.1.tar.gz
+[2023-07-17 13:20:38] INFO root fetch - processPackages [autohooks-plugin-black]: New version: [23.7.0] Old Version: [23.4.0]
+[2023-07-17 13:20:38] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-17 13:20:39] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/73/11/bddbd5e0a77c8b436166861270735afc9b6f18b6961540b194e212a0fa4c/scrape_schema-0.3.6.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/cb/99/458e5db18c06113e4569e334e3250be126a5e671cefac909e394c3af70e7/ecallisto_ng-0.1.7.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/ac/7b/b489384148b371cb229cff0d83be8f409510aa022c53e01429f54267d6ee/robotframework_robosapiens-1.2.2-py3-none-any.whl
+[2023-07-17 13:20:39] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/dd/db/ff8f0e33b7aa309ffbd76103ed49f4c4298557bf99765e746ce0ad209a4e/requestsbankrko-0.2.3.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [WinJobster]: Downloading https://files.pythonhosted.org/packages/87/9b/98e8d5a99abac7a1750e646d39e4c55f17cf6cbe3a68ff8ad5e4abd65229/WinJobster-2.0.0.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/14/06/305be1ee829edb9af712a657d8e45e51744e8c9027ea92116b31bcbf75a8/data-engineering-pulumi-components-0.4.1.dev6.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [autohooks-plugin-black]: Downloading https://files.pythonhosted.org/packages/43/b2/e023aa54f6d6f64c8bf1e3ed616fbd153eb87a44a40a8dfeb2901163c4c2/autohooks_plugin_black-23.4.0.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/c0/fb/e62ba384cfff9fb272963093debaed6cba55815ed64173593a1e1679eba9/lavlab-python-utils-1.2.2.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/f7/42/b19bd0c7316d57ab5c9b388ae1fe8cfda695fe98dc8878c50fdb839af283/protarrow-0.2.2.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/6c/0b/a914b09687c66f8b7e119673da0893d4dea2ea56d0d2667333936790278f/requestsbankrko-0.2.4.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/9f/4f/ec1150f532ac759abbed263e025134c24630c419f5637acb3e80cbeab9ee/ecallisto_ng-0.1.8.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/9a/a1/8e0bb565b74635d7e2c00c4388c3db7e2226d287fe75fe74db0ad962dcf6/scrape_schema-0.3.7.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [WinJobster]: Downloading https://files.pythonhosted.org/packages/e9/50/34429ac42fafd6a3921fa7857ffd6c5a316e77940264fd58052e8cbdd94c/WinJobster-2.1.0.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [autohooks-plugin-black]: Downloading https://files.pythonhosted.org/packages/d1/49/652573db494bba7a8f184cb4f8663a238055989ad965375af1e6863397e5/autohooks_plugin_black-23.7.0.tar.gz
+[2023-07-17 13:20:39] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-07-17 13:20:39] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.3.6.tar.gz tmp/scrape_schema-0.3.7.tar.gz --markdown 20230717/s/scrape-schema/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-17 13:20:39] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-17 13:20:39] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.1.7.tar.gz tmp/ecallisto_ng-0.1.8.tar.gz --markdown 20230717/e/ecallisto-ng/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-17 13:20:39] INFO root fetch - processPackages [lavlab-python-utils]: executing diffoscope
+[2023-07-17 13:20:39] INFO root fetch - processPackages [lavlab-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavlab-python-utils-1.2.1.tar.gz tmp/lavlab-python-utils-1.2.2.tar.gz --markdown 20230717/l/lavlab-python-utils/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-17 13:20:39] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-17 13:20:39] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.3.tar.gz tmp/requestsbankrko-0.2.4.tar.gz --markdown 20230717/r/requestsbankrko/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-17 13:20:39] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2023-07-17 13:20:39] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.2.1.tar.gz tmp/protarrow-0.2.2.tar.gz --markdown 20230717/p/protarrow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 13:20:39] INFO root fetch - processPackages [WinJobster]: executing diffoscope
+[2023-07-17 13:20:39] INFO root fetch - processPackages [WinJobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinJobster-2.0.0.tar.gz tmp/WinJobster-2.1.0.tar.gz --markdown 20230717/W/WinJobster/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-17 13:20:40] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/22/f5/90ec19e43c4bdf903004da33045726d916af50a91d2739e71372a37e954b/robotframework_robosapiens-1.2.3-py3-none-any.whl
+[2023-07-17 13:20:40] INFO root fetch - processPackages [autohooks-plugin-black]: executing diffoscope
+[2023-07-17 13:20:40] INFO root fetch - processPackages [autohooks-plugin-black]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks_plugin_black-23.4.0.tar.gz tmp/autohooks_plugin_black-23.7.0.tar.gz --markdown 20230717/a/autohooks-plugin-black/23.4.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-17 13:20:41] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.6.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.7.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [scrape-schema]: Start processing: cg
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.3.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.4.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [requestsbankrko]: Start processing: clover-energy
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-17 13:20:41] INFO root fetch - processPackages [cg]: New version: [38.2.9] Old Version: [38.2.8]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.7.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.8.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [ecallisto-ng]: Start processing: dock-py-selenium
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.1.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.2.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [lavlab-python-utils]: Start processing: lmcv-tools
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [dock-py-selenium]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [clover-energy]: New version: [5.1.0] Old Version: [5.0.8]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.2.1.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.2.2.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [protarrow]: Start processing: cutters
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [WinJobster]: Remove: archive file [/home/abi/fetcher/tmp/WinJobster-2.0.0.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [WinJobster]: Remove: archive file [/home/abi/fetcher/tmp/WinJobster-2.1.0.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [WinJobster]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [cutters]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/5a/3a/6c1d2993d252993c5aefd0ae2a9d09555fccaaee1059d21f82d30e9c9ea8/dock-py-selenium-2.1.2.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [autohooks-plugin-black]: Remove: archive file [/home/abi/fetcher/tmp/autohooks_plugin_black-23.4.0.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [autohooks-plugin-black]: Remove: archive file [/home/abi/fetcher/tmp/autohooks_plugin_black-23.7.0.tar.gz]
+[2023-07-17 13:20:41] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-black]: success
+[2023-07-17 13:20:41] INFO root fetch - processPackages [lmcv-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 13:20:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/72/4c/02ee52ec1f4c557508e81226256d3f0490b6a0e4fb4497cf65feaae0e37f/cg-38.2.8.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [clover-energy]: Downloading https://files.pythonhosted.org/packages/7e/0e/10963c3d43fc99c40fb8a51087d2014b345bcd3b690f52ba8eca9816d848/clover-energy-5.0.8.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2023-07-17 13:20:41] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.2.2-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.2.3-py3-none-any.whl.zip --markdown 20230717/r/robotframework-robosapiens/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-17 13:20:41] INFO root fetch - processPackages [cutters]: Downloading https://files.pythonhosted.org/packages/29/4e/1ea2b2a804532f6c731ac243ab76c1176fa625c5634e6931b6d1f98e6488/cutters-0.1.2.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [lmcv-tools]: Downloading https://files.pythonhosted.org/packages/6c/a8/be5c371f9d09c0df28407c5486d7568c34fd32b1015d0a79d25e11db0bff/lmcv_tools-0.0.8.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [dock-py-selenium]: Downloading https://files.pythonhosted.org/packages/a3/5a/33ba3714b891276fdcec84210c2f150035238263587c55e5d8d19b32a6b6/dock-py-selenium-2.1.3.tar.gz
+[2023-07-17 13:20:41] INFO root fetch - processPackages [dock-py-selenium]: executing diffoscope
+[2023-07-17 13:20:41] INFO root fetch - processPackages [dock-py-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-py-selenium-2.1.2.tar.gz tmp/dock-py-selenium-2.1.3.tar.gz --markdown 20230717/d/dock-py-selenium/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-17 13:20:42] INFO root fetch - processPackages [clover-energy]: Downloading https://files.pythonhosted.org/packages/e0/81/4988c1a7c3fcacc972bd5ee097f853aa60f8a22ebcc1ccc40c1c455c0f2e/clover-energy-5.1.0.tar.gz
+[2023-07-17 13:20:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/12/61/092ac5768b7a752e28fd6c78c1e24781eb4c35a6ba0617d4897246da39fa/cg-38.2.9.tar.gz
+[2023-07-17 13:20:42] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-17 13:20:42] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230717/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-17 13:20:42] INFO root fetch - processPackages [cutters]: Downloading https://files.pythonhosted.org/packages/ce/2c/ee162b467996b9a9f6fdd8970a7b3fbe369b5219518748b27afc7f42b770/cutters-0.1.3.tar.gz
+[2023-07-17 13:20:42] INFO root fetch - processPackages [lmcv-tools]: Downloading https://files.pythonhosted.org/packages/79/4c/798409a3a7b29e9651c8eb43bbc4ff4e97ac628b164eeaf79ae8a6210463/lmcv_tools-0.0.9.tar.gz
+[2023-07-17 13:20:42] INFO root fetch - processPackages [clover-energy]: executing diffoscope
+[2023-07-17 13:20:42] INFO root fetch - processPackages [clover-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clover-energy-5.0.8.tar.gz tmp/clover-energy-5.1.0.tar.gz --markdown 20230717/c/clover-energy/5.0.8-5.1.0/diff.md --exclude *.pyd
+[2023-07-17 13:20:42] INFO root fetch - processPackages [lmcv-tools]: executing diffoscope
+[2023-07-17 13:20:42] INFO root fetch - processPackages [lmcv-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcv_tools-0.0.8.tar.gz tmp/lmcv_tools-0.0.9.tar.gz --markdown 20230717/l/lmcv-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:20:42] INFO root fetch - processPackages [cutters]: executing diffoscope
+[2023-07-17 13:20:42] INFO root fetch - processPackages [cutters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutters-0.1.2.tar.gz tmp/cutters-0.1.3.tar.gz --markdown 20230717/c/cutters/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 13:20:42] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-17 13:20:42] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.2.8.tar.gz tmp/cg-38.2.9.tar.gz --markdown 20230717/c/cg/38.2.8-38.2.9/diff.md --exclude *.pyd
+[2023-07-17 13:20:42] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.1.2.tar.gz]
+[2023-07-17 13:20:42] INFO root fetch - processPackages [dock-py-selenium]: Remove: archive file [/home/abi/fetcher/tmp/dock-py-selenium-2.1.3.tar.gz]
+[2023-07-17 13:20:42] INFO root fetch - main [MainThread]: End processing [dock-py-selenium]: success
+[2023-07-17 13:20:43] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.2-py3-none-any.whl.zip]
+[2023-07-17 13:20:43] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.3-py3-none-any.whl.zip]
+[2023-07-17 13:20:43] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2023-07-17 13:20:43] INFO root fetch - processPackages [cutters]: Remove: archive file [/home/abi/fetcher/tmp/cutters-0.1.2.tar.gz]
+[2023-07-17 13:20:43] INFO root fetch - processPackages [cutters]: Remove: archive file [/home/abi/fetcher/tmp/cutters-0.1.3.tar.gz]
+[2023-07-17 13:20:43] INFO root fetch - main [MainThread]: End processing [cutters]: success
+[2023-07-17 13:20:44] INFO root fetch - processPackages [clover-energy]: Remove: archive file [/home/abi/fetcher/tmp/clover-energy-5.0.8.tar.gz]
+[2023-07-17 13:20:44] INFO root fetch - processPackages [clover-energy]: Remove: archive file [/home/abi/fetcher/tmp/clover-energy-5.1.0.tar.gz]
+[2023-07-17 13:20:44] INFO root fetch - main [MainThread]: End processing [clover-energy]: success
+[2023-07-17 13:20:44] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.8.tar.gz]
+[2023-07-17 13:20:44] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.9.tar.gz]
+[2023-07-17 13:20:44] INFO root fetch - main [MainThread]: End processing [lmcv-tools]: success
+[2023-07-17 13:20:44] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2023-07-17 13:20:44] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20230717/d/data-engineering-pulumi-components/0.4.1.dev6-0.4.1.dev7/diff.md --exclude *.pyd
+[2023-07-17 13:20:44] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-17 13:20:44] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-17 13:20:44] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-17 13:20:46] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz]
+[2023-07-17 13:20:46] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2023-07-17 13:20:46] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2023-07-17 13:20:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.8.tar.gz]
+[2023-07-17 13:20:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.9.tar.gz]
+[2023-07-17 13:20:48] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-17 13:20:48] INFO root fetch - main [MainThread]: Store serial: [18915912]
