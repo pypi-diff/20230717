@@ -19175,3 +19175,150 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:30:57] INFO root fetch - processPackages [parse-emails]: Remove: archive file [/home/abi/fetcher/tmp/parse_emails-0.1.9.tar.gz]
 [2023-07-17 15:30:57] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
 [2023-07-17 15:30:57] INFO root fetch - main [MainThread]: Store serial: [18917504]
+[2023-07-17 15:36:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917504]
+[2023-07-17 15:36:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackbirds
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-alto-parser
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: documentdataextraction
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-action-conditionable
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bili-uas
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-BigApp
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sharkpoint
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kodexa
+[2023-07-17 15:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: su6
+[2023-07-17 15:36:07] INFO root fetch - processPackages [blackbirds]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [Flask-BigApp]: New version: [2023.1.9.7] Old Version: [2023.1.9.6]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [su6]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [simple-alto-parser]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [bili-uas]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [sharkpoint]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-07-17 15:36:07] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/c7/7a/7b0059d654ddce3845a32d0c1cd6094fa64a35b887551a5cad8c68f0306d/su6-1.6.0.tar.gz
+[2023-07-17 15:36:07] INFO root fetch - processPackages [sharkpoint]: Downloading https://files.pythonhosted.org/packages/b7/f7/04d323f811be96441e26e50ef8b9379b9e869c0a4796917861180a20678e/sharkpoint-2.0.1.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [blackbirds]: Downloading https://files.pythonhosted.org/packages/80/8d/eb7bd5f3735ee9d78fdc75b5ef2bf785093ea7063981eea2c2c25482b09a/blackbirds-0.1.0.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/a3/c7/fab22252942d51e32399bc12f316684d59a15e5aa7d4686a5d743591c8ac/bili-uas-0.1.9.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/58/cc/007d57aea8f41fe4fd50fa281c6b3d1c3d5c52cb742d97e5de043bafafe7/Flask-BigApp-2023.1.9.6.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/63/6e/deb0228be6522397dc1985afe0eee62c2cdcafd23453f0e5fb845084f9d1/simple-alto-parser-0.0.6.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-17 15:36:08] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: Downloading https://files.pythonhosted.org/packages/c7/84/a776cb8368ccacfc5a2e9576166f2b5cb9699d0ebe053c1e763bb9587a4e/odoo_addon_web_action_conditionable-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-17 15:36:08] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/91/ec/44d629da9e2627762c53eadda4c2fb81ff5adcddda651aee5aa96089dec0/su6-1.6.1.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [sharkpoint]: Downloading https://files.pythonhosted.org/packages/13/1b/49ac367abce19a0c57d6add757b1ca7eea8c0d4fe7b5c9d244fecb3bc343/sharkpoint-2.0.2.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/cb/3a/accc749cdcc8f7c16a691813ca2fdd800b935bac338bd299600ae1be1656/Flask-BigApp-2023.1.9.7.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [blackbirds]: Downloading https://files.pythonhosted.org/packages/65/f1/57f413ff07c27769800808ff42adc23ca3b10686eaa78894325930426438/blackbirds-1.0.0.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-17 15:36:08] INFO root fetch - processPackages [sharkpoint]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [sharkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharkpoint-2.0.1.tar.gz tmp/sharkpoint-2.0.2.tar.gz --markdown 20230717/s/sharkpoint/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.6.0.tar.gz tmp/su6-1.6.1.tar.gz --markdown 20230717/s/su6/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [Flask-BigApp]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [Flask-BigApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-BigApp-2023.1.9.6.tar.gz tmp/Flask-BigApp-2023.1.9.7.tar.gz --markdown 20230717/F/Flask-BigApp/2023.1.9.6-2023.1.9.7/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/31/a0/a03075ba46236fd57e815d500587a5c6441588ca657698e70f92ce6fb5e1/bili-uas-0.2.0.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/2d/84/288a775370c3b0a74c9022e38e06d864675ccef260b833fb692b0679afd6/simple-alto-parser-0.0.8.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: Downloading https://files.pythonhosted.org/packages/25/c5/440486451d6ee950af51217eb6b8cf65f8f9f588cdd1074c7892a1e525b5/odoo_addon_web_action_conditionable-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-17 15:36:08] INFO root fetch - processPackages [blackbirds]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [blackbirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackbirds-0.1.0.tar.gz tmp/blackbirds-1.0.0.tar.gz --markdown 20230717/b/blackbirds/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230717/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-17 15:36:08] INFO root fetch - processPackages [simple-alto-parser]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [simple-alto-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-alto-parser-0.0.6.tar.gz tmp/simple-alto-parser-0.0.8.tar.gz --markdown 20230717/s/simple-alto-parser/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.9.tar.gz tmp/bili-uas-0.2.0.tar.gz --markdown 20230717/b/bili-uas/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 15:36:08] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: executing diffoscope
+[2023-07-17 15:36:08] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_action_conditionable-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_action_conditionable-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-web-action-conditionable/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-17 15:36:09] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-17 15:36:09] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230717/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-17 15:36:09] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-17 15:36:09] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230717/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-07-17 15:36:10] INFO root fetch - processPackages [sharkpoint]: Remove: archive file [/home/abi/fetcher/tmp/sharkpoint-2.0.1.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [sharkpoint]: Remove: archive file [/home/abi/fetcher/tmp/sharkpoint-2.0.2.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [sharkpoint]: Start processing: ag-llama-hub
+[2023-07-17 15:36:10] INFO root fetch - main [MainThread]: End processing [sharkpoint]: success
+[2023-07-17 15:36:10] INFO root fetch - processPackages [ag-llama-hub]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [ag-llama-hub]: Downloading https://files.pythonhosted.org/packages/ac/4b/b4a9a59198d48525058386b52848cb064d43e52b898828d9b9f64f47c6db/ag_llama_hub-0.0.7.tar.gz
+[2023-07-17 15:36:10] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [documentdataextraction]: Start processing: oarepo-ui
+[2023-07-17 15:36:10] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-17 15:36:10] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [blackbirds]: Remove: archive file [/home/abi/fetcher/tmp/blackbirds-0.1.0.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [blackbirds]: Remove: archive file [/home/abi/fetcher/tmp/blackbirds-1.0.0.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [blackbirds]: Start processing: pathgenmap
+[2023-07-17 15:36:10] INFO root fetch - main [MainThread]: End processing [blackbirds]: success
+[2023-07-17 15:36:10] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-17 15:36:10] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.6.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.7.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [Flask-BigApp]: Start processing: pop-create
+[2023-07-17 15:36:10] INFO root fetch - main [MainThread]: End processing [Flask-BigApp]: success
+[2023-07-17 15:36:10] INFO root fetch - processPackages [pop-create]: New version: [8.0.0] Old Version: [7.3.1]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 15:36:10] INFO root fetch - processPackages [ag-llama-hub]: Downloading https://files.pythonhosted.org/packages/f3/cf/1ca3edc171c2e29b3f38041a6c40d31aec4871f3984218a30899c608ad0f/ag_llama_hub-0.0.8.tar.gz
+[2023-07-17 15:36:10] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.6.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.8.tar.gz]
+[2023-07-17 15:36:10] INFO root fetch - processPackages [simple-alto-parser]: Start processing: pyoxynet
+[2023-07-17 15:36:10] INFO root fetch - main [MainThread]: End processing [simple-alto-parser]: success
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [ag-llama-hub]: executing diffoscope
+[2023-07-17 15:36:11] INFO root fetch - processPackages [ag-llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_hub-0.0.7.tar.gz tmp/ag_llama_hub-0.0.8.tar.gz --markdown 20230717/a/ag-llama-hub/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 15:36:11] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.9.tar.gz]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.2.0.tar.gz]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [bili-uas]: Start processing: Sockets-connection
+[2023-07-17 15:36:11] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-17 15:36:11] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-07-17 15:36:11] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pop-create]: Downloading https://files.pythonhosted.org/packages/1e/d4/47a6ee88e4eb276cdc23842b9655dbf3a693b0930622aa65f9611ecec089/pop_create-7.3.1.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [Sockets-connection]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_action_conditionable-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [odoo-addon-web-action-conditionable]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_action_conditionable-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-17 15:36:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-action-conditionable]: success
+[2023-07-17 15:36:11] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-17 15:36:11] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-17 15:36:11] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-17 15:36:11] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-17 15:36:11] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230717/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-17 15:36:11] INFO root fetch - processPackages [Sockets-connection]: Downloading https://files.pythonhosted.org/packages/99/24/a032282b38c3d13f22ea3221a3a860befe0c9428606e85015175807de64b/Sockets_connection-0.0.3.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 15:36:11] INFO root fetch - processPackages [Sockets-connection]: Downloading https://files.pythonhosted.org/packages/b2/d0/8f50262b66430dd317f6e28170b957a1546185621563ccaf677f809d3cc7/Sockets_connection-0.0.4-py3-none-any.whl
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pop-create]: Downloading https://files.pythonhosted.org/packages/b1/02/21f59e9d3eff00a261f96682beb5369831130517d426ad3321377d98e4d1/pop_create-8.0.0.tar.gz
+[2023-07-17 15:36:11] INFO root fetch - processPackages [Sockets-connection]: executing diffoscope
+[2023-07-17 15:36:11] INFO root fetch - processPackages [Sockets-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sockets_connection-0.0.3.tar.gz tmp/Sockets_connection-0.0.4-py3-none-any.whl.zip --markdown 20230717/S/Sockets-connection/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pop-create]: executing diffoscope
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pop-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_create-7.3.1.tar.gz tmp/pop_create-8.0.0.tar.gz --markdown 20230717/p/pop-create/7.3.1-8.0.0/diff.md --exclude *.pyd
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-17 15:36:11] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230717/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-17 15:36:12] INFO root fetch - processPackages [ag-llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub-0.0.7.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - processPackages [ag-llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub-0.0.8.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - main [MainThread]: End processing [ag-llama-hub]: success
+[2023-07-17 15:36:12] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 15:36:12] INFO root fetch - processPackages [Sockets-connection]: Remove: archive file [/home/abi/fetcher/tmp/Sockets_connection-0.0.3.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - processPackages [Sockets-connection]: Remove: archive file [/home/abi/fetcher/tmp/Sockets_connection-0.0.4-py3-none-any.whl.zip]
+[2023-07-17 15:36:12] INFO root fetch - main [MainThread]: End processing [Sockets-connection]: success
+[2023-07-17 15:36:12] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-17 15:36:12] INFO root fetch - processPackages [pop-create]: Remove: archive file [/home/abi/fetcher/tmp/pop_create-7.3.1.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - processPackages [pop-create]: Remove: archive file [/home/abi/fetcher/tmp/pop_create-8.0.0.tar.gz]
+[2023-07-17 15:36:12] INFO root fetch - main [MainThread]: End processing [pop-create]: success
+[2023-07-17 15:36:13] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-17 15:36:13] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-17 15:36:13] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-17 15:36:20] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.0.tar.gz]
+[2023-07-17 15:36:20] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.1.tar.gz]
+[2023-07-17 15:36:20] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-07-17 15:36:20] INFO root fetch - main [MainThread]: Store serial: [18917548]
