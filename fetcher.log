@@ -19322,3 +19322,104 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:36:20] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.1.tar.gz]
 [2023-07-17 15:36:20] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-07-17 15:36:20] INFO root fetch - main [MainThread]: Store serial: [18917548]
+[2023-07-17 15:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917548]
+[2023-07-17 15:41:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-core
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataplicity
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: su6
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tutor-contrib-panorama
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: racetrack-client
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: walrus
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Sockets-connection
+[2023-07-17 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly
+[2023-07-17 15:41:31] INFO root fetch - processPackages [tutor-contrib-panorama]: New version: [15.0.0] Old Version: [14.0.1]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [su6]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.17] Old Version: [2023.7.16]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [Sockets-connection]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [pypomes-core]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [walrus]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 15:41:31] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-17 15:41:31] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/91/ec/44d629da9e2627762c53eadda4c2fb81ff5adcddda651aee5aa96089dec0/su6-1.6.1.tar.gz
+[2023-07-17 15:41:31] INFO root fetch - processPackages [tutor-contrib-panorama]: Downloading https://files.pythonhosted.org/packages/c9/f7/295a03ed7d14bc9a316aa5aed09871bce8e441f565777b07d226abf667ba/tutor-contrib-panorama-14.0.1.tar.gz
+[2023-07-17 15:41:31] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 15:41:31] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/fd/ea/89e7bd46d52734add87796825d311a550126594d34d8c176cb7a268d1e5d/pypomes_core-0.1.6.tar.gz
+[2023-07-17 15:41:31] INFO root fetch - processPackages [Sockets-connection]: Downloading https://files.pythonhosted.org/packages/6f/64/4c6f8686286a29b86467b03e27755d8991e79deb63f8a9153cddc08aea67/Sockets_connection-0.0.5-py3-none-any.whl
+[2023-07-17 15:41:31] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/3b/46/5dd0a94fa3ee36941e9ce8653946b3d002ed815aa24f0f4062bac39511db/fbgemm_gpu_nightly-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-17 15:41:31] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 15:41:31] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2023-07-17 15:41:31] INFO root fetch - processPackages [walrus]: Downloading https://files.pythonhosted.org/packages/bd/ba/620f31d1e706aa6df33d9edd7974974a88c6bf4fe94c058cc5f08ae4644c/walrus-0.9.2.tar.gz
+[2023-07-17 15:41:33] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218747160>=10485760
+[2023-07-17 15:41:33] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: matexp
+[2023-07-17 15:41:33] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-17 15:41:33] INFO root fetch - processPackages [matexp]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-17 15:41:33] INFO root fetch - processPackages [tutor-contrib-panorama]: Downloading https://files.pythonhosted.org/packages/06/f6/a63ea5aa94e9e9d28d6e10f26bcbf3950bb8b06bc59fac771c8e30c420b0/tutor-contrib-panorama-15.0.0.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 15:41:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 15:41:33] INFO root fetch - processPackages [walrus]: Downloading https://files.pythonhosted.org/packages/e8/cd/7b42e455155ef252bc3a2f1ee3a17b421ef64d25be9e06223304bff95670/walrus-0.9.3.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [Sockets-connection]: Downloading https://files.pythonhosted.org/packages/4a/e5/90c243785702469652c321c389e4fdd874a99264624b5dce710561be6d4e/Sockets_connection-0.0.6-py3-none-any.whl
+[2023-07-17 15:41:33] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/7a/3b/ad9563dce724b9d0059e30c0493248e5be934ac5fafa881d9d1327583aba/pypomes_core-0.1.7.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [matexp]: Downloading https://files.pythonhosted.org/packages/77/38/452220ecff664144789035f0d3c2bbd543c3d6b602977fa7056582ccda8c/matexp-0.0.1.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [tutor-contrib-panorama]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [tutor-contrib-panorama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-panorama-14.0.1.tar.gz tmp/tutor-contrib-panorama-15.0.0.tar.gz --markdown 20230717/t/tutor-contrib-panorama/14.0.1-15.0.0/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/39/59/fc5b9c14800edd0232507a8eb56f41c1a042a4d889a71fa4182c4b1edc87/su6-1.6.2.tar.gz
+[2023-07-17 15:41:33] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230717/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [Sockets-connection]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [Sockets-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sockets_connection-0.0.5-py3-none-any.whl.zip tmp/Sockets_connection-0.0.6-py3-none-any.whl.zip --markdown 20230717/S/Sockets-connection/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [walrus]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walrus-0.9.2.tar.gz tmp/walrus-0.9.3.tar.gz --markdown 20230717/w/walrus/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.1.6.tar.gz tmp/pypomes_core-0.1.7.tar.gz --markdown 20230717/p/pypomes-core/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.6.1.tar.gz tmp/su6-1.6.2.tar.gz --markdown 20230717/s/su6/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-17 15:41:33] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2023-07-17 15:41:33] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20230717/r/racetrack-client/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-17 15:41:34] INFO root fetch - processPackages [matexp]: Downloading https://files.pythonhosted.org/packages/92/84/3712efbe0a44b784d5a90854d958f2ad7f3d0c5d881cc1cbde03e0033f2d/matexp-1.0.0.tar.gz
+[2023-07-17 15:41:34] INFO root fetch - processPackages [matexp]: executing diffoscope
+[2023-07-17 15:41:34] INFO root fetch - processPackages [matexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matexp-0.0.1.tar.gz tmp/matexp-1.0.0.tar.gz --markdown 20230717/m/matexp/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-17 15:41:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 15:41:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 15:41:35] INFO root fetch - processPackages [few-shot-priming]: Start processing: nrobo
+[2023-07-17 15:41:35] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 15:41:35] INFO root fetch - processPackages [Sockets-connection]: Remove: archive file [/home/abi/fetcher/tmp/Sockets_connection-0.0.5-py3-none-any.whl.zip]
+[2023-07-17 15:41:35] INFO root fetch - processPackages [Sockets-connection]: Remove: archive file [/home/abi/fetcher/tmp/Sockets_connection-0.0.6-py3-none-any.whl.zip]
+[2023-07-17 15:41:35] INFO root fetch - main [MainThread]: End processing [Sockets-connection]: success
+[2023-07-17 15:41:36] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.6.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.7.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-07-17 15:41:36] INFO root fetch - processPackages [nrobo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-17 15:41:36] INFO root fetch - processPackages [tutor-contrib-panorama]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-panorama-14.0.1.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [tutor-contrib-panorama]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-panorama-15.0.0.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [tutor-contrib-panorama]: success
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 15:41:36] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2023-07-17 15:41:36] INFO root fetch - processPackages [walrus]: Remove: archive file [/home/abi/fetcher/tmp/walrus-0.9.2.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [walrus]: Remove: archive file [/home/abi/fetcher/tmp/walrus-0.9.3.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [walrus]: success
+[2023-07-17 15:41:36] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/85/01/55b435abcb1fac7d6b65be649216d8d0e940f6f90b40034379b3be7119cc/nrobo-2.0.8.tar.gz
+[2023-07-17 15:41:36] INFO root fetch - processPackages [matexp]: Remove: archive file [/home/abi/fetcher/tmp/matexp-0.0.1.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - processPackages [matexp]: Remove: archive file [/home/abi/fetcher/tmp/matexp-1.0.0.tar.gz]
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [matexp]: success
+[2023-07-17 15:41:36] WARNING root fetch - processPackages [nrobo]: Skipping package: exceeds size limit 56550856>=10485760
+[2023-07-17 15:41:36] INFO root fetch - main [MainThread]: End processing [nrobo] error
+[2023-07-17 15:41:45] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.1.tar.gz]
+[2023-07-17 15:41:45] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.2.tar.gz]
+[2023-07-17 15:41:45] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-07-17 15:41:45] INFO root fetch - main [MainThread]: Store serial: [18917581]
