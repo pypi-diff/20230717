@@ -13752,3 +13752,140 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:00:53] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-17 12:00:53] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-17 12:00:53] INFO root fetch - main [MainThread]: Store serial: [18915085]
+[2023-07-17 12:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915085]
+[2023-07-17 12:06:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meteva-base
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: har2pm
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tigersyn
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightningdata-modules
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up-enhsp
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotemanager
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anicli-api
+[2023-07-17 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest_ignore_test_results
+[2023-07-17 12:06:03] INFO root fetch - processPackages [lightningdata-modules]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [har2pm]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [meteva-base]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [tigersyn]: New version: [0.0.2rc0] Old Version: [0.0.2b0]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [up-enhsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [anicli-api]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [crypto-screening]: New version: [5.5.0] Old Version: [5.4.1]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [pytest_ignore_test_results]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [remotemanager]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-17 12:06:03] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/ea/ef/a0cfa1b5e8f118e1ecc6b40640e8100bb4ef522760472112888016281989/tigersyn-0.0.2b0.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [lightningdata-modules]: Downloading https://files.pythonhosted.org/packages/f2/24/4935735c7e8d7586ce986134cc1958cad510db21d0e5cb5408f58cbec12b/lightningdata-modules-0.1.8.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [har2pm]: Downloading https://files.pythonhosted.org/packages/c7/76/e5cc196b0b1c31043be9793c18670b247acaae42d16be717666dbc507305/har2pm-0.1.4.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/96/93/6dbbc2efe6097f9efae2428f7650ccd2bbb13e6a175e555d93a467fc3be3/crypto-screening-5.4.1.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/98/47/a5c5ac628fa2fa491c466c770477a45d9a8a0597280a9b76a817999dd0b8/meteva_base-0.1.6-py3-none-any.whl
+[2023-07-17 12:06:03] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/ee/da/d75e6cb221567e40a63dce5636ed9a1da002bd6081730c5b4ca5c6c32981/up_enhsp-0.0.8.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/fe/f6/f2e339ce589083f4f65551bf08d3db25bff753f9c1cd379988a6c55b60fd/remotemanager-0.8.4.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [anicli-api]: Downloading https://files.pythonhosted.org/packages/91/2c/833cd9c975382aeb547fff463f865b296d2738e3cad9c8595f507b067360/anicli_api-0.4.3.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [tigersyn]: executing diffoscope
+[2023-07-17 12:06:03] INFO root fetch - processPackages [tigersyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigersyn-0.0.2b0.tar.gz tmp/tigersyn-0.0.2rc0.tar.gz --markdown 20230717/t/tigersyn/0.0.2b0-0.0.2rc0/diff.md --exclude *.pyd
+[2023-07-17 12:06:03] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [pytest_ignore_test_results]: Downloading https://files.pythonhosted.org/packages/5c/05/f147a58639c55b38035878a163f55e25c7780d68f851ee73deda7ff54d46/pytest_ignore_test_results-0.1.0.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [har2pm]: Downloading https://files.pythonhosted.org/packages/e2/2b/e0e864813f76f92a3fbfbc246cc4ed52d815f8bbb1a3bd07afad0eb6446a/har2pm-0.1.5.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/3d/22/cbe43f01d0954cbb4ab7000ef2c2d0f85ae10f2157f43665195f9e938a21/crypto-screening-5.5.0.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [lightningdata-modules]: Downloading https://files.pythonhosted.org/packages/a2/69/00617670585883040d483fc90870f70dcfae1847556e1f00be0a8db135ea/lightningdata-modules-0.1.9.tar.gz
+[2023-07-17 12:06:03] INFO root fetch - processPackages [anicli-api]: Downloading https://files.pythonhosted.org/packages/c0/ba/e8c6a44669949e185bac350e3d567189966dd83fd6de727f63b9ff483ef2/anicli_api-0.4.4.tar.gz
+[2023-07-17 12:06:04] INFO root fetch - processPackages [har2pm]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [har2pm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2pm-0.1.4.tar.gz tmp/har2pm-0.1.5.tar.gz --markdown 20230717/h/har2pm/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/51/39/994b4b1d7e6744c4315d9508cc8426b61a6e2bbac79a0689478fbcb686d8/remotemanager-0.8.5.tar.gz
+[2023-07-17 12:06:04] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.4.1.tar.gz tmp/crypto-screening-5.5.0.tar.gz --markdown 20230717/c/crypto-screening/5.4.1-5.5.0/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/f5/aa/1993e760de457168893925e9742993e9ac1648d509b9206348e5fe17e85e/up_enhsp-0.0.9.tar.gz
+[2023-07-17 12:06:04] INFO root fetch - processPackages [lightningdata-modules]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [lightningdata-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningdata-modules-0.1.8.tar.gz tmp/lightningdata-modules-0.1.9.tar.gz --markdown 20230717/l/lightningdata-modules/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [anicli-api]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [anicli-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anicli_api-0.4.3.tar.gz tmp/anicli_api-0.4.4.tar.gz --markdown 20230717/a/anicli-api/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.8.4.tar.gz tmp/remotemanager-0.8.5.tar.gz --markdown 20230717/r/remotemanager/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [pytest_ignore_test_results]: Downloading https://files.pythonhosted.org/packages/44/d8/9455bff53305c3c64459c699d711350fcf238a5f9d66ed78ea2873b444b2/pytest_ignore_test_results-0.2.0.tar.gz
+[2023-07-17 12:06:04] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/5e/b8/dd02d79fee82715b02f9f68d47361a015a43853d9da77f9f2531b2a4a904/meteva_base-0.1.7-py3-none-any.whl
+[2023-07-17 12:06:04] INFO root fetch - processPackages [up-enhsp]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [up-enhsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_enhsp-0.0.8.tar.gz tmp/up_enhsp-0.0.9.tar.gz --markdown 20230717/u/up-enhsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [pytest_ignore_test_results]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [pytest_ignore_test_results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ignore_test_results-0.1.0.tar.gz tmp/pytest_ignore_test_results-0.2.0.tar.gz --markdown 20230717/p/pytest_ignore_test_results/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [meteva-base]: executing diffoscope
+[2023-07-17 12:06:04] INFO root fetch - processPackages [meteva-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva_base-0.1.6-py3-none-any.whl.zip tmp/meteva_base-0.1.7-py3-none-any.whl.zip --markdown 20230717/m/meteva-base/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-17 12:06:04] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-17 12:06:04] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.2b0.tar.gz]
+[2023-07-17 12:06:04] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.2rc0.tar.gz]
+[2023-07-17 12:06:04] INFO root fetch - processPackages [tigersyn]: Start processing: assisted-service-client
+[2023-07-17 12:06:04] INFO root fetch - main [MainThread]: End processing [tigersyn]: success
+[2023-07-17 12:06:04] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-17 12:06:04] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-17 12:06:05] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-17 12:06:05] INFO root fetch - processPackages [har2pm]: Remove: archive file [/home/abi/fetcher/tmp/har2pm-0.1.4.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [har2pm]: Remove: archive file [/home/abi/fetcher/tmp/har2pm-0.1.5.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [har2pm]: Start processing: IMSmartFinderNinja
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [har2pm]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [anicli-api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.4.3.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [anicli-api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.4.4.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [anicli-api]: Start processing: reservoirpy
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [anicli-api]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-17 12:06:05] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230717/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:06:05] INFO root fetch - processPackages [reservoirpy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [up-enhsp]: Remove: archive file [/home/abi/fetcher/tmp/up_enhsp-0.0.8.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [up-enhsp]: Remove: archive file [/home/abi/fetcher/tmp/up_enhsp-0.0.9.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [up-enhsp]: Start processing: liveramp-automation-framework
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [up-enhsp]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/07/c8/2ff492b91eddeaef6c997a3cdb5e600a182a8f392c8f0f54edf35446f582/IMSmartFinderNinja-0.0.8.tar.gz
+[2023-07-17 12:06:05] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-17 12:06:05] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230717/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-17 12:06:05] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.4.1.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.5.0.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [crypto-screening]: Start processing: th2-grpc-lw-data-provider
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.4.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.5.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5574085857]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [lightningdata-modules]: Remove: archive file [/home/abi/fetcher/tmp/lightningdata-modules-0.1.8.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [lightningdata-modules]: Remove: archive file [/home/abi/fetcher/tmp/lightningdata-modules-0.1.9.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [lightningdata-modules]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [pytest_ignore_test_results]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ignore_test_results-0.1.0.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - processPackages [pytest_ignore_test_results]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ignore_test_results-0.2.0.tar.gz]
+[2023-07-17 12:06:05] INFO root fetch - main [MainThread]: End processing [pytest_ignore_test_results]: success
+[2023-07-17 12:06:05] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ae/ed/ffc448f52a3f8a475797e889b02703d43aaff6ff9fd950f2b46e8fedd442/th2_grpc_lw_data_provider-2.0.0.dev5574085857.tar.gz
+[2023-07-17 12:06:05] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/c2/0c/0bc6b3353bec28e518e220c6aa4f8106f4a04db21cce4633917a331f6d2d/liveramp_automation_framework-0.1.9.tar.gz
+[2023-07-17 12:06:05] INFO root fetch - processPackages [reservoirpy]: Downloading https://files.pythonhosted.org/packages/0e/cb/232acc3c62dbd6708c83e9ea66f545149c80fbf0817fed9514e7110bad89/reservoirpy-0.3.8.tar.gz
+[2023-07-17 12:06:06] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/fb/32/4cd4142e73c5b7d932770424e5d986f2f629d0c3f353a31438752b51ccf2/IMSmartFinderNinja-0.0.9.tar.gz
+[2023-07-17 12:06:06] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-17 12:06:06] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.0.8.tar.gz tmp/IMSmartFinderNinja-0.0.9.tar.gz --markdown 20230717/I/IMSmartFinderNinja/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:06:06] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-17 12:06:06] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/72/ce/6c3996ba2b705a80118ac81bd165fac164f0bcd0e7aec39f5cd9f69429b5/liveramp_automation_framework-0.1.9.1.tar.gz
+[2023-07-17 12:06:06] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-07-17 12:06:06] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.9.tar.gz tmp/liveramp_automation_framework-0.1.9.1.tar.gz --markdown 20230717/l/liveramp-automation-framework/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-07-17 12:06:06] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-17 12:06:06] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5574085857.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230717/t/th2-grpc-lw-data-provider/2.0.0.dev5574085857-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-17 12:06:06] INFO root fetch - processPackages [reservoirpy]: Downloading https://files.pythonhosted.org/packages/3a/98/521850c7135f8c92ca90a8f420c55c61abf0e5e104dbe4ef96c3dc2bc383/reservoirpy-0.3.9.tar.gz
+[2023-07-17 12:06:06] INFO root fetch - processPackages [reservoirpy]: executing diffoscope
+[2023-07-17 12:06:06] INFO root fetch - processPackages [reservoirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reservoirpy-0.3.8.tar.gz tmp/reservoirpy-0.3.9.tar.gz --markdown 20230717/r/reservoirpy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 12:06:06] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.6-py3-none-any.whl.zip]
+[2023-07-17 12:06:06] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.7-py3-none-any.whl.zip]
+[2023-07-17 12:06:06] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
+[2023-07-17 12:06:07] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.8.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.0.9.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-17 12:06:07] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.9.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.9.1.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-07-17 12:06:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5574085857.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-17 12:06:07] INFO root fetch - processPackages [reservoirpy]: Remove: archive file [/home/abi/fetcher/tmp/reservoirpy-0.3.8.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - processPackages [reservoirpy]: Remove: archive file [/home/abi/fetcher/tmp/reservoirpy-0.3.9.tar.gz]
+[2023-07-17 12:06:07] INFO root fetch - main [MainThread]: End processing [reservoirpy]: success
+[2023-07-17 12:06:08] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-17 12:06:08] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-17 12:06:08] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-17 12:06:10] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-17 12:06:10] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-17 12:06:11] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-17 12:06:11] INFO root fetch - main [MainThread]: Store serial: [18915129]
