@@ -14846,3 +14846,138 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:44:05] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230716.tar.gz]
 [2023-07-17 12:44:05] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2023-07-17 12:44:05] INFO root fetch - main [MainThread]: Store serial: [18915587]
+[2023-07-17 12:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915587]
+[2023-07-17 12:49:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riptide-plugin-php-xdebug
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-villa
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peft
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spdb
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basking-sdk
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crjbsim
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: combustion-predictive-thermometer-python
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discordbot-bc-editor
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-07-17 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lmclient-core
+[2023-07-17 12:49:15] INFO root fetch - processPackages [peft]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-17 12:49:15] WARNING root fetch - processPackages [discordbot-bc-editor]: Skipping, unable to determine old version
+[2023-07-17 12:49:15] INFO root fetch - processPackages [discordbot-bc-editor]: Start processing: delaunay-watershed-3d
+[2023-07-17 12:49:15] INFO root fetch - main [MainThread]: End processing [discordbot-bc-editor] error
+[2023-07-17 12:49:15] INFO root fetch - processPackages [spdb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [basking-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [lmclient-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [crjbsim]: New version: [1.0] Old Version: [0.7]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [delaunay-watershed-3d]: New version: [0.2.8] Old Version: [0.2.5]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-17 12:49:15] WARNING root fetch - processPackages [combustion-predictive-thermometer-python]: Skipping, unable to determine old version
+[2023-07-17 12:49:15] INFO root fetch - processPackages [combustion-predictive-thermometer-python]: Start processing: foambryo
+[2023-07-17 12:49:15] INFO root fetch - main [MainThread]: End processing [combustion-predictive-thermometer-python] error
+[2023-07-17 12:49:15] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [kcli]: New version: [99.0.202307171045] Old Version: [99.0.202307161842]
+[2023-07-17 12:49:15] INFO root fetch - processPackages [foambryo]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 12:49:16] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3a/f6/fb2a8e3df1e34ddced4dcae2d649d356d48dafd996a5b745304477c703e4/kcli-99.0.202307161842-py3-none-any.whl
+[2023-07-17 12:49:16] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/67/1f/4a914139f8a04754af8f75df2263bd632ad3a57db0c2c4730b1b5d489add/foambryo-0.2.8.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/b7/57/fe43ea5760d3d4a66c78553add614e5a27caa23003b16541d0d407e0c285/spdb-1.0.0.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: Downloading https://files.pythonhosted.org/packages/87/a9/d43d47e021827b32bd88579af713f204e677673f02171b3c21632b216fee/riptide_plugin_php_xdebug-0.8.0-py3-none-any.whl
+[2023-07-17 12:49:16] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/16/9b/43936b65a034d12c19503e9e5e837dbe7be9e2b93221b0e8bb27be7bcd8d/lmclient_core-0.3.0.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [crjbsim]: Downloading https://files.pythonhosted.org/packages/6a/2d/03fd871cb89a9b6acf94d7c7ff08e8de15fcc2c677d116f3bb3abcd0e527/crjbsim-0.7.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [basking-sdk]: Downloading https://files.pythonhosted.org/packages/bd/7f/788f623d72868024475b42401a9a1e31ef786f7aa06bafdfa6950704d113/basking-sdk-0.9.8.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [peft]: Downloading https://files.pythonhosted.org/packages/9a/ac/862aa187c8a42d8133090d76fd626044a4166e5db17bcc11c9fca8548ee4/peft-0.3.0.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [delaunay-watershed-3d]: Downloading https://files.pythonhosted.org/packages/a8/7e/d922a1e85a38856479c872a6812f3e7cd4c52571307a0dcfa5a0c8be5365/delaunay_watershed_3d-0.2.5.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/3f/bf/3f2ee3b65cb16249f362ad25738d84a171cde97959613ab49a9b4cbed496/nonebot_adapter_villa-0.5.6.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/44/1a/761095bd1832ddae283daa61f888f31eff90bc751ffa46f86edf575aa242/spdb-1.0.1.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/b9/fd/7893291363e4234f79f92460d8c6d9a202b88396f897554f98f9cd8ac529/foambryo-0.2.9.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/6b/66/79ddcf7c009ab1e5e93673df6e3a8e547b859b9c26eb62e9eb5903c28a48/kcli-99.0.202307171045-py3-none-any.whl
+[2023-07-17 12:49:16] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/eb/9e/5b6cbb87802000ff792f397020b3a2cb00a1e68bca5893f12d184df0825d/lmclient_core-0.3.1.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: Downloading https://files.pythonhosted.org/packages/af/d0/2c73d0d5403a9a52e4c48f9b696eaebe7a454aa45def52ff549c248074a0/riptide_plugin_php_xdebug-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:49:16] INFO root fetch - processPackages [peft]: Downloading https://files.pythonhosted.org/packages/26/54/dbdad73535c0421cc93ab10ff73f20919b90a4030c2daf53c83795e74896/peft-0.4.0.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 12:49:16] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.0.tar.gz tmp/spdb-1.0.1.tar.gz --markdown 20230717/s/spdb/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 12:49:16] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-07-17 12:49:16] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.2.8.tar.gz tmp/foambryo-0.2.9.tar.gz --markdown 20230717/f/foambryo/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 12:49:16] INFO root fetch - processPackages [crjbsim]: Downloading https://files.pythonhosted.org/packages/22/89/b9606ecc2839c3ca038d1fcc9f2e8d915fbe890f6a60ce244547a61c8797/crjbsim-1.0.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/ce/29/70b86a6578477401786b0461f3cb3630a17b0bb7d52c70bc69b7e1c8731a/nonebot_adapter_villa-0.6.0.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [basking-sdk]: Downloading https://files.pythonhosted.org/packages/fe/4a/dcb7d8e63397c8a76449619a49b4e6d7bab38e18321fa4b9c5c190f7ec5d/basking-sdk-0.9.9.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [delaunay-watershed-3d]: Downloading https://files.pythonhosted.org/packages/20/d0/138bf24a85ceb9e39dcd1d1aa743f1fd9a04657f570c8f0ac66e8ddd236a/delaunay_watershed_3d-0.2.8.tar.gz
+[2023-07-17 12:49:16] INFO root fetch - processPackages [lmclient-core]: executing diffoscope
+[2023-07-17 12:49:16] INFO root fetch - processPackages [lmclient-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmclient_core-0.3.0.tar.gz tmp/lmclient_core-0.3.1.tar.gz --markdown 20230717/l/lmclient-core/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-17 12:49:16] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-17 12:49:16] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307161842-py3-none-any.whl.zip tmp/kcli-99.0.202307171045-py3-none-any.whl.zip --markdown 20230717/k/kcli/99.0.202307161842-99.0.202307171045/diff.md --exclude *.pyd
+[2023-07-17 12:49:16] INFO root fetch - processPackages [peft]: executing diffoscope
+[2023-07-17 12:49:16] INFO root fetch - processPackages [peft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peft-0.3.0.tar.gz tmp/peft-0.4.0.tar.gz --markdown 20230717/p/peft/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-17 12:49:16] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: executing diffoscope
+[2023-07-17 12:49:16] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_plugin_php_xdebug-0.8.0-py3-none-any.whl.zip tmp/riptide_plugin_php_xdebug-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-plugin-php-xdebug/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:49:17] INFO root fetch - processPackages [crjbsim]: executing diffoscope
+[2023-07-17 12:49:17] INFO root fetch - processPackages [crjbsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crjbsim-0.7.tar.gz tmp/crjbsim-1.0.tar.gz --markdown 20230717/c/crjbsim/0.7-1.0/diff.md --exclude *.pyd
+[2023-07-17 12:49:17] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-17 12:49:17] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.5.6.tar.gz tmp/nonebot_adapter_villa-0.6.0.tar.gz --markdown 20230717/n/nonebot-adapter-villa/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 12:49:17] INFO root fetch - processPackages [delaunay-watershed-3d]: executing diffoscope
+[2023-07-17 12:49:17] INFO root fetch - processPackages [delaunay-watershed-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delaunay_watershed_3d-0.2.5.tar.gz tmp/delaunay_watershed_3d-0.2.8.tar.gz --markdown 20230717/d/delaunay-watershed-3d/0.2.5-0.2.8/diff.md --exclude *.pyd
+[2023-07-17 12:49:17] INFO root fetch - processPackages [basking-sdk]: executing diffoscope
+[2023-07-17 12:49:17] INFO root fetch - processPackages [basking-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basking-sdk-0.9.8.tar.gz tmp/basking-sdk-0.9.9.tar.gz --markdown 20230717/b/basking-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 12:49:18] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.0.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.1.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [spdb]: Start processing: intezer-sdk
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.8.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.9.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [foambryo]: Start processing: few-shot-priming
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [lmclient-core]: Remove: archive file [/home/abi/fetcher/tmp/lmclient_core-0.3.0.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [lmclient-core]: Remove: archive file [/home/abi/fetcher/tmp/lmclient_core-0.3.1.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [lmclient-core]: Start processing: roerich
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [lmclient-core]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-17 12:49:18] INFO root fetch - processPackages [roerich]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-07-17 12:49:18] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.6.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.0.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [nonebot-adapter-villa]: Start processing: kfish
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [crjbsim]: Remove: archive file [/home/abi/fetcher/tmp/crjbsim-0.7.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [crjbsim]: Remove: archive file [/home/abi/fetcher/tmp/crjbsim-1.0.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [crjbsim]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: Remove: archive file [/home/abi/fetcher/tmp/riptide_plugin_php_xdebug-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [riptide-plugin-php-xdebug]: Remove: archive file [/home/abi/fetcher/tmp/riptide_plugin_php_xdebug-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [riptide-plugin-php-xdebug]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [kfish]: New version: [99.0.202307161845] Old Version: [99.0.202307161511]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [delaunay-watershed-3d]: Remove: archive file [/home/abi/fetcher/tmp/delaunay_watershed_3d-0.2.5.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [delaunay-watershed-3d]: Remove: archive file [/home/abi/fetcher/tmp/delaunay_watershed_3d-0.2.8.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [delaunay-watershed-3d]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [basking-sdk]: Remove: archive file [/home/abi/fetcher/tmp/basking-sdk-0.9.8.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [basking-sdk]: Remove: archive file [/home/abi/fetcher/tmp/basking-sdk-0.9.9.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [basking-sdk]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-17 12:49:18] INFO root fetch - processPackages [peft]: Remove: archive file [/home/abi/fetcher/tmp/peft-0.3.0.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - processPackages [peft]: Remove: archive file [/home/abi/fetcher/tmp/peft-0.4.0.tar.gz]
+[2023-07-17 12:49:18] INFO root fetch - main [MainThread]: End processing [peft]: success
+[2023-07-17 12:49:18] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/82/a9/bd70c948b2bf7a48b57c54af30c414b0edb3e72593457b51cb55d5340d99/kfish-99.0.202307161511-py3-none-any.whl
+[2023-07-17 12:49:18] INFO root fetch - processPackages [roerich]: Downloading https://files.pythonhosted.org/packages/ea/d7/d99cf1fde0562f55cd7cbd6d520fd1fc164374e443b0a6408a94070d55c5/roerich-0.5.0.tar.gz
+[2023-07-17 12:49:19] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-17 12:49:19] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230717/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 12:49:19] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ce/9d/95621350edbe1085c0d22b99e21a799c04bfd620b54e06e9f99370f276fb/kfish-99.0.202307161845-py3-none-any.whl
+[2023-07-17 12:49:19] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-07-17 12:49:19] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-17 12:49:19] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307161511-py3-none-any.whl.zip tmp/kfish-99.0.202307161845-py3-none-any.whl.zip --markdown 20230717/k/kfish/99.0.202307161511-99.0.202307161845/diff.md --exclude *.pyd
+[2023-07-17 12:49:19] INFO root fetch - processPackages [roerich]: Downloading https://files.pythonhosted.org/packages/24/47/3937b28ea505a13e813260803544bcc404497bcaac4be3e1b74c447cc361/roerich-0.6.0.tar.gz
+[2023-07-17 12:49:19] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-07-17 12:49:19] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230717/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-17 12:49:19] INFO root fetch - processPackages [roerich]: executing diffoscope
+[2023-07-17 12:49:19] INFO root fetch - processPackages [roerich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roerich-0.5.0.tar.gz tmp/roerich-0.6.0.tar.gz --markdown 20230717/r/roerich/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 12:49:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307161511-py3-none-any.whl.zip]
+[2023-07-17 12:49:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307161845-py3-none-any.whl.zip]
+[2023-07-17 12:49:20] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-17 12:49:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-17 12:49:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-17 12:49:20] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-17 12:49:20] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-07-17 12:49:20] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-07-17 12:49:20] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-07-17 12:49:20] INFO root fetch - processPackages [roerich]: Remove: archive file [/home/abi/fetcher/tmp/roerich-0.5.0.tar.gz]
+[2023-07-17 12:49:20] INFO root fetch - processPackages [roerich]: Remove: archive file [/home/abi/fetcher/tmp/roerich-0.6.0.tar.gz]
+[2023-07-17 12:49:20] INFO root fetch - main [MainThread]: End processing [roerich]: success
+[2023-07-17 12:49:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307161842-py3-none-any.whl.zip]
+[2023-07-17 12:49:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307171045-py3-none-any.whl.zip]
+[2023-07-17 12:49:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-17 12:49:21] INFO root fetch - main [MainThread]: Store serial: [18915657]
