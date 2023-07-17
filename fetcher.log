@@ -5229,3 +5229,69 @@
 [2023-07-17 03:53:52] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
 [2023-07-17 03:53:52] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
 [2023-07-17 03:53:52] INFO root fetch - main [MainThread]: Store serial: [18911594]
+[2023-07-17 03:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911594]
+[2023-07-17 03:59:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyGraphica
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chai-guanaco
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zengin-code
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waffle-hub
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xpdt
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: switbuilder-core
+[2023-07-17 03:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flux-burst-compute-engine
+[2023-07-17 03:59:00] INFO root fetch - processPackages [waffle-hub]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [flux-burst-compute-engine]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [zengin-code]: New version: [1.1.0.20230717] Old Version: [1.1.0.20230607]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [chai-guanaco]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [xpdt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [PyGraphica]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-17 03:59:00] INFO root fetch - processPackages [xpdt]: Downloading https://files.pythonhosted.org/packages/0f/f9/b062a379f3184a3b71d928eed2d5d226c60573ec0df4b6911de8e99216ae/xpdt-0.2.0.tar.gz
+[2023-07-17 03:59:00] INFO root fetch - processPackages [flux-burst-compute-engine]: Downloading https://files.pythonhosted.org/packages/b1/01/21f6ef3c1416f1e4abc5db82117cc0406bdaf80d60ec7e831466b9404bcd/flux-burst-compute-engine-0.0.11.tar.gz
+[2023-07-17 03:59:00] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/26/36/d8eb7d2225e3a745b06292341f2b79788bb632a79ac4ddad1bc730c6262c/switbuilder_core-0.0.4.tar.gz
+[2023-07-17 03:59:00] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/dc/f9/c412fbdcf8c28f27dbe55c0571c4333722d712b7e371c600124a16496efe/chai-guanaco-1.0.5.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/21/79/070147625df9b34dfca03963e83d8624076ae0e4bd68f0d536c339eebace/waffle_hub-0.2.5.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/f8/34/622ffb0339624193c5f21287ba66a3a13c369332ba81672a5691305e0ef2/PyGraphica-0.0.8.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/74/0e/c6f13a07f6c5f9eee557cf1277b25508b8c98ca7258d7f93a98e05f223c1/zengin_code-1.1.0.20230607.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [flux-burst-compute-engine]: Downloading https://files.pythonhosted.org/packages/b1/04/95ccee2c72fe1d7eada8c5f69f7b6bf458940e3a6cfd044dfcb18ede89dd/flux-burst-compute-engine-0.0.12.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [xpdt]: Downloading https://files.pythonhosted.org/packages/10/b9/e33ed57abe05f785f1784db6981490287267360561b246ff04bf12fbfc19/xpdt-0.3.0.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/a7/04/f101ecc25f2b6cbe29dc5becf714ca320c3d9e05afb7c3b1d0a214baa835/waffle_hub-0.2.6.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [flux-burst-compute-engine]: executing diffoscope
+[2023-07-17 03:59:01] INFO root fetch - processPackages [flux-burst-compute-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-compute-engine-0.0.11.tar.gz tmp/flux-burst-compute-engine-0.0.12.tar.gz --markdown 20230717/f/flux-burst-compute-engine/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-17 03:59:01] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/8f/26/a93de941745734653e8873a1f0991f3fea9cc5e65e0945511fd47280033c/chai-guanaco-1.0.6.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/7c/73/7bf155553bc13640b9e04afdc3b7c489df9f8d0da56ae341ebf9d2d4305f/switbuilder_core-0.0.5.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [xpdt]: executing diffoscope
+[2023-07-17 03:59:01] INFO root fetch - processPackages [xpdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpdt-0.2.0.tar.gz tmp/xpdt-0.3.0.tar.gz --markdown 20230717/x/xpdt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 03:59:01] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/1d/40/5a835c2b61e59b92fad283282040662c4e37d25049e660e505ed7e6437cf/zengin_code-1.1.0.20230717.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [waffle-hub]: executing diffoscope
+[2023-07-17 03:59:01] INFO root fetch - processPackages [waffle-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_hub-0.2.5.tar.gz tmp/waffle_hub-0.2.6.tar.gz --markdown 20230717/w/waffle-hub/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-17 03:59:01] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/55/e0/e7f822c31ca9e85d7c6586c806f96f5db9c5db79db97cc5d5f31990876fc/PyGraphica-0.1.0.tar.gz
+[2023-07-17 03:59:01] INFO root fetch - processPackages [zengin-code]: executing diffoscope
+[2023-07-17 03:59:01] INFO root fetch - processPackages [zengin-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zengin_code-1.1.0.20230607.tar.gz tmp/zengin_code-1.1.0.20230717.tar.gz --markdown 20230717/z/zengin-code/1.1.0.20230607-1.1.0.20230717/diff.md --exclude *.pyd
+[2023-07-17 03:59:01] INFO root fetch - processPackages [chai-guanaco]: executing diffoscope
+[2023-07-17 03:59:01] INFO root fetch - processPackages [chai-guanaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chai-guanaco-1.0.5.tar.gz tmp/chai-guanaco-1.0.6.tar.gz --markdown 20230717/c/chai-guanaco/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-17 03:59:02] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-17 03:59:02] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.4.tar.gz tmp/switbuilder_core-0.0.5.tar.gz --markdown 20230717/s/switbuilder-core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 03:59:02] INFO root fetch - processPackages [PyGraphica]: executing diffoscope
+[2023-07-17 03:59:02] INFO root fetch - processPackages [PyGraphica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGraphica-0.0.8.tar.gz tmp/PyGraphica-0.1.0.tar.gz --markdown 20230717/P/PyGraphica/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 03:59:02] INFO root fetch - processPackages [flux-burst-compute-engine]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-compute-engine-0.0.11.tar.gz]
+[2023-07-17 03:59:02] INFO root fetch - processPackages [flux-burst-compute-engine]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-compute-engine-0.0.12.tar.gz]
+[2023-07-17 03:59:02] INFO root fetch - main [MainThread]: End processing [flux-burst-compute-engine]: success
+[2023-07-17 03:59:02] INFO root fetch - processPackages [xpdt]: Remove: archive file [/home/abi/fetcher/tmp/xpdt-0.2.0.tar.gz]
+[2023-07-17 03:59:02] INFO root fetch - processPackages [xpdt]: Remove: archive file [/home/abi/fetcher/tmp/xpdt-0.3.0.tar.gz]
+[2023-07-17 03:59:02] INFO root fetch - main [MainThread]: End processing [xpdt]: success
+[2023-07-17 03:59:03] INFO root fetch - processPackages [waffle-hub]: Remove: archive file [/home/abi/fetcher/tmp/waffle_hub-0.2.5.tar.gz]
+[2023-07-17 03:59:03] INFO root fetch - processPackages [waffle-hub]: Remove: archive file [/home/abi/fetcher/tmp/waffle_hub-0.2.6.tar.gz]
+[2023-07-17 03:59:03] INFO root fetch - main [MainThread]: End processing [waffle-hub]: success
+[2023-07-17 03:59:03] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.4.tar.gz]
+[2023-07-17 03:59:03] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.5.tar.gz]
+[2023-07-17 03:59:03] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-17 03:59:03] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.0.8.tar.gz]
+[2023-07-17 03:59:03] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.1.0.tar.gz]
+[2023-07-17 03:59:03] INFO root fetch - main [MainThread]: End processing [PyGraphica]: success
+[2023-07-17 03:59:04] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.5.tar.gz]
+[2023-07-17 03:59:04] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.6.tar.gz]
+[2023-07-17 03:59:04] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
+[2023-07-17 03:59:09] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20230607.tar.gz]
+[2023-07-17 03:59:09] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20230717.tar.gz]
+[2023-07-17 03:59:09] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
+[2023-07-17 03:59:09] INFO root fetch - main [MainThread]: Store serial: [18911611]
