@@ -7200,3 +7200,11 @@
 [2023-07-17 06:26:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.24.tar.gz]
 [2023-07-17 06:26:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-07-17 06:26:57] INFO root fetch - main [MainThread]: Store serial: [18912379]
+[2023-07-17 06:32:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912379]
+[2023-07-17 06:32:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-17 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-files-aws-s3
+[2023-07-17 06:32:06] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-17 06:32:06] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-07-17 06:32:07] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-07-17 06:32:07] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-07-17 06:32:07] INFO root fetch - main [MainThread]: Store serial: [18912381]
