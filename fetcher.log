@@ -5487,3 +5487,27 @@
 [2023-07-17 04:14:45] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
 [2023-07-17 04:14:45] INFO root fetch - main [MainThread]: End processing [shady-island]: success
 [2023-07-17 04:14:45] INFO root fetch - main [MainThread]: Store serial: [18911675]
+[2023-07-17 04:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911675]
+[2023-07-17 04:19:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-17 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langdash
+[2023-07-17 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: red-utils
+[2023-07-17 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdock
+[2023-07-17 04:19:54] INFO root fetch - processPackages [sdock]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 04:19:54] WARNING root fetch - processPackages [red-utils]: Skipping, unable to determine old version
+[2023-07-17 04:19:54] INFO root fetch - main [MainThread]: End processing [red-utils] error
+[2023-07-17 04:19:54] INFO root fetch - processPackages [langdash]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-17 04:19:54] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/7f/33/5950022e2c230cd5dbaf7c400419fe2e564ee9f8338e077d468dc4b64b57/sdock-0.0.98.tar.gz
+[2023-07-17 04:19:55] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/58/a2/325f58181408e425ad1216cd90a44cce8ffb8f078577ced91021a1106510/langdash-1.9.0.tar.gz
+[2023-07-17 04:19:55] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-17 04:19:55] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 04:19:55] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.98.tar.gz tmp/sdock-0.0.99.tar.gz --markdown 20230717/s/sdock/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 04:19:55] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/c5/9e8d0b8c76e98a3dfba40343b10a53a6e905852aaaa8fce3a305fbffc88f/langdash-1.9.1.tar.gz
+[2023-07-17 04:19:55] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-17 04:19:55] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.9.0.tar.gz tmp/langdash-1.9.1.tar.gz --markdown 20230717/l/langdash/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-17 04:19:55] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.98.tar.gz]
+[2023-07-17 04:19:55] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.99.tar.gz]
+[2023-07-17 04:19:55] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 04:19:56] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.0.tar.gz]
+[2023-07-17 04:19:56] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.1.tar.gz]
+[2023-07-17 04:19:56] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-17 04:19:56] INFO root fetch - main [MainThread]: Store serial: [18911691]
