@@ -5753,3 +5753,88 @@
 [2023-07-17 04:40:44] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1412.tar.gz]
 [2023-07-17 04:40:44] INFO root fetch - main [MainThread]: End processing [nanopb]: success
 [2023-07-17 04:40:44] INFO root fetch - main [MainThread]: Store serial: [18911826]
+[2023-07-17 04:45:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911826]
+[2023-07-17 04:45:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdock
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chik-clvm-tools
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-auto-control-dev
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oyehr-tools-package
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-24
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdock
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-iac-pulumi
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple2encrypt
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typetype
+[2023-07-17 04:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-26
+[2023-07-17 04:45:53] INFO root fetch - processPackages [oyehr-tools-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [sdock]: New version: [0.1.0] Old Version: [0.0.99]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [sdock]: New version: [0.1.0] Old Version: [0.0.99]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-07-17 04:45:53] WARNING root fetch - processPackages [chik-clvm-tools]: Skipping, unable to determine old version
+[2023-07-17 04:45:53] INFO root fetch - main [MainThread]: End processing [chik-clvm-tools] error
+[2023-07-17 04:45:53] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.95] Old Version: [2.8.94]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.93] Old Version: [2.4.92]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [typetype]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-17 04:45:53] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/ec/18/6970032ca4ba856796d50b9946e4b1498892314e6abcc9e2b4cdcd3bdcac/simple2encrypt-1.5.2.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [oyehr-tools-package]: Downloading https://files.pythonhosted.org/packages/6f/75/549b371339fda3fdd80c5973a673d4bc2701a310c68f86d7fd9c0a4eea4d/oyehr-tools-package-0.0.1.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a6/62/da615c49e90904d2bc6b05137aed2d9b921ecd4ec6f8fb53d06167bded38/cdk8s-plus-24-2.8.94.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/40/3c/ce4bcf854134f77e4e410c244a6223f7679e820c13b61245ff7af99c9dfb/cdk8s-plus-26-2.4.92.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/c1/d2/766fc37a8748778c479efc0ee2e37ccdafd18bb9e1ba687805d16ee414ca/je_auto_control_dev-0.0.89.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: Downloading https://files.pythonhosted.org/packages/48/78/78ec31d586af6ea3c2e54c26aed3d4f77a9ae4fb096db40a4e2415aede04/tencentcloud_iac_pulumi-0.1.3.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/b2/ea/23da7eaf5c421ec8574ed5441724eb82560aaf593d3c800bd27438334f93/typetype-1.2.0.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/e7/6d/cda772533d8aafb818fa588ec8af103f5e82cabede2af2eba9619ce15dda/simple2encrypt-1.5.3.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/c1/fe/e5bf5406c8449d58fd1511684a7225d335bef49ef4df80f06477f36bc86c/sdock-0.1.0.tar.gz
+[2023-07-17 04:45:53] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/c1/fe/e5bf5406c8449d58fd1511684a7225d335bef49ef4df80f06477f36bc86c/sdock-0.1.0.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [oyehr-tools-package]: Downloading https://files.pythonhosted.org/packages/9a/fa/8608ad311209e43d41301b4a9875b0b54f1408a24b3f4bc72adecbb2c1ca/oyehr-tools-package-0.0.2.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/9d/ae/b0b210a668d5ffc65044b60844d9e45a3b3bd8a7bc8428fb02b33b4349c0/cdk8s-plus-26-2.4.93.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/6a/48/65b35fbb5d93cbf0335053f803960810d819d946f4e0c1688b5871d233f4/cdk8s-plus-24-2.8.95.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.5.2.tar.gz tmp/simple2encrypt-1.5.3.tar.gz --markdown 20230717/s/simple2encrypt/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.89.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230717/j/je-auto-control-dev/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/b0/4f/4490793ea176286094e496ed10ee1b24284edf72e4ff3f4cc942b49e163f/typetype-1.2.1.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.99.tar.gz tmp/sdock-0.1.0.tar.gz --markdown 20230717/s/sdock/0.0.99-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.99.tar.gz tmp/sdock-0.1.0.tar.gz --markdown 20230717/s/sdock/0.0.99-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: Downloading https://files.pythonhosted.org/packages/6b/d6/a39d7f2b81edf98589ac6237b5e68b040d2517800fd234f6ca9358e93a6f/tencentcloud_iac_pulumi-0.1.4.tar.gz
+[2023-07-17 04:45:54] INFO root fetch - processPackages [oyehr-tools-package]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [oyehr-tools-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oyehr-tools-package-0.0.1.tar.gz tmp/oyehr-tools-package-0.0.2.tar.gz --markdown 20230717/o/oyehr-tools-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.92.tar.gz tmp/cdk8s-plus-26-2.4.93.tar.gz --markdown 20230717/c/cdk8s-plus-26/2.4.92-2.4.93/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.2.0.tar.gz tmp/typetype-1.2.1.tar.gz --markdown 20230717/t/typetype/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.94.tar.gz tmp/cdk8s-plus-24-2.8.95.tar.gz --markdown 20230717/c/cdk8s-plus-24/2.8.94-2.8.95/diff.md --exclude *.pyd
+[2023-07-17 04:45:54] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: executing diffoscope
+[2023-07-17 04:45:54] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud_iac_pulumi-0.1.3.tar.gz tmp/tencentcloud_iac_pulumi-0.1.4.tar.gz --markdown 20230717/t/tencentcloud-iac-pulumi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-17 04:45:55] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.2.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.3.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-17 04:45:55] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.99.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.0.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 04:45:55] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-17 04:45:55] INFO root fetch - processPackages [oyehr-tools-package]: Remove: archive file [/home/abi/fetcher/tmp/oyehr-tools-package-0.0.1.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - processPackages [oyehr-tools-package]: Remove: archive file [/home/abi/fetcher/tmp/oyehr-tools-package-0.0.2.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - main [MainThread]: End processing [oyehr-tools-package]: success
+[2023-07-17 04:45:55] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.89.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-07-17 04:45:55] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-07-17 04:45:56] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.2.0.tar.gz]
+[2023-07-17 04:45:56] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.2.1.tar.gz]
+[2023-07-17 04:45:56] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-17 04:45:56] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.92.tar.gz]
+[2023-07-17 04:45:56] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.93.tar.gz]
+[2023-07-17 04:45:56] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-17 04:45:56] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.94.tar.gz]
+[2023-07-17 04:45:56] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.95.tar.gz]
+[2023-07-17 04:45:56] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-17 04:46:05] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud_iac_pulumi-0.1.3.tar.gz]
+[2023-07-17 04:46:05] INFO root fetch - processPackages [tencentcloud-iac-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud_iac_pulumi-0.1.4.tar.gz]
+[2023-07-17 04:46:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-iac-pulumi]: success
+[2023-07-17 04:46:05] INFO root fetch - main [MainThread]: Store serial: [18911856]
