@@ -11550,3 +11550,94 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 10:41:13] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
 [2023-07-17 10:41:13] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2023-07-17 10:41:13] INFO root fetch - main [MainThread]: Store serial: [18914194]
+[2023-07-17 10:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18914194]
+[2023-07-17 10:46:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misk
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capstonePreprocessing
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-sdk
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmx
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AndroidTools
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RapidMangaDL
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matrix-nio
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: generalkit
+[2023-07-17 10:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ssh-terminal-manager
+[2023-07-17 10:46:21] WARNING root fetch - processPackages [capstonePreprocessing]: Skipping, unable to determine old version
+[2023-07-17 10:46:21] INFO root fetch - processPackages [capstonePreprocessing]: Start processing: diaossama-test3
+[2023-07-17 10:46:21] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 10:46:21] INFO root fetch - main [MainThread]: End processing [capstonePreprocessing] error
+[2023-07-17 10:46:22] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.21rc20]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [AndroidTools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [misk]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-17 10:46:22] WARNING root fetch - processPackages [llmx]: Skipping, unable to determine old version
+[2023-07-17 10:46:22] WARNING root fetch - processPackages [generalkit]: Skipping, unable to determine old version
+[2023-07-17 10:46:22] INFO root fetch - processPackages [llmx]: Start processing: lazysdk
+[2023-07-17 10:46:22] INFO root fetch - main [MainThread]: End processing [llmx] error
+[2023-07-17 10:46:22] INFO root fetch - main [MainThread]: End processing [generalkit] error
+[2023-07-17 10:46:22] INFO root fetch - processPackages [matrix-nio]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [diaossama-test3]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/78/42/951f4f04437f7780665df75b7e8d922b6a9ca5e3c43adc0eec955c4fc739/AndroidTools-0.0.3.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/a5/c4/a53a587da9939f040b85c249cddd31ebf334beb746d794c6807c8ba96a2c/matrix-nio-0.8.0.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/e0/76/d3e9924fe18a682ff57d17c80f285b05e286a186d54e200abe2a3060908b/ssh_terminal_manager-0.8.0.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [misk]: Downloading https://files.pythonhosted.org/packages/4f/0f/7881a02fb0863efe24bb5236081c467df0b325bb1a21f6adce70cf7e4a89/misk-0.7.0.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 10:46:22] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/ee/87/b3de5d37cc7bdb188f0ec49b7def47cb34751ae519f9cd5cd91490a91897/RapidMangaDL-0.0.6.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/ee/87/b3de5d37cc7bdb188f0ec49b7def47cb34751ae519f9cd5cd91490a91897/RapidMangaDL-0.0.6.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/86/52/85ecfd38ea209b554c3a6b62dbdcbd94d22f459add5303ad7fcdc7ba9375/spark_sdk-0.4.21rc20-py3-none-any.whl
+[2023-07-17 10:46:22] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [diaossama-test3]: Downloading https://files.pythonhosted.org/packages/bb/5f/c5f04c64824a18972e971a07c71eb6a1cc195f906d7f39b5f42640964b14/diaossama-test3-0.0.4.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/cd/73/7040cd5d2dfdff55c56db95aa6cb9189e9c67dc959e3443fc3c6b0f7f423/ssh_terminal_manager-0.8.1.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/65/52/5efd52c833aae3b78d386a578a9ecf406c3931594f22727b71c698546b36/AndroidTools-0.0.4.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/3d/2f/b4c4fea1cb5a05e5871c63040020922a45b619663b0923c49d4cb933387c/matrix-nio-0.9.0.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [misk]: Downloading https://files.pythonhosted.org/packages/28/ef/247b4ab32f86f27c0f373dba6f9c72f524bd9a3ff59f1d8580485c50b63b/misk-0.7.1.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-17 10:46:22] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.8.0.tar.gz tmp/ssh_terminal_manager-0.8.1.tar.gz --markdown 20230717/s/ssh-terminal-manager/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-17 10:46:22] INFO root fetch - processPackages [matrix-nio]: executing diffoscope
+[2023-07-17 10:46:22] INFO root fetch - processPackages [matrix-nio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-nio-0.8.0.tar.gz tmp/matrix-nio-0.9.0.tar.gz --markdown 20230717/m/matrix-nio/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 10:46:22] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-17 10:46:22] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-07-17 10:46:22] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.0.3.tar.gz tmp/AndroidTools-0.0.4.tar.gz --markdown 20230717/A/AndroidTools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 10:46:22] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/ee/8a/7d21944e66c6b092e00f3755cad4b583835a5d12a9c9645de7a22d2155ae/RapidMangaDL-0.0.7.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/ee/8a/7d21944e66c6b092e00f3755cad4b583835a5d12a9c9645de7a22d2155ae/RapidMangaDL-0.0.7.tar.gz
+[2023-07-17 10:46:22] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-17 10:46:22] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230717/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 10:46:22] INFO root fetch - processPackages [misk]: executing diffoscope
+[2023-07-17 10:46:22] INFO root fetch - processPackages [misk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misk-0.7.0.tar.gz tmp/misk-0.7.1.tar.gz --markdown 20230717/m/misk/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-17 10:46:23] INFO root fetch - processPackages [diaossama-test3]: Downloading https://files.pythonhosted.org/packages/4b/93/594b611055a56a74765746d61189bad3f7a01695c1fd2bc37600f8ab71ff/diaossama-test3-0.0.5.tar.gz
+[2023-07-17 10:46:23] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-17 10:46:23] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.21rc20-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230717/s/spark-sdk/0.4.21rc20-0.4.9/diff.md --exclude *.pyd
+[2023-07-17 10:46:23] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 10:46:23] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.6.tar.gz tmp/RapidMangaDL-0.0.7.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 10:46:23] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 10:46:23] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.6.tar.gz tmp/RapidMangaDL-0.0.7.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 10:46:23] INFO root fetch - processPackages [diaossama-test3]: executing diffoscope
+[2023-07-17 10:46:23] INFO root fetch - processPackages [diaossama-test3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diaossama-test3-0.0.4.tar.gz tmp/diaossama-test3-0.0.5.tar.gz --markdown 20230717/d/diaossama-test3/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 10:46:24] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.0.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.1.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.3.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.4.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [misk]: Remove: archive file [/home/abi/fetcher/tmp/misk-0.7.0.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [misk]: Remove: archive file [/home/abi/fetcher/tmp/misk-0.7.1.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [misk]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.21rc20-py3-none-any.whl.zip]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [diaossama-test3]: Remove: archive file [/home/abi/fetcher/tmp/diaossama-test3-0.0.4.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [diaossama-test3]: Remove: archive file [/home/abi/fetcher/tmp/diaossama-test3-0.0.5.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [diaossama-test3]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.8.0.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
+[2023-07-17 10:46:24] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.6.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.7.tar.gz]
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 10:46:24] INFO root fetch - main [MainThread]: Store serial: [18914248]
