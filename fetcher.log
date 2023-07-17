@@ -8106,3 +8106,63 @@
 [2023-07-17 07:50:13] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.7-py3-none-any.whl.zip]
 [2023-07-17 07:50:13] INFO root fetch - main [MainThread]: End processing [MLXpress]: success
 [2023-07-17 07:50:13] INFO root fetch - main [MainThread]: Store serial: [18912769]
+[2023-07-17 07:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912769]
+[2023-07-17 07:55:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RdQxbAPI
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-employee-age
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: z3c.form
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: electrolytes
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gbcg3
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sodiumfrp
+[2023-07-17 07:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terminal-manager
+[2023-07-17 07:55:22] INFO root fetch - processPackages [RdQxbAPI]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 07:55:22] WARNING root fetch - processPackages [gbcg3]: Skipping, unable to determine old version
+[2023-07-17 07:55:22] INFO root fetch - processPackages [electrolytes]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-17 07:55:22] INFO root fetch - main [MainThread]: End processing [gbcg3] error
+[2023-07-17 07:55:22] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-17 07:55:22] INFO root fetch - processPackages [z3c.form]: New version: [5.0] Old Version: [4.3]
+[2023-07-17 07:55:22] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-17 07:55:22] INFO root fetch - processPackages [sodiumfrp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 07:55:22] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/ae/52/7de0726cdcfac5da8adce7a201925ddabda2ed4d3013a585cb4b5bed8afd/terminal_manager-0.7.0.tar.gz
+[2023-07-17 07:55:22] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/d4/74/ea73bc3bd7cad4f2489c53b4e3e367291ad5870cec8b7fca3051a27c1473/electrolytes-0.2.2.tar.gz
+[2023-07-17 07:55:22] INFO root fetch - processPackages [RdQxbAPI]: Downloading https://files.pythonhosted.org/packages/42/13/1392b0fd37c64863a1483c37b918acda0093dc8750537f890c7efe75dae7/RdQxbAPI-0.1.1.tar.gz
+[2023-07-17 07:55:22] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Downloading https://files.pythonhosted.org/packages/44/bd/675f9b6ebc63d8ed210dbf5de2d844f591e145f96aefdd6033c2069d3a40/odoo_addon_hr_employee_age-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-17 07:55:22] INFO root fetch - processPackages [sodiumfrp]: Downloading https://files.pythonhosted.org/packages/27/c2/0f243a3d333889263d0806ebe8e1e3f826f567013e6652f93644b1297bb7/sodiumfrp-1.0.0.tar.gz
+[2023-07-17 07:55:22] INFO root fetch - processPackages [z3c.form]: Downloading https://files.pythonhosted.org/packages/70/b5/1ed135a6595186bd23e3272c904eb1a5ad8619c0adc0fbfd2c8622e2c7bb/z3c.form-4.3.tar.gz
+[2023-07-17 07:55:22] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/07/34/5811a3b1ac024ee0d9a237bd86ed22c4c6d75db2c1ea916432c272343dfb/terminal_manager-0.8.0.tar.gz
+[2023-07-17 07:55:22] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/1d/87/6685456e28f9b8b9a725d27746b627aef7c20df5a07667de917adacbe1c6/electrolytes-0.2.3.tar.gz
+[2023-07-17 07:55:23] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-17 07:55:23] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.7.0.tar.gz tmp/terminal_manager-0.8.0.tar.gz --markdown 20230717/t/terminal-manager/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 07:55:23] INFO root fetch - processPackages [electrolytes]: executing diffoscope
+[2023-07-17 07:55:23] INFO root fetch - processPackages [electrolytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrolytes-0.2.2.tar.gz tmp/electrolytes-0.2.3.tar.gz --markdown 20230717/e/electrolytes/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-17 07:55:23] INFO root fetch - processPackages [RdQxbAPI]: Downloading https://files.pythonhosted.org/packages/3d/34/99998c2a6795f0fc667c494601aca062ef5a9fc420843de74d2cdb2f4ca7/RdQxbAPI-0.1.2.tar.gz
+[2023-07-17 07:55:23] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Downloading https://files.pythonhosted.org/packages/c8/fb/a8812693f6b29af2e2ad00544ac9eb2a901d36d609c48745f93b1e56b7dd/odoo_addon_hr_employee_age-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-17 07:55:23] INFO root fetch - processPackages [sodiumfrp]: Downloading https://files.pythonhosted.org/packages/1b/ae/bb91d2139a150cea6eb90e67f0068566da686a1c21219a81dc48f310ff4c/sodiumfrp-1.0.1.tar.gz
+[2023-07-17 07:55:23] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: executing diffoscope
+[2023-07-17 07:55:23] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_age-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_age-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230717/o/odoo-addon-hr-employee-age/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-17 07:55:23] INFO root fetch - processPackages [RdQxbAPI]: executing diffoscope
+[2023-07-17 07:55:23] INFO root fetch - processPackages [RdQxbAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RdQxbAPI-0.1.1.tar.gz tmp/RdQxbAPI-0.1.2.tar.gz --markdown 20230717/R/RdQxbAPI/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 07:55:23] INFO root fetch - processPackages [z3c.form]: Downloading https://files.pythonhosted.org/packages/88/6e/d29a2f8ac843698b01b4e156c1fd8c2f2e8d2faa80fcf336959f3999c5ec/z3c.form-5.0.tar.gz
+[2023-07-17 07:55:23] INFO root fetch - processPackages [z3c.form]: executing diffoscope
+[2023-07-17 07:55:23] INFO root fetch - processPackages [z3c.form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.form-4.3.tar.gz tmp/z3c.form-5.0.tar.gz --markdown 20230717/z/z3c.form/4.3-5.0/diff.md --exclude *.pyd
+[2023-07-17 07:55:23] INFO root fetch - processPackages [sodiumfrp]: executing diffoscope
+[2023-07-17 07:55:23] INFO root fetch - processPackages [sodiumfrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodiumfrp-1.0.0.tar.gz tmp/sodiumfrp-1.0.1.tar.gz --markdown 20230717/s/sodiumfrp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 07:55:24] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.7.0.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.0.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-17 07:55:24] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.2.2.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.2.3.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - main [MainThread]: End processing [electrolytes]: success
+[2023-07-17 07:55:24] INFO root fetch - processPackages [RdQxbAPI]: Remove: archive file [/home/abi/fetcher/tmp/RdQxbAPI-0.1.1.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - processPackages [RdQxbAPI]: Remove: archive file [/home/abi/fetcher/tmp/RdQxbAPI-0.1.2.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - main [MainThread]: End processing [RdQxbAPI]: success
+[2023-07-17 07:55:24] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_age-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-17 07:55:24] INFO root fetch - processPackages [odoo-addon-hr-employee-age]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_age-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-17 07:55:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-age]: success
+[2023-07-17 07:55:24] INFO root fetch - processPackages [sodiumfrp]: Remove: archive file [/home/abi/fetcher/tmp/sodiumfrp-1.0.0.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - processPackages [sodiumfrp]: Remove: archive file [/home/abi/fetcher/tmp/sodiumfrp-1.0.1.tar.gz]
+[2023-07-17 07:55:24] INFO root fetch - main [MainThread]: End processing [sodiumfrp]: success
+[2023-07-17 07:55:25] INFO root fetch - processPackages [z3c.form]: Remove: archive file [/home/abi/fetcher/tmp/z3c.form-4.3.tar.gz]
+[2023-07-17 07:55:25] INFO root fetch - processPackages [z3c.form]: Remove: archive file [/home/abi/fetcher/tmp/z3c.form-5.0.tar.gz]
+[2023-07-17 07:55:25] INFO root fetch - main [MainThread]: End processing [z3c.form]: success
+[2023-07-17 07:55:25] INFO root fetch - main [MainThread]: Store serial: [18912792]
