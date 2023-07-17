@@ -8752,3 +8752,51 @@
 [2023-07-17 08:26:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230717.tar.gz]
 [2023-07-17 08:26:47] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-17 08:26:47] INFO root fetch - main [MainThread]: Store serial: [18913001]
+[2023-07-17 08:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913001]
+[2023-07-17 08:31:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: falcon-datamover
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DS-test
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talkytrend
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-marathon-api
+[2023-07-17 08:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nids-datasets
+[2023-07-17 08:31:56] WARNING root fetch - processPackages [DS-test]: Skipping, unable to determine old version
+[2023-07-17 08:31:56] INFO root fetch - main [MainThread]: End processing [DS-test] error
+[2023-07-17 08:31:56] WARNING root fetch - processPackages [ms-marathon-api]: Skipping, unable to determine old version
+[2023-07-17 08:31:56] INFO root fetch - main [MainThread]: End processing [ms-marathon-api] error
+[2023-07-17 08:31:56] INFO root fetch - processPackages [falcon-datamover]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 08:31:56] INFO root fetch - processPackages [talkytrend]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-17 08:31:56] WARNING root fetch - processPackages [nids-datasets]: Skipping, unable to determine old version
+[2023-07-17 08:31:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5572450007]
+[2023-07-17 08:31:56] INFO root fetch - main [MainThread]: End processing [nids-datasets] error
+[2023-07-17 08:31:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-17 08:31:56] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/bd/27/4b058017b68a049302ec6a67d1d6a10667c8a14474fcf59b99701813166c/talkytrend-1.8.2.tar.gz
+[2023-07-17 08:31:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/86/f4/fe5b0fff2a23e0f9b904fdeb1e40f310bba6943f1e8ff838a0764d892be5/th2_grpc_lw_data_provider-2.0.0.dev5572450007.tar.gz
+[2023-07-17 08:31:56] INFO root fetch - processPackages [falcon-datamover]: Downloading https://files.pythonhosted.org/packages/dc/af/09262d79a4b383fb781f2a2b0a92838bd04aba93b63cea4f15be71e437d8/falcon-datamover-1.0.0.tar.gz
+[2023-07-17 08:31:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-17 08:31:56] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/06/18/5f3c7152d96cb46f64a39d95387dec4e1731a3ae9f69f9b910b05207e392/talkytrend-1.8.3.tar.gz
+[2023-07-17 08:31:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-17 08:31:56] INFO root fetch - processPackages [falcon-datamover]: Downloading https://files.pythonhosted.org/packages/90/02/4b1f3fcbf6ed42bd8891b19e0346c198c8d12171b8486637dfc39762f5e1/falcon-datamover-1.0.1.tar.gz
+[2023-07-17 08:31:57] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-17 08:31:57] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.8.2.tar.gz tmp/talkytrend-1.8.3.tar.gz --markdown 20230717/t/talkytrend/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-17 08:31:57] INFO root fetch - processPackages [falcon-datamover]: executing diffoscope
+[2023-07-17 08:31:57] INFO root fetch - processPackages [falcon-datamover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon-datamover-1.0.0.tar.gz tmp/falcon-datamover-1.0.1.tar.gz --markdown 20230717/f/falcon-datamover/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 08:31:57] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-17 08:31:57] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5572450007.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230717/t/th2-grpc-lw-data-provider/2.0.0.dev5572450007-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-17 08:31:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-17 08:31:57] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.8.2.tar.gz]
+[2023-07-17 08:31:57] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.8.3.tar.gz]
+[2023-07-17 08:31:57] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-17 08:31:58] INFO root fetch - processPackages [falcon-datamover]: Remove: archive file [/home/abi/fetcher/tmp/falcon-datamover-1.0.0.tar.gz]
+[2023-07-17 08:31:58] INFO root fetch - processPackages [falcon-datamover]: Remove: archive file [/home/abi/fetcher/tmp/falcon-datamover-1.0.1.tar.gz]
+[2023-07-17 08:31:58] INFO root fetch - main [MainThread]: End processing [falcon-datamover]: success
+[2023-07-17 08:31:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5572450007.tar.gz]
+[2023-07-17 08:31:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-17 08:31:58] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-17 08:31:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-17 08:31:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 08:31:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-17 08:31:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-17 08:31:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-17 08:31:59] INFO root fetch - main [MainThread]: Store serial: [18913032]
