@@ -17065,3 +17065,127 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:25:59] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-2.0.0.tar.gz]
 [2023-07-17 14:25:59] INFO root fetch - main [MainThread]: End processing [ms3]: success
 [2023-07-17 14:25:59] INFO root fetch - main [MainThread]: Store serial: [18916620]
+[2023-07-17 14:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916620]
+[2023-07-17 14:31:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st4sd-runtime-core
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digimat.bac0
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rio-tiler-pds
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starlite
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niha19999
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyFlyt
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utbot-executor
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yellowdog-python-examples
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gandai
+[2023-07-17 14:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PVNet
+[2023-07-17 14:31:32] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [rio-tiler-pds]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-17 14:31:32] WARNING root fetch - processPackages [niha19999]: Skipping, unable to determine old version
+[2023-07-17 14:31:32] INFO root fetch - processPackages [niha19999]: Start processing: PyFlyt
+[2023-07-17 14:31:32] INFO root fetch - main [MainThread]: End processing [niha19999] error
+[2023-07-17 14:31:32] INFO root fetch - processPackages [st4sd-runtime-core]: New version: [2.0.0a9.dev8] Old Version: [2.0.0a9.dev7]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [starlite]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [gandai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [PyFlyt]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [PyFlyt]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-17 14:31:32] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-17 14:31:32] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-07-17 14:31:32] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-07-17 14:31:32] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [rio-tiler-pds]: Downloading https://files.pythonhosted.org/packages/f8/56/42f022859f5eba2cc2920259eaa1924a7dc4c0eb29e755e390dca75cf3b6/rio-tiler-pds-0.8.0.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/72/d9/bc1df6a3887b4a97b1be7e8fea1bb0df882d00c1c5b9ce71aa75520d04db/PyFlyt-0.7.7.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/72/d9/bc1df6a3887b4a97b1be7e8fea1bb0df882d00c1c5b9ce71aa75520d04db/PyFlyt-0.7.7.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [starlite]: Downloading https://files.pythonhosted.org/packages/44/4e/ca45ad4d9ca7cc1fe1ef4b895da684ad409208c69bbbedcbc4730ac06f47/starlite-2.0.0a1.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/f8/80/d329b6d6b491885e93d67347d73a6f1bf511452406c30914f4fa69817029/st4sd-runtime-core-2.0.0a9.dev7.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ae/46/084ce0552097af030aea7a1ce0ada555a97a695f850b3b501b42c47fc0ff/yellowdog-python-examples-6.0.9.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230717/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/3e/6c/43e81a918e782af9287780264193dd0938d676b4897a519901bd7d2f2a7a/PyFlyt-0.7.8.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/3e/6c/43e81a918e782af9287780264193dd0938d676b4897a519901bd7d2f2a7a/PyFlyt-0.7.8.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230717/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.9.tar.gz tmp/gandai-1.2.0.tar.gz --markdown 20230717/g/gandai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [rio-tiler-pds]: Downloading https://files.pythonhosted.org/packages/6c/63/4a73eeb55c99341038b3f975b76637326291f1d580660aff689cb8d1cb78/rio_tiler_pds-0.9.0.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.8.tar.gz tmp/yellowdog-python-examples-6.0.9.tar.gz --markdown 20230717/y/yellowdog-python-examples/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/d8/e8/7cfc981a124bd5a134ff8cc0f9597e07673ad694af3ac5209efd3ecdf64a/st4sd-runtime-core-2.0.0a9.dev8.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.7.7.tar.gz tmp/PyFlyt-0.7.8.tar.gz --markdown 20230717/P/PyFlyt/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [starlite]: Downloading https://files.pythonhosted.org/packages/db/01/eae30b612e372f77d4db66f6ba8bc578968ab10ab0e8e198c91bc687c18d/starlite-2.0.0a2.tar.gz
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.7.7.tar.gz tmp/PyFlyt-0.7.8.tar.gz --markdown 20230717/P/PyFlyt/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [rio-tiler-pds]: executing diffoscope
+[2023-07-17 14:31:33] INFO root fetch - processPackages [rio-tiler-pds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio-tiler-pds-0.8.0.tar.gz tmp/rio_tiler_pds-0.9.0.tar.gz --markdown 20230717/r/rio-tiler-pds/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 14:31:33] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-07-17 14:31:34] INFO root fetch - processPackages [st4sd-runtime-core]: executing diffoscope
+[2023-07-17 14:31:34] INFO root fetch - processPackages [st4sd-runtime-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz --markdown 20230717/s/st4sd-runtime-core/2.0.0a9.dev7-2.0.0a9.dev8/diff.md --exclude *.pyd
+[2023-07-17 14:31:34] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-17 14:31:34] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230717/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-17 14:31:34] INFO root fetch - processPackages [starlite]: executing diffoscope
+[2023-07-17 14:31:34] INFO root fetch - processPackages [starlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlite-2.0.0a1.tar.gz tmp/starlite-2.0.0a2.tar.gz --markdown 20230717/s/starlite/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-07-17 14:31:35] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-17 14:31:35] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-17 14:31:35] INFO root fetch - processPackages [digimat.bac0]: Start processing: pymeten
+[2023-07-17 14:31:35] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-17 14:31:35] WARNING root fetch - processPackages [pymeten]: Skipping, unable to determine old version
+[2023-07-17 14:31:35] INFO root fetch - processPackages [pymeten]: Start processing: signmeup
+[2023-07-17 14:31:35] INFO root fetch - main [MainThread]: End processing [pymeten] error
+[2023-07-17 14:31:35] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-17 14:31:35] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-17 14:31:35] INFO root fetch - processPackages [utbot-executor]: Start processing: je-api-testka
+[2023-07-17 14:31:35] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-17 14:31:36] INFO root fetch - processPackages [signmeup]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.1.9.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [gandai]: Start processing: efrem-utils
+[2023-07-17 14:31:36] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-17 14:31:36] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/05/d3/6e752e8b6e2b67e21ffcd427ed3bac63c12348adf3a626180bee475ba1fd/je_api_testka-0.0.98.tar.gz
+[2023-07-17 14:31:36] INFO root fetch - processPackages [efrem-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [signmeup]: Downloading https://files.pythonhosted.org/packages/b1/b9/af43c9f8f5e3d2d01a9bd044f452a698ca0711cb0d9b1ed66f86bbf709ce/signmeup-0.0.1.tar.gz
+[2023-07-17 14:31:36] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.9.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-07-17 14:31:36] INFO root fetch - processPackages [rio-tiler-pds]: Remove: archive file [/home/abi/fetcher/tmp/rio-tiler-pds-0.8.0.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [rio-tiler-pds]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler_pds-0.9.0.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - main [MainThread]: End processing [rio-tiler-pds]: success
+[2023-07-17 14:31:36] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-17 14:31:36] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/c8/6f/a77844d20b6dfcae69f455cbddb62d74ba8ecc747575976f5271bd97a1b3/efrem_utils-0.1.0.tar.gz
+[2023-07-17 14:31:36] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/a2/12/2e290beab81cc049ca40bb4900a68a6a67cdad5d5a5c927a4b1499415d33/je_api_testka-0.0.99.tar.gz
+[2023-07-17 14:31:36] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.7.7.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.7.8.tar.gz]
+[2023-07-17 14:31:36] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-17 14:31:36] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-17 14:31:36] INFO root fetch - processPackages [signmeup]: Downloading https://files.pythonhosted.org/packages/9b/a3/00e13381d043ae650b4f2b6cafc47d66dc388a02d0069297853c823e7003/signmeup-1.0.1.tar.gz
+[2023-07-17 14:31:36] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-07-17 14:31:36] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230717/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 14:31:36] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/1d/5a/3bd086a1828fbf2c126b22de06033900427c1b110c06788cf0b0d1857144/efrem_utils-0.1.1.tar.gz
+[2023-07-17 14:31:36] INFO root fetch - processPackages [signmeup]: executing diffoscope
+[2023-07-17 14:31:36] INFO root fetch - processPackages [signmeup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signmeup-0.0.1.tar.gz tmp/signmeup-1.0.1.tar.gz --markdown 20230717/s/signmeup/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 14:31:36] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-07-17 14:31:36] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.1.0.tar.gz tmp/efrem_utils-0.1.1.tar.gz --markdown 20230717/e/efrem-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 14:31:37] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz]
+[2023-07-17 14:31:37] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz]
+[2023-07-17 14:31:37] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
+[2023-07-17 14:31:38] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.98.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.99.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-07-17 14:31:38] INFO root fetch - processPackages [signmeup]: Remove: archive file [/home/abi/fetcher/tmp/signmeup-0.0.1.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - processPackages [signmeup]: Remove: archive file [/home/abi/fetcher/tmp/signmeup-1.0.1.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - main [MainThread]: End processing [signmeup]: success
+[2023-07-17 14:31:38] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.0.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.1.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-07-17 14:31:38] INFO root fetch - processPackages [starlite]: Remove: archive file [/home/abi/fetcher/tmp/starlite-2.0.0a1.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - processPackages [starlite]: Remove: archive file [/home/abi/fetcher/tmp/starlite-2.0.0a2.tar.gz]
+[2023-07-17 14:31:38] INFO root fetch - main [MainThread]: End processing [starlite]: success
+[2023-07-17 14:31:38] INFO root fetch - main [MainThread]: Store serial: [18916673]
