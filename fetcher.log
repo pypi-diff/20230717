@@ -14066,3 +14066,125 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:11:41] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.2.0.tar.gz]
 [2023-07-17 12:11:41] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
 [2023-07-17 12:11:41] INFO root fetch - main [MainThread]: Store serial: [18915192]
+[2023-07-17 12:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915192]
+[2023-07-17 12:16:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arthub-login-widgets
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-peer-connection
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cherche
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-dread-rando
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manim-weighted-line
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pgsqlx
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rpds-py
+[2023-07-17 12:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jqdatasdk
+[2023-07-17 12:16:51] INFO root fetch - processPackages [jqdatasdk]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [cherche]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-17 12:16:51] WARNING root fetch - processPackages [manim-weighted-line]: Skipping, unable to determine old version
+[2023-07-17 12:16:51] INFO root fetch - processPackages [manim-weighted-line]: Start processing: Icotest-DeviceServer
+[2023-07-17 12:16:51] INFO root fetch - main [MainThread]: End processing [manim-weighted-line] error
+[2023-07-17 12:16:51] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [arthub-login-widgets]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [open-dread-rando]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [rpds-py]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [Icotest-DeviceServer]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-07-17 12:16:51] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/18/88/8f081654d602d7a42f21f96d608b9868a732095e53f2da8970f439769cc3/RapidMangaDL-0.0.8.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [jqdatasdk]: Downloading https://files.pythonhosted.org/packages/08/52/105b7489f796b0e9b672bb4b5e8211107c9de5b7d8dca12af5c00ea24aad/jqdatasdk-1.8.9.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [cherche]: Downloading https://files.pythonhosted.org/packages/d4/34/78a28197eddd656881888fec4f75608974effa6934597da97cd1de827f34/cherche-2.0.0.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/2f/98/09546c9924cd06f9a6b346c3ca4173e335aca5cb734613d87becb4efe4ab/arthub_login_widgets-0.4.2.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/5f/d1/01c7257aa8bd724104d00966e8c919bab5da948c0d3c7dfc195de6e9a046/open-dread-rando-2.3.2.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/60/77/30cf515a97637ea0edfc3114d5a79aad62e3f5ef4733032b46e7de4d8f00/pgsqlx-1.0.1.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/2b/f2/2fad48c1e8beffe0dcfbe560081f9686682cf52ef15bd8c1ca2f4ef6b33a/gs-peer-connection-0.0.8.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [rpds-py]: Downloading https://files.pythonhosted.org/packages/d7/a9/098d872b222e0e38a5cd181668a582a445b7ccd380c0c55cf87cf6e6d82c/rpds_py-0.8.7.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [Icotest-DeviceServer]: Downloading https://files.pythonhosted.org/packages/82/ac/ad572e4da9ed185f9ec72b1ec4526971a359e72314b6f6c720e2a81284f4/Icotest-DeviceServer-1.0.0.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 12:16:51] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.8.tar.gz tmp/RapidMangaDL-0.0.9.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:16:51] INFO root fetch - processPackages [jqdatasdk]: Downloading https://files.pythonhosted.org/packages/76/d1/0eb594d8b8a97d33f01b70e7d669825136f2acd40c6710e64a2b28d486b9/jqdatasdk-1.9.0.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/64/12/9b7a7065b7056d8a6b2d6d879b0b0c15b81722da89ba1b4866305a8d8f87/pgsqlx-1.0.2.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/1b/59/da7ecc461c5bca3a97bd291f0f3a9172a141c542ceda53103dea2d180459/arthub_login_widgets-0.4.3.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-07-17 12:16:51] INFO root fetch - processPackages [Icotest-DeviceServer]: Downloading https://files.pythonhosted.org/packages/9a/69/0968b7b24b4f3dbea25f6d9b69203f940f4a8e20edd5fb45ba4df6eacd7f/Icotest-DeviceServer-1.0.3.tar.gz
+[2023-07-17 12:16:52] INFO root fetch - processPackages [jqdatasdk]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [jqdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jqdatasdk-1.8.9.tar.gz tmp/jqdatasdk-1.9.0.tar.gz --markdown 20230717/j/jqdatasdk/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [cherche]: Downloading https://files.pythonhosted.org/packages/d5/f9/3464c46e3e37bf890434583f0b7f1758ab487e36605d188fb651e7c29072/cherche-2.0.1.tar.gz
+[2023-07-17 12:16:52] INFO root fetch - processPackages [rpds-py]: Downloading https://files.pythonhosted.org/packages/75/80/7f76ff5d290a11a8d43653da186def13f293f00baf4927eae1ad128bf9de/rpds_py-0.8.8.tar.gz
+[2023-07-17 12:16:52] INFO root fetch - processPackages [arthub-login-widgets]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [arthub-login-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_login_widgets-0.4.2.tar.gz tmp/arthub_login_widgets-0.4.3.tar.gz --markdown 20230717/a/arthub-login-widgets/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.1.tar.gz tmp/pgsqlx-1.0.2.tar.gz --markdown 20230717/p/pgsqlx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/e9/3a/a4f33a77bfb1c126891781631ab489faaa57e9730c21f81fa0ce8178474e/gs-peer-connection-0.0.9.tar.gz
+[2023-07-17 12:16:52] INFO root fetch - processPackages [Icotest-DeviceServer]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [Icotest-DeviceServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Icotest-DeviceServer-1.0.0.tar.gz tmp/Icotest-DeviceServer-1.0.3.tar.gz --markdown 20230717/I/Icotest-DeviceServer/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [rpds-py]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [rpds-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpds_py-0.8.7.tar.gz tmp/rpds_py-0.8.8.tar.gz --markdown 20230717/r/rpds-py/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [cherche]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [cherche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherche-2.0.0.tar.gz tmp/cherche-2.0.1.tar.gz --markdown 20230717/c/cherche/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230717/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230717/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 12:16:52] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/8e/0f/9fe714620bbc48bce28d6ca8eacb35e107ee052a8b92a11ce72cb578625b/open-dread-rando-2.4.0.tar.gz
+[2023-07-17 12:16:52] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2023-07-17 12:16:52] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-2.3.2.tar.gz tmp/open-dread-rando-2.4.0.tar.gz --markdown 20230717/o/open-dread-rando/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-07-17 12:16:53] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.8.tar.gz]
+[2023-07-17 12:16:53] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.9.tar.gz]
+[2023-07-17 12:16:53] INFO root fetch - processPackages [RapidMangaDL]: Start processing: echr-extractor
+[2023-07-17 12:16:53] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 12:16:53] INFO root fetch - processPackages [echr-extractor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 12:16:53] INFO root fetch - processPackages [echr-extractor]: Downloading https://files.pythonhosted.org/packages/b7/f7/64640f94476ad3f1baee83734bcf3efe7dd150563896a1cab166eb5b0f94/echr_extractor-1.0.8.tar.gz
+[2023-07-17 12:16:54] INFO root fetch - processPackages [echr-extractor]: Downloading https://files.pythonhosted.org/packages/9d/a5/d48a4f22c10ef1f3cf421c9ab48569b6c522664cd91d296d815e242387e7/echr_extractor-1.0.9.tar.gz
+[2023-07-17 12:16:54] INFO root fetch - processPackages [Icotest-DeviceServer]: Remove: archive file [/home/abi/fetcher/tmp/Icotest-DeviceServer-1.0.0.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [Icotest-DeviceServer]: Remove: archive file [/home/abi/fetcher/tmp/Icotest-DeviceServer-1.0.3.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [Icotest-DeviceServer]: Start processing: planqk-quantum
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [Icotest-DeviceServer]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.8.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.9.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [gs-peer-connection]: Start processing: arthub-login-widgets
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.1.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.2.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.2.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.3.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [rpds-py]: Remove: archive file [/home/abi/fetcher/tmp/rpds_py-0.8.7.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [rpds-py]: Remove: archive file [/home/abi/fetcher/tmp/rpds_py-0.8.8.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [rpds-py]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [arthub-login-widgets]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [echr-extractor]: executing diffoscope
+[2023-07-17 12:16:54] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-17 12:16:54] INFO root fetch - processPackages [echr-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echr_extractor-1.0.8.tar.gz tmp/echr_extractor-1.0.9.tar.gz --markdown 20230717/e/echr-extractor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 12:16:54] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [jqdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/jqdatasdk-1.8.9.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - processPackages [jqdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/jqdatasdk-1.9.0.tar.gz]
+[2023-07-17 12:16:54] INFO root fetch - main [MainThread]: End processing [jqdatasdk]: success
+[2023-07-17 12:16:54] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/2f/98/09546c9924cd06f9a6b346c3ca4173e335aca5cb734613d87becb4efe4ab/arthub_login_widgets-0.4.2.tar.gz
+[2023-07-17 12:16:54] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-17 12:16:54] INFO root fetch - processPackages [arthub-login-widgets]: Downloading https://files.pythonhosted.org/packages/1b/59/da7ecc461c5bca3a97bd291f0f3a9172a141c542ceda53103dea2d180459/arthub_login_widgets-0.4.3.tar.gz
+[2023-07-17 12:16:55] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-17 12:16:55] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230717/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-17 12:16:55] INFO root fetch - processPackages [arthub-login-widgets]: executing diffoscope
+[2023-07-17 12:16:55] INFO root fetch - processPackages [arthub-login-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_login_widgets-0.4.2.tar.gz tmp/arthub_login_widgets-0.4.3.tar.gz --markdown 20230717/a/arthub-login-widgets/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-17 12:16:55] INFO root fetch - processPackages [cherche]: Remove: archive file [/home/abi/fetcher/tmp/cherche-2.0.0.tar.gz]
+[2023-07-17 12:16:55] INFO root fetch - processPackages [cherche]: Remove: archive file [/home/abi/fetcher/tmp/cherche-2.0.1.tar.gz]
+[2023-07-17 12:16:55] INFO root fetch - main [MainThread]: End processing [cherche]: success
+[2023-07-17 12:16:55] INFO root fetch - processPackages [echr-extractor]: Remove: archive file [/home/abi/fetcher/tmp/echr_extractor-1.0.8.tar.gz]
+[2023-07-17 12:16:55] INFO root fetch - processPackages [echr-extractor]: Remove: archive file [/home/abi/fetcher/tmp/echr_extractor-1.0.9.tar.gz]
+[2023-07-17 12:16:55] INFO root fetch - main [MainThread]: End processing [echr-extractor]: success
+[2023-07-17 12:16:56] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.2.tar.gz]
+[2023-07-17 12:16:56] INFO root fetch - processPackages [arthub-login-widgets]: Remove: archive file [/home/abi/fetcher/tmp/arthub_login_widgets-0.4.3.tar.gz]
+[2023-07-17 12:16:56] INFO root fetch - main [MainThread]: End processing [arthub-login-widgets]: success
+[2023-07-17 12:16:56] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-17 12:16:56] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-17 12:16:56] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-17 12:16:56] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.3.2.tar.gz]
+[2023-07-17 12:16:56] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.4.0.tar.gz]
+[2023-07-17 12:16:56] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2023-07-17 12:16:56] INFO root fetch - main [MainThread]: Store serial: [18915332]
