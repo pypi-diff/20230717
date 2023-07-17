@@ -14981,3 +14981,150 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 12:49:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307171045-py3-none-any.whl.zip]
 [2023-07-17 12:49:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-17 12:49:21] INFO root fetch - main [MainThread]: Store serial: [18915657]
+[2023-07-17 12:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915657]
+[2023-07-17 12:54:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riptide-all
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: letterenv
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompt4all
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniworldmaker
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: villa
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mycluster
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: entelecheia
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urturn
+[2023-07-17 12:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-meltingpot
+[2023-07-17 12:54:30] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [letterenv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [prompt4all]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [entelecheia]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [riptide-all]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [urturn]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [hak]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [mycluster]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [villa]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [dm-meltingpot]: New version: [2.1.1.dev9] Old Version: [2.1.1.dev6]
+[2023-07-17 12:54:31] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/f3/13/feb81bd15d26786614c70fa63b5049afcd9c93969921a39ab1714f36930f/miniworldmaker-2.8.0.0.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/3c/03/7d31baeb2cac0b3113dae73d48e3a6872cb43311edb1af1ffbfdb320a3aa/entelecheia-0.2.8.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/b3/bb/608ed3f6d7f48fc0e1a18a4a70c9181e966f262a3abc3407626da75a11ac/hak-0.0.92.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/bd/02/588029ed422f9d7dfbba3e33c0f1f19768e93c036bd417131325e065d35e/villa-0.7.0.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [letterenv]: Downloading https://files.pythonhosted.org/packages/ee/ff/640c295b8c778dc22b5bb18083b59af2d426c438ee517ffc131b2b8abe9e/letterenv-0.1.0.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [riptide-all]: Downloading https://files.pythonhosted.org/packages/9a/f0/3f3cd00c1838249ddea3a69eac61ef6e3eb96d83759c631c28ebbbc81156/riptide_all-0.8.0-py3-none-any.whl
+[2023-07-17 12:54:31] INFO root fetch - processPackages [prompt4all]: Downloading https://files.pythonhosted.org/packages/3b/33/6bf0a24afef63c7c1d950c3c7dc09ff5983b55e752a321d0a5c40f533fae/prompt4all-0.0.2-py3-none-any.whl
+[2023-07-17 12:54:31] INFO root fetch - processPackages [urturn]: Downloading https://files.pythonhosted.org/packages/ff/f2/cb56f1753319521351ba303d27eb4b664101030451a506e549a67af3b08a/urturn-0.1.4.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [mycluster]: Downloading https://files.pythonhosted.org/packages/45/56/b613f025fa301ecfb98fc59f5331a4a077cce54066c5f0cf5bd35e08ece8/mycluster-2.0.5.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [dm-meltingpot]: Downloading https://files.pythonhosted.org/packages/c8/ea/06bd3cfd080b574ab09ce016a765d19f1197d36e1798d6260eeaefe1776d/dm-meltingpot-2.1.1.dev6.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/a4/5a/30919c4c8ccdd2ef318e06cb147bbd26aab018948bc47f5499a94e94075b/hak-0.0.93.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/b9/2b/8e1c164f9e757ed512553b53cb0b2c7af2cdb34d75275dc4b4ce72b1b5ee/miniworldmaker-2.9.0.0.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/a2/f4/4e71719ee94d6a1cb349501e5a6a0e448b5f31be80467e9b3269b7a0088d/entelecheia-0.2.9.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/93/db/2d070474b7610a14ce4cb33be123774b1da5a3fe74c6bfb771fa11fbec43/villa-0.7.1.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [letterenv]: Downloading https://files.pythonhosted.org/packages/48/fc/b9bc87558fd3f4ddbfb6a1124d878899a75b6bda979000abe51dfdd3150c/letterenv-0.1.1.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [riptide-all]: Downloading https://files.pythonhosted.org/packages/83/e5/57027b39bb44896553849e7e327a3a7733c2b02821d7556d07f914c56d2e/riptide_all-0.8.0b1-py3-none-any.whl
+[2023-07-17 12:54:31] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-17 12:54:31] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.8.tar.gz tmp/entelecheia-0.2.9.tar.gz --markdown 20230717/e/entelecheia/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 12:54:31] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-17 12:54:31] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.92.tar.gz tmp/hak-0.0.93.tar.gz --markdown 20230717/h/hak/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-17 12:54:31] INFO root fetch - processPackages [urturn]: Downloading https://files.pythonhosted.org/packages/99/70/a96c600ec58acd694bc681ca5a1504ef3b8c4c6f6e6d178db56fca2674e7/urturn-0.1.5.tar.gz
+[2023-07-17 12:54:31] INFO root fetch - processPackages [prompt4all]: Downloading https://files.pythonhosted.org/packages/75/81/b2e290d0461397a4681642c371420ee47205fac33e0f8dc6e441b8a926f5/prompt4all-0.0.4-py3-none-any.whl
+[2023-07-17 12:54:32] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230717/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [letterenv]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [letterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterenv-0.1.0.tar.gz tmp/letterenv-0.1.1.tar.gz --markdown 20230717/l/letterenv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.7.0.tar.gz tmp/villa-0.7.1.tar.gz --markdown 20230717/v/villa/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [mycluster]: Downloading https://files.pythonhosted.org/packages/43/4e/2f38448f0c35486463788a06f9d76675dbb2a19ff20036ff7cb4760a3ca0/mycluster-2.0.6.tar.gz
+[2023-07-17 12:54:32] INFO root fetch - processPackages [dm-meltingpot]: Downloading https://files.pythonhosted.org/packages/67/be/72361283829bbf41fad4edd08c6024827cd9df6f34f27684dba591acd7e7/dm-meltingpot-2.1.1.dev9.tar.gz
+[2023-07-17 12:54:32] INFO root fetch - processPackages [urturn]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [urturn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urturn-0.1.4.tar.gz tmp/urturn-0.1.5.tar.gz --markdown 20230717/u/urturn/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [riptide-all]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [riptide-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_all-0.8.0-py3-none-any.whl.zip tmp/riptide_all-0.8.0b1-py3-none-any.whl.zip --markdown 20230717/r/riptide-all/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [prompt4all]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [prompt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt4all-0.0.2-py3-none-any.whl.zip tmp/prompt4all-0.0.4-py3-none-any.whl.zip --markdown 20230717/p/prompt4all/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [mycluster]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [mycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycluster-2.0.5.tar.gz tmp/mycluster-2.0.6.tar.gz --markdown 20230717/m/mycluster/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-17 12:54:32] INFO root fetch - processPackages [dm-meltingpot]: executing diffoscope
+[2023-07-17 12:54:32] INFO root fetch - processPackages [dm-meltingpot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-meltingpot-2.1.1.dev6.tar.gz tmp/dm-meltingpot-2.1.1.dev9.tar.gz --markdown 20230717/d/dm-meltingpot/2.1.1.dev6-2.1.1.dev9/diff.md --exclude *.pyd
+[2023-07-17 12:54:33] INFO root fetch - processPackages [letterenv]: Remove: archive file [/home/abi/fetcher/tmp/letterenv-0.1.0.tar.gz]
+[2023-07-17 12:54:33] INFO root fetch - processPackages [letterenv]: Remove: archive file [/home/abi/fetcher/tmp/letterenv-0.1.1.tar.gz]
+[2023-07-17 12:54:33] INFO root fetch - processPackages [letterenv]: Start processing: aiopypiserver
+[2023-07-17 12:54:33] INFO root fetch - main [MainThread]: End processing [letterenv]: success
+[2023-07-17 12:54:33] INFO root fetch - processPackages [aiopypiserver]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.8.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.9.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [entelecheia]: Start processing: fastapi_amis_admin_nav
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/25/21/960bb7623a5991df4bca838ec1538ea26c0d4cfc1ea3a55e5ff688016e5d/aiopypiserver-0.0.0.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [riptide-all]: Remove: archive file [/home/abi/fetcher/tmp/riptide_all-0.8.0-py3-none-any.whl.zip]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [riptide-all]: Remove: archive file [/home/abi/fetcher/tmp/riptide_all-0.8.0b1-py3-none-any.whl.zip]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [riptide-all]: Start processing: herta-villa-sdk
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [riptide-all]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [fastapi_amis_admin_nav]: New version: [0.1.0a1] Old Version: [0.0.4a1]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [mycluster]: Remove: archive file [/home/abi/fetcher/tmp/mycluster-2.0.5.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [mycluster]: Remove: archive file [/home/abi/fetcher/tmp/mycluster-2.0.6.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [mycluster]: Start processing: spdb
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [mycluster]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [spdb]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [urturn]: Remove: archive file [/home/abi/fetcher/tmp/urturn-0.1.4.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [urturn]: Remove: archive file [/home/abi/fetcher/tmp/urturn-0.1.5.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [urturn]: Start processing: pyngeso
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [urturn]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.0.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.1.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [villa]: Start processing: task2b
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [pyngeso]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/44/1a/761095bd1832ddae283daa61f888f31eff90bc751ffa46f86edf575aa242/spdb-1.0.1.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Downloading https://files.pythonhosted.org/packages/81/79/2ebc90dd52a073a3c6ab2f23be95a9c98c84adef494760754ec465a587b1/fastapi_amis_admin_nav-0.0.4a1.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [prompt4all]: Remove: archive file [/home/abi/fetcher/tmp/prompt4all-0.0.2-py3-none-any.whl.zip]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [prompt4all]: Remove: archive file [/home/abi/fetcher/tmp/prompt4all-0.0.4-py3-none-any.whl.zip]
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [prompt4all]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/ad/dc/4239d56e14c8fc20f409ad0d245100386e7d87ca6e2aeee4d6dd6d31a5f0/aiopypiserver-0.0.1.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [task2b]: New version: [1.0.19] Old Version: [1.0.18]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/f3/6f/4c4d0314519a850809d5718da6db940656abbc315c9d76c11561d012b5ed/herta_villa_sdk-0.5.1.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [aiopypiserver]: executing diffoscope
+[2023-07-17 12:54:34] INFO root fetch - processPackages [aiopypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopypiserver-0.0.0.tar.gz tmp/aiopypiserver-0.0.1.tar.gz --markdown 20230717/a/aiopypiserver/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-17 12:54:34] INFO root fetch - processPackages [pyngeso]: Downloading https://files.pythonhosted.org/packages/d2/7e/036616295621922a9e2b682a0a7e51159f9b02bd22100dfa4a39a64fc4f2/pyngeso-0.3.3.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/cf/23/88f804190bdeb11b2cf698c40662a08a675d9cfb4fd680dc1061ea59f7aa/task2b-1.0.18.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.8.0.0.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/bf/9e/376cb1fa1676e95e4a545eafe005ae698ba8167a4f2a07b30b835597fd73/spdb-1.0.2.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.9.0.0.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-07-17 12:54:34] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/8a/63/588201289354a5384522a15d45bbb8c57a852f2092e37c8c479316aebb9b/herta_villa_sdk-0.6.0.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Downloading https://files.pythonhosted.org/packages/2a/cb/4e3c7858c803bb261aae907bdbdc25d6d65296d0176ed841ff8738b52a99/fastapi_amis_admin_nav-0.1.0a1.tar.gz
+[2023-07-17 12:54:34] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 12:54:34] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.1.tar.gz tmp/spdb-1.0.2.tar.gz --markdown 20230717/s/spdb/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 12:54:34] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-17 12:54:34] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.5.1.tar.gz tmp/herta_villa_sdk-0.6.0.tar.gz --markdown 20230717/h/herta-villa-sdk/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 12:54:34] INFO root fetch - processPackages [dm-meltingpot]: Remove: archive file [/home/abi/fetcher/tmp/dm-meltingpot-2.1.1.dev6.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - processPackages [dm-meltingpot]: Remove: archive file [/home/abi/fetcher/tmp/dm-meltingpot-2.1.1.dev9.tar.gz]
+[2023-07-17 12:54:34] INFO root fetch - main [MainThread]: End processing [dm-meltingpot]: success
+[2023-07-17 12:54:35] INFO root fetch - processPackages [pyngeso]: Downloading https://files.pythonhosted.org/packages/fd/5c/ef99ce6d6ec175fa461b65d90e9a28f19aada7ea45e4fdc7a834707ecde1/pyngeso-0.3.4.tar.gz
+[2023-07-17 12:54:35] INFO root fetch - processPackages [fastapi_amis_admin_nav]: executing diffoscope
+[2023-07-17 12:54:35] INFO root fetch - processPackages [fastapi_amis_admin_nav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin_nav-0.0.4a1.tar.gz tmp/fastapi_amis_admin_nav-0.1.0a1.tar.gz --markdown 20230717/f/fastapi_amis_admin_nav/0.0.4a1-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-17 12:54:35] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/b5/14/6f56c899916a92d20bdaf7f088dfd65c3cf0a0d05558771520eff9988909/task2b-1.0.19.tar.gz
+[2023-07-17 12:54:35] INFO root fetch - processPackages [pyngeso]: executing diffoscope
+[2023-07-17 12:54:35] INFO root fetch - processPackages [pyngeso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyngeso-0.3.3.tar.gz tmp/pyngeso-0.3.4.tar.gz --markdown 20230717/p/pyngeso/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-17 12:54:35] INFO root fetch - processPackages [task2b]: executing diffoscope
+[2023-07-17 12:54:35] INFO root fetch - processPackages [task2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2b-1.0.18.tar.gz tmp/task2b-1.0.19.tar.gz --markdown 20230717/t/task2b/1.0.18-1.0.19/diff.md --exclude *.pyd
+[2023-07-17 12:54:35] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.92.tar.gz]
+[2023-07-17 12:54:35] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.93.tar.gz]
+[2023-07-17 12:54:35] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-17 12:54:35] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.0.tar.gz]
+[2023-07-17 12:54:35] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.1.tar.gz]
+[2023-07-17 12:54:35] INFO root fetch - main [MainThread]: End processing [aiopypiserver]: success
+[2023-07-17 12:54:36] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.1.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.2.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 12:54:36] INFO root fetch - processPackages [pyngeso]: Remove: archive file [/home/abi/fetcher/tmp/pyngeso-0.3.3.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - processPackages [pyngeso]: Remove: archive file [/home/abi/fetcher/tmp/pyngeso-0.3.4.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - main [MainThread]: End processing [pyngeso]: success
+[2023-07-17 12:54:36] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_nav-0.0.4a1.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_nav-0.1.0a1.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin_nav]: success
+[2023-07-17 12:54:36] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.5.1.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.6.0.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-17 12:54:36] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.18.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.19.tar.gz]
+[2023-07-17 12:54:36] INFO root fetch - main [MainThread]: End processing [task2b]: success
+[2023-07-17 12:54:36] INFO root fetch - main [MainThread]: Store serial: [18915702]
