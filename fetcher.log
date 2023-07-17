@@ -19423,3 +19423,202 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 15:41:45] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.2.tar.gz]
 [2023-07-17 15:41:45] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-07-17 15:41:45] INFO root fetch - main [MainThread]: Store serial: [18917581]
+[2023-07-17 15:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917581]
+[2023-07-17 15:46:55] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-configurator
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitelabs-sila
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-nhm
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-dllib
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-orca
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-friesian
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkov
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yumee
+[2023-07-17 15:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: staircase-kit
+[2023-07-17 15:46:56] INFO root fetch - processPackages [ckanext-nhm]: New version: [5.8.1] Old Version: [5.8.0]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] WARNING root fetch - processPackages [odoo-configurator]: Skipping, unable to determine old version
+[2023-07-17 15:46:56] INFO root fetch - processPackages [odoo-configurator]: Start processing: bigdl-dllib-spark2
+[2023-07-17 15:46:56] INFO root fetch - main [MainThread]: End processing [odoo-configurator] error
+[2023-07-17 15:46:56] INFO root fetch - processPackages [unitelabs-sila]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] WARNING root fetch - processPackages [yumee]: Skipping, unable to determine old version
+[2023-07-17 15:46:56] INFO root fetch - processPackages [yumee]: Start processing: bigdl-orca-spark2
+[2023-07-17 15:46:56] INFO root fetch - main [MainThread]: End processing [yumee] error
+[2023-07-17 15:46:56] INFO root fetch - processPackages [staircase-kit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/70/a0/ba7192aa39b6b280409446b0bf8109c5bc1d5effe7f54d2f459e36deaeb9/staircase_kit-0.1.8.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/60/c2/97126fe1f1f46205ad0a9e7cbb604e4f1ecca9872cd5d6d78978b7f69ccd/ckanext-nhm-5.8.0.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [unitelabs-sila]: Downloading https://files.pythonhosted.org/packages/c3/37/42b0ac75743b029e9b31fb220a12c945c57355a096df9f4e82491dc3d64a/unitelabs_sila-0.1.2.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/00/37/84f71420222f368ba74139aebf4edd10641f54491ad7dcce298c7c7ed956/bigdl_orca-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:56] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 29132739>=10485760
+[2023-07-17 15:46:56] INFO root fetch - processPackages [ckanext-nhm]: Start processing: bigdl-friesian-spark2
+[2023-07-17 15:46:56] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/44/ad/ad789d1af55fc22421776ed83e1640def763cf623e46c50137093a0d615f/bigdl_friesian-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/ee/fa/ff5baecb8bcecf4b78562be5cde7cc3ed906286e1329c8c5415530b256f8/bigdl-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/61/4e/73a4915ab66cfd952a78cd26839b17bdedd872c6f4b668239422a55f66e1/bigdl-dllib-spark2-2.4.0b20230716.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/c2/c3/9d7d9e0cd6d66eb58dcec250f1920e5f02946af4403884a31bb9ba9e1e4d/bigdl-dllib-2.4.0b20230716.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/73/d8/f1c024d927a81b8778e9edb592fb50665c501cb145447870ee4be0b96849/bigdl_orca_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:56] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20373847>=10485760
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-chronos-spark2
+[2023-07-17 15:46:56] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/01/96/15a40885ce958da4972b51b06600031ea9983c0e9522cd8ef1e964283364/staircase_kit-0.1.9.tar.gz
+[2023-07-17 15:46:56] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639211>=10485760
+[2023-07-17 15:46:56] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: relevanceai
+[2023-07-17 15:46:56] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-17 15:46:56] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20373927>=10485760
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-spark2
+[2023-07-17 15:46:56] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-17 15:46:56] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230717] Old Version: [2.4.0b20230716]
+[2023-07-17 15:46:56] INFO root fetch - processPackages [unitelabs-sila]: Downloading https://files.pythonhosted.org/packages/af/8b/4a764b06a6fbb65bed1298f6906d1c835eb6cae1aee33d54dc5bd521593e/unitelabs_sila-0.1.3.tar.gz
+[2023-07-17 15:46:57] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230717/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/54/4c/c9c52acbc66e854e6a7e5714d53031216523891062bb9fd47fb476997f86/bigdl_friesian_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [relevanceai]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-17 15:46:57] INFO root fetch - processPackages [staircase-kit]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [staircase-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staircase_kit-0.1.8.tar.gz tmp/staircase_kit-0.1.9.tar.gz --markdown 20230717/s/staircase-kit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/1c/5f/33fb44c66c907e8ca7854425bc36dcaf0b3e7f40d01652c2d191b54179e0/bigdl-2.4.0b20230717-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/c0/69/c65df17df57023639f5c3bd6510caac752d93e031ed19ac01795c2ba5194/bigdl_chronos_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [unitelabs-sila]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [unitelabs-sila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitelabs_sila-0.1.2.tar.gz tmp/unitelabs_sila-0.1.3.tar.gz --markdown 20230717/u/unitelabs-sila/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53639226>=10485760
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-dllib]: Start processing: IngeoDash
+[2023-07-17 15:46:57] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/2a/a9/fa4168e99fca3052f879894175b7ed2d434dd10f43ac3f3a6c0a194b26d3/bigdl_friesian-2.4.0b20230717-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [IngeoDash]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/ad/d3/d68b420c2a04760cb82ad82bebb2a4c38acb2b7cc0cef7139006bb1f6db5/bigdl_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/de/85/bd6286fbad3aa58fc41b5b7f8e075d8ba606c96f9594602a035cdb0e6b28/relevanceai-5.0.0.tar.gz
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip --markdown 20230717/b/bigdl/2.4.0b20230716-2.4.0b20230717/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip --markdown 20230717/b/bigdl-friesian/2.4.0b20230716-2.4.0b20230717/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/d5/fa/9084140115bd71f276f962b8d1be3fabaa1605c91c0378c7324288b85d48/IngeoDash-0.0.21.tar.gz
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/e6/40/80e2af7fccb4b2a175af0c10e81363eb9446c19a7f85dba766fb6e320700/bigdl_friesian_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/75/95/adc7ef103d67635aba88a32787319dc0bbb1761233cd8efb7c300da75ec1/bigdl_chronos_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/90/b8/881f7ef660a2a652bcbf7b0292ac7f2d2f22f759ee757a37bfe451e4e95c/relevanceai-5.0.1.tar.gz
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/11/85/c96448caba6f3dabc8958deb3da0fca00324e837d30f395822fd4b2ddc54/bigdl_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl
+[2023-07-17 15:46:57] INFO root fetch - processPackages [relevanceai]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [relevanceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relevanceai-5.0.0.tar.gz tmp/relevanceai-5.0.1.tar.gz --markdown 20230717/r/relevanceai/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip --markdown 20230717/b/bigdl-friesian-spark2/2.4.0b20230716-2.4.0b20230717/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/54/81/0914684f3cdaf1d04f45e7e6b6214e0cc27f14b537ee5a709e8b2e8037f6/IngeoDash-0.0.22.tar.gz
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip --markdown 20230717/b/bigdl-chronos-spark2/2.4.0b20230716-2.4.0b20230717/diff.md --exclude *.pyd
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-17 15:46:57] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip --markdown 20230717/b/bigdl-spark2/2.4.0b20230716-2.4.0b20230717/diff.md --exclude *.pyd
+[2023-07-17 15:46:58] INFO root fetch - processPackages [IngeoDash]: executing diffoscope
+[2023-07-17 15:46:58] INFO root fetch - processPackages [IngeoDash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IngeoDash-0.0.21.tar.gz tmp/IngeoDash-0.0.22.tar.gz --markdown 20230717/I/IngeoDash/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-17 15:46:58] INFO root fetch - processPackages [staircase-kit]: Remove: archive file [/home/abi/fetcher/tmp/staircase_kit-0.1.8.tar.gz]
+[2023-07-17 15:46:58] INFO root fetch - processPackages [staircase-kit]: Remove: archive file [/home/abi/fetcher/tmp/staircase_kit-0.1.9.tar.gz]
+[2023-07-17 15:46:58] INFO root fetch - processPackages [staircase-kit]: Start processing: cmo-nnect
+[2023-07-17 15:46:58] INFO root fetch - main [MainThread]: End processing [staircase-kit]: success
+[2023-07-17 15:46:58] INFO root fetch - processPackages [cmo-nnect]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-17 15:46:58] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:46:58] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:46:58] INFO root fetch - processPackages [bigdl]: Start processing: kodexa
+[2023-07-17 15:46:58] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-17 15:46:58] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-07-17 15:46:58] INFO root fetch - processPackages [cmo-nnect]: Downloading https://files.pythonhosted.org/packages/f1/20/47a2e2e26658cfe7d35c3e03bf707f643d1b7ba430cd57629ce53f9e01f6/cmo_nnect-0.0.2.tar.gz
+[2023-07-17 15:46:59] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-07-17 15:46:59] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-07-17 15:46:59] INFO root fetch - processPackages [cmo-nnect]: Downloading https://files.pythonhosted.org/packages/81/c8/cd8799e76bb171a8c049d3ead5fe1b0bbe81e7528c3c115e544106ff7f17/cmo_nnect-0.1.0.tar.gz
+[2023-07-17 15:46:59] INFO root fetch - processPackages [unitelabs-sila]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_sila-0.1.2.tar.gz]
+[2023-07-17 15:46:59] INFO root fetch - processPackages [unitelabs-sila]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_sila-0.1.3.tar.gz]
+[2023-07-17 15:46:59] INFO root fetch - processPackages [unitelabs-sila]: Start processing: papfa
+[2023-07-17 15:46:59] INFO root fetch - main [MainThread]: End processing [unitelabs-sila]: success
+[2023-07-17 15:46:59] INFO root fetch - processPackages [cmo-nnect]: executing diffoscope
+[2023-07-17 15:46:59] INFO root fetch - processPackages [cmo-nnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmo_nnect-0.0.2.tar.gz tmp/cmo_nnect-0.1.0.tar.gz --markdown 20230717/c/cmo-nnect/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-17 15:46:59] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-17 15:46:59] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230717/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-07-17 15:46:59] INFO root fetch - processPackages [papfa]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 15:46:59] INFO root fetch - processPackages [papfa]: Downloading https://files.pythonhosted.org/packages/fe/17/0c60d0a9c9b0a73b56aaf120ae869df0a3809185b119dd5bbc06af7fd346/papfa-0.1.8-py2.py3-none-any.whl
+[2023-07-17 15:46:59] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:46:59] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:46:59] INFO root fetch - processPackages [bigdl-spark2]: Start processing: tackle
+[2023-07-17 15:46:59] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-17 15:46:59] INFO root fetch - processPackages [tackle]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.0.21.tar.gz]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.0.22.tar.gz]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [IngeoDash]: Start processing: yellowbox
+[2023-07-17 15:47:00] INFO root fetch - main [MainThread]: End processing [IngeoDash]: success
+[2023-07-17 15:47:00] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.0.tar.gz]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.1.tar.gz]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [relevanceai]: Start processing: decoratory
+[2023-07-17 15:47:00] INFO root fetch - main [MainThread]: End processing [relevanceai]: success
+[2023-07-17 15:47:00] INFO root fetch - processPackages [tackle]: Downloading https://files.pythonhosted.org/packages/96/e2/2b0305c38532e5c6d5dcec068832498acd69f0ec760611d9f415c4db5632/tackle-0.5.0.tar.gz
+[2023-07-17 15:47:00] INFO root fetch - processPackages [yellowbox]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [decoratory]: New version: [0.9.5.2] Old Version: [0.9.4.1]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [bigdl-friesian]: Start processing: relevanceai
+[2023-07-17 15:47:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-17 15:47:00] INFO root fetch - processPackages [papfa]: Downloading https://files.pythonhosted.org/packages/2a/3b/4734c27d30b6ba87fab469399d6fe9b88ed83e4ad790dd9c7f5801ca6720/papfa-0.1.9-py2.py3-none-any.whl
+[2023-07-17 15:47:00] INFO root fetch - processPackages [relevanceai]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/de/85/bd6286fbad3aa58fc41b5b7f8e075d8ba606c96f9594602a035cdb0e6b28/relevanceai-5.0.0.tar.gz
+[2023-07-17 15:47:00] INFO root fetch - processPackages [yellowbox]: Downloading https://files.pythonhosted.org/packages/ba/57/5a49db21493cc7646a192de97726b143177d6474582ae1ea3f67ba06965a/yellowbox-0.8.4.tar.gz
+[2023-07-17 15:47:00] INFO root fetch - processPackages [tackle]: Downloading https://files.pythonhosted.org/packages/cb/e3/fe2c90b7162ab34bc6afecbacaefe3f313b5d875529170814e109dda9018/tackle-0.5.1.tar.gz
+[2023-07-17 15:47:00] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/30/e6/d91b3efa87984efddaaedbe1464cd619601bfa99388fdf6ec05f8e09f16c/decoratory-0.9.4.1.tar.gz
+[2023-07-17 15:47:00] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [papfa]: executing diffoscope
+[2023-07-17 15:47:00] INFO root fetch - processPackages [papfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papfa-0.1.8-py2.py3-none-any.whl.zip tmp/papfa-0.1.9-py2.py3-none-any.whl.zip --markdown 20230717/p/papfa/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 15:47:00] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: dragonk8s
+[2023-07-17 15:47:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-17 15:47:00] INFO root fetch - processPackages [dragonk8s]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 15:47:00] INFO root fetch - processPackages [tackle]: executing diffoscope
+[2023-07-17 15:47:00] INFO root fetch - processPackages [tackle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tackle-0.5.0.tar.gz tmp/tackle-0.5.1.tar.gz --markdown 20230717/t/tackle/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-17 15:47:00] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/90/b8/881f7ef660a2a652bcbf7b0292ac7f2d2f22f759ee757a37bfe451e4e95c/relevanceai-5.0.1.tar.gz
+[2023-07-17 15:47:00] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/e7/20/2ca0de62a81db26c32ed61ffcc3f1a75ddc8f48d3230909dffdc4e55f7e2/dragonk8s-1.0.2.tar.gz
+[2023-07-17 15:47:01] INFO root fetch - processPackages [yellowbox]: Downloading https://files.pythonhosted.org/packages/f9/0c/5bb7b4ec81816d4074089111a80e1e387486271d62985ba7fbb570b0d251/yellowbox-0.8.5.tar.gz
+[2023-07-17 15:47:01] INFO root fetch - processPackages [relevanceai]: executing diffoscope
+[2023-07-17 15:47:01] INFO root fetch - processPackages [relevanceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relevanceai-5.0.0.tar.gz tmp/relevanceai-5.0.1.tar.gz --markdown 20230717/r/relevanceai/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-17 15:47:01] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/fa/b2/cdbc1c6ee0d7854ca388a83eca5f868883d1a13ae3a3f0586583c8c21eaa/decoratory-0.9.5.2.tar.gz
+[2023-07-17 15:47:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:47:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230717-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-17 15:47:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: mockbuild
+[2023-07-17 15:47:01] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-17 15:47:01] INFO root fetch - processPackages [cmo-nnect]: Remove: archive file [/home/abi/fetcher/tmp/cmo_nnect-0.0.2.tar.gz]
+[2023-07-17 15:47:01] INFO root fetch - processPackages [cmo-nnect]: Remove: archive file [/home/abi/fetcher/tmp/cmo_nnect-0.1.0.tar.gz]
+[2023-07-17 15:47:01] INFO root fetch - main [MainThread]: End processing [cmo-nnect]: success
+[2023-07-17 15:47:01] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/94/17/5bd6ac94b914e1b09c5b6c054b2e5c5ac1987166ad74e9d5750ca2c35860/dragonk8s-1.0.3.tar.gz
+[2023-07-17 15:47:01] WARNING root fetch - processPackages [mockbuild]: Skipping, unable to determine old version
+[2023-07-17 15:47:01] INFO root fetch - main [MainThread]: End processing [mockbuild] error
+[2023-07-17 15:47:01] INFO root fetch - processPackages [yellowbox]: executing diffoscope
+[2023-07-17 15:47:01] INFO root fetch - processPackages [yellowbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox-0.8.4.tar.gz tmp/yellowbox-0.8.5.tar.gz --markdown 20230717/y/yellowbox/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-17 15:47:01] INFO root fetch - processPackages [dragonk8s]: executing diffoscope
+[2023-07-17 15:47:01] INFO root fetch - processPackages [dragonk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonk8s-1.0.2.tar.gz tmp/dragonk8s-1.0.3.tar.gz --markdown 20230717/d/dragonk8s/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 15:47:01] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-07-17 15:47:01] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.4.1.tar.gz tmp/decoratory-0.9.5.2.tar.gz --markdown 20230717/d/decoratory/0.9.4.1-0.9.5.2/diff.md --exclude *.pyd
+[2023-07-17 15:47:01] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-07-17 15:47:01] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-07-17 15:47:01] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-17 15:47:02] INFO root fetch - processPackages [papfa]: Remove: archive file [/home/abi/fetcher/tmp/papfa-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-17 15:47:02] INFO root fetch - processPackages [papfa]: Remove: archive file [/home/abi/fetcher/tmp/papfa-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-17 15:47:02] INFO root fetch - main [MainThread]: End processing [papfa]: success
+[2023-07-17 15:47:02] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.0.tar.gz]
+[2023-07-17 15:47:02] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.1.tar.gz]
+[2023-07-17 15:47:02] INFO root fetch - main [MainThread]: End processing [relevanceai]: success
+[2023-07-17 15:47:03] INFO root fetch - processPackages [yellowbox]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox-0.8.4.tar.gz]
+[2023-07-17 15:47:03] INFO root fetch - processPackages [yellowbox]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox-0.8.5.tar.gz]
+[2023-07-17 15:47:03] INFO root fetch - main [MainThread]: End processing [yellowbox]: success
+[2023-07-17 15:47:03] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.4.1.tar.gz]
+[2023-07-17 15:47:03] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.5.2.tar.gz]
+[2023-07-17 15:47:03] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-07-17 15:47:04] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.2.tar.gz]
+[2023-07-17 15:47:04] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.3.tar.gz]
+[2023-07-17 15:47:04] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
+[2023-07-17 15:47:05] INFO root fetch - processPackages [tackle]: Remove: archive file [/home/abi/fetcher/tmp/tackle-0.5.0.tar.gz]
+[2023-07-17 15:47:05] INFO root fetch - processPackages [tackle]: Remove: archive file [/home/abi/fetcher/tmp/tackle-0.5.1.tar.gz]
+[2023-07-17 15:47:05] INFO root fetch - main [MainThread]: End processing [tackle]: success
+[2023-07-17 15:47:15] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-17 15:47:15] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-17 15:47:15] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-17 15:47:15] INFO root fetch - main [MainThread]: Store serial: [18917660]
