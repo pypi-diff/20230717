@@ -15848,3 +15848,99 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:31:39] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.1.1.tar.gz]
 [2023-07-17 13:31:39] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
 [2023-07-17 13:31:39] INFO root fetch - main [MainThread]: Store serial: [18916030]
+[2023-07-17 13:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916030]
+[2023-07-17 13:36:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xoa
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-xrengine20230313
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opnsense
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybindingcurve
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-cradmin
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CardGameBase
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pathgenmap
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d3blocks
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utbot-executor
+[2023-07-17 13:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-07-17 13:36:49] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.34] Old Version: [0.0.29]
+[2023-07-17 13:36:49] WARNING root fetch - processPackages [alibabacloud-xrengine20230313]: Skipping, unable to determine old version
+[2023-07-17 13:36:49] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Start processing: pymycobot
+[2023-07-17 13:36:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-xrengine20230313] error
+[2023-07-17 13:36:49] INFO root fetch - processPackages [pybindingcurve]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-17 13:36:49] INFO root fetch - processPackages [xoa]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-17 13:36:49] INFO root fetch - processPackages [d3blocks]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-17 13:36:49] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 13:36:49] INFO root fetch - processPackages [CardGameBase]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 13:36:49] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 13:36:49] INFO root fetch - processPackages [django-cradmin]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-07-17 13:36:50] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pymycobot]: New version: [3.1.6b3] Old Version: [3.1.6b2]
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/4d/f3/0330a9146ce9a6f74275d7be52d0dbcab65fe82313426894e04cc9f5f07f/pulumi-opnsense-0.0.0.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pybindingcurve]: Downloading https://files.pythonhosted.org/packages/d0/83/63e151c884d0f4222a7feac870347d8c40a65caac568db38f02da2a83081/pybindingcurve-1.1.2.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [xoa]: Downloading https://files.pythonhosted.org/packages/ae/d3/74625f644ef6e98bdaabf5129f283752853f2c3ea39453d615904d2a032f/xoa-0.6.1.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [d3blocks]: Downloading https://files.pythonhosted.org/packages/ef/2f/3a7885c34802bf433ef196eb7ff9b6917896d5bba6697bfd8e8534b1f5de/d3blocks-1.2.9.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/54/86/f87d5f97ac53588fc3e8396e2a683116c71a39456c245a2187c2a7580fe4/CardGameBase-1.0.4.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/96/50/052526ab62f57083d4dd75575b1c54b757b4f69a1947e6a2670d133fca68/django-cradmin-9.1.0.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/b9/7f/17f62b506ee789b94289ec18d6aa2aaf5982e43aff0e75cb5f08d4516e40/pymycobot-3.1.6b2.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-17 13:36:50] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230717/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230717/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/4c/c2/ce152ae33a3e7db54ed8a09bf1e8e2b2a1481c541812c1fbf128caf42c1d/pulumi-opnsense-.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-17 13:36:50] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230717/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pybindingcurve]: Downloading https://files.pythonhosted.org/packages/bf/fc/ea00d7809afd771a873757ca6a8bcb145c55fcb94026e86b019571f74d2b/pybindingcurve-1.1.3.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/06/52/643740b8fe4f572704a6ed08c49df0b2ae235e6e45638602aaa796a516b6/CardGameBase-1.0.5.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [xoa]: Downloading https://files.pythonhosted.org/packages/1a/28/0ebda0154f37684ed41ace080a8bfae05d9e3f637a2a3220d7f2c14d814b/xoa-0.7.0.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [d3blocks]: Downloading https://files.pythonhosted.org/packages/59/20/9c639944c41ab3e122f7d36197fe4dcbd52bea95252343db1ea4ec7c6638/d3blocks-1.3.0.tar.gz
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pybindingcurve]: executing diffoscope
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pybindingcurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybindingcurve-1.1.2.tar.gz tmp/pybindingcurve-1.1.3.tar.gz --markdown 20230717/p/pybindingcurve/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-17 13:36:50] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/1e/00/68278c8e48d007afd1a6722d53782fa106dc312d4e3a420bdd46842ac929/pymycobot-3.1.6b3.tar.gz
+[2023-07-17 13:36:51] INFO root fetch - processPackages [CardGameBase]: executing diffoscope
+[2023-07-17 13:36:51] INFO root fetch - processPackages [CardGameBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CardGameBase-1.0.4.tar.gz tmp/CardGameBase-1.0.5.tar.gz --markdown 20230717/C/CardGameBase/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 13:36:51] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-17 13:36:51] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-opnsense-0.0.0.tar.gz tmp/pulumi-opnsense-.tar.gz --markdown 20230717/p/pulumi-opnsense/0.0.29-0.0.34/diff.md --exclude *.pyd
+[2023-07-17 13:36:51] INFO root fetch - processPackages [d3blocks]: executing diffoscope
+[2023-07-17 13:36:51] INFO root fetch - processPackages [d3blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3blocks-1.2.9.tar.gz tmp/d3blocks-1.3.0.tar.gz --markdown 20230717/d/d3blocks/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-17 13:36:51] INFO root fetch - processPackages [xoa]: executing diffoscope
+[2023-07-17 13:36:51] INFO root fetch - processPackages [xoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-0.6.1.tar.gz tmp/xoa-0.7.0.tar.gz --markdown 20230717/x/xoa/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-17 13:36:51] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/23/85/f38ba4732c972a67d52a04b76e82d47209993d7df27ad891360ebf61c88b/django-cradmin-9.2.0.tar.gz
+[2023-07-17 13:36:51] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-07-17 13:36:51] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.6b2.tar.gz tmp/pymycobot-3.1.6b3.tar.gz --markdown 20230717/p/pymycobot/3.1.6b2-3.1.6b3/diff.md --exclude *.pyd
+[2023-07-17 13:36:52] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-17 13:36:52] INFO root fetch - processPackages [django-cradmin]: executing diffoscope
+[2023-07-17 13:36:52] INFO root fetch - processPackages [django-cradmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cradmin-9.1.0.tar.gz tmp/django-cradmin-9.2.0.tar.gz --markdown 20230717/d/django-cradmin/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-07-17 13:36:52] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-17 13:36:52] INFO root fetch - processPackages [CardGameBase]: Remove: archive file [/home/abi/fetcher/tmp/CardGameBase-1.0.4.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - processPackages [CardGameBase]: Remove: archive file [/home/abi/fetcher/tmp/CardGameBase-1.0.5.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - main [MainThread]: End processing [CardGameBase]: success
+[2023-07-17 13:36:52] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-17 13:36:52] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-0.0.0.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-17 13:36:52] INFO root fetch - processPackages [pybindingcurve]: Remove: archive file [/home/abi/fetcher/tmp/pybindingcurve-1.1.2.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - processPackages [pybindingcurve]: Remove: archive file [/home/abi/fetcher/tmp/pybindingcurve-1.1.3.tar.gz]
+[2023-07-17 13:36:52] INFO root fetch - main [MainThread]: End processing [pybindingcurve]: success
+[2023-07-17 13:36:53] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b2.tar.gz]
+[2023-07-17 13:36:53] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b3.tar.gz]
+[2023-07-17 13:36:53] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-07-17 13:36:53] INFO root fetch - processPackages [xoa]: Remove: archive file [/home/abi/fetcher/tmp/xoa-0.6.1.tar.gz]
+[2023-07-17 13:36:53] INFO root fetch - processPackages [xoa]: Remove: archive file [/home/abi/fetcher/tmp/xoa-0.7.0.tar.gz]
+[2023-07-17 13:36:53] INFO root fetch - main [MainThread]: End processing [xoa]: success
+[2023-07-17 13:36:53] INFO root fetch - processPackages [d3blocks]: Remove: archive file [/home/abi/fetcher/tmp/d3blocks-1.2.9.tar.gz]
+[2023-07-17 13:36:53] INFO root fetch - processPackages [d3blocks]: Remove: archive file [/home/abi/fetcher/tmp/d3blocks-1.3.0.tar.gz]
+[2023-07-17 13:36:53] INFO root fetch - main [MainThread]: End processing [d3blocks]: success
+[2023-07-17 13:37:03] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.1.0.tar.gz]
+[2023-07-17 13:37:03] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
+[2023-07-17 13:37:03] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
+[2023-07-17 13:37:03] INFO root fetch - main [MainThread]: Store serial: [18916066]
