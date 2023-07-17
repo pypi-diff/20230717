@@ -16412,3 +16412,69 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:58:08] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
 [2023-07-17 13:58:08] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-07-17 13:58:08] INFO root fetch - main [MainThread]: Store serial: [18916347]
+[2023-07-17 14:03:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916347]
+[2023-07-17 14:03:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utbot-executor
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lektor-tekir
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-model-builder-multilingual
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matrx
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motti
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghastoolkit
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codebleu
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ghastoolkit]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [matrx]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [motti]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [lektor-tekir]: New version: [0.3] Old Version: [0.2]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/c8/ee/23f2a32bb0b6c5986e59efc1fbc71a6d8700d66600b607bde44c94305ecb/ghastoolkit-0.5.1.tar.gz
+[2023-07-17 14:03:18] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-17 14:03:18] INFO root fetch - processPackages [codebleu]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-17 14:03:18] INFO root fetch - processPackages [matrx]: Downloading https://files.pythonhosted.org/packages/f1/63/aebfeb1e0cab05ba7bdc2ee65063e54803c91339a9b2bc2ae9752084858a/matrx-2.3.1.tar.gz
+[2023-07-17 14:03:18] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/14/2b/125a75eb7b8039498cf31eab2f32ac4945c0ab07c66332cb5f4a0c3a0f64/oarepo-model-builder-multilingual-3.0.7.tar.gz
+[2023-07-17 14:03:18] INFO root fetch - processPackages [lektor-tekir]: Downloading https://files.pythonhosted.org/packages/60/c0/786e2e09ffcddea97990984e3bd5a2e1731cfc34f13fa6c61225f5e5a43f/lektor-tekir-0.2.tar.gz
+[2023-07-17 14:03:18] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/92/12/308337968e83bfe6a9c2c733bfb66a9077bc3882e31e31e117d21c17494d/motti-0.0.4.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/ca/19/16b377115cb2e414db391902ee42fd5fb7d79fe99ec7a33f2a60a704c11f/codebleu-0.2.0.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/bf/03/4a2fb234f404245e54e588df73976fbd0d31ea5db728c6f6a5122435ff78/ghastoolkit-0.5.2.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-17 14:03:19] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230717/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-17 14:03:19] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/63/c4/2b7802d8d949500e4ed164304004d6e3963893d8d1e878687012007d4b60/motti-0.0.5.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/2f/c7/412c0834526209075d80f57cf9e49ab459194bbce97b0344454076212616/oarepo-model-builder-multilingual-3.0.8.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [lektor-tekir]: Downloading https://files.pythonhosted.org/packages/79/7f/323485104e4c5994fb00fd07b5ba97ffc4c31e0ce651c64cb1dd0623c077/lektor-tekir-0.3.tar.gz
+[2023-07-17 14:03:19] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-07-17 14:03:19] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.5.1.tar.gz tmp/ghastoolkit-0.5.2.tar.gz --markdown 20230717/g/ghastoolkit/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-17 14:03:19] INFO root fetch - processPackages [motti]: executing diffoscope
+[2023-07-17 14:03:19] INFO root fetch - processPackages [motti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motti-0.0.4.tar.gz tmp/motti-0.0.5.tar.gz --markdown 20230717/m/motti/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-17 14:03:19] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-07-17 14:03:19] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-3.0.7.tar.gz tmp/oarepo-model-builder-multilingual-3.0.8.tar.gz --markdown 20230717/o/oarepo-model-builder-multilingual/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-07-17 14:03:19] INFO root fetch - processPackages [lektor-tekir]: executing diffoscope
+[2023-07-17 14:03:19] INFO root fetch - processPackages [lektor-tekir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor-tekir-0.2.tar.gz tmp/lektor-tekir-0.3.tar.gz --markdown 20230717/l/lektor-tekir/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-17 14:03:20] INFO root fetch - processPackages [matrx]: Downloading https://files.pythonhosted.org/packages/7a/c2/5ae3a790e76aac430b339313f68b29f0266b8b85cb02b39e8e78f5d8abb6/matrx-2.3.2.tar.gz
+[2023-07-17 14:03:20] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-17 14:03:20] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.4.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.5.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - main [MainThread]: End processing [motti]: success
+[2023-07-17 14:03:20] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.7.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.8.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-07-17 14:03:20] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.5.1.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.5.2.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-07-17 14:03:20] INFO root fetch - processPackages [lektor-tekir]: Remove: archive file [/home/abi/fetcher/tmp/lektor-tekir-0.2.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - processPackages [lektor-tekir]: Remove: archive file [/home/abi/fetcher/tmp/lektor-tekir-0.3.tar.gz]
+[2023-07-17 14:03:20] INFO root fetch - main [MainThread]: End processing [lektor-tekir]: success
+[2023-07-17 14:03:20] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/6b/e4/bbd3b2fc0834f7be032f868287f230d907ff68fa848631578a91595fd7b1/codebleu-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-17 14:03:21] INFO root fetch - processPackages [codebleu]: executing diffoscope
+[2023-07-17 14:03:21] INFO root fetch - processPackages [codebleu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebleu-0.2.0.tar.gz tmp/codebleu-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230717/c/codebleu/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-17 14:03:21] INFO root fetch - processPackages [matrx]: executing diffoscope
+[2023-07-17 14:03:21] INFO root fetch - processPackages [matrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrx-2.3.1.tar.gz tmp/matrx-2.3.2.tar.gz --markdown 20230717/m/matrx/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-17 14:03:25] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.2.0.tar.gz]
+[2023-07-17 14:03:25] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-17 14:03:25] INFO root fetch - main [MainThread]: End processing [codebleu]: success
+[2023-07-17 14:03:42] INFO root fetch - processPackages [matrx]: Remove: archive file [/home/abi/fetcher/tmp/matrx-2.3.1.tar.gz]
+[2023-07-17 14:03:42] INFO root fetch - processPackages [matrx]: Remove: archive file [/home/abi/fetcher/tmp/matrx-2.3.2.tar.gz]
+[2023-07-17 14:03:42] INFO root fetch - main [MainThread]: End processing [matrx]: success
+[2023-07-17 14:03:42] INFO root fetch - main [MainThread]: Store serial: [18916378]
