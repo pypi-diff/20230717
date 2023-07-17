@@ -16295,3 +16295,120 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:52:53] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-17 13:52:53] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-17 13:52:53] INFO root fetch - main [MainThread]: Store serial: [18916301]
+[2023-07-17 13:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18916301]
+[2023-07-17 13:58:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavlab-python-utils
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volstreet
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytrinamic
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unified-planning
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamazing
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-model-builder
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: collective.restapi.facetedsearch
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: platform-library
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caluma
+[2023-07-17 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langcheck
+[2023-07-17 13:58:02] INFO root fetch - processPackages [collective.restapi.facetedsearch]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [lavlab-python-utils]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [caluma]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [volstreet]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [platform-library]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [datamazing]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [pytrinamic]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-17 13:58:02] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.6.dev1] Old Version: [1.0.0.2.dev1]
+[2023-07-17 13:58:02] ERROR root fetch - processPackages [langcheck]: Unable to get metadata: No such project 'langcheck'
+[2023-07-17 13:58:02] INFO root fetch - processPackages [langcheck]: Start processing: XPT2046-asukiaaa-python
+[2023-07-17 13:58:02] INFO root fetch - main [MainThread]: End processing [langcheck] error
+[2023-07-17 13:58:02] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-17 13:58:02] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/d7/85/abe578881cee92e2688140ed638509d61045261e95d2a388080b9b0591f4/platform-library-0.1.2.tar.gz
+[2023-07-17 13:58:02] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/c0/fb/e62ba384cfff9fb272963093debaed6cba55815ed64173593a1e1679eba9/lavlab-python-utils-1.2.2.tar.gz
+[2023-07-17 13:58:02] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/26/2b/62fe8cd7a0dd65dadc14c2fe53816f29ae03889fd781eb79886890cd17cc/volstreet-1.0.3.tar.gz
+[2023-07-17 13:58:02] WARNING root fetch - processPackages [XPT2046-asukiaaa-python]: Skipping, unable to determine old version
+[2023-07-17 13:58:02] INFO root fetch - processPackages [XPT2046-asukiaaa-python]: Start processing: finbourne-insights-sdk-preview
+[2023-07-17 13:58:02] INFO root fetch - main [MainThread]: End processing [XPT2046-asukiaaa-python] error
+[2023-07-17 13:58:02] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/dd/65/577d81f52f4fc6c631d7cea19752fa71759ac01c492326f04677b3fc4710/unified_planning-1.0.0.2.dev1.tar.gz
+[2023-07-17 13:58:02] INFO root fetch - processPackages [pytrinamic]: Downloading https://files.pythonhosted.org/packages/bd/09/e2a44b521255b55f1023445855d9f6d01d51f96e7cae0cddec2b83a8667a/pytrinamic-0.2.6.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.717] Old Version: [0.0.715]
+[2023-07-17 13:58:03] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/b8/8d/b55d38b710da33ea8a723e08a8122e11f8e16b9f2001501e05d045180a1e/datamazing-1.0.1.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [caluma]: Downloading https://files.pythonhosted.org/packages/ec/2f/03524ffbc2251f573c80d2879637e7fc2d1f0c491ff56ce779deaa7d5148/caluma-9.0.0.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/43/216fdbd3e342c73686054245a5e7753b5cb44798c5fa7521ba270717e7f2/finbourne-insights-sdk-preview-0.0.715.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/01/9f/328f5008c86f592cb678113e958c6ce179f56630842d00e07bc63150be63/lavlab-python-utils-1.2.3.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/4b/89/1a7921a8b2b4f3dc61cc55714316c320e1ee5c16f956a55ccb771ecf1d28/unified_planning-1.0.0.6.dev1.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/1e/47/dd1f6acf6daa130f233cb6461a96aad646a28e4a2e6da23b2b9f71c1a07d/volstreet-1.0.4.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/5c/49/604cd926a68b3675c8cb37f32fd9b39df24871debcc3bf0dad89fc64817f/platform-library-0.2.0.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230717/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/0c/3c/b0e706009598fb9befbb5153e3582fea163c42d68c3bd39367541362a6c0/datamazing-1.0.2.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [pytrinamic]: Downloading https://files.pythonhosted.org/packages/8f/2f/09146f50820064c07eea9acbc548bb9a63d49ed634890207edde0e548855/pytrinamic-0.2.7.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [collective.restapi.facetedsearch]: Downloading https://files.pythonhosted.org/packages/76/f1/acc407c924f76f211685bb4ba0e394c0143e0c775b437399f993387ee94a/collective.restapi.facetedsearch-1.0.2.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [lavlab-python-utils]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [lavlab-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavlab-python-utils-1.2.2.tar.gz tmp/lavlab-python-utils-1.2.3.tar.gz --markdown 20230717/l/lavlab-python-utils/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.2.dev1.tar.gz tmp/unified_planning-1.0.0.6.dev1.tar.gz --markdown 20230717/u/unified-planning/1.0.0.2.dev1-1.0.0.6.dev1/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [caluma]: Downloading https://files.pythonhosted.org/packages/3a/f0/5093315e2614873c0d7e06fc66d70bd720d90780f60a61afa505ed6f5fb4/caluma-9.1.0.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-1.0.1.tar.gz tmp/datamazing-1.0.2.tar.gz --markdown 20230717/d/datamazing/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.3.tar.gz tmp/volstreet-1.0.4.tar.gz --markdown 20230717/v/volstreet/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.1.2.tar.gz tmp/platform-library-0.2.0.tar.gz --markdown 20230717/p/platform-library/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/73/22/86727607f81adf89029fe7235bb78c083e37dd9884f3e065d056ce441c4f/finbourne-insights-sdk-preview-0.0.717.tar.gz
+[2023-07-17 13:58:03] INFO root fetch - processPackages [pytrinamic]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [pytrinamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrinamic-0.2.6.tar.gz tmp/pytrinamic-0.2.7.tar.gz --markdown 20230717/p/pytrinamic/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.715.tar.gz tmp/finbourne-insights-sdk-preview-0.0.717.tar.gz --markdown 20230717/f/finbourne-insights-sdk-preview/0.0.715-0.0.717/diff.md --exclude *.pyd
+[2023-07-17 13:58:03] INFO root fetch - processPackages [caluma]: executing diffoscope
+[2023-07-17 13:58:03] INFO root fetch - processPackages [caluma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma-9.0.0.tar.gz tmp/caluma-9.1.0.tar.gz --markdown 20230717/c/caluma/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-07-17 13:58:04] INFO root fetch - processPackages [collective.restapi.facetedsearch]: Downloading https://files.pythonhosted.org/packages/cc/d6/02035296c4c0da1ab03596d35609964d03246e73c702fcffbe05724c67cd/collective.restapi.facetedsearch-1.0.3.tar.gz
+[2023-07-17 13:58:04] INFO root fetch - processPackages [collective.restapi.facetedsearch]: executing diffoscope
+[2023-07-17 13:58:04] INFO root fetch - processPackages [collective.restapi.facetedsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.restapi.facetedsearch-1.0.2.tar.gz tmp/collective.restapi.facetedsearch-1.0.3.tar.gz --markdown 20230717/c/collective.restapi.facetedsearch/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 13:58:05] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.2.tar.gz]
+[2023-07-17 13:58:05] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.3.tar.gz]
+[2023-07-17 13:58:05] INFO root fetch - processPackages [lavlab-python-utils]: Start processing: ramodels
+[2023-07-17 13:58:05] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
+[2023-07-17 13:58:05] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-17 13:58:05] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.1.tar.gz]
+[2023-07-17 13:58:05] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.2.tar.gz]
+[2023-07-17 13:58:05] INFO root fetch - processPackages [datamazing]: Start processing: mysqlbuilder
+[2023-07-17 13:58:05] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-17 13:58:05] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.3.tar.gz]
+[2023-07-17 13:58:05] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.4.tar.gz]
+[2023-07-17 13:58:05] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-17 13:58:05] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-17 13:58:05] INFO root fetch - processPackages [mysqlbuilder]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-07-17 13:58:06] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.1.2.tar.gz]
+[2023-07-17 13:58:06] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.2.0.tar.gz]
+[2023-07-17 13:58:06] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-07-17 13:58:06] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/a5/f1/70a3268e7561dd47a669147e7fbf57bcf7deae1fdf52010e4121f02a3ba4/mysqlbuilder-1.0.13.tar.gz
+[2023-07-17 13:58:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-17 13:58:06] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-17 13:58:06] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230717/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-17 13:58:06] INFO root fetch - processPackages [collective.restapi.facetedsearch]: Remove: archive file [/home/abi/fetcher/tmp/collective.restapi.facetedsearch-1.0.2.tar.gz]
+[2023-07-17 13:58:06] INFO root fetch - processPackages [collective.restapi.facetedsearch]: Remove: archive file [/home/abi/fetcher/tmp/collective.restapi.facetedsearch-1.0.3.tar.gz]
+[2023-07-17 13:58:06] INFO root fetch - main [MainThread]: End processing [collective.restapi.facetedsearch]: success
+[2023-07-17 13:58:06] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/13/a6/0dee626c399020dd89b4265f1c89877850fd6c0a73192337e9419f7cddd6/mysqlbuilder-1.0.14.tar.gz
+[2023-07-17 13:58:06] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.715.tar.gz]
+[2023-07-17 13:58:06] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.717.tar.gz]
+[2023-07-17 13:58:06] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-07-17 13:58:06] INFO root fetch - processPackages [mysqlbuilder]: executing diffoscope
+[2023-07-17 13:58:06] INFO root fetch - processPackages [mysqlbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlbuilder-1.0.13.tar.gz tmp/mysqlbuilder-1.0.14.tar.gz --markdown 20230717/m/mysqlbuilder/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-07-17 13:58:07] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.6.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.7.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - main [MainThread]: End processing [pytrinamic]: success
+[2023-07-17 13:58:07] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-17 13:58:07] INFO root fetch - processPackages [caluma]: Remove: archive file [/home/abi/fetcher/tmp/caluma-9.0.0.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - processPackages [caluma]: Remove: archive file [/home/abi/fetcher/tmp/caluma-9.1.0.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - main [MainThread]: End processing [caluma]: success
+[2023-07-17 13:58:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-17 13:58:07] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.13.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.14.tar.gz]
+[2023-07-17 13:58:07] INFO root fetch - main [MainThread]: End processing [mysqlbuilder]: success
+[2023-07-17 13:58:08] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.2.dev1.tar.gz]
+[2023-07-17 13:58:08] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
+[2023-07-17 13:58:08] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-07-17 13:58:08] INFO root fetch - main [MainThread]: Store serial: [18916347]
