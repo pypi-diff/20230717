@@ -4930,3 +4930,103 @@
 [2023-07-17 03:33:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-17 03:33:04] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-17 03:33:04] INFO root fetch - main [MainThread]: Store serial: [18911471]
+[2023-07-17 03:38:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911471]
+[2023-07-17 03:38:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quao
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bizlogic
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: offlinerllib
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taichu-storage
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tondortools
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bizlogic
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepl-translator-selenium
+[2023-07-17 03:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: icpp-pro
+[2023-07-17 03:38:13] INFO root fetch - processPackages [offlinerllib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [deepl-translator-selenium]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [icpp-pro]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [bizlogic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [bizlogic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 03:38:13] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-17 03:38:14] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:38:14] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-17 03:38:14] INFO root fetch - processPackages [deepl-translator-selenium]: Downloading https://files.pythonhosted.org/packages/c3/62/d576deeb0972961f0cefe7ec74c6f3bbbf9b0dca04f25cb204cb810b4d0c/deepl-translator_selenium-0.2.2.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/26/08/dca2a0872e4f77b17e6ed678d42aeea5c9b2386e4590e990970a952892de/bizlogic-0.1.2.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/26/08/dca2a0872e4f77b17e6ed678d42aeea5c9b2386e4590e990970a952892de/bizlogic-0.1.2.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [offlinerllib]: Downloading https://files.pythonhosted.org/packages/c5/c1/65856646e82d4d87838a1d57a79802de8531610a2f28995a73a097857ac4/offlinerllib-0.0.8.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/57/5d/bf204333cd526dc68a86cdc89d8516f961e0c6c2479200372c68de8a0c00/taichu-storage-0.0.8.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [icpp-pro]: Downloading https://files.pythonhosted.org/packages/47/04/a04b75cff45bd0bfcfb66b48703e9ee92b0331d0abe1841ef97f57526f01/icpp_pro-2.1.0-py3-none-any.whl
+[2023-07-17 03:38:14] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [deepl-translator-selenium]: Downloading https://files.pythonhosted.org/packages/9c/b8/7629b0bceba2779b50744df9aec9e70866fd6944052b826e9fe48f293ec1/deepl-translator_selenium-0.2.3.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/9d/01/8cd7c9b9ba77bb6d9e58399fe76eafe7862eaaacb5e0d3256c35d7579255/bizlogic-0.1.3.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/9d/01/8cd7c9b9ba77bb6d9e58399fe76eafe7862eaaacb5e0d3256c35d7579255/bizlogic-0.1.3.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [deepl-translator-selenium]: executing diffoscope
+[2023-07-17 03:38:14] INFO root fetch - processPackages [deepl-translator-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl-translator_selenium-0.2.2.tar.gz tmp/deepl-translator_selenium-0.2.3.tar.gz --markdown 20230717/d/deepl-translator-selenium/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-17 03:38:14] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-17 03:38:14] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230717/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:38:14] INFO root fetch - processPackages [offlinerllib]: Downloading https://files.pythonhosted.org/packages/f4/07/6b8080ad582351cd9531a0cdbaf6b1b6da15625233e2c602290773b07c21/offlinerllib-0.0.9.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-17 03:38:14] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230717/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.1.2.tar.gz tmp/bizlogic-0.1.3.tar.gz --markdown 20230717/b/bizlogic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-17 03:38:14] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.1.2.tar.gz tmp/bizlogic-0.1.3.tar.gz --markdown 20230717/b/bizlogic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 03:38:14] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [icpp-pro]: Downloading https://files.pythonhosted.org/packages/e8/f9/f15fcf5297c35eb593e54389a07f67b276ce3f21b3cefbfde507ac042ff4/icpp-pro-3.0.0.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/b6/4c/bb0274a35c4976e46f46d7e1809f3a9f4a6e4936f25b4e38a739eca05e04/taichu-storage-0.0.9.tar.gz
+[2023-07-17 03:38:14] INFO root fetch - processPackages [offlinerllib]: executing diffoscope
+[2023-07-17 03:38:14] INFO root fetch - processPackages [offlinerllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinerllib-0.0.8.tar.gz tmp/offlinerllib-0.0.9.tar.gz --markdown 20230717/o/offlinerllib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 03:38:15] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-17 03:38:15] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230717/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-17 03:38:15] INFO root fetch - processPackages [icpp-pro]: executing diffoscope
+[2023-07-17 03:38:15] INFO root fetch - processPackages [icpp-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_pro-2.1.0-py3-none-any.whl.zip tmp/icpp-pro-3.0.0.tar.gz --markdown 20230717/i/icpp-pro/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-17 03:38:15] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-17 03:38:15] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.8.tar.gz tmp/taichu-storage-0.0.9.tar.gz --markdown 20230717/t/taichu-storage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 03:38:15] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-07-17 03:38:16] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-07-17 03:38:16] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230717/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-17 03:38:16] INFO root fetch - processPackages [deepl-translator-selenium]: Remove: archive file [/home/abi/fetcher/tmp/deepl-translator_selenium-0.2.2.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [deepl-translator-selenium]: Remove: archive file [/home/abi/fetcher/tmp/deepl-translator_selenium-0.2.3.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [deepl-translator-selenium]: Start processing: nbdev-numpy
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [deepl-translator-selenium]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.2.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.3.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-17 03:38:16] INFO root fetch - processPackages [icpp-pro]: Remove: archive file [/home/abi/fetcher/tmp/icpp_pro-2.1.0-py3-none-any.whl.zip]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [icpp-pro]: Remove: archive file [/home/abi/fetcher/tmp/icpp-pro-3.0.0.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [icpp-pro]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.8.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.9.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [offlinerllib]: Remove: archive file [/home/abi/fetcher/tmp/offlinerllib-0.0.8.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [offlinerllib]: Remove: archive file [/home/abi/fetcher/tmp/offlinerllib-0.0.9.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [offlinerllib]: success
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-17 03:38:16] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230717/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:38:16] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-17 03:38:16] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-17 03:38:17] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-07-17 03:38:17] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-07-17 03:38:17] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-07-17 03:38:17] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-17 03:38:17] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-17 03:38:17] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-17 03:38:17] INFO root fetch - main [MainThread]: Store serial: [18911503]
