@@ -18039,3 +18039,170 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 14:58:38] INFO root fetch - processPackages [train-track]: Remove: archive file [/home/abi/fetcher/tmp/train_track-0.1.5.tar.gz]
 [2023-07-17 14:58:38] INFO root fetch - main [MainThread]: End processing [train-track]: success
 [2023-07-17 14:58:38] INFO root fetch - main [MainThread]: Store serial: [18917071]
+[2023-07-17 15:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18917071]
+[2023-07-17 15:03:47] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: treemodel2sql
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Hellomanna
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-product-template-multi-link
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-model-builder
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runestone
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langfuse
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-translator
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spdb
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: htagweb
+[2023-07-17 15:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-openai-tr
+[2023-07-17 15:03:47] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.1.dev5]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [azure-openai-tr]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [treemodel2sql]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [nonebot-plugin-translator]: New version: [2.0.0b4.post1] Old Version: [2.0.0b4.post0]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [spdb]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [langfuse]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [runestone]: New version: [7.0.5] Old Version: [7.0.4]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [htagweb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-17 15:03:47] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-17 15:03:47] ERROR root fetch - processPackages [Hellomanna]: Unable to get metadata: No such project 'Hellomanna'
+[2023-07-17 15:03:47] INFO root fetch - processPackages [Hellomanna]: Start processing: openai-function-call
+[2023-07-17 15:03:47] INFO root fetch - main [MainThread]: End processing [Hellomanna] error
+[2023-07-17 15:03:47] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/93/47/e5018f24de07cf7f584fca868bfbd9aada5eac47ff91b0e8099217e66362/htagweb-0.3.1.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [openai-function-call]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-17 15:03:48] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/83/04/5c5f5f93b7b852456dc9345dbd186a5a16d12b894c973227c32e0f901dd1/azure_openai_tr-0.1.0a4.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: Downloading https://files.pythonhosted.org/packages/ff/46/f3a0f4d42a0072eb68bf7c2803e79a00658eb69ee4d5c50e6268525235ab/odoo14_addon_product_template_multi_link-14.0.1.2.1.dev5-py3-none-any.whl
+[2023-07-17 15:03:48] INFO root fetch - processPackages [treemodel2sql]: Downloading https://files.pythonhosted.org/packages/a1/9d/ae60a8950017afb9d1a48b7136b66ff17c6bdedfae708b257a99eb5c8825/treemodel2sql-0.1.1.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/5f/2b/f7961d6ac8ddc64145fb0dd446b2f7d6a52327ec47162d414771b94c3b88/openai_function_call-0.1.2.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/e0/ba/74812e35465cc37c6100348e601d6b8ce383990ccff3c7c69d32fc3586ee/spdb-1.0.4.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/58/50/62b36e836d404b1928955efeb04378208b0007060b4ad27bef739acea7ab/langfuse-0.0.7.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [nonebot-plugin-translator]: Downloading https://files.pythonhosted.org/packages/47/68/8b16461bca67c958085a02d55e94b13db3eed33b5aed14c8adce025732cb/nonebot_plugin_translator-2.0.0b4.post0.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [runestone]: Downloading https://files.pythonhosted.org/packages/72/c8/e5c5f772644a6d43f24b930d241811e34759c9e236274deeec5a3027740a/runestone-7.0.4.tar.gz
+[2023-07-17 15:03:48] WARNING root fetch - processPackages [runestone]: Skipping package: exceeds size limit 29019568>=10485760
+[2023-07-17 15:03:48] INFO root fetch - processPackages [runestone]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-17 15:03:48] INFO root fetch - main [MainThread]: End processing [runestone] error
+[2023-07-17 15:03:48] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 15:03:48] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/e6/2d/4da3855e9f17c83d23da210c5dd6f58bf0ef4f8ef7671f4780ba8e6796cf/htagweb-0.3.2.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [azure-openai-tr]: Downloading https://files.pythonhosted.org/packages/1d/f0/5d8a5255632a137732de537726022c8b8d69267fbb7193a85c9236e5691c/azure_openai_tr-0.1.0a5.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [treemodel2sql]: Downloading https://files.pythonhosted.org/packages/21/ce/7c442e701c3a8192d4b8a2c138a9c7e09c41da8f06cdd1741ec661bdb484/treemodel2sql-0.1.2.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/92/07/cfa8fde66e3ab2bc5db26a76466276e635c70d4ed5859f105fa94f00cd4e/openai_function_call-0.2.0.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: Downloading https://files.pythonhosted.org/packages/d4/21/17006c67cea4b6a8efcb4859d2797b471076b8eac6834f2febf3489d071e/odoo14_addon_product_template_multi_link-14.0.1.3.0-py3-none-any.whl
+[2023-07-17 15:03:48] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/fc/40/3ef74e4912171af535ce42a8496b5d514b756a0b45ff32bc1feed39955ef/langfuse-0.0.8.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/c5/46/30ebef77fe8692672efb5203b17011290d5267e23029d2634dee9feab5e2/spdb-1.0.5.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-17 15:03:48] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230717/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-17 15:03:48] INFO root fetch - processPackages [nonebot-plugin-translator]: Downloading https://files.pythonhosted.org/packages/ea/3f/fb7ea49b6800a14bda95eb239eca451c4a50be390ef8fce5ac697e3db7e1/nonebot_plugin_translator-2.0.0b4.post1.tar.gz
+[2023-07-17 15:03:48] INFO root fetch - processPackages [azure-openai-tr]: executing diffoscope
+[2023-07-17 15:03:48] INFO root fetch - processPackages [azure-openai-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_openai_tr-0.1.0a4.tar.gz tmp/azure_openai_tr-0.1.0a5.tar.gz --markdown 20230717/a/azure-openai-tr/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-17 15:03:48] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-17 15:03:48] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.3.1.tar.gz tmp/htagweb-0.3.2.tar.gz --markdown 20230717/h/htagweb/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.7.tar.gz tmp/langfuse-0.0.8.tar.gz --markdown 20230717/l/langfuse/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [treemodel2sql]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [treemodel2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treemodel2sql-0.1.1.tar.gz tmp/treemodel2sql-0.1.2.tar.gz --markdown 20230717/t/treemodel2sql/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [openai-function-call]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [openai-function-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_call-0.1.2.tar.gz tmp/openai_function_call-0.2.0.tar.gz --markdown 20230717/o/openai-function-call/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-17 15:03:49] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_template_multi_link-14.0.1.2.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_product_template_multi_link-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-product-template-multi-link/14.0.1.2.1.dev5-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [nonebot-plugin-translator]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [nonebot-plugin-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_translator-2.0.0b4.post0.tar.gz tmp/nonebot_plugin_translator-2.0.0b4.post1.tar.gz --markdown 20230717/n/nonebot-plugin-translator/2.0.0b4.post0-2.0.0b4.post1/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.4.tar.gz tmp/spdb-1.0.5.tar.gz --markdown 20230717/s/spdb/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 15:03:49] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-17 15:03:49] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 15:03:50] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a4.tar.gz]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [azure-openai-tr]: Remove: archive file [/home/abi/fetcher/tmp/azure_openai_tr-0.1.0a5.tar.gz]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [azure-openai-tr]: Start processing: mwdb-iocextract
+[2023-07-17 15:03:50] INFO root fetch - main [MainThread]: End processing [azure-openai-tr]: success
+[2023-07-17 15:03:50] INFO root fetch - processPackages [mwdb-iocextract]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.1.tar.gz]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.2.tar.gz]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [htagweb]: Start processing: mango-framework
+[2023-07-17 15:03:50] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-17 15:03:50] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/22/5e/ba5634ad513d1e9cb6ef20713f977dec5eb7e8c19e7168a143e12d0f128c/mwdb-iocextract-1.1.4.tar.gz
+[2023-07-17 15:03:50] INFO root fetch - processPackages [mango-framework]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.7.tar.gz]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-07-17 15:03:50] INFO root fetch - processPackages [langfuse]: Start processing: spdb
+[2023-07-17 15:03:50] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.4.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.5.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: Start processing: read5
+[2023-07-17 15:03:51] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/2b/1a/c7cb77f2cbd511dfe781e18a4ca756a7ad0798e325824d79be9a834bc3a2/mango-framework-0.6.2.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [nonebot-plugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_translator-2.0.0b4.post0.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [nonebot-plugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_translator-2.0.0b4.post1.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [nonebot-plugin-translator]: Start processing: bilix
+[2023-07-17 15:03:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-translator]: success
+[2023-07-17 15:03:51] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.1.2.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.2.0.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [openai-function-call]: Start processing: image-analyst-cv2
+[2023-07-17 15:03:51] INFO root fetch - main [MainThread]: End processing [openai-function-call]: success
+[2023-07-17 15:03:51] INFO root fetch - processPackages [read5]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/e0/ba/74812e35465cc37c6100348e601d6b8ce383990ccff3c7c69d32fc3586ee/spdb-1.0.4.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [bilix]: New version: [1.0a1] Old Version: [1.0a0]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [treemodel2sql]: Remove: archive file [/home/abi/fetcher/tmp/treemodel2sql-0.1.1.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [treemodel2sql]: Remove: archive file [/home/abi/fetcher/tmp/treemodel2sql-0.1.2.tar.gz]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [treemodel2sql]: Start processing: digimat.bac0
+[2023-07-17 15:03:51] INFO root fetch - main [MainThread]: End processing [treemodel2sql]: success
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/58/77/6472982c7bd162386215d2ecc4046ef8caeade38d7d376dddb24ad7c5f55/mwdb-iocextract-1.2.0.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [image-analyst-cv2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: Downloading https://files.pythonhosted.org/packages/c5/46/30ebef77fe8692672efb5203b17011290d5267e23029d2634dee9feab5e2/spdb-1.0.5.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/ac/96/5af3a7ea653a3ecb60cec24c3aeb6424460322ad307a985594af2df5adf2/bilix-1.0a0.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mwdb-iocextract]: executing diffoscope
+[2023-07-17 15:03:51] INFO root fetch - processPackages [read5]: Downloading https://files.pythonhosted.org/packages/81/48/27f455644414ce065d96b58cba1e48c6b0d7b356e23c22d2fc3757b909e3/read5-1.1.8.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mwdb-iocextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwdb-iocextract-1.1.4.tar.gz tmp/mwdb-iocextract-1.2.0.tar.gz --markdown 20230717/m/mwdb-iocextract/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/a8/3e/a7f43b098b0fc9f6451b337406ac7e1796e35da5ba054cdf9acfd6942ab1/mango-framework-0.6.3.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: executing diffoscope
+[2023-07-17 15:03:51] INFO root fetch - processPackages [spdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdb-1.0.4.tar.gz tmp/spdb-1.0.5.tar.gz --markdown 20230717/s/spdb/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-17 15:03:51] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_template_multi_link-14.0.1.2.1.dev5-py3-none-any.whl.zip]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_template_multi_link-14.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-17 15:03:51] INFO root fetch - processPackages [odoo14-addon-product-template-multi-link]: Start processing: photon-packet-parser
+[2023-07-17 15:03:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-template-multi-link]: success
+[2023-07-17 15:03:51] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [image-analyst-cv2]: Downloading https://files.pythonhosted.org/packages/d7/d0/25e2d1f5d521c391c226f7658dcc444802da1a23dc071c4ee5b7d87a2c3c/image_analyst_cv2-0.1.0.tar.gz
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-17 15:03:51] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.6.2.tar.gz tmp/mango-framework-0.6.3.tar.gz --markdown 20230717/m/mango-framework/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-17 15:03:51] WARNING root fetch - processPackages [photon-packet-parser]: Skipping, unable to determine old version
+[2023-07-17 15:03:51] INFO root fetch - main [MainThread]: End processing [photon-packet-parser] error
+[2023-07-17 15:03:52] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-17 15:03:52] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230717/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-17 15:03:52] INFO root fetch - processPackages [read5]: Downloading https://files.pythonhosted.org/packages/00/6d/ec68c934112deefa736a71aa7e6ae57229dc720ad2acb157366c6c3da252/read5-1.1.9.tar.gz
+[2023-07-17 15:03:52] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-17 15:03:52] INFO root fetch - processPackages [image-analyst-cv2]: Downloading https://files.pythonhosted.org/packages/ad/e5/0fa3db71ddda60e327e5ab097da3a33e24121cbe34c1a111b6ed55aa02ff/image_analyst_cv2-0.1.1.tar.gz
+[2023-07-17 15:03:52] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-17 15:03:52] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-17 15:03:52] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/2b/1e/bf550facc0a70b3a269e66416d844f5f49937e0622de9df71845317f3888/bilix-1.0a1.tar.gz
+[2023-07-17 15:03:52] INFO root fetch - processPackages [image-analyst-cv2]: executing diffoscope
+[2023-07-17 15:03:52] INFO root fetch - processPackages [image-analyst-cv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst_cv2-0.1.0.tar.gz tmp/image_analyst_cv2-0.1.1.tar.gz --markdown 20230717/i/image-analyst-cv2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 15:03:52] INFO root fetch - processPackages [bilix]: executing diffoscope
+[2023-07-17 15:03:52] INFO root fetch - processPackages [bilix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilix-1.0a0.tar.gz tmp/bilix-1.0a1.tar.gz --markdown 20230717/b/bilix/1.0a0-1.0a1/diff.md --exclude *.pyd
+[2023-07-17 15:03:52] INFO root fetch - processPackages [read5]: executing diffoscope
+[2023-07-17 15:03:52] INFO root fetch - processPackages [read5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read5-1.1.8.tar.gz tmp/read5-1.1.9.tar.gz --markdown 20230717/r/read5/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-17 15:03:53] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-17 15:03:53] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.4.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - processPackages [spdb]: Remove: archive file [/home/abi/fetcher/tmp/spdb-1.0.5.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - main [MainThread]: End processing [spdb]: success
+[2023-07-17 15:03:53] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.2.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.3.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-17 15:03:53] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.1.4.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.2.0.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - main [MainThread]: End processing [mwdb-iocextract]: success
+[2023-07-17 15:03:53] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-17 15:03:53] INFO root fetch - processPackages [image-analyst-cv2]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_cv2-0.1.0.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - processPackages [image-analyst-cv2]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_cv2-0.1.1.tar.gz]
+[2023-07-17 15:03:53] INFO root fetch - main [MainThread]: End processing [image-analyst-cv2]: success
+[2023-07-17 15:03:54] INFO root fetch - processPackages [bilix]: Remove: archive file [/home/abi/fetcher/tmp/bilix-1.0a0.tar.gz]
+[2023-07-17 15:03:54] INFO root fetch - processPackages [bilix]: Remove: archive file [/home/abi/fetcher/tmp/bilix-1.0a1.tar.gz]
+[2023-07-17 15:03:54] INFO root fetch - main [MainThread]: End processing [bilix]: success
+[2023-07-17 15:03:54] INFO root fetch - processPackages [read5]: Remove: archive file [/home/abi/fetcher/tmp/read5-1.1.8.tar.gz]
+[2023-07-17 15:03:54] INFO root fetch - processPackages [read5]: Remove: archive file [/home/abi/fetcher/tmp/read5-1.1.9.tar.gz]
+[2023-07-17 15:03:54] INFO root fetch - main [MainThread]: End processing [read5]: success
+[2023-07-17 15:03:54] INFO root fetch - main [MainThread]: Store serial: [18917124]
