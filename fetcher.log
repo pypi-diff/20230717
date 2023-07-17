@@ -4822,3 +4822,72 @@
 [2023-07-17 03:22:40] INFO root fetch - processPackages [super-ec2]: Remove: archive file [/home/abi/fetcher/tmp/super-ec2-0.0.99.tar.gz]
 [2023-07-17 03:22:40] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
 [2023-07-17 03:22:40] INFO root fetch - main [MainThread]: Store serial: [18911408]
+[2023-07-17 03:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911408]
+[2023-07-17 03:27:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: key-switcheroo
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icpp-candid
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sharkpoint
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytcomments
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-hugo-deploy
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lswifi
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolkit-python
+[2023-07-17 03:27:49] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ytcomments]: New version: [0.3] Old Version: [0.2]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [sharkpoint]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [icpp-candid]: New version: [3.0.0] Old Version: [2.9.0]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [lswifi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-17 03:27:49] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/5a/02/74c958d6b8fbfdcc715a74ef2b5ee0700b5e7c61d19a5507ce7de11e913b/ytcomments-0.2.tar.gz
+[2023-07-17 03:27:50] WARNING root fetch - processPackages [toolkit-python]: Skipping, unable to determine old version
+[2023-07-17 03:27:50] INFO root fetch - main [MainThread]: End processing [toolkit-python] error
+[2023-07-17 03:27:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [sharkpoint]: Downloading https://files.pythonhosted.org/packages/1a/d2/c3932dde99b4e64d3f95c16b30834910bd6047b1db9c29d3c4779f01e770/sharkpoint-1.1.0.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [icpp-candid]: Downloading https://files.pythonhosted.org/packages/b3/e2/818a292ed576a200ec71b5b88f452523d1378d9f76781da463bff82c27a5/icpp-candid-2.9.0.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/b9/17/0bfd635ba194fa69231eec90a859f9cb01fc8b2dd92857ce336397e95771/key_switcheroo-0.0.8.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [lswifi]: Downloading https://files.pythonhosted.org/packages/8b/89/0ee59238e3c7918e55caafec161372a71a7f06fc1c78c9e811585844ee96/lswifi-0.1.8.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [ytcomments]: Downloading https://files.pythonhosted.org/packages/93/0f/afd66f2560e2ef8f567f4c5fb77a448737c1c8f07bc52b2c617ebd7099a5/ytcomments-0.3.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [ytcomments]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [ytcomments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytcomments-0.2.tar.gz tmp/ytcomments-0.3.tar.gz --markdown 20230717/y/ytcomments/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-17 03:27:50] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230717/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 03:27:50] INFO root fetch - processPackages [sharkpoint]: Downloading https://files.pythonhosted.org/packages/d8/43/51bf8fb76ce40c7692908a060a309a83079243ff6895f6da3b23f5eea639/sharkpoint-2.0.0.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [icpp-candid]: Downloading https://files.pythonhosted.org/packages/80/e2/f8acd60b1f046af356bf993d9c451497d8f0f7f269f536d37e91619f2928/icpp-candid-3.0.0.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230717/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-17 03:27:50] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/88/30/bb3724cbb9ad640b4b9e715ac9bd4484a931a9fe81b423a6b613f0d0e104/key_switcheroo-0.0.9.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [lswifi]: Downloading https://files.pythonhosted.org/packages/03/bf/373c7910f4e4022f82fa8e0b4a5c45ffcb541684a4c873bcd1916bd31fe1/lswifi-0.1.9.tar.gz
+[2023-07-17 03:27:50] INFO root fetch - processPackages [sharkpoint]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [sharkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharkpoint-1.1.0.tar.gz tmp/sharkpoint-2.0.0.tar.gz --markdown 20230717/s/sharkpoint/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 03:27:50] INFO root fetch - processPackages [icpp-candid]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [icpp-candid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp-candid-2.9.0.tar.gz tmp/icpp-candid-3.0.0.tar.gz --markdown 20230717/i/icpp-candid/2.9.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-17 03:27:50] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.8.tar.gz tmp/key_switcheroo-0.0.9.tar.gz --markdown 20230717/k/key-switcheroo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 03:27:50] INFO root fetch - processPackages [lswifi]: executing diffoscope
+[2023-07-17 03:27:50] INFO root fetch - processPackages [lswifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lswifi-0.1.8.tar.gz tmp/lswifi-0.1.9.tar.gz --markdown 20230717/l/lswifi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 03:27:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-17 03:27:51] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-17 03:27:51] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.2.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - processPackages [ytcomments]: Remove: archive file [/home/abi/fetcher/tmp/ytcomments-0.3.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - main [MainThread]: End processing [ytcomments]: success
+[2023-07-17 03:27:51] INFO root fetch - processPackages [sharkpoint]: Remove: archive file [/home/abi/fetcher/tmp/sharkpoint-1.1.0.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - processPackages [sharkpoint]: Remove: archive file [/home/abi/fetcher/tmp/sharkpoint-2.0.0.tar.gz]
+[2023-07-17 03:27:51] INFO root fetch - main [MainThread]: End processing [sharkpoint]: success
+[2023-07-17 03:27:52] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.8.tar.gz]
+[2023-07-17 03:27:52] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.9.tar.gz]
+[2023-07-17 03:27:52] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-07-17 03:27:52] INFO root fetch - processPackages [lswifi]: Remove: archive file [/home/abi/fetcher/tmp/lswifi-0.1.8.tar.gz]
+[2023-07-17 03:27:52] INFO root fetch - processPackages [lswifi]: Remove: archive file [/home/abi/fetcher/tmp/lswifi-0.1.9.tar.gz]
+[2023-07-17 03:27:52] INFO root fetch - main [MainThread]: End processing [lswifi]: success
+[2023-07-17 03:27:52] INFO root fetch - processPackages [icpp-candid]: Remove: archive file [/home/abi/fetcher/tmp/icpp-candid-2.9.0.tar.gz]
+[2023-07-17 03:27:52] INFO root fetch - processPackages [icpp-candid]: Remove: archive file [/home/abi/fetcher/tmp/icpp-candid-3.0.0.tar.gz]
+[2023-07-17 03:27:52] INFO root fetch - main [MainThread]: End processing [icpp-candid]: success
+[2023-07-17 03:27:52] INFO root fetch - main [MainThread]: Store serial: [18911440]
