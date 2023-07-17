@@ -21294,3 +21294,307 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 16:35:00] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.4.tar.gz]
 [2023-07-17 16:35:00] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
 [2023-07-17 16:35:00] INFO root fetch - main [MainThread]: Store serial: [18918233]
+[2023-07-17 16:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18918233]
+[2023-07-17 16:40:09] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmngclient
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xerparser
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fym
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypergo
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgsqlx
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphractal
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vellum-ai
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-speech-tools
+[2023-07-17 16:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Carter-Offline
+[2023-07-17 16:40:10] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230717.14.35.407630] Old Version: [20230714.14.15.475191]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [fym]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [xerparser]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.5a0] Old Version: [2.0.5]
+[2023-07-17 16:40:10] WARNING root fetch - processPackages [azure-speech-tools]: Skipping, unable to determine old version
+[2023-07-17 16:40:10] INFO root fetch - processPackages [hypergo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [azure-speech-tools]: Start processing: cognition
+[2023-07-17 16:40:10] INFO root fetch - main [MainThread]: End processing [azure-speech-tools] error
+[2023-07-17 16:40:10] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/64/12/9b7a7065b7056d8a6b2d6d879b0b0c15b81722da89ba1b4866305a8d8f87/pgsqlx-1.0.2.tar.gz
+[2023-07-17 16:40:10] WARNING root fetch - processPackages [cognition]: Skipping, unable to determine old version
+[2023-07-17 16:40:10] INFO root fetch - processPackages [cognition]: Start processing: RapidMangaDL
+[2023-07-17 16:40:10] INFO root fetch - main [MainThread]: End processing [cognition] error
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/16/cf/796cdd5acea067c083c005dc1c73beadef4898b8cc0b719eee71099c66aa/vmngclient-0.9.3.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/4a/28/42ba8f3f336e7b82ff805cb800e67fdeee6c1cc8c5cf8014793eaf631c87/Carter-Offline-2.0.5.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/df/6f/d32c9d966e317f517ca77bf394492989149ca6527153fa72ed3644364560/certora-cli-alpha-martin-z3-lemmas-test-20230714.14.15.475191.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 16:40:10] INFO root fetch - processPackages [fym]: Downloading https://files.pythonhosted.org/packages/6a/d7/be897a3512c33a4ac669ee05274031bab68116f7b20bbc88ab4b3433c9fa/fym-1.2.0-py3-none-any.whl
+[2023-07-17 16:40:10] INFO root fetch - processPackages [hypergo]: Downloading https://files.pythonhosted.org/packages/99/db/9ee9404ad9436ea7eb7657df21a5de840919d8359fb8d5eaaa2ec80b2716/hypergo-0.1.2.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/d9/b8/18f3046e2056eba25c985ca6032f27b0e998fc148dcae61ba8c1137c2fda/xerparser-0.9.8.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/18/88/8f081654d602d7a42f21f96d608b9868a732095e53f2da8970f439769cc3/RapidMangaDL-0.0.8.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/60/1e/8fa022286e95c6d7b916fc4fa00fcef64cbcdf053911a9e7189fff6403b8/vmngclient-0.9.4.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/95/9f/b92fc6e7372fc69c8788c2ee3b7613ad647fcb97daedcaed21fc5589791e/pgsqlx-1.0.3.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/30/3d/5b428aa83a06a69bcb26d21af33159f8fc2e21eb42adac4e0580d87f15f9/Carter-Offline-2.0.5a0.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-07-17 16:40:10] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230717/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-17 16:40:10] INFO root fetch - processPackages [fym]: Downloading https://files.pythonhosted.org/packages/7d/cf/dc67e6df2eee2a0cbcf7f4088b78f4862a94da245c9489fab6f93ecec7d7/fym-1.3.0.tar.gz
+[2023-07-17 16:40:10] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-17 16:40:10] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.2.tar.gz tmp/pgsqlx-1.0.3.tar.gz --markdown 20230717/p/pgsqlx/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230717/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/a1/10/b6f1a3fda782160e1bab42c8e87fcfa4678e5b14ffa01fe07a550f46bad2/RapidMangaDL-0.0.9.tar.gz
+[2023-07-17 16:40:11] INFO root fetch - processPackages [hypergo]: Downloading https://files.pythonhosted.org/packages/3a/f1/d1753e63db46548419f60f01b46907e7fe0c0977a5265e7ce9a279ab838b/hypergo-0.1.3.tar.gz
+[2023-07-17 16:40:11] INFO root fetch - processPackages [fym]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [fym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fym-1.2.0-py3-none-any.whl.zip tmp/fym-1.3.0.tar.gz --markdown 20230717/f/fym/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.5.tar.gz tmp/Carter-Offline-2.0.5a0.tar.gz --markdown 20230717/C/Carter-Offline/2.0.5-2.0.5a0/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [hypergo]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [hypergo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypergo-0.1.2.tar.gz tmp/hypergo-0.1.3.tar.gz --markdown 20230717/h/hypergo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38787773>=10485760
+[2023-07-17 16:40:11] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: backend.ai-accelerator-cuda-open
+[2023-07-17 16:40:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-17 16:40:11] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/22/42/f0e78f46e0368cb92bc480f0764ca6ef9fc9b783412c97ad2208002fd0ee/xerparser-0.9.9.tar.gz
+[2023-07-17 16:40:11] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.8.tar.gz tmp/RapidMangaDL-0.0.9.tar.gz --markdown 20230717/R/RapidMangaDL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:11] INFO root fetch - processPackages [xerparser]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [xerparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerparser-0.9.8.tar.gz tmp/xerparser-0.9.9.tar.gz --markdown 20230717/x/xerparser/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-07-17 16:40:11] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/51/3f/8832cdf7247e229ee1cb5f0b98e442c034532dfcdfc3a45edb9e0f7cce44/backend.ai-accelerator-cuda-open-23.3.8.tar.gz
+[2023-07-17 16:40:11] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-07-17 16:40:11] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230717/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:11] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/c4/62/97df5552877f7054797fea91484ac14c92e906a044d8ae9cad02070110a7/backend.ai-accelerator-cuda-open-23.3.9.tar.gz
+[2023-07-17 16:40:12] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: executing diffoscope
+[2023-07-17 16:40:12] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-open-23.3.8.tar.gz tmp/backend.ai-accelerator-cuda-open-23.3.9.tar.gz --markdown 20230717/b/backend.ai-accelerator-cuda-open/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:12] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.2.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.3.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [pgsqlx]: Start processing: backend.ai-accelerator-mock
+[2023-07-17 16:40:12] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-17 16:40:12] INFO root fetch - processPackages [fym]: Remove: archive file [/home/abi/fetcher/tmp/fym-1.2.0-py3-none-any.whl.zip]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [fym]: Remove: archive file [/home/abi/fetcher/tmp/fym-1.3.0.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [fym]: Start processing: backend.ai-agent
+[2023-07-17 16:40:12] INFO root fetch - main [MainThread]: End processing [fym]: success
+[2023-07-17 16:40:12] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.5.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.5a0.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [Carter-Offline]: Start processing: backend.ai-cli
+[2023-07-17 16:40:12] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-07-17 16:40:12] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-17 16:40:12] INFO root fetch - processPackages [sphractal]: Start processing: backend.ai-client
+[2023-07-17 16:40:12] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-mock]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-agent]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [hypergo]: Remove: archive file [/home/abi/fetcher/tmp/hypergo-0.1.2.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [hypergo]: Remove: archive file [/home/abi/fetcher/tmp/hypergo-0.1.3.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [hypergo]: Start processing: backend.ai-common
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [hypergo]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-client]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-cli]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-common]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/d8/8b/689c6f2886b4812b79a83999db622d605b56a00d7d366dc2f716fe2a3b58/backend.ai-accelerator-mock-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [xerparser]: Remove: archive file [/home/abi/fetcher/tmp/xerparser-0.9.8.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [xerparser]: Remove: archive file [/home/abi/fetcher/tmp/xerparser-0.9.9.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [xerparser]: Start processing: backend.ai-kernel
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [xerparser]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-agent]: Downloading https://files.pythonhosted.org/packages/9f/2c/2731a74d44c3593340f70e633a9a7e51eae1bffacbbed83851f5347082fa/backend.ai-agent-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/81/86/9f1f8cabdd0ef5606983444b117a6123be251b6e5f3edde7d8fe745784c1/backend.ai-cli-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.8.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.9.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [RapidMangaDL]: Start processing: Bigsansar
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/96/d0/a0a7aaaeaa31dc3a090a3e458a737056aa889c50bd9a26121e267738281a/backend.ai-client-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.3.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.4.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [vmngclient]: Start processing: backend.ai-kernel-binary
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/02/38/6b2cf121354a55da93b7a4e9924e0f79bbed4bf5795a16ff310494a0c79d/backend.ai-common-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [Bigsansar]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel-binary]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] WARNING root fetch - processPackages [backend.ai-agent]: Skipping package: exceeds size limit 17978865>=10485760
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-agent]: Start processing: backend.ai-kernel-helper
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [backend.ai-agent] error
+[2023-07-17 16:40:13] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.8.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [vellum-ai]: Start processing: backend.ai-manager
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel-helper]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-23.3.8.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-23.3.9.tar.gz]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Start processing: backend.ai-plugin
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-open]: success
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-manager]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/7a/f3/737eae6c3ded249ed067de8366d6d3b4ca68274ec9571bb81a86f701e282/backend.ai-accelerator-mock-23.3.9.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/6f/47/c0918cf0483dc18924d7ed774324064edb000b19a52657d4129fc5791dc3/backend.ai-kernel-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-plugin]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel-binary]: Downloading https://files.pythonhosted.org/packages/54/28/1c33380a792c3e730dc9f0c5d3f2a77a19a39fda1f6557e99760de8d6a3d/backend.ai-kernel-binary-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/0f/c8/e09d93119d15ff8d277a61add4b2585396cc23b9c086275fd1477d873ea5/Bigsansar-1.8.2.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/58/53/0c61e058a320ae230548d339fbb77e44a658ae5c1dc0f3a83332913a9b91/backend.ai-cli-23.3.9.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/c2/62/a25457fbea6f3ba94961fed5b3c8f858e457bcbcd871c85fffd72210e62f/backend.ai-kernel-helper-23.3.8.tar.gz
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-mock]: executing diffoscope
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-accelerator-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-mock-23.3.8.tar.gz tmp/backend.ai-accelerator-mock-23.3.9.tar.gz --markdown 20230717/b/backend.ai-accelerator-mock/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/14/5f/36de2c47d37a414e6c3c2e8be81d2ef661ae2b6626356c236f48b0f0f6e4/backend.ai-common-23.3.9.tar.gz
+[2023-07-17 16:40:13] WARNING root fetch - processPackages [backend.ai-kernel-binary]: Skipping package: exceeds size limit 21983805>=10485760
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-kernel-binary]: Start processing: fwdviewpy
+[2023-07-17 16:40:13] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-binary] error
+[2023-07-17 16:40:13] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/44/87/8ca1bb971f7691c24669d8699db23ac3c0cde858e366eb788041fc84fd72/backend.ai-client-23.3.9.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-cli]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-cli-23.3.8.tar.gz tmp/backend.ai-cli-23.3.9.tar.gz --markdown 20230717/b/backend.ai-cli/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/39/c8/931520796fca7c51655e0bbd9972184b1a9b08c5468047b9b6ad97bfe849/backend.ai-manager-23.3.8.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/0e/4b/e79636724f27fa00e9fbd4cc5e016a407efc4603e4ef586d89c418a5bdc6/backend.ai-plugin-23.3.8.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-common]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-common-23.3.8.tar.gz tmp/backend.ai-common-23.3.9.tar.gz --markdown 20230717/b/backend.ai-common/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-client]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-client-23.3.8.tar.gz tmp/backend.ai-client-23.3.9.tar.gz --markdown 20230717/b/backend.ai-client/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/2f/19/2235cab83660b732e407f725310ce5dfd973d42ebe7a22da6f4af92b65e1/Bigsansar-1.8.3.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/41/81/9e8e94f59c0a59d54d196c3b342e2e6dc64e12afea2dedc2b490ca3c73c3/backend.ai-kernel-helper-23.3.9.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.8.2.tar.gz tmp/Bigsansar-1.8.3.tar.gz --markdown 20230717/B/Bigsansar/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/8b/2d/bacd607b1d537c0493853b79bf58cdb54aff98c54d41bbdf429b165375c3/backend.ai-kernel-23.3.9.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-kernel-helper]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-kernel-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-helper-23.3.8.tar.gz tmp/backend.ai-kernel-helper-23.3.9.tar.gz --markdown 20230717/b/backend.ai-kernel-helper/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/e6/1e/a5956067eb5bf3d608620b28b30311b3b7fc76d6c1e3ef5d99e145b4c1bb/backend.ai-plugin-23.3.9.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/fe/33/36337ee9f7f92dffac8863cbed45685dbdc8eedf803faed9bc3b105ccaa9/backend.ai-manager-23.3.9.tar.gz
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-kernel]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-23.3.8.tar.gz tmp/backend.ai-kernel-23.3.9.tar.gz --markdown 20230717/b/backend.ai-kernel/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230717/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-plugin]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-plugin-23.3.8.tar.gz tmp/backend.ai-plugin-23.3.9.tar.gz --markdown 20230717/b/backend.ai-plugin/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-manager]: executing diffoscope
+[2023-07-17 16:40:14] INFO root fetch - processPackages [backend.ai-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-manager-23.3.8.tar.gz tmp/backend.ai-manager-23.3.9.tar.gz --markdown 20230717/b/backend.ai-manager/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-23.3.8.tar.gz]
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-23.3.9.tar.gz]
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Start processing: azureml-assets
+[2023-07-17 16:40:15] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-mock]: success
+[2023-07-17 16:40:15] INFO root fetch - processPackages [azureml-assets]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-23.3.8.tar.gz]
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-23.3.9.tar.gz]
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-cli]: Start processing: backend.ai-storage-proxy
+[2023-07-17 16:40:15] INFO root fetch - main [MainThread]: End processing [backend.ai-cli]: success
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-storage-proxy]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:15] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/41/48/25aa7dd2f9e905283a7849c521fd3a454fdf36dee593579d6bc66bfe7609/azureml-assets-1.5.1.tar.gz
+[2023-07-17 16:40:15] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/8b/f1/236056f0e0285feb09d0d6a65d0884f8a4666db343d3b8ac3582a571b218/backend.ai-storage-proxy-23.3.8.tar.gz
+[2023-07-17 16:40:15] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/8a/9b/6dcd026cea084c283ba8dd74ba9a490fc4396a5e3c3561723481318592c6/azureml-assets-1.5.2.tar.gz
+[2023-07-17 16:40:15] INFO root fetch - processPackages [azureml-assets]: executing diffoscope
+[2023-07-17 16:40:15] INFO root fetch - processPackages [azureml-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml-assets-1.5.1.tar.gz tmp/azureml-assets-1.5.2.tar.gz --markdown 20230717/a/azureml-assets/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-23.3.8.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-23.3.9.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-common]: Start processing: backend.ai-test
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [backend.ai-common]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/60/67/f47ca37449badef5baabb31629a751032a0296a9509d86c27f071ba895cd/backend.ai-storage-proxy-23.3.9.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [fwdviewpy]: Start processing: backend.ai-webserver
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-test]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-23.3.8.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-23.3.9.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-kernel-helper]: Start processing: streamlitopencvplayer
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-helper]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-webserver]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-23.3.8.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-23.3.9.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-plugin]: Start processing: doublecloud
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [backend.ai-plugin]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-storage-proxy]: executing diffoscope
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-storage-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-storage-proxy-23.3.8.tar.gz tmp/backend.ai-storage-proxy-23.3.9.tar.gz --markdown 20230717/b/backend.ai-storage-proxy/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:16] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [doublecloud]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-23.3.8.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/d6/c8/ea6142fa3a821ddeb3c3ad150e7e6aacd9cb07c226b47f8a12396c789d3d/streamlitopencvplayer-1.3.7.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-23.3.9.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-kernel]: Start processing: mapillary-tools
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-23.3.8.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-23.3.9.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-client]: Start processing: pepperize.cdk-security-group
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [backend.ai-client]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [mapillary-tools]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/40/7d/35c5f74a97ec63c065ec31305479503020a152951d0f9890ec5fa6928d46/backend.ai-webserver-23.3.8.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/51/c2/e3e685addd568dbfa2292075a4cf8c3632dbb6f905a97fd4bb9afc9fecef/backend.ai-test-23.3.8.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [doublecloud]: Downloading https://files.pythonhosted.org/packages/24/bd/3eb8faf9746f7dbc83c0db1062ed12b6543a8527597f062b868596f2e2bf/doublecloud-0.7.0.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.2.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.3.tar.gz]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [Bigsansar]: Start processing: amnis
+[2023-07-17 16:40:16] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-07-17 16:40:16] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [amnis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 16:40:16] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/fc/49/451a32155f632660f5c43be5e6d9d2525da351b3161149988c451970c7c6/mapillary_tools-0.9.4.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/90/77/a955c70ac84f11fa4c8ad782fef907be6255f31e11b494be6413f1612276/streamlitopencvplayer-1.4.0.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-07-17 16:40:16] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-17 16:40:16] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.3.7.tar.gz tmp/streamlitopencvplayer-1.4.0.tar.gz --markdown 20230717/s/streamlitopencvplayer/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-07-17 16:40:16] INFO root fetch - processPackages [amnis]: Downloading https://files.pythonhosted.org/packages/19/c7/18a065cc68ee4e686dd2d01a406e7a5b16985bee311801f5d91f99422f2a/amnis-0.1.0.tar.gz
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/f0/ce/5a836c3981dbbe40cd05554da2101b2fbdd82e02aace2857708d21bcdab3/backend.ai-test-23.3.9.tar.gz
+[2023-07-17 16:40:17] WARNING root fetch - processPackages [backend.ai-webserver]: Skipping package: exceeds size limit 11789046>=10485760
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-webserver]: Start processing: xmos-ai-tools
+[2023-07-17 16:40:17] INFO root fetch - main [MainThread]: End processing [backend.ai-webserver] error
+[2023-07-17 16:40:17] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-07-17 16:40:17] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 16:40:17] INFO root fetch - processPackages [xmos-ai-tools]: New version: [1.0.1.dev64] Old Version: [1.0.1.dev62]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-test]: executing diffoscope
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-test-23.3.8.tar.gz tmp/backend.ai-test-23.3.9.tar.gz --markdown 20230717/b/backend.ai-test/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-07-17 16:40:17] INFO root fetch - processPackages [doublecloud]: Downloading https://files.pythonhosted.org/packages/97/23/9813db82b19ddfab4baffea8beb0d087203095ce305014af3580226ddd7e/doublecloud-0.8.0.tar.gz
+[2023-07-17 16:40:17] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/30/a4/54bc60e884aef3991fab6e751163320713cad33cbf99cd57c46836c39655/mapillary_tools-0.9.5.tar.gz
+[2023-07-17 16:40:17] INFO root fetch - processPackages [azureml-assets]: Remove: archive file [/home/abi/fetcher/tmp/azureml-assets-1.5.1.tar.gz]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [azureml-assets]: Remove: archive file [/home/abi/fetcher/tmp/azureml-assets-1.5.2.tar.gz]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [azureml-assets]: Start processing: WinDeklar
+[2023-07-17 16:40:17] INFO root fetch - main [MainThread]: End processing [azureml-assets]: success
+[2023-07-17 16:40:17] INFO root fetch - processPackages [doublecloud]: executing diffoscope
+[2023-07-17 16:40:17] INFO root fetch - processPackages [doublecloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doublecloud-0.7.0.tar.gz tmp/doublecloud-0.8.0.tar.gz --markdown 20230717/d/doublecloud/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-17 16:40:17] INFO root fetch - processPackages [amnis]: Downloading https://files.pythonhosted.org/packages/e6/24/e8268dc6b34deb5e61c255dc3f63ef75b6e356efea9693338a3d688d76e5/amnis-0.1.1.tar.gz
+[2023-07-17 16:40:17] INFO root fetch - processPackages [WinDeklar]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/04/44/6885dce9cc2d81eb7664690353db66ce4e6ca74dadc1ad7ac7fda3dc9f78/xmos_ai_tools-1.0.1.dev62-py3-none-win_amd64.whl
+[2023-07-17 16:40:17] INFO root fetch - processPackages [amnis]: executing diffoscope
+[2023-07-17 16:40:17] INFO root fetch - processPackages [amnis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amnis-0.1.0.tar.gz tmp/amnis-0.1.1.tar.gz --markdown 20230717/a/amnis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 16:40:17] INFO root fetch - processPackages [mapillary-tools]: executing diffoscope
+[2023-07-17 16:40:17] INFO root fetch - processPackages [mapillary-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapillary_tools-0.9.4.tar.gz tmp/mapillary_tools-0.9.5.tar.gz --markdown 20230717/m/mapillary-tools/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-17 16:40:17] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 27632858>=10485760
+[2023-07-17 16:40:17] INFO root fetch - processPackages [xmos-ai-tools]: Start processing: pulumi-kubernetes
+[2023-07-17 16:40:17] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-07-17 16:40:17] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/29/b5/f110d3c06bf1f8a2c9ea2710d48667e761587f6f5f412f260a85ee03bc96/windeklar-0.2.5.tar.gz
+[2023-07-17 16:40:17] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.0.0rc1] Old Version: [3.9.0]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.8.tar.gz]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.9.tar.gz]
+[2023-07-17 16:40:17] INFO root fetch - main [MainThread]: End processing [backend.ai-manager]: success
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-23.3.8.tar.gz]
+[2023-07-17 16:40:17] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-23.3.9.tar.gz]
+[2023-07-17 16:40:17] INFO root fetch - main [MainThread]: End processing [backend.ai-storage-proxy]: success
+[2023-07-17 16:40:17] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/8a/18/f4ff49c59bcd7c26629faaca2c087bb96e847e13498451bcf8c4cecad9c2/windeklar-0.2.6.tar.gz
+[2023-07-17 16:40:17] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-07-17 16:40:18] INFO root fetch - processPackages [WinDeklar]: executing diffoscope
+[2023-07-17 16:40:18] INFO root fetch - processPackages [WinDeklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windeklar-0.2.5.tar.gz tmp/windeklar-0.2.6.tar.gz --markdown 20230717/W/WinDeklar/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-17 16:40:18] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.7.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.0.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-17 16:40:18] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/53/7f/ee88b969dd6c46cb09ea7f0abd1c0511f0ed676e7ac3779e4c4b626730a9/pulumi_kubernetes-4.0.0rc1.tar.gz
+[2023-07-17 16:40:18] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-23.3.8.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-23.3.9.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - main [MainThread]: End processing [backend.ai-test]: success
+[2023-07-17 16:40:18] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.98.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.99.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-07-17 16:40:18] INFO root fetch - processPackages [amnis]: Remove: archive file [/home/abi/fetcher/tmp/amnis-0.1.0.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - processPackages [amnis]: Remove: archive file [/home/abi/fetcher/tmp/amnis-0.1.1.tar.gz]
+[2023-07-17 16:40:18] INFO root fetch - main [MainThread]: End processing [amnis]: success
+[2023-07-17 16:40:18] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-07-17 16:40:18] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.9.0.tar.gz tmp/pulumi_kubernetes-4.0.0rc1.tar.gz --markdown 20230717/p/pulumi-kubernetes/3.9.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-07-17 16:40:19] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.4.tar.gz]
+[2023-07-17 16:40:19] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.5.tar.gz]
+[2023-07-17 16:40:19] INFO root fetch - main [MainThread]: End processing [mapillary-tools]: success
+[2023-07-17 16:40:19] INFO root fetch - processPackages [doublecloud]: Remove: archive file [/home/abi/fetcher/tmp/doublecloud-0.7.0.tar.gz]
+[2023-07-17 16:40:19] INFO root fetch - processPackages [doublecloud]: Remove: archive file [/home/abi/fetcher/tmp/doublecloud-0.8.0.tar.gz]
+[2023-07-17 16:40:19] INFO root fetch - main [MainThread]: End processing [doublecloud]: success
+[2023-07-17 16:40:19] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.5.tar.gz]
+[2023-07-17 16:40:19] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.6.tar.gz]
+[2023-07-17 16:40:19] INFO root fetch - main [MainThread]: End processing [WinDeklar]: success
+[2023-07-17 16:40:25] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-07-17 16:40:25] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
+[2023-07-17 16:40:25] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-07-17 16:40:25] INFO root fetch - main [MainThread]: Store serial: [18918349]
