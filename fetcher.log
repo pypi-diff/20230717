@@ -6225,3 +6225,92 @@
 [2023-07-17 05:17:22] INFO root fetch - processPackages [suparkanbun]: Remove: archive file [/home/abi/fetcher/tmp/suparkanbun-1.4.9-py3-none-any.whl.zip]
 [2023-07-17 05:17:22] INFO root fetch - main [MainThread]: End processing [suparkanbun]: success
 [2023-07-17 05:17:22] INFO root fetch - main [MainThread]: Store serial: [18911998]
+[2023-07-17 05:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18911998]
+[2023-07-17 05:22:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-purchase-order-ubl-py3o
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ARIclicker
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addons-oca-edi
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-flask
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minidevice
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: udkanbun
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airflow-provider-vineyard
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaserver
+[2023-07-17 05:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vineyard
+[2023-07-17 05:22:31] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-17 05:22:31] INFO root fetch - processPackages [minidevice]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [ARIclicker]: New version: [2.0.0] Old Version: [0.3.6]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.3] Old Version: [202307.0.2]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [odoo14-addons-oca-edi]: New version: [14.0.20230715.0] Old Version: [14.0.20230521.0]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [airflow-provider-vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [udkanbun]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-17 05:22:32] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/8e/95/6fa390c26d384877552824a8fe6114996538b03844405f9dc4e3cb4bf066/data_ecosystem_flask-202307.0.2.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [udkanbun]: Downloading https://files.pythonhosted.org/packages/b8/fa/1725e688be150918a02652c9551543bd248c312840771913dee1a3ed6249/udkanbun-3.3.7.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/18/dd/f9bbab396cfadeec7e70d6ab683d3bde6bc31f74ae33d682ecb5b5bed291/ARIclicker-0.3.6.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/07/85/60269ca81aed10db104986ee7703459a5c4a2aa0383dc9195a8900298b05/minidevice-2.1.5.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: Downloading https://files.pythonhosted.org/packages/f3/38/fd1d47363307c4c7a18ebea6b9647aa20aefe0e1be374afaf9309d62689f/odoo14_addon_purchase_order_ubl_py3o-14.0.1.1.0-py3-none-any.whl
+[2023-07-17 05:22:32] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/53/bd/32cf7475defb8745b520602ec671dbf6deb668c242e9a9286b164a15d08d/odoo14_addons_oca_edi-14.0.20230521.0-py3-none-any.whl
+[2023-07-17 05:22:32] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/9d/2a/a253c807a750e951378e7a3ab1d51d2fef6447b872b6cbd417df779a782b/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-17 05:22:32] INFO root fetch - processPackages [airflow-provider-vineyard]: Downloading https://files.pythonhosted.org/packages/bc/6a/10db0cbd85bc88811f2a93264857d60383c7d194263678c9e95b9fc27875/airflow_provider_vineyard-0.8.6-py3-none-any.whl
+[2023-07-17 05:22:32] WARNING root fetch - processPackages [udkanbun]: Skipping package: exceeds size limit 19744086>=10485760
+[2023-07-17 05:22:32] INFO root fetch - main [MainThread]: End processing [udkanbun] error
+[2023-07-17 05:22:32] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-17 05:22:32] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230717/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-17 05:22:32] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/c6/1d/aa29db57e5b511a4642c9ed8565db54b6ed019953cfd6aacff6f87253222/minidevice-2.1.6.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-07-17 05:22:32] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230717/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-07-17 05:22:32] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/f8/45/ebae63d673afa01f5712469a1a7f453a0d5afeaa0182c294cf970413be99/ARIclicker-2.0.0.tar.gz
+[2023-07-17 05:22:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: Downloading https://files.pythonhosted.org/packages/18/35/33927103812f0c3b861d076cccab6655803942246c67f89c9d56e4d86324/odoo14_addon_purchase_order_ubl_py3o-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-17 05:22:32] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/b2/13/09b91bf7d72a6bf3b7d763309965ac75bfe73e1ec46799c5abc51609a7cb/odoo14_addons_oca_edi-14.0.20230715.0-py3-none-any.whl
+[2023-07-17 05:22:32] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-17 05:22:32] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.2.tar.gz tmp/data_ecosystem_flask-202307.0.3.tar.gz --markdown 20230717/d/data-ecosystem-flask/202307.0.2-202307.0.3/diff.md --exclude *.pyd
+[2023-07-17 05:22:32] INFO root fetch - processPackages [airflow-provider-vineyard]: Downloading https://files.pythonhosted.org/packages/7a/c0/0e1b084b3a68c67f78edaeda3a93a1c473a048fb76636c59de1eff6ebe46/airflow_provider_vineyard-0.9.0-py3-none-any.whl
+[2023-07-17 05:22:32] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-07-17 05:22:32] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.5.tar.gz tmp/minidevice-2.1.6.tar.gz --markdown 20230717/m/minidevice/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-17 05:22:32] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-07-17 05:22:32] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.3.6.tar.gz tmp/ARIclicker-2.0.0.tar.gz --markdown 20230717/A/ARIclicker/0.3.6-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 05:22:33] INFO root fetch - processPackages [airflow-provider-vineyard]: executing diffoscope
+[2023-07-17 05:22:33] INFO root fetch - processPackages [airflow-provider-vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip --markdown 20230717/a/airflow-provider-vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:22:33] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: executing diffoscope
+[2023-07-17 05:22:33] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_order_ubl_py3o-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_purchase_order_ubl_py3o-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-purchase-order-ubl-py3o/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-17 05:22:33] INFO root fetch - processPackages [odoo14-addons-oca-edi]: executing diffoscope
+[2023-07-17 05:22:33] INFO root fetch - processPackages [odoo14-addons-oca-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_edi-14.0.20230521.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_edi-14.0.20230715.0-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addons-oca-edi/14.0.20230521.0-14.0.20230715.0/diff.md --exclude *.pyd
+[2023-07-17 05:22:34] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.3.6.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-2.0.0.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.2.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.5.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.6.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_ubl_py3o-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_ubl_py3o-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-ubl-py3o]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [airflow-provider-vineyard]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [airflow-provider-vineyard]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [airflow-provider-vineyard]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_edi-14.0.20230521.0-py3-none-any.whl.zip]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_edi-14.0.20230715.0-py3-none-any.whl.zip]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-edi]: success
+[2023-07-17 05:22:34] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-07-17 05:22:34] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-07-17 05:22:36] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/09/c1/99b0791e766e16902b883540228d4762bd12a44f2b331b33b5b7766e7164/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-17 05:22:40] INFO root fetch - processPackages [vineyard]: executing diffoscope
+[2023-07-17 05:22:40] INFO root fetch - processPackages [vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230717/v/vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-17 05:24:24] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-17 05:24:24] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-17 05:24:24] INFO root fetch - main [MainThread]: End processing [vineyard]: success
+[2023-07-17 05:24:24] INFO root fetch - main [MainThread]: Store serial: [18912029]
