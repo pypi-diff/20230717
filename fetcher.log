@@ -15384,3 +15384,78 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 13:10:15] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
 [2023-07-17 13:10:15] INFO root fetch - main [MainThread]: End processing [ramodels]: success
 [2023-07-17 13:10:15] INFO root fetch - main [MainThread]: Store serial: [18915815]
+[2023-07-17 13:15:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18915815]
+[2023-07-17 13:15:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trubrics
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-profiles
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leximpact-survey-scenario
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-toys
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: configuraptor
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-monitoring
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-sdk
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: charmongerai
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: returnn
+[2023-07-17 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: WinJobster
+[2023-07-17 13:15:24] WARNING root fetch - processPackages [llm-toys]: Skipping, unable to determine old version
+[2023-07-17 13:15:24] INFO root fetch - main [MainThread]: End processing [llm-toys] error
+[2023-07-17 13:15:24] INFO root fetch - processPackages [trubrics]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-17 13:15:24] INFO root fetch - processPackages [model-monitoring]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-17 13:15:24] INFO root fetch - processPackages [selenium-profiles]: New version: [2.2.7.4] Old Version: [2.2.7.3]
+[2023-07-17 13:15:24] WARNING root fetch - processPackages [pydantic-sdk]: Skipping, unable to determine old version
+[2023-07-17 13:15:24] INFO root fetch - main [MainThread]: End processing [pydantic-sdk] error
+[2023-07-17 13:15:24] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-07-17 13:15:24] INFO root fetch - processPackages [WinJobster]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-17 13:15:24] INFO root fetch - processPackages [leximpact-survey-scenario]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 13:15:24] WARNING root fetch - processPackages [charmongerai]: Skipping, unable to determine old version
+[2023-07-17 13:15:24] INFO root fetch - main [MainThread]: End processing [charmongerai] error
+[2023-07-17 13:15:24] INFO root fetch - processPackages [WinJobster]: Downloading https://files.pythonhosted.org/packages/38/e4/036f8a7263a0f6a420bdbd169c5ca2667776b1ba70c5fb834fdca2b9a4c6/WinJobster-1.0.0.tar.gz
+[2023-07-17 13:15:24] INFO root fetch - processPackages [model-monitoring]: Downloading https://files.pythonhosted.org/packages/9a/18/471069598ac55bf1b838e712dc070f253b61ddf246903dda9ff530257f60/model_monitoring-1.1.1.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/b9/9d/335f3ae925ecfded47a531718d250a4d0a91bb071e8b710bb6f9ba19dc97/trubrics-1.4.2.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [leximpact-survey-scenario]: Downloading https://files.pythonhosted.org/packages/54/03/828d2dc16130a4833d5d8c7b12f5ebc127632e522fef856df5391c5a5943/leximpact_survey_scenario-0.1.0.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/70/f8/c9ef66a062a4d734bfc237eb5400b4d101aaa3df50c9833e1aec28fe7726/selenium_profiles-2.2.7.3.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [WinJobster]: Downloading https://files.pythonhosted.org/packages/87/9b/98e8d5a99abac7a1750e646d39e4c55f17cf6cbe3a68ff8ad5e4abd65229/WinJobster-2.0.0.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [returnn]: New version: [1.20230717.125417] Old Version: [1.20230713.121056]
+[2023-07-17 13:15:25] INFO root fetch - processPackages [WinJobster]: executing diffoscope
+[2023-07-17 13:15:25] INFO root fetch - processPackages [WinJobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinJobster-1.0.0.tar.gz tmp/WinJobster-2.0.0.tar.gz --markdown 20230717/W/WinJobster/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 13:15:25] INFO root fetch - processPackages [model-monitoring]: Downloading https://files.pythonhosted.org/packages/0a/bd/a7a7cfb7df693830be295f082308de84d580f5565d7e8b56052403228971/model_monitoring-1.1.2.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [leximpact-survey-scenario]: Downloading https://files.pythonhosted.org/packages/e9/b6/f90f1c5c8eb6150d5e9da879808bd7f2ab513de2aac48df4117235ad9c0d/leximpact_survey_scenario-0.1.1.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/d4/e9/900d6c0f4c0ddd3d7d7861d743e55a1b9d418278e873f8334d1d43baa25f/selenium_profiles-2.2.7.4.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/69/be/a700fcbb2651294fa658c47e2c5a3b554440458b28469ac3ce84ba2c79c3/trubrics-1.4.3.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/69/55/29bb3d25fdb456b624545c5fd556e247f97279e88fbe4ba60555fec29c74/returnn-1.20230713.121056.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [model-monitoring]: executing diffoscope
+[2023-07-17 13:15:25] INFO root fetch - processPackages [model-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_monitoring-1.1.1.tar.gz tmp/model_monitoring-1.1.2.tar.gz --markdown 20230717/m/model-monitoring/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-17 13:15:25] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-07-17 13:15:25] INFO root fetch - processPackages [leximpact-survey-scenario]: executing diffoscope
+[2023-07-17 13:15:25] INFO root fetch - processPackages [leximpact-survey-scenario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leximpact_survey_scenario-0.1.0.tar.gz tmp/leximpact_survey_scenario-0.1.1.tar.gz --markdown 20230717/l/leximpact-survey-scenario/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 13:15:25] INFO root fetch - processPackages [selenium-profiles]: executing diffoscope
+[2023-07-17 13:15:25] INFO root fetch - processPackages [selenium-profiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_profiles-2.2.7.3.tar.gz tmp/selenium_profiles-2.2.7.4.tar.gz --markdown 20230717/s/selenium-profiles/2.2.7.3-2.2.7.4/diff.md --exclude *.pyd
+[2023-07-17 13:15:25] INFO root fetch - processPackages [trubrics]: executing diffoscope
+[2023-07-17 13:15:25] INFO root fetch - processPackages [trubrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-1.4.2.tar.gz tmp/trubrics-1.4.3.tar.gz --markdown 20230717/t/trubrics/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-17 13:15:26] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-07-17 13:15:26] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230717/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-07-17 13:15:26] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/aa/73/9858fee70a7812ec9b165ec0470ed637bd974904fedd5972cf1c73df7996/returnn-1.20230717.125417.tar.gz
+[2023-07-17 13:15:26] INFO root fetch - processPackages [WinJobster]: Remove: archive file [/home/abi/fetcher/tmp/WinJobster-1.0.0.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - processPackages [WinJobster]: Remove: archive file [/home/abi/fetcher/tmp/WinJobster-2.0.0.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - main [MainThread]: End processing [WinJobster]: success
+[2023-07-17 13:15:26] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-17 13:15:26] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230713.121056.tar.gz tmp/returnn-1.20230717.125417.tar.gz --markdown 20230717/r/returnn/1.20230713.121056-1.20230717.125417/diff.md --exclude *.pyd
+[2023-07-17 13:15:26] INFO root fetch - processPackages [leximpact-survey-scenario]: Remove: archive file [/home/abi/fetcher/tmp/leximpact_survey_scenario-0.1.0.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - processPackages [leximpact-survey-scenario]: Remove: archive file [/home/abi/fetcher/tmp/leximpact_survey_scenario-0.1.1.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - main [MainThread]: End processing [leximpact-survey-scenario]: success
+[2023-07-17 13:15:26] INFO root fetch - processPackages [model-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/model_monitoring-1.1.1.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - processPackages [model-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/model_monitoring-1.1.2.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - main [MainThread]: End processing [model-monitoring]: success
+[2023-07-17 13:15:26] INFO root fetch - processPackages [selenium-profiles]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles-2.2.7.3.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - processPackages [selenium-profiles]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles-2.2.7.4.tar.gz]
+[2023-07-17 13:15:26] INFO root fetch - main [MainThread]: End processing [selenium-profiles]: success
+[2023-07-17 13:15:27] INFO root fetch - processPackages [trubrics]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-1.4.2.tar.gz]
+[2023-07-17 13:15:27] INFO root fetch - processPackages [trubrics]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-1.4.3.tar.gz]
+[2023-07-17 13:15:27] INFO root fetch - main [MainThread]: End processing [trubrics]: success
+[2023-07-17 13:15:27] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-07-17 13:15:27] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-07-17 13:15:27] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-07-17 13:15:29] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230713.121056.tar.gz]
+[2023-07-17 13:15:29] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230717.125417.tar.gz]
+[2023-07-17 13:15:29] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-17 13:15:29] INFO root fetch - main [MainThread]: Store serial: [18915851]
