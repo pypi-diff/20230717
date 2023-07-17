@@ -9205,3 +9205,111 @@
 [2023-07-17 09:00:49] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.9.tar.gz]
 [2023-07-17 09:00:49] INFO root fetch - main [MainThread]: End processing [utilsd]: success
 [2023-07-17 09:00:49] INFO root fetch - main [MainThread]: Store serial: [18913221]
+[2023-07-17 09:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913221]
+[2023-07-17 09:05:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pure-ocean-breeze
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaylib
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shil
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qrlew-datasets
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-incidentio-client
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airportsdata
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-riskplus
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvidia-dali-tf-plugin-weekly-cuda120
+[2023-07-17 09:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: randog
+[2023-07-17 09:05:58] INFO root fetch - processPackages [yaylib]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [shil]: New version: [2023.7.17.7.1] Old Version: [2023.7.15.12.33]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [python-incidentio-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [qrlew-datasets]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: New version: [1.29.0.dev20230716] Old Version: [1.28.0.dev20230625]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [randog]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [airportsdata]: New version: [20230717] Old Version: [20230716]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-07-17 09:05:58] INFO root fetch - processPackages [qrlew-datasets]: Downloading https://files.pythonhosted.org/packages/af/d6/e40623a093d1251da92b49d01a2b17ab843c8ef993d3b6ac3d554d595275/qrlew_datasets-0.2.2.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/d0/d5/5f8db1c55af26ddd2dd2500e007bfe1d1f1ec5a690e8034c66ad432b5835/airportsdata-20230716.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/5f/f3/edcfb084adb2e53f86faa0429755bbc00cd34e88bc187de053644eb56b3e/yaylib-1.0.1.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/78/55/a2b27f7a5a717c79498bce13a8b0cfa60e1d1feb4122da4552d1b4e83e2a/shil-2023.7.15.12.33.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [python-incidentio-client]: Downloading https://files.pythonhosted.org/packages/40/d5/a47d7391526392626ac1a332d4ae9e793015f154aeb68d0a0e3b2c35d456/python-incidentio-client-0.9.0.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/45/2f/1f5e16965438ef802495f1b2d6d7d7442044aeb6fa81ffb1eb732b88d22d/nvidia-dali-tf-plugin-weekly-cuda120-1.28.0.dev20230625.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/ef/36/36da59cb756361b6462583916fe0e6d696e1a393f56c0f1de2e6c812f9f2/randog-0.5.0.tar.gz
+[2023-07-17 09:05:58] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/ae/8a/35ff2d4ee76d64064815f363380128d08fc14178d1587d953da2b06717ba/pure_ocean_breeze-4.0.6.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [qrlew-datasets]: Downloading https://files.pythonhosted.org/packages/2e/c9/16b6e88f0586ae29a40907462b56177f649fa678e5f48be894b06ed41f18/qrlew_datasets-0.2.3.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/f1/9d/8e1e116e4fbbb3cb455172d7cfbfecf315c392410364a29af9b9645fc891/airportsdata-20230717.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/2f/fa/ea06894e02a517908711a411c2126025bd2553ca503ee5eef6a464b821eb/shil-2023.7.17.7.1.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/d5/a7/7c3625f3c1a8e813e30e61be4294ab56adabf2db429ab220f104888ca7fc/yaylib-1.0.2.tar.gz
+[2023-07-17 09:05:59] WARNING root fetch - processPackages [qrlew-datasets]: Skipping package: exceeds size limit 60538756>=10485760
+[2023-07-17 09:05:59] INFO root fetch - processPackages [qrlew-datasets]: Start processing: bdating-common
+[2023-07-17 09:05:59] INFO root fetch - main [MainThread]: End processing [qrlew-datasets] error
+[2023-07-17 09:05:59] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-17 09:05:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/b5/0a/ae26943e12e70787b518a3ef04c890e1b9d4aeb1a5af39fe7fddae712d3d/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230716.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [shil]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [shil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shil-2023.7.15.12.33.tar.gz tmp/shil-2023.7.17.7.1.tar.gz --markdown 20230717/s/shil/2023.7.15.12.33-2023.7.17.7.1/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [python-incidentio-client]: Downloading https://files.pythonhosted.org/packages/6c/f2/3e837fc2058f11756b89d84e2ba488691e5729ade643ddae20b9e0459bb6/python-incidentio-client-0.9.1.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/34/fd/c96a3a104545ba7295c30d455547e0b7d5923a63223d4a6d24d079ca48e8/randog-0.6.0.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.1.tar.gz tmp/yaylib-1.0.2.tar.gz --markdown 20230717/y/yaylib/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/2b/b6/9220085fe477d7b19464250f761c3a019069ee2fedd45f963eb0ee811a07/pure_ocean_breeze-4.0.7.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230717/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.28.0.dev20230625.tar.gz tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230716.tar.gz --markdown 20230717/n/nvidia-dali-tf-plugin-weekly-cuda120/1.28.0.dev20230625-1.29.0.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-07-17 09:05:59] INFO root fetch - processPackages [airportsdata]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [airportsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airportsdata-20230716.tar.gz tmp/airportsdata-20230717.tar.gz --markdown 20230717/a/airportsdata/20230716-20230717/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.6.tar.gz tmp/pure_ocean_breeze-4.0.7.tar.gz --markdown 20230717/p/pure-ocean-breeze/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [randog]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [randog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/randog-0.5.0.tar.gz tmp/randog-0.6.0.tar.gz --markdown 20230717/r/randog/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [python-incidentio-client]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [python-incidentio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-incidentio-client-0.9.0.tar.gz tmp/python-incidentio-client-0.9.1.tar.gz --markdown 20230717/p/python-incidentio-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-17 09:05:59] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2023-07-17 09:05:59] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20230717/a/antchain-riskplus/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2023-07-17 09:06:00] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-07-17 09:06:00] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-07-17 09:06:00] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230717/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-17 09:06:01] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.15.12.33.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.17.7.1.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [shil]: Start processing: nvidia-dali-weekly-cuda120
+[2023-07-17 09:06:01] INFO root fetch - main [MainThread]: End processing [shil]: success
+[2023-07-17 09:06:01] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.28.0.dev20230625.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230716.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-weekly-cuda120]: success
+[2023-07-17 09:06:01] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: New version: [1.29.0.dev20230716] Old Version: [1.28.0.dev20230625]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.1.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.2.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-07-17 09:06:01] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/2a/34/7fda18451b2e7895d6c5b82271ee66c5dea9a058a4cb2129a803726996b4/nvidia-dali-weekly-cuda120-1.28.0.dev20230625.tar.gz
+[2023-07-17 09:06:01] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.5.0.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.6.0.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - main [MainThread]: End processing [randog]: success
+[2023-07-17 09:06:01] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-17 09:06:01] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.3.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
+[2023-07-17 09:06:01] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2023-07-17 09:06:01] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/db/39/f246d7a1cebdaf859e826314df31dfcff4f9efe22f33d989a31e0bd8821c/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz
+[2023-07-17 09:06:02] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-07-17 09:06:02] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.6.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.7.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-17 09:06:02] INFO root fetch - processPackages [python-incidentio-client]: Remove: archive file [/home/abi/fetcher/tmp/python-incidentio-client-0.9.0.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - processPackages [python-incidentio-client]: Remove: archive file [/home/abi/fetcher/tmp/python-incidentio-client-0.9.1.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - main [MainThread]: End processing [python-incidentio-client]: success
+[2023-07-17 09:06:02] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: executing diffoscope
+[2023-07-17 09:06:02] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-weekly-cuda120-1.28.0.dev20230625.tar.gz tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz --markdown 20230717/n/nvidia-dali-weekly-cuda120/1.28.0.dev20230625-1.29.0.dev20230716/diff.md --exclude *.pyd
+[2023-07-17 09:06:02] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230716.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230717.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
+[2023-07-17 09:06:02] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.28.0.dev20230625.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz]
+[2023-07-17 09:06:02] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
+[2023-07-17 09:06:02] INFO root fetch - main [MainThread]: Store serial: [18913257]
