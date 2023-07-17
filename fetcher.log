@@ -8620,3 +8620,135 @@
 [2023-07-17 08:21:30] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.7.0.tar.gz]
 [2023-07-17 08:21:30] INFO root fetch - main [MainThread]: End processing [fileformats]: success
 [2023-07-17 08:21:30] INFO root fetch - main [MainThread]: Store serial: [18912955]
+[2023-07-17 08:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912955]
+[2023-07-17 08:26:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yambs
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entail
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genpasswbykan
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-smallapi
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volstreet
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: namedivider-python
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magentic
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecr-scan-notifier
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aihero
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonk8s
+[2023-07-17 08:26:39] INFO root fetch - processPackages [entail]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [magentic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [volstreet]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [namedivider-python]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [yambs]: New version: [2.0.0] Old Version: [1.9.2]
+[2023-07-17 08:26:39] WARNING root fetch - processPackages [genpasswbykan]: Skipping, unable to determine old version
+[2023-07-17 08:26:39] INFO root fetch - processPackages [genpasswbykan]: Start processing: fastapi-authtools
+[2023-07-17 08:26:39] INFO root fetch - main [MainThread]: End processing [genpasswbykan] error
+[2023-07-17 08:26:39] INFO root fetch - processPackages [nonebot-plugin-smallapi]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [dragonk8s]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [aihero]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [fastapi-authtools]: New version: [0.4] Old Version: [0.3]
+[2023-07-17 08:26:39] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/db/c5/79b69beedd08f65d6093479963cf055afb9d9381a8f1bd4fa88f3ac79be2/volstreet-1.0.2.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/5a/c0/fc247a26fdeba85d3419cd95d2dd61ad48f40739fbed458ec7082845c248/nonebot_plugin_smallapi-1.0.7.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bc/de/c8e0de2150ff70173e8603e117bc9f72cf2ab9d296bef3f2b076e79ae675/yambs-1.9.2.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [entail]: Downloading https://files.pythonhosted.org/packages/a0/a3/086dbbc3ea6931a2fd77d9ea3564f8b6d29ecb3d1c10d3da9bf58f107759/entail-0.0.2.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/be/44/4b7aa6a40d94b03fe493721b6d8c66b4f39f92848e858d0cbbc60f833153/magentic-0.1.0.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [namedivider-python]: Downloading https://files.pythonhosted.org/packages/e7/a9/7dd87ecd744133e805d5e345da22daccdb4d4c895b0d1f9eec1b86218dae/namedivider-python-0.2.1.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/a8/d4/ee4fdcbca3817a2643becd2914b3c2b5e9cd2a432b02546109185c5b3073/ecr-scan-notifier-0.0.6.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/ec/e1/89b82f2a434b18612e5f8ed9644403ce779688775ae5650e7af5b9def31e/dragonk8s-1.0.0.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [fastapi-authtools]: Downloading https://files.pythonhosted.org/packages/09/de/861c0f3fa7104d5a0b02b6fded4db6e9d362b27e223a13985fdf5ef98f88/fastapi_authtools-0.3.tar.gz
+[2023-07-17 08:26:39] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/fd/2a/131a397eaab8db968818803823b962ced11ae4f705897d476164187032d9/aihero-0.2.5.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/26/2b/62fe8cd7a0dd65dadc14c2fe53816f29ae03889fd781eb79886890cd17cc/volstreet-1.0.3.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/f5/2d/c9aa370da188b362fdb275a5711562e1b8a125487b540dd1b22b9ff648f1/nonebot_plugin_smallapi-1.1.0.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/9c/5c/824aa684504100e01280ff226075452998c38f2745e8e20a22897c29c941/magentic-0.1.1.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/04/e8/10f1b9535e4fdd93692b69129ef019e1778c2e3b5c7f2223946cd3191776/yambs-2.0.0.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [entail]: Downloading https://files.pythonhosted.org/packages/d8/64/2ef37d2a688439911f68c0baf4046980529347d6cb070d171ef974f1ad1b/entail-0.0.3.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/09/f1/45d148e135598be96031154ea73a24b5369c48d47b51eca215dc509ea76e/ecr-scan-notifier-0.0.7.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/3c/ae/9043c584082cf59604711d6fb99c9dea3763943c59a954f49e48267a26e0/dragonk8s-1.0.1.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [nonebot-plugin-smallapi]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [nonebot-plugin-smallapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smallapi-1.0.7.tar.gz tmp/nonebot_plugin_smallapi-1.1.0.tar.gz --markdown 20230717/n/nonebot-plugin-smallapi/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [namedivider-python]: Downloading https://files.pythonhosted.org/packages/cd/70/15e71615eb1a6fbcc2755332e6e7a6454ae08d41de2c85c054973425cc59/namedivider_python-0.2.2.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [fastapi-authtools]: Downloading https://files.pythonhosted.org/packages/0e/c6/db4442c9d408f9272a3f61d1fcf42d4d96c75590063edf669b41c0c35a7c/fastapi_authtools-0.4.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/06/d8/029540dd890bc55242fc7fefddfe84ad9253eb39615c848092b62998427d/aihero-0.2.6.tar.gz
+[2023-07-17 08:26:40] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.2.tar.gz tmp/volstreet-1.0.3.tar.gz --markdown 20230717/v/volstreet/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.1.0.tar.gz tmp/magentic-0.1.1.tar.gz --markdown 20230717/m/magentic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [entail]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [entail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entail-0.0.2.tar.gz tmp/entail-0.0.3.tar.gz --markdown 20230717/e/entail/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.9.2.tar.gz tmp/yambs-2.0.0.tar.gz --markdown 20230717/y/yambs/1.9.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [namedivider-python]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [namedivider-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namedivider-python-0.2.1.tar.gz tmp/namedivider_python-0.2.2.tar.gz --markdown 20230717/n/namedivider-python/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [dragonk8s]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [dragonk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonk8s-1.0.0.tar.gz tmp/dragonk8s-1.0.1.tar.gz --markdown 20230717/d/dragonk8s/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [aihero]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [aihero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihero-0.2.5.tar.gz tmp/aihero-0.2.6.tar.gz --markdown 20230717/a/aihero/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.6.tar.gz tmp/ecr-scan-notifier-0.0.7.tar.gz --markdown 20230717/e/ecr-scan-notifier/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-17 08:26:40] INFO root fetch - processPackages [fastapi-authtools]: executing diffoscope
+[2023-07-17 08:26:40] INFO root fetch - processPackages [fastapi-authtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_authtools-0.3.tar.gz tmp/fastapi_authtools-0.4.tar.gz --markdown 20230717/f/fastapi-authtools/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-17 08:26:42] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smallapi-1.0.7.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smallapi-1.1.0.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Start processing: fake-bpy-module-latest
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smallapi]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.0.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.1.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [magentic]: Start processing: terraform-backend-s3-bucket
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230717] Old Version: [20230716]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [entail]: Remove: archive file [/home/abi/fetcher/tmp/entail-0.0.2.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [entail]: Remove: archive file [/home/abi/fetcher/tmp/entail-0.0.3.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [entail]: Start processing: pkgUdit
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [entail]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [pkgUdit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d7/bf/5e16b29c5acc3e8a6d752f974379d60138aca6c8b68de96ad73b4e78765d/fake-bpy-module-latest-20230716.tar.gz
+[2023-07-17 08:26:42] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/b0/5e/f3f65b064e3335fe92e2a57db3f4c0f9239e52a77714540054484ad3b767/pkgUdit-0.0.1.tar.gz
+[2023-07-17 08:26:42] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-17 08:26:42] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.6.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.7.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [ecr-scan-notifier]: Start processing: medcase
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.2.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.3.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [fastapi-authtools]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authtools-0.3.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [fastapi-authtools]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authtools-0.4.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [fastapi-authtools]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.2.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.0.0.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [namedivider-python]: Remove: archive file [/home/abi/fetcher/tmp/namedivider-python-0.2.1.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [namedivider-python]: Remove: archive file [/home/abi/fetcher/tmp/namedivider_python-0.2.2.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [namedivider-python]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [medcase]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/c2/a1/a465880bcd6580dfb9e20de9331b009f4c89d71b0e10e6df58500ccc9650/pkgUdit-0.0.2-py3-none-any.whl
+[2023-07-17 08:26:42] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.5.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.6.tar.gz]
+[2023-07-17 08:26:42] INFO root fetch - main [MainThread]: End processing [aihero]: success
+[2023-07-17 08:26:42] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-17 08:26:42] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-0.0.1.tar.gz tmp/pkgUdit-0.0.2-py3-none-any.whl.zip --markdown 20230717/p/pkgUdit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-17 08:26:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cd/0a/17640b63bb956b979aaa27174072868ea810d2a97ad7eafb418c7d284d00/fake-bpy-module-latest-20230717.tar.gz
+[2023-07-17 08:26:42] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-17 08:26:42] INFO root fetch - processPackages [medcase]: Downloading https://files.pythonhosted.org/packages/a6/8f/5e4db2790b1904d313bf3885fbf9a87014f5b767a12443672559ed6de4c8/medcase-0.1.0.tar.gz
+[2023-07-17 08:26:43] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-17 08:26:43] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230717/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 08:26:43] INFO root fetch - processPackages [medcase]: Downloading https://files.pythonhosted.org/packages/6a/a5/5b902232419d5b08d602e5ea5edd7d564ee9802d0a9e6edcca9a16997b68/medcase-0.1.1.tar.gz
+[2023-07-17 08:26:43] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.0.tar.gz]
+[2023-07-17 08:26:43] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.1.tar.gz]
+[2023-07-17 08:26:43] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
+[2023-07-17 08:26:43] INFO root fetch - processPackages [medcase]: executing diffoscope
+[2023-07-17 08:26:43] INFO root fetch - processPackages [medcase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medcase-0.1.0.tar.gz tmp/medcase-0.1.1.tar.gz --markdown 20230717/m/medcase/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-17 08:26:43] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.1.tar.gz]
+[2023-07-17 08:26:43] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-0.0.2-py3-none-any.whl.zip]
+[2023-07-17 08:26:43] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-17 08:26:43] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-17 08:26:43] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230716.tar.gz tmp/fake-bpy-module-latest-20230717.tar.gz --markdown 20230717/f/fake-bpy-module-latest/20230716-20230717/diff.md --exclude *.pyd
+[2023-07-17 08:26:43] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-17 08:26:43] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-17 08:26:43] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-17 08:26:44] INFO root fetch - processPackages [medcase]: Remove: archive file [/home/abi/fetcher/tmp/medcase-0.1.0.tar.gz]
+[2023-07-17 08:26:44] INFO root fetch - processPackages [medcase]: Remove: archive file [/home/abi/fetcher/tmp/medcase-0.1.1.tar.gz]
+[2023-07-17 08:26:44] INFO root fetch - main [MainThread]: End processing [medcase]: success
+[2023-07-17 08:26:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230716.tar.gz]
+[2023-07-17 08:26:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230717.tar.gz]
+[2023-07-17 08:26:47] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-17 08:26:47] INFO root fetch - main [MainThread]: Store serial: [18913001]
