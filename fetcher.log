@@ -9442,3 +9442,105 @@
 [2023-07-17 09:11:19] INFO root fetch - processPackages [a2b]: Remove: archive file [/home/abi/fetcher/tmp/a2b-1.0.7.tar.gz]
 [2023-07-17 09:11:19] INFO root fetch - main [MainThread]: End processing [a2b]: success
 [2023-07-17 09:11:19] INFO root fetch - main [MainThread]: Store serial: [18913296]
+[2023-07-17 09:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18913296]
+[2023-07-17 09:16:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rofunc
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-manager
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adnuntius
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protarrow
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winq2dl
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-login
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssh-terminal-manager
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: distcrab
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winq2dl
+[2023-07-17 09:16:28] INFO root fetch - processPackages [protarrow]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [winq2dl]: New version: [2.0.2] Old Version: [0.1.0]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [winq2dl]: New version: [2.0.2] Old Version: [0.1.0]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-17 09:16:28] WARNING root fetch - processPackages [st-login]: Skipping, unable to determine old version
+[2023-07-17 09:16:28] INFO root fetch - processPackages [st-login]: Start processing: rpmfluff
+[2023-07-17 09:16:28] INFO root fetch - main [MainThread]: End processing [st-login] error
+[2023-07-17 09:16:28] INFO root fetch - processPackages [rofunc]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/e0/76/d3e9924fe18a682ff57d17c80f285b05e286a186d54e200abe2a3060908b/ssh_terminal_manager-0.8.0.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/07/34/5811a3b1ac024ee0d9a237bd86ed22c4c6d75db2c1ea916432c272343dfb/terminal_manager-0.8.0.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [rpmfluff]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-17 09:16:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [winq2dl]: Downloading https://files.pythonhosted.org/packages/04/52/5ef10a97297abffd970187060eb64b2ba5faa06f7faa0f1452cd92c2683d/winq2dl-0.1.0.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [winq2dl]: Downloading https://files.pythonhosted.org/packages/04/52/5ef10a97297abffd970187060eb64b2ba5faa06f7faa0f1452cd92c2683d/winq2dl-0.1.0.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/51/6a/d7b4051ddf9815d772013d2bf33cdac92c80b37be79ac62f1d59b6f43032/protarrow-0.1.6.tar.gz
+[2023-07-17 09:16:28] INFO root fetch - processPackages [rofunc]: Downloading https://files.pythonhosted.org/packages/8a/fd/4bf8fee81aa299b43990fa02b66fd9121379c956bd789d3e4845ac7ffcae/rofunc-0.0.2.3.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [rpmfluff]: Downloading https://files.pythonhosted.org/packages/22/b1/0b79c3709a264c0c04414c51470dc83fa4bec5a0e94c1a47ec5d7d67b573/rpmfluff-0.6.2.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/cd/73/7040cd5d2dfdff55c56db95aa6cb9189e9c67dc959e3443fc3c6b0f7f423/ssh_terminal_manager-0.8.1.tar.gz
+[2023-07-17 09:16:29] WARNING root fetch - processPackages [rofunc]: Skipping package: exceeds size limit 96394855>=10485760
+[2023-07-17 09:16:29] INFO root fetch - processPackages [rofunc]: Start processing: bkpaas-auth
+[2023-07-17 09:16:29] INFO root fetch - main [MainThread]: End processing [rofunc] error
+[2023-07-17 09:16:29] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/44/5d/610870652a9ff8ce30f0a4d11980c647eb5cda9686d029429f86be83e637/terminal_manager-0.8.1.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230717/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.8.0.tar.gz tmp/ssh_terminal_manager-0.8.1.tar.gz --markdown 20230717/s/ssh-terminal-manager/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/01/b5/ab0f39ee6b11225188607f57b87fe873fae7780ec1d2988004017951b88b/protarrow-0.2.0.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230717/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [bkpaas-auth]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-17 09:16:29] INFO root fetch - processPackages [winq2dl]: Downloading https://files.pythonhosted.org/packages/83/a7/64fb17e7a1b264f384c78521007b8a7e994061a6eac383b7eb734ef2a111/winq2dl-2.0.2.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.0.tar.gz tmp/terminal_manager-0.8.1.tar.gz --markdown 20230717/t/terminal-manager/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [winq2dl]: Downloading https://files.pythonhosted.org/packages/83/a7/64fb17e7a1b264f384c78521007b8a7e994061a6eac383b7eb734ef2a111/winq2dl-2.0.2.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.1.6.tar.gz tmp/protarrow-0.2.0.tar.gz --markdown 20230717/p/protarrow/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [winq2dl]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [winq2dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winq2dl-0.1.0.tar.gz tmp/winq2dl-2.0.2.tar.gz --markdown 20230717/w/winq2dl/0.1.0-2.0.2/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [winq2dl]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [winq2dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winq2dl-0.1.0.tar.gz tmp/winq2dl-2.0.2.tar.gz --markdown 20230717/w/winq2dl/0.1.0-2.0.2/diff.md --exclude *.pyd
+[2023-07-17 09:16:29] INFO root fetch - processPackages [rpmfluff]: Downloading https://files.pythonhosted.org/packages/a7/17/f105f3935d593aac086e38e412ae40ec8443d9e39efaaa7fcd8c3dc40444/rpmfluff-0.6.3.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [bkpaas-auth]: Downloading https://files.pythonhosted.org/packages/4d/f6/a255468305de48f5c56fddfecd3664a7f1ee663bcef3a9d768d0f928eac2/bkpaas-auth-2.0.3.tar.gz
+[2023-07-17 09:16:29] INFO root fetch - processPackages [rpmfluff]: executing diffoscope
+[2023-07-17 09:16:29] INFO root fetch - processPackages [rpmfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpmfluff-0.6.2.tar.gz tmp/rpmfluff-0.6.3.tar.gz --markdown 20230717/r/rpmfluff/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-17 09:16:30] INFO root fetch - processPackages [bkpaas-auth]: Downloading https://files.pythonhosted.org/packages/ff/14/eb220112a349a0945e6c7775a1ed5c76aba66328d3fae0fb6bd9542b61a8/bkpaas-auth-2.0.4.tar.gz
+[2023-07-17 09:16:30] INFO root fetch - processPackages [bkpaas-auth]: executing diffoscope
+[2023-07-17 09:16:30] INFO root fetch - processPackages [bkpaas-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkpaas-auth-2.0.3.tar.gz tmp/bkpaas-auth-2.0.4.tar.gz --markdown 20230717/b/bkpaas-auth/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-17 09:16:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-17 09:16:30] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.0.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.1.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [ssh-terminal-manager]: Start processing: rest-framework-simplejwt-byforde
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-17 09:16:30] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.8.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.9.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-07-17 09:16:30] WARNING root fetch - processPackages [rest-framework-simplejwt-byforde]: Skipping, unable to determine old version
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [rest-framework-simplejwt-byforde] error
+[2023-07-17 09:16:30] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-17 09:16:30] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.0.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.1.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-17 09:16:30] INFO root fetch - processPackages [winq2dl]: Remove: archive file [/home/abi/fetcher/tmp/winq2dl-0.1.0.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [winq2dl]: Remove: archive file [/home/abi/fetcher/tmp/winq2dl-2.0.2.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [winq2dl]: success
+[2023-07-17 09:16:30] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.1.6.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.2.0.tar.gz]
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2023-07-17 09:16:30] INFO root fetch - main [MainThread]: End processing [winq2dl]: success
+[2023-07-17 09:16:31] INFO root fetch - processPackages [rpmfluff]: Remove: archive file [/home/abi/fetcher/tmp/rpmfluff-0.6.2.tar.gz]
+[2023-07-17 09:16:31] INFO root fetch - processPackages [rpmfluff]: Remove: archive file [/home/abi/fetcher/tmp/rpmfluff-0.6.3.tar.gz]
+[2023-07-17 09:16:31] INFO root fetch - main [MainThread]: End processing [rpmfluff]: success
+[2023-07-17 09:16:31] INFO root fetch - processPackages [bkpaas-auth]: Remove: archive file [/home/abi/fetcher/tmp/bkpaas-auth-2.0.3.tar.gz]
+[2023-07-17 09:16:31] INFO root fetch - processPackages [bkpaas-auth]: Remove: archive file [/home/abi/fetcher/tmp/bkpaas-auth-2.0.4.tar.gz]
+[2023-07-17 09:16:31] INFO root fetch - main [MainThread]: End processing [bkpaas-auth]: success
+[2023-07-17 09:16:31] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-17 09:16:31] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 09:16:32] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-17 09:16:32] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-17 09:16:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-17 09:16:32] INFO root fetch - main [MainThread]: Store serial: [18913347]
