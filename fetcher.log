@@ -23590,3 +23590,104 @@ AssertionError: tmp/connectors_to_databases-1.0.4.tar.gz does not exist
 [2023-07-17 17:44:43] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.6.tar.gz]
 [2023-07-17 17:44:43] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-07-17 17:44:43] INFO root fetch - main [MainThread]: Store serial: [18919154]
+[2023-07-17 17:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18919154]
+[2023-07-17 17:49:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hubmap-commons
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynest-api
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getpartofimg
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordtool
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezq-driver
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-community-maps
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gfx-perp-python-sdk
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-vpc
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytorch-eo
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pegasusX
+[2023-07-17 17:49:52] INFO root fetch - processPackages [hubmap-commons]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-17 17:49:52] WARNING root fetch - processPackages [ezq-driver]: Skipping, unable to determine old version
+[2023-07-17 17:49:52] INFO root fetch - processPackages [ezq-driver]: Start processing: streamlink-repo
+[2023-07-17 17:49:52] INFO root fetch - main [MainThread]: End processing [ezq-driver] error
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pytorch-eo]: New version: [22.6.17] Old Version: [22.2.25]
+[2023-07-17 17:49:52] WARNING root fetch - processPackages [discordtool]: Skipping, unable to determine old version
+[2023-07-17 17:49:52] INFO root fetch - processPackages [discordtool]: Start processing: adafruit-circuitpython-seesaw
+[2023-07-17 17:49:52] WARNING root fetch - processPackages [getpartofimg]: Skipping, unable to determine old version
+[2023-07-17 17:49:52] INFO root fetch - main [MainThread]: End processing [discordtool] error
+[2023-07-17 17:49:52] INFO root fetch - processPackages [getpartofimg]: Start processing: m-abac
+[2023-07-17 17:49:52] INFO root fetch - main [MainThread]: End processing [getpartofimg] error
+[2023-07-17 17:49:52] INFO root fetch - processPackages [streamlink-repo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pynest-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pegasusX]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.9] Old Version: [14.0.0.1.8]
+[2023-07-17 17:49:52] WARNING root fetch - processPackages [gfx-perp-python-sdk]: Skipping, unable to determine old version
+[2023-07-17 17:49:52] INFO root fetch - processPackages [gfx-perp-python-sdk]: Start processing: nonebot-plugin-learning-chat
+[2023-07-17 17:49:52] INFO root fetch - main [MainThread]: End processing [gfx-perp-python-sdk] error
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [m-abac]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-17 17:49:52] INFO root fetch - processPackages [streamlink-repo]: Downloading https://files.pythonhosted.org/packages/26/37/770b93e99568c0f89c675b8b8452c3c4b2742761968ffa8640a53129b39f/streamlink-repo-1.0.3.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/01/77/a8dde2febb04f4c76354d6990b9434de8a0683065d12b3857df924626e5f/pegasusX-0.2.7.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [hubmap-commons]: Downloading https://files.pythonhosted.org/packages/cc/6a/3abb2a2332dc3ec7f360018ad436f2c8f8d0cba86fc99e1b312a052bb2b5/hubmap-commons-2.1.7.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pytorch-eo]: Downloading https://files.pythonhosted.org/packages/37/c7/3ade751935778a683ade33a21e2451b909fb7f7e6b1e4ff2cd8dd57a7e5c/pytorch_eo-22.2.25.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pynest-api]: Downloading https://files.pythonhosted.org/packages/4a/db/f2cd0ac38f31b8e934423b7fb1f48afe0bc993d9b9e46ab72a710c83dd81/pynest-api-0.0.2.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/84/7f/0b072c4728b657ac949445b507726d84db90e928dcef5ffb5b48efcabdbf/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl
+[2023-07-17 17:49:52] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Downloading https://files.pythonhosted.org/packages/58/82/580382c9dc55d82dc0ac9937a58a41e31bcd764577f7a3d52eeeb9dfbac4/adafruit-circuitpython-seesaw-1.9.1.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/bb/7b/4c91b1b605718d6ab3d06f768f07930c3bc43b944d1a55aa9ccf829a09dc/m-abac-1.0.1.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: Downloading https://files.pythonhosted.org/packages/d2/af/0845985f331766d74be9c1636c3ca931d87055286c9863b3c0947433941c/nonebot_plugin_learning_chat-0.2.3.tar.gz
+[2023-07-17 17:49:52] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [streamlink-repo]: Downloading https://files.pythonhosted.org/packages/e4/5f/b46b4b4c2df89f1f2a05af80f8ade496637d8751c8989101f9bb2fead51b/streamlink-repo-1.0.4.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pegasusX]: Downloading https://files.pythonhosted.org/packages/e9/1a/7e2b8cc449ec0fdec9e06e888e796f83188f338c6bb9938e72b453362051/pegasusX-0.2.9.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230717/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [streamlink-repo]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [streamlink-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-repo-1.0.3.tar.gz tmp/streamlink-repo-1.0.4.tar.gz --markdown 20230717/s/streamlink-repo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pynest-api]: Downloading https://files.pythonhosted.org/packages/dc/03/87e2b13af99b022232ecff0bf325a1a00c765cead33124b339e34ee6b709/pynest-api-0.0.3.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pegasusX]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pegasusX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusX-0.2.7.tar.gz tmp/pegasusX-0.2.9.tar.gz --markdown 20230717/p/pegasusX/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [hubmap-commons]: Downloading https://files.pythonhosted.org/packages/3c/63/60419f3502fb9c39fd8eb42b9cb881ce8dd5883bd1e9a164255abcf581a5/hubmap-commons-2.1.8.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/d4/32/8a7f170afc9ad6e0cacf38803ec9d401f822753fef3c0ac9e9f8494418af/m-abac-1.0.2.tar.gz
+[2023-07-17 17:49:53] WARNING root fetch - processPackages [pytorch-eo]: Skipping package: exceeds size limit 27051634>=10485760
+[2023-07-17 17:49:53] INFO root fetch - main [MainThread]: End processing [pytorch-eo] error
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pynest-api]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [pynest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynest-api-0.0.2.tar.gz tmp/pynest-api-0.0.3.tar.gz --markdown 20230717/p/pynest-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/22/06/f747d3a2743d38562b19010425158088c5810684c910def50e5d4a559eb7/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl
+[2023-07-17 17:49:53] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: Downloading https://files.pythonhosted.org/packages/21/43/455e653ea809f143a495b624ccc195b9c157288a5ec72064047419cc5cbb/nonebot_plugin_learning_chat-0.3.0.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Downloading https://files.pythonhosted.org/packages/3a/ad/107102a28b146570ef64147aede7a1b2604b597cbbbe9964b99f43667ffb/adafruit-circuitpython-seesaw-1.9.2.tar.gz
+[2023-07-17 17:49:53] INFO root fetch - processPackages [hubmap-commons]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [hubmap-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubmap-commons-2.1.7.tar.gz tmp/hubmap-commons-2.1.8.tar.gz --markdown 20230717/h/hubmap-commons/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [m-abac]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [m-abac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-1.0.1.tar.gz tmp/m-abac-1.0.2.tar.gz --markdown 20230717/m/m-abac/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_learning_chat-0.2.3.tar.gz tmp/nonebot_plugin_learning_chat-0.3.0.tar.gz --markdown 20230717/n/nonebot-plugin-learning-chat/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-seesaw-1.9.1.tar.gz tmp/adafruit-circuitpython-seesaw-1.9.2.tar.gz --markdown 20230717/a/adafruit-circuitpython-seesaw/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-17 17:49:53] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-07-17 17:49:53] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip --markdown 20230717/o/odoo14-addon-community-maps/14.0.0.1.8-14.0.0.1.9/diff.md --exclude *.pyd
+[2023-07-17 17:49:54] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-07-17 17:49:54] INFO root fetch - processPackages [streamlink-repo]: Remove: archive file [/home/abi/fetcher/tmp/streamlink-repo-1.0.3.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - processPackages [streamlink-repo]: Remove: archive file [/home/abi/fetcher/tmp/streamlink-repo-1.0.4.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - main [MainThread]: End processing [streamlink-repo]: success
+[2023-07-17 17:49:54] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.7.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - processPackages [pegasusX]: Remove: archive file [/home/abi/fetcher/tmp/pegasusX-0.2.9.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - main [MainThread]: End processing [pegasusX]: success
+[2023-07-17 17:49:54] INFO root fetch - processPackages [pynest-api]: Remove: archive file [/home/abi/fetcher/tmp/pynest-api-0.0.2.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - processPackages [pynest-api]: Remove: archive file [/home/abi/fetcher/tmp/pynest-api-0.0.3.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - main [MainThread]: End processing [pynest-api]: success
+[2023-07-17 17:49:54] INFO root fetch - processPackages [hubmap-commons]: Remove: archive file [/home/abi/fetcher/tmp/hubmap-commons-2.1.7.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - processPackages [hubmap-commons]: Remove: archive file [/home/abi/fetcher/tmp/hubmap-commons-2.1.8.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - main [MainThread]: End processing [hubmap-commons]: success
+[2023-07-17 17:49:54] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_learning_chat-0.2.3.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - processPackages [nonebot-plugin-learning-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_learning_chat-0.3.0.tar.gz]
+[2023-07-17 17:49:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-learning-chat]: success
+[2023-07-17 17:49:55] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-seesaw-1.9.1.tar.gz]
+[2023-07-17 17:49:55] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-seesaw-1.9.2.tar.gz]
+[2023-07-17 17:49:55] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-seesaw]: success
+[2023-07-17 17:49:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl.zip]
+[2023-07-17 17:49:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip]
+[2023-07-17 17:49:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-07-17 17:49:55] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.1.tar.gz]
+[2023-07-17 17:49:55] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.2.tar.gz]
+[2023-07-17 17:49:55] INFO root fetch - main [MainThread]: End processing [m-abac]: success
+[2023-07-17 17:49:55] INFO root fetch - main [MainThread]: Store serial: [18919201]
