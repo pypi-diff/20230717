@@ -7416,3 +7416,47 @@
 [2023-07-17 06:58:00] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev8.tar.gz]
 [2023-07-17 06:58:00] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
 [2023-07-17 06:58:00] INFO root fetch - main [MainThread]: Store serial: [18912499]
+[2023-07-17 07:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18912499]
+[2023-07-17 07:03:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-17 07:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQtGuiLib-PySide
+[2023-07-17 07:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: score-models
+[2023-07-17 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: korrel8-data-ingest
+[2023-07-17 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argil
+[2023-07-17 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensees
+[2023-07-17 07:03:09] INFO root fetch - processPackages [korrel8-data-ingest]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-17 07:03:09] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-17 07:03:09] INFO root fetch - processPackages [score-models]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-17 07:03:09] INFO root fetch - processPackages [argil]: New version: [0.0.21] Old Version: [0.0.2]
+[2023-07-17 07:03:09] INFO root fetch - processPackages [PyQtGuiLib-PySide]: New version: [1.1] Old Version: [1.0]
+[2023-07-17 07:03:09] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/0c/86/69c1fad6f05b7adeada808465a376f598ec50f8cbf00721bfa73f1fa00d8/score_models-0.4.3.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/13/3c/2c35988026cdd29189a0b7e7e051acfa6e420b5cdb87db5d6a1011efbc12/argil-0.0.2.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Downloading https://files.pythonhosted.org/packages/c7/54/f8c84d92524291fd93123d5d488052158da3807bc84dc3f5468856cef0ee/PyQtGuiLib-PySide-1.0.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [korrel8-data-ingest]: Downloading https://files.pythonhosted.org/packages/ca/56/ade9f0450707c10f0cff95dd0027ea3c75ad2521bb3953155b8cd42ea971/korrel8-data-ingest-1.2.6.tar.gz
+[2023-07-17 07:03:09] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2023-07-17 07:03:09] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2023-07-17 07:03:09] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/82/b1/2cc1d199802d4c447d36e95211344a2e3ffefc27f7b8c66d0dc2c903733c/argil-0.0.21.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Downloading https://files.pythonhosted.org/packages/a8/e8/8f92d51cc4273569736329e6e4592d7bb5a9594857a090f3b9b2e1cdcaa0/PyQtGuiLib-PySide-1.1.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/f3/20/6b85b783b1deb057aa24252ac82efd2c1f2f6f9253792be3ca9fd694c332/score_models-0.4.4.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [korrel8-data-ingest]: Downloading https://files.pythonhosted.org/packages/d8/9a/05533b0a76fa37b5261759f49eae1aacd45b6f35e7c36b254992fd8f285c/korrel8-data-ingest-1.2.7.tar.gz
+[2023-07-17 07:03:09] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-17 07:03:09] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.2.tar.gz tmp/argil-0.0.21.tar.gz --markdown 20230717/a/argil/0.0.2-0.0.21/diff.md --exclude *.pyd
+[2023-07-17 07:03:10] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-07-17 07:03:10] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.3.tar.gz tmp/score_models-0.4.4.tar.gz --markdown 20230717/s/score-models/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-17 07:03:10] INFO root fetch - processPackages [PyQtGuiLib-PySide]: executing diffoscope
+[2023-07-17 07:03:10] INFO root fetch - processPackages [PyQtGuiLib-PySide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtGuiLib-PySide-1.0.tar.gz tmp/PyQtGuiLib-PySide-1.1.tar.gz --markdown 20230717/P/PyQtGuiLib-PySide/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-17 07:03:10] INFO root fetch - processPackages [korrel8-data-ingest]: executing diffoscope
+[2023-07-17 07:03:10] INFO root fetch - processPackages [korrel8-data-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/korrel8-data-ingest-1.2.6.tar.gz tmp/korrel8-data-ingest-1.2.7.tar.gz --markdown 20230717/k/korrel8-data-ingest/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-17 07:03:10] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.2.tar.gz]
+[2023-07-17 07:03:10] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.21.tar.gz]
+[2023-07-17 07:03:10] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-17 07:03:10] INFO root fetch - processPackages [korrel8-data-ingest]: Remove: archive file [/home/abi/fetcher/tmp/korrel8-data-ingest-1.2.6.tar.gz]
+[2023-07-17 07:03:10] INFO root fetch - processPackages [korrel8-data-ingest]: Remove: archive file [/home/abi/fetcher/tmp/korrel8-data-ingest-1.2.7.tar.gz]
+[2023-07-17 07:03:10] INFO root fetch - main [MainThread]: End processing [korrel8-data-ingest]: success
+[2023-07-17 07:03:11] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.3.tar.gz]
+[2023-07-17 07:03:11] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.4.tar.gz]
+[2023-07-17 07:03:11] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-07-17 07:03:11] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-PySide-1.0.tar.gz]
+[2023-07-17 07:03:11] INFO root fetch - processPackages [PyQtGuiLib-PySide]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-PySide-1.1.tar.gz]
+[2023-07-17 07:03:11] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib-PySide]: success
+[2023-07-17 07:03:11] INFO root fetch - main [MainThread]: Store serial: [18912515]
