@@ -1072,3 +1072,56 @@
 [2023-07-17 01:57:36] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.3.tar.gz]
 [2023-07-17 01:57:36] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
 [2023-07-17 01:57:36] INFO root fetch - main [MainThread]: Store serial: [18910130]
+[2023-07-17 02:02:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18910130]
+[2023-07-17 02:02:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-17 02:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepl-translator
+[2023-07-17 02:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toycoronagraph
+[2023-07-17 02:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepl-translator
+[2023-07-17 02:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geofabrics
+[2023-07-17 02:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: banking-logging
+[2023-07-17 02:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepl-translator
+[2023-07-17 02:02:45] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 02:02:46] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 02:02:46] INFO root fetch - processPackages [toycoronagraph]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-17 02:02:46] INFO root fetch - processPackages [banking-logging]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-17 02:02:46] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/81/45/5c9836a4b97e0d54958035a30e982f374b76d3254a13c7c99abe3cd0036c/banking_logging-0.2.2.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/c5/27/af2a35751bbde56bd5fcd91d3322acae958e9b8c77d9cfeb9f5f3a5488b6/deepl_translator-0.1.8.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/c5/27/af2a35751bbde56bd5fcd91d3322acae958e9b8c77d9cfeb9f5f3a5488b6/deepl_translator-0.1.8.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/c5/27/af2a35751bbde56bd5fcd91d3322acae958e9b8c77d9cfeb9f5f3a5488b6/deepl_translator-0.1.8.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [toycoronagraph]: Downloading https://files.pythonhosted.org/packages/d7/ea/613ec8efe8561fb2c10c911132a70ac07702b4aeab95260973e02dd77aeb/toycoronagraph-1.2.1.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/ab/a3/b71a0a3a708fc1aaada6e7d6df13d323de45ae1771809c5f09f6b5f972ae/geofabrics-0.9.3a0.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [banking-logging]: Downloading https://files.pythonhosted.org/packages/66/a0/1c645050c76af9598c6d4bb82e535b9a49ed06459b71714ca4d86462b242/banking_logging-0.2.3.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/94/a8/8af7a91492f3da21967f5cb2b393cb9af471c5d19b5e4adde962812894e2/deepl_translator-0.1.9.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/94/a8/8af7a91492f3da21967f5cb2b393cb9af471c5d19b5e4adde962812894e2/deepl_translator-0.1.9.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/94/a8/8af7a91492f3da21967f5cb2b393cb9af471c5d19b5e4adde962812894e2/deepl_translator-0.1.9.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [toycoronagraph]: Downloading https://files.pythonhosted.org/packages/42/dc/9996d7e1d27e822cf02d459375b59769a5908a5b15e271ead089e580fe01/toycoronagraph-1.2.2.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [banking-logging]: executing diffoscope
+[2023-07-17 02:02:46] INFO root fetch - processPackages [banking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_logging-0.2.2.tar.gz tmp/banking_logging-0.2.3.tar.gz --markdown 20230717/b/banking-logging/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.8.tar.gz tmp/deepl_translator-0.1.9.tar.gz --markdown 20230717/d/deepl-translator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.8.tar.gz tmp/deepl_translator-0.1.9.tar.gz --markdown 20230717/d/deepl-translator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2023-07-17 02:02:46] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.8.tar.gz tmp/deepl_translator-0.1.9.tar.gz --markdown 20230717/d/deepl-translator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-17 02:02:46] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/f3/2f/b84fea41bea143f4e81d14dc8a934fe6294f1788b6baf846c84da4b88c8d/geofabrics-0.9.4.tar.gz
+[2023-07-17 02:02:46] INFO root fetch - processPackages [toycoronagraph]: executing diffoscope
+[2023-07-17 02:02:46] INFO root fetch - processPackages [toycoronagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toycoronagraph-1.2.1.tar.gz tmp/toycoronagraph-1.2.2.tar.gz --markdown 20230717/t/toycoronagraph/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-17 02:02:47] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-07-17 02:02:47] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230717:/home/abi/fetcher/20230717:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230717/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-07-17 02:02:47] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.8.tar.gz]
+[2023-07-17 02:02:47] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.9.tar.gz]
+[2023-07-17 02:02:47] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2023-07-17 02:02:47] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2023-07-17 02:02:47] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.2.tar.gz]
+[2023-07-17 02:02:47] INFO root fetch - processPackages [banking-logging]: Remove: archive file [/home/abi/fetcher/tmp/banking_logging-0.2.3.tar.gz]
+[2023-07-17 02:02:47] INFO root fetch - main [MainThread]: End processing [banking-logging]: success
+[2023-07-17 02:02:48] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2023-07-17 02:02:48] INFO root fetch - processPackages [toycoronagraph]: Remove: archive file [/home/abi/fetcher/tmp/toycoronagraph-1.2.1.tar.gz]
+[2023-07-17 02:02:48] INFO root fetch - processPackages [toycoronagraph]: Remove: archive file [/home/abi/fetcher/tmp/toycoronagraph-1.2.2.tar.gz]
+[2023-07-17 02:02:48] INFO root fetch - main [MainThread]: End processing [toycoronagraph]: success
+[2023-07-17 02:02:48] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.3a0.tar.gz]
+[2023-07-17 02:02:48] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.4.tar.gz]
+[2023-07-17 02:02:48] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-07-17 02:02:48] INFO root fetch - main [MainThread]: Store serial: [18910148]
